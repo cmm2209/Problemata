@@ -350,12 +350,12 @@
    <p><app xml:id="app-1.1" exclude="#app-rdg-BNa-1.1"><lem wit="#BNa #BNb #BNc"/>
    <rdg wit="#e82 #e75 #Ghent" ana="#additive"><num type="#ordinal" value="1">Primum</num> problema.</rdg></app>
 <milestone ed="#BNb" unit="column" n="B"/>
-<mentioned><hi rend="case(allcaps)">PROPTER QUID DOLENTES <app><lem wit="#e82 #e75 #Ghent">ET DELECTANTES</lem>
+<mentioned><hi rend="case(allcaps)"><app><lem wit="#BNa #BNb #Ghent #e75 #e82">PROPTER QUID DOLENTES <app><lem wit="#e82 #e75 #Ghent">ET DELECTANTES</lem>
   <rdg wit="#BNa" ana="#lexical">ET GAUDENTES</rdg>
   <rdg wit="#BNc"/></app> 
 FISTULANTUR AUT UT HII QUIDEM MINUS TRISTENTUR ALII AUTEM <app><lem/>
 <rdg wit="#BNa" ana="#syntactic">UT</rdg></app>
-MAGIS GAUDEANT.</hi></mentioned>
+MAGIS GAUDEANT.</lem><rdg wit="#BNc" ana="#subtractive">PROPTER QUID DOLENTES FISTULANTUR</rdg></app></hi></mentioned>
    </p>  
    <p>
 <app xml:id="app-rdg-BNa-1.1" exclude="#app-1.1">
@@ -380,12 +380,14 @@ sicut
 <rdg wit="#Ghent #BNc" ana="#lexical">scilicet</rdg></app> 
 quid est musica et que ipsius. <app><lem wit="#e82 #e75 #BNa #BNb">Que</lem>
 <rdg wit="#Ghent #BNc"/></app>
-secundum <cit><bibl><author ref="#Bo">Boecium</author>
-<app><lem wit="#e75 #e82"><title><ref target="#BoMu">musice</ref></title> <biblScope unit="volume" n="5"><num type="#ordinal" value="5">5°</num></biblScope></lem>
-<rdg wit="#BNb" ana="#lexical"><title><ref target="#BoMu">musice</ref></title> <num type="#ordinal" value="4">4°</num></rdg>
-<rdg wit="#BNa" ana="#lexical">raritate <num type="#ordinal" value="4">4°</num></rdg>
-<rdg wit="#BNc" ana="#lexical #ordinal"><num type="#ordinal" value="1">primo</num> <title><ref target="#BoMu">musice</ref></title></rdg>
-<rdg wit="#Ghent" ana="#lexical #ordinal #syntactic"><num type="#ordinal" value="1">primo</num> <title><ref target="#BoMu">musice</ref></title></rdg></app><biblScope unit="chapter" n="1"/></bibl>
+secundum 
+ <cit>
+<app><lem wit="#e75 #e82"><bibl><author ref="#Bo">Boecium</author> <title><ref target="#BoMu">musice</ref></title> 
+    <biblScope unit="volume" n="5"><num type="#ordinal" value="5">5°</num></biblScope><biblScope unit="chapter" n="1"/></bibl></lem>
+<rdg wit="#BNb" ana="#lexical"><bibl><author ref="#Bo">Boecium</author> <title><ref target="#BoMu">musice</ref></title></bibl> <num type="#ordinal" value="4">4°</num></rdg>
+<rdg wit="#BNa" ana="#lexical"><persName ref="#Bo">Boecium</persName> raritate <num type="#ordinal" value="4">4°</num></rdg>
+<rdg wit="#BNc" ana="#lexical #ordinal"><bibl><author ref="#Bo">Boecium</author> <num type="#ordinal" value="1">primo</num> <title><ref target="#BoMu">musice</ref></title></bibl></rdg>
+<rdg wit="#Ghent" ana="#lexical #ordinal #syntactic"><persName ref="#Bo">Boecium</persName> <num type="#ordinal" value="1">primo</num> <bibl><title><ref target="#BoMu">musice</ref></title></bibl></rdg></app>
 <quote><app><lem wit="#BNc">armonica est</lem>
 <rdg wit="#Ghent" ana="#lexical">Armonia est</rdg>
 <rdg wit="#e75 #e82 #BNa" ana="#morphological">est armonice</rdg>
@@ -393,7 +395,8 @@ secundum <cit><bibl><author ref="#Bo">Boecium</author>
 facultas differentias <app><lem wit="#BNa #BNb">acutorum et grauium sonorum sensu et ratione</lem>
 <rdg wit="#e82 #e75" ana="#lexical">acutorum et grauium sonorum sensu ac ratione</rdg>
 <rdg wit="#Ghent #BNc" ana="#subtractive #ordinal">acutorum sonorum et grauium ratione</rdg></app>
-perpendens.</quote></cit> 
+perpendens.</quote>
+ </cit> 
 Secundum uero <cit>
   <bibl>
     <author ref="#Is"><app><lem wit="#Ghent #BNa #BNb">ysidorum</lem>
@@ -404,7 +407,7 @@ Secundum uero <cit>
 <app><lem wit="#e82 #e75 #Ghent #BNb"><title><ref target="#IsEt">ethymologiis</ref></title></lem>
 <rdg wit="#BNc" ana="#orthographic"><title><ref target="#IsEt">echimologiis</ref></title></rdg>
 <rdg wit="#BNa" ana="#lexical">ethicis</rdg></app>
-<biblScope unit="volume" n="3"></biblScope></bibl>
+<biblScope unit="volume" n="3"/></bibl>
 <quote>est <app><lem wit="#e75 #Ghent #BNa #BNb #BNc">pericia</lem>
 <rdg wit="#e82" ana="#orthographic">peritia</rdg></app> 
 modulationis sono cantuque consistens.</quote></cit> dicitur etiam <app><lem wit="#Ghent #BNa #BNb #BNc">quod sit</lem>
@@ -413,10 +416,11 @@ scientia numeri ad sonos <app><lem wit="#e82 #e75 #BNa #BNb">proportionati.</lem
 <rdg wit="#Ghent #BNc" ana="#morphological">proportionatos</rdg></app> 
 <app><lem wit="#Ghent #BNa #BNc #e82 #e75">que</lem>
 <rdg wit="#BNb" ana="#lexical">quid</rdg></app>
-secundum <persName ref="#Is"><app><lem wit="#e75 #Ghent #BNa #BNb">ysidorum</lem>
+secundum 
+<persName ref="#Is"><app><lem wit="#e75 #Ghent #BNa #BNb">ysidorum</lem>
 <rdg wit="#BNc" ana="#orthographic">ysidorium</rdg>
 <rdg wit="#e82" ana="#orthographic">Isidorum</rdg></app></persName>
-dicitur <app><lem wit="#Ghent #BNa #BNc #e82 #e75">a muso</lem>
+<cit><quote>dicitur <app><lem wit="#Ghent #BNa #BNc #e82 #e75">a muso</lem>
 <rdg wit="#BNb" ana="#lexical">autem misso</rdg></app>
 <app><lem wit="#BNb">quasi acquirendo</lem>
 <rdg wit="#e82 #e75 #BNa" ana="#lexical #syntactic">quasi a querendo</rdg> 
@@ -443,7 +447,9 @@ non <app><lem wit="#e82 #e75 #BNb">teneantur pereunt</lem>
 cum non <app><lem wit="#e75 #BNb">possint</lem>
 <rdg wit="#Ghent #BNc" ana="#morphological">possit</rdg> 
 <rdg wit="#e82 #BNa" ana="#morphological">possunt</rdg></app>
-scribi. <app><lem wit="#e82 #e75 #BNa #BNb">a nonnullis uero</lem>
+scribi.</quote>
+  <bibl><author>Isidore of Seville</author><title>Etymologies</title> III.15</bibl></cit>
+ <app><lem wit="#e82 #e75 #BNa #BNb">a nonnullis uero</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical #subtractive">Aut</rdg></app>
 dicitur <app><lem wit="#Ghent #BNb #e82 #e75">a moys</lem>
 <rdg wit="#BNc" ana="#orthographic">a moyis</rdg>
@@ -464,15 +470,18 @@ instrumentis aquaticis similiter <app><lem wit="#Ghent #BNa #BNc #e82 #e75">exer
 <rdg wit="#BNb" ana="#orthographic">exercitica</rdg></app>
 Refert autem <persName ref="#Mos"><app><lem wit="#Ghent #BNb #BNc #e82 #e75">moyses</lem>
 <rdg wit="#BNa" ana="#orthographic">moises</rdg></app></persName>
-hanc inuenisse <app><lem wit="#BNb #BNc #Ghent #e75 #e82"><app><lem wit="#Ghent #e82 #e75"><persName ref="#Tub">tubal</persName></lem>
+hanc inuenisse 
+     <cit><quote><app><lem wit="#BNb #BNc #Ghent #e75 #e82"><app><lem wit="#Ghent #e82 #e75"><persName ref="#Tub">tubal</persName></lem>
 <rdg wit="#BNc" ana="#lexical">aabal</rdg>
 <rdg wit="#BNb" ana="#additive"><persName ref="#Tub">tubal</persName> fratrem <persName ref="#Ca">cayn</persName></rdg></app>
 de stirpe <persName ref="#Ca"><app><lem wit="#BNb #BNc">cayn</lem>
 <rdg wit="#Ghent" ana="#orthographic">Caym</rdg>
 <rdg wit="#e82 #e75" ana="#orthographic">chaym</rdg></app></persName>
 <app><lem wit="#e82 #e75 #BNb #BNc">ante diluuium.</lem>
-<rdg wit="#Ghent" ana="#orthographic">ante dyluuium.</rdg></app>
-sed greci ut apparet per <persName ref="#Mac">macrobium</persName> et <persName ref="#Bo">Boecium</persName> dicunt eam <app><lem wit="#e75 #Ghent #BNb #BNc">inuenisse</lem>
+<rdg wit="#Ghent" ana="#orthographic">ante dyluuium.</rdg></app></lem>
+   <rdg wit="#BNa" cause="#homeoteleuton"/></app></quote>
+       <bibl><author>Isidore of Seville</author><title>Etymologies</title> III.16</bibl></cit>
+<app><lem wit="#BNb #BNc #Ghent #e75 #e82">sed greci ut apparet per <persName ref="#Mac">macrobium</persName> et <persName ref="#Bo">Boecium</persName> dicunt eam <app><lem wit="#e75 #Ghent #BNb #BNc">inuenisse</lem>
 <rdg wit="#e82" ana="#orthographic">inueuisse</rdg></app></lem>
 <rdg wit="#BNa" cause="#homeoteleuton"/></app>
 <persName ref="#Py"><app><lem wit="#BNb">pytagori samium</lem>
@@ -964,27 +973,29 @@ submersionis <app><lem wit="#e75 #e82 #BNa #BNc"><num type="#ordinal" value="2">
    <head>Second Problem</head>
    <p><app xml:id="app-2.1" exclude="#app-rdg-BNa-2.1"><lem wit="#BNb #BNc"/>
 <rdg wit="#Ghent #e75 #e82" ana="#additive"><num type="#ordinal" value="2">Secundum</num> problema.</rdg></app>
-<mentioned>Propter quid longius <app><lem wit="#Ghent">id</lem>
-<rdg wit="#BNa" ana="#substantive">idem</rdg>
+<mentioned>
+PROPTER QUID LONGIUS <app><lem wit="#Ghent">ID</lem>
+<rdg wit="#BNa" ana="#substantive">IDEM</rdg>
 <rdg wit="#e82 #e75"/></app>
-eadem uoce auditur cum aliis cantans et clamans quam solus. Aut quia coadunate aliquid facere. aut reprimere. aut impellere non tanta prope sunt: <app><lem wit="#Ghent #e82 #e75">quantus</lem>
-<rdg wit="#BNa" ana="#substantive">quantus est</rdg></app>
-numerus: sed sicut <app><lem wit="#Ghent #e82 #e75">linea</lem>
-<rdg wit="#BNa" ana="#substantive">libertate</rdg></app>
-<app><lem wit="#Ghent #e82 #e75">bipedalis</lem>
-<rdg wit="#BNa" ana="#orthographic">bipedallis</rdg></app>
-non <num type="ratio" value="2/1"> duplum</num> sed <num type="ratio" value="4/1">quadruplum</num>
+EADEM UOCE AUDITUR CUM ALIIS CANTANS ET CLAMANS QUAM SOLUS. AUT QUIA COADUNATE ALIQUID FACERE. AUT REPRIMERE. AUT IMPELLERE NON TANTA PROPE SUNT: <app><lem wit="#Ghent #e82 #e75">QUANTUS</lem>
+<rdg wit="#BNa" ana="#substantive">QUANTUS EST</rdg></app>
+NUMERUS: SED SICUT <app><lem wit="#Ghent #e82 #e75">LINEA</lem>
+<rdg wit="#BNa" ana="#substantive">LIBERTATE</rdg></app>
+<app><lem wit="#Ghent #e82 #e75">BIPEDALIS</lem>
+<rdg wit="#BNa" ana="#orthographic">BIPEDALLIS</rdg></app>
+NON <num type="ratio" value="2/1"> DUPLUM</num> SED <num type="ratio" value="4/1">QUADRUPLUM</num>
 <milestone ed="#e82" unit="column" n="B"/> 
-aliquid scribit ita composita plus possunt <app><lem wit="#e82 #e75 #BNa">aut</lem>
-<rdg wit="#Ghent" ana="#substantive">autem</rdg></app>
-secundum numerum aut quando fuerint diuersa <app><lem wit="#e82 #e75">coadunatus</lem>
-<rdg wit="#Ghent #BNa" ana="#orthographic">coadunatis</rdg></app>
-igitur existentibus una fit uocis fortitudo et simul impellit aerem: quare <app><lem wit="#Ghent #BNa #e75">multipliciter</lem>
-<rdg wit="#e82" ana="#orthographic">multpliciter</rdg></app>
-possit etenim ex <app><lem wit="#Ghent #e82 #e75">omnibus</lem>
-<rdg wit="#BNa" ana="#substantive">hominibus</rdg></app>
-uox uniuscuiusque <app><lem wit="#e82 #e75">multipliciter</lem>
-<rdg wit="#Ghent #BNa" ana="#orthographic">multiplex</rdg></app></mentioned>
+ALIQUID SCRIBIT ITA COMPOSITA PLUS POSSUNT <app><lem wit="#e82 #e75 #BNa">AUT</lem>
+<rdg wit="#Ghent" ana="#substantive">AUTEM</rdg></app>
+SECUNDUM NUMERUM AUT QUANDO FUERINT DIUERSA <app><lem wit="#e82 #e75">COADUNATUS</lem>
+<rdg wit="#Ghent #BNa" ana="#orthographic">COADUNATIS</rdg></app>
+IGITUR EXISTENTIBUS UNA FIT UOCIS FORTITUDO ET SIMUL IMPELLIT AEREM: QUARE <app><lem wit="#Ghent #BNa #e75">MULTIPLICITER</lem>
+<rdg wit="#e82" ana="#orthographic">MULTPLICITER</rdg></app>
+POSSIT ETENIM EX <app><lem wit="#Ghent #e82 #e75">OMNIBUS</lem>
+<rdg wit="#BNa" ana="#substantive">HOMINIBUS</rdg></app>
+UOX UNIUSCUIUSQUE <app><lem wit="#e82 #e75">MULTIPLICITER</lem>
+<rdg wit="#Ghent #BNa" ana="#orthographic">MULTIPLEX</rdg></app>
+</mentioned>
      </p>  
     <p>
 <milestone ed="#e75" unit="folio" n="188v"/>
@@ -1173,29 +1184,29 @@ partimque isti. <app><lem/><rdg wit="#BNa" ana="#substantive">sequitur <num type
    <head>Third Problem</head>
  <p><app xml:id="app-3.1" exclude="#app-rdg-BNa-3.1"><lem wit="#Ghent #e75 #e82"><num type="#ordinal" value="3">Tertium</num> problema.</lem>
 <rdg wit="#BNb #BNc"/></app>
-<mentioned><app from="#3.1"><lem wit="#Ghent #e75 #BNa">Propter</lem>
-<rdg wit="#e82" ana="#orthographic">Prooter</rdg></app>
-<app><lem wit="#Ghent #e75 #BNa">quid</lem>
-<rdg wit="#e82" ana="#orthographic">quit</rdg></app>
-<app><lem wit="#e82 #e75">paripatem</lem>
-<rdg wit="#BNa" ana="#orthographic">paripaten</rdg>
-<rdg wit="#Ghent" ana="#substantive">per ypote</rdg></app>
-cantantes maxime <app><lem wit="#Ghent #e82 #e75">rumpuntur:</lem>
-<rdg wit="#BNa" ana="#orthogrpahic">rumpimur</rdg></app>
-<app><lem wit="#Ghent #BNa">nichilominus</lem>
-<rdg wit="#e82 #e75" ana="#orthographic">nihilominus</rdg></app>
-quam nitem et superiora <app><lem wit="#Ghent #BNa #e75">cum</lem>
+<mentioned><app><lem wit="#BNa #Ghent #e75 #e82"><app from="#3.1"><lem wit="#Ghent #e75 #BNa">PROPTER</lem>
+<rdg wit="#e82" ana="#orthographic">PROOTER</rdg></app>
+<app><lem wit="#Ghent #e75 #BNa">QUID</lem>
+<rdg wit="#e82" ana="#orthographic">QUIT</rdg></app>
+<app><lem wit="#e82 #e75">PARIPATEM</lem>
+<rdg wit="#BNa" ana="#orthographic">PARIPATEN</rdg>
+<rdg wit="#Ghent" ana="#substantive">PER YPOTE</rdg></app>
+CANTANTES MAXIME <app><lem wit="#Ghent #e82 #e75">RUMPUNTUR:</lem>
+<rdg wit="#BNa" ana="#orthographic">RUMPIMUR</rdg></app>
+<app><lem wit="#Ghent #BNa">NICHILOMINUS</lem>
+<rdg wit="#e82 #e75" ana="#orthographic">NIHILOMINUS</rdg></app>
+QUAM NITEM ET SUPERIORA <app><lem wit="#Ghent #BNa #e75">CUM</lem>
 <rdg wit="#e82"/></app>
-distantia pluri: Aut quia <app><lem wit="#Ghent #BNa">difficillime</lem>
-<rdg wit="#e82 #e75" ana="#orthographic">difficilime</rdg></app>
-<app><lem wit="#Ghent #BNa">hanc cantant</lem>
-<rdg wit="#e82 #e75" ana="#orthographic">cantant hanc</rdg></app>
-et ipsa est principium difficile <app><lem wit="#Ghent #BNa">autem</lem>
-<rdg wit="#e82 #e75" ana="#substantive">aut</rdg></app>
-propter eleuationem et depressionem uocis. in hiis autem labor. laborans autem <app><lem wit="#Ghent #BNa">magis </lem>
-<rdg wit="#e82 #e75" ana="#orthographic">maxime</rdg></app>
-<app><lem wit="#Ghent #BNa">corrumpitur.</lem>
-<rdg wit="#e82 #e75" ana="#orthographic">corrumpit:</rdg></app></mentioned>
+DISTANTIA PLURI: AUT QUIA <app><lem wit="#Ghent #BNa">DIFFICILLIME</lem>
+<rdg wit="#e82 #e75" ana="#orthographic">DIFFICILIME</rdg></app>
+<app><lem wit="#Ghent #BNa">HANC CANTANT</lem>
+<rdg wit="#e82 #e75" ana="#orthographic">CANTANT HANC</rdg></app>
+ET IPSA EST PRINCIPIUM DIFFICILE <app><lem wit="#Ghent #BNa">AUTEM</lem>
+<rdg wit="#e82 #e75" ana="#substantive">AUT</rdg></app>
+PROPTER ELEUATIONEM ET DEPRESSIONEM UOCIS. IN HIIS AUTEM LABOR. LABORANS AUTEM <app><lem wit="#Ghent #BNa">MAGIS</lem>
+<rdg wit="#e82 #e75" ana="#orthographic">MAXIME</rdg></app>
+<app><lem wit="#Ghent #BNa">CORRUMPITUR.</lem>
+<rdg wit="#e82 #e75" ana="#orthographic">CORRUMPIT:</rdg></app></lem><rdg wit="BNc" ana="#subtractive">Propter quid parypatem</rdg></app></mentioned>
    </p>  
     <p>
 <app xml:id="app-rdg-BNa-3.1" exclude="#app-3.1">
