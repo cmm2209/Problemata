@@ -350,12 +350,12 @@
    <p><app xml:id="app-1.1" exclude="#app-rdg-BNa-1.1"><lem wit="#BNa #BNb #BNc"/>
    <rdg wit="#e82 #e75 #Ghent" ana="#additive"><num type="#ordinal" value="1">Primum</num> problema.</rdg></app>
 <milestone ed="#BNb" unit="column" n="B"/>
-<mentioned><hi rend="case(allcaps)"><app><lem wit="#BNa #BNb #Ghent #e75 #e82">PROPTER QUID DOLENTES <app><lem wit="#e82 #e75 #Ghent">ET DELECTANTES</lem>
+<mentioned><app><lem wit="#BNa #BNb #Ghent #e75 #e82">PROPTER QUID DOLENTES <app><lem wit="#e82 #e75 #Ghent">ET DELECTANTES</lem>
   <rdg wit="#BNa" ana="#lexical">ET GAUDENTES</rdg>
   <rdg wit="#BNc"/></app> 
 FISTULANTUR AUT UT HII QUIDEM MINUS TRISTENTUR ALII AUTEM <app><lem/>
 <rdg wit="#BNa" ana="#syntactic">UT</rdg></app>
-MAGIS GAUDEANT.</lem><rdg wit="#BNc" ana="#subtractive">PROPTER QUID DOLENTES FISTULANTUR</rdg></app></hi></mentioned>
+MAGIS GAUDEANT.</lem><rdg wit="#BNc" ana="#subtractive">PROPTER QUID DOLENTES FISTULANTUR</rdg></app></mentioned>
    </p>  
    <p>
 <app xml:id="app-rdg-BNa-1.1" exclude="#app-1.1">
@@ -1182,8 +1182,8 @@ partimque isti. <app><lem/><rdg wit="#BNa" ana="#substantive">sequitur <num type
 
  <div type="textpart" subtype="problem" n="3" xml:id="part3">
    <head>Third Problem</head>
- <p><app xml:id="app-3.1" exclude="#app-rdg-BNa-3.1"><lem wit="#Ghent #e75 #e82"><num type="#ordinal" value="3">Tertium</num> problema.</lem>
-<rdg wit="#BNb #BNc"/></app>
+ <p><app xml:id="app-3.1" exclude="#app-rdg-BNa-3.1"><lem wit="#BNb #BNc"/>
+<rdg wit="#Ghent #e75 #e82" ana="#additive"><num type="#ordinal" value="3">Tertium</num> problema.</rdg></app>
 <mentioned><app><lem wit="#BNa #Ghent #e75 #e82"><app from="#3.1"><lem wit="#Ghent #e75 #BNa">PROPTER</lem>
 <rdg wit="#e82" ana="#orthographic">PROOTER</rdg></app>
 <app><lem wit="#Ghent #e75 #BNa">QUID</lem>
@@ -1863,36 +1863,37 @@ ne inter eas <app><lem wit="#e75 #e82 #BNa #BNc">magna</lem>
 
   <div type="textpart" subtype="problem" n="4" xml:id="part4">
     <head>Fourth Problem</head>
-       <p><app xml:id="app-4.1" exclude="#app-rdg-BNa-4.1"><lem wit="#Ghent #e75 #e82"><num type="#ordinal" value="4">Quartum</num> problema.</lem>
-       <rdg wit="#BNb #BNc"/></app>
-        <mentioned> Propter quid <app><lem wit="#Ghent">sed</lem>
-           <rdg wit="#BNa #e75 #e82" ana="#orthographic">secundum</rdg></app>
-         hanc <app><lem wit="#Ghent #e75 #e82">parypatem difficulter</lem>
-           <rdg wit="#BNa" ana="#orthographic">difficulter parypatem</rdg></app>
-         facile etiam diuisio alterius. Aut quia cum <app><lem wit="#e75 #e82 #BNa">remissione</lem>
-           <rdg wit="#Ghent" ana="#orthographic">remissionem</rdg></app>
-         ypate et simul post <app><lem wit="#e75 #e82">diuisionem</lem>
-           <rdg wit="#BNa" ana="#substantive">dimissionem</rdg>
-           <rdg wit="#Ghent" ana="#substantive" cert="low">durationem dimissionem</rdg>
+       <p><app xml:id="app-4.1" exclude="#app-rdg-BNa-4.1"><lem wit="#BNb #BNc"/>
+       <rdg wit="#Ghent #e75 #e82" ana="#additive"><num type="#ordinal" value="4">Quartum</num> problema.</rdg></app>
+        <mentioned><app><lem>PROPTER QUID <app><lem wit="#Ghent">SED</lem>
+           <rdg wit="#BNa #e75 #e82" ana="#orthographic">SECUNDUM</rdg></app>
+         HANC <app><lem wit="#Ghent #e75 #e82">PARYPATEM DIFFICULTER</lem>
+           <rdg wit="#BNa" ana="#orthographic">DIFFICULTER PARYPATEM</rdg></app>
+         FACILE ETIAM DIUISIO ALTERIUS. AUT QUIA CUM <app><lem wit="#e75 #e82 #BNa">REMISSIONE</lem>
+           <rdg wit="#Ghent" ana="#orthographic">REMISSIONEM</rdg></app>
+         YPATE ET SIMUL POST <app><lem wit="#e75 #e82">DIUISIONEM</lem>
+           <rdg wit="#BNa" ana="#substantive">DIMISSIONEM</rdg>
+           <rdg wit="#Ghent" ana="#substantive" cert="low">DURATIONEM DIMISSIONEM</rdg>
            <note xml:lang="en">"durationem" is uncertain</note></app>
-         leue sursum <app><lem wit="#e75 #Ghent #BNa">proicere</lem>
-           <rdg wit="#e82" ana="#substantive">proiicere</rdg></app>
-         propter hoc autem <app><lem wit="#Ghent #e75 #e82">uidetur</lem>
-           <rdg wit="#BNa" ana="#orthographic">uidentur</rdg></app>
-         et que dicuntur ad vnam <app><lem wit="#Ghent #BNa">ad hanc</lem>
+         LEUE SURSUM <app><lem wit="#e75 #Ghent #BNa">PROICERE</lem>
+           <rdg wit="#e82" ana="#substantive">PROIICERE</rdg></app>
+         PROPTER HOC AUTEM <app><lem wit="#Ghent #e75 #e82">UIDETUR</lem>
+           <rdg wit="#BNa" ana="#orthographic">UIDENTUR</rdg></app>
+         ET QUE DICUNTUR AD VNAM <app><lem wit="#Ghent #BNa">AD HANC</lem>
            <rdg wit="#e75 #e82"/></app>
-         quam <app><lem wit="#e75 #e82 #BNa">circa</lem>
-           <rdg wit="#Ghent" ana="#substantive">circa mentem</rdg></app>
-         <app><lem wit="#Ghent #e75 #e82">netem</lem>
-           <rdg wit="#BNa" ana="#orthographic">nitem.</rdg></app>
-         oportet enim cum remissione et dimissione ualde <app><lem wit="#Ghent #e75 #e82">propria</lem>
-           <rdg wit="#BNa" ana="#substantive">propriiua</rdg></app>
+         QUAM <app><lem wit="#e75 #e82 #BNa">CIRCA</lem>
+           <rdg wit="#Ghent" ana="#substantive">CIRCA MENTEM</rdg></app>
+         <app><lem wit="#Ghent #e75 #e82">NETEM</lem>
+           <rdg wit="#BNa" ana="#orthographic">NITEM.</rdg></app>
+         OPORTET ENIM CUM REMISSIONE ET DIMISSIONE UALDE <app><lem wit="#Ghent #e75 #e82">PROPRIA</lem>
+           <rdg wit="#BNa" ana="#substantive">PROPRIIUA</rdg></app>
          <milestone ed="#e82" unit="folio" n="B7r"/>
          <milestone ed="#e82" unit="column" n="A"/> 
-         consuetudini ad uoluntatem: huius autem <app><lem wit="#Ghent">utique tamen</lem>
-           <rdg wit="#BNa" ana="#substantive">utique cum</rdg>
-           <rdg wit="#e75 #e82" ana="#substantive">unum est</rdg></app>
-         consonantia quedam causa.</mentioned>
+         CONSUETUDINI AD UOLUNTATEM: HUIUS AUTEM <app><lem wit="#Ghent">UTIQUE TAMEN</lem>
+           <rdg wit="#BNa" ana="#substantive">UTIQUE CUM</rdg>
+           <rdg wit="#e75 #e82" ana="#substantive">UNUM EST</rdg></app>
+         CONSONANTIA QUEDAM CAUSA.</lem>
+          <rdg wit="#BNc" ana="#subtractive">PROPTER QUID SECUNDUM HANC</rdg></app></mentioned>
        </p>  
        <p>
          <app xml:id="app-rdg-BNa-4.1" exclude="#app-4.1">
@@ -2116,13 +2117,13 @@ ne inter eas <app><lem wit="#e75 #e82 #BNa #BNc">magna</lem>
   <head>Fifth Problem</head>
    <p><app xml:id="app-5.1" from="#5.1" exclude="#app-rdg-BNa-5.1"><lem wit="#BNb #BNc"/>
 <rdg wit=" #Ghent #e75 #e82" ana="#additive"><num type="#ordinal" value="5">Quintum</num> problema.</rdg></app>
-<mentioned>Propter quid delectabiliter audiunt cantantes quoscumque utique prescientes adipiscuntur cantus quam quos nesciunt. Utrum quia magis <app><lem wit="#Ghent #BNa">manifestus</lem>
-<rdg wit="#e75 #e82" ana="#orthographic">manifestum</rdg></app>
-adipiscens sicut intentionem quando cognoscunt quod canitur. hoc autem dele<milestone ed="#e82" unit="column" n="B" break="no"/>ctabile considerare: <app><lem wit="#e75 #e82 #Ghent">quia</lem>
-<rdg wit="#BNa" ana="#substantive">quod</rdg></app>
-delectabile discere huius autem causa: hoc quidem accipere scientiam hoc uero uti et recognoscere ipsam. adhuc <app><lem wit="#e75 #e82 #Ghent">autem et</lem>
-<rdg wit="#BNa" ana="#substantive">est autem</rdg></app>
-consuetum delectabile magis inconsueto.</mentioned>
+<mentioned>PROPTER QUID DELECTABILITER AUDIUNT CANTANTES QUOSCUMQUE UTIQUE PRESCIENTES ADIPISCUNTUR CANTUS QUAM QUOS NESCIUNT. UTRUM QUIA MAGIS <app><lem wit="#Ghent #BNa">MANIFESTUS</lem>
+<rdg wit="#e75 #e82" ana="#orthographic">MANIFESTUM</rdg></app>
+ADIPISCENS SICUT INTENTIONEM QUANDO COGNOSCUNT QUOD CANITUR. HOC AUTEM DELE<milestone ed="#e82" unit="column" n="B" break="no"/>CTABILE CONSIDERARE: <app><lem wit="#e75 #e82 #Ghent">QUIA</lem>
+<rdg wit="#BNa" ana="#substantive">QUOD</rdg></app>
+DELECTABILE DISCERE HUIUS AUTEM CAUSA: HOC QUIDEM ACCIPERE SCIENTIAM HOC UERO UTI ET RECOGNOSCERE IPSAM. ADHUC <app><lem wit="#e75 #e82 #Ghent">AUTEM ET</lem>
+<rdg wit="#BNa" ana="#substantive">EST AUTEM</rdg></app>
+CONSUETUM DELECTABILE MAGIS INCONSUETO.</mentioned>
    </p>  
     <p>
 <app xml:id="app-rdg-BNa-5.1" exclude="#app-5.1">
@@ -2423,8 +2424,8 @@ minime.
 
 <div type="textpart" subtype="trailer" xml:id="trailer">
   <head>Trailer</head>
-  <app><lem wit="#e75 #e82">Explicit <num type="#ordinal" value="19">decimanona</num> particula.</lem>
-<rdg wit="#Ghent #BNa"/></app></div>
+  <app><lem wit="#Ghent #BNa"/>
+<rdg wit="#e75 #e82">Explicit <num type="#ordinal" value="19">decimanona</num> particula.</rdg></app></div>
       </div>
     </body>
     <back>
