@@ -151,6 +151,8 @@
         <refState ed="BNb" unit="column" length="3" />
         <refState ed="BNc" unit="folio" length="2" delim="." />
         <refState ed="BNc" unit="column" length="3" />
+        <refState ed="BNd" unit="folio" length="2" delim="." />
+        <refState ed="BNd" unit="column" length="3" />
       </refsDecl>
       <variantEncoding method="location-referenced" location="internal"/>
     </encodingDesc>
@@ -316,8 +318,8 @@
       </div>
     </front>
 <body>
- <div type="edition" xml:id="edition-text" xml:space="preserve">
-  <div type="textpart" subtype="header" n="1" xml:id="header">
+<div type="edition" xml:id="edition-text" xml:space="preserve">
+<div type="textpart" subtype="header" n="1" xml:id="header">
     <head>Header</head>
    <p>
       <milestone ed="#e82" unit="folio" n="B5v"/>
@@ -332,6 +334,8 @@
       <milestone ed="#BNb" unit="column" n="A"/>
       <milestone ed="BNc" unit="folio" n="183v"/>
       <milestone ed="BNc" unit="column" n="A"/>
+      <milestone ed="BNd" unit="folio" n="179r"/>
+      <milestone ed="BNd" unit="column" n="B"/>
       <app>
         <lem wit="#BNa #BNc"/>
         <rdg wit="#e82 #e75" ana="#additive">Incipit <num type="#ordinal" value="19"
@@ -345,7 +349,7 @@
    </p>
   </div>
 
- <div type="textpart" subtype="problem" n="1" xml:id="part1">
+<div type="textpart" subtype="problem" n="1" xml:id="part1">
     <head>Problem 1</head>
    <p><app xml:id="app-1.1" exclude="#app-rdg-BNa-1.1"><lem wit="#BNa #BNb #BNc"/>
    <rdg wit="#e82 #e75 #Ghent" ana="#additive"><num type="#ordinal" value="1">Primum</num> problema.</rdg></app>
@@ -969,7 +973,7 @@ submersionis <app><lem wit="#e75 #e82 #BNa #BNc"><num type="#ordinal" value="2">
     </p>
  </div>
 
- <div type="textpart" subtype="problem" n="2" xml:id="part2">
+<div type="textpart" subtype="problem" n="2" xml:id="part2">
    <head>Problem 2</head>
    <p><app xml:id="app-2.1" exclude="#app-rdg-BNa-2.1"><lem wit="#BNb #BNc"/>
 <rdg wit="#Ghent #e75 #e82" ana="#additive"><num type="#ordinal" value="2">Secundum</num> problema.</rdg></app>
@@ -1180,7 +1184,7 @@ partimque isti. <app><lem/><rdg wit="#BNa" ana="#substantive">sequitur <num type
     </p>
  </div>
 
- <div type="textpart" subtype="problem" n="3" xml:id="part3">
+<div type="textpart" subtype="problem" n="3" xml:id="part3">
    <head>Problem 3</head>
  <p><app xml:id="app-3.1" exclude="#app-rdg-BNa-3.1"><lem wit="#BNb #BNc"/>
 <rdg wit="#Ghent #e75 #e82" ana="#additive"><num type="#ordinal" value="3">Tertium</num> problema.</rdg></app>
@@ -1861,7 +1865,7 @@ ne inter eas <app><lem wit="#e75 #e82 #BNa #BNc">magna</lem>
     </p>
  </div>
 
- <div type="textpart" subtype="problem" n="4" xml:id="part4">
+<div type="textpart" subtype="problem" n="4" xml:id="part4">
     <head>Problem 4</head>
        <p><app xml:id="app-4.1" exclude="#app-rdg-BNa-4.1"><lem wit="#BNb #BNc"/>
        <rdg wit="#Ghent #e75 #e82" ana="#additive"><num type="#ordinal" value="4">Quartum</num> problema.</rdg></app>
@@ -2113,7 +2117,7 @@ ne inter eas <app><lem wit="#e75 #e82 #BNa #BNc">magna</lem>
        </p>
    </div>
 
- <div type="textpart" subtype="problem" n="5" xml:id="part5">
+<div type="textpart" subtype="problem" n="5" xml:id="part5">
   <head>Problem 5</head>
    <p><app xml:id="app-5.1" from="#5.1" exclude="#app-rdg-BNa-5.1"><lem wit="#BNb #BNc"/>
 <rdg wit=" #Ghent #e75 #e82" ana="#additive"><num type="#ordinal" value="5">Quintum</num> problema.</rdg></app>
@@ -2944,13 +2948,75 @@ simphoniam ut sonus qui post eam refrangitur auditum <app><lem wit="#Ghent #BNa 
      </p>
 </div>
 
+<div type="textpart" subtype="problem" n="8" xml:id="part8">
+  <head>Problem 8</head>
+   <p><app xml:id="app-8.1" exclude="#app-rdg-BNa-8.1"><lem wit="#Ghent #e75 #e82"><num type="#ordinal" value="8">Octauum</num> problema.</lem>
+<rdg wit="#BNc" ana="#additive"><add place="margin"><num type="ordinal" value="8">8<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#BNb"/></app>
+<mentioned><app><lem wit="#e75 #e82 #BNa #Ghent">PROPTER QUID <app><lem wit="#Ghent #BNa">GRAUIS ACUTE</lem>
+<rdg wit="#e75 #e82" ana="#orthographic">GRAUE ACUTUM</rdg></app>
+FORTIFICAT SONUM. AUT QUIA <app><lem wit="#e75 #e82 #Ghent">MAGIS</lem>
+<rdg wit="#BNa" ana="#?">MAIUS</rdg></app>
+HOC GRAUE <app><lem wit="#e75 #e82 #Ghent">OBTUSO</lem>
+<rdg wit="#BNa" ana="#orthographic">OBTUSIO</rdg></app>
+ENIM <app><lem wit="#e82 #Ghent #BNa">ASSIMULATUR</lem>
+<rdg wit="#e75" ana="#orthographic">ASSIMILATUR</rdg></app>
+HOC UERO ACUTO ANGULO.</lem><rdg wit="#BNc" ana="#subtractive">PROPTER QUID GRAUIS</rdg></app></mentioned>
+     </p>  
+     <p>
+<app xml:id="app-rdg-BNa-8.1" exclude="#app-8.1">
+<rdg wit="#BNa"><num type="#ordinal" value="8">Octauum</num> problema etcetera.</rdg></app>
+<app><lem wit="#e75 #e82 #Ghent #BNc">Quia</lem>
+<rdg wit="#BNa" ana="#lexical">Quare</rdg></app>
+dixerat grauem cordam <app><lem wit="#e75 #e82 #BNa #Ghent">sonum fortificare</lem>
+<rdg wit="#BNc" ana="#ordinal">fortificare sonum</rdg></app>
+acute <app><lem wit="#e75 #e82 #BNa">causam siquidem querit huius</lem>
+<rdg wit="#BNc" ana="#subtractive">querit causam huius</rdg>
+<rdg wit="#Ghent" ana="#lexical">querit causam eius</rdg></app>
+dicens quare grauis <app><lem wit="#Ghent #BNa #BNc">corde</lem>
+<rdg wit="#e75 #e82" ana="#morphological">corda</rdg></app>
+sonus uigorat eum qui acute. <app><lem wit="#Ghent #BNa #BNb #BNc"/>
+<rdg wit="#e82 #e75" ana="#additive">Deinde.</rdg></app>
+     </p>
+     <p>
+<app><lem wit="#e75 #e82 #BNa">Aut</lem>
+<rdg wit="#Ghent BNc" ana="#additive">Aut quia</rdg></app>
+Soluit <app><lem wit="#e75 #e82 #BNa #BNc">dicens causam esse</lem>
+<rdg wit="#Ghent" ana="#ordinal">causam esse dicens.</rdg></app>
+quoniam illud quod est graue <app><lem wit="#e75 #e82 #Ghent">maius</lem>
+<rdg wit="#BNa #BNc" ana="#morphological">magis</rdg></app>
+<milestone ed="#Ghent" unit="folio" n="237r"/>
+<milestone ed="#Ghent" unit="column" n="A"/>
+est et fortius: quod ostenditur quoniam angulo <app><lem wit="#BNa">simulatur obtuso</lem>
+<rdg wit="#Ghent #BNc" ana="#lexical">simulatur acuto</rdg>
+<rdg wit="#e75 #e82" ana="#lexical">si multiplicatur obtuso </rdg></app>
+trianguli: qui quidem maior est et fortior <app><lem wit="#e75 #e82 #BNa">etiam</lem>
+<rdg wit="#Ghent #BNc"/></app>
+uigore acuto: <app><lem wit="#e75 #e82 #Ghent #BNc">ut res ostendunt nature et artis. acutum uero <app><lem wit="#Ghent #BNc">angulo</lem>
+<rdg wit="#e75 #e82" ana="#lexical">triangulo</rdg></app> proportionatur acuto</lem>
+<rdg wit="#BNa" cause="homeoarchy"/></app>
+<app><lem wit="#e75 #e82 #BNa">ceu</lem>
+<rdg wit="#Ghent #BNc" ana="#lexical">seu</rdg></app>
+minori et debiliori. quod autem <app><lem wit="#e75 #e82">maius</lem>
+<rdg wit="#BNa" ana="#morphological">magis</rdg>
+<rdg wit="#Ghent #BNc" ana="#additive">maius est</rdg></app>
+et fortius uigorat quod minus et debilius: <app><lem wit="#Ghent #BNa #BNc">huius</lem>
+<rdg wit="#e75 #e82" ana="#lexical">huiusmodi</rdg></app>
+quidem graue acuti respectu quare ipsum uigorat <app><lem wit="#e75 #e82 #BNa">ut <num type="#ordinal" value="12">.xii.</num> etiam apparebit</lem>
+<rdg wit="#Ghent #BNc"/></app>
+<app><lem/>
+<rdg wit="#BNa" ana="#?">sequitur <num type="#ordinal" value="9">9m.</num> problema <num type="#ordinal" value="19">19e.</num> particule.</rdg></app>
+     </p>
+</div>
+
 <div type="textpart" subtype="trailer" xml:id="trailer">
   <head>Trailer</head>
   <app><lem wit="#Ghent #BNa"/>
 <rdg wit="#e75 #e82">Explicit <num type="#ordinal" value="19">decimanona</num> particula.</rdg></app></div>
-      </div>
-    </body>
-    <back>
+</div>
+</body>
+    
+<back>
       <listPerson type="historical">
         <person xml:id="Al">
           <persName>
@@ -3081,5 +3147,5 @@ simphoniam ut sonus qui post eam refrangitur auditum <app><lem wit="#Ghent #BNa 
         </person>
       </listPerson>   
     </back>
-  </text>
+</text>
 </TEI>
