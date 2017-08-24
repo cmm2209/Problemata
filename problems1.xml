@@ -3,313 +3,324 @@
 <?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Pseudo-Aristotelian Problems on Music with Pietro d’Abano’s Commentary (Part 1)</title>
-<author>Pietro d’Abano</author>
-<editor>Caleb Mutch</editor>
-</titleStmt>
-<editionStmt>
-<edition>First Edition</edition>
-</editionStmt>
-<publicationStmt>
-<publisher>To be determined</publisher>
-</publicationStmt>
-<sourceDesc>
-<p>Born digital.</p>
-<p>
-<listWit>
-<witness xml:id="BNa">
-<abbr type="siglum">BNa</abbr> = 
-<title>Paris, Bibliotheque Nationale man. lat. 6540</title>
-<msDesc>
-<msIdentifier>     
-<settlement>Paris</settlement>     
-<repository>Bibliotheque Nationale</repository>     
-<idno>man. Lat. 6540</idno>     
-</msIdentifier>
-</msDesc>
-URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90684121.r=6540"/>
-</witness>
-<witness xml:id="BNb">
-<abbr type="siglum">BNb</abbr> = 
-<title>Paris, Bibliotheque Nationale man. lat. 6541</title>
-<msDesc>
-<msIdentifier>     
-<settlement>Paris</settlement>     
-<repository>Bibliotheque Nationale</repository>     
-<idno>man. Lat. 6541</idno>     
-</msIdentifier>
-</msDesc>
-URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b9068411m.r=6541"/>
-</witness>
-<witness xml:id="BNc">
-<abbr type="siglum">BNc</abbr> = 
-<title>Paris, Bibliotheque Nationale man. lat. 6542</title>
-<msDesc>
-<msIdentifier>     
-<settlement>Paris</settlement>     
-<repository>Bibliotheque Nationale</repository>     
-<idno>man. Lat. 6542</idno>     
-</msIdentifier>
-</msDesc>
-URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b10721259d/f1.item.r=6542"/>
-</witness>
-<witness xml:id="BNd">
-<abbr type="siglum">BNd</abbr> = 
-<title>Paris, Bibliotheque Nationale man. lat. 15454</title>
-<msDesc>
-<msIdentifier>     
-<settlement>Paris</settlement>     
-<repository>Bibliotheque Nationale</repository>     
-<idno>man. Lat. 15454</idno>     
-</msIdentifier>
-</msDesc>
-URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90680829/f2"/>
-</witness>
-<witness xml:id="Ghent">
-<abbr type="siglum">Ghent</abbr> = 
-<title>Ghent, Bibliothéek van de Rijksuniversiteit, ms. 72</title>
-<msDesc>
-<msIdentifier>     
-<settlement>Ghent</settlement>     
-<repository>Bibliothéek van de Rijksuniversiteit</repository>     
-<idno>ms. 72</idno>     
-</msIdentifier>
-</msDesc>
-URL: <ptr target="http://lib.ugent.be/catalog/rug01:000802948"/>
-</witness>
-</listWit>
-<listWit>
-<head>Early Editions</head>
-<witness xml:id="e75">
-<abbr type="siglum">e75</abbr> = <bibl>
-<editor><name>Illarius, Stephanus</name></editor>
-<title>Expositio succinta problematum Aristotelis quam Petrus edidit Paduanus</title>
-<pubPlace>Mantua</pubPlace>
-<publisher>Paulus de Butzbach</publisher>
-<date>1475</date>
-</bibl>
-URL: <ptr target="http://daten.digitale-sammlungen.de/~db/0006/bsb00068444/images/"/>
-</witness>
-<witness xml:id="e82">
-<abbr type="siglum">e82</abbr> = <bibl>
-<editor><name>Anonymous</name></editor>
-<title>Expositio preclarissimi atque eximii artium ac medicine doctoris Petri de Ebano Patauini in librorum problematum Aristotelis</title>
-<pubPlace>[Venetiis]</pubPlace>
-<publisher>Johannes Herbort</publisher>
-<date>1482</date>
-</bibl>
-URL: <ptr target="http://daten.digitale-sammlungen.de/~db/0005/bsb00058463/images/"/>
-</witness>
-</listWit>
-</p>
-</sourceDesc>
-</fileDesc>
-<encodingDesc>
-<editorialDecl>
-<correction method="silent">
-<p>
-<list>
-<item>Ghent and BNc’s armoniac* emended to armonic*</item>
-<item>Ghent’s rigm* emended to rithim*</item>
-<item>Ghent’s *ypote emended to *ypate</item>
-<item>Ghent’s lycan*s emended to lychanos</item>
-<item>BNc's licanos emended to lychanos</item>
-<item>BNc's *congnitio* emended to *cognitio*</item>
-<item>BNa's lichanos emended to lychanos</item>
-<item>BNa's dyapasser and diapasser emended to dyapason</item>
-<item>BNa's dyatesser and diatesser emended to dyatesseron</item>
-<item>BNa's mellodi* emended to melodi*</item>
-<item>Ghent and BNa's lira* emended to lyra*</item>
-<item>Ghent's sesqui* emended to sexqui*</item>
-<item>e75’s Boeti* emended to Boeci*</item>
-<item>e75’s lira* emended to lyra*</item>
-<item>e82's hi* emended to hii*</item>
-<item>BNc's sicud emended to sicut</item>
-<item>BNc's velud emended to velut</item>
-<item>All: *ij and *ijs emended to *ii and *ijs</item>
-<item>All: *cia and *cio emended to *tia and*tio</item>
-<item>All: probleuma* emended to problema*</item>
-<item>All: Tironian et emended to et</item>
-<item>All: ampersand emended to et</item>
-<item>All: Tall s ( ſ ) emended to round s</item>
-<item>All: contractions expanded</item>
-</list>
-</p>
-</correction>
-</editorialDecl>
-<refsDecl>
-<refState ed="e82" unit="folio" length="2" delim="." />
-<refState ed="e82" unit="column" length="3" />
-<refState ed="e75" unit="folio" length="2" delim="." />
-<refState ed="e75" unit="column" length="3" />
-<refState ed="Ghent" unit="folio" length="2" delim="." />
-<refState ed="Ghent" unit="column" length="3" />
-<refState ed="BNa" unit="folio" length="2" delim="." />
-<refState ed="BNa" unit="column" length="3" />
-<refState ed="BNb" unit="folio" length="2" delim="." />
-<refState ed="BNb" unit="column" length="3" />
-<refState ed="BNc" unit="folio" length="2" delim="." />
-<refState ed="BNc" unit="column" length="3" />
-<refState ed="BNd" unit="folio" length="2" delim="." />
-<refState ed="BNd" unit="column" length="3" />
-</refsDecl>
-<variantEncoding method="location-referenced" location="internal"/>
-</encodingDesc>
+ <fileDesc>
+  <titleStmt>
+   <title>Pseudo-Aristotelian Problems with Pietro d’Abano’s Commentary</title>
+   <author>Pietro d’Abano</author>
+   <editor>Caleb Mutch</editor>
+  </titleStmt>
+  <editionStmt>
+   <edition>First Edition</edition>
+  </editionStmt>
+  <publicationStmt>
+   <publisher>To be determined</publisher>
+  </publicationStmt>
+  <sourceDesc>
+   <p>Born digital.</p>
+   <p>
+   <listWit xml:id="bibliography-manuscripts">
+    <witness xml:id="BNa">
+     <abbr type="siglum">BNa</abbr> = 
+      <title>Paris, Bibliotheque Nationale man. lat. 6540</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Paris</settlement>     
+        <repository>Bibliotheque Nationale</repository>     
+        <idno>man. Lat. 6540</idno>     
+      </msIdentifier>
+     </msDesc>
+    URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90684121.r=6540"/>
+    </witness>
+    <witness xml:id="BNb">
+     <abbr type="siglum">BNb</abbr> = 
+      <title>Paris, Bibliotheque Nationale man. lat. 6541</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Paris</settlement>     
+        <repository>Bibliotheque Nationale</repository>     
+        <idno>man. Lat. 6541</idno>     
+      </msIdentifier>
+     </msDesc>
+    URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b9068411m.r=6541"/>
+    </witness>
+    <witness xml:id="BNc">
+     <abbr type="siglum">BNc</abbr> = 
+      <title>Paris, Bibliotheque Nationale man. lat. 6542</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Paris</settlement>     
+        <repository>Bibliotheque Nationale</repository>     
+        <idno>man. Lat. 6542</idno>     
+      </msIdentifier>
+     </msDesc>
+    URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b10721259d/f1.item.r=6542"/>
+    </witness>
+    <witness xml:id="BNd">
+     <abbr type="siglum">BNd</abbr> = 
+      <title>Paris, Bibliotheque Nationale man. lat. 15454</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Paris</settlement>     
+        <repository>Bibliotheque Nationale</repository>     
+        <idno>man. Lat. 15454</idno>     
+      </msIdentifier>
+     </msDesc>
+    URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90680829/f2"/>
+    </witness>
+    <witness xml:id="Ghent">
+     <abbr type="siglum">Ghent</abbr> = 
+      <title>Ghent, Bibliothéek van de Rijksuniversiteit, ms. 72</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Ghent</settlement>     
+        <repository>Bibliothéek van de Rijksuniversiteit</repository>     
+        <idno>ms. 72</idno>     
+      </msIdentifier>
+     </msDesc>
+    URL: <ptr target="http://lib.ugent.be/catalog/rug01:000802948"/>
+    </witness>
+   </listWit>
+   <listWit xml:id="bibliography-editions-witnesses">
+    <head>Early Editions</head>
+    <witness xml:id="e75">
+     <abbr type="siglum">e75</abbr> = <bibl>
+      <editor><name>Illarius, Stephanus</name></editor>
+      <title>Expositio succinta problematum Aristotelis quam Petrus edidit Paduanus</title>
+      <pubPlace>Mantua</pubPlace>
+      <publisher>Paulus de Butzbach</publisher>
+      <date>1475</date>
+     </bibl>
+    URL: <ptr target="http://daten.digitale-sammlungen.de/~db/0006/bsb00068444/images/"/>
+    </witness>
+    <witness xml:id="e82">
+     <abbr type="siglum">e82</abbr> = <bibl>
+        <editor><name>Anonymous</name></editor>
+      <title>Expositio preclarissimi atque eximii artium ac medicine doctoris Petri de Ebano Patauini in librorum problematum Aristotelis</title>
+      <pubPlace>[Venetiis]</pubPlace>
+      <publisher>Johannes Herbort</publisher>
+      <date>1482</date>
+    </bibl>
+    URL: <ptr target="http://daten.digitale-sammlungen.de/~db/0005/bsb00058463/images/"/>
+    </witness>
+   </listWit>
+  </p>
+  </sourceDesc>
+ </fileDesc>
+ <encodingDesc>
+  <charDecl>
+ <glyph xml:id="sqb">
+  <glyphName>LATIN LETTER SMALL B SQUARED</glyphName>
+  <charProp>
+   <localName>entity</localName>
+   <value>sqb</value>
+  </charProp> 
+ </glyph>
+  </charDecl>
+  <editorialDecl>
+   <correction method="silent">
+    <p>
+     <list>
+      <item>Ghent and BNc’s armoniac* emended to armonic*</item>
+      <item>Ghent’s rigm* emended to rithim*</item>
+      <item>Ghent’s *ypote emended to *ypate</item>
+      <item>Ghent’s lycan*s emended to lychanos</item>
+      <item>BNa's lichanos emended to lychanos</item>
+      <item>BNc's licanos emended to lychanos</item>
+      <item>BNb and BNc's *congn* emended to *cogn*</item>
+      <item>BNc's anthiphon* emended to antiphon*</item>
+      <item>BNa and BNb's dyapasser and diapasser emended to dyapason</item>
+      <item>BNa's dyatesser and diatesser emended to dyatesseron</item>
+      <item>BNa's mellodi* emended to melodi*</item>
+      <item>Ghent and BNc's sesqui* emended to sexqui*</item>
+      <item>e75’s Boeti* emended to Boeci*</item>
+      <item>e82's hi* emended to hii*</item>
+      <item>BNc's sicud emended to sicut</item>
+      <item>BNc's velud emended to velut</item>
+      <item>All: lira* emended to lyra*</item>
+      <item>All: *ij and *ijs emended to *ii and *ijs</item>
+      <item>All: *cia, *cio, *cium emended to *tia, *tio, *tium</item>
+      <item>All: adinuicem emended to ad inuicem</item>
+      <item>All: probleuma* emended to problema*</item>
+      <item>All: Tironian et emended to et</item>
+      <item>All: ampersand emended to et</item>
+      <item>All: Tall s ( ſ ) emended to round s</item>
+      <item>All: contractions expanded</item>
+     </list>
+    </p>
+   </correction>
+  </editorialDecl>
+  <refsDecl>
+   <refState ed="e82" unit="folio" length="2" delim="." />
+   <refState ed="e82" unit="column" length="3" />
+   <refState ed="e75" unit="folio" length="2" delim="." />
+   <refState ed="e75" unit="column" length="3" />
+   <refState ed="Ghent" unit="folio" length="2" delim="." />
+   <refState ed="Ghent" unit="column" length="3" />
+   <refState ed="BNa" unit="folio" length="2" delim="." />
+   <refState ed="BNa" unit="column" length="3" />
+   <refState ed="BNb" unit="folio" length="2" delim="." />
+   <refState ed="BNb" unit="column" length="3" />
+   <refState ed="BNc" unit="folio" length="2" delim="." />
+   <refState ed="BNc" unit="column" length="3" />
+   <refState ed="BNd" unit="folio" length="2" delim="." />
+   <refState ed="BNd" unit="column" length="3" />
+  </refsDecl>
+  <variantEncoding method="location-referenced" location="internal"/>
+ </encodingDesc>
 </teiHeader>
 
 <text>
 <front xml:id="front">
-<div type="section" xml:id="preface">
-<head>Preface</head>
-<p>General introductory remarks about the edition.</p>
-<div type="section" xml:id="preface-section-1">
-<!--This is a section within the preface. Editors should use
-sections (distinguished by <div>) to organize the content of the edition's preface.-->
-</div>
-</div>
-<div type="section" xml:id="bibliography">
-<head>Bibliography</head>
-<listBibl>
-<head>works cited</head>
-<bibl xml:id="AbCo">
-<author><persName>
-<forename>Pietro</forename>
-<surname>d'Abano</surname>
-</persName></author>
-<title>Conciliator differentiarum philosophorum</title>
-</bibl>
-<bibl xml:id="AlPr">
-<author><persName>
-<forename>Alexander of</forename>
-<addName>Aphrodisias</addName>
-</persName></author>
-<title>Problemata</title>
-</bibl>
-<bibl xml:id="ArAn">
-<author><persName>Aristotle</persName></author>
-<title>On the Soul</title>
-</bibl>
-<bibl xml:id="ArEth">
-<author><persName>Aristotle</persName></author>
-<title>Ethics</title>
-</bibl>
-<bibl xml:id="ArMet">
-<author><persName>Aristotle</persName></author>
-<title>Metaphysics</title>
-</bibl>
-<bibl xml:id="ArCa">
-<author><persName>Aristotle</persName></author>
-<title>On the Heavens</title>
-</bibl>
-<bibl xml:id="ArPe">
-<author><persName>Aristotle</persName></author>
-<title>On Interpretation</title>
-</bibl>
-<bibl xml:id="ArPh">
-<author><persName>Aristotle</persName></author>
-<title>Physics</title>
-</bibl>
-<bibl xml:id="ArPo">
-<author><persName>Aristotle</persName></author>
-<title>Politics</title>
-</bibl>
-<bibl xml:id="ArTo">
-<author><persName>Aristotle</persName></author>
-<title>Topics</title>
-</bibl>
-<bibl xml:id="BoAr">
-<author>
-<persName>
-<forename>Anicius</forename>
-<forename>Manlius</forename>
-<forename>Severinus</forename>
-<surname>Boethius</surname>
-</persName>
-</author>
-<title>De institutione arithmeticae</title>
-</bibl>
-<bibl xml:id="BoMu">
-<author>
-<persName>
-<forename>Anicius</forename>
-<forename>Manlius</forename>
-<forename>Severinus</forename>
-<surname>Boethius</surname>
-</persName>
-</author>
-<title>De institutione musicae</title>
-</bibl>
-<bibl xml:id="GaPu">
-<author>
-<persName>Galen</persName>
-</author>
-<title>De differentia pulsuum libri iv</title>
-</bibl>
-<bibl xml:id="GaSa">
-<author>
-<persName>Galen</persName>
-</author>
-<title>De sanitate tuenda libri vi</title>
-</bibl>
-<bibl xml:id="GuMi">
-<author>
-<persName>
-<forename>Guido of</forename>
-<addName>Arezzo</addName>
-</persName>
-</author>
-<title>Micrologus</title>
-</bibl>
-<bibl xml:id="IsEt">
-<author>
-<persName>
-<forename>Isidore of</forename>
-<addName>Seville</addName>
-</persName>
-</author>
-<title>Aphorisms</title>
-</bibl>
-<bibl xml:id="MasAph">
-<author>
-<persName>
-<forename>Yuhanna ibn</forename>
-<addName>Masawaiyh</addName>
-</persName>
-</author>
-<title>Etymologies</title>
-</bibl>
-<bibl xml:id="NiGer">
-<author>
-<persName>Nichomachus</persName>
-</author>
-<title>Geryones</title>
-</bibl>
-<bibl xml:id="Psalm">
-<title>Psalms</title>
-</bibl>
-<bibl xml:id="PtHar">
-<author>
-<persName>
-<forename>Claudius</forename>
-<surname>Ptolemy</surname>
-</persName>
-</author>
-<title>Harmonics</title>
-</bibl>
-<bibl xml:id="RegS">
-<title>Regimen sanitatis Salernitanum</title>
-</bibl>
-</listBibl>
-<div type="section" xml:id="conspectus">
-<head>Conspectus</head>
-<!--A key to the special sigla and abbreviations used in the edition (drawn
-from the @xml:id's assigned to the various items in the
-bibliography). The list of sigla may be generated automatically. -->
-</div>
-</div>
-</front>
+      <div type="section" xml:id="preface">
+        <head>Preface</head>
+        <p>General introductory remarks about the edition.</p>
+        <div type="section" xml:id="preface-section-1">
+          <!--This is a section within the preface. Editors should use
+          sections (distinguished by <div>) to organize the content of the edition's preface.-->
+        </div>
+      </div>
+      <div type="section" xml:id="bibliography">
+        <head>Bibliography</head>
+        <listBibl>
+          <head>works cited</head>
+          <bibl xml:id="AbCo">
+            <author><persName>
+              <forename>Pietro</forename>
+              <surname>d'Abano</surname>
+            </persName></author>
+            <title>Conciliator differentiarum philosophorum</title>
+          </bibl>
+          <bibl xml:id="AlPr">
+            <author><persName>
+              <forename>Alexander of</forename>
+              <addName>Aphrodisias</addName>
+            </persName></author>
+            <title>Problemata</title>
+          </bibl>
+          <bibl xml:id="ArAn">
+            <author><persName>Aristotle</persName></author>
+            <title>De anima</title>
+          </bibl>
+          <bibl xml:id="ArEth">
+            <author><persName>Aristotle</persName></author>
+            <title>Ethica</title>
+          </bibl>
+          <bibl xml:id="ArMet">
+            <author><persName>Aristotle</persName></author>
+            <title>Metaphysica</title>
+          </bibl>
+          <bibl xml:id="ArCa">
+            <author><persName>Aristotle</persName></author>
+            <title>De caelo</title>
+          </bibl>
+          <bibl xml:id="ArPe">
+            <author><persName>Aristotle</persName></author>
+            <title>De interpretatione</title>
+          </bibl>
+          <bibl xml:id="ArPh">
+            <author><persName>Aristotle</persName></author>
+            <title>Physica</title>
+          </bibl>
+          <bibl xml:id="ArPo">
+            <author><persName>Aristotle</persName></author>
+            <title>De politicorum</title>
+          </bibl>
+          <bibl xml:id="ArTo">
+            <author><persName>Aristotle</persName></author>
+            <title>Topica</title>
+          </bibl>
+          <bibl xml:id="BoAr">
+            <author>
+              <persName>
+                <forename>Anicius</forename>
+                <forename>Manlius</forename>
+                <forename>Severinus</forename>
+                <surname>Boethius</surname>
+              </persName>
+            </author>
+            <title>De institutione arithmeticae</title>
+          </bibl>
+          <bibl xml:id="BoMu">
+            <author>
+              <persName>
+                <forename>Anicius</forename>
+                <forename>Manlius</forename>
+                <forename>Severinus</forename>
+                <surname>Boethius</surname>
+              </persName>
+            </author>
+            <title>De institutione musicae</title>
+          </bibl>
+          <bibl xml:id="GaPu">
+            <author>
+              <persName>Galen</persName>
+            </author>
+            <title>De differentia pulsuum libri iv</title>
+          </bibl>
+          <bibl xml:id="GaSa">
+            <author>
+              <persName>Galen</persName>
+            </author>
+            <title>De sanitate tuenda libri vi</title>
+          </bibl>
+          <bibl xml:id="GuMi">
+            <author>
+              <persName>
+                <forename>Guido of</forename>
+                <addName>Arezzo</addName>
+              </persName>
+            </author>
+            <title>Micrologus</title>
+          </bibl>
+          <bibl xml:id="IsEt">
+            <author>
+              <persName>
+                <forename>Isidore of</forename>
+                <addName>Seville</addName>
+              </persName>
+            </author>
+            <title>Etymologiae</title>
+          </bibl>
+          <bibl xml:id="MasAph">
+            <author>
+              <persName>
+                <forename>Yuhanna ibn</forename>
+                <addName>Masawaiyh</addName>
+              </persName>
+            </author>
+            <title>Etymologiae</title>
+          </bibl>
+          <bibl xml:id="NiGer">
+            <author>
+              <persName>Nichomachus</persName>
+            </author>
+            <title>Geryones</title>
+          </bibl>
+          <bibl xml:id="Psalm">
+            <title>Psalms</title>
+          </bibl>
+          <bibl xml:id="PtHar">
+            <author>
+              <persName>
+                <forename>Claudius</forename>
+                <surname>Ptolemy</surname>
+              </persName>
+            </author>
+            <title>Harmonica</title>
+          </bibl>
+          <bibl xml:id="RegS">
+            <title>Regimen sanitatis Salernitanum</title>
+          </bibl>
+         </listBibl>
+        <div type="section" xml:id="conspectus">
+          <head>Conspectus</head>
+          <!--A key to the special sigla and abbreviations used in the edition (drawn
+          from the @xml:id's assigned to the various items in the
+          bibliography). The list of sigla may be generated automatically. -->
+        </div>
+      </div>
+    </front>
+
 <body>
 <div type="edition" xml:id="edition-text" xml:space="preserve">
 <div type="textpart" subtype="header" n="1" xml:id="header">
@@ -2951,7 +2962,6 @@ subiecto.
      </p>
 </div>
 
-
 <div type="textpart" subtype="problem" n="7" xml:id="part7">
   <head>Problem 7</head>
    <p>
@@ -4077,6 +4087,7 @@ sicut apparebit <app><lem wit="#e75 #e82 #BNa"><num type="ordinal" value="23">.2
   <head>Problem 13</head>
   <p>
 <app xml:id="app-13.1" exclude="#app-rdg-BNa-13.1"><lem wit="#BNc"><add place="margin"><num type="ordinal" value="13">13<hi rend="superscript">m</hi></num></add></lem>
+<rdg wit="#BNb" ana="#additive"><num type="ordinal" value="13">Tredecimum.</num> <hi rend="rubricated"><surplus><num type="ordinal" value="13">Tredecimum</num> problema</surplus></hi></rdg>
 <rdg wit="#e75 #e82" ana="#additive"><num type="#ordinal" value="13">Tredecimum</num> problema.</rdg>
 <rdg wit="#Ghent" ana="#additive"><num type="#ordinal" value="13">Tertiumdecimum</num> problema.</rdg>
 <rdg wit="#BNb"/></app>
@@ -4093,301 +4104,330 @@ AUTEM ACUTUM NON QUIA MAXIME QUIDEM IN AMBOBUS EST AMBORUM <app><lem wit="#Ghent
 <rdg wit="#e75 #e82" ana="#orthographic">MELODYA</rdg></app>
 SI AUTEM NON: <app><lem wit="#e75 #e82 #Ghent">NON</lem>
 <rdg wit="#BNa" ana="#lexical">ENIM</rdg></app>
-GRAUE MAIUS ENIM EST.</lem><rdg wit="#BNc" ana="#subtractive">PROPTER QUID IN DYAPASON</rdg></app></mentioned>
+GRAUE MAIUS ENIM EST.</lem><rdg wit="#BNc" ana="#subtractive">PROPTER QUID IN DYAPASON</rdg>
+<rdg wit="#BNb"/></app></mentioned>
    </p>  
    <p>
 <app xml:id="app-rdg-BNa-13.1" exclude="#app-13.1">
-<rdg wit="#BNa"><num type="#ordinal" value="13">Decimumtertium</num> problema etcetera.</rdg></app>
-Quare in proportione <app><lem wit="#e75 #e82 #Ghent #BNa">illa</lem>
+<rdg wit="#BNa" ana="#additive"><num type="#ordinal" value="13">Decimumtertium</num> problema etcetera.</rdg></app>
+Quare in proportione <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">illa</lem>
 <rdg wit="#BNc" ana="#lexical">ista</rdg></app>
-que dicitur dyapason uel proportio <num type="ratio" value="2/1">dupla</num> uel <app><lem wit="#e75 #e82 #BNa">totius illud</lem>
+que dicitur <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">dyapason</lem>
+<rdg wit="#BNb" ana="#orthographic">dyapasseron</rdg></app>
+uel proportio <num type="ratio" value="2/1">dupla</num> uel <app><lem wit="#e75 #e82 #BNa #BNb">totius illud</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">tonus id</rdg></app>
-quod <app><lem wit="#e75 #e82 #BNa #BNc">habet</lem>
+quod <app><lem wit="#e75 #e82 #BNa #BNb #BNc">habet</lem>
 <rdg wit="#Ghent" ana="#lexical">hec</rdg></app>
-rationem acuti: <app><lem wit="#e75 #e82 #BNa #BNc">plerumque</lem>
+rationem acuti: <app><lem wit="#e75 #e82 #BNa #BNb #BNc">plerumque</lem>
 <rdg wit="#Ghent" ana="#lexical">plurimique</rdg></app>
 <app><lem wit="#e75 #e82">pertransit</lem>
 <rdg wit="#BNa" ana="#orthographic">pertransiit</rdg>
-<rdg wit="#BNc" ana="#lexical">transit</rdg>
+<rdg wit="#BNb #BNc" ana="#lexical">transit</rdg>
 <rdg wit="#Ghent" ana="#lexical">transsit</rdg></app>
-in grauem. <app><lem wit="#e75 #e82 #BNa">quod autem</lem>
+in grauem. <app><lem wit="#e75 #e82 #BNa #BNb">quod autem</lem>
 <rdg wit="#Ghent #BNc" ana="#additive"><app><lem wit="#Ghent">Id</lem>
 <rdg wit="#BNc" ana="#lexical">illud</rdg></app> autem quod</rdg></app>
-habet rationem grauis non permutatur in acutum. <app><lem wit="#e75 #e82 #BNa">Uidendum</lem>
+habet rationem <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">grauis non permutatur in acutum.</lem>
+<rdg wit="#BNb" ana="#additive">grauis non permutatur in acutum <surplus>grauis non permutatur in acutum.</surplus></rdg></app>
+<app><lem wit="#e75 #e82 #BNa #BNb">Uidendum</lem>
 <rdg wit="#Ghent #BNc" ana="#additive">Videndum est</rdg></app>
-nunc genera <app><lem wit="#e75 #e82 #BNa">eius</lem>
+nunc gratia <app><lem wit="#e75 #e82 #BNa #BNb">eius</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">huius</rdg></app>
-quod dicitur <app><lem wit="#e75 #e82 #BNa">dyapason</lem>
+quod dicitur <app><lem wit="#e75 #e82 #BNa #BNb">dyapason</lem>
 <rdg wit="#BNc" ana="#orthographic">diapason</rdg>
 <rdg wit="#Ghent" ana="#orthographic">dypason</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc">quot</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">quot</lem>
 <rdg wit="#BNa" ana="#lexical">quod</rdg></app>
-et que <app><lem wit="#Ghent #e82 #BNa #BNc">sunt</lem>
+et que <app><lem wit="#e82 #Ghent #BNa #BNb #BNc">sunt</lem>
 <rdg wit="#e75" ana="#morphological">sint</rdg></app>
-proportiones <app><lem wit="#e75 #e82 #Ghent #BNc">musicales:</lem>
+proportiones 
+<milestone ed="#BNb" unit="column" n="B"/>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">musicales:</lem>
 <rdg wit="#BNa" ana="#morphological">musicale.</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc">et</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">et</lem>
 <rdg wit="#BNa"/></app>
-<app><lem wit="#e75 #e82 #BNa">quando</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">quomodo</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">penes quid</rdg></app>
-sumantur: <app><lem wit="#e75 #e82 #Ghent #BNc">et</lem>
+sumantur: <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">et</lem>
 <rdg wit="#BNa"/></app>
-<app><lem wit="#e75 #e82 #BNa">quia originantur</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">quia originantur</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">dico quod generantur</rdg></app>
-ex proportionibus <app><lem wit="#Ghent #e75 #BNa #BNc">arismetricis</lem>
+ex proportionibus <app><lem wit="#Ghent #e75 #BNa #BNb #BNc">arismetricis</lem>
 <rdg wit="#e82" ana="#orthographic">arithmeticis</rdg></app>
 <milestone ed="#BNc" unit="folio" n="186v"/>
 <milestone ed="#BNc" unit="column" n="A"/>
-<app><lem wit="#e75 #e82 #BNa">intuendum prius illas. Sunt autem secundum <persName ref="#Bo">Boecium</persName> in <num type="#ordinal" value="1">primis</num> <ref target="#BoAr">arismetrice</ref> et <ref target="#BoMu">musice</ref></lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">intuendum prius illas. Sunt autem secundum <persName ref="#Bo">Boecium</persName> in <num type="#ordinal" value="1">primis</num> <ref target="#BoAr">arismetrice</ref> et <ref target="#BoMu">musice</ref></lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">numeri</rdg></app>
-<num type="cardinal" value="5">quinque</num> <app><lem wit="#e75 #e82 #BNa">sumpte</lem>
+<num type="cardinal" value="5">quinque</num> <app><lem wit="#e75 #e82 #BNa #BNb">sumpte</lem>
 <rdg wit="#Ghent #BNc" ana="#morphological">sumptis</rdg></app>
-penes numerum inequalem quarum <num type="cardinal" value="3">tres</num> sunt simplices <app><lem wit="#e75 #e82 #BNa #BNc">puta</lem>
+penes numerum inequalem quarum <num type="cardinal" value="3">tres</num> sunt simplices <app><lem wit="#e75 #e82 #BNa #BNb #BNc">puta</lem>
 <rdg wit="#Ghent"/></app>
 <app><lem wit="#Ghent #BNa">multiplex</lem>
-<rdg wit="#e75 #e82" ana="#additive">multiplex et submultiplex:</rdg>
+<rdg wit="#e75 #e82 #BNb" ana="#additive">multiplex et submultiplex:</rdg>
 <rdg wit="#BNc" ana="#additive">multiplex submultiplex et</rdg></app>
-superparticularis <app><lem wit="#e75 #e82 #BNa">et</lem>
+superparticularis <app><lem wit="#e75 #e82 #BNa #BNb">et</lem>
 <rdg wit="#Ghent #BNc"/></app>
-subsuperparticularis: superpartiens et subsuperpartiens. <num type="cardinal" value="2">due</num> autem composite quarum <app><lem wit="#e75 #e82 #Ghent #BNc"><num type="#ordinal" value="1">prima</num></lem>
+subsuperparticularis: superpartiens et subsuperpartiens. <num type="cardinal" value="2">due</num> autem composite quarum <app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="#ordinal" value="1">prima</num></lem>
 <rdg wit="#BNa" ana="#orthographic"><del><num type="#ordinal" value="1">prima</num></del> <num type="#ordinal" value="1">prima</num></rdg></app>
-componitur <app><lem wit="#e75 #e82 #Ghent #BNa">ex</lem>
+componitur <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">ex</lem>
 <rdg wit="#BNc" ana="#lexical">est</rdg></app>
-multiplici et superparticulari: 
-<app><lem wit="#e75 #e82 #BNa">et <app><lem wit="#e75 #e82 #BNa">ex</lem><rdg wit="#BNc"/>
-</app> <app><lem wit="#e75 #e82">supermultiplici</lem><rdg wit="#BNc" ana="#lexical">submultiplici</rdg><rdg wit="#BNa" ana="#lexical">multiplici</rdg></app> et subsuperparticulari. <num type="#ordinal" value="2">secunda</num> ex <app><lem wit="#BNa #BNc">multiplici</lem><rdg wit="#e75 #e82" ana="#additive">multiplici et</rdg></app> <app><lem wit="#BNc">superpartiente</lem>
+multiplici et superparticulari: <app><lem wit="#e75 #e82 #BNa #BNb">et <app><lem wit="#e75 #e82 #BNa #BNb">ex</lem><rdg wit="#BNc"/></app> 
+<app><lem wit="#e75 #e82">supermultiplici</lem><rdg wit="#BNb #BNc" ana="#lexical">submultiplici</rdg><rdg wit="#BNa" ana="#lexical">multiplici</rdg></app> et <app><lem wit="#e75 #e82 #BNa #BNc">subsuperparticulari.</lem><rdg wit="#BNb" ana="#lexical">superparticulari</rdg></app>
+<num type="#ordinal" value="2">secunda</num> ex <app><lem wit="#BNa #BNb #BNc">multiplici</lem><rdg wit="#e75 #e82" ana="#additive">multiplici et</rdg></app> <app><lem wit="#BNb #BNc">superpartiente</lem>
 <rdg wit="#e75 #e82 #BNa" ana="#lexical">superparticulari.</rdg></app>
-et submultiplici <app><lem wit="#e75 #e82">et</lem><rdg wit="#BNa #BNc"/></app>
+et submultiplici <app><lem wit="#e75 #e82">et</lem><rdg wit="#BNa #BNb #BNc"/></app>
 <app><lem wit="#e75 #e82 #BNa">subsuperparticulari.</lem>
-<rdg wit="#BNc" ana="#lexical">subsuperpartiente.</rdg></app></lem>
+<rdg wit="#BNc" ana="#lexical">subsuperpartiente.</rdg>
+<rdg wit="#BNb" ana="#lexical">superparticulari.</rdg></app></lem>
 <rdg wit="#Ghent"/></app>
-Multiplex autem est <app><lem wit="#e75 #e82 #Ghent #BNc">quando</lem>
+Multiplex autem est <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">quando</lem>
 <rdg wit="#BNa"/></app>
-numerus maior minorem in se continet pluries: ut bis <app><lem wit="#e75 #e82 #BNa">uel</lem>
+numerus maior minorem in se continet pluries: ut bis <app><lem wit="#e75 #e82 #BNa #BNb">uel</lem>
 <rdg wit="#Ghent #BNc"/></app>
-ter <app><lem wit="#e75 #e82 #BNa">aut</lem>
+ter <app><lem wit="#e75 #e82 #BNa #BNb">aut</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">uel</rdg></app>
-<app><lem wit="#e75 #e82 #BNa #BNc">quater</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb #BNc">quater</lem>
 <rdg wit="#Ghent" ana="#additive">quater ter</rdg></app>
-<app><lem wit="#Ghent #BNa #BNc">et sic</lem>
+<app><lem wit="#Ghent #BNa #BNb #BNc">et sic</lem>
 <rdg wit="#e75 #e82" ana="#lexical">aut</rdg></app>
 deinceps ut <app><lem wit="#e75 #e82">nihil</lem>
-<rdg wit="#Ghent #BNc" ana="#orthographic">nichil</rdg>
+<rdg wit="#Ghent #BNb #BNc" ana="#orthographic">nichil</rdg>
 <rdg wit="#BNa" ana="#lexical">uel</rdg></app>
-desit nihilque exsuperet. <app><lem wit="#e75 #e82 #Ghent #BNa">huius</lem>
-<rdg wit="#BNc" ana="#lexical">huiusmodi</rdg></app> 
-autem species sunt <num type="ratio" value="2/1">duplex</num> <num type="ratio" value="3/1">triplex</num> <app><lem wit="#e75 #e82 #Ghent #BNa"><num type="ratio" value="4/1">quadruplex.</num></lem>
+desit <app><lem wit="#e75 #e82 #BNa">nihilque</lem>
+<rdg wit="#Ghent #BNb #BNc" ana="#orthographic">nichilque</rdg></app>
+exsuperet. <app><lem wit="#e75 #e82 #Ghent #BNa">huius</lem>
+<rdg wit="#BNb" ana="#morphological">Hec</rdg> 
+<rdg wit="#BNc" ana="#lexical">huiusmodi</rdg></app>
+autem species sunt <num type="ratio" value="2/1">duplex</num> <num type="ratio" value="3/1">triplex</num> <app><lem wit="#e75 #e82 #Ghent #BNa #BNb"><num type="ratio" value="4/1">quadruplex.</num></lem>
 <rdg wit="#BNc" ana="#orthographic"><num type="ratio" value="3/1">quaterplex</num></rdg></app>
-et sic in infinitum. <num type="ratio" value="2/1">duplex</num> quidem <app><lem wit="#e75 #e82 #Ghent #BNa">cum</lem>
+et sic in infinitum. <num type="ratio" value="2/1">duplex</num> quidem <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">cum</lem>
 <rdg wit="#BNc" ana="#lexical">autem ut</rdg></app>
-<app><lem wit="#e75 #e82 #BNa #BNc">vnus</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb #BNc">vnus</lem>
 <rdg wit="#Ghent" ana="#morphological">vnum</rdg></app>
 <milestone ed="#Ghent" unit="folio" n="238r"/>
 <milestone ed="#Ghent" unit="column" n="A"/>
-<app><lem wit="#e75 #e82 #BNa #BNc">numerus alium</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb #BNc">numerus alium</lem>
 <rdg wit="#Ghent" ana="#subtractive">numerum</rdg></app>
-bis continet que dicitur proportio <num type="ratio" value="2/1">dupla</num> ut <num type="cardinal" value="4">quatuor</num> ad <num type="cardinal" value="2">duo</num>. <app><lem wit="#e75 #e82 #Ghent #BNc"><num type="ratio" value="3/1">triplex</num></lem>
+bis continet que dicitur proportio <num type="ratio" value="2/1">dupla</num> ut <num type="cardinal" value="4">quatuor</num> ad <num type="cardinal" value="2">duo</num>. <app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="ratio" value="3/1">triplex</num></lem>
 <rdg wit="#BNa" ana="#additive"><num type="ratio" value="3/1">triplex</num> numerus</rdg></app>
-<app><lem wit="#e75 #e82 #BNa #BNc">cum</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb #BNc">cum</lem>
 <rdg wit="#Ghent" ana="#lexical">tamen</rdg></app>
-vnus numerus continet <app><lem wit="#e75 #e82 #Ghent #BNc">alium</lem>
+vnus numerus continet <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">alium</lem>
 <rdg wit="#BNa" ana="#additive">alium totum</rdg></app>
-<num type="cardinal" value="3">tribus</num> <app><lem wit="#Ghent #BNa #BNc">uicibus</lem>
+<num type="cardinal" value="3">tribus</num> <app><lem wit="#Ghent #BNa #BNb #BNc">uicibus</lem>
 <rdg wit="#e75 #e82" ana="#lexical">modis</rdg></app>
-sicut <num type="cardinal" value="3">trinarius</num> <app><lem wit="#e75 #e82 #BNa">se habet ad <num type="cardinal" value="1">vnitatem</num></lem>
+sicut <num type="cardinal" value="3">trinarius</num> <app><lem wit="#e75 #e82 #BNa #BNb">se habet ad <num type="cardinal" value="1">vnitatem</num></lem>
 <rdg wit="#Ghent #BNc" ana="#ordinal">ad <num type="cardinal" value="1">vnitatem</num> se habet</rdg></app>.
      </p>
      <p>
-Proportio autem <app><lem wit="#e75 #e82 #Ghent #BNa"><num type="#ordinal" value="2">secunda</num></lem>
+Proportio autem <app><lem wit="#e75 #e82 #Ghent #BNa #BNb"><num type="#ordinal" value="2">secunda</num></lem>
 <rdg wit="#BNc" ana="#lexical"><num type="proportion" value="2/1">dupla</num></rdg></app>
-iuxta aliam inequalitatem ut superparticularis cum <app><lem wit="#e75 #e82 #Ghent #BNc">eius</lem>
+iuxta aliam inequalitatem ut superparticularis cum <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">eius</lem>
 <rdg wit="#BNa"/></app>
-<app><lem wit="#Ghent #BNc">opposita</lem>
+<app><lem wit="#Ghent #BNb #BNc">opposita</lem>
 <rdg wit="#e75 #e82" ana="#morphological">opponitur</rdg>
 <rdg wit="#BNa" ana="#lexical">opposatur</rdg></app>
-est cum maior <app><lem wit="#e75 #e82 #BNa">numerus</lem>
+est cum maior <app><lem wit="#e75 #e82 #BNa #BNb">numerus</lem>
 <rdg wit="#Ghent #BNc"/></app>
-continet in se totum <app><lem wit="#e75 #e82 #Ghent #BNc">semel:</lem>
+continet in se totum <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">semel:</lem>
 <rdg wit="#BNa" ana="#lexical">solis</rdg></app>
-<app><lem wit="#e75 #e82">et</lem>
+<app><lem wit="#e75 #e82 #BNb">et</lem>
 <rdg wit="#Ghent #BNc" ana="#additive">et adhuc</rdg>
 <rdg wit="#BNa" ana="#lexical">in</rdg></app>
-vnam eius <app><lem wit="#e75 #e82 #BNa">insuper</lem>
+vnam eius <app><lem wit="#e75 #e82 #BNa #BNb">insuper</lem>
 <rdg wit="#Ghent #BNc"/></app>
-partem: <app><lem wit="#e75 #e82 #Ghent #BNa">ut aut</lem>
+partem: <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">ut aut</lem>
 <rdg wit="#BNc" ana="#additive">vltra vt <del>al</del> aut</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc">dimidiam</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">dimidiam</lem>
 <rdg wit="#BNa" ana="#morphological">dimidia</rdg></app>
-<app><lem wit="#e75 #e82 #BNa">uel</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">uel</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">aut</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc"><num type="#ordinal" value="3">tertiam</num>:</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="#ordinal" value="3">tertiam</num>:</lem>
 <rdg wit="#BNa" ana="#morphological"><num type="#ordinal" value="3">tertia</num></rdg></app>
 <milestone ed="#e75" unit="folio" n="191r"/>
 <milestone ed="#e75" unit="column" n="A"/>
-<app><lem wit="#e75 #e82 #Ghent #BNc">et</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">et</lem>
 <rdg wit="#BNa"/></app>
-<app><lem wit="#e75 #Ghent #BNa">ita</lem>
+<app><lem wit="#e75 #Ghent #BNa #BNb">ita</lem>
 <rdg wit="#e82" ana="#lexical">ite</rdg>
 <rdg wit="#BNc" ana="#lexical">sic</rdg></app>
-deinceps. cuius <app><lem wit="#e75 #e82 #Ghent #BNa">quidem</lem>
+deinceps. cuius <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">quidem</lem>
 <rdg wit="#BNc"/></app>
-proportionis modi sunt <app><lem wit="#e75 #e82 #Ghent #BNc"><num type="ratio" value="3/2">sexquialtera</num></lem>
+proportionis modi sunt <app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="ratio" value="3/2">sexquialtera</num></lem>
 <rdg wit="#BNa" ana="#orthographic">sex<space/></rdg></app>
-<app><lem wit="#e75 #e82"><num type="ratio" value="6/5">sexquiquinta</num> uel <num type="ratio" value="4/3">epitrita</num></lem>
+<app><lem wit="#e75 #e82 #BNb"><app><lem wit="#BNb"><num type="ratio" value="4/3">sexquitertia</num></lem>
+<rdg wit="#e75 #e82" ana="#lexical"><num type="ratio" value="6/5">sexquiquinta</num></rdg></app> uel <num type="ratio" value="4/3">epitrita</num></lem>
 <rdg wit="#BNa" ana="#orthographic">sexquiita uel epuctria</rdg>
 <rdg wit="#Ghent" ana="#lexical"><num type="ratio" value="5/4">sexquiquarta</num> <num type="ratio" value="4/3">sexquitertia</num></rdg>
 <rdg wit="#BNc" ana="#lexical"><num type="ratio" value="4/3">sexquitertia</num></rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc"><num type="ratio" value="5/4">sexquiquarta</num> </lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="ratio" value="5/4">sexquiquarta</num> </lem>
 <rdg wit="#BNa" ana="#lexical">sexque quanta</rdg></app> 
-et <app><lem wit="#e75 #e82 #Ghent #BNc">huiusmodi.</lem>
+et <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">huiusmodi.</lem>
 <rdg wit="#BNa" ana="#lexical">huius</rdg></app>  
-sexquialtera <app><lem wit="#BNc">seu <num type="ratio" value="3/2">emiola</num></lem>
+sexquialtera <app><lem wit="#BNb #BNc">seu <num type="ratio" value="3/2">emiola</num></lem>
 <rdg wit="#BNa" ana="#orthographic">seu <space/></rdg>
 <rdg wit=" #e75 #e82" ana="#lexical">seu enumerale</rdg>
 <rdg wit="#Ghent"/></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc">est</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">est</lem>
 <rdg wit="#BNa" ana="#orthographic">est <del>numerus</del></rdg></app>  
-cum <app><lem wit="#e75 #e82 #BNa">quis</lem>
+cum <app><lem wit="#e75 #e82 #BNa #BNb">quis</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">aliquis</rdg></app>
-numerus <app><lem wit="#e75 #Ghent #BNa #BNc">alium</lem>
+numerus <app><lem wit="#e75 #Ghent #BNa #BNb #BNc">alium</lem>
 <rdg wit="#e82" ana="#morphological">aliam</rdg></app>
-semel continet et insuper eius 
-<app><lem wit="#e75 #e82 #Ghent">mediam partem: ut <app><lem wit="#e75 #e82"><num type="cardinal" value="3">trinarius</num> se habet</lem>
-<rdg wit="#Ghent #BNc" ana="#morphological"><num type="cardinal" value="3">tria</num> se habent</rdg></app> ad <app><lem wit="#e75 #e82"><num type="cardinal" value="2">binarium</num></lem>
-<rdg wit="#Ghent #BNc" ana="#morphological"><num type="cardinal" value="2">duo</num></rdg></app>
-<num type="ratio" value="4/3">sexquitertia</num> <app><lem wit="#Ghent #BNc">cum</lem>
+semel continet et insuper <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">eius</lem>
+<rdg wit="#BNb" ana="#lexical">huius</rdg></app>
+<app><lem wit="#e75 #e82 #Ghent #BNb">mediam partem: ut <app><lem wit="#e75 #e82 #BNb"><num type="cardinal" value="3"><app><lem wit="#e75 #e82">trinarius</lem><rdg wit="#BNb" ana="#orthographic">ternarius</rdg></app></num> se habet</lem>
+<rdg wit="#Ghent #BNc" ana="#morphological"><num type="cardinal" value="3">tria</num> se habent</rdg></app> 
+ad <num type="cardinal" value="2"><app><lem wit="#e75 #e82 #BNb">binarium</lem>
+<rdg wit="#Ghent #BNc" ana="#morphological">duo</rdg></app></num>
+<num type="ratio" value="4/3">sexquitertia</num> <app><lem wit="#Ghent #BNc">cum</lem><rdg wit="#BNb" ana="#additive #lexical">est qui</rdg>
 <rdg wit="#e75 #e82"/></app> semel et eius <num type="#ordinal" value="3">tertiam</num></lem>
 <rdg wit="#BNa" cause="homeoarchy"/></app>  
-partem ut <app><lem wit="#e75 #e82 #BNa"><num type="cardinal" value="4">quaternarius</num> ad <num type="cardinal" value="3">trinarium</num></lem>
+partem ut <app><lem wit="#e75 #e82 #BNa #BNb"><num type="cardinal" value="4"><app><lem wit="#e75 #e82 #BNa">quaternarius</lem><rdg wit="#BNb" ana="#morphological">quaternarium</rdg></app></num> ad <num type="cardinal" value="3">trinarium</num></lem>
 <rdg wit="#Ghent" ana="#morphological"><num type="cardinal" value="4">quatuor</num> ad <num type="cardinal" value="3">tria</num></rdg>
 <rdg wit="#BNc" ana="#additive"><num type="cardinal" value="4">4</num> se habent ad <num type="cardinal" value="3">3</num></rdg></app>  
 <app><lem wit="#Ghent #BNa">superparticularis</lem>
-<rdg wit="#e75 #e82 #BNc" ana="#lexical">Superpartiens</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc">est</lem>
+<rdg wit="#e75 #e82 #BNb #BNc" ana="#lexical">Superpartiens</rdg></app>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">est</lem>
 <rdg wit="#BNa"/></app>  
-quando maior numerus continet minorem: et insuper <app><lem wit="#Ghent #e82">aliquas eius partes</lem>
-<rdg wit="#e75 #BNa" ana="#ordinal">eius aliquas partes</rdg>
+quando maior numerus continet minorem: et <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">insuper</lem>
+<rdg wit="#BNb" ana="#lexical">maxime</rdg></app>
+<app><lem wit="#e82 #Ghent">aliquas eius partes</lem>
+<rdg wit="#e75 #BNa #BNb" ana="#ordinal">eius aliquas partes</rdg>
 <rdg wit="#BNc" ana="#morphological #additive">aliquam eius partem seu partes</rdg></app>  
-ut <app><lem wit="#e75 #e82 #BNa"><num type="cardinal" value="2">duas</num></lem>
+ut <app><lem wit="#e75 #e82 #BNa #BNb"><num type="cardinal" value="2">duas</num></lem>
 <rdg wit="#BNc" ana="#lexical"><num type="cardinal" value="3">3<hi rend="superscript">as</hi>.</num></rdg>
 <rdg wit="#Ghent"/></app>
 <num type="cardinal" value="3">tres</num> etcetera. cuius species sunt <app><lem wit="#e75 #e82 #BNa #BNc">superbipartiens</lem>
+<rdg wit="#BNb" ana="#additive">ter bipartiens</rdg>
 <rdg wit="#Ghent" ana="#lexical #additive">subbipartiens Et</rdg></app>
-<app><lem wit="#e75 #e82 #BNc">supertripartiens</lem>
+<app><lem wit="#e75 #e82 #BNb #BNc">supertripartiens</lem>
 <rdg wit="#Ghent" ana="#orthographic">supertriparticiens</rdg>
 <rdg wit="#BNa" ana="#lexical">triparties</rdg></app>  
-<app><lem wit="#e75 #e82 #BNa #BNc">etcetera</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb #BNc">etcetera</lem>
 <rdg wit="#Ghent"/></app>
 <app><lem wit="#e75 #e82 #BNa #BNc">superbipartiens</lem>
+<rdg wit="#BNb" ana="#orthographic">Superbipertiens</rdg>
 <rdg wit="#Ghent" ana="#orthographic">Superbiparticiens</rdg></app>
-est cum <app><lem wit="#e75 #e82 #BNc">numerus</lem>
+est cum <app><lem wit="#e75 #e82 #BNb #BNc">numerus</lem>
 <rdg wit="#Ghent" ana="#additive">minor numerus</rdg></app>
 <milestone ed="#e82" unit="folio" n="C1r"/>
 <milestone ed="#e82" unit="column" n="A"/> 
-continet numerum semel: et <app><lem wit="#e75 #e82 #BNa #BNc">eius</lem>
+continet numerum semel: et <app><lem wit="#e75 #e82 #BNa #BNb #BNc">eius</lem>
 <rdg wit="#Ghent" ana="#lexical">etiam</rdg></app>
-<app><lem wit="#e75 #e82 #BNa #BNc"><num type="cardinal" value="2">duas</num></lem>
-<rdg wit="#Ghent" ana="#morphological"><num type="cardinal" value="2">due</num></rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNa">partes</lem>
+<num type="cardinal" value="2"><app><lem wit="#e75 #e82 #BNa #BNb #BNc">duas</lem>
+<rdg wit="#Ghent" ana="#morphological">due</rdg></app></num>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNb">partes</lem>
 <rdg wit="#BNc" ana="#additive">partes vltra</rdg></app>  
-ut <app><lem wit="#e75 #e82 #BNa"><num type="cardinal" value="5">quinarius</num> ad <num type="cardinal" value="3">trinarium</num> se habet.</lem>
+ut <app><lem wit="#e75 #e82 #BNa #BNb"><num type="cardinal" value="5">quinarius</num> ad <num type="cardinal" value="3">trinarium</num> se habet.</lem>
 <rdg wit="#Ghent" ana="#morphological"><num type="cardinal" value="5">quinque</num> ad <num type="cardinal" value="3">tria</num> se habet.</rdg>
 <rdg wit="#BNc" ana="#ordinal"><num type="cardinal" value="5">5</num> se habent ad <num type="cardinal" value="3">3</num></rdg></app>  
-<app><lem wit="#BNa #BNc">supertripartiens</lem>
+<app><lem wit="#BNa #BNb #BNc">supertripartiens</lem>
 <rdg wit="#Ghent" ana="#orthographic">supertripertiens</rdg>
 <rdg wit="#e75 #e82" ana="#additive">supertripartiens est</rdg></app>  
-quando <app><lem wit="#e75 #e82 #Ghent #BNa">semel continet</lem>
+quando <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">semel continet</lem>
 <rdg wit="#BNc" ana="#additive">unus continet numerum semel</rdg></app>  
-<app><lem wit="#e75 #e82 #Ghent #BNa">totum:</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNb">totum:</lem>
 <rdg wit="#BNc"/></app>  
-et <app><lem wit="#e75 #e82 #BNa">eius</lem>
+et <app><lem wit="#e75 #e82 #BNa #BNb">eius</lem>
 <rdg wit="#Ghent #BNc"/></app>
 <num type="cardinal" value="3">tres</num> partes: ut <num type="cardinal" value="7">septem</num> <app><lem wit="#e75 #e82 #Ghent #BNc">ad</lem> 
-<rdg wit="#BNa" ana="#additive">se habet ad</rdg></app>  
-<num type="cardinal" value="4">quatuor</num> <app><lem wit="#e75 #e82 #Ghent #BNc">superquadripartiens</lem>
+<rdg wit="#BNa #BNb" ana="#additive">se habet ad</rdg></app>  
+<num type="cardinal" value="4">quatuor</num> 
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">superquadripartiens</lem>
 <rdg wit="#BNa" ana="#lexical">supertripartiens</rdg></app>  
-<app><lem wit="#e75 #e82 #BNa">etcetera ut</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">etcetera ut</lem>
 <rdg wit="#BNc" ana="#lexical">sicut</rdg>
 <rdg wit="#Ghent" ana="#lexical">sicut etiam</rdg></app>
 <num type="cardinal" value="9">.ix.</num> <app><lem wit="#e75 #e82 #BNa #BNc"><app><lem wit="#e75 #BNa">se habet</lem>
+<rdg wit="#BNb" ana="#orthographic">se ha</rdg>
 <rdg wit="#e82" ana="#morphological">se habent</rdg><rdg wit="#BNc"/></app>  ad</lem>
 <rdg wit="#Ghent" ana="#lexical">Et</rdg></app>
 <num type="cardinal" value="5">.5.</num>   
      </p>
      <p>
-<app><lem wit="#e75 #e82 #BNa">Compositarum</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">Compositarum</lem>
 <rdg wit="#Ghent #BNc" ana="#morphological">Compositorum</rdg></app>
-uero multiplex superparticularis: est cum numerus <app><lem wit="#e75 #e82 #Ghent #BNc">maior continet</lem>
+uero multiplex superparticularis: est cum numerus <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">maior continet</lem>
 <rdg wit="#BNa" ana="#ordinal">continet maior</rdg></app>  
-<app><lem wit="#e75 #e82 #BNa #BNc">minorem</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb #BNc">minorem</lem>
 <rdg wit="#Ghent" ana="#additive">numerum minorem</rdg></app>
-totum <app><lem wit="#Ghent #e82 #BNa #BNc">multociens</lem>
+totum <app><lem wit="#e82 #Ghent #BNa #BNb #BNc">multociens</lem>
 <rdg wit="#e75" ana="#orthographic">multotiens</rdg></app>
-et insuper <app><lem wit="#e75 #e82 #BNa">aliquam</lem>
+et insuper <app><lem wit="#e75 #e82 #BNa #BNb">aliquam</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">aliam</rdg></app>
-partem <app><lem wit="#e75 #e82 #Ghent #BNc">eius</lem>
+partem <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">eius</lem>
 <rdg wit="#BNa"/></app>  
 ut medietatem uel <num type="#ordinal" value="3">tertiam</num> 
-<app><lem wit="#e75 #e82 #Ghent #BNc">et</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">et</lem>
 <rdg wit="#BNa" ana="#lexical">y.t.</rdg></app>  
-<app><lem wit="#e75 #e82 #BNa">huius</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">huius</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">huiusmodi</rdg></app>
      </p>
      <p>
-Huius autem <app><lem wit="#e75 #e82">species sunt <num type="ratio" value="5/2">duplex sexquialtera</num></lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNc">Huius</lem>
+<rdg wit="#BNb" ana="#lexical">Huiusmodi</rdg></app>
+autem <app><lem wit="#e75 #e82">species sunt <num type="ratio" value="5/2">duplex sexquialtera</num></lem>
 <rdg wit="#BNc" ana="#ordinal">sunt species <num type="ratio" value="5/2">duplex sexquialtera</num></rdg>
+<rdg wit="#BNb" ana="#subtractive">sunt <num type="ratio" value="5/2">duplex sexquialtera</num></rdg>
 <rdg wit="#BNa" ana="#additive" cause="dittography">species sunt <choice><sic>duplex sexquin alta duplex sexquialtera</sic><corr><num type="ratio" value="5/2">duplex sexquialtera</num></corr></choice></rdg>
 <rdg wit="#Ghent" ana="#lexical">sunt plures species <num type="ratio" value="3/2">sexquialtera</num></rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc"><num type="ratio" value="7/3">duplex sexquitertia</num> <num type="ratio" value="9/4">duplex sexquiquarta</num> etcetera. et id rationem <num type="ratio" value="2/1">duplicitatis:</num> ex parte uero <num type="ratio" value="3/1">triplicitatis</num></lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="ratio" value="7/3">duplex sexquitertia</num> <num type="ratio" value="9/4">duplex sexquiquarta</num> etcetera. et <app><lem wit="#e75 #e82 #Ghent #BNc">id rationem</lem>
+<rdg wit="#BNb" ana="#lexical #ordinal" cause="dittography">rationem ratione</rdg></app>
+<num type="ratio" value="2/1">duplicitatis:</num> ex parte uero <num type="ratio" value="3/1">triplicitatis</num></lem>
 <rdg wit="#BNa"/></app>  
-<num type="ratio" value="7/2">triplex sexquialtera:</num> 
-<app><lem wit="#e75 #e82 #Ghent #BNc"><num type="ratio" value="10/3">triplex sexquitertia</num></lem>
+<num type="ratio" value="7/2">triplex sexquialtera:</num> <app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="ratio" value="10/3">triplex sexquitertia</num></lem>
 <rdg wit="#BNa"/></app>  
 <app><lem wit="#e75 #e82 #Ghent #BNa">etcetera.</lem>
+<rdg wit="#BNb" ana="#additive">triplex etcetera.</rdg>
 <rdg wit="#BNc" ana="#lexical"><num type="ratio" value="13/4">triplex sexquiquarta.</num></rdg></app>  
-<app><lem wit="#e75 #e82 #BNa">Est</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">Est</lem>
 <rdg wit="#Ghent #BNc"/></app>
-<num type="ratio" value="5/2">duplex sexquialtera</num> quando maior numerus <app><lem wit="#Ghent #BNc">bis continet</lem>
+<num type="ratio" value="5/2">duplex sexquialtera</num> <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">quando</lem>
+<rdg wit="#BNb" ana="#additive">est quando</rdg></app>
+maior numerus <app><lem wit="#Ghent #BNc">bis continet</lem>
+<rdg wit="#BNb" ana="#subtractive">continet</rdg>
 <rdg wit="#e75 #e82 #BNa"/></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc">minorem</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">minorem</lem>
 <rdg wit="#BNa" ana="#additive">minorem se</rdg></app>  
-totum: et insuper eius <app><lem wit="#e75 #e82 #BNa #BNc">partem mediam</lem>
+totum: et insuper eius <app><lem wit="#e75 #e82 #BNa #BNb #BNc">partem mediam</lem>
 <rdg wit="#Ghent" ana="#subtractive">medium</rdg></app>
-ut <app><lem wit="#e75 #e82 #Ghent #BNa"><num type="cardinal" value="5">.5.</num> <app><lem wit="#Ghent">se habent</lem>
-<rdg wit="#BNa" ana="#orthographic">se habet</rdg><rdg wit="#e75 #e82"/></app> ad <num type="cardinal" value="2">2</num>.</lem>
+ut <app><lem wit="#e75 #e82 #Ghent #BNa #BNb"><num type="cardinal" value="5"><app><lem wit="#e75 #e82 #Ghent #BNa">.5.</lem><rdg wit="#BNb" ana="#morphological">quinarius</rdg></app></num> <app><lem wit="#Ghent">se habent</lem>
+<rdg wit="#BNa #BNb" ana="#orthographic">se habet</rdg><rdg wit="#e75 #e82"/></app> ad <num type="cardinal" value="2"><app><lem wit="#e75 #e82 #Ghent #BNa">2</lem><rdg wit="#BNb" ana="#morphological">binarium</rdg></app></num>.</lem>
 <rdg wit="#BNc" ana="#lexical"><num type="cardinal" value="10">10</num> ad <num type="cardinal" value="4">4</num></rdg></app>  
-<app><lem wit="#e75 #e82 #Ghent"><num type="ratio" value="7/3">duplex sexquitertia</num></lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb"><num type="ratio" value="7/3">duplex sexquitertia</num></lem>
 <rdg wit="#BNc" ana="#orthographic"><num type="ratio" value="7/3">duplasesquitertia</num></rdg>
 <rdg wit="#BNa" ana="#lexical"><num type="ratio" value="6/2">duplex sexquialtera</num> <num type="#ordinal" value="3">3a.</num></rdg></app>  
-<app><lem wit="#BNa">quando</lem>
+<app><lem wit="#BNa #BNb">quando</lem>
 <rdg wit="#e75 #e82" ana="#additive">est quando</rdg>
 <rdg wit="#Ghent" ana="#additive">quando ipsum</rdg>
 <rdg wit="#BNc" ana="#additive">quando maior numerus</rdg></app>  
-continet totum et <app><lem wit="#e75 #e82 #BNa">ipsius</lem>
+continet totum et <app><lem wit="#e75 #e82 #BNa #BNb">ipsius</lem>
 <rdg wit="#BNc" ana="#lexical">adhuc eius</rdg>
 <rdg wit="#Ghent" ana="#lexical">adhuc etiam totam</rdg></app>
 <num type="#ordinal" value="3">tertiam</num> partem: ut <app><lem wit="#e75 #e82 #Ghent #BNc"><num type="cardinal" value="7">septem</num></lem>
-<rdg wit="#BNa" ana="#additive"><num type="cardinal" value="7">septem</num> se habet</rdg></app>  
+<rdg wit="#BNa #BNb" ana="#additive"><num type="cardinal" value="7">septem</num> se habet</rdg></app>  
 ad <num type="cardinal" value="3">.3.</num> 
 <app><lem><num type="ratio" value="9/4">duplex sexquiquarta</num></lem>
 <rdg wit="#BNc" ana="#orthographic"><num type="ratio" value="9/4">duplasexquiquarta</num></rdg>
 <rdg wit="#Ghent" ana="#lexical">Dupla sexqui</rdg>
 <rdg wit="#BNa" ana="#lexical"><num type="ratio" value="6/2">2x. sexquialtera</num></rdg>
-<rdg wit="#e75 #e82" ana="#additive"><num type="ratio" value="9/4">duplex sexquiquarta</num> etcetera</rdg></app>  
-<app><lem wit="#e75 #e82 #Ghent #BNc">ut <num type="cardinal" value="9">.ix.</num> ad <num type="cardinal" value="4">quatuor</num> 
+<rdg wit="#e75 #e82 #BNb" ana="#additive"><num type="ratio" value="9/4">duplex sexquiquarta</num> etcetera</rdg></app>  
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">ut <num type="cardinal" value="9">.ix.</num> <app><lem wit="#e75 #e82 #Ghent #BNc">ad</lem>
+<rdg wit="#BNb" ana="#additive">se habet ad</rdg></app> <num type="cardinal" value="4">quatuor</num> 
 <app><lem><num type="ratio" value="10/3">triplex sexquitertia</num></lem>
 <rdg wit="#Ghent #BNc" ana="#orthographic"><num type="ratio" value="10/3">Tripla sexquitertia</num></rdg>
-<rdg wit="#e75 #e82" ana="#lexical"><num type="ratio" value="7/2">triplex sexquialtera</num></rdg></app></lem>
+<rdg wit="#e75 #e82 #BNb" ana="#lexical"><num type="ratio" value="7/2">triplex sexquialtera</num></rdg></app></lem>
 <rdg wit="#BNa" cause="homeoteleuton"/></app>  
-<app><lem wit="#e75 #e82 #BNa">est</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">est</lem>
 <rdg wit="#Ghent #BNc"/></app>
-quando <app><lem wit="#e75 #e82 #BNa">alter alterum continet totum</lem>
+quando <app><lem wit="#e75 #e82 #BNa #BNb">alter alterum continet totum</lem>
 <rdg wit="#BNc #Ghent" ana="#ordinal"><app><lem wit="#BNc">alter</lem>
 <rdg wit="#Ghent" ana="#morphological">alterum</rdg></app> continet alterum <app><lem wit="#Ghent">totum</lem>
 <rdg wit="#BNc" ana="#additive">totum ter</rdg></app></rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc">et</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">et</lem>
 <rdg wit="#BNa" ana="#lexical">ut</rdg></app>  
-adhuc eius <num type="#ordinal" value="3">tertiam</num> partem ut <app><lem wit="#e75 #e82 #Ghent"><num type="cardinal" value="10">decem</num></lem>
+adhuc eius <num type="#ordinal" value="3">tertiam</num> partem ut <app><lem wit="#e75 #e82 #Ghent #BNb"><num type="cardinal" value="10">decem</num></lem>
 <rdg wit="#BNc" ana="#orthographic"><del><num type="cardinal" value="4">4</num></del> <num type="cardinal" value="10">10</num></rdg>
 <rdg wit="#BNa" ana="#lexical"><num type="cardinal" value="4">4or.</num></rdg></app>  
 ad <num type="cardinal" value="3">tria</num>
@@ -4395,117 +4435,136 @@ ad <num type="cardinal" value="3">tria</num>
 <rdg wit="#BNc" ana="#orthographic"><num type="ratio" value="13/4">tripla sexquiquarta</num></rdg>
 <rdg wit="#e82" ana="#lexical"><num type="ratio" value="10/3">triplex sexquitertia</num></rdg>
 <rdg wit="#e75" ana="#lexical"><num type="ratio" value="10/3">triplex sequitertia</num></rdg>
-<rdg wit="#BNa" ana="#lexical"><num type="ratio" value="9/2">3x sexquialtera</num></rdg></app>
-quando <app><lem wit="#e75 #e82"><num type="#ordinal" value="4">quartam</num> partem continet</lem>
+<rdg wit="#BNa" ana="#lexical"><num type="ratio" value="7/2">3x sexquialtera</num></rdg>
+<rdg wit="#BNb" ana="#lexical"><num type="ratio" value="9/2">Quadruplex sexquialtera</num></rdg></app>
+<milestone ed="#BNb" unit="folio" n="183r"/>
+<milestone ed="#BNb" unit="column" n="A"/>
+quando <app><lem wit="#e75 #e82 #BNb"><num type="#ordinal" value="4">quartam</num> partem continet</lem>
 <rdg wit="#Ghent" ana="#ordinal">partem <num type="#ordinal" value="4">4am.</num> continet</rdg>
 <rdg wit="#BNa" ana="#subtractive">partem continet</rdg>
 <rdg wit="#BNc" ana="#lexical">continet minorem numerum ter et <num type="ordinal" value="4">4am.</num> partem</rdg></app>  
-ultra <app><lem wit="#e75 #e82 #Ghent #BNa">totum</lem>
+ultra <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">totum</lem>
 <rdg wit="#BNc"/></app>  
 ut <num type="cardinal" value="13">.13.</num> ad <num type="cardinal" value="4">quatuor</num>. 
-multiplex <app><lem wit="#e75 #e82 #BNc">superpartiens</lem>
+multiplex <app><lem wit="#e75 #e82 #BNb #BNc">superpartiens</lem>
 <rdg wit="#BNa" ana="#additve">est superpartiens</rdg>
 <rdg wit="#Ghent" ana="#lexical">superparticularis</rdg></app>
-<app><lem wit="#BNa">est cum</lem>
+<app><lem wit="#BNa #BNb">est cum</lem>
 <rdg wit="#e75 #e82" ana="#lexical">est quando</rdg>
 <rdg wit="#Ghent" ana="#subtractive">cum</rdg></app>
-maior numerus continet <app><lem wit="#e75 #e82 #Ghent #BNa">minorem</lem>
+maior numerus continet <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">minorem</lem>
 <rdg wit="#BNc" ana="#additive">minorem numerum</rdg></app>  
-plus quam semel uel <app><lem wit="#Ghent #e82 #BNa #BNc">multociens</lem>
+plus quam semel uel <app><lem wit="#e82 #Ghent #BNa #BNb #BNc">multociens</lem>
 <rdg wit="#e75" ana="#orthographic">multotiens</rdg></app>
-et <app><lem wit="#e75 #e82">plures cum hoc</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNc">et</lem>
+<rdg wit="#BNb" ana="#lexical">ut</rdg></app>
+<app><lem wit="#e75 #e82 #BNb">plures cum hoc</lem>
 <rdg wit="#BNc" ana="#ordinal">cum hoc plures</rdg>
 <rdg wit="#BNa" ana="#orthographic">pluries cum hoc</rdg>
 <rdg wit="#Ghent" ana="#morphological">plures cum hic</rdg></app>   
-<app><lem wit="#e75 #e82 #Ghent #BNa">ipsius</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNb">ipsius</lem>
 <rdg wit="#BNc" ana="#lexical">eius</rdg></app>  
-<app><lem wit="#e75 #e82 #Ghent #BNc">partes</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">partes</lem>
 <rdg wit="#BNa" ana="#orthographic">partem</rdg></app>  
-cuius etiam <app><lem wit="#e75 #e82 #BNa">infinite sunt</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNc">cuius</lem>
+<rdg wit="#BNb" ana="#lexical">et</rdg></app>
+etiam <app><lem wit="#e75 #e82 #BNa #BNb">infinite sunt</lem>
 <rdg wit="#Ghent #BNc" ana="#ordinal">sunt infinite</rdg></app>
 <milestone ed="#Ghent" unit="column" n="B"/>
 species ut <app><lem wit="#e75 #e82">duplex superbipartiens duplex supertripartiens etcetera</lem>
 <rdg wit="#BNc" ana="#lexical">duplex superpartiens triplex superpartiens etceteriis</rdg>
-<rdg wit="#BNa" ana="#subtractive">duplex superparties etcetera</rdg>
+<rdg wit="#BNb" ana="#additive">duplex superpartiens etcetera duplex supertripartiens etcetera</rdg>
+<rdg wit="#BNa" ana="#subtractive">duplex superpartiens etcetera</rdg>
 <rdg wit="#Ghent" ana="#lexical">duplex superparticularis</rdg></app>
-et <app><lem wit="#Ghent #BNa #BNc">id</lem>
+et <app><lem wit="#Ghent #BNa #BNb #BNc">id</lem>
 <rdg wit="#e75 #e82" ana="#lexical">illud</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc">ratione</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">ratione</lem>
 <rdg wit="#BNa" ana="#morphological">ratio</rdg></app>  
-<num type="ratio" value="2/1">duplicitatis.</num> ex parte <app><lem wit="#Ghent #BNa">quidem</lem>
+<num type="ratio" value="2/1">duplicitatis.</num> ex parte <app><lem wit="#Ghent #BNa #BNb">quidem</lem>
 <rdg wit="#BNc" ana="#lexical">quidam</rdg>
 <rdg wit="#e75 #e82" ana="#lexical">uero</rdg></app>
-<num type="ratio" value="3/1">triplicitatis</num> erunt <app><lem wit="#e75 #e82 #Ghent #BNc">triplex superbipartiens.</lem>
+<num type="ratio" value="3/1">triplicitatis</num> erunt <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">triplex superbipartiens.</lem>
 <rdg wit="#BNa" ana="#lexical">triplex sibi partiens</rdg></app>  
-<app><lem wit="#e75 #BNa #BNc">triplex supertripartiens</lem>
+<app><lem wit="#e75 #BNa #BNb #BNc">triplex supertripartiens</lem>
 <rdg wit="#Ghent" ana="#lexical">triplex superpartiens</rdg>
 <rdg wit="#e82"/></app>
-<app><lem wit="#e75 #e82 #BNa">etcetera</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">etcetera</lem>
 <rdg wit="#Ghent #BNc"/></app> 
-Duplex superbipartiens est quando numerus maior continet <app><lem wit="#Ghent #BNc">bis</lem>
-<rdg wit="#e75 #e82 #BNa"/></app>
+<num type="ratio" value="8/3">Duplex superbipartiens</num> est quando numerus maior continet <app><lem wit="#Ghent #BNc">bis</lem>
+<rdg wit="#e75 #e82 #BNa #BNb"/></app>
 minorem: 
 <milestone ed="#BNc" unit="column" n="B"/>
 et insuper <num type="cardinal" value="2">duas</num> eius partes ut <num type="cardinal" value="8">octo</num> <app><lem wit="#Ghent #BNc">se habent</lem>
-<rdg wit="#BNa" ana="#orthographic">se habet</rdg>
+<rdg wit="#BNa #BNb" ana="#morphological">se habet</rdg>
 <rdg wit="#e75 #e82"/></app> 
 ad <app><lem wit="#e75 #e82 #Ghent #BNc"><num type="cardinal" value="3">tres</num>.</lem>
 <rdg wit="#BNa" ana="#morphological"><num type="cardinal" value="3">3am</num>.</rdg></app>  
 Duplex supertripartiens <app><lem wit="#Ghent #BNc">est</lem>
 <rdg wit="#BNa" ana="#additive">est quando</rdg>
-<rdg wit="#e75 #e82" ana="#lexical">etcetera</rdg></app>   
-<app><lem wit="#e75 #e82 #Ghent #BNc">ut <num type="cardinal" value="11">xi.</num> <app><lem wit="#Ghent #BNc">se habent</lem>
-<rdg wit="#e75 #e82"/></app> ad <app><lem wit="#Ghent #BNc"><num type="cardinal" value="4">4or.</num></lem>
-<rdg wit="#e75 #e82" ana="#lexical"><num type="cardinal" value="3">.3.</num></rdg></app>  <app><lem wit="#e75 #e82">Quadruplex superbipartiens est quando</lem><rdg wit="#Ghent" ana="#lexical">Triplex superparticiens alias supereriparticiens</rdg><rdg wit="#BNc" ana="#lexical">triplex supertripartiens</rdg></app></lem>
+<rdg wit="#e75 #e82 #BNb" ana="#lexical">etcetera</rdg></app>   
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">ut <num type="cardinal" value="11">xi.</num> <app><lem wit="#Ghent #BNc">se habent</lem><rdg wit="#BNb" ana="#morphological">se habet</rdg><rdg wit="#e75 #e82"/></app> ad <app><lem wit="#Ghent #BNc"><num type="cardinal" value="4">4or.</num></lem>
+<rdg wit="#e75 #e82 #BNb" ana="#lexical"><num type="cardinal" value="3">.3.</num></rdg></app>  
+<app><lem wit="#e75 #e82">Quadruplex superbipartiens est quando</lem><rdg wit="#BNb" ana="#subtractive">Quadruplexsuperibipartiens</rdg><rdg wit="#Ghent" ana="#lexical">Triplex superparticiens alias supereriparticiens</rdg><rdg wit="#BNc" ana="#lexical">triplex supertripartiens</rdg></app></lem>
 <rdg wit="#BNa" cause="homeoarchon"/></app> 
-etcetera ut <num type="cardinal" value="15">.15.</num> <app><lem wit="#Ghent">se habent</lem>
+etcetera ut <num type="cardinal" value="15">.15.</num> <app><lem wit="#Ghent #BNb">se habent</lem>
 <rdg wit="#BNa" ana="#morphological">se habet</rdg>
 <rdg wit="#e75 #e82 #BNc"/></app>
-ad <num type="cardinal" value="4">quatuor</num>. <app><lem wit="#e75 #Ghent #BNa #BNc">Hee</lem>
+ad <num type="cardinal" value="4">quatuor</num>. <app><lem wit="#e75 #Ghent #BNa #BNb #BNc">Hee</lem>
 <rdg wit="#e82" ana="#orthographic">He</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNa">quidem</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNb">quidem</lem>
 <rdg wit="#BNc" ana="#lexical">quidam</rdg></app>  
-sunt numerorum inequalitates ex quibus <app><lem wit="#e75 #e82 #BNa"><num type="cardinal" value="5">quinque</num></lem>
+sunt numerorum inequalitates ex quibus <app><lem wit="#e75 #e82 #BNa #BNb"><num type="cardinal" value="5">quinque</num></lem>
 <rdg wit="#Ghent #BNc"/></app>
-resultant proportiones <app><lem wit="#Ghent #e75 #BNa #BNc">arismetrice</lem>
+resultant proportiones <app><lem wit="#Ghent #e75 #BNa #BNb #BNc">arismetrice</lem>
 <rdg wit="#e82" ana="#orthographic">arithmetice</rdg></app>
-cum suis oppositis antedictis.   Restat <app><lem wit="#e75 #e82">breuiter quidem uidere <num type="#ordinal" value="2">secundo</num></lem>
+cum <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">suis oppositis</lem>
+<rdg wit="#BNb" ana="#lexical #subtractive">optis</rdg></app>
+antedictis.   
+  </p>
+  <p>
+Restat <app><lem wit="#e75 #e82 #BNb">breuiter quidem uidere <num type="#ordinal" value="2">secundo</num></lem>
 <rdg wit="#BNa" ana="#ordinal">quidem breuiter uidere <num type="#ordinal" value="2">secundo</num></rdg>
 <rdg wit="#Ghent" ana="#subtractive">breuiter <num type="#ordinal" value="2">2°</num> uidere</rdg>
 <rdg wit="#BNc" ana="#subtractive">breuiter videre</rdg></app>
-<app><lem wit="#e75 #e82 #BNa">quot et que</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">quot et que</lem>
 <rdg wit="#Ghent #BNc" ana="#ordinal">que et quot sunt</rdg></app>
-ex hiis <app><lem wit="#e75 #e82 #BNa">sint</lem>
+ex <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">hiis</lem>
+<rdg wit="#BNb" ana="#lexical">istis</rdg></app>
+<app><lem wit="#e75 #e82 #BNa #BNb">sint</lem>
 <rdg wit="#Ghent #BNc"/></app>
 <app><lem wit="#Ghent #BNc">consonantie</lem>
-<rdg wit="#e75 #e82 #BNa " ana="#additive">consonantie siue simphonie</rdg></app>
-musicales <app><lem wit="#e75 #e82 #BNa #BNc">et</lem>
+<rdg wit="#e75 #e82 #BNa #BNb" ana="#additive">consonantie siue simphonie</rdg></app>
+musicales <app><lem wit="#e75 #e82 #BNa #BNb #BNc">et</lem>
 <rdg wit="#Ghent"/></app>
-a quibus <app><lem wit="#e75 #e82 #Ghent #BNc">proportionibus</lem>
+a quibus <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">proportionibus</lem>
 <rdg wit="#BNa"/></app>  
 sumantur.   
      </p>
      <p>
 <app><lem wit="#Ghent #e75">Arismetricum</lem>
 <rdg wit="#e82" ana="#orthographic">Arithmeticum</rdg>
-<rdg wit="#BNa #BNc" ana="#morphological">arismetricis</rdg></app>  
-secundum <app><lem wit="#e75 #e82 #Ghent #BNc">quidem</lem>
+<rdg wit="#BNa #BNb #BNc" ana="#morphological">arismetricis</rdg></app>  
+secundum <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">quidem</lem>
 <rdg wit="#BNa" ana="#lexical">quod</rdg></app>  
-<persName ref="#Mac">macrobium</persName> et <persName ref="#Bo">Boecium</persName> ex omni numerorum uarietate pauci <app><lem wit="#e75 #e82 #BNa">numeri</lem>
+<persName ref="#Mac">macrobium</persName> et <persName ref="#Bo">Boecium</persName> ex omni numerorum uarietate pauci <app><lem wit="#e75 #e82 #BNa #BNb">numeri</lem>
 <rdg wit="#Ghent #BNc"/></app>
-reperiuntur qui conueniant sibi ad <app><lem wit="#e75 #e82 #BNa #BNc">consonantiam</lem>
+reperiuntur qui conueniant sibi ad <app><lem wit="#e75 #e82 #BNa #BNb #BNc">consonantiam</lem>
 <rdg wit="#Ghent" ana="#lexical">confouentiam</rdg></app>
-musicalem constituendam. sunt autem hii <num type="cardinal" value="6">sex</num> <app><lem wit="#e75 #e82 #BNa">omnes</lem>
+musicalem constituendam. sunt <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">autem</lem>
+<rdg wit="#BNb"/></app>
+hii <num type="cardinal" value="6">sex</num> <app><lem wit="#e75 #e82 #BNa #BNb">omnes</lem>
 <rdg wit="#Ghent #BNc" ana="#morphological">omnis</rdg></app>
-iuxta <app><lem wit="#e75 #e82 #Ghent #BNc">quos</lem>
+iuxta <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">quos</lem>
 <rdg wit="#BNa" ana="#morphological">quas</rdg></app>  
-<app><lem wit="#e75 #e82 #Ghent #BNc"><num type="cardinal" value="5">quinque</num> consonantie</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="cardinal" value="5">quinque</num> consonantie</lem>
 <rdg wit="#BNa" ana="#ordinal">consonantie <num type="cardinal" value="5">quinque</num></rdg></app>  
-constituuntur: et tonus ex quo <app><lem wit="#e75 #e82 #BNa">constituunt</lem>
+constituuntur: et tonus ex quo <app><lem wit="#e75 #e82 #BNa #BNb">constituunt</lem>
 <rdg wit="#Ghent #BNc" ana="#morphological">constituitur</rdg></app>
-<app><lem wit="#Ghent #e82 #BNc">dyatonum</lem>
+<app><lem wit="#e82 #Ghent #BNb #BNc">dyatonum</lem>
 <rdg wit="#e75 #BNa" ana="#orthographic">diatonum</rdg></app>
-scilicet <num type="ratio" value="4/3">Epitricus</num>: <num type="ratio" value="3/2">emiolus</num>: <num type="ratio" value="2/1">duplaris</num>: <num type="ratio" value="3/1">triplaris</num>: <num type="ratio" value="4/1"><app><lem wit="#e75">quadruplus</lem>
+scilicet <num type="ratio" value="4/3"><app><lem wit="#e75 #e82 #Ghent #BNa #BNc">Epitricus:</lem>
+<rdg wit="#BNb" ana="#orthographic">epitritus.</rdg></app></num>
+<num type="ratio" value="3/2">emiolus</num>: <num type="ratio" value="2/1">duplaris</num>: <num type="ratio" value="3/1">triplaris</num>: <num type="ratio" value="4/1"><app><lem wit="#e75 #BNb">quadruplus</lem>
 <rdg wit="#Ghent" ana="#orthographic">quadruplum</rdg>
 <rdg wit="#e82" ana="#orthographic">quadruplex</rdg>
 <rdg wit="#BNa" ana="#orthographic">quadruplarus</rdg>
@@ -4513,281 +4572,321 @@ scilicet <num type="ratio" value="4/3">Epitricus</num>: <num type="ratio" value=
 <num type="ratio" value="9/8"><app><lem wit="#e75 #e82">epodous</lem>
 <rdg wit="#BNa" ana="#orthographic">epogdoii</rdg>
 <rdg wit="#Ghent" ana="#orthographic">Epogdonum</rdg>
+<rdg wit="#BNb" ana="#orthographic">epogodus</rdg>
 <rdg wit="#BNc" ana="#orthographic"><del>epidog</del> epogdonium</rdg></app></num>
      </p>
      <p>
-<num type="ratio" value="4/3">Epitricus</num> 
+<num type="ratio" value="4/3"><app><lem wit="#e75 #e82 #Ghent #BNa #BNc">Epitricus</lem>
+<rdg wit="#BNb" ana="#orthographic">Epicritus</rdg></app></num> 
 <milestone ed="#BNa" unit="folio" n="157v"/>
 <milestone ed="#BNa" unit="column" n="A"/>
-<app><lem wit="#e75 #e82 #BNc">uel</lem>
+<app><lem wit="#e75 #e82 #BNb #BNc">uel</lem>
 <rdg wit="#Ghent" ana="#lexical">seu</rdg>
 <rdg wit="#BNa" ana="#lexical">et</rdg></app>  
-<app><lem wit="#Ghent #e82"><num type="ratio" value="4/3">sexquitertius</num></lem>
+<app><lem wit="#e82 #Ghent #BNb"><num type="ratio" value="4/3">sexquitertius</num></lem>
 <rdg wit="#BNc" ana="#orthographic"><num type="ratio" value="4/3">sequitertius</num></rdg>
 <rdg wit="#e75" ana="#orthographic"><num type="ratio" value="4/3">sexquitricius</num></rdg>
 <rdg wit="#BNa" ana="#lexical">sex quinitus</rdg></app>  
-est ut aliqualiter iam patuit cum maior numerus continet minorem totum: et eius <num type="#ordinal" value="3">tertiam</num> partem ut <num type="cardinal" value="4">quatuor</num> <app><lem wit="#e75 #e82 #Ghent #BNc">ad</lem>
-<rdg wit="#BNa" ana="#additive">se ad</rdg></app>  
-<num type="cardinal" value="3">tria</num> ex quo nascitur <app><lem wit="#e75 #e82 #BNc">simphonia uel consonantia</lem>
-<rdg wit="#Ghent" ana="#lexical">consonantia seu symphonia</rdg>
+est ut aliqualiter iam <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">patuit</lem>
+<rdg wit="#BNb" ana="#lexical">paruit</rdg></app>
+cum maior numerus continet minorem totum: et eius <num type="#ordinal" value="3">tertiam</num> partem ut <num type="cardinal" value="4">quatuor</num> <app><lem wit="#e75 #e82 #Ghent #BNc">ad</lem>
+<rdg wit="#BNa" ana="#additive">se ad</rdg>
+<rdg wit="#BNb" ana="#additive">se habet ad</rdg></app> 
+<num type="cardinal" value="3">tria</num> ex quo nascitur <app><lem wit="#e75 #e82 #BNb #BNc"><app><lem wit="#e75 #e82 #BNc">simphonia</lem>
+<rdg wit="#BNb" ana="#orthographic">symphonia</rdg></app> uel consonantia</lem>
+<rdg wit="#Ghent" ana="#ordinal #lexical">consonantia seu symphonia</rdg>
 <rdg wit="#BNa" ana="#subtractive">simphonia consonantia</rdg></app>  
 <app><lem wit="#Ghent">dicta dyatesseron</lem>
 <rdg wit="#e82" ana="#orthographic">dicta dyatesseron</rdg>
 <rdg wit="#e75 #BNc" ana="#orthographic">dicta diatesseron</rdg>
-<rdg wit="#BNa" ana="#orthographic">dyatesseroen dicta</rdg></app>  
-id est <app><lem wit="#e75 #e82 #Ghent #BNc">per <num type="cardinal" value="4">quatuor</num></lem>
+<rdg wit="#BNb" ana="#ordinal">dyatesseron dicta</rdg>
+<rdg wit="#BNa" ana="#ordinal #orthographic">dyatesseroen dicta</rdg></app>  
+id est <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">per <num type="cardinal" value="4">quatuor</num></lem>
 <rdg wit="#BNa" ana="#additive">per <num type="cardinal" value="4">quatuor</num> et per <num type="ordinal" value="3">3am.</num></rdg></app>
-que in <app><lem wit="#e75 #e82 #Ghent #BNc"><num type="ratio" value="4/3">sexquitertia</num> proportione</lem>
+que in <app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="ratio" value="4/3">sexquitertia</num> proportione</lem>
 <rdg wit="#BNa" ana="#morphological"><num type="ratio" value="4/3">sexquitertiam</num> proportionem</rdg></app>
 consistit ut cum una uox in grauitate 
-<app><lem wit="#e75 #e82 #BNa #BNc">uel</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb #BNc">uel</lem>
 <rdg wit="#Ghent" ana="#lexical">seu</rdg></app>
 acuitate <app><lem wit="#e75 #e82 #Ghent #BNc"><app><lem wit="#e75 #e82 #Ghent">se habuerit ad aliam sicut</lem>
-<rdg wit="#BNc" ana="#ordinal">ad aliam se habuerit scilicet</rdg></app> <num type="cardinal" value="4">quatuor</num> ad <num type="cardinal" value="3">tria</num>.</lem>
+<rdg wit="#BNb" ana="#morphological">se habet ad aliam sicut</rdg>
+<rdg wit="#BNc" ana="#ordinal #lexical">ad aliam se habuerit scilicet</rdg></app> <num type="cardinal" value="4">quatuor</num> ad <num type="cardinal" value="3">tria</num>.</lem>
 <rdg wit="#BNa" ana="#subtractive">se</rdg></app>
      </p>
      <p>
-<app><lem wit="#e75 #e82 #Ghent #BNc">Iuxta uero <num type="ratio" value="3/2">emiolam</num> uel <num type="ratio" value="3/2">sexquialteram</num> ut cum maior numerus</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">Iuxta uero <num type="ratio" value="3/2">emiolam</num> uel <num type="ratio" value="3/2">sexquialteram</num> ut cum maior numerus</lem>
 <rdg wit="#BNa"/></app>
-<app><lem wit="#e75 #e82 #BNa">minorem continet</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">minorem continet</lem>
 <rdg wit="#Ghent #BNc" ana="#ordinal">continet minorem</rdg></app>
 totum et <app><lem wit="#e75 #e82 #BNa">medietatem ipsius</lem>
-<rdg wit="#Ghent #BNc" ana="#ordinal">ipsius medietatem</rdg></app>
+<rdg wit="#Ghent #BNc" ana="#ordinal">ipsius medietatem</rdg>
+<rdg wit="#BNb" ana="#subtractive">medieatatem</rdg></app>
 <app><lem wit="#e75 #e82">ceu</lem>
-<rdg wit="#BNa" ana="#additive">ceu se habet</rdg>
+<rdg wit="#BNa #BNb" ana="#additive">ceu se habet</rdg>
 <rdg wit="#Ghent #BNc" ana="#lexical">ut</rdg></app>
-<num type="cardinal" value="3">tria</num> ad <num type="cardinal" value="2">duo</num> oritur consonantia dicta <app><lem wit="#Ghent #e82 #BNc">dyapente</lem>
+<num type="cardinal" value="3">tria</num> ad <num type="cardinal" value="2">duo</num> oritur consonantia dicta <app><lem wit="#e82 #Ghent #BNb #BNc">dyapente</lem>
 <rdg wit="#e75 #BNa" ana="#orthographic">diapente</rdg></app>
-uel <app><lem wit="#e75 #e82 #BNa #BNc">per</lem>
+uel <app><lem wit="#e75 #e82 #BNa #BNb #BNc">per</lem>
 <rdg wit="#Ghent"/></app>
 <app><lem wit="#Ghent #BNa">quandoque</lem>
-<rdg wit="#e75 #e82" ana="#lexical"><num type="cardinal" value="5">quinque</num></rdg>
+<rdg wit="#e75 #e82 #BNb" ana="#lexical"><num type="cardinal" value="5">quinque</num></rdg>
 <rdg wit="#BNc" ana="#lexical">communionem</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNa">in <num type="#ordinal" value="5">quinto</num> enim loco terminatur</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNb">in <num type="#ordinal" value="5">quinto</num> enim loco terminatur</lem>
 <rdg wit="#BNc" ana="#subtractive">terminatur in <num type="ordinal" value="5">5°.</num> loco</rdg></app>
-in <app><lem wit="#Ghent #BNc">monocordo</lem>
+in <app><lem wit="#Ghent #BNb #BNc">monocordo</lem>
 <rdg wit="#e75 #e82" ana="#orthographic">monacordo</rdg>
 <rdg wit="#BNa" ana="#orthographic">monacerdo</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNa">sicut</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNb">sicut</lem>
 <rdg wit="#BNc" ana="#orthographic"><del>d</del> sicut</rdg></app>
-<app><lem wit="#Ghent #e82 #BNa">dyatesseron</lem>
+<app><lem wit="#e82 #Ghent #BNa #BNb">dyatesseron</lem>
 <rdg wit="#e75" ana="#orthographic">diatesseron</rdg></app>
-in <app><lem wit="#e75 #e82 #Ghent"><num type="#ordinal" value="4">quarto</num></lem>
+in <app><lem wit="#e75 #e82 #Ghent #BNb"><num type="#ordinal" value="4">quarto</num></lem>
 <rdg wit="#BNc" ana="#morphological"><num type="ordinal" value="4">quarta</num></rdg>
 <rdg wit="#BNa" ana="#morphological"><num type="cardinal" value="4">4or.</num></rdg></app>
-<app><lem wit="#e75 #e82 #BNa">ceu</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">ceu</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">seu</rdg></app>
 <app><lem wit="#e75 #e82 #Ghent #BNc">cum</lem>
+<rdg wit="#BNb" ana="#lexical">ut</rdg>
 <rdg wit="#BNa"/></app>
-Vna <app><lem wit="#Ghent #BNa #BNc">vox</lem>
+una <app><lem wit="#Ghent #BNa #BNb #BNc">vox</lem>
 <rdg wit="#e75 #e82"/></app>
-se habuerit ad aliam in <app><lem wit="#e75 #e82 #Ghent #BNc">grauitate et leuitate</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNc">se habuerit</lem>
+<rdg wit="#BNb"/></app>
+ad aliam <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">in</lem>
+<rdg wit="#BNb"/></app>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">grauitate et leuitate</lem>
 <rdg wit="#BNa" ana="#morphological #ordinal">leuitatem et grauitatem</rdg></app>
-etcetera. secundum <app><lem wit="#e75 #e82 #Ghent #BNc">siquidem</lem>
+etcetera. secundum <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">siquidem</lem>
 <rdg wit="#BNa" ana="#lexical"><num type="cardinal" value="44">44.</num> quidem</rdg></app>
-<num type="ratio" value="2/1">duplarem</num> numerum uel proportionem ut <num type="cardinal" value="4">quatuor</num> <app><lem wit="#Ghent #BNc">se habent</lem>
-<rdg wit="#BNa" ana="#morphological">se habet</rdg>
+<num type="ratio" value="2/1">duplarem</num> numerum <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">uel</lem>
+<rdg wit="#BNb" ana="#lexical">secundum</rdg></app>
+proportionem ut <num type="cardinal" value="4">quatuor</num> <app><lem wit="#Ghent #BNc">se habent</lem>
+<rdg wit="#BNa #BNb" ana="#morphological">se habet</rdg>
 <rdg wit="#e75 #e82"/></app>
-ad <num type="cardinal" value="2">duo</num> sumitur pro<milestone ed="#e75" unit="column" n="B" break="no"/>portio <app><lem wit="#Ghent #e82 #BNc">dyapason</lem>
+ad <num type="cardinal" value="2">duo</num> sumitur pro<milestone ed="#e75" unit="column" n="B" break="no"/>portio <app><lem wit="#e82 #Ghent #BNc">dyapason</lem>
+<rdg wit="#BNb" ana="#orthographic">dyapasson</rdg>
 <rdg wit="#e75 #BNa" ana="#orthographic">diapason</rdg></app>
-siue <app><lem wit="#e75 #e82 #Ghent #BNc">per</lem>
+siue <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">per</lem>
 <rdg wit="#BNa"/></app>
-totum. terminat enim <app><lem wit="#e75 #e82 #BNa">et</lem>
+totum. terminat enim <app><lem wit="#e75 #e82 #BNa #BNb">et</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">uel</rdg></app>
-continet totum <app><lem wit="#BNa #BNc">monacordum</lem>
+continet totum <app><lem wit="#BNa #BNb  #BNc">monacordum</lem>
 <rdg wit="#e75 #e82" ana="#orthographic">monacordium</rdg>
 <rdg wit="#Ghent" ana="#orthographic">monocordum</rdg></app>
-et maxime primum. cadit enim super <app><lem wit="#e75 #e82"><num type="cardinal" value="8">octo</num></lem>
-<rdg wit="#Ghent #BNc" ana="#lexical"><num type="cardinal" value="4">4</num></rdg>
-<rdg wit="#BNa" ana="#lexical">scilicet</rdg></app>
-incipiens <app><lem wit="#e75 #e82 #Ghent">a gama</lem>
+et maxime primum. cadit enim super <app><lem wit="#e75 #e82 #BNb"><num type="cardinal" value="8">octo</num></lem>
+<rdg wit="#BNa" ana="#lexical">scilicet</rdg>
+<rdg wit="#Ghent #BNc" ana="#lexical"><num type="cardinal" value="4">4</num></rdg></app>
+incipiens <app><lem wit="#e75 #e82 #Ghent #BNb">a gama</lem>
 <rdg wit="#BNc" ana="#lexical">in gama</rdg>
 <rdg wit="#BNa" ana="#lexical">agamo</rdg></app>
-Greco <app><lem wit="#Ghent #BNa #BNc">scilicet</lem>
+greco <app><lem wit="#Ghent #BNa #BNb #BNc">scilicet</lem>
 <rdg wit=" #e75 #e82"/></app> 
-iuxta <app><lem wit="#e75 #e82 #BNa">uero <num type="ratio" value="3/1">triplarem</num></lem>
+iuxta <app><lem wit="#e75 #e82 #BNa #BNb">uero <num type="ratio" value="3/1">triplarem</num></lem>
 <rdg wit="#BNc" ana="#ordinal"><num type="ratio" value="3/1">triplarem</num> vero</rdg>
 <rdg wit="#Ghent" ana="#ordinal #orthographic"><num type="ratio" value="3/1">triplarum</num> vero</rdg></app>
-numerum <app><lem wit="#e75 #e82 #BNa #BNc">seu</lem>
+numerum <app><lem wit="#e75 #e82 #BNa #BNb #BNc">seu</lem>
 <rdg wit="#Ghent" ana="#lexical">siue</rdg></app>
 proportionem ut cum numerus <app><lem wit="#BNa #BNc">se habet</lem>
-<rdg wit="#e75 #e82" ana="#morphological">se habeat</rdg>
+<rdg wit="#e75 #e82 #BNb" ana="#morphological">se habeat</rdg>
 <rdg wit="#Ghent"/></app>
-ad numerum <app><lem wit="#e75 #e82 #BNa">ceu</lem>
+ad numerum <app><lem wit="#e75 #e82 #BNa #BNb">ceu</lem>
 <rdg wit="#Ghent" ana="#lexical">sicut</rdg>
 <rdg wit="#BNc" ana="#lexical">ut</rdg></app>
 <num type="cardinal" value="3">tria</num>
 <milestone ed="#e82" unit="column" n="B"/> 
 ad <num type="cardinal" value="1">vnum</num>. com<milestone ed="#Ghent" unit="folio" n="238v" break="no"/><milestone ed="#Ghent" unit="column" n="A" break="no"/>ponitur enim ex multiplici et superparticulari <app><lem wit="#e75 #e82 #BNa">sicut se habet <num type="cardinal" value="3">tria</num> ad <num type="cardinal" value="1">vnum</num></lem>
+<rdg wit="#BNb" ana="#ordinal">sicut habet se <num type="cardinal" value="3">tria</num> ad <num type="cardinal" value="1">unum</num></rdg>
 <rdg wit="#Ghent #BNc"/></app>
 nascitur <app><lem wit="#e75 #e82 #BNa #BNc">simphonia</lem>
-<rdg wit="#Ghent" ana="#orthographic">symphonia</rdg></app>
+<rdg wit="#Ghent #BNb" ana="#orthographic">symphonia</rdg></app>
 composita <app><lem wit="#e75 #e82 #Ghent #BNc">ex</lem>
-<rdg wit="#BNa" ana="#lexical">ut</rdg></app>
-<app><lem wit="#Ghent #e82">dyapente</lem>
+<rdg wit="#BNa #BNb" ana="#lexical">ut</rdg></app>
+<app><lem wit="#e82 #Ghent #BNb">dyapente</lem>
 <rdg wit="#e75 #BNa" ana="#orthographic #BNc">diapente</rdg></app>
 <app><lem wit="#e75 #e82 #Ghent #BNc">et</lem>
-<rdg wit="#BNa"/></app>
-dyapason: ut quando <app><lem wit="#e75 #e82 #BNa">vna</lem>
+<rdg wit="#BNa #BNb"/></app>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNc">dyapason: </lem>
+<rdg wit="#BNb" ana="#orthographic">dyapasson</rdg></app>
+ut quando <app><lem wit="#e75 #e82 #BNa #BNb">vna</lem>
 <rdg wit="#Ghent #BNc"/></app>
-uox excedit <app><lem wit="#Ghent #BNa #BNc">alteram</lem>
+uox excedit <app><lem wit="#Ghent #BNa #BNb #BNc">alteram</lem>
 <rdg wit="#e75 #e82" ana="#lexical">aliam</rdg></app>
-etcetera.   Iuxta uero numerum <app><lem wit="#e75 #e82 #BNa #BNc"><num type="ratio" value="4/1">quadruplum</num></lem>
+etcetera.   Iuxta uero numerum <app><lem wit="#e75 #e82 #BNa #BNb #BNc"><num type="ratio" value="4/1">quadruplum</num></lem>
 <rdg wit="#Ghent" ana="#additive"><num type="ratio" value="4/1">quadruplum</num> vt</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc">cum</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">cum</lem>
 <rdg wit="#BNa" ana="#lexical">est</rdg></app>
-vnus alium <app><lem wit="#e75 #e82 #Ghent #BNc">quater</lem>
+vnus alium <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">quater</lem>
 <rdg wit="#BNa" ana="#lexical"><num type="ratio" value="4/1">quadruplum</num></rdg></app>
-continet ut <num type="cardinal" value="4">quatuor</num> <app><lem wit="#Ghent #BNa #BNc">se habet</lem>
+continet ut <num type="cardinal" value="4">quatuor</num> <app><lem wit="#Ghent #BNa #BNb #BNc">se habet</lem>
 <rdg wit="#e75 #e82"/></app>
 ad <num type="cardinal" value="1">vnum</num> oritur <app><lem wit="#e75 #e82 #Ghent">bis dyapason.</lem>
-<rdg wit="#BNa #BNc" ana="#orthographic">bis diapason.</rdg></app>
+<rdg wit="#BNa #BNc" ana="#orthographic">bis diapason.</rdg>
+<rdg wit="#BNb" ana="#orthographic">bis dyapasson</rdg></app>
      </p>
      <p>
 <num type="ratio" value="9/8"><app><lem wit="#Ghent">Epogdous</lem>
 <rdg wit="#BNc" ana="#orthographic">Epogdonius</rdg>
 <rdg wit="#BNa" ana="#orthographic">Epogonus</rdg>
-<rdg wit="#e75 #e82" ana="#orthographic">Epodous</rdg></app></num>
+<rdg wit="#e75 #e82" ana="#orthographic">Epodous</rdg>
+<rdg wit="#BNb" ana="#lexical">Epogodus</rdg></app></num>
 est numerus qui <app><lem wit="#Ghent #BNa #BNc">inter</lem>
-<rdg wit="#e75 #e82" ana="#lexical">intra</rdg></app>
+<rdg wit="#e75 #e82 #BNb" ana="#lexical">intra</rdg></app>
 se minorem <app><lem wit="#e75 #e82">conclaudit</lem>
-<rdg wit="#BNa" ana="#orthographic">concludit</rdg>
+<rdg wit="#BNa #BNb" ana="#orthographic">concludit</rdg>
 <rdg wit="#BNc" ana="#lexical">concidet</rdg>
 <rdg wit="#Ghent" ana="#lexical">continet</rdg></app>
-et insuper <app><lem wit="#e75 #e82 #Ghent #BNc"><num type="#ordinal" value="8">octauam</num></lem>
+et insuper <app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="#ordinal" value="8">octauam</num></lem>
 <rdg wit="#BNa" ana="#lexical">scilicet</rdg></app>
-eius partem <app><lem wit="#e75 #e82 #BNa">ceu</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNc">eius partem</lem>
+<rdg wit="#BNb"/></app>
+<app><lem wit="#e75 #e82 #BNa #BNb">ceu</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">sicut</rdg></app>
 <num type="cardinal" value="9">nouem</num> <app><lem wit=" #Ghent">se habent</lem>
-<rdg wit="#BNa" ana="#morphological">se habet</rdg>
+<rdg wit="#BNa #BNb" ana="#morphological">se habet</rdg>
 <rdg wit="#e75 #e82 #BNc"/></app>
-ad <num type="cardinal" value="8">octo</num>. <app><lem wit="#e75 #e82 #Ghent #BNc">ex</lem>
+ad <num type="cardinal" value="8">octo</num>. <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">ex</lem>
 <rdg wit="#BNa" ana="#lexical">et</rdg></app>
-<app><lem wit="#e75 #e82">hoc</lem>
+<app><lem wit="#e75 #e82 #BNb">hoc</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">quo</rdg></app>
-quidem <app><lem wit="#e75 #e82 #Ghent #BNa">numero</lem>
+quidem <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">numero</lem>
 <rdg wit="#BNc" ana="#morphological">numerus</rdg></app>
-sonus <app><lem wit="#e75 #e82 #BNa #BNc">consurgit</lem>
+sonus <app><lem wit="#e75 #e82 #BNa #BNb #BNc">consurgit</lem>
 <rdg wit="#Ghent" ana="#additive">contingit uel consurgit</rdg></app>
 quem musici  <app><lem wit="#e75 #e82">tonum uocarent</lem>
 <rdg wit="#Ghent #BNc" ana="#morphological">tonum uocauerunt</rdg>
-<rdg wit="#BNa" ana="#ordinal">uocant conum</rdg></app>
-qui <app><lem wit="#e75 #e82 #Ghent #BNc">autem</lem>
+<rdg wit="#BNb" ana="#morphological">tonum uocant</rdg>
+<rdg wit="#BNa" ana="#ordinal #morphological">uocant conum</rdg></app>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNc">qui</lem>
+<rdg wit="#BNb" ana="#morphological">Quod</rdg></app>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">autem</lem>
 <rdg wit="#BNa"/></app>
-<app><lem wit="#e75 #e82 #Ghent">tono</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb">tono</lem>
 <rdg wit="#BNa #BNc" ana="#orthographic">cono</rdg></app>
 minus <app><lem wit="#Ghent #BNa">semitonum</lem>
-<rdg wit="#e75 #e82 #BNc" ana="#orthographic">semitonium</rdg></app>
-<app><lem wit="#e75 #e82 #BNa #BNc">dicitur</lem>
+<rdg wit="#e75 #e82 #BNb #BNc" ana="#orthographic">semitonium</rdg></app>
+<app><lem wit="#e75 #e82 #BNa #BNb #BNc">dicitur</lem>
 <rdg wit="#Ghent"/></app>
 quod <app><lem wit="#Ghent #BNa">non</lem>
-<rdg wit="#e75 #e82 #BNc" ana="#additive">non est</rdg></app>
-<app><lem wit="#e75 #e82 #BNa">extimandum</lem>
+<rdg wit="#e75 #e82 #BNb #BNc" ana="#additive">non est</rdg></app>
+<milestone ed="#BNb" unit="column" n="B"/>
+<app><lem wit="#e75 #e82 #BNa #BNb">extimandum</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">existimandum</rdg></app>
-tonum <app><lem wit="#e75 #e82 #BNa">uere</lem>
+tonum <app><lem wit="#e75 #e82 #BNa #BNb">uere</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">fere</rdg></app>
-fore sicut <app><lem wit="#e75 #e82 #BNa">neque</lem>
+fore sicut <app><lem wit="#e75 #e82 #BNa #BNb">neque</lem>
 <rdg wit="#Ghent #BNc" ana="#orthographic">nec</rdg></app>
-semiuocalem in litteris. <app><lem wit="#e75 #e82 #BNa">non enim</lem>
+semiuocalem in litteris. <app><lem wit="#e75 #e82 #BNa #BNb">non enim</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">Nam</rdg></app>
-tonus <app><lem wit="#e75 #e82 #Ghent #BNc">naturaliter</lem>
+tonus <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">naturaliter</lem>
 <rdg wit="#BNa" ana="#lexical">universaliter</rdg></app>
-in <num type="cardinal" value="2">duo</num> <app><lem wit="#e75 #e82 #BNa">equalia</lem>
+in <num type="cardinal" value="2">duo</num> <app><lem wit="#e75 #e82 #BNa #BNb">equalia</lem>
 <rdg wit="#Ghent #BNc"/></app>
-potest diuidi <app><lem wit="#e75 #e82 #Ghent #BNc">cum</lem>
+potest diuidi <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">cum</lem>
 <rdg wit="#BNa" ana="#lexical">et</rdg></app>
-<app><lem wit="#e75 #e82 #BNa #BNc">constet</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb #BNc">constet</lem>
 <rdg wit="#Ghent" ana="#morphological">constat</rdg></app>
-ex numero <app><lem wit="#e75 #e82 #Ghent #BNc"><num type="cardinal" value="9">nouenario</num></lem>
-<rdg wit="#BNa" ana="#orthographic">nouenori</rdg></app>
-quod in <num type="cardinal" value="2">duo</num> diuidi <app><lem wit="#e75 #e82">minime potest equaliter</lem>
+ex numero <num type="cardinal" value="9"><app><lem wit="#e75 #e82 #Ghent #BNc">nouenario</lem>
+<rdg wit="#BNa" ana="#orthographic">nouenori</rdg>
+<rdg wit="#BNb" ana="#morphological">nouem</rdg></app></num>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNc">quod</lem>
+<rdg wit="#BNb" ana="#orthographic">quom</rdg></app>
+in <num type="cardinal" value="2">duo</num> <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">diuidi</lem>
+<rdg wit="#BNb" ana="#additive">equalia diuidi</rdg></app>
+<app><lem wit="#e75 #e82">minime potest equaliter</lem>
 <rdg wit="#Ghent" ana="#ordinal">minime equaliter potest</rdg>
 <rdg wit="#BNc" ana="#ordinal">equaliter minime potest</rdg>
-<rdg wit="#BNa" ana="#subtractive">minime potest.</rdg></app>
+<rdg wit="#BNa #BNb" ana="#subtractive">minime potest.</rdg></app>
      </p>
      <p>
-<app><lem wit="#e75 #e82 #BNa">Unde et</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">Unde et</lem>
 <rdg wit="#Ghent" ana="#lexical">Et ideo</rdg></app>
-<app><lem wit="#e75 #e82 #BNa">semitonium uocarunt</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">semitonium uocarunt</lem>
 <rdg wit="#Ghent #BNc" ana="#ordinal">uocauerunt semitonum</rdg></app>
-sonum <app><lem wit="#Ghent #BNa #BNc">tono</lem>
+sonum <app><lem wit="#Ghent #BNa #BNb #BNc">tono</lem>
 <rdg wit="#e75 #e82" ana="#morphological">tonum</rdg></app>
 minorem.   
      </p>
      <p>
-Est autem <app><lem wit="#e75 #e82 #Ghent">semitonium</lem>
+Est autem <app><lem wit="#e75 #e82 #Ghent #BNb">semitonium</lem>
 <rdg wit="#BNa #BNc" ana="#orthographic">semitonum</rdg></app>
-duplex <app><lem wit="#e75 #e82 #BNa">maius scilicet</lem>
+duplex <app><lem wit="#e75 #e82 #BNa #BNb">maius scilicet</lem>
 <rdg wit="#Ghent" ana="#ordinal">scilicet maius</rdg>
 <rdg wit="#BNc" ana="#subtractive">maius</rdg></app>
 et minus <app><lem wit="#e75 #e82">maius quidem dicitur apotonii</lem>
 <rdg wit="#BNa" ana="#orthographic">maius quidem dicitur apothomi</rdg>
-<rdg wit="#BNc" ana="#orthographic">miuus quidem dicitur apothemi</rdg>
+<rdg wit="#BNb" ana="#orthographic">Maius quidem dicitur apochemi.</rdg>
+<rdg wit="#BNc" ana="#lexical"><unclear>ampli</unclear>us quidem dicitur apothemi</rdg>
 <rdg wit="#Ghent"/></app>
-apud uero <persName ref="#Bo">Boecium</persName> decisio. <app><lem wit="#Ghent #e82 #BNa #BNc">minus</lem>
+apud uero <persName ref="#Bo">Boecium</persName> <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">decisio.</lem>
+<rdg wit="#BNb"/></app>
+<app><lem wit="#e82 #Ghent #BNa #BNb #BNc">minus</lem>
 <rdg wit="#e75" ana="#orthographic">miuus</rdg></app>
-<app><lem wit="#e75 #e82 #BNa">autem</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">autem</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">aut</rdg></app>
-<app><lem wit="#Ghent">dyesis</lem>
+<app><lem wit="#Ghent #BNb">dyesis</lem>
 <rdg wit="#e75 #e82" ana="#orthographic">dyasis</rdg>
 <rdg wit="#BNa #BNc" ana="#orthographic">diesis</rdg></app>
 uel <app><lem wit="#e75 #e82 #BNa #BNc">limes</lem>
+<rdg wit="#BNb" ana="#orthographic">limis</rdg>
 <rdg wit="#Ghent" ana="#orthographic">limen</rdg></app>
-quod tam <app><lem wit="#e75 #e82 #BNa #BNc">paruo</lem>
+quod tam <app><lem wit="#e75 #e82 #BNa #BNb #BNc">paruo</lem>
 <rdg wit="#Ghent" ana="#morphological">paruum</rdg></app>
-distare a <app><lem wit="#Ghent #BNa #BNc">tono</lem>
+distare a <app><lem wit="#Ghent #BNa #BNb #BNc">tono</lem>
 <rdg wit="#e75 #e82" ana="#lexical">toto</rdg></app>
-deprehensum est quantum <app><lem wit="#e75 #e82 #BNa">hii</lem>
+deprehensum est quantum <app><lem wit="#e75 #e82 #BNa #BNb">hii</lem>
 <rdg wit="#Ghent #BNc"/></app>
-<num type="cardinal" value="2">duo</num> <app><lem wit="#e75 #e82 #BNa #BNc">numeri</lem>
+<num type="cardinal" value="2">duo</num> <app><lem wit="#e75 #e82 #BNa #BNb #BNc">numeri</lem>
 <rdg wit="#Ghent" ana="#morphological">numeriis</rdg></app>
 distant: ut <app><lem wit="#e75 #e82 #Ghent #BNc"><num type="cardinal" value="243">.243.</num></lem>
-<rdg wit="#BNa" ana="#lexical"><num type="cardinal" value="242">242</num></rdg></app>
+<rdg wit="#BNa" ana="#lexical"><num type="cardinal" value="242">242</num></rdg>
+<rdg wit="#BNb" ana="#lexical"><num type="cardinal" value="343">.343.</num></rdg></app>
 <app><lem wit="#Ghent #BNa">et <num type="cardinal" value="256">256</num></lem>
-<rdg wit="#BNc" ana="#subtractive"><num type="cardinal" value="256">256.</num></rdg>
+<rdg wit="#BNb #BNc" ana="#subtractive"><num type="cardinal" value="256">256.</num></rdg>
 <rdg wit="#e75 #e82" ana="#orthographic"><num type="cardinal" value="2256">2256</num></rdg></app>
 quorum quidem <app><lem wit="#e75 #e82 #BNa #BNc">vnusquisque</lem>
+<rdg wit="#BNb" ana="#orthographic">unuquisque</rdg>
 <rdg wit="#Ghent" ana="#lexical">quisque</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc">constat</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">constat</lem>
 <rdg wit="#BNa" ana="#lexical">constituit</rdg></app>
 <milestone ed="#BNc" unit="folio" n="187r"/>
 <milestone ed="#BNc" unit="column" n="A"/>
-ex <num type="cardinal" value="2">duabus</num> uocibus <app><lem wit="#e75 #e82 #Ghent #BNc">puta.</lem>
+ex <num type="cardinal" value="2">duabus</num> uocibus <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">puta.</lem>
 <rdg wit="#BNa" ana="#orthographic">puti</rdg></app>
 ut. <app><lem wit="#Ghent #BNc">et</lem>
-<rdg wit="#e75 #e82 #BNa"/></app>
-mi. est <app><lem wit="#e75 #e82 #BNa">et</lem>
+<rdg wit="#e75 #e82 #BNa #BNb"/></app>
+mi. est <app><lem wit="#e75 #e82 #BNa #BNb">et</lem>
 <rdg wit="#BNc" ana="#lexical">etiam</rdg>
 <rdg wit="#Ghent" ana="#lexical">autem</rdg></app>
-<app><lem wit="#e75 #e82">dytonus</lem>
+<app><lem wit="#e75 #e82 #BNb">dytonus</lem>
 <rdg wit="#BNa" ana="#orthographic">ditonus</rdg>
 <rdg wit="#Ghent" ana="#lexical">dyatonus</rdg>
 <rdg wit="#BNc" ana="#lexical">dyotonus</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNa">qui</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNb">qui</lem>
 <rdg wit="#BNc" ana="#additive">qui est</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent">ex <num type="cardinal" value="2">duobus</num> consurgit</lem>
-<rdg wit="#BNc" ana="#lexical">consurgens ex <num type="cardinal" value="2">duobus</num></rdg>
+<app><lem wit="#e75 #e82 #Ghent">ex <num type="cardinal" value="2">duobus</num> consurgit perfectis tonis</lem>
+<rdg wit="#BNc" ana="#ordinal #morphological">consurgens ex <num type="cardinal" value="2">duobus</num> tonis perfectis</rdg>
+<rdg wit="#BNb" ana="#ordinal #lexical">ex <num type="cardinal" value="2">duobus</num> perfectis consurgit sonis.</rdg>
 <rdg wit="#BNa" ana="#subtractive">ex <num type="cardinal" value="2">duobus</num></rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc"><app><lem wit="#e75 #e82 #Ghent">perfectis tonis</lem>
-<rdg wit="#BNc" ana="#ordinal">tonis perfectis</rdg></app> et <app><lem wit="#Ghent #e82 #BNc">semitonus</lem>
-<rdg wit="#e75" ana="#lexical">semiditonus</rdg></app> qui ex <num type="cardinal" value="2">duobus</num> non integris</lem><rdg wit="#BNa"/></app>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><app><lem wit="#e75 #e82 #Ghent #BNc">et</lem><rdg wit="#BNb" ana="#lexical">ut</rdg></app>
+<app><lem wit="#e82 #Ghent #BNc">semitonus</lem><rdg wit="#e75" ana="#lexical">semiditonus</rdg><rdg wit="#BNb" ana="#lexical">semidytonus</rdg></app> qui ex <num type="cardinal" value="2">duobus</num> non integris</lem>
+<rdg wit="#BNa"/></app>
 ut <app><lem wit="#e75 #e82">id aut</lem>
-<rdg wit="#BNa" ana="#lexical">id autem</rdg>
+<rdg wit="#BNa #BNb" ana="#lexical">id autem</rdg>
 <rdg wit="#Ghent" ana="#lexical">autem hec</rdg>
 <rdg wit="#BNc" ana="#lexical">aut hec</rdg></app>
-per amplius <app><lem wit="#e75 #e82 #Ghent #BNa">appareat</lem>
+per amplius <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">appareat</lem>
 <rdg wit="#BNc" ana="#morphological">appareant</rdg></app>
-<app><lem wit="#Ghent #BNa #BNc">parigraphia</lem>
+<app><lem wit="#Ghent #BNa #BNb #BNc">parigraphia</lem>
 <rdg wit="#e82" ana="#orthographic">parygraphia</rdg>
 <rdg wit="#e75" ana="#orthographic">parygrafia</rdg></app>
 <app><lem wit="#e75 #e82 #BNa">conscribatur</lem>
-<rdg wit="#Ghent #BNc" ana="#lexical">scribatur</rdg></app>
-<app><lem wit="#e75 #e82 #BNa">ista</lem>
+<rdg wit="#Ghent #BNb #BNc" ana="#lexical">scribatur</rdg></app>
+<app><lem wit="#e75 #e82 #BNa #BNb">ista</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">talis</rdg></app>
 <table rows="21" cols="4">
 <row>
   <cell role="label"><app><lem wit="#e75 #e82 #Ghent #BNa">Γ.</lem>
-<rdg wit="#BNc" ana="#orthographic">G</rdg></app></cell>
+<rdg wit="#BNb #BNc" ana="#orthographic">G</rdg></app></cell>
   <cell><num type="cardinal" value="1296">1296</num>.</cell>
   <cell>ut.</cell>
   <cell/>
@@ -4801,348 +4900,386 @@ per amplius <app><lem wit="#e75 #e82 #Ghent #BNa">appareat</lem>
  </row>
 <row>
   <cell role="label">b.</cell> 
-  <cell><app><lem wit="#e75 #e82 #Ghent #BNc"><num type="cardinal" value="1034">1034.</num></lem>
+  <cell><app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="cardinal" value="1034">1034.</num></lem>
 <rdg wit="#BNa" ana="#lexical"><num type="cardinal" value="1834">1834.</num></rdg></app></cell>
   <cell>mi.</cell>
   <cell><app xml:id="app-13.2" exclude="#app-rdg-Ghent-BNa-13.2 #app-rdg-BNc-13.2">
 <lem wit="#e82">dytonus.</lem>
+<rdg wit="#BNb" ana="#orthographic">dyptonus</rdg>
 <rdg wit="#e75" ana="#orthographic">dyatenus:</rdg></app></cell>
  </row>
 <row>
   <cell role="label">c.</cell>
   <cell><num type="cardinal" value="972">972.</num></cell>
   <cell>fa ut.</cell>
-  <cell><app xml:id="app-13.3" exclude="#app-rdg-e75-e82-13.3 #app-rdg-BNc-13.3"><lem wit="#Ghent">Dyatesseron.</lem>
+  <cell><app xml:id="app-13.3" exclude="#app-rdg-e75-e82-BNb-13.3 #app-rdg-BNc-13.3"><lem wit="#Ghent">Dyatesseron.</lem>
 <rdg wit="#BNa" ana="#orthographic">diatesso</rdg></app></cell>
  </row>
  <row>
   <cell role="label">d.</cell>
   <cell><num type="cardinal" value="864">864.</num></cell>
   <cell>solre.</cell>
-  <cell><app xml:id="app-13.4" exclude="#app-rdg-e75-e82-13.4"><lem>dyapente.</lem>
+  <cell><app xml:id="app-13.4" exclude="#app-rdg-e75-e82-13.4 #app-rdg-BNb-13.4"><lem>dyapente.</lem>
 <rdg wit="#BNa" ana="#orthographic">diapante</rdg><rdg wit="#BNc"/></app> 
-<app xml:id="app-rdg-e75-e82-13.3" exclude="#app-13.3 #app-rdg-BNc-13.3"><rdg wit="#e75 #e82" ana="#orthographic">dyatesseron.</rdg></app></cell>
+<app xml:id="app-rdg-e75-e82-BNb-13.3" exclude="#app-13.3 #app-rdg-BNc-13.3"><rdg wit="#e75 #e82 #BNb" ana="#orthographic">dyatesseron.</rdg></app></cell>
 </row>
  <row>
   <cell role="label">e.</cell>
-  <cell><app><lem wit="#e75 #e82 #Ghent #BNc"><num type="cardinal" value="768">768.</num></lem>
+  <cell><app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="cardinal" value="768">768.</num></lem>
 <rdg wit="#BNa" ana="#lexical"><num type="cardinal" value="786">786.</num></rdg></app></cell>
-  <cell><app><lem wit="#e75 #e82 #BNa #BNc">la mi.</lem>
+  <cell><app><lem wit="#e75 #e82 #BNa #BNb #BNc">la mi.</lem>
 <rdg wit="#Ghent" ana="#orthographic">lamy</rdg></app></cell>
-  <cell/>
+  <cell><app xml:id="app-rdg-BNb-13.4" exclude="#app-13.4 #app-rdg-e75-e82-13.4"><rdg wit="#BNb" ana="#orthographic">dyapente.</rdg></app></cell>
  </row>
-<row>
+ <row>
   <cell role="label">f.</cell>
   <cell><num type="cardinal" value="739">739.</num></cell>
   <cell>fa ut.</cell>
-  <cell><app xml:id="app-rdg-e75-e82-13.4" exclude="#app-13.4"><rdg wit="#e75 #e82" ana="#orthographic">dyapente.</rdg></app>
+  <cell><app xml:id="app-rdg-e75-e82-13.4" exclude="#app-13.4 #app-rdg-BNb-13.4"><rdg wit="#e75 #e82" ana="#orthographic">dyapente.</rdg></app>
 <app xml:id="app-rdg-BNc-13.2" exclude="#app-13.2 #app-rdg-Ghent-BNa-13.2"><rdg wit="#BNc" ana="#orthographic">Dyatonus</rdg></app></cell>
  </row>
 <row>
   <cell role="label">g.</cell>
-  <cell><app><lem wit="#e75 #e82 #Ghent"><num type="cardinal" value="648">648.</num></lem>
+  <cell><app><lem wit="#e75 #e82 #Ghent #BNb"><num type="cardinal" value="648">648.</num></lem>
 <rdg wit="#BNa" ana="#lexical"><num type="cardinal" value="846">846.</num></rdg></app></cell>
   <cell>solreut.</cell>
-  <cell><app xml:id="app-13.5" exclude="#app-rdg-e75-e82-13.5 #app-rdg-BNc-13.5"><lem wit="#Ghent">dyapason.</lem><rdg wit="#BNa" ana="#orthographic">diapasson</rdg></app></cell>
+  <cell><app xml:id="app-13.5" exclude="#app-rdg-e75-e82-13.5 #app-rdg-BNc-13.5"><lem wit="#Ghent">dyapason.</lem><rdg wit="#BNa" ana="#orthographic">diapasson</rdg><rdg wit="#BNb"/></app></cell>
  </row>
 <row> 
   <cell role="label">a.</cell>
-  <cell><app><lem wit="#Ghent #BNa"><num type="cardinal" value="576">576.</num></lem>
+  <cell><app><lem wit="#Ghent #BNa #BNb"><num type="cardinal" value="576">576.</num></lem>
 <rdg wit="#e75 #e82" ana="#lexical"><num type="cardinal" value="579">579.</num></rdg>
 <rdg wit="#BNc" ana="#lexical"><num type="cardinal" value="5761">5761</num></rdg></app></cell>
-  <cell><app><lem wit="#e75 #e82 #BNa">lamire.</lem>
+  <cell><app><lem wit="#e75 #e82 #BNa #BNb">lamire.</lem>
 <rdg wit="#Ghent" ana="#orthographic">lamyre</rdg>
 <rdg wit="#BNc" ana="#lexical">alamre</rdg></app></cell>
-  <cell><app xml:id="app-rdg-BNc-13.3" exclude="#app-13.3 #app-rdg-e75-e82-13.3"><rdg wit="#BNc" ana="#orthographic">dyatesseron.</rdg></app></cell>
+  <cell><app xml:id="app-rdg-BNc-13.3" exclude="#app-13.3 #app-rdg-e75-e82-BNb-13.3"><rdg wit="#BNc" ana="#orthographic">dyatesseron.</rdg></app>
+<app xml:id="app-rdg-BNb-13.7" exclude="#app-13.7"><rdg wit="#BNb" ana="#ordinal">dyapasson dyapente</rdg></app></cell>
  </row>
 <row>
-  <cell role="label">b.</cell>
+  <cell role="label"><app><lem wit="#e75 #e82 #Ghent #BNb #BNc">b.</lem>
+<rdg wit="#BNa" ana="#lexical">h</rdg></app></cell>
   <cell><num type="cardinal" value="554">554.</num></cell>
-  <cell><app><lem wit="#e75 #e82 #BNa">mi</lem>
+  <cell><app><lem wit="#e75 #e82 #BNa #BNb">mi</lem>
 <rdg wit="#Ghent" ana="#orthographic">my</rdg>
 <rdg wit="#BNc" ana="#lexical">fabemi</rdg></app></cell>
   <cell><app xml:id="app-rdg-e75-e82-13.5" exclude="#app-13.5 #app-rdg-BNc-13.5"><rdg wit="#e75 #e82" ana="#orthographic">dyapason.</rdg></app></cell>
 </row>
 <row>
-  <cell role="label">b.</cell>
+  <cell role="label"><app><lem wit="#e75 #e82 #Ghent #BNa #BNc">b.</lem>
+<rdg wit="#BNb" ana="#lexical"><g ref="#sqb">b</g></rdg></app></cell>
   <cell><num type="cardinal" value="512">512.</num></cell>
   <cell>fa.</cell>
   <cell><app xml:id="app-rdg-BNc-13.5" exclude="#app-13.5 #app-rdg-e75-e82-13.5"><rdg wit="#BNc" ana="#orthographic">dyapason.</rdg></app></cell>
  </row>
 <row>
   <cell role="label">c.</cell>
-  <cell><app><lem wit="#e75 #e82 #BNa"><num type="cardinal" value="486">486</num></lem>
+  <cell><app><lem wit="#e75 #e82 #BNa #BNb"><num type="cardinal" value="486">486</num></lem>
 <rdg wit="#Ghent #BNc" ana="#lexical"><num type="cardinal" value="446">446</num></rdg></app></cell>
   <cell>solfaut.</cell>
-  <cell><app><lem wit="#e75 #Ghent #BNc">dyatesseron dyapason.</lem>
+  <cell><app xml:id="app-13.6" exclude="#app-rdg-BNb-13.6"><lem wit="#e75 #Ghent #BNc">dyatesseron dyapason.</lem>
 <rdg wit="#e82" ana="#orthographic">dyatesseron dyapaon</rdg>
 <rdg wit="#BNa" ana="#orthographic">diateson dia passon.</rdg></app></cell>
  </row>
 <row>
   <cell role="label">d.</cell>
   <cell><num type="cardinal" value="432">432</num>.</cell>
-  <cell><app><lem wit="#e75 #e82 #BNa #BNc">lasolre</lem>
+  <cell><app><lem wit="#e75 #e82 #BNa #BNb #BNc">lasolre</lem>
 <rdg wit="#Ghent" ana="#orthographic">lasolreut</rdg></app></cell>
-  <cell><app><lem wit="#e75 #e82 #Ghent #BNc">dyapente dyapason.</lem>
-<rdg wit="#BNa" ana="#orthographic">dia pentendia passon</rdg></app></cell>
+  <cell><app xml:id="app-13.7" exclude="#app-rdg-BNb-13.7"><lem wit="#e75 #e82 #Ghent #BNc">dyapente dyapason.</lem>
+<rdg wit="#BNa" ana="#orthographic">dia pentendia passon</rdg></app>
+<app xml:id="app-rdg-BNb-13.6" exclude="#app-13.6"><rdg wit="#BNb" ana="#orthographic">dyatesseron dyapasson</rdg></app></cell>
  </row>
 <row>
   <cell role="label">e.</cell>
-  <cell><app><lem wit="#BNa #BNc"><num type="cardinal" value="384">384.</num></lem>
+  <cell><app><lem wit="#BNa #BNb #BNc"><num type="cardinal" value="384">384.</num></lem>
 <rdg wit="#e75 e82" ana="#lexical"><num type="cardinal" value="348">348.</num></rdg>
 <rdg wit="#Ghent" ana="#lexical"><num type="cardinal" value="364">364.</num></rdg></app></cell>
-  <cell><app><lem wit="#e75 #e82 #BNa #BNc">la mi.</lem>
+  <cell><app><lem wit="#e75 #e82 #BNa #BNb #BNc">la mi.</lem>
 <rdg wit="#Ghent" ana="#orthographic">lamy</rdg></app></cell>
-  <cell/>
+  <cell><app xml:id="app-rdg-BNb-13.8" exclude="#app-13.8 #app-rdg-e75-e82-BNc-13.8"><rdg wit="#BNb" ana="#additive">bis dyapente dyapasson bis dyapassaon</rdg></app></cell>
  </row>
 <row>
   <cell role="label">f.</cell>
   <cell><app><lem wit="#e75 #e82"><num type="cardinal" value="366">366.</num></lem>
 <rdg wit="#Ghent #BNc" ana="#lexical"><num type="cardinal" value="369">369.</num></rdg>
-<rdg wit="#BNa" ana="#lexical"><num type="cardinal" value="389">389</num></rdg></app></cell>
+<rdg wit="#BNa #BNb" ana="#lexical"><num type="cardinal" value="389">389</num></rdg></app></cell>
   <cell>faut.</cell>
-  <cell><app xml:id="app-rdg-e75-e82-BNc-13.6" exclude="#app-13.6"><rdg wit="#e82 #BNc" ana="#orthographic">bis dyapason</rdg>
+  <cell><app xml:id="app-rdg-e75-e82-BNc-13.8" exclude="#app-13.8"><rdg wit="#e82 #BNc" ana="#orthographic">bis dyapason</rdg>
 <rdg wit="#e75" ana="#orthographic">bis dyapasson</rdg></app></cell>
 </row>
 <row>
   <cell role="label">g.</cell>
-  <cell><num type="cardinal" value="324">324.</num></cell>
+  <cell><app><lem wit="#e75 #e82 #Ghent #BNa #BNc"><num type="cardinal" value="324">324.</num></lem>
+<rdg wit="#BNb" ana="#lexical"><num type="cardinal" value="8224">8224.</num></rdg></app></cell>
   <cell>solreut.</cell>
-  <cell><app xml:id="app-13.6" exclude="#app-rdg-e75-e82-BNc-13.6"><lem wit="#Ghent">bis dyapason.</lem><rdg wit="#BNa" ana="#orthographic">bis dia passon.</rdg></app></cell>
+  <cell><app xml:id="app-13.8" exclude="#app-rdg-e75-e82-BNc-13.8"><lem wit="#Ghent">bis dyapason.</lem><rdg wit="#BNa" ana="#orthographic">bis dia passon.</rdg></app></cell>
 </row>
 <milestone ed="#Ghent" unit="column" n="B"/>
 <row>
-  <cell role="label"><app><lem wit="#e75 #e82 #Ghent #BNc">a.</lem><rdg wit="#BNa"/></app></cell>
-  <cell><app><lem wit="#e75 #e82 #Ghent #BNc"><num type="cardinal" value="288">288.</num></lem><rdg wit="#BNa"/></app></cell>
-  <cell><app><lem wit="#e75 #e82 #BNc">lamire</lem>
+  <cell role="label"><app><lem wit="#e75 #e82 #Ghent #BNb #BNc">a.</lem><rdg wit="#BNa"/></app></cell>
+  <cell><app><lem wit="#e75 #e82 #Ghent #BNb BNc"><num type="cardinal" value="288">288.</num></lem><rdg wit="#BNa"/></app></cell>
+  <cell><app><lem wit="#e75 #e82 #BNb #BNc">lamire</lem>
 <rdg wit="#Ghent" ana="#orthographic">Lamyre</rdg><rdg wit="#BNa"/></app></cell>
   <cell/>
  </row>
 <row>
-  <cell role="label"><app><lem wit="#e75 #e82 #Ghent #BNc">b.</lem><rdg wit="#BNa"/></app></cell>
-  <cell><app><lem wit="#e75 #e82 #Ghent #BNc"><num type="cardinal" value="277">277.</num></lem><rdg wit="#BNa"/></app></cell>
+  <cell role="label"><app><lem wit="#e75 #e82 #Ghent #BNb #BNc">b.</lem><rdg wit="#BNa"/></app></cell>
+  <cell><app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="cardinal" value="277">277.</num></lem><rdg wit="#BNa"/></app></cell>
   <cell><app><lem wit="#e75 #e82 #BNc">mi</lem>
-<rdg wit="#Ghent" ana="#orthographic">My</rdg><rdg wit="#BNa"/></app></cell>
+<rdg wit="#Ghent" ana="#orthographic">My</rdg>
+<rdg wit="#BNb" ana="#additive">mi.fa.</rdg><rdg wit="#BNa"/></app></cell>
   <cell/>
  </row>
 <row>
-  <cell role="label"><app><lem wit="#e75 #e82 #Ghent #BNc">b.</lem><rdg wit="#BNa"/></app></cell>
-  <cell><app><lem wit="#e75 #e82 #Ghent"><num type="cardinal" value="256">256.</num></lem>
+  <cell role="label"><app><lem wit="#e75 #e82 #Ghent #BNc">b.</lem>
+<rdg wit="#BNb" ana="#lexical"><g ref="#sqb">b</g></rdg><rdg wit="#BNa"/></app></cell>
+  <cell><app><lem wit="#e75 #e82 #Ghent #BNb"><num type="cardinal" value="256">256.</num></lem>
 <rdg wit="#BNc" ana="#lexical"><num type="cardinal" value="276">276</num></rdg><rdg wit="#BNa"/></app></cell>
-  <cell><app><lem wit="#e75 #e82 #Ghent #BNc">fa.</lem><rdg wit="#BNa"/></app></cell>
+  <cell><app><lem wit="#e75 #e82 #Ghent #BNb #BNc">fa.</lem><rdg wit="#BNa"/></app></cell>
   <cell/>
  </row>
 <row>
-  <cell role="label"><app><lem wit="#e75 #e82 #Ghent #BNc">c.</lem><rdg wit="#BNa"/></app></cell>
-  <cell><app><lem wit="#e75 #e82 #Ghent #BNc"><num type="cardinal" value="243">243.</num></lem><rdg wit="#BNa"/></app></cell>
-  <cell><app><lem wit="#e75 #e82 #Ghent #BNc">solfa.</lem><rdg wit="#BNa"/></app></cell>
+  <cell role="label"><app><lem wit="#e75 #e82 #Ghent #BNb #BNc">c.</lem><rdg wit="#BNa"/></app></cell>
+  <cell><app><lem wit="#e75 #e82 #Ghent #BNc"><num type="cardinal" value="243">243.</num></lem>
+<rdg wit="#BNb" ana="#lexical"><num type="cardinal" value="242">.242.</num></rdg><rdg wit="#BNa"/></app></cell>
+  <cell><app><lem wit="#e75 #e82 #Ghent #BNb #BNc">solfa.</lem><rdg wit="#BNa"/></app></cell>
   <cell/>
  </row>
 <row>
-  <cell role="label"><app><lem wit="#Ghent #BNc">d</lem>
+  <cell role="label"><app><lem wit="#Ghent #BNb #BNc">d</lem>
 <rdg wit="#e75 #e82" ana="#lexical">c</rdg><rdg wit="#BNa"/></app></cell>
-  <cell><app><lem wit="#e75 #e82 #Ghent"><num type="cardinal" value="216">216.</num></lem>
+  <cell><app><lem wit="#e75 #e82 #Ghent #BNb"><num type="cardinal" value="216">216.</num></lem>
 <rdg wit="#BNc" ana="#lexical"><num type="cardinal" value="219">219</num></rdg><rdg wit="#BNa"/></app></cell>
-  <cell><app><lem wit="#e75 #e82 #Ghent #BNc">la sol.</lem><rdg wit="#BNa"/></app></cell>
+  <cell><app><lem wit="#e75 #e82 #Ghent #BNb #BNc">la sol.</lem><rdg wit="#BNa"/></app></cell>
   <cell/>
  </row>
 <row>
-  <cell role="label"><app><lem wit="#Ghent #BNc">e</lem><rdg wit="#e75 #e82 #BNa"/></app></cell>
-  <cell><app><lem wit="#Ghent #BNc"><num type="cardinal" value="192">192.</num></lem><rdg wit="#e75 #e82 #BNa"/></app></cell>
-  <cell><app><lem wit="#Ghent #BNc">la</lem><rdg wit="#e75 #e82 #BNa"/></app></cell>
+  <cell role="label"><app><lem wit="#Ghent #BNc">e</lem><rdg wit="#e75 #e82 #BNa #BNb"/></app></cell>
+  <cell><app><lem wit="#Ghent #BNc"><num type="cardinal" value="192">192.</num></lem><rdg wit="#e75 #e82 #BNa #BNb"/></app></cell>
+  <cell><app><lem wit="#Ghent #BNc">la</lem><rdg wit="#e75 #e82 #BNa #BNb"/></app></cell>
   <cell/>
  </row>
 </table>
-   </p>
+     </p>
      <p>
-Sunt itaque consonantie <num type="cardinal" value="5">quinque</num> <app><lem wit="#e75 #e82 #BNa #BNc">scilicet</lem>
+Sunt itaque consonantie <app><lem wit="#e75 #e82 #Ghent #BNa #BNc"><num type="cardinal" value="5">quinque</num></lem>
+<rdg wit="#BNb"/></app>
+<app><lem wit="#e75 #e82 #BNa #BNb #BNc">scilicet</lem>
 <rdg wit="#Ghent"/></app>
-<app><lem wit="#e75 #e82 #Ghent #BNa">dyatesseron:</lem>
-<rdg wit="#BNc" ana="#orthographic">diatesseroni</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc">dyapente:</lem>
-<rdg wit="#BNa" ana="#orthographic">diapento</rdg></app>
-<app><lem wit="#e75 #e82">dyapason: dyapente dyapason.</lem>
-<rdg wit="#BNa" ana="#subtractive">diapason et</rdg>
-<rdg wit=" #Ghent #BNc" ana="#subtractive">dyapason:</rdg></app>
-bis dyapason: <app><lem wit="#e75 #e82 #Ghent #BNc">que</lem>
+<list>
+<item><app><lem wit="#e75 #e82 #Ghent #BNa #BNb">dyatesseron:</lem>
+<rdg wit="#BNc" ana="#orthographic">diatesseroni</rdg></app></item>
+<item><app><lem wit="#e75 #e82 #Ghent #BNb #BNc">dyapente:</lem>
+<rdg wit="#BNa" ana="#orthographic">diapento</rdg></app></item>
+<item><app><lem wit="#e75 #e82 #Ghent #BNc">dyapason</lem>
+<rdg wit="#BNa" ana="#orthographic">diapason</rdg>
+<rdg wit="#BNb" ana="#orthographic">dya<hi rend="superscript">p</hi>son</rdg></app></item>
+<item><app><lem>dyapente dyapason et</lem>
+<rdg wit="#BNb" ana="#orthographic">dyapente dyapasson et</rdg>
+<rdg wit="#e75 #e82" ana="#subtractive">dyapente dyapason.</rdg>
+<rdg wit="#BNa" ana="#subtractive">et</rdg>
+<rdg wit="#Ghent #BNc"/></app></item>
+<item><app><lem wit="#e75 #e82 #Ghent #BNa #BNc">bis dyapason:</lem>
+<rdg wit="#BNb" ana="#orthographic">bis dyapasson</rdg></app></item></list> 
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">que</lem>
 <rdg wit="#BNa" ana="#morphological">qui</rdg></app>
-quidem hiis tonis <app><lem wit="#e75 #e82 #BNa #BNc">et</lem>
+quidem hiis tonis <app><lem wit="#e75 #e82 #BNa #BNb #BNc">et</lem>
 <rdg wit="#Ghent"/></app>
 <app><lem wit="#e75 #e82 #Ghent #BNa">semitonis</lem>
-<rdg wit="#BNc" ana="#orthographic">semitoniis</rdg></app>
-constituuntur. <app><lem wit="#Ghent #e82 #BNc">dyatesseron</lem>
+<rdg wit="#BNb #BNc" ana="#orthographic">semitoniis</rdg></app>
+constituuntur. <app><lem wit="#e82 #Ghent #BNb #BNc">dyatesseron</lem>
 <rdg wit="#e75" ana="#orthographic">dyateseron</rdg>
 <rdg wit="#BNa" ana="#lexical">Diatri</rdg></app>
-enim constat <app><lem wit="#e75 #e82 #Ghent #BNa">ex</lem>
+enim constat <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">ex</lem>
 <rdg wit="#BNc" ana="#lexical"><del>en</del> ex</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc"><num type="cardinal" value="2">duobus</num></lem>
-<rdg wit="#BNa" ana="#morphological"><num type="cardinal" value="2">duabus</num></rdg></app>
-tonis <app><lem wit="#e75 #e82 #Ghent #BNc">et</lem>
+<num type="cardinal" value="2"><app><lem wit="#e75 #e82 #Ghent #BNb #BNc">duobus</lem>
+<rdg wit="#BNa" ana="#morphological">duabus</rdg></app></num>
+tonis <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">et</lem>
 <rdg wit="#BNa" ana="#lexical">cum</rdg></app>
 <app><lem wit="#Ghent #BNa #BNc">semitono</lem>
-<rdg wit="#e75 #e82" ana="#orthographic">semitonio</rdg></app>
-non integro. <app><lem wit="#e75 #e82 #Ghent #BNc">dyapente</lem>
+<rdg wit="#e75 #e82 #BNb" ana="#orthographic">semitonio</rdg></app>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNc">non integro. <app><lem wit="#e75 #e82 #Ghent #BNc">dyapente</lem>
 <rdg wit="#BNa" ana="#orthographic">diapente</rdg></app>
 <num type="cardinal" value="3">tribus</num> tonis: et minore <app><lem wit="#Ghent #BNa #BNc">semitono.</lem>
-<rdg wit="#e75 #e82" ana="#orthographic">semitonio.</rdg></app>
+<rdg wit="#e75 #e82" ana="#orthographic">semitonio.</rdg></app></lem>
+<rdg wit="#BNb" cause="homeoteleuton"/></app>
 <app><lem wit="#e75 #e82 #BNc">dyapason</lem>
+<rdg wit="#BNb" ana="#orthographic">Dyapasson</rdg>
 <rdg wit="#BNa" ana="#orthographic">diapesseron</rdg>
 <rdg wit="#Ghent" ana="#additive">dyapason ex</rdg></app>
 <num type="cardinal" value="5">quinque</num> tonis et <app><lem wit="#BNa">semitonis <num type="cardinal" value="2">duobus</num> minoribus</lem>
-<rdg wit="#e75 #e82" ana="#ordinal">semitoniis <num type="cardinal" value="2">duobus</num> minoribus</rdg>
-<rdg wit="#Ghent #BNc" ana="#ordinal"><num type="cardinal" value="2">duobus</num> semitonis minoribus</rdg></app>
-<app><lem wit="#e75 #e82 #BNa">neque</lem>
+<rdg wit="#e75 #e82" ana="#orthographic">semitoniis <num type="cardinal" value="2">duobus</num> minoribus</rdg>
+<rdg wit="#Ghent #BNc" ana="#ordinal"><num type="cardinal" value="2">duobus</num> semitonis minoribus</rdg>
+<rdg wit="#BNb" ana="#subtractive">semitoniis <num type="cardinal" value="2">duobus</num></rdg></app>
+<app><lem wit="#e75 #e82 #BNa #BNb">neque</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">nullaque</rdg></app>
-<app><lem wit="#e75 #BNa">peruenit</lem>
+<app><lem wit="#e75 #BNa #BNb">peruenit</lem>
 <rdg wit="#e82" ana="#additive">per peruenit</rdg>
 <rdg wit="#Ghent #BNc" ana="#lexical">prouenit</rdg></app>
-ad <app><lem wit="#e75 #e82 #BNa"><num type="cardinal" value="6">.vi.</num></lem>
+ad <app><lem wit="#e75 #e82 #BNa #BNb"><num type="cardinal" value="6">.vi.</num></lem>
 <rdg wit="#Ghent #BNc" ana="#lexical"><num type="cardinal" value="5">quinque</num></rdg></app>
-tonos perfecte. ex quibus apparet quod <app><lem wit="#Ghent #e82 #BNc">dyatesseron</lem>
+tonos perfecte. ex quibus apparet quod <app><lem wit="#e82 #Ghent #BNb #BNc">dyatesseron</lem>
 <rdg wit="#BNa" ana="#orthographic">diatesseron</rdg>
 <rdg wit="#e75" ana="#orthographic">dyateseron</rdg></app>
-et <app><lem wit="#e75 #e82 #Ghent #BNc">dyapente</lem>
-<rdg wit="#BNa" ana="#?">diapentesseran</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNa">consurgunt</lem>
+et <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">dyapente</lem>
+<rdg wit="#BNa" ana="#lexical">diapentesseran</rdg></app>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNb">consurgunt</lem>
 <rdg wit="#BNc" ana="#morphological">consurgit</rdg></app>
 in <app><lem wit="#e75 #e82">dyapason</lem>
-<rdg wit="#BNa" ana="#lexical">diapasseron</rdg>
+<rdg wit="#BNa #BNb" ana="#lexical">diapasseron</rdg>
 <rdg wit="#Ghent #BNc"/></app>
 <app><lem wit="#e75 #e82">dyapente dyapason</lem>
+<rdg wit="#BNb" ana="#orthographic">dyapente Dyapasson</rdg>
 <rdg wit="#Ghent #BNc" ana="#additive">dyapente dyapason que</rdg>
 <rdg wit="#BNa" ana="#syntactic">et in pentadyasson</rdg></app>
-ex <num type="cardinal" value="9">.ix.</num> tonis <app><lem wit="#e75 #e82 #Ghent #BNc">et</lem>
+ex <num type="cardinal" value="9">.ix.</num> tonis <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">et</lem>
 <rdg wit="#BNa" ana="#additive">et ex</rdg></app>
 <app><lem wit="#Ghent #BNa">semitono</lem>
-<rdg wit="#e75 #e82 #BNc" ana="#orthographic">semitonio</rdg></app>
+<rdg wit="#e75 #e82 #BNb #BNc" ana="#orthographic">semitonio</rdg></app>
 minori constat. <app><lem wit="#e75 #e82 #BNa">Bis uero dyapason</lem>
+<rdg wit="#BNb" ana="#orthographic">Bis uero dyapasson</rdg>
 <rdg wit="#Ghent #BNc" ana="#lexical">Sed ipsa Bisdyapason</rdg></app>
 ex <num type="cardinal" value="12">.12.</num> <app><lem wit="#Ghent #BNc">perfectis</lem>
-<rdg wit="#e75 #e82 #BNa" ana="#morphological">perficitur</rdg></app>
+<rdg wit="#e75 #e82 #BNa #BNb" ana="#morphological">perficitur</rdg></app>
 tonis <app><lem wit="#e75 #e82 #Ghent #BNc">et hec</lem>
+<rdg wit="#BNb" ana="#lexical">et huiusmodi</rdg>
 <rdg wit="#BNa"/></app>
 <app><lem wit="#Ghent #BNa #BNc"/>
-<rdg wit="#e75 #e82" ana="#additive">quidem</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent">amplius sunt in</lem>
+<rdg wit="#e75 #e82 #BNb" ana="#additive">quidem</rdg></app>
+<app><lem wit="#e75 #e82 #Ghent #BNb">amplius sunt in</lem>
 <rdg wit="#BNc" ana="#additive">amplius sunt exposita in</rdg>
 <rdg wit="#BNa"/></app>
-<app><lem wit="#e82"><ref target="#AbCo">conciliatoris mei differentia</ref></lem>
+<app><lem wit="#e82 #BNb"><ref target="#AbCo">conciliatoris mei differentia</ref></lem>
 <rdg wit="#e75" ana="#orthographic"><ref target="#AbCo">conciliatoris mey differentia</ref></rdg>
 <rdg wit="#BNc" ana="#subtractive"><ref target="#AbCo">consiliatoris differentia</ref></rdg>
 <rdg wit="#Ghent" ana="#subtractive"><ref target="#AbCo">consiliatore differentia</ref></rdg>
 <rdg wit="#BNa" ana="#subtractive">mei <ref target="#AbCo">differentia</ref></rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc"><num type="#ordinal" value="83">.83a.</num></lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc"><num type="#ordinal" value="83">.83a.</num></lem>
 <rdg wit="#BNa" ana="#lexical">sed</rdg>
 <note xml:lang="en">If the BNa scribe uses tall s to mean 8 (as other places suggest), then it is 83, not sed.</note></app>
-<app><lem wit="#e75 #e82 #BNa">exposita</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">exposita</lem>
 <rdg wit="#Ghent #BNc"/></app>
      </p>
      <p>
-<app><lem wit="#Ghent #BNa #BNc">Nosce</lem>
+<app><lem wit="#Ghent #BNa #BNb #BNc">Nosce</lem>
 <rdg wit="#e75 #e82" ana="#lexical">Notandum</rdg></app>
-quoque ex <app><lem wit="#e75 #e82 #BNa"><ref target="#PtHar">musice</ref> <num type="#ordinal" value="5">quinto</num></lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNc">quoque</lem>
+<rdg wit="#BNb"/></app>
+ex <app><lem wit="#e75 #e82 #BNa #BNb"><ref target="#PtHar">musice</ref> <num type="#ordinal" value="5">quinto</num></lem>
 <rdg wit="#BNc" ana="#ordinal"><num type="#ordinal" value="5">quinto</num> <ref target="#PtHar">musice</ref></rdg>
 <rdg wit="#Ghent" ana="#additive">libro <num type="#ordinal" value="5">5°.</num> <ref target="#PtHar">musice</ref></rdg></app>
-quod <app><lem wit="#e75 #e82"><persName ref="#Pt">ptholomeus</persName></lem>
+quod <app><lem wit="#e75 #e82 #BNb"><persName ref="#Pt">ptholomeus</persName></lem>
 <rdg wit="#Ghent #BNc" ana="#orthographic"><persName ref="#Pt">ptolomeus</persName></rdg>
 <rdg wit="#BNa" ana="#lexical">thonus</rdg></app>
 <milestone ed="#e82" unit="folio" n="C1v"/>
 <milestone ed="#e82" unit="column" n="A"/>
-<app><lem wit="#e75 #e82"><num type="#ordinal" value="6">sextam</num> hiis addidit</lem>
+<app><lem wit="#e75 #e82 #BNb"><num type="#ordinal" value="6">sextam</num> hiis addidit</lem>
 <rdg wit="#BNa" ana="#morphological"><num type="#ordinal" value="6">6tam.</num> hiis addit</rdg>
 <rdg wit="#Ghent #BNc" ana="#subtractive">addidit <num type="#ordinal" value="6">sextam</num></rdg></app>
-consonantiam compositam ex <app><lem wit="#Ghent #e82 #BNc">dyatesseron</lem>
-<rdg wit="#e75" ana="#orthographic">dyateseron</rdg>
-<rdg wit="#BNa" ana="#orthographic">diatesseron</rdg></app>
-<app><lem wit="#e75 #e82 #BNa #BNc">et</lem>
-<rdg wit="#Ghent"/></app>
-dyapason que constat ex <app><lem wit="#Ghent #BNa #BNc">multiplici</lem>
+consonantiam compositam ex <app><lem wit="#e82 #BNc">dyatesseron et dyapason</lem>
+<rdg wit="#e75" ana="#orthographic">dyateseron et dyapason</rdg>
+<rdg wit="#BNa" ana="#orthographic">diatesseron et dyapason</rdg>
+<rdg wit="#Ghent" ana="#subtractive">dyatesseron dyapason</rdg>
+<rdg wit="#BNb" ana="#subtractive">dyatesseron</rdg></app>
+que constat ex <app><lem wit="#Ghent #BNa #BNb #BNc">multiplici</lem>
 <rdg wit="#e75 #e82" ana="#additive">multiplici et</rdg></app>
 <app><lem wit="#Ghent #BNa #BNc">superpartiente</lem>
+<rdg wit="#BNb" ana="#morphological">superpartienti</rdg>
 <rdg wit="#e75 #e82" ana="#lexical">superparticulari</rdg></app>
 <milestone ed="#e75" unit="folio" n="191v"/>
 <milestone ed="#e75" unit="column" n="A"/>
 <app><lem wit="#e75 #e82 #BNa">qua</lem>
-<rdg wit="#Ghent #BNc" ana="#additive">in qua</rdg></app>
-proportione se <app><lem wit="#e75 #e82 #BNa">habet</lem>
-<rdg wit="#Ghent #BNc" ana="#morphological">habent</rdg></app>
+<rdg wit="#Ghent #BNc" ana="#additive">in qua</rdg>
+<rdg wit="#BNb" ana="#additive">de qua</rdg></app>
+proportione <app><lem wit="#e75 #e82 #BNa">se habet</lem>
+<rdg wit="#Ghent #BNc" ana="#morphological">se habent</rdg>
+<rdg wit="#BNb" ana="#morphological">habet se</rdg></app>
 <num type="cardinal" value="8">octo</num> ad <num type="cardinal" value="3">.3.</num> continet enim <num type="cardinal" value="8">octo</num> bis <num type="cardinal" value="3">tria</num> <app><lem wit="#e75 #e82 #BNa #BNc">propter</lem>
+<rdg wit="#BNb" ana="#orthographic">propter <del>m</del></rdg>
 <rdg wit="#Ghent" ana="#lexical">per</rdg></app>
+<milestone ed="#BNb" unit="folio" n="183v"/>
+<milestone ed="#BNb" unit="column" n="A"/>
 multiplicem proportionem ex qua visum <app><lem wit="#e75 #e82 #Ghent #BNc">est</lem>
-<rdg wit="#BNa"/></app>
-consurgere <app><lem wit="#e75 #e82 #Ghent #BNc">dyapason:</lem>
+<rdg wit="#BNa #BNb"/></app>
+consurgere <app><lem wit="#e75 #e82 #Ghent #BNb #BNc">dyapason:</lem>
 <rdg wit="#BNa" ana="#orthographic">diapason</rdg></app>
-et <num type="cardinal" value="2">duas</num> <app><lem wit="#e75 #e82">eius partes</lem>
+et <num type="cardinal" value="2">duas</num> <app><lem wit="#e75 #e82 #BNb">eius partes</lem>
 <rdg wit="#Ghent #BNc" ana="#ordinal">partes euis</rdg>
 <rdg wit="#BNa" ana="#additive">eius partes eius</rdg></app>
-quod est <num type="#ordinal" value="3">tertia</num> scilicet <num type="cardinal" value="2">duo</num> propter superpartientem <app><lem wit="#e75 #e82 #Ghent #BNa">a</lem>
+quod est <num type="#ordinal" value="3">tertia</num> scilicet <num type="cardinal" value="2">duo</num> propter superpartientem <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">a</lem>
 <rdg wit="#BNc" ana="#lexical">ex</rdg></app>
-qua nascitur <app><lem wit="#Ghent #e82 #BNc">dyatesseron</lem>
+qua nascitur <app><lem wit="#e82 #Ghent #BNb #BNc">dyatesseron</lem>
 <rdg wit="#e75" ana="#orthographic">dyateseron</rdg>
 <rdg wit="#BNa" ana="#orthographic">diatesseron</rdg></app>
      </p>
      <p>
-Communiter tamen <app><lem wit="#e75 #Ghent #e82 #BNa">pictagorici</lem>
+Communiter tamen <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">pictagorici</lem>
 <rdg wit="#e82" ana="#orthographic">pithagorici</rdg>
 <rdg wit="#BNc" ana="#orthographic">pitagorici</rdg></app>
-musice <app><lem wit="#e75 #e82 #BNa">institutores</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNc">musice</lem>
+<rdg wit="#BNb"/></app>
+<app><lem wit="#e75 #e82 #BNa #BNb">institutores</lem>
 <rdg wit="#Ghent" ana="#orthographic">institores</rdg>
 <rdg wit="#BNc" ana="#lexical">inpositores</rdg></app>
-<app><lem wit="#Ghent #e82 #BNa #BNc">posuerunt</lem>
-<rdg wit="#e75" ana="#orthographic">possuerunt</rdg></app>
-omnes <app><lem wit="#e75 #e82 #BNa">proportiones</lem>
+<app><lem wit="#e82 #Ghent #BNa #BNc">posuerunt</lem>
+<rdg wit="#e75" ana="#orthographic">possuerunt</rdg>
+<rdg wit="#BNb" ana="#lexical">proposuerunt</rdg></app>
+omnes <app><lem wit="#e75 #e82 #BNa #BNb">proportiones</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">consonantias</rdg></app>
-musicales consurgere ex multiplici et superparticulari <app><lem wit="#e75 #e82 #BNa">nullamque</lem>
+musicales consurgere ex multiplici et superparticulari <app><lem wit="#e75 #e82 #BNa #BNb">nullamque</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">nullam vero</rdg></app>
 ex <app><lem wit="#Ghent #BNa #BNc">superpartiente</lem>
+<rdg wit="#BNb" ana="#morphological">superpartienti</rdg>
 <rdg wit="#e75 #e82" ana="#lexical">superparticulari</rdg></app>
-quod videtur <persName ref="#Ar">Aristotelis</persName> sentire <app><lem wit="#e75 #e82 #BNa #BNc"><num type="#ordinal" value="41">xli</num></lem>
+quod videtur <persName ref="#Ar">Aristotelis</persName> sentire <app><lem wit="#e75 #e82 #BNa #BNb #BNc"><num type="#ordinal" value="41">xli</num></lem>
 <rdg wit="#Ghent" ana="#lexical"><num type="#ordinal" value="4">4°.</num></rdg></app>
 <app><lem wit="#Ghent #BNa #BNb #BNc"/>
 <rdg wit="#e82 #e75" ana="#additive">Deinde.</rdg></app>
      </p>
      <p>
 Aut <app><lem wit="#e75 #e82 #Ghent #BNc">quia.</lem>
-<rdg wit="#BNa"/></app>
-Soluit dicens causam esse <app><lem wit="#e75 #e82 #BNa">quoniam in</lem>
+<rdg wit="#BNa #BNb"/></app>
+soluit dicens causam esse <app><lem wit="#e75 #e82 #BNa #BNb">quoniam in</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">quia</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNa"></lem>
-<rdg wit="#BNc" ana="#lexical"></rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNa">ambobus scilicet <app><lem wit="#e75 #e82 #BNa">in</lem>
-<rdg wit="#Ghent"/></app> graui et acuto est</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNa #BNb">ambobus scilicet <app><lem wit="#e75 #e82 #BNa">in</lem>
+<rdg wit="#Ghent #BNb"/></app> graui et acuto <app><lem wit="#e75 #e82 #Ghent #BNa">est</lem><rdg wit="#BNb" ana="#lexical">cum</rdg></app></lem>
 <rdg wit="#BNc" ana="#ordinal #lexical">ibi scilicet graui et acuto ambobus est</rdg></app>
-melodia utrorumque vnum enim <app><lem wit="#e75 #e82 #Ghent #BNa">alteri</lem>
+melodia <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">utrorumque</lem>
+<rdg wit="#BNb" ana="#lexical">utrorum</rdg></app>
+vnum enim <app><lem wit="#e75 #e82 #Ghent #BNa">alteri</lem>
+<rdg wit="#BNb" ana="#morphological">altero</rdg>
 <rdg wit="#BNc" ana="#morphological">alter</rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc">coniunctum</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">coniunctum</lem>
 <rdg wit="#BNa" ana="#lexical">constitum</rdg></app>
-<app><lem wit="#e75 #e82 #BNa #BNc">melodiam</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb #BNc">melodiam</lem>
 <rdg wit="#Ghent" ana="#additive">melodiam uel consonanciam</rdg></app>
-<app><lem wit="#e75 #e82 #BNa #BNc">reddit quia graue et acutum sunt dissimilia</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb #BNc">reddit quia graue et acutum sunt dissimilia</lem>
 <rdg wit="#Ghent" ana="#lexical">fieri ex dissimilibus</rdg></app>
      </p>
      <p>
-<app><lem wit="#e75 #e82 #BNa #BNc"><app><lem wit="#e75 #e82">Entimomus</lem><rdg wit="#BNa" ana="#?">Et thymolis</rdg><rdg wit="#BNc" ana="#lexical">Et <persName ref="#Ty">thimoteus</persName></rdg></app> quidem extimauit musice <num type="#ordinal" value="1">primo</num> melodiam uel consonantiam fieri ex dissimilibus non autem ex <app><lem wit="#e75 #e82 #BNa">similibus</lem><rdg wit="#BNc" ana="#lexical">consimilibus</rdg></app></lem>
+<app><lem wit="#e75 #e82 #BNa #BNb #BNc"><app><lem wit="#e75 #e82">Entimomus</lem><rdg wit="#BNa" ana="#additive">Et thymolis</rdg><rdg wit="#BNb" ana="#lexical">Et <persName ref="#Ty">thymotheus</persName></rdg><rdg wit="#BNc" ana="#lexical">Et <persName ref="#Ty">thimoteus</persName></rdg></app> quidem extimauit musice <num type="#ordinal" value="1">primo</num> melodiam uel consonantiam fieri ex dissimilibus non autem ex <app><lem wit="#e75 #e82 #BNa #BNb">similibus</lem><rdg wit="#BNc" ana="#lexical">consimilibus</rdg></app></lem>
 <rdg wit="#Ghent"/></app> 
-si autem <app><lem wit="#e75 #e82 #Ghent #BNa">proueniat</lem>
+si autem <app><lem wit="#e75 #e82 #Ghent #BNa #BNb">proueniat</lem>
 <rdg wit="#BNc"/></app>
-utrorunque in utrisque <app><lem wit="#e75 #e82 #Ghent">concordia</lem>
+utrorunque in utrisque <app><lem wit="#e75 #e82 #Ghent #BNb">concordia</lem>
 <rdg wit="#BNc" ana="#morphological">concordiam</rdg>
-<rdg wit="#BNa" ana="#?"><choice><sic>concodim concordia</sic><corr>concordia</corr></choice></rdg></app>
+<rdg wit="#BNa" ana="#orthographic"><choice><sic>concodim concordia</sic><corr>concordia</corr></choice></rdg></app>
 non fit melodia. Cum autem 
 <milestone ed="#BNa" unit="column" n="B"/>
 sic fuerit quod graue 
 <app><lem wit="#e75 #e82 #BNa">maius sit</lem>
-<rdg wit="#Ghent #BNc" ana="#ordinal">sit maius</rdg></app>
-acuto et fortius: tunc quod est acutum assumit rationem grauis ita quod acutum sentitur graue <app><lem wit="#e75 #e82 #Ghent">ut</lem>
+<rdg wit="#Ghent #BNb #BNc" ana="#ordinal">sit maius</rdg></app>
+acuto et fortius: tunc quod est acutum assumit rationem grauis ita quod acutum sentitur graue <app><lem wit="#e75 #e82 #Ghent #BNb">ut</lem>
 <rdg wit="#BNa" ana="#lexical">enim</rdg>
 <rdg wit="#BNc"/></app>
-cum <app><lem wit="#e75 #e82 #BNa #BNc"><num type="cardinal" value="2">due</num></lem>
-<rdg wit="#Ghent" ana="#orthographic"><num type="cardinal" value="2">duo</num></rdg></app>
-<app><lem wit="#e75 #e82 #Ghent #BNc">nete</lem>
+cum <num type="cardinal" value="2"><app><lem wit="#e75 #e82 #BNa #BNb #BNc">due</lem>
+<rdg wit="#Ghent" ana="#orthographic">duo</rdg></app></num>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">nete</lem>
 <rdg wit="#BNa" ana="#orthographic">nite</rdg></app>
-<app><lem wit="#e75 #e82 #BNa">concurrunt</lem>
+<app><lem wit="#e75 #e82 #BNa #BNb">concurrunt</lem>
 <rdg wit="#Ghent #BNc" ana="#lexical">concordant</rdg></app>
-in <app><lem wit="#e75 #e82 #BNa #BNc">ypatem</lem>
+in <app><lem wit="#e75 #e82 #BNa #BNb #BNc">ypatem</lem>
 <rdg wit="#Ghent" ana="#orthographic">ypaton</rdg></app>
      </p>
      <p>
@@ -5151,11 +5288,13 @@ Dicitur autem
 <milestone ed="#Ghent" unit="column" n="A"/>
 melodia 
 <milestone ed="#BNc" unit="column" n="B"/>
-<app><lem wit="#e75 #e82 #Ghent #BNc">a melle</lem>
+<app><lem wit="#e75 #e82 #Ghent #BNb #BNc">a melle</lem>
 <rdg wit="#BNa" ana="#lexical">amelos</rdg></app>
-quoniam est consonantia <app><lem wit="#Ghent #BNa #BNc">delectabilissima</lem>
+quoniam est consonantia <app><lem wit="#Ghent #BNa #BNb #BNc">delectabilissima</lem>
 <rdg wit="#e75 #e82" ana="#orthographic">deletabilissima</rdg></app>
-ualde ex acuto et graui debite composita.
+ualde ex acuto <app><lem wit="#e75 #e82 #Ghent #BNa #BNc">et graui</lem>
+<rdg wit="#BNb" ana="#lexical">grauique</rdg></app>
+debite composita.
 <app><lem/>
 <rdg wit="#BNa" ana="#additive">sequitur <num type="#ordinal" value="14">14m.</num> problema <num type="#ordinal" value="19">19e.</num> particule.</rdg></app>
    </p>
