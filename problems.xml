@@ -5,7 +5,7 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>Pseudo-Aristotelian Problems with Pietro d’Abano’s Commentary</title>
+<title>Pseudo-Aristotelian Problems on Music with Pietro d’Abano’s Commentary</title>
 <author>Pietro d’Abano</author>
 <editor>Caleb Mutch</editor>
 </titleStmt>
@@ -14089,8 +14089,9 @@ simplicia <app><lem wit="#e75 #e82 #BNa #BNc">existentia</lem>
 <back xml:id="back">
 <div type="section" xml:id="Back">
 <head>Back Matter</head>
-<p>List of persons mentioned.</p>
+<p>List of persons mentioned</p>
 <listPerson type="historical">
+  <head>Historical persons</head>
 <person xml:id="Al">
 <persName>
 <forename>Alexander of</forename>
@@ -14189,8 +14190,15 @@ simplicia <app><lem wit="#e75 #e82 #BNa #BNc">existentia</lem>
 <addName>Antioch</addName>
 </persName>
 </person>
+<person xml:id="Ty">
+<persName>
+<forename>Timotheus of</forename>
+<addName>Miletus</addName>
+</persName>
+</person>
 </listPerson>
 <listPerson type="mythical">
+  <head>Mythical persons</head>
 <person xml:id="Ca">
 <persName>Cain</persName>
 </person>
@@ -14211,12 +14219,6 @@ simplicia <app><lem wit="#e75 #e82 #BNa #BNc">existentia</lem>
 </person>
 <person xml:id="Tub">
 <persName>Tubal-Cain</persName>
-</person>
-<person xml:id="Ty">
-<persName>
-<forename>Timotheus of</forename>
-<addName>Miletus</addName>
-</persName>
 </person>
 </listPerson>   
 </div>
