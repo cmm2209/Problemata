@@ -62,20 +62,20 @@
    </correction>
   </editorialDecl>
   <refsDecl>
-   <refState ed="v" unit="folio" length="2" delim="." />
-   <refState ed="v" unit="column" length="3" />
-   <refState ed="m" unit="folio" length="2" delim="." />
-   <refState ed="m" unit="column" length="3" />
    <refState ed="G" unit="folio" length="2" delim="." />
    <refState ed="G" unit="column" length="3" />
-   <refState ed="Px" unit="folio" length="2" delim="." />
-   <refState ed="Px" unit="column" length="3" />
-   <refState ed="Py" unit="folio" length="2" delim="." />
-   <refState ed="Py" unit="column" length="3" />
    <refState ed="Pp" unit="folio" length="2" delim="." />
    <refState ed="Pp" unit="column" length="3" />
    <refState ed="Pq" unit="folio" length="2" delim="." />
    <refState ed="Pq" unit="column" length="3" />
+   <refState ed="Px" unit="folio" length="2" delim="." />
+   <refState ed="Px" unit="column" length="3" />
+   <refState ed="Py" unit="folio" length="2" delim="." />
+   <refState ed="Py" unit="column" length="3" />
+    <refState ed="m" unit="folio" length="2" delim="." />
+    <refState ed="m" unit="column" length="3" />
+    <refState ed="v" unit="folio" length="2" delim="." />
+    <refState ed="v" unit="column" length="3" />
   </refsDecl>
   <variantEncoding method="location-referenced" location="internal"/>
  </encodingDesc>
@@ -408,7 +408,7 @@ quid est musica et que <app><lem wit="#G #Pp #Px #Py #m #v">ipsius.</lem>
 secundum  
 <app><lem wit="#G #Pp #Px #m #v" xml:id="lem-1.1-Bo">
 <app><lem wit="#m #v"><bibl><author ref="#Bo">Boecium</author> <title><ref target="#BoMu">musice</ref></title> 
-    <biblScope unit="volume" n="5"><num type="ordinal" value="5">5°</num></biblScope></bibl></lem>
+   <biblScope unit="volume" n="5"><num type="ordinal" value="5">5°</num></biblScope></bibl></lem>
 <rdg wit="#Py" ana="#lexical"><bibl><author ref="#Bo">Boecium</author> <title><ref target="#BoMu">musice</ref></title></bibl> <num type="ordinal" value="4">4°</num></rdg>
 <rdg wit="#Px" ana="#lexical"><persName ref="#Bo">Boecium</persName> raritate <num type="ordinal" value="4">4°</num></rdg>
 <rdg wit="#β" ana="#lexical #ordinal"><bibl><author ref="#Bo">Boecium</author> <num type="ordinal" value="1">primo</num> <title><ref target="#BoMu">musice</ref></title></bibl></rdg>
