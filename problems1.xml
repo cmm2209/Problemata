@@ -241,6 +241,30 @@
         </msDesc>
         URL: <ptr target="http://lib.ugent.be/catalog/rug01:000802948"/>
       </witness>
+      <witness xml:id="Ma">
+        <abbr type="siglum">M<hi rend="superscript">a</hi></abbr> = 
+        <title>Cesena, Malatestiana D.XXIV.2</title>
+        <msDesc>
+          <msIdentifier>     
+            <settlement>Cesena</settlement>     
+            <repository>Biblioteca Malatestiana</repository>     
+            <idno>D.XXIV.2</idno>     
+          </msIdentifier>
+        </msDesc>
+        URL: <ptr target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=DX.24.02"/>
+      </witness>
+      <witness xml:id="Mb">
+        <abbr type="siglum">M<hi rend="superscript">b</hi></abbr> = 
+        <title>Cesena, Malatestiana S.VI.3</title>
+        <msDesc>
+          <msIdentifier>     
+            <settlement>Cesena</settlement>     
+            <repository>Biblioteca Malatestiana</repository>     
+            <idno>S.VI.3</idno>     
+          </msIdentifier>
+        </msDesc>
+        URL: <ptr target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=SX.06.03"/>
+      </witness>
       <witness xml:id="Pp">
         <abbr type="siglum">P<hi rend="superscript">p</hi></abbr> = 
         <title>Paris, Bibliotheque Nationale man. lat. 6542</title>
@@ -250,13 +274,6 @@
             <repository>Bibliotheque Nationale</repository>     
             <idno>man. Lat. 6542</idno>     
           </msIdentifier>
-          <physDesc>
-            <handDesc hands="2">
-              <handNote xml:id="Pqh2">
-               <abbr type="siglum">P<hi rend="superscript">q2</hi></abbr> is responsible for the header, and writes in an ink that has faded significantly.  It may be the same scribe who wrote the large initials which begin each problem.
-              </handNote>
-            </handDesc>
-          </physDesc>
         </msDesc>
         URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b10721259d/f1.item.r=6542"/>
       </witness>
@@ -268,7 +285,14 @@
             <settlement>Paris</settlement>     
             <repository>Bibliotheque Nationale</repository>     
             <idno>man. Lat. 15454</idno>     
-          </msIdentifier>
+          </msIdentifier>   
+          <physDesc>
+            <handDesc hands="2">
+              <handNote xml:id="Pqh2">
+                <abbr type="siglum">P<hi rend="superscript">q2</hi></abbr> is responsible for the header, and writes in an ink that has faded significantly.  It may be the same scribe who wrote the large initials which begin each problem.
+              </handNote>
+            </handDesc>
+          </physDesc>
         </msDesc>
         URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90680829/f2"/>
       </witness>
