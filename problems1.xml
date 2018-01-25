@@ -4315,22 +4315,26 @@ PROPTER OPUS IPSUM. UOX ENIM DELECTABILIS QUE EST HOMINIS PERCUSSIUA AUTEM MAGIS
 <rdg wit="#G"/></app>
 delectabilis <app><lem wit="#G #Ma #Mb #Pp #Pq #Px #Py #Va #m #v">auditu</lem>
 <rdg wit="#Vc" ana="#morphological">auditui</rdg></app>
-unde <app><lem wit="#Ma #Mb #Px #Py #m #v">museus</lem>
+unde <app><lem wit="#Ma #Mb #Px #Py #m #v"><persName ref="#Mu">museus</persName></lem>
 <rdg wit="#Va" ana="#lexical">musicus</rdg>
 <rdg wit="#β" ana="#lexical">dicitur</rdg></app>
-<app><lem wit="#Ma #Py #m #v"><ref target="#ArPo"><app><lem wit="#Ma #Mb #m #v">politicorum</lem>
-<rdg wit="#Py" ana="#orthographic">polliticorum</rdg></app></ref> 
-<num type="ordinal" value="8">.viii.</num></lem>
-<rdg wit="#β" ana="#ordinal"><num type="ordinal" value="8">.8uo.</num> <ref target="#ArPo">politicorum</ref></rdg>
-<rdg wit="#Px" ana="#lexical"><ref target="#ArPo">policitorum</ref> scilicet</rdg>
-<rdg wit="#Va" ana="#subtractive"><ref target="#ArPo">policitorum</ref></rdg></app>
-<app><lem wit="#Py #Va #m #v">Delectabilissimum</lem>
+<app><lem wit="#G #Ma #Mb #Pp #Pq #Px #Py #Va #Vc #m #v" xml:id="lem-10.1-Ar">
+<app><lem wit="#Ma #Py #m #v"><bibl><title><ref target="#ArPo">
+<app><lem wit="#Ma #Mb #m #v">politicorum</lem>
+<rdg wit="#Py" ana="#orthographic">polliticorum</rdg></app></ref></title>
+<biblScope unit="volume" n="8"><num type="ordinal" value="8">.viii.</num></biblScope></bibl></lem>
+<rdg wit="#β" ana="#ordinal"><bibl><biblScope unit="volume" n="8"><num type="ordinal" value="8">.8uo.</num></biblScope> <title><ref target="#ArPo">politicorum</ref></title></bibl></rdg>
+<rdg wit="#Px" ana="#lexical"><bibl><title><ref target="#ArPo">policitorum</ref></title></bibl> scilicet</rdg>
+<rdg wit="#Va" ana="#subtractive"><bibl><title><ref target="#ArPo">politicorum</ref></title></bibl></rdg></app>
+<cit><quote><app><lem wit="#Py #Va #m #v">Delectabilissimum</lem>
 <rdg wit="#Ma #Mb #Px" ana="#additive">delectabili fine</rdg>
 <rdg wit="#G #Pp #Vc" ana="#additive">Quod delectabilissimum</rdg>
 <rdg wit="#Pq" ana="#lexical">quod delectabile <del>si</del> sumum</rdg></app>
 <app><lem wit="#G #Ma #Mb #Pp #Pq #Px #Py #Va #m #v">est</lem>
 <rdg wit="#Vc" ana="#orthographic">est <del>hominibus</del></rdg></app>
-hominibus cantare cum <app><lem wit="#Ma #Mb #Px #Py #m #v">quis</lem>
+hominibus cantare</quote></cit></lem>
+<note target="#lem-10.1-Ar" type="fontium"><bibl><author ref="#Ar">Aristotle</author><title ref="#ArPo">Politics</title><biblScope unit="volume" n="8"/><biblScope unit="page" n="1339b"/></bibl></note></app>
+cum <app><lem wit="#Ma #Mb #Px #Py #m #v">quis</lem>
 <rdg wit="#Va" ana="#morphological">qui</rdg>
 <rdg wit="#G #Pp #Pq" ana="#lexical">aliquis</rdg>
 <rdg wit="#Vc" ana="#lexical">animis</rdg></app>
@@ -4386,8 +4390,10 @@ uerbis <app><lem wit="#G #Ma #Mb #Pp #Px #Py #Va #Vc #m #v"><persName ref="#Ar">
 <rdg wit="#Vc" ana="#orthographic">subcinte tetigit</rdg>
 <rdg wit="#Px" ana="#ordinal">tetigit succincte</rdg>
 <rdg wit="#G" ana="#morphological">succincte tangit</rdg></app>
-motiuum quesiti et confirma<milestone ed="#m" unit="folio" n="190v" break="no"/>
-<milestone ed="#m" unit="column" n="A" break="no"/>tionem <app><lem wit="#G #Pp #Pq #Px #Va #Vc #m #v">eius.</lem>
+motiuum quesiti et confirmationem 
+<milestone ed="#m" unit="folio" n="190v"/>
+<milestone ed="#m" unit="column" n="A"/> 
+<app><lem wit="#G #Pp #Pq #Px #Va #Vc #m #v">eius.</lem>
 <rdg wit="#Ma #Mb" ana="#lexical">quesiti</rdg>
 <rdg wit="#Py"/></app>   
      </p>
@@ -4452,7 +4458,7 @@ respondet ad confirmationem dicens quod illic scilicet in <app><lem wit="#G #Ma 
 <milestone ed="#Px" unit="column" n="A"/>
 non <app><lem wit="#G #Ma #Mb #Pp #Pq #Px #Py #Va #m #v">est</lem>
 <rdg wit="#Vc"/></app>
-delectari <app><lem wit="#G #Ma #Mb #Pp #Pq #Px #Py #Va #Vc"><choice><expan>q<ex>uonia</ex>m</expan><abbr>qm̄</abbr></choice> similiter</lem>
+delectari <app><lem wit="#G #Ma #Mb #Pp #Pq #Px #Py #Va #Vc">quoniam similiter</lem>
 <rdg wit="#m #v" ana="#subtractive">similiter</rdg></app>
 <app><lem wit="#Py #m">in eis ita se habet ut</lem>
 <rdg wit="#Ma #Mb" ana="#lexical">in eis ita se habet sicut</rdg>
@@ -5066,13 +5072,13 @@ penes numerum inequalem <app><lem wit="#G #Pp #Px #Py #m #v">quarum</lem>
 <app><lem wit="#G #Px">multiplex</lem>
 <rdg wit="#Pq" ana="#additive">multiplex submultiplex</rdg>
 <rdg wit="#Py #m #v" ana="#additive">multiplex et submultiplex:</rdg>
-<rdg wit="#Pp" ana="#additive">multiplex submultiplex et</rdg></app>
+<rdg wit="#Pp" ana="#additive">multiplex submultiplex et</rdg></app>:
 superparticularis <app><lem wit="#Px #Py #m #v">et</lem>
 <rdg wit="#β"/></app>
-<app><lem wit="#G #Pp #Px #Py #m #v">subsuperparticularis:</lem>
-<rdg wit="#Pq"/></app>
+<app><lem wit="#G #Pp #Px #Py #m #v">subsuperparticularis</lem>
+<rdg wit="#Pq"/></app>:
 <app><lem wit="#G #Pp #Px #Py #m #v">superpartiens et subsuperpartiens.</lem>
-<rdg wit="#Pq" ana="#orthographic">superpatiens et subsuperpatiens</rdg></app>
+<rdg wit="#Pq" ana="#orthographic">superpatiens et subsuperpatiens</rdg></app>.
 <num type="cardinal" value="2">due</num> autem composite quarum 
 <app><lem wit="#G #Pp #Pq #Py #m #v"><num type="ordinal" value="1">prima</num></lem>
 <rdg wit="#Px" ana="#orthographic"><del><num type="ordinal" value="1">prima</num></del> <num type="ordinal" value="1">prima</num></rdg></app>
@@ -5081,7 +5087,8 @@ componitur <app><lem wit="#G #Pq #Px #Py #m #v">ex</lem>
 multiplici et <app><lem wit="#G #Pp #Px #Py #m #v">superparticulari:</lem>
 <rdg wit="#Pq" ana="#lexical">superari</rdg></app>
 <app><lem wit="#Pp #Pq #Px #Py #m #v">et 
-<app><lem wit="#Px #Py #m #v">ex</lem><rdg wit="#Pp #Pq"/></app> 
+<app><lem wit="#Px #Py #m #v">ex</lem>
+<rdg wit="#Pp #Pq"/></app> 
 <app><lem wit="#Pp #Pq #Py">submultiplici</lem>
 <rdg wit="#m #v" ana="#lexical">supermultiplici</rdg>
 <rdg wit="#Px" ana="#lexical">multiplici</rdg></app> 
@@ -5093,11 +5100,14 @@ et <app><lem wit="#Pp #Pq #Px #m #v">subsuperparticulari.</lem>
 <app><lem wit="#Pp #Py">superpartiente</lem>
 <rdg wit="#Px #m #v" ana="#lexical">superparticulari.</rdg>
 <rdg wit="#Pq" ana="#lexical">similiter particulari</rdg></app>
-et submultiplici <app><lem wit="#Pq #m #v">et</lem><rdg wit="#Pp #Px #Py"/></app>
+et submultiplici <app><lem wit="#Pq #m #v">et</lem>
+<rdg wit="#Pp #Px #Py"/></app>
 <app><lem wit="#Pq #Px #m #v">subsuperparticulari.</lem>
 <rdg wit="#Pp" ana="#lexical">subsuperpartiente.</rdg>
 <rdg wit="#Py" ana="#lexical">superparticulari.</rdg></app></lem>
 <rdg wit="#G" cause="homeoteleuton"/></app>
+</p>
+<p>
 Multiplex autem est <app><lem wit="#G #Pp #Pq #Py #m #v">quando</lem>
 <rdg wit="#Px"/></app>
 numerus maior minorem in se continet pluries: ut bis <app><lem wit="#Pq #Px #Py #m #v">uel</lem>
@@ -5228,6 +5238,8 @@ ad <num type="cardinal" value="3">trinarium</num></lem>
 <rdg wit="#G" ana="#morphological"><num type="cardinal" value="4">quatuor</num> ad <num type="cardinal" value="3">tria</num></rdg>
 <rdg wit="#Pp" ana="#additive"><num type="cardinal" value="4">4</num> se habent ad <num type="cardinal" value="3">3</num></rdg>
 <rdg wit="#Pq" ana="#additive"><num type="ratio" value="5/4">sexquiquater</num> numerus ad <num type="cardinal" value="4">quaternarium</num></rdg></app> 
+</p>
+<p>
 <app><lem wit="#Pp #Pq #Py #m #v">Superpartiens</lem>
 <rdg wit="#G #Px" ana="#lexical">superparticularis</rdg></app>
 <app><lem wit="#G #Pp #Pq #Py #m #v">est</lem>
@@ -5235,7 +5247,7 @@ ad <num type="cardinal" value="3">trinarium</num></lem>
 quando maior numerus continet minorem: et <app><lem wit="#G #Pp #Pq #Px #m #v">insuper</lem>
 <rdg wit="#Py" ana="#lexical">maxime</rdg></app>
 <app><lem wit="#v #G">aliquas eius partes</lem>
-<rdg wit="#Px #m #Py" ana="#ordinal">eius aliquas partes</rdg>
+<rdg wit="#Px #Py #m" ana="#ordinal">eius aliquas partes</rdg>
 <rdg wit="#Pq" ana="#morphological">aliquis eius partes</rdg>
 <rdg wit="#Pp" ana="#morphological #additive">aliquam eius partem seu partes</rdg></app>  
 ut <app><lem wit="#Px #Py #m #v"><num type="cardinal" value="2">duas</num></lem>
@@ -5243,19 +5255,19 @@ ut <app><lem wit="#Px #Py #m #v"><num type="cardinal" value="2">duas</num></lem>
 <rdg wit="#Pq" ana="#lexical"><num type="cardinal" value="3">3<hi rend="superscript">es</hi>.</num></rdg>
 <rdg wit="#G"/></app>
 <num type="cardinal" value="3">tres</num> etcetera. cuius species sunt 
-<app><lem wit="#Pp #Px #m #v">superbipartiens</lem>
+<app><lem wit="#Pp #Px #m #v"><num type="ratio" value="5/3">superbipartiens</num></lem>
 <rdg wit="#Py" ana="#additive">ter bipartiens</rdg>
 <rdg wit="#Pq" ana="#lexical">subyparicus</rdg>
 <rdg wit="#G" ana="#lexical #additive">subbipartiens Et</rdg></app>
-<app><lem wit="#Pp #Py #m #v">supertripartiens</lem>
+<app><lem wit="#Pp #Py #m #v"><num type="ratio" value="7/4">supertripartiens</num></lem>
 <rdg wit="#G" ana="#orthographic">supertriparticiens</rdg>
 <rdg wit="#Px" ana="#lexical">triparties</rdg>
 <rdg wit="#Pq"/></app>  
 <app><lem wit="#Pp #Pq #Px #Py #m #v">etcetera</lem>
 <rdg wit="#G"/></app>
-<app><lem wit="#Pp #Px #m #v">superbipartiens</lem>
-<rdg wit="#Py" ana="#orthographic">Superbipertiens</rdg>
-<rdg wit="#G" ana="#orthographic">Superbiparticiens</rdg>
+<app><lem wit="#Pp #Px #m #v"><num type="ratio" value="5/3">superbipartiens</num></lem>
+<rdg wit="#Py" ana="#orthographic"><num type="ratio" value="5/3">Superbipertiens</num></rdg>
+<rdg wit="#G" ana="#orthographic"><num type="ratio" value="5/3">Superbiparticiens</num></rdg>
 <rdg wit="#Pq" ana="#lexical">subipartiens</rdg></app>
 est cum <app><lem wit="#Pp #Pq #Py #m #v">numerus</lem>
 <rdg wit="#G" ana="#additive">minor numerus</rdg></app>
@@ -5273,9 +5285,9 @@ ut <app><lem wit="#Px #Py #m #v"><num type="cardinal" value="5">quinarius</num> 
 <rdg wit="#G" ana="#morphological"><num type="cardinal" value="5">quinque</num> ad <num type="cardinal" value="3">tria</num> se habet.</rdg>
 <rdg wit="#Pp" ana="#ordinal"><num type="cardinal" value="5">5</num> se habent ad <num type="cardinal" value="3">3</num></rdg>
 <rdg wit="#Pq" ana="#additive"><num type="cardinal" value="5">numerus quinarius</num> ad <num type="cardinal" value="3">ternarium</num> se habet</rdg></app>  
-<app><lem wit="#Pp #Pq #Px #Py">supertripartiens</lem>
-<rdg wit="#G" ana="#orthographic">supertripertiens</rdg>
-<rdg wit="#m #v" ana="#additive">supertripartiens est</rdg></app>  
+<app><lem wit="#Pp #Pq #Px #Py"><num type="ratio" value="7/4">supertripartiens</num></lem>
+<rdg wit="#G" ana="#orthographic"><num type="ratio" value="7/4">supertripertiens</num></rdg>
+<rdg wit="#m #v" ana="#additive"><num type="ratio" value="7/4">supertripartiens</num> est</rdg></app>  
 quando <app><lem wit="#G #Pq #Px #Py #m #v">semel continet</lem>
 <rdg wit="#Pp" ana="#additive">unus continet numerum semel</rdg></app>  
 <app><lem wit="#G #Pq #Px #Py #m #v">totum:</lem>
@@ -5305,7 +5317,8 @@ ad</lem>
      </p>
      <p>
 <app><lem wit="#Px #Py #m #v">Compositarum</lem>
-<rdg wit="#β" ana="#morphological">Compositorum</rdg></app>
+<rdg wit="#β" ana="#morphological">Compositorum</rdg>
+<note xml:lang="en">"Of the composite [ratios] . . .", so should be feminine.</note></app>
 uero multiplex superparticularis: est cum numerus <app><lem wit="#G #Pp #Pq #Py #m #v">maior continet</lem>
 <rdg wit="#Px" ana="#ordinal">continet maior</rdg></app>  
 <app><lem wit="#Pp #Pq #Px #Py #m #v">minorem</lem>
@@ -5320,9 +5333,7 @@ ut medietatem uel <num type="ordinal" value="3">tertiam</num>
 <app><lem wit="#G #Pp #Pq #Py #m #v">et</lem>
 <rdg wit="#Px" ana="#lexical">y.t.</rdg></app>  
 <app><lem wit="#Pq #Px #Py #m #v">huius</lem>
-<rdg wit="#G #Pp" ana="#lexical">huiusmodi</rdg></app>
-     </p>
-     <p>
+<rdg wit="#G #Pp" ana="#lexical">huiusmodi</rdg></app>.
 <app><lem wit="#G #Pp #Pq #Px #m #v">Huius</lem>
 <rdg wit="#Py" ana="#lexical">Huiusmodi</rdg></app>
 autem <app><lem wit="#Pq #m #v">species sunt <num type="ratio" value="5/2">duplex sexquialtera</num></lem>
@@ -5367,7 +5378,7 @@ ad <num type="cardinal" value="2"><app><lem wit="#G #Px #m #v">2</lem>
 <rdg wit="#Pp" ana="#lexical"><num type="cardinal" value="10">10</num> ad <num type="cardinal" value="4">4</num></rdg></app>  
 <app><lem wit="#G #Pq #Py #m #v"><num type="ratio" value="7/3">duplex sexquitertia</num></lem>
 <rdg wit="#Pp" ana="#orthographic"><num type="ratio" value="7/3">duplasesquitertia</num></rdg>
-<rdg wit="#Px" ana="#lexical #additive"><num type="ratio" value="6/2">duplex sexquialtera</num> <num type="ordinal" value="3">3a.</num></rdg></app>  
+<rdg wit="#Px" ana="#lexical #additive"><num type="ratio" value="5/2">duplex sexquialtera</num> <num type="ordinal" value="3">3a.</num></rdg></app>  
 <app><lem wit="#Px #Py">quando</lem>
 <rdg wit="#m #v" ana="#additive">est quando</rdg>
 <rdg wit="#G" ana="#additive">quando ipsum</rdg>
@@ -5386,8 +5397,8 @@ ad <app><lem wit="#G #Pp #Px #Py #m #v"><num type="cardinal" value="3">.3.</num>
 <app><lem wit="#Pq"><num type="ratio" value="9/4">duplex sexquiquarta</num></lem>
 <rdg wit="#Pp" ana="#orthographic"><num type="ratio" value="9/4">duplasexquiquarta</num></rdg>
 <rdg wit="#G" ana="#lexical">Dupla sexqui</rdg>
-<rdg wit="#Px" ana="#lexical"><num type="ratio" value="6/2">2x. sexquialtera</num></rdg>
-<rdg wit="#Py #m #v" ana="#additive"><num type="ratio" value="9/4">duplex sexquiquarta</num> etcetera</rdg></app>  
+<rdg wit="#Py #m #v" ana="#additive"><num type="ratio" value="9/4">duplex sexquiquarta</num> etcetera</rdg>
+<rdg wit="#Px" ana="#lexical"><num type="ratio" value="5/2">2<hi rend="superscript">x</hi>. sexquialtera</num></rdg></app>  
 <app><lem wit="#G #Pp #Pq #Py #m #v">ut <num type="cardinal" value="9">.ix.</num> 
 <app><lem wit="#G #Pp #Pq #Pq #m #v">ad</lem>
 <rdg wit="#Py" ana="#additive">se habet ad</rdg></app> 
@@ -5430,6 +5441,8 @@ ad <num type="cardinal" value="3">tria</num>
 ultra <app><lem wit="#G #Pq #Px #Py #m #v">totum</lem>
 <rdg wit="#Pp"/></app>  
 ut <num type="cardinal" value="13">.13.</num> ad <num type="cardinal" value="4">quatuor</num>. 
+</p>
+<p>
 Multiplex <app><lem wit="#Pp #Pq #Py #m #v">superpartiens</lem>
 <rdg wit="#Px" ana="#additve">est superpartiens</rdg>
 <rdg wit="#G" ana="#lexical">superparticularis</rdg></app>
@@ -5455,7 +5468,7 @@ plus quam semel uel <app><lem wit="#G #Pp #Pq #Px #Py #v">multociens</lem>
 etiam <app><lem wit="#Px #Py #m #v">infinite sunt</lem>
 <rdg wit="#β" ana="#ordinal">sunt infinite</rdg></app>
 <milestone ed="#G" unit="column" n="B"/>
-species ut <app><lem wit="#m #v">duplex superbipartiens duplex supertripartiens etcetera</lem>
+species ut <app><lem wit="#m #v"><num type="ratio" value="8/3">duplex superbipartiens</num> <num type="ratio" value="11/4">duplex supertripartiens</num> etcetera</lem>
 <rdg wit="#Pp #Pq" ana="#lexical">duplex superpartiens triplex superpartiens 
 <app><lem wit="#Pq">etcetera</lem>
 <rdg wit="#Pp" ana="#morphological">etceteriis</rdg></app></rdg>
@@ -5469,14 +5482,14 @@ et <app><lem wit="#G #Pp #Pq #Pq #Px #Py">id</lem>
 <num type="ratio" value="2/1">duplicitatis.</num> ex parte <app><lem wit="#G #Pq #Px #Py">quidem</lem>
 <rdg wit="#Pp" ana="#lexical">quidam</rdg>
 <rdg wit="#m #v" ana="#lexical">uero</rdg></app>
-<num type="ratio" value="3/1">triplicitatis</num> erunt <app><lem wit="#G #Pp #Py #m #v">triplex superbipartiens.</lem>
+<num type="ratio" value="3/1">triplicitatis</num> erunt <app><lem wit="#G #Pp #Py #m #v"><num type="ratio" value="11/3">triplex superbipartiens</num>.</lem>
 <rdg wit="#Px" ana="#lexical">triplex sibi partiens</rdg></app>  
-<app><lem wit="#m #Pp #Px #Py">triplex supertripartiens</lem>
+<app><lem wit="#Pp #Px #Py #m"><num type="ratio" value="15/4">triplex supertripartiens</num></lem>
 <rdg wit="#G #Pq" ana="#lexical">triplex superpartiens</rdg>
 <rdg wit="#v"/></app>
 <app><lem wit="#Pq #Px #Py #m #v">etcetera</lem>
 <rdg wit="#G #Pp"/></app> 
-<num type="ratio" value="8/3"><app><lem wit="#G #Pp #Px #Py #m #v">Duplex superbipartiens</lem>
+<num type="ratio" value="8/3"><app><lem wit="#G #Pp #Px #Py #m #v"><num type="ratio" value="8/3">Duplex superbipartiens</num></lem>
 <rdg wit="#Pq" ana="#orthographic">Duplex superbispartiens</rdg></app></num> 
 est quando numerus maior continet <app><lem wit="#β">bis</lem>
 <rdg wit="#Px #Py #m #v"/></app>
@@ -5488,8 +5501,8 @@ eius partes ut <num type="cardinal" value="8">octo</num> <app><lem wit="#β">se 
 <rdg wit="#Px #Py" ana="#morphological">se habet</rdg>
 <rdg wit="#m #v"/></app> 
 ad <app><lem wit="#G #Pp #m #v"><num type="cardinal" value="3">tres</num>.</lem>
-<rdg wit="#Pq #Px" ana="#morphological"><num type="cardinal" value="3">3am</num>.</rdg></app>  
-<app><lem wit="#G #Pp #Px #Py #m #v">Duplex supertripartiens <app><lem wit="#G #Pp">est</lem>
+<rdg wit="#Pq #Px" ana="#morphological"><num type="cardinal" value="3">3<hi rend="superscript">am</hi></num>.</rdg></app>  
+<app><lem wit="#G #Pp #Px #Py #m #v"><num type="ratio" value="11/4">Duplex supertripartiens</num> <app><lem wit="#G #Pp">est</lem>
 <rdg wit="#Px" ana="#additive">est quando</rdg>
 <rdg wit="#Py #m #v" ana="#lexical">etcetera</rdg></app>   
 <app><lem wit="#G #Pp #Py #m #v">ut <num type="cardinal" value="11">xi.</num> 
@@ -5498,12 +5511,12 @@ ad <app><lem wit="#G #Pp #m #v"><num type="cardinal" value="3">tres</num>.</lem>
 <rdg wit="#m #v"/></app> 
 ad <app><lem wit="#G #Pp"><num type="cardinal" value="4">4or.</num></lem>
 <rdg wit="#Py #m #v" ana="#lexical"><num type="cardinal" value="3">.3.</num></rdg></app>  
-<app><lem wit="#m #v">Quadruplex superbipartiens est quando</lem>
-<rdg wit="#Py" ana="#subtractive">Quadruplexsuperibipartiens</rdg>
-<rdg wit="#G" ana="#lexical">Triplex superparticiens alias supereriparticiens</rdg>
-<rdg wit="#Pp" ana="#lexical">triplex supertripartiens</rdg></app></lem>
+<app><lem wit="#Pp"><num type="ratio" value="15/4">triplex supertripartiens</num></lem>
+<rdg wit="#G" ana="#additive">Triplex superparticiens alias supereriparticiens</rdg>
+<rdg wit="#Py" ana="#lexical"><num type="ratio" value="14/3">Quadruplexsuperibipartiens</num></rdg>
+<rdg wit="#m #v " ana="#lexical #additive"> <num type="ratio" value="14/3">Quadruplex superbipartiens</num> est quando </rdg></app></lem>
 <rdg wit="#Px" cause="homeoarchon"/></app> 
-etcetera ut <num type="cardinal" value="15">.15.</num> </lem>
+etcetera ut <num type="cardinal" value="15">.15.</num></lem>
 <rdg wit="#Pq" ana="#subtractive">triplex</rdg></app>
 <app><lem wit="#G #Pq #Py">se habent</lem>
 <rdg wit="#Px" ana="#morphological">se habet</rdg>
