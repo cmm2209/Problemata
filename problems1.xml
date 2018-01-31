@@ -150,7 +150,7 @@
                 <surname>Boethius</surname>
               </persName>
             </author>
-            <title>De institutione arithmeticae</title>
+            <title>De institutione arithmetica</title>
           </bibl>
           <bibl xml:id="BoMu">
             <author>
@@ -161,7 +161,7 @@
                 <surname>Boethius</surname>
               </persName>
             </author>
-            <title>De institutione musicae</title>
+            <title>De institutione musica</title>
           </bibl>
           <bibl xml:id="GaPu">
             <author>
@@ -332,6 +332,17 @@
         </msDesc>
         URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2174"/>
       </witness>
+      <witness xml:id="Vb">
+        <abbr type="siglum">V<hi rend="superscript">b</hi></abbr> = 
+        <title>Vatican, Biblioteca Apostolica lat. 2175</title>
+        <msDesc>
+          <msIdentifier>     
+            <settlement>Vatican</settlement>     
+            <repository>Biblioteca Apostolica</repository>     
+            <idno>lat. 2175</idno>     
+          </msIdentifier>
+        </msDesc>
+      </witness>
       <witness xml:id="Vc">
         <abbr type="siglum">V<hi rend="superscript">c</hi></abbr> = 
         <title>Vatican, Biblioteca Apostolica lat. 2176</title>
@@ -344,7 +355,18 @@
         </msDesc>
         URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2176"/>
       </witness>
-      <witness xml:id="β"><abbr type="siglum">β</abbr> = <title>Consensus of the Jean de Jandun redaction (#G #Pp #Pq #Vc)</title></witness>
+      <witness xml:id="Vo">
+        <abbr type="siglum">V<hi rend="superscript">o</hi></abbr> = 
+        <title>Vatican, Biblioteca Apostolica Ottobon. lat. 1764</title>
+        <msDesc>
+          <msIdentifier>     
+            <settlement>Vatican</settlement>     
+            <repository>Biblioteca Apostolica</repository>     
+            <idno>Ottobon. lat. 1764</idno>     
+          </msIdentifier>
+        </msDesc>
+      </witness>
+      <witness xml:id="β"><abbr type="siglum">β</abbr> = <title>Consensus of the Jean de Jandun redaction (#G #Pp #Pq #Vc #Vo)</title></witness>
     </listWit>
     <listWit xml:id="bibliography-editions-witnesses">
       <head>Early Editions</head>
