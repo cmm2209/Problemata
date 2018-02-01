@@ -394,108 +394,129 @@
   </div>  
  </front>
 
-<body>
-<div type="edition" xml:id="edition-text" xml:space="preserve">
-<div type="textpart" subtype="header" n="1" xml:id="header">
+  <body>
+    <div type="edition" xml:id="edition-text" xml:space="preserve">
+  <div type="textpart" subtype="header" n="1" xml:id="header">
     <head>Header</head>
    <p>
-<milestone ed="#v" unit="folio" n="B5v"/>
-<milestone ed="#v" unit="column" n="B"/>
-<milestone ed="#m" unit="folio" n="188r"/>
-<milestone ed="#m" unit="column" n="A"/>
 <milestone ed="#G" unit="folio" n="234r"/>
 <milestone ed="#G" unit="column" n="A"/>
-<milestone ed="#Px" unit="folio" n="154v"/>
-<milestone ed="#Px" unit="column" n="B"/>
-<milestone ed="#Py" unit="folio" n="179v"/>
-<milestone ed="#Py" unit="column" n="A"/>
+<milestone ed="#Ma" unit="folio" n="96v"/>
+<milestone ed="#Ma" unit="column" n="B"/>
+<milestone ed="#Mb" unit="folio" n="38v"/>
+<milestone ed="#Mb" unit="column" n="B"/>
 <milestone ed="#Pp" unit="folio" n="183v"/>
 <milestone ed="#Pp" unit="column" n="A"/>
 <milestone ed="#Pq" unit="folio" n="179r"/>
 <milestone ed="#Pq" unit="column" n="B"/>
-<app><lem wit="#Px"/>
+<milestone ed="#Px" unit="folio" n="154v"/>
+<milestone ed="#Px" unit="column" n="B"/>
+<milestone ed="#Py" unit="folio" n="179v"/>
+<milestone ed="#Py" unit="column" n="A"/>
+<milestone ed="#Va" unit="folio" n="72r"/>
+<milestone ed="#Va" unit="column" n="B"/>
+<milestone ed="#Vb" unit="folio" n="107v"/>
+<milestone ed="#Vb" unit="column" n="B"/>
+<milestone ed="#Vc" unit="folio" n="62r"/>
+<milestone ed="#Vc" unit="column" n="A"/>
+<milestone ed="#Vo" unit="folio" n="147r"/>
+<milestone ed="#Vo" unit="column" n="A"/>
+<milestone ed="#v" unit="folio" n="B5v"/>
+<milestone ed="#v" unit="column" n="B"/>
+<milestone ed="#m" unit="folio" n="188r"/>
+<milestone ed="#m" unit="column" n="A"/>
+<app><lem wit="#Px #Va"/>
   <rdg wit="#m #v" ana="#additive">Incipit <num type="ordinal" value="19">decimanona</num> particula.</rdg>
   <rdg wit="#Pq" ana="#additive"><add place="margin">Incipit <num type="ordinal" value="19">decimanona</num> particula etcetera</add> <handShift medium="lighter ink" scribe="Pqh2"/>De problematibus Aristotelis que sunt circa Musicam l'armoniam particula <num type="ordinal" value="19">.19<hi rend="superscript">a</hi>.</num></rdg>
   <rdg wit="#Py" ana="#additive">Sequitur <num type="ordinal" value="19">xviiii.</num></rdg> 
   <rdg wit="#Pp" ana="#lexical"><add place="margin"><num type="ordinal" value="20">20<hi rend="superscript">a</hi></num></add></rdg>
-  <rdg wit="#G" ana="#additive #lexical"><persName ref="#Ar">Aristotelis</persName> problemata de hiis que sunt circa armoniam particula <num type="ordinal" value="20">20m.</num> Capitulum <num type="ordinal" value="1">primum</num></rdg></app>
-   </p>
-</div>
+  <rdg wit="#G" ana="#additive #lexical"><persName ref="#Ar">Aristotelis</persName> problemata de hiis que sunt circa armoniam particula <num type="ordinal" value="20">20<hi rend="superscript">m</hi>.</num> Capitulum <num type="ordinal" value="1">primum</num></rdg></app></p></div>
 
  <div type="textpart" subtype="problem" n="1" xml:id="part1">
   <head>Problem 1</head>
    <p>
 <milestone ed="#Py" unit="column" n="B"/>
-<app xml:id="app-1.1" exclude="#app-rdg-Px-1.1"><lem wit="#Pp #Py"/>
+<app xml:id="app-1.1" exclude="#app-rdg-Px-1.1"><lem wit="#Pp #Py #Va"/>
 <rdg wit="#Pq" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="1">primum</num></add><handShift medium="darker ink" scribe="Pq"/></rdg>
   <rdg wit="#G #m #v" ana="#additive"><num type="ordinal" value="1">Primum</num> problema.</rdg></app>
   </p>  
   <p>
-<mentioned><app><lem wit="#G #Pq #Px #m #v">PROPTER QUID DOLENTES <app><lem wit="#G #Pq #m #v">ET DELECTANTES</lem>
+<mentioned><app><lem wit="#G #Pq #Px #Va #m #v">PROPTER QUID DOLENTES <app><lem wit="#G #Pq #Va #m #v">ET DELECTANTES</lem>
   <rdg wit="#Px" ana="#lexical">ET GAUDENTES</rdg>
   <rdg wit="#Pp"/></app> 
-FISTULANTUR AUT <app><lem wit="#G #Px #m #v">UT</lem>
+FISTULANTUR AUT <app><lem wit="#G #Px #Va #m #v">UT</lem>
   <rdg wit="#Pq"/></app> 
 HII QUIDEM MINUS TRISTENTUR ALII AUTEM <app><lem/>
 <rdg wit="#Pq #Px" ana="#syntactic">UT</rdg></app>
-MAGIS <app><lem wit="#G #Px #m #v">GAUDEANT.</lem>
-  <rdg wit="#Pq" ana="#additive">GAUDEANT ETCETERA</rdg></app></lem>
+MAGIS <app><lem wit="#G #Px #Va #m #v">GAUDEANT.</lem>
+<rdg wit="#Pq" ana="#additive">GAUDEANT ETCETERA</rdg></app></lem>
 <rdg wit="#Pp" ana="#subtractive">PROPTER QUID DOLENTES FISTULANTUR</rdg>
 <rdg wit="#Py" ana="#subtractive">PROPTER QUID DOLENTES</rdg></app></mentioned>
    </p>  
    <p>
 <app xml:id="app-rdg-Px-1.1" exclude="#app-1.1">
 <rdg wit="#Px" ana="#additive">Propter quid dolentes etcetera.</rdg></app>
-Determinatis problematibus circa <app><lem wit="#G #Pp #Px #Py #m #v">mathematicam</lem>
+Determinatis problematibus circa <app><lem wit="#β #Px #Py #Va #m #v">mathematicam</lem>
 <rdg wit="#Pq" ana="#lexical"><choice><expan>metha<ex>physi</ex>cam</expan><abbr>metha<hi rend="superscript">cam</hi></abbr></choice></rdg></app>
 et orationes determinat 
-<app><lem wit="#G #Pp #Pq #Px #m #v">nunc</lem>
+<app><lem wit="#β #Pq #Px #Va #m #v">nunc</lem>
 <rdg wit="#Py"/></app>
-problemata circa <app><lem wit="#G #Pp #Px #Py #m #v">armonicam</lem>
+problemata circa <app><lem wit="#β #Px #Py #Va #m #v">armonicam</lem>
 <rdg wit="#Pq" ana="#morphological">armoniam</rdg></app>
-uel musicam eo quod in  <app><lem wit="#G #Px #Py #m #v">ipsa</lem>
+uel <app><lem wit="#β #Pq #Px #Py #m #v">musicam</lem>
+<rdg wit="#Va" ana="#morphological">musicca</rdg></app>
+eo quod in  <app><lem wit="#G #Px #Py #Va #m #v">ipsa</lem>
 <rdg wit="#Pp #Pq" ana="#morphological">ipso</rdg></app> 
-est <app><lem wit="#G #Pp #Px #Py #m #v">quidam</lem>
+est <app><lem wit="#β #Px #Py #m #v">quidam</lem>
+<rdg wit="#Va" ana="#orthographic">quiddam</rdg>
 <rdg wit="#Pq"/></app>
-amor sermonis ut <app><lem wit="#G #Pp #Px #Py #m #v">in</lem>
+amor sermonis ut <app><lem wit="#β #Px #Py #Va #m #v">in</lem>
 <rdg wit="#Pq"/></app>
-<app><lem wit="#G #Pp #Pq #Px #m #v">priori</lem>
+<app><lem wit="#β #Pq #Px #m #v">priori</lem>
+<rdg wit="#Va" ana="#orthographic">prriori</rdg>
 <rdg wit="#Py" ana="#lexical">posteriori</rdg></app>
-particula. 
+<app><lem wit="#β #Pq #Px #Py #m #v">particula.</lem>
+<rdg wit="#Va" ana="#orthographic">particulla</rdg></app>
 <milestone ed="#Pp" unit="column" n="B"/>
 et primitus ad huius <app><lem wit="#Px #Py #m #v">maiorem</lem>
-<rdg wit="#β"/></app>  
-expositionem <app><lem wit="#G #Pp #Pq #Px">premittantur</lem>
+<rdg wit="#Va" ana="#lexical">amorrem</rdg>
+<rdg wit="#β #Pq"/></app>  
+expositionem <app><lem wit="#β #Pq #Px">premittantur</lem>
+<rdg wit="#Va" ana="#orthographic">prremictantur</rdg>
 <rdg wit="#Py #m #v" ana="#morphological">premittuntur</rdg></app>
-quedam <app><lem wit="#G #Pp #Pq #Py #m #v">communia:</lem>
+quedam <app><lem wit="#β #Pq #Py #Va #m #v">communia:</lem>
 <rdg wit="#Px" ana="#lexical">coloris</rdg></app>
-<app><lem wit="#Px #Py #m #v">sicut</lem>
-<rdg wit="#β" ana="#lexical">scilicet</rdg></app> 
-quid est musica et que <app><lem wit="#G #Pp #Px #Py #m #v">ipsius.</lem>
+<app><lem wit="#Px #Py #Va #m #v">sicut</lem>
+<rdg wit="#β #Pq" ana="#lexical">scilicet</rdg></app> 
+quid est musica et que <app><lem wit="#β #Px #Py #Va #m #v">ipsius.</lem>
 <rdg wit="#Pq" ana="#lexical">prius</rdg></app>
-<app><lem wit="#Px #Py #m #v">Que</lem>
-<rdg wit="#β"/></app>
+<app><lem wit="#Px #Py #Va #m #v">Que</lem>
+<rdg wit="#β #Pq"/></app>
 secundum  
-<app><lem wit="#G #Pp #Px #m #v" xml:id="lem-1.1-Bo">
-<app><lem wit="#m #v"><bibl><author ref="#Bo">Boecium</author> <title><ref target="#BoMu">musice</ref></title> 
-   <biblScope unit="volume" n="5"><num type="ordinal" value="5">5°</num></biblScope></bibl></lem>
-<rdg wit="#Py" ana="#lexical"><bibl><author ref="#Bo">Boecium</author> <title><ref target="#BoMu">musice</ref></title></bibl> <num type="ordinal" value="4">4°</num></rdg>
+<app><lem wit="#β #Px #m #v" xml:id="lem-1.1-Bo">
+<app><lem wit="#Va #m #v"><bibl><author ref="#Bo">Boecium</author> <title ref="#BoMu">musice</title> 
+    <biblScope unit="book"><num type="ordinal" value="5">5°</num></biblScope></bibl></lem>
+<rdg wit="#Py" ana="#lexical"><bibl><author ref="#Bo">Boecium</author> <title ref="#BoMu">musice</title> <biblScope unit="book"><num type="ordinal" value="4">4°</num></biblScope></bibl></rdg>
 <rdg wit="#Px" ana="#lexical"><persName ref="#Bo">Boecium</persName> raritate <num type="ordinal" value="4">4°</num></rdg>
-<rdg wit="#β" ana="#lexical #ordinal"><bibl><author ref="#Bo">Boecium</author> <num type="ordinal" value="1">primo</num> <title><ref target="#BoMu">musice</ref></title></bibl></rdg>
-<rdg wit="#Pq" ana="#lexical #additive"><bibl><author ref="#Bo">Boecium</author> et <num type="ordinal" value="1">primo</num> <title><ref target="#BoMu">musice</ref></title></bibl></rdg></app>
+<rdg wit="#β #Pq" ana="#lexical #ordinal"><bibl><author ref="#Bo">Boecium</author> <biblScope unit="book"><num type="ordinal" value="1">primo</num></biblScope> <title ref="#BoMu">musice</title></bibl></rdg>
+<rdg wit="#Pq" ana="#lexical #additive"><bibl><author ref="#Bo">Boecium</author> et <num type="ordinal" value="1">primo</num> <title ref="#BoMu">musice</title></bibl></rdg></app>
 <cit><quote><app><lem wit="#Pp #Pq">armonica est</lem>
-<rdg wit="#Px #m #v" ana="#morphological">est armonice</rdg>
+<rdg wit="#Px #Va #m #v" ana="#morphological">est armonice</rdg>
 <rdg wit="#Pp" ana="#ordinal">est armonica</rdg>
 <rdg wit="#G" ana="#lexical">Armonia est</rdg></app>
-facultas <app><lem wit="#G #Pp #Px #Py #m #v">differentias</lem>
+facultas <app><lem wit="#β #Px #Py #Va #m #v">differentias</lem>
 <rdg wit="#Pq" ana="#lexical">differens</rdg></app>
-<app><lem wit="#Px #Py">acutorum et grauium sonorum sensu et ratione</lem>
-<rdg wit="#m #v" ana="#lexical">acutorum et grauium sonorum sensu ac ratione</rdg>
-<rdg wit="#β" ana="#subtractive #ordinal">acutorum sonorum et grauium ratione</rdg>
+<app><lem wit="#Px #Py #Va #m #v" ana="#lexical"><app><lem wit="#Px #Py #m #v">acutorum</lem>
+<rdg wit="#Va" ana="#orthographic">accutorum</rdg></app>
+et grauium sonorum <app><lem wit="#Px #Py #m #v">sensu</lem>
+<rdg wit="#Va" ana="#orthographic">scensu</rdg></app>
+<app><lem wit="#Px #Py">et</lem>
+<rdg wit="#Va #m #v" ana="#lexical">ac</rdg></app>
+ratione</lem>
+<rdg wit="#β #Pq" ana="#subtractive #ordinal">acutorum sonorum et grauium ratione</rdg>
 <rdg wit="#Pq" ana="#subtractive #additive">acutorum sonorum et grauiorum sonorum</rdg></app>
 perpendens.</quote></cit></lem>
-<note target="#lem-1.1-Bo" type="fontium"><bibl><author ref="#Bo">Boethius</author><title ref="#BoMu">De institutione musica</title><biblScope unit="volume" n="5"/><biblScope unit="chapter" n="1"/></bibl></note>
-</app>
+<note target="#lem-1.1-Bo" type="fontium"><bibl><author ref="#Bo">Boethius</author><title ref="#BoMu">De institutione musica</title><biblScope unit="book" n="5"/><biblScope unit="chapter" n="1"/></bibl></note></app>
 Secundum uero <app><lem wit="#G #Pp #Px #m #v" xml:id="lem-1.1-Is">
 <bibl><author ref="#Is"><app><lem wit="#G #Pq #Px #Py">ysidorum</lem>
 <rdg wit="#Pp #m" ana="#orthographic">ysidorium</rdg>
@@ -1663,7 +1684,7 @@ comparate <app><lem wit="#G #Pq #Px #Py #m #v">dyapente</lem>
 <rdg wit="#Pp" ana="#orthographic">diapente</rdg></app>
 et <app><lem wit="#G #Pp #Pq #Px #m #v">dyatesseron</lem>
 <rdg wit="#Py" ana="#orthographic">dyatesson</rdg></app>
-ut apparebit <num type="cardinal" value="13">.13.</num> <app><lem wit="#m #v">ita in</lem>
+ut apparebit <ref target="#part13"><num type="cardinal" value="13">.13.</num></ref> <app><lem wit="#m #v">ita in</lem>
 <rdg wit="#G #Px #Py" ana="#additive">ita ut in</rdg>
 <rdg wit="#Pp #Pq" ana="#lexical">ita ut</rdg></app>
 hiis <num type="cardinal" value="14">quatuor</num> cordis <app><lem wit="#G #Pp #Pq #Px #m #v">nihil</lem>
@@ -1780,9 +1801,9 @@ propter <app><lem wit="#G #Pp #Px #Py #m #v">dignitatis</lem>
 excellentiam. <num type="cardinal" value="7">Septem</num> uero fuisse cordas antiquitus <app><lem wit="#G #Pq #Py #m #v">testabatur</lem>
 <rdg wit="#Pp" ana="#morphological">testabitur</rdg>
 <rdg wit="#Px" ana="#morphological">testatur</rdg></app>
-<num type="ordinal" value="25">.25.</num> <app><lem wit="#G #Pp #Py #m #v">et</lem>
+<ref target="#part25"><num type="ordinal" value="25">.25.</num></ref> <app><lem wit="#β #Py #m #v">et</lem>
 <rdg wit="#Px"/></app>
-<app><lem wit="#G #m #v"><num type="ordinal" value="33">33</num></lem>
+<app><lem wit="#Py"><ref target="problems2.html#part32"><num type="ordinal" value="33">32.</num></ref></lem>
 <rdg wit="#Py" ana="#lexical"><num type="ordinal" value="32">32.</num></rdg>
 <rdg wit="#Pp" ana="#lexical"><num type="ordinal" value="34">34°</num></rdg>
 <rdg wit="#Px" ana="#lexical"><num type="ordinal" value="232">232</num></rdg>
