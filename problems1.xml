@@ -394,44 +394,8 @@
 
 <body>
 <div type="edition" xml:id="edition-text" xml:space="preserve">
-  
-<div type="textpart" subtype="header" n="1" xml:id="header">
-    <head>Header</head>
-   <p>
-<milestone ed="#G" unit="folio" n="234r"/>
-<milestone ed="#G" unit="column" n="A"/>
-<milestone ed="#Ma" unit="folio" n="96v"/>
-<milestone ed="#Ma" unit="column" n="B"/>
-<milestone ed="#Mb" unit="folio" n="38v"/>
-<milestone ed="#Mb" unit="column" n="B"/>
-<milestone ed="#Pp" unit="folio" n="183v"/>
-<milestone ed="#Pp" unit="column" n="A"/>
-<milestone ed="#Pq" unit="folio" n="179r"/>
-<milestone ed="#Pq" unit="column" n="B"/>
-<milestone ed="#Px" unit="folio" n="154v"/>
-<milestone ed="#Px" unit="column" n="B"/>
-<milestone ed="#Py" unit="folio" n="179v"/>
-<milestone ed="#Py" unit="column" n="A"/>
-<milestone ed="#Va" unit="folio" n="72r"/>
-<milestone ed="#Va" unit="column" n="B"/>
-<milestone ed="#Vb" unit="folio" n="107v"/>
-<milestone ed="#Vb" unit="column" n="B"/>
-<milestone ed="#Vc" unit="folio" n="62r"/>
-<milestone ed="#Vc" unit="column" n="A"/>
-<milestone ed="#Vo" unit="folio" n="147r"/>
-<milestone ed="#Vo" unit="column" n="A"/>
-<milestone ed="#v" unit="folio" n="B5v"/>
-<milestone ed="#v" unit="column" n="B"/>
-<milestone ed="#m" unit="folio" n="188r"/>
-<milestone ed="#m" unit="column" n="A"/>
-<app><lem wit="#Px #Va #Vb"/>
-  <rdg wit="#m #v" ana="#additive">Incipit <num type="ordinal" value="19">decimanona</num> particula.</rdg>
-  <rdg wit="#Pq" ana="#additive"><add place="margin">Incipit <num type="ordinal" value="19">decimanona</num> particula etcetera</add> <handShift medium="lighter ink" scribe="Pqh2"/>De problematibus Aristotelis que sunt circa Musicam l'armoniam particula <num type="ordinal" value="19">.19<hi rend="superscript">a</hi>.</num></rdg>
-  <rdg wit="#Py" ana="#additive">Sequitur <num type="ordinal" value="19">xviiii.</num></rdg> 
-  <rdg wit="#Pp" ana="#lexical"><add place="margin"><num type="ordinal" value="20">20<hi rend="superscript">a</hi></num></add></rdg>
-  <rdg wit="#G" ana="#additive #lexical"><persName ref="#Ar">Aristotelis</persName> problemata de hiis que sunt circa armoniam particula <num type="ordinal" value="20">20<hi rend="superscript">m</hi>.</num> Capitulum <num type="ordinal" value="1">primum</num></rdg></app></p></div>
 
- <div type="textpart" subtype="problem" n="1" xml:id="part1">
+<div type="textpart" subtype="problem" n="1" xml:id="part1">
   <head>Problem 1</head>
    <p>
 <milestone ed="#Py" unit="column" n="B"/>
@@ -446,7 +410,7 @@
 FISTULANTUR AUT <app><lem wit="#G #Px #Va #m #v">UT</lem>
   <rdg wit="#Pq" ana="#subtractive"/></app> 
 HII QUIDEM MINUS TRISTENTUR ALII AUTEM <app><lem/>
-<rdg wit="#Pq #Px" ana="#syntactic">UT</rdg></app>
+<rdg wit="#Pq #Px" ana="#additive #syntactic">UT</rdg></app>
 MAGIS <app><lem wit="#G #Px #Va #m #v">GAUDEANT.</lem>
 <rdg wit="#Pq" ana="#additive">GAUDEANT ETCETERA</rdg></app></lem>
 <rdg wit="#Pp" ana="#subtractive">PROPTER QUID DOLENTES FISTULANTUR</rdg>
@@ -747,7 +711,7 @@ enim natura spiritualis
 <milestone ed="#Py" unit="folio" n="180"/>
 <milestone ed="#Py" unit="column" n="A"/>
 coniungitur <app><lem wit="#Py #Va #m #v">corpori et rationalis</lem>
-<rdg wit="#Px">rationalis</rdg>
+<rdg wit="#Px" ana="#subtractive">rationalis</rdg>
 <rdg wit="#β #Pq" ana="#subtractive"/></app>
 <app><lem wit="#β #Pq #Px #Py">concorditer</lem>
 <rdg wit="#Va" ana="#orthographical">concordatur</rdg>
@@ -786,7 +750,7 @@ naturalis consonantiam facta <app><lem wit="#G #Pq #Px #Py #Va #m #v">est</lem>
 <rdg wit="#Pp" ana="#subtractive"/></app>
 ut <app><lem wit="#β #Pq #Py #Va #m #v">subsistat</lem>
 <rdg wit="#Px" ana="#lexical">substat</rdg></app></quote></cit></lem>
-<note target="#lem-1.1-Mas" type="fontium"><bibl><author ref="#Mas">Yuhanna ibn Masawaih</author> <title ref="#MasAph">Aphorisms</title></bibl> See Vat. Lat. 2460, f. 39v, ll.7-8</note></app>
+<note target="#lem-1.1-Mas" type="fontium"><bibl><author ref="#Mas">Yuhanna ibn Masawaih</author> <title ref="#MasAph">Aphorisms</title></bibl> See <ref target="https://digi.vatlib.it/view/MSS_Vat.lat.2460">Vat. Lat. 2460</ref>, f. 39v, ll.7-8</note></app>
 Quare <app><lem wit="#Pq #Px #Py #Va #m #v">huius</lem>
 <rdg wit="#β" ana="#lexical">huiusmodi</rdg></app>
 <app><lem wit="#Py #Va #m #v">musice naturali</lem>
@@ -1026,10 +990,10 @@ fortiores redduntur <app><lem wit="#β #Pq #Px #Py #m #v">bellatores</lem>
 <rdg wit="#Va" ana="#orthographical">belatores</rdg></app>
 similiter <app><lem>laxatos et exercitio</lem>
 <rdg wit="#m #v" ana="#orthographical">lassatos et exercitio</rdg>
-<rdg wit="#Va" ana="#morphological">lasatas et exercitio</rdg>
 <rdg wit="#G" ana="#ordinal">et laxatos exercitio</rdg>
+<rdg wit="#Va" ana="#morphological">lasatas et exercitio</rdg>
 <rdg wit="#Py" ana="#morphological">laxatiuo et exercitio</rdg>
-<rdg wit="#Pp #Pq #Px">laxatos exercitio</rdg></app>
+<rdg wit="#Pp #Pq #Px" ana="#subtractive">laxatos exercitio</rdg></app>
 <app><lem wit="#Px #Py #Va #m #v">laborioso</lem>
 <rdg wit="#β #Pq" ana="#additive">laborioso et</rdg></app>
 <app><lem wit="#β #Px #Py #Va #m #v">detentos</lem>
@@ -1134,7 +1098,7 @@ Querit <app><lem wit="#β #Px #Va">ergo</lem>
 <quote>quare <app><lem wit="#β #Pq #Px #Py #Va #m">dolentes</lem>
 <rdg wit="#v" ana="#orthographical">delentes</rdg></app>
 <app><lem wit="#G #Pq #m #v">contristantes et delectantes gaudentesque</lem>
-<rdg wit="#Py #Va">contristantes delectantes gaudentesque</rdg>
+<rdg wit="#Py #Va" ana="#subtractive">contristantes delectantes gaudentesque</rdg>
 <rdg wit="#Px" ana="#additive #lexical">et tristantes et delectantes gaudentes</rdg>
 <rdg wit="#Pp" ana="#additive">et contristantes sunt delectantes et gaudentes</rdg></app>
 <app><lem wit="#β #Pq #Px #Py #m #v">fistulas</lem>
@@ -1166,7 +1130,7 @@ patientibus <app><lem wit="#β #Pq #Px #Py #m #v">fistule</lem>
 <app><lem wit="#G #Px #Py">tympana.</lem>
 <rdg wit="#Pp #Pq #m #v" ana="#orthographical">timpana</rdg>
 <rdg wit="#Va" ana="#morphological">tympane</rdg></app></quote></cit></lem>
-<note target="#lem-1.1-Al" type="fontium"><bibl><author ref="#Al">Alexander of Aphrodisias</author> <title ref="#AlPr">Problems</title> <biblScope unit="book" n="1"/><biblScope unit="problem" n="78"/> I.78 (See Vat. Reg.lat. 747 f. 75v for d'Abano's own translation)</bibl></note></app>
+<note target="#lem-1.1-Al" type="fontium"><bibl><author ref="#Al">Alexander of Aphrodisias</author> <title ref="#AlPr">Problems</title> <biblScope unit="book" n="1"/><biblScope unit="problem" n="78"/> I.78 (See <ref target="https://digi.vatlib.it/view/MSS_Reg.lat.747">Vat. Reg.lat. 747</ref> f. 75v for d'Abano's own translation)</bibl></note></app>
 <app><lem wit="#Px #Py #Va #m #v"> 
 <app><lem xml:id="lem-1.6-Ar">
 Nosce quod <cit><quote><app><lem wit="#Py">omnes passiones licet</lem>
@@ -1253,7 +1217,7 @@ fistulationis armonice <app><lem wit="#Pp #Pq #Px #Py #Va #m #v">amplius delecta
 Nosce quod <app><lem wit="#β #Pq #m #v">illud</lem>
 <rdg wit="#Px #Py #Va" ana="#lexical">id</rdg></app>
 potest contingere quia idem <app><lem wit="#Pp #Pq #Px #Py #Va #m #v">potest esse</lem>
-<rdg wit="#G">est</rdg></app>
+<rdg wit="#G" ana="#subtractive">est</rdg></app>
 causa diuersorum aut <app><lem wit="#Pq #Px #Py #Va #m #v">ratione</lem>
 <rdg wit="#β" ana="#additive">ratione diuersorum aut ratione</rdg></app>
 dispositionis <app><lem wit="#β #Pq #Py #m #v">susceptiui:</lem>
