@@ -3,379 +3,394 @@
 <?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Pseudo-Aristotelian Problems on Music with Pietro d’Abano’s Commentary (Part 2)</title>
-<author>Pietro d’Abano</author>
-<editor>Caleb Mutch</editor>
-</titleStmt>
-<editionStmt>
-<edition>First Edition</edition>
-</editionStmt>
-<publicationStmt>
-<publisher>To be determined</publisher>
-</publicationStmt>
-<sourceDesc>
-<p>Born digital.</p>
-</sourceDesc>
-</fileDesc>
-<encodingDesc>
-<editorialDecl>
-<correction method="silent">
-<p>
-<list>
-<item>G and Pp’s armoniac* emended to armonic*</item>
-<item>G’s rigm* emended to rithim*</item>
-<item>G’s *ypote emended to *ypate</item>
-<item>G’s lycan*s emended to lychanos</item>
-<item>Pp's licanos emended to lychanos</item>
-<item>Pp's *congnitio* emended to *cognitio*</item>
-<item>Px's lichanos emended to lychanos</item>
-<item>Px's dyapasser and diapasser emended to dyapason</item>
-<item>Px's dyatesser and diatesser emended to dyatesseron</item>
-<item>Px's mellodi* emended to melodi*</item>
-<item>G and Px's lira* emended to lyra*</item>
-<item>G's sesqui* emended to sexqui*</item>
-<item>m’s Boeti* emended to Boeci*</item>
-<item>m’s lira* emended to lyra*</item>
-<item>v's hi* emended to hii*</item>
-<item>Pp's sicud emended to sicut</item>
-<item>Pp's velud emended to velut</item>
-<item>All: *ij and *ijs emended to *ii and *ijs</item>
-<item>All: *cia and *cio emended to *tia and*tio</item>
-<item>All: probleuma* emended to problema*</item>
-<item>All: Tironian et emended to et</item>
-<item>All: ampersand emended to et</item>
-<item>All: Tall s ( ſ ) emended to round s</item>
-<item>All: contractions expanded</item>
-</list>
-</p>
-</correction>
-</editorialDecl>
-<refsDecl>
-<refState ed="v" unit="folio" length="2" delim="." />
-<refState ed="v" unit="column" length="3" />
-<refState ed="m" unit="folio" length="2" delim="." />
-<refState ed="m" unit="column" length="3" />
-<refState ed="G" unit="folio" length="2" delim="." />
-<refState ed="G" unit="column" length="3" />
-<refState ed="Px" unit="folio" length="2" delim="." />
-<refState ed="Px" unit="column" length="3" />
-<refState ed="Py" unit="folio" length="2" delim="." />
-<refState ed="Py" unit="column" length="3" />
-<refState ed="Pp" unit="folio" length="2" delim="." />
-<refState ed="Pp" unit="column" length="3" />
-<refState ed="Pq" unit="folio" length="2" delim="." />
-<refState ed="Pq" unit="column" length="3" />
-</refsDecl>
-<variantEncoding method="location-referenced" location="internal"/>
-</encodingDesc>
+ <fileDesc>
+  <titleStmt>
+   <title>Pseudo-Aristotelian Problems with Pietro d’Abano’s Commentary</title>
+   <author>Pietro d’Abano</author>
+   <editor>Caleb Mutch</editor>
+  </titleStmt>
+  <editionStmt>
+   <edition>First Edition</edition>
+  </editionStmt>
+  <publicationStmt>
+   <publisher>To be determined</publisher>
+  </publicationStmt>
+  <sourceDesc>
+   <p>Born digital.</p>
+  </sourceDesc>
+ </fileDesc>
+ <encodingDesc>
+  <charDecl>
+ <glyph xml:id="sqb">
+  <glyphName>LATIN LETTER SMALL B SQUARED</glyphName>
+  <charProp>
+   <localName>entity</localName>
+   <value>sqb</value>
+  </charProp> </glyph>
+  </charDecl>
+  <editorialDecl>
+   <correction method="silent">
+    <p>
+     <list>
+      <item>G, Pq and Pp’s armoniac* emended to armonic*</item>
+      <item>G’s rigm* emended to rithim*</item>
+      <item>G’s *ypote emended to *ypate</item>
+      <item>G’s lycan*s emended to lychanos</item>
+      <item>Pp and Pq's lichanos emended to lychanos</item>
+      <item>Pq and Py's licanos emended to lychanos</item>
+      <item>Pq's *messe emended to *mese</item>
+      <item>Px and Py's *congn* emended to *cogn*</item>
+      <item>Px and Py's anthiphon* emended to antiphon*</item>
+      <item>Px and Pp's dyapasser and diapasser emended to dyapason</item>
+      <item>Pp's dyatesser and diatesser emended to dyatesseron</item>
+      <item>Pp's mellodi* emended to melodi*</item>
+      <item>Pq's sinegengium emended to sinezengium</item>
+      <item>G and Py's sesqui* emended to sexqui*</item>
+      <item>m’s Boeti* emended to Boeci*</item>
+      <item>v's hi* emended to hii*</item>
+      <item>Px's "fati*" emended to faci*</item>
+      <item>Px and Py's sicud emended to sicut</item>
+      <item>Pq, Px and Py's velud emended to velut</item>
+      <item>All: lira* emended to lyra*</item>
+      <item>All: *ij and *ijs emended to *ii and *ijs</item>
+      <item>All: *cia, *cio, *cium emended to *tia, *tio, *tium</item>
+      <item>All: adinuicem emended to ad inuicem</item>
+      <item>All: probleuma* emended to problema*</item>
+      <item>All: Tironian et emended to et</item>
+      <item>All: ampersand emended to et</item>
+      <item>All: Tall s ( ſ ) emended to round s</item>
+      <item>All: contractions expanded</item>
+     </list>
+    </p>
+   </correction>
+  </editorialDecl>
+  <refsDecl>
+   <refState ed="e82" unit="folio" length="2" delim="." />
+   <refState ed="e82" unit="column" length="3" />
+   <refState ed="e75" unit="folio" length="2" delim="." />
+   <refState ed="e75" unit="column" length="3" />
+   <refState ed="Ghent" unit="folio" length="2" delim="." />
+   <refState ed="Ghent" unit="column" length="3" />
+   <refState ed="BNa" unit="folio" length="2" delim="." />
+   <refState ed="BNa" unit="column" length="3" />
+   <refState ed="BNb" unit="folio" length="2" delim="." />
+   <refState ed="BNb" unit="column" length="3" />
+   <refState ed="BNc" unit="folio" length="2" delim="." />
+   <refState ed="BNc" unit="column" length="3" />
+   <refState ed="BNd" unit="folio" length="2" delim="." />
+   <refState ed="BNd" unit="column" length="3" />
+  </refsDecl>
+  <variantEncoding method="location-referenced" location="internal"/>
+ </encodingDesc>
 </teiHeader>
 
 <text>
 <front xml:id="front">
-<div type="section" xml:id="bibliography">
-<head>Bibliography</head>
-<listBibl>
-<head>works cited</head>
-<bibl xml:id="AbCo">
-<author><persName>
-<forename>Pietro</forename>
-<surname>d'Abano</surname>
-</persName></author>
-<title>Conciliator differentiarum philosophorum</title>
-</bibl>
-<bibl xml:id="AlPr">
-<author><persName>
-<forename>Alexander of</forename>
-<addName>Aphrodisias</addName>
-</persName></author>
-<title>Problemata</title>
-</bibl>
-<bibl xml:id="ArAn">
-<author><persName>Aristotle</persName></author>
-<title>On the Soul</title>
-</bibl>
-<bibl xml:id="ArEth">
-<author><persName>Aristotle</persName></author>
-<title>Ethics</title>
-</bibl>
-<bibl xml:id="ArMet">
-<author><persName>Aristotle</persName></author>
-<title>Metaphysics</title>
-</bibl>
-<bibl xml:id="ArCa">
-<author><persName>Aristotle</persName></author>
-<title>On the Heavens</title>
-</bibl>
-<bibl xml:id="ArPe">
-<author><persName>Aristotle</persName></author>
-<title>On Interpretation</title>
-</bibl>
-<bibl xml:id="ArPh">
-<author><persName>Aristotle</persName></author>
-<title>Physics</title>
-</bibl>
-<bibl xml:id="ArPo">
-<author><persName>Aristotle</persName></author>
-<title>Politics</title>
-</bibl>
-<bibl xml:id="ArTo">
-<author><persName>Aristotle</persName></author>
-<title>Topics</title>
-</bibl>
-<bibl xml:id="BoAr">
-<author>
-<persName>
-<forename>Anicius</forename>
-<forename>Manlius</forename>
-<forename>Severinus</forename>
-<surname>Boethius</surname>
-</persName>
-</author>
-<title>De institutione arithmetica</title>
-</bibl>
-<bibl xml:id="BoMu">
-<author>
-<persName>
-<forename>Anicius</forename>
-<forename>Manlius</forename>
-<forename>Severinus</forename>
-<surname>Boethius</surname>
-</persName>
-</author>
-<title>De institutione musica</title>
-</bibl>
-<bibl xml:id="GaPu">
-<author>
-<persName>Galen</persName>
-</author>
-<title>De differentia pulsuum libri iv</title>
-</bibl>
-<bibl xml:id="GaSa">
-<author>
-<persName>Galen</persName>
-</author>
-<title>De sanitate tuenda libri vi</title>
-</bibl>
-<bibl xml:id="GuMi">
-<author>
-<persName>
-<forename>Guido of</forename>
-<addName>Arezzo</addName>
-</persName>
-</author>
-<title>Micrologus</title>
-</bibl>
-<bibl xml:id="IsEt">
-<author>
-<persName>
-<forename>Isidore of</forename>
-<addName>Seville</addName>
-</persName>
-</author>
-<title>Aphorisms</title>
-</bibl>
-<bibl xml:id="MasAph">
-<author>
-<persName>
-<forename>Yuhanna ibn</forename>
-<addName>Masawaiyh</addName>
-</persName>
-</author>
-<title>Etymologies</title>
-</bibl>
-<bibl xml:id="NiGer">
-<author>
-<persName>Nichomachus</persName>
-</author>
-<title>Geryones</title>
-</bibl>
-<bibl xml:id="Psalm">
-<title>Psalms</title>
-</bibl>
-<bibl xml:id="PtHar">
-<author>
-<persName>
-<forename>Claudius</forename>
-<surname>Ptolemy</surname>
-</persName>
-</author>
-<title>Harmonics</title>
-</bibl>
-<bibl xml:id="RegS">
-<title>Regimen sanitatis Salernitanum</title>
-</bibl>
-</listBibl>
-</div>
-  <div type="section" xml:id="conspectus">
-    <head>Conspectus</head>
-    <listWit xml:id="bibliography-manuscripts">
-      <head>Manuscripts</head>
-      <witness xml:id="G">
-        <abbr type="siglum">G</abbr> = 
-        <title>Ghent, Bibliothéek van de Rijksuniversiteit, ms. 72</title>
-        <msDesc>
-          <msIdentifier>     
-            <settlement>Ghent</settlement>     
-            <repository>Bibliothéek van de Rijksuniversiteit</repository>     
-            <idno>ms. 72</idno>     
-          </msIdentifier>
-        </msDesc>
-        URL: <ptr target="http://lib.ugent.be/catalog/rug01:000802948"/>
-      </witness>
-      <witness xml:id="Ma">
-        <abbr type="siglum">M<hi rend="superscript">a</hi></abbr> = 
-        <title>Cesena, Malatestiana D.XXIV.2</title>
-        <msDesc>
-          <msIdentifier>     
-            <settlement>Cesena</settlement>     
-            <repository>Biblioteca Malatestiana</repository>     
-            <idno>D.XXIV.2</idno>     
-          </msIdentifier>
-        </msDesc>
-        URL: <ptr target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=DX.24.02"/>
-      </witness>
-      <witness xml:id="Mb">
-        <abbr type="siglum">M<hi rend="superscript">b</hi></abbr> = 
-        <title>Cesena, Malatestiana S.VI.3</title>
-        <msDesc>
-          <msIdentifier>     
-            <settlement>Cesena</settlement>     
-            <repository>Biblioteca Malatestiana</repository>     
-            <idno>S.VI.3</idno>     
-          </msIdentifier>
-        </msDesc>
-        URL: <ptr target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=SX.06.03"/>
-      </witness>
-      <witness xml:id="Pp">
-        <abbr type="siglum">P<hi rend="superscript">p</hi></abbr> = 
-        <title>Paris, Bibliotheque Nationale man. lat. 6542</title>
-        <msDesc>
-          <msIdentifier>     
-            <settlement>Paris</settlement>     
-            <repository>Bibliotheque Nationale</repository>     
-            <idno>man. Lat. 6542</idno>     
-          </msIdentifier>
-        </msDesc>
-        URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b10721259d/f1.item.r=6542"/>
-      </witness>
-      <witness xml:id="Pq">
-        <abbr type="siglum">P<hi rend="superscript">q</hi></abbr> = 
-        <title>Paris, Bibliotheque Nationale man. lat. 15454</title>
-        <msDesc>
-          <msIdentifier>     
-            <settlement>Paris</settlement>     
-            <repository>Bibliotheque Nationale</repository>     
-            <idno>man. Lat. 15454</idno>     
-          </msIdentifier>   
-          <physDesc>
-            <handDesc hands="2">
-              <handNote xml:id="Pqh2">
-                <abbr type="siglum">P<hi rend="superscript">q2</hi></abbr> is responsible for the header, and writes in an ink that has faded significantly.  It may be the same scribe who wrote the large initials which begin each problem.
-              </handNote>
-            </handDesc>
-          </physDesc>
-        </msDesc>
-        URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90680829/f2"/>
-      </witness>
-      <witness xml:id="Px">
-        <abbr type="siglum">P<hi rend="superscript">x</hi></abbr> = 
-        <title>Paris, Bibliotheque Nationale man. lat. 6540</title>
-        <msDesc>
-          <msIdentifier>     
-            <settlement>Paris</settlement>     
-            <repository>Bibliotheque Nationale</repository>     
-            <idno>man. Lat. 6540</idno>     
-          </msIdentifier>
-        </msDesc>
-        URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90684121.r=6540"/>
-      </witness>
-      <witness xml:id="Py">
-        <abbr type="siglum">P<hi rend="superscript">y</hi></abbr> = 
-        <title>Paris, Bibliotheque Nationale man. lat. 6541</title>
-        <msDesc>
-          <msIdentifier>     
-            <settlement>Paris</settlement>     
-            <repository>Bibliotheque Nationale</repository>     
-            <idno>man. Lat. 6541</idno>     
-          </msIdentifier>
-        </msDesc>
-        URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b9068411m.r=6541"/>
-      </witness>
-      <witness xml:id="Va">
-        <abbr type="siglum">V<hi rend="superscript">a</hi></abbr> = 
-        <title>Vatican, Biblioteca Apostolica lat. 2174</title>
-        <msDesc>
-          <msIdentifier>     
-            <settlement>Vatican</settlement>     
-            <repository>Biblioteca Apostolica</repository>     
-            <idno>lat. 2174</idno>     
-          </msIdentifier>
-        </msDesc>
-        URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2174"/>
-      </witness>
-      <witness xml:id="Vb">
-        <abbr type="siglum">V<hi rend="superscript">b</hi></abbr> = 
-        <title>Vatican, Biblioteca Apostolica lat. 2175</title>
-        <msDesc>
-          <msIdentifier>     
-            <settlement>Vatican</settlement>     
-            <repository>Biblioteca Apostolica</repository>     
-            <idno>lat. 2175</idno>     
-          </msIdentifier>
-        </msDesc>
-      </witness>
-      <witness xml:id="Vc">
-        <abbr type="siglum">V<hi rend="superscript">c</hi></abbr> = 
-        <title>Vatican, Biblioteca Apostolica lat. 2176</title>
-        <msDesc>
-          <msIdentifier>     
-            <settlement>Vatican</settlement>     
-            <repository>Biblioteca Apostolica</repository>     
-            <idno>lat. 2176</idno>     
-          </msIdentifier>
-        </msDesc>
-        URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2176"/>
-      </witness>
-      <witness xml:id="Vo">
-        <abbr type="siglum">V<hi rend="superscript">o</hi></abbr> = 
-        <title>Vatican, Biblioteca Apostolica Ottobon. lat. 1764</title>
-        <msDesc>
-          <msIdentifier>     
-            <settlement>Vatican</settlement>     
-            <repository>Biblioteca Apostolica</repository>     
-            <idno>Ottobon. lat. 1764</idno>     
-          </msIdentifier>
-        </msDesc>
-      </witness>
-      <witness xml:id="β"><abbr type="siglum">β</abbr> = <title>Consensus of the Jean de Jandun redaction (#G #Pp #Pq #Vc #Vo)</title></witness>
-    </listWit>
-    <listWit xml:id="bibliography-editions-witnesses">
-      <head>Early Editions</head>
-      <witness xml:id="m">
-        <abbr type="siglum">m</abbr> = <bibl>
-          <editor><name>Illarius, Stephanus</name></editor>
-          <title>Expositio succinta problematum Aristotelis quam Petrus edidit Paduanus</title>
-          <pubPlace>Mantua</pubPlace>
-          <publisher>Paulus de Butzbach</publisher>
-          <date>1475</date>
-        </bibl>
-        URL: <ptr target="http://daten.digitale-sammlungen.de/~db/0006/bsb00068444/images/"/>
-      </witness>
-      <witness xml:id="v">
-        <abbr type="siglum">v</abbr> = <bibl>
-          <editor><name>Anonymous</name></editor>
-          <title>Expositio preclarissimi atque eximii artium ac medicine doctoris Petri de Ebano Patauini in librorum problematum Aristotelis</title>
-          <pubPlace>[Venetiis]</pubPlace>
-          <publisher>Johannes Herbort</publisher>
-          <date>1482</date>
-        </bibl>
-        URL: <ptr target="http://daten.digitale-sammlungen.de/~db/0005/bsb00058463/images/"/>
-      </witness>
-    </listWit>
+      <div type="section" xml:id="preface">
+        <head>Preface</head>
+        <p>General introductory remarks about the edition.</p>
+        <div type="section" xml:id="preface-section-1">
+          <!--This is a section within the preface. Editors should use
+          sections (distinguished by <div>) to organize the content of the edition's preface.-->
+        </div>
+      </div>
+      <div type="section" xml:id="bibliography">
+        <head>Bibliography</head>
+        <listBibl>
+          <head>works cited</head>
+          <bibl xml:id="AbCo">
+            <author><persName>
+              <forename>Pietro</forename>
+              <surname>d'Abano</surname>
+            </persName></author>
+            <title>Conciliator differentiarum philosophorum</title>
+          </bibl>
+          <bibl xml:id="AlPr">
+            <author><persName>
+              <forename>Alexander of</forename>
+              <addName>Aphrodisias</addName>
+            </persName></author>
+            <title>Problemata</title>
+          </bibl>
+          <bibl xml:id="ArAn">
+            <author><persName>Aristotle</persName></author>
+            <title>De anima</title>
+          </bibl>
+          <bibl xml:id="ArEth">
+            <author><persName>Aristotle</persName></author>
+            <title>Ethica</title>
+          </bibl>
+          <bibl xml:id="ArMet">
+            <author><persName>Aristotle</persName></author>
+            <title>Metaphysica</title>
+          </bibl>
+          <bibl xml:id="ArCa">
+            <author><persName>Aristotle</persName></author>
+            <title>De caelo</title>
+          </bibl>
+          <bibl xml:id="ArPe">
+            <author><persName>Aristotle</persName></author>
+            <title>De interpretatione</title>
+          </bibl>
+          <bibl xml:id="ArPh">
+            <author><persName>Aristotle</persName></author>
+            <title>Physica</title>
+          </bibl>
+          <bibl xml:id="ArPo">
+            <author><persName>Aristotle</persName></author>
+            <title>De politicorum</title>
+          </bibl>
+          <bibl xml:id="ArTo">
+            <author><persName>Aristotle</persName></author>
+            <title>Topica</title>
+          </bibl>
+          <bibl xml:id="ArPr">
+            <author><persName>Pseudo-Aristotle</persName></author>
+            <title>Problemata</title>
+          </bibl>
+          <bibl xml:id="BoAr">
+            <author>
+              <persName>
+                <forename>Anicius</forename>
+                <forename>Manlius</forename>
+                <forename>Severinus</forename>
+                <surname>Boethius</surname>
+              </persName>
+            </author>
+            <title>De institutione arithmetica</title>
+          </bibl>
+          <bibl xml:id="BoMu">
+            <author>
+              <persName>
+                <forename>Anicius</forename>
+                <forename>Manlius</forename>
+                <forename>Severinus</forename>
+                <surname>Boethius</surname>
+              </persName>
+            </author>
+            <title>De institutione musica</title>
+          </bibl>
+          <bibl xml:id="GaPu">
+            <author>
+              <persName>Galen</persName>
+            </author>
+            <title>De differentia pulsuum libri iv</title>
+          </bibl>
+          <bibl xml:id="GaSa">
+            <author>
+              <persName>Galen</persName>
+            </author>
+            <title>De sanitate tuenda libri vi</title>
+          </bibl>
+          <bibl xml:id="IsEt">
+            <author>
+              <persName>
+                <forename>Isidore of</forename>
+                <addName>Seville</addName>
+              </persName>
+            </author>
+            <title>Etymologiae</title>
+          </bibl>
+          <bibl xml:id="MasAph">
+            <author>
+              <persName>
+                <forename>Yuhanna ibn</forename>
+                <addName>Masawaiyh</addName>
+              </persName>
+            </author>
+            <title>Aphorismi</title>
+          </bibl>
+          <bibl xml:id="NiGer">
+            <author>
+              <persName>Nichomachus</persName>
+            </author>
+            <title>Geryones</title>
+          </bibl>
+          <bibl xml:id="Psalm">
+            <title>Psalms</title>
+          </bibl>
+          <bibl xml:id="PtHar">
+            <author>
+              <persName>
+                <forename>Claudius</forename>
+                <surname>Ptolemy</surname>
+              </persName>
+            </author>
+            <title>Harmonica</title>
+          </bibl>
+          <bibl xml:id="RegS">
+            <title>Regimen sanitatis Salernitanum</title>
+          </bibl>
+         </listBibl>
+        </div>
+        <div type="section" xml:id="conspectus">
+          <head>Conspectus</head>
+   <listWit xml:id="bibliography-manuscripts">
+    <head>Manuscripts</head>
+    <witness xml:id="G">
+     <abbr type="siglum">G</abbr> = 
+      <title>Ghent, Bibliothéek van de Rijksuniversiteit, ms. 72</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Ghent</settlement>     
+        <repository>Bibliothéek van de Rijksuniversiteit</repository>     
+        <idno>ms. 72</idno>     
+      </msIdentifier>
+     </msDesc>
+    URL: <ptr target="http://lib.ugent.be/catalog/rug01:000802948"/>
+    </witness>
+  <witness xml:id="Ma">
+     <abbr type="siglum">M<hi rend="superscript">a</hi></abbr> = 
+      <title>Cesena, Malatestiana D.XXIV.2</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Cesena</settlement>     
+        <repository>Biblioteca Malatestiana</repository>     
+        <idno>D.XXIV.2</idno>     
+      </msIdentifier>
+     </msDesc>
+    URL: <ptr target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=DX.24.02"/>
+    </witness>
+  <witness xml:id="Mb">
+     <abbr type="siglum">M<hi rend="superscript">b</hi></abbr> = 
+      <title>Cesena, Malatestiana S.VI.3</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Cesena</settlement>     
+        <repository>Biblioteca Malatestiana</repository>     
+        <idno>S.VI.3</idno>     
+      </msIdentifier>
+     </msDesc>
+    URL: <ptr target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=SX.06.03"/>
+    </witness>
+    <witness xml:id="Pp">
+     <abbr type="siglum">P<hi rend="superscript">p</hi></abbr> = 
+      <title>Paris, Bibliotheque Nationale man. lat. 6542</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Paris</settlement>     
+        <repository>Bibliotheque Nationale</repository>     
+        <idno>man. Lat. 6542</idno>     
+      </msIdentifier>
+     </msDesc>
+    URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b10721259d/f1.item.r=6542"/>
+    </witness>
+    <witness xml:id="Pq">
+     <abbr type="siglum">P<hi rend="superscript">q</hi></abbr> = 
+      <title>Paris, Bibliotheque Nationale man. lat. 15454</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Paris</settlement>     
+        <repository>Bibliotheque Nationale</repository>     
+        <idno>man. Lat. 15454</idno>     
+      </msIdentifier>   
+      <physDesc>
+      <handDesc hands="2">
+       <handNote xml:id="Pqh2">
+        <abbr type="siglum">P<hi rend="superscript">q2</hi></abbr> is responsible for the header, and writes in an ink that has faded significantly.  It may be the same scribe who wrote the large initials which begin each problem.
+       </handNote>
+      </handDesc>
+     </physDesc>
+     </msDesc>
+    URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90680829/f2"/>
+    </witness>
+    <witness xml:id="Px">
+     <abbr type="siglum">P<hi rend="superscript">x</hi></abbr> = 
+      <title>Paris, Bibliotheque Nationale man. lat. 6540</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Paris</settlement>     
+        <repository>Bibliotheque Nationale</repository>     
+        <idno>man. Lat. 6540</idno>     
+      </msIdentifier>
+     </msDesc>
+    URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90684121.r=6540"/>
+    </witness>
+    <witness xml:id="Py">
+     <abbr type="siglum">P<hi rend="superscript">y</hi></abbr> = 
+      <title>Paris, Bibliotheque Nationale man. lat. 6541</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Paris</settlement>     
+        <repository>Bibliotheque Nationale</repository>     
+        <idno>man. Lat. 6541</idno>     
+      </msIdentifier>
+     </msDesc>
+    URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b9068411m.r=6541"/>
+    </witness>
+    <witness xml:id="Va">
+     <abbr type="siglum">V<hi rend="superscript">a</hi></abbr> = 
+      <title>Vatican, Biblioteca Apostolica lat. 2174</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Vatican</settlement>     
+        <repository>Biblioteca Apostolica</repository>     
+        <idno>lat. 2174</idno>     
+      </msIdentifier>
+     </msDesc>
+    URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2174"/>
+    </witness>
+    <witness xml:id="Vb">
+     <abbr type="siglum">V<hi rend="superscript">b</hi></abbr> = 
+      <title>Vatican, Biblioteca Apostolica lat. 2175</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Vatican</settlement>     
+        <repository>Biblioteca Apostolica</repository>     
+        <idno>lat. 2175</idno>     
+      </msIdentifier>
+     </msDesc>
+    </witness>
+    <witness xml:id="Vc">
+     <abbr type="siglum">V<hi rend="superscript">c</hi></abbr> = 
+      <title>Vatican, Biblioteca Apostolica lat. 2176</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Vatican</settlement>     
+        <repository>Biblioteca Apostolica</repository>     
+        <idno>lat. 2176</idno>     
+      </msIdentifier>
+     </msDesc>
+    URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2176"/>
+    </witness>
+    <witness xml:id="Vo">
+     <abbr type="siglum">V<hi rend="superscript">o</hi></abbr> = 
+      <title>Vatican, Biblioteca Apostolica Ottobon. lat. 1764</title>
+      <msDesc>
+       <msIdentifier>     
+        <settlement>Vatican</settlement>     
+        <repository>Biblioteca Apostolica</repository>     
+        <idno>Ottobon. lat. 1764</idno>     
+      </msIdentifier>
+     </msDesc>
+    </witness>
+    <witness xml:id="β"><abbr type="siglum">β</abbr> = <title>Consensus of the Jean de Jandun redaction (#G #Pp #Vc #Vo)</title></witness>
+   </listWit>
+   <listWit xml:id="bibliography-editions-witnesses">
+    <head>Early Editions</head>
+    <witness xml:id="m">
+     <abbr type="siglum">m</abbr> = <bibl>
+      <editor><name>Illarius, Stephanus</name></editor>
+      <title>Expositio succinta problematum Aristotelis quam Petrus edidit Paduanus</title>
+      <pubPlace>Mantua</pubPlace>
+      <publisher>Paulus de Butzbach</publisher>
+      <date>1475</date>
+     </bibl>
+    URL: <ptr target="http://daten.digitale-sammlungen.de/~db/0006/bsb00068444/images/"/>
+    </witness>
+    <witness xml:id="v">
+     <abbr type="siglum">v</abbr> = <bibl>
+        <editor><name>Anonymous</name></editor>
+      <title>Expositio preclarissimi atque eximii artium ac medicine doctoris Petri de Ebano Patauini in librorum problematum Aristotelis</title>
+      <pubPlace>[Venetiis]</pubPlace>
+      <publisher>Johannes Herbort</publisher>
+      <date>1482</date>
+    </bibl>
+    URL: <ptr target="http://daten.digitale-sammlungen.de/~db/0005/bsb00058463/images/"/>
+    </witness>
+   </listWit>
   </div>
-</front>
+ </front>
   
 <body>
 <div type="edition" xml:id="edition-text" xml:space="preserve">
