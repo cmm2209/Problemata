@@ -1552,6 +1552,7 @@ optime una et diuisim <app><lem wit="#Px #m #v">denotat naturalis.</lem>
 <rdg wit="#Pp" ana="#additive">ostendit et donatat naturalis.</rdg>
 <rdg wit="#Pq" ana="#additive #ordinal">ostendit naturalis denotat</rdg>
 <rdg wit="#G" ana="#additive" cause="dittography">naturalis uoce vniuscuiusque vox quedam vna constituitur habens potentiam sceu tractus</rdg></app>
+<app><lem xml:id="lem-2.1-Ar">
 <app><lem wit="#β #Px #Py #m #v">et</lem>
 <rdg wit="#Pq" ana="#subtractive"/></app>
 hoc quidem problema <app><lem wit="#β #Px #m #v">partim</lem>
@@ -1559,14 +1560,15 @@ hoc quidem problema <app><lem wit="#β #Px #m #v">partim</lem>
 <rdg wit="#Py" ana="#subtractive"/></app>
 <app><lem wit="#β #Px #Py #m #v">pertinet.</lem>
 <rdg wit="#Pq" ana="#additive">partini enim</rdg></app>
-<app><lem wit="#v"><ref><num type="ordinal" value="11">.xi<hi rend="superscript">e</hi>.</num> particule</ref> ut uisum est</lem>
-<rdg wit="#m" ana="#ordinal"><ref><num type="ordinal" value="11">.xi<hi rend="superscript">a</hi>.</num></ref> ut visum est <ref>particule</ref></rdg>
-<rdg wit="#Px #Py" ana="#subtractive"><ref><num type="ordinal" value="11">.xie.</num></ref> ut uisum <ref>particule</ref></rdg>
-<rdg wit="#Pq" ana="#subtractive #ordinal">ut uisum est particule</rdg>
-<rdg wit="#β" ana="#lexical"><ref><num type="ordinal" value="5">.5e.</num> particule</ref> ut visum est</rdg></app>
-partimque isti. 
+<cit><app><lem wit="#v"><bibl><biblScope unit="book"><num type="ordinal" value="11">.xi<hi rend="superscript">e</hi>.</num></biblScope> <ref target="#ArPr">particule</ref> ut uisum est</bibl></lem>
+<rdg wit="#m" ana="#ordinal"><bibl><biblScope unit="book"><num type="ordinal" value="11">.xi<hi rend="superscript">a</hi>.</num></biblScope> ut visum est <ref target="ArPr">particule</ref></bibl></rdg>
+<rdg wit="#Px #Py" ana="#subtractive"><bibl><biblScope unit="book"><num type="ordinal" value="11">.xie.</num></biblScope> ut uisum <ref target="#ArPr">particule</ref></bibl></rdg>
+<rdg wit="#Pq" ana="#subtractive #ordinal"><bibl> ut uisum est <ref target="#ArPr">particule</ref></bibl></rdg>
+<rdg wit="#β" ana="#lexical"><bibl><biblScope unit="book"><num type="ordinal" value="5">.5e.</num></biblScope> <ref target="#ArPr">particule</ref> ut visum est</bibl></rdg></app>
+</cit>partimque isti.</lem>
+<note target="#lem-2.1-Ar" type="fontium"><bibl><author ref="#Ar">Pseudo-Aristotle</author> <title ref="#ArPr">Problems</title><biblScope unit="book" n="11"/> XI</bibl></note></app>
 <app><lem/><rdg wit="#Px" ana="#additive">sequitur <ref target="#part3"><num type="ordinal" value="3">3<hi rend="superscript">a</hi>.</num> problema <num type="ordinal" value="19">19.</num> particule.</ref></rdg></app>
-    </p>
+ </p>
 </div>
 
 <div type="textpart" subtype="problem" n="3" xml:id="part3">
@@ -1931,7 +1933,7 @@ excellentiam. <num type="cardinal" value="7">Septem</num> uero fuisse cordas ant
 <rdg wit="#Px" ana="#morphological">testatur</rdg></app>
 <ref target="#part25"><num type="ordinal" value="25">.25.</num></ref> <app><lem wit="#β #Py #m #v">et</lem>
 <rdg wit="#Px" ana="#subtractive"/></app>
-<app><lem wit="#Py"><ref target="problems2.xml#part32"><num type="ordinal" value="33">32.</num></ref></lem>
+<app><lem wit="#Py"><ref target="problems2.html#part32"><num type="ordinal" value="33">32.</num></ref></lem>
 <rdg wit="#G #m #v" ana="#lexical"><num type="ordinal" value="32">33</num></rdg>
 <rdg wit="#Pp" ana="#lexical"><num type="ordinal" value="34">34°</num></rdg>
 <rdg wit="#Px" ana="#lexical"><num type="ordinal" value="232">232</num></rdg>
