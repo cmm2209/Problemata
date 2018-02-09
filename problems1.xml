@@ -627,13 +627,13 @@ aquaticis <app><lem wit="#β #Ma #Pq #Px #Py #Vb #m #v">similiter</lem>
 <rdg wit="#Pq" ana="#ordinal">hanc <persName><ref target="#Mos">moyses</ref></persName></rdg></app>
 inuenisse <app><lem wit="#β #Ma #Pq #Px #Py #m #v"><app><lem wit="#G #Ma #m #v"><persName><ref target="#Tub">Tubal</ref></persName></lem>
 <rdg wit="#Pq" ana="#orthographical">gubal</rdg>
-<rdg wit="#Vb" ana="#orthographic">tutubal</rdg>
+<rdg wit="#Vb" ana="#orthographical">tutubal</rdg>
 <rdg wit="#Va" ana="#orthographical">tutubalis</rdg>
 <rdg wit="#Pp" ana="#lexical">aabal</rdg>
 <rdg wit="#Py" ana="#additive"><persName><ref target="#Tub">tubal</ref></persName> fratrem <persName><ref target="#Ca">cayn</ref></persName></rdg></app>
 de stirpe <persName><ref target="#Ca"><app><lem wit="#Pp #Py #Va">Cayn</lem>
 <rdg wit="#G #Pq" ana="#orthographical">Caym</rdg>
-<rdg wit="#Vb" ana="#orthographic">kaym</rdg>
+<rdg wit="#Vb" ana="#orthographical">kaym</rdg>
 <rdg wit="#Ma #m #v" ana="#orthographical">chaym</rdg></app></ref></persName>
 <app><lem wit="#Ma #Pp #Py #Va #Vb #m #v">ante diluuium.</lem>
 <rdg wit="#G" ana="#orthographical">ante dyluuium.</rdg>
@@ -641,19 +641,21 @@ de stirpe <persName><ref target="#Ca"><app><lem wit="#Pp #Py #Va">Cayn</lem>
 <rdg wit="#Px" cause="#homeoteleuton" ana="#subtractive"/></app></quote></lem>
 <note target="#lem-1.3-Is"><bibl><author ref="#Is">Isidore of Seville</author> <title ref="#IsEt">Etymologies</title><biblScope unit="book" n="3"/><biblScope unit="chapter" n="16"/> III.16.1</bibl></note></app>
 <app><lem xml:id="lem-1.2-Bo">
-<app xml:id="app-1.2a" next="#app-1.2b"><lem wit="#β #Ma #Py #Va #Vb #m #v">sed <app><lem wit="#β #Ma #Py #Va #Vb #m #v">greci</lem>
-<rdg wit="#Pq" ana="#lexical">gressi</rdg></app>
-ut apparet per</lem>
+<app><lem xml:id="lem-1.2-Bo-a" wit="#β #Ma #Py #Va #Vb #m #v">
+<cit><quote>sed <app><lem wit="#β #Ma #Py #Va #Vb #m #v">greci</lem>
+<rdg wit="#Pq" ana="#lexical">gressi</rdg></app></quote></cit></lem>
 <rdg wit="#Px" cause="#homeoteleuton" ana="#subtractive"/></app>
-<cit><app xml:id="app-1.2b" prev="#app-1.2a" next="#app-1.2b"><lem wit="#β #Ma #Py #Va #Vb #m #v">
-<bibl><author><ref target="#Mac">Macrobium</ref></author></bibl>
+<app><lem xml:id="lem-1.2-Bo-b" wit="#β #Ma #Py #Va #Vb #m #v">
+<cit><bibl>ut apparet per <author><ref target="#Mac">Macrobium</ref></author></bibl>
 <bibl> et <author><app><lem wit="#β #Ma #Px #Py #Va #Vb #m #v"><ref target="#Bo">Boecium</ref></lem>
-<rdg wit="#Pq" ana="#lexical">bonum</rdg></app></author></bibl></lem>
+<rdg wit="#Pq" ana="#lexical">bonum</rdg></app></author></bibl></cit></lem>
 <rdg wit="#Px" cause="#homeoteleuton" ana="#subtractive"/></app>
-<quote><app xml:id="app-1.2c" prev="#app-1.2b"><lem wit="#β #Ma #Py #Va #Vb #m #v">dicunt eam <app><lem wit="#β #Ma #Pq #Py #Va #Vb #m">inuenisse</lem>
-<rdg wit="#v" ana="#orthographical">inueuisse</rdg></app></lem>
+<app><lem xml:id="lem-1.2-Bo-c" wit="#β #Ma #Py #Va #Vb #m #v">
+<cit><quote>dicunt eam <app><lem wit="#β #Ma #Pq #Py #Va #Vb #m">inuenisse</lem>
+<rdg wit="#v" ana="#orthographical">inueuisse</rdg></app></quote></cit></lem>
 <rdg wit="#Px" cause="#homeoteleuton" ana="#subtractive"/></app>
-<app><lem wit="#Py"><persName><ref target="#Pyth">Pytagori Samium</ref></persName></lem>
+    <link type="join" target="#lem-1.2-Bo-a #lem-1.2-Bo-b #lem-1.2-Bo-c"/>
+<cit><quote><app><lem wit="#Py"><persName><ref target="#Pyth">Pytagori Samium</ref></persName></lem>
 <rdg wit="#Px" ana="#orthographical"><persName><ref target="#Pyth">pictagori samimum</ref></persName></rdg>
 <rdg wit="#Vb" ana="#morphological"><persName><ref target="#Pyth">pictagorius samium</ref></persName></rdg>
 <rdg wit="#Ma" ana="#morphological"><persName><ref target="#Pyth">pitagoram samium</ref></persName></rdg>
