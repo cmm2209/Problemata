@@ -4509,9 +4509,9 @@ soluit dicens causam esse quia cum <app><lem wit="#G #Px #Py #m #v">aliquis cant
 <app><lem wit="#Px #Py">singulariter</lem>
 <rdg wit="#m #v" ana="#lexical">signanter</rdg>
 <rdg wit="#β #Pq" ana="#additive">singulariter cantat</rdg></app>
-intentionem et maneriem cantus ma<milestone ed="#v" unit="column" n="B" break="no"/>gis <app><lem wit="#Px #m #v">vnitatem</lem>
-<rdg wit="#Pp #Pq #Py" ana="#lexical">vnitatur</rdg>
-<rdg wit="#G" ana="#lexical">vnitur</rdg></app>
+intentionem et maneriem cantus ma<milestone ed="#v" unit="column" n="B" break="no"/>gis <app><lem wit="#Pp #Pq #Py">vnitatur</lem>
+<rdg wit="#G" ana="#morphological">vnitur</rdg>
+<rdg wit="#Px #m #v" ana="#lexical">vnitatem</rdg></app>
 uox <app><lem wit="#β #Pq #Py #m #v">cum sono</lem>
 <rdg wit="#Px" ana="#orthographical">cusono</rdg></app>
 instrumenti quam <app><lem wit="#Px #m #v">quando</lem>
@@ -5367,7 +5367,7 @@ sicut apparebit <app><lem wit="#Px #m #v"><num type="ordinal" value="23">.23°.<
 <rdg wit="#Py" ana="#subtractive"/></app>
   </p>
    <p>
-<mentioned><app><lem wit="#G #Px #m #v">PROPTER QUID IN <app><lem wit="#m #v">DYAPASON</lem>
+<mentioned><app><lem wit="#G #Pq #Px #m #v"><seg xml:id="ment-13.1">PROPTER QUID IN <app><lem wit="#m #v">DYAPASON</lem>
 <rdg wit="#Px" ana="#orthographical">DIAPASON</rdg>
 <rdg wit="#Pq" ana="#orthographical">DIAPESON</rdg>
 <rdg wit="#G" ana="#orthographical">DYAPOSON</rdg></app>
@@ -5375,14 +5375,18 @@ ACUTI <app><lem wit="#Pq #Px #m #v">QUIDEM</lem>
 <rdg wit="#G" ana="#lexical">QUIDAM</rdg></app>
 ANTIFONUM FIT GRAUE. <app><lem wit="#G #Pq #m #v">HUIUS</lem>
 <rdg wit="#Px" ana="#lexical">HUIUSMODI</rdg></app>
-AUTEM ACUTUM NON QUIA MAXIME QUIDEM IN AMBOBUS EST AMBORUM <app><lem wit="#G #Px">MELODIA</lem>
+AUTEM ACUTUM NON.</seg> 
+<seg xml:id="ment-13.2"><app><lem>AUT</lem>
+<rdg wit="#G #Pq #Px m #v" ana="#subtractive"/>
+<note xml:lang="en">Sylburg 1585 has ἢ, which Klek and Mayhew 2011 adopt; the tranlation d'Abano consulted clearly had "aut."</note></app>
+QUIA MAXIME QUIDEM IN AMBOBUS EST AMBORUM <app><lem wit="#G #Px">MELODIA</lem>
 <rdg wit="#m #v" ana="#orthographical">MELODYA</rdg>
 <rdg wit="#Pq" ana="#morphological">MELODIAM</rdg></app>
 SI AUTEM NON: <app><lem wit="#G #m #v">NON</lem>
 <rdg wit="#Px" ana="#lexical">ENIM</rdg>
 <rdg wit="#Pq" ana="#subtractive"/></app>
 GRAUE MAIUS ENIM <app><lem wit="#β #Px #Py #m #v">EST.</lem>
-<rdg wit="#Pq" ana="#additive">EST ETCETERA</rdg></app>
+<rdg wit="#Pq" ana="#additive">EST ETCETERA</rdg></app></seg>
 </lem>
 <rdg wit="#Pp" ana="#subtractive">PROPTER QUID IN DYAPASON</rdg>
 <rdg wit="#Py" ana="#subtractive"/></app></mentioned>
@@ -6769,9 +6773,9 @@ quod videtur <persName ref="#Ar">Aristotelis</persName> sentire <app><lem wit="#
 <rdg wit="#v #m" ana="#additive">Deinde.</rdg></app>
      </p>
      <p>
-Aut <app><lem wit="#β #m #v">quia.</lem>
-<rdg wit="#Pq #Px #Py" ana="#subtractive"/></app>
-soluit dicens causam esse <app><lem wit="#Px #Py #m #v">quoniam in</lem>
+<mentioned><ref target="#ment-13.2">AUT <app><lem wit="#β #m #v">QUIA.</lem>
+<rdg wit="#Pq #Px #Py" ana="#subtractive"/></app></ref></mentioned>
+Soluit dicens causam esse <app><lem wit="#Px #Py #m #v">quoniam in</lem>
 <rdg wit="#Pq" ana="#lexical">quia in</rdg>
 <rdg wit="#β" ana="#lexical #subtractive">quia</rdg></app>
 <app><lem wit="#G #Pq #Px #Py #m #v">ambobus scilicet 
