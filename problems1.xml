@@ -3003,28 +3003,38 @@ licet de se cantetur difficilime. <app><lem wit="#Px #Py #m #v">illo</lem>
 autem <app><lem wit="#Px #Py #m #v">modo</lem>
 <rdg wit="#β #Pq" ana="#subtractive"/></app>
 minime <app><lem wit="#β #Pq #Px">quoniam</lem>
-<rdg wit="#Py" ana="#lexical">quando</rdg>
-<rdg wit="#m #v" ana="#lexical">quia</rdg></app>
+<rdg wit="#m #v" ana="#lexical">quia</rdg>
+<rdg wit="#Py" ana="#lexical">quando</rdg></app>
 consuetudo difficilima <app><lem wit="#G #Pq #Px #m #v">etiam alleuiat</lem>
 <rdg wit="#Pp" ana="#ordinal">alleuiat etiam</rdg>
 <rdg wit="#Py" ana="#lexical">etiam illeuiauit</rdg></app>
 <app><lem wit="#Px #Py #m #v"><app><lem wit="#Px #m #v">cuncta</lem><rdg wit="#Px" ana="#lexical">cetera</rdg></app> 
 iuxta <app><lem wit="#Px #m #v">illud</lem><rdg wit="#Py" ana="#lexical">istud</rdg></app> 
-<app><lem wit="#m #v">ypo. affirmatio.</lem>
-<rdg wit="#Py" ana="#lexical">yporetis amforisticis</rdg>
-<rdg wit="#Px" ana="#lexical"> ypoti. Ampl<unclear>ias</unclear></rdg></app>
-Assueti assuetos <app><lem wit="#Px #Py">ferre</lem>
+<app><lem xml:id="lem-4.1-Hip">
+<cit><app><lem><bibl><author><ref target="#Hip">Ypocrates</ref></author> <title><ref target="#HipAph">Amforisticis</ref></title></bibl></lem>
+<rdg wit="#m #v" ana="#lexical"><bibl><author><ref target="#Hip">Ypo.</ref></author> affirmatio.</bibl></rdg>
+<rdg wit="#Py" ana="#lexical"><bibl>yporetis <title><ref target="#HipAph">amforisticis</ref></title></bibl></rdg>
+<rdg wit="#Px" ana="#lexical">ypoti. Ampl<unclear>ias</unclear></rdg></app>
+<quote>Assueti assuetos <app><lem wit="#Px #Py">ferre</lem>
 <rdg wit="#m #v" ana="#lexical">fere</rdg></app>
-labores et <app><lem wit="#Px #Py">reliqua</lem>
-<rdg wit="#m #v" ana="#lexical">ceteram</rdg></app></lem>
+labores et <app><lem wit="#Px #Py">reliqua.</lem>
+<rdg wit="#m #v" ana="#lexical">ceteram</rdg></app>
+</quote>
+</cit></lem>
+<note target="#lem-4.1-Hip" type="fontium"><bibl><author ref="#Hip">Hippocrates</author> <title ref="#HipAph">Aphorisms</title><biblScope unit="part" n="2"/><biblScope unit="aphorism" n="49"/>II.49</bibl></note></app>
+</lem>
 <rdg wit="#β #Pq" ana="#subtractive"/></app>
-dicit autem uolun<milestone ed="#Pq" unit="column" n="B" break="no"/>tatem quia <app><lem wit="#Px #Py #m #v">consuetudo proprie</lem>
+
+<app><lem xml:id="lem-4.1-Ar">
+<cit><quote>Dicit autem uolun<milestone ed="#Pq" unit="column" n="B" break="no"/>tatem quia <app><lem wit="#Px #Py #m #v">consuetudo proprie</lem>
 <rdg wit="#β #Pq" ana="#ordinal">proprie consuetudo</rdg></app>
-in habentibus rationem acquiritur <app><lem wit="#Px #Py #m #v">apparens</lem>
-<rdg wit="#β #Pq" ana="#additive">ut apparet</rdg></app>
-<app><lem wit="#Py #m #v"><ref target="#ArEth">ethicorum</ref> <num type="ordinal" value="2">.2°.</num></lem>
-<rdg wit="#Px" ana="#orthographical"><ref target="#ArEth">ethycorum</ref> <num type="ordinal" value="2">secundo</num></rdg>
-<rdg wit="#β #Pq" ana="#ordinal"><num type="ordinal" value="2">2°</num> <ref target="#ArEth">Ethicorum</ref></rdg></app>
+in habentibus rationem acquiritur <app><lem wit="#Px #Py #m #v">apparens</lem><rdg wit="#β #Pq" ana="#additive">ut apparet</rdg></app></quote>
+
+<app><lem wit="#Py #m #v"><bibl><title><ref target="#ArEth">ethicorum</ref></title> <biblScope unit="book"><num type="ordinal" value="2">.2°.</num></biblScope></bibl></lem>
+<rdg wit="#Px" ana="#orthographical"><bibl><title><ref target="#ArEth">ethycorum</ref></title> <biblScope unit="book"><num type="ordinal" value="2">secundo</num></biblScope></bibl></rdg>
+<rdg wit="#β #Pq" ana="#ordinal"><bibl><biblScope unit="book"><num type="ordinal" value="2">2°</num></biblScope> <title><ref target="#ArEth">Ethicorum</ref></title></bibl></rdg></app>
+</cit></lem>
+<note target="#lem-4.1-Ar" type="fontium"><bibl><author ref="#Ar">Aristotle</author> <title ref="#ArEth">Nicomachean Ethics</title> <biblScope unit="book" n="2">II</biblScope> 1103a l. 17</bibl></note></app>
 <app><lem wit="#β #Pq #Px #Py"/>
 <rdg wit="#m #v" ana="#additive">Deinde.</rdg></app>
     </p>
@@ -10036,6 +10046,12 @@ qui<milestone ed="#v" unit="folio" n="C4v" break="no"/><milestone ed="#v" unit="
           <persName>
             <forename>Guido of</forename>
             <addName>Arezzo</addName>
+          </persName>
+        </person>
+        <person xml:id="Hip">
+          <persName>
+            <forename>Hippocrates of</forename>
+            <addName>Kos</addName>
           </persName>
         </person>
         <person xml:id="Is">
