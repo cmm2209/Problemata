@@ -88,8 +88,8 @@
      <refState ed="Pz" unit="column" length="3" />
      <refState ed="Pp" unit="folio" length="2" delim="." />
      <refState ed="Pp" unit="column" length="3" />
-     <refState ed="Pz" unit="folio" length="2" delim="." />
-     <refState ed="Pz" unit="column" length="3" />
+     <refState ed="Pq" unit="folio" length="2" delim="." />
+     <refState ed="Pq" unit="column" length="3" />
      <refState ed="S" unit="folio" length="2" delim="." />
      <refState ed="S" unit="column" length="3" />
      <refState ed="Va" unit="folio" length="2" delim="." />
@@ -98,16 +98,17 @@
      <refState ed="Vb" unit="column" length="3" />
      <refState ed="Vc" unit="folio" length="2" delim="." />
      <refState ed="Vc" unit="column" length="3" />
-     <refState ed="Vo" unit="folio" length="2" delim="." />
-     <refState ed="Vo" unit="column" length="3" />
      <refState ed="Vm" unit="folio" length="2" delim="." />
      <refState ed="Vm" unit="column" length="3" />
+     <refState ed="Vo" unit="folio" length="2" delim="." />
+     <refState ed="Vo" unit="column" length="3" />
      <refState ed="Vz" unit="folio" length="2" delim="." />
+     <refState ed="Vz" unit="column" length="3" />
      <refState ed="v" unit="folio" length="2" delim="." />
      <refState ed="v" unit="column" length="3" />
      <refState ed="m" unit="folio" length="2" delim="." />
      <refState ed="m" unit="column" length="3" />
-   </refsDecl>
+    </refsDecl>
   <variantEncoding method="location-referenced" location="internal"/>
  </encodingDesc>
 </teiHeader>
@@ -478,28 +479,28 @@
               </msDesc>
               URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2176"/>
             </witness>
-            <witness xml:id="Vo">
-              <abbr type="siglum">V<hi rend="superscript">o</hi></abbr> = 
-              <title>Vatican, Biblioteca Apostolica Ottobon. lat. 1764</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Vatican</settlement>     
-                  <repository>Biblioteca Apostolica</repository>     
-                  <idno>Ottobon. lat. 1764</idno>     
-                </msIdentifier>
-              </msDesc>
-            </witness>
-            <witness xml:id="Vm">
-              <abbr type="siglum">V<hi rend="superscript">m</hi></abbr> = 
-              <title>Venice, Biblioteca Nazionale Marciana, lat. VI. 126</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Venice</settlement>     
-                  <repository>Biblioteca Nazionale Marciana</repository>     
-                  <idno>lat. VI. 126</idno>     
-                </msIdentifier>
-              </msDesc>
-            </witness>
+          <witness xml:id="Vm">
+            <abbr type="siglum">V<hi rend="superscript">m</hi></abbr> = 
+            <title>Venice, Biblioteca Nazionale Marciana, lat. VI. 126</title>
+            <msDesc>
+              <msIdentifier>     
+                <settlement>Venice</settlement>     
+                <repository>Biblioteca Nazionale Marciana</repository>     
+                <idno>lat. VI. 126</idno>     
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness xml:id="Vo">
+            <abbr type="siglum">V<hi rend="superscript">o</hi></abbr> = 
+            <title>Vatican, Biblioteca Apostolica Ottobon. lat. 1764</title>
+            <msDesc>
+              <msIdentifier>     
+                <settlement>Vatican</settlement>     
+                <repository>Biblioteca Apostolica</repository>     
+                <idno>Ottobon. lat. 1764</idno>     
+              </msIdentifier>
+            </msDesc>
+          </witness>
           <witness xml:id="Vz">
             <abbr type="siglum">V<hi rend="superscript">z</hi></abbr> = 
             <title>Venice, Biblioteca Nazionale Marciana, lat. Z. 263</title>
@@ -511,7 +512,7 @@
               </msIdentifier>
             </msDesc>
           </witness>
-         <witness xml:id="γ"><abbr type="siglum">γ</abbr> = <title>Consensus of the Jean de Jandun redaction (#C #G #Pa #Pp #Pq #Pu #S #Vc #Vo)</title></witness>
+          <witness xml:id="γ"><abbr type="siglum">γ</abbr> = <title>Consensus of the Jean de Jandun redaction (#C #G #Pa #Pp #Pq #Pu #S #Vc #Vo)</title></witness>
         </listWit>        
    <listWit xml:id="bibliography-editions-witnesses">
     <head>Early Editions</head>
