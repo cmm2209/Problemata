@@ -61,6 +61,7 @@
               <item>All: ampersand emended to et</item>
               <item>All: Tall s ( ſ ) emended to round s</item>
               <item>All: contractions expanded</item>
+              <item>All: changes of hand/ink for problems' marginal numbering is ignored</item>
             </list>
           </p>
         </correction>
@@ -561,9 +562,7 @@
     <body>
       <div type="edition" xml:id="edition-text" xml:space="preserve">
 
-<div type="textpart" subtype="header" xml:id="header">
- <head>Header</head>
-   <p>
+<div type="textpart" subtype="header" xml:id="incipit">
 <milestone ed="#E" unit="folio" n="136v"/>
 <milestone ed="#G" unit="folio" n="234r"/>
 <milestone ed="#Ma" unit="folio" n="96v"/>
@@ -580,29 +579,32 @@
 <milestone ed="#Vo" unit="folio" n="147r"/>
 <milestone ed="#v" unit="folio" n="B5v"/>
 <milestone ed="#m" unit="folio" n="188r"/>
-<app><lem wit="#Nu #Px #Va #Vb #Vm #Vo"/>
-  <rdg wit="#Vc" ana="#additive">particula <num type="ordinal" value="19">19<hi rend="superscript">a</hi></num></rdg>
-  <rdg wit="#m #v" ana="#additive">Incipit <num type="ordinal" value="19">decimanona</num> particula.</rdg>
-  <rdg wit="#Pz" ana="#additive"><add place="margin">Incipit <num type="ordinal" value="19">decimanona</num> particula etcetera</add> <handShift medium="lighter ink" scribe="Pzh2"/>De problematibus Aristotelis que sunt circa Musicam l'armoniam particula <num type="ordinal" value="19">.19<hi rend="superscript">a</hi>.</num></rdg>
-<rdg wit="#E" ana="#additive"><add place="margin"><num type="cardinal" value="19">xix</num></add></rdg>
-  <rdg wit="#Py" ana="#additive">Sequitur <num type="ordinal" value="19">xviiii.</num></rdg> 
-  <rdg wit="#Pp" ana="#additive"><add place="margin"><num type="ordinal" value="20">20<hi rend="superscript">a</hi></num></add></rdg>
-  <rdg wit="#G" ana="#additive"><bibl><author><ref target="#Ar">Aristotelis</ref></author> <title><ref target="#ArPr">problemata</ref></title></bibl> de hiis que sunt circa armoniam particula <num type="ordinal" value="20">20<hi rend="superscript">m</hi>.</num> Capitulum <num type="ordinal" value="1">primum</num></rdg>
-<rdg wit="#Ma #Mb" ana="#additive"><hi rend="rubricated">de <bibl><title><ref target="#ArPr"><app><lem wit="#Ma">problematibus</lem>
-  <rdg wit="#Mb" ana="#morphological">problemnati</rdg></app></ref></title> 
-  <author><ref target="#Ar">Arestotelis</ref></author></bibl> que sunt circa armoniam uel musicam particula <num type="ordinal" value="19">19<hi rend="superscript">a</hi>.</num></hi></rdg></app></p></div>
+  <head>
+    <app><lem wit="#Nu #Px #Va #Vb #Vm #Vo"/>
+      <rdg wit="#Vc" ana="#additive">particula <num type="ordinal" value="19">19<hi rend="superscript">a</hi></num></rdg>
+      <rdg wit="#m #v" ana="#additive">Incipit <num type="ordinal" value="19">decimanona</num> particula.</rdg>
+      <rdg wit="#Pz" ana="#additive"><add place="margin">Incipit <num type="ordinal" value="19">decimanona</num> particula etcetera</add> <handShift medium="lighter ink" scribe="Pzh2"/>De problematibus Aristotelis que sunt circa Musicam l'armoniam particula <num type="ordinal" value="19">.19<hi rend="superscript">a</hi>.</num></rdg>
+      <rdg wit="#E" ana="#additive"><add place="margin"><num type="cardinal" value="19">xix</num></add></rdg>
+      <rdg wit="#Py" ana="#additive">Sequitur <num type="ordinal" value="19">xviiii.</num></rdg> 
+      <rdg wit="#Pp" ana="#additive"><add place="margin"><num type="ordinal" value="20">20<hi rend="superscript">a</hi></num></add></rdg>
+      <rdg wit="#G" ana="#additive"><bibl><author><ref target="#Ar">Aristotelis</ref></author> <title><ref target="#ArPr">problemata</ref></title></bibl> de hiis que sunt circa armoniam particula <num type="ordinal" value="20">20<hi rend="superscript">m</hi>.</num> Capitulum <num type="ordinal" value="1">primum</num></rdg>
+      <rdg wit="#Ma #Mb" ana="#additive"><hi rend="rubricated">de <bibl><title><ref target="#ArPr">
+        <app><lem wit="#Ma">problematibus</lem>
+          <rdg wit="#Mb" ana="#morphological">problemnati</rdg></app></ref></title> 
+        <author><ref target="#Ar">Arestotelis</ref></author></bibl> que sunt circa armoniam uel musicam particula 
+        <num type="ordinal" value="19">19<hi rend="superscript">a</hi>.</num></hi></rdg>
+    </app>
+  </head>
+</div>
 
 <div type="textpart" subtype="problem" n="1" xml:id="part1">
-<head>Problem 1</head>
-   <p>
-<milestone ed="#G" unit="column" n="B"/>
-<app xml:id="app-1.1" exclude="#app-rdg-Px-Vb-1.1"><lem wit="#α #E #Pp #S #Vb #Vm #Vo"/>
-<rdg wit="#Vc" ana="#additive"><num type="ordinal" value="1">.1.</num></rdg>
-<rdg wit="#Ma" ana="#additive"><add place="margin"><num type="ordinal" value="1">.1.</num></add></rdg>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="1">primum</num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#G #m #v" ana="#additive"><num type="ordinal" value="1">Primum</num> problema.</rdg>
-<rdg wit="#Mb" ana="#additive">problema <num type="ordinal" value="1">primum</num></rdg></app>
-  </p>  
+<milestone ed="#G" unit="column" n="B"/>  
+<head><app xml:id="app-1.1" exclude="#app-rdg-γ-1.1"><lem wit="#G #m #v"><num type="ordinal" value="1">Primum</num> problema</lem>
+  <rdg wit="#α #E #Pp #S #Vm #Vo" ana="#subtractive"/>
+<rdg wit="#Vc" ana="#subtractive"><num type="ordinal" value="1">.1.</num></rdg>
+<rdg wit="#Ma #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="1">.1.</num></add></rdg>
+<rdg wit="#Mb" ana="#ordinal">problema <num type="ordinal" value="1">primum</num></rdg></app>
+</head>  
   <p xml:id="question1">
 <mentioned><app><lem wit="#δ #G #Px #Va #m #v"><seg xml:id="ment-1.1">PROPTER QUID DOLENTES <app><lem wit="#δ #G #Va #m #v">ET DELECTANTES</lem>
   <rdg wit="#Px" ana="#lexical">ET GAUDENTES</rdg>
@@ -620,13 +622,13 @@ QUIDEM MINUS TRISTENTUR.
 ALII AUTEM <app><lem/>
 <rdg wit="#Px #Pz" ana="#additive #syntactic">UT</rdg></app>
 MAGIS <app><lem wit="#G #Ma #Mb #Px #Va #m #v">GAUDEANT.</lem>
-<rdg wit="#Pz" ana="#additive">GAUDEANT ETCETERA</rdg></app></seg></lem>
+  <rdg wit="#Pz" ana="#additive">GAUDEANT ETCETERA</rdg></app></seg></lem>
 <rdg wit="#Pp" ana="#subtractive">PROPTER QUID DOLENTES FISTULANTUR</rdg>
 <rdg wit="#E #Nu #Py #S #Vc #Vm #Vo" ana="#subtractive">PROPTER QUID DOLENTES</rdg>
 <rdg wit="#Vb" ana="#subtractive"/></app></mentioned>
    </p>  
    <p>
-<app xml:id="app-rdg-Px-Vb-1.1" exclude="#app-1.1">
+<app xml:id="app-rdg-γ-1.1" exclude="#app-1.1">
 <rdg wit="#Px" ana="#additive">Propter quid dolentes etcetera.</rdg>
 <rdg wit="#Vb" ana="#additive">Propter quid dolentes et gaudentes fistulantur etcetera</rdg></app>
      
@@ -1770,14 +1772,11 @@ submersionis</quote>
 </div>
 
 <div type="textpart" subtype="problem" n="2" xml:id="part2">
- <head>Problem 2</head>
- <p><app xml:id="app-2.1" exclude="#app-rdg-Px-2.1"><lem wit="#E #Nu #Pp #Py"><add place="margin"><num type="ordinal" value="2">2<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#γ #G #Pp #Py #Va" ana="#additive"><num type="ordinal" value="2">2</num><num type="ordinal" value="9">9</num></rdg>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="2">2</num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#S" ana="#additive"><handShift medium="lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="2">2</num></add><handShift scribe="S"/></rdg>
-<rdg wit="#G #m #v" ana="#additive"><num type="ordinal" value="2">Secundum</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app>
-   </p>  
+ <head><app xml:id="app-2.1" exclude="#app-rdg-Px-2.1"><lem wit="#G #Va #Vb #m #v"><num type="ordinal" value="2">Secundum</num> problema</lem>
+   <rdg wit="#E #Nu #Pp #Pz #S" ana="#subtractive"><add place="margin"><num type="ordinal" value="2">2<hi rend="superscript">m</hi></num></add></rdg>
+   <rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="2">Secundum</num></hi></surplus> <num type="ordinal" value="2">Secundum</num></rdg>
+   <rdg wit="#Mb" ana="#subtractive"/></app>
+ </head>
    <p>
 <mentioned><app><lem wit="#G #Px #m #v">
 <seg xml:id="ment-2.1">PROPTER QUID LONGIUS <app><lem wit="#G">ID</lem>
@@ -2097,13 +2096,12 @@ hoc <app><lem wit="#α #δ #J #Px #Vb #m #v">quidem</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="3" xml:id="part3">
-<head>Problem 3</head>
- <p><app xml:id="app-3.1" exclude="#app-rdg-Px-3.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="3">3<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="3">3<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="3">tertium</num></surplus></hi> <num type="ordinal" value="3">Tertium</num></rdg>
-<rdg wit="#G #m #v" ana="#additive"><num type="ordinal" value="3">Tertium</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app>
-   </p>  
+<head>
+<app xml:id="app-3.1" exclude="#app-rdg-Px-3.1"><lem wit="#G #Va #m #v"><num type="ordinal" value="3">Tertium</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="3">3<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="3">tertium</num></hi></surplus> <num type="ordinal" value="3">Tertium</num></rdg>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+   </head> 
    <p>
 <mentioned><app><lem wit="#G #Px #Pz #m #v"><seg xml:id="ment-3.1"><app><lem wit="#G #Px #Pz #m">PROPTER</lem>
 <rdg wit="#v" ana="#orthographical">PROOTER</rdg></app>
@@ -3109,13 +3107,11 @@ ne inter eas <app><lem wit="#α #Pp #Px #m #v">magna</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="4" xml:id="part4">
-    <head>Problem 4</head>
-       <p><app xml:id="app-4.1" exclude="#app-rdg-Px-4.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="4">4<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="4">4<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
- <rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="4">Quartum</num> problema</surplus></hi> <num type="ordinal" value="4">Quartum</num></rdg>
-<rdg wit="#G #m #v" ana="#additive"><num type="ordinal" value="4">Quartum</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app>
-   </p>  
+    <head>
+      <app xml:id="app-4.1" exclude="#app-rdg-Px-4.1"><lem wit="#G #Va #m #v"><num type="ordinal" value="4">Quartum</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="4">4<hi rend="superscript">m</hi></num></add></rdg>
+ <rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="4">Quartum</num> problema</hi></surplus> <num type="ordinal" value="4">Quartum</num></rdg>
+<rdg wit="#Mb" ana="#subtractive"/></app></head> 
    <p>
 <mentioned><app><lem wit="#G #Px #m #v"><seg xml:id="ment-4.1">PROPTER QUID <app><lem wit="#Px #Pz #m #v">SECUNDUM</lem>
 <rdg wit="#G" ana="#lexical">SED</rdg></app>
@@ -3503,12 +3499,12 @@ secundum ipsam <app><lem wit="#α #m #v">cantu</lem>
   </div>
 
 <div type="textpart" subtype="problem" n="5" xml:id="part5">
-  <head>Problem 5</head>
-   <p><app xml:id="app-5.1" from="#5.1" exclude="#app-rdg-Px-5.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="5">5<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="5">quintum</num> problema.</surplus></hi> Quintum.</rdg>
-<rdg wit="#G #m #v" ana="#additive"><num type="ordinal" value="5">Quintum</num> problema.</rdg>
-<rdg wit="#Py #Pz" ana="#subtractive"/></app>
-   </p>  
+  <head>
+   <app xml:id="app-5.1" from="#5.1" exclude="#app-rdg-Px-5.1"><lem wit="#G #Va #m #v"><num type="ordinal" value="5">Quintum</num> problema</lem>
+     <rdg wit="#Nu #Pp" ana="#subtractive"><add place="margin"><num type="ordinal" value="5">5<hi rend="superscript">m</hi></num></add></rdg>
+     <rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="5">quintum</num> problema.</hi></surplus> Quintum.</rdg>
+     <rdg wit="#Mb #Pz" ana="#subtractive"/></app>
+    </head>
    <p>
 <mentioned><app><lem wit="#G #Px #m #v"><seg xml:id="ment-5.1">
 PROPTER QUID DELECTABILITER AUDIUNT CANTANTES QUOSCUMQUE UTIQUE PRESCIENTES ADIPISCUNTUR <app><lem wit="#G #Px #m #v">CANTUS</lem>
@@ -3971,13 +3967,11 @@ minime.
   </div>
 
 <div type="textpart" subtype="problem" n="6" xml:id="part6">
-<head>Problem 6</head>
-   <p><app xml:id="app-6.1" exclude="#app-rdg-Px-6.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="6">6<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="6">6<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="6">sextum.</num></surplus></hi> <num type="ordinal" value="6">Sextum.</num></rdg>
-<rdg wit="#G #m #v" ana="#additive"><num type="ordinal" value="6">Sextum</num> problema.</rdg>
-<rdg wit="#α" ana="#subtractive"/></app>
-</p>  
+<head>
+   <app xml:id="app-6.1" exclude="#app-rdg-Px-6.1"><lem wit="#G #Va #m #v"><num type="ordinal" value="6">Sextum</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="6">6<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="6">sextum.</num></hi></surplus> <num type="ordinal" value="6">Sextum.</num></rdg>
+<rdg wit="#Mb" ana="#subtractive"/></app> </head>
 <p>
 <mentioned>
 <app><lem wit="#G #Px #Pz #m #v">
@@ -4369,14 +4363,12 @@ subiecto.
 </div>
 
 <div type="textpart" subtype="problem" n="7" xml:id="part7">
-  <head>Problem 7</head>
-   <p>
-<app xml:id="app-7.1" exclude="#app-rdg-Px-7.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="7">7<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="7">7<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="7">Septimum.</num></surplus></hi> <num type="ordinal" value="7">Septimum</num></rdg>
-<rdg wit="#G #m #v" ana="#additive"><num type="ordinal" value="7">Septimum</num> problema.</rdg>
-<rdg wit="#α" ana="#subtractive"/></app>
-   </p>  
+  <head>
+<app xml:id="app-7.1" exclude="#app-rdg-Px-7.1"><lem wit="#G #Va #m #v"><num type="ordinal" value="7">Septimum</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="7">7<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="7">Septimum.</num></hi></surplus> <num type="ordinal" value="7">Septimum</num></rdg>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+     </head>
    <p>
 <mentioned>
 <app><lem wit="#G #Pz #Px #m #v">PROPTER QUID ANTIQUI <num type="cardinal" value="7">SEPTEM</num> CORDARUM FACIENTES <app><lem wit="#G #Px #m #v">ARMONIAM</lem>
@@ -4776,13 +4768,12 @@ eam refrangitur auditum <app><lem wit="#α #K #Px">demultiens.</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="8" xml:id="part8">
-  <head>Problem 8</head>
-   <p><app xml:id="app-8.1" exclude="#app-rdg-Px-8.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="8">8<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="8">8<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
+  <head>
+  <app xml:id="app-8.1" exclude="#app-rdg-Px-8.1"><lem wit="#G #Va #m #v"><num type="ordinal" value="8">Octauum</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="8">8<hi rend="superscript">m</hi></num></add></rdg>
 <rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="8">octauum</num> problema.</surplus></hi> <num type="ordinal" value="8">Octauum.</num></rdg>
-<rdg wit="#G #m #v" ana="#additive"><num type="ordinal" value="8">Octauum</num> problema.</rdg>
-<rdg wit="#α" ana="#subtractive"/></app>
-   </p>  
+<rdg wit="#Mb" ana="#subtractive"/></app>
+ </head>
    <p>
 <mentioned><app><lem wit="#G #Px #Pz #m #v">PROPTER QUID <app><lem wit="#G #Px #Pz">GRAUIS ACUTE</lem>
 <rdg wit="#m #v" ana="#orthographical">GRAUE ACUTUM</rdg></app>
@@ -4871,13 +4862,12 @@ quare ipsum uigorat <app><lem wit="#α #Px #m #v">ut <num type="ordinal" value="
 </div>
 
 <div type="textpart" subtype="problem" n="9" xml:id="part9">
-<head>Problem 9</head>
-<p><app xml:id="app-9.1" exclude="#app-rdg-Px-9.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="9">9<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="9">9<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="9">nonum</num> problema.</surplus></hi> <num type="ordinal" value="9">Nonum.</num></rdg>
-<rdg wit="#G #m #v" ana="#additive"><num type="ordinal" value="9">Nonum</num> problema.</rdg>
-<rdg wit="#α" ana="#subtractive"/></app>
-   </p>  
+<head>
+<app xml:id="app-9.1" exclude="#app-rdg-Px-9.1"><lem wit="#G #Va #m #v"><num type="ordinal" value="9">Nonum</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="9">9<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="9">nonum</num> problema.</hi></surplus><num type="ordinal" value="9">Nonum.</num></rdg>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p>
 <mentioned><app><lem wit="#G #Px #m #v">PROPTER QUID DELECTABILITER <app><lem wit="#G #Px #m #v">UNITATEM</lem>
 <rdg wit="#Pz" ana="#lexical"><unclear>MINI</unclear>TATEM</rdg></app>
@@ -5136,16 +5126,13 @@ instrumentis.
 </div>
 
 <div type="textpart" subtype="problem" n="10" xml:id="part10">
-<head>Problem 10</head>
-<p><app xml:id="app-10.1" exclude="#app-rdg-Px-10.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="10">10<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#orthographical"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="10">10<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#S" ana="#orthographical"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="10">10</num></add><handShift scribe="S"/></rdg>
-<rdg wit="#Vc" ana="#orthographical"><num type="ordinal" value="10">x</num></rdg>
-<rdg wit="#C #E #Ma #Pq #Vz" ana="#orthographical"><add place="margin"><num type="ordinal" value="10">.10.</num></add></rdg>
-<rdg wit="#G #Va #Vb #m #v" ana="#additive"><num type="ordinal" value="10">Decimum</num> problema.</rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="10">decimum</num> problema.</surplus></hi> <num type="ordinal" value="10">Decimum.</num></rdg>
-<rdg wit="#Mb #Pa #Pu #Py #Vm #Vo" ana="#subtractive"/></app>
-</p>
+<head>
+<app xml:id="app-10.1" exclude="#app-rdg-Px-10.1"><lem wit="#G #Va #Vb #m #v"><num type="ordinal" value="10">Decimum</num> problema</lem>
+<rdg wit="#C #E #Ma #Pp #Pq #Pz #S #Vz" ana="#subtractive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="10">10<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
+<rdg wit="#Vc" ana="#subtractive"><num type="ordinal" value="10">x</num></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="10">decimum</num> problema.</hi></surplus><num type="ordinal" value="10">Decimum.</num></rdg>
+<rdg wit="#Mb #Pa #Pu #Vm #Vo" ana="#subtractive"/></app>
+</head>
 <p>
 <mentioned><app><lem wit="#δ #G #Px #Va #m #v"><seg xml:id="ment-10.1">PROPTER QUID <app><lem wit="#G #Ma #Mb #Px #Va #m #v">SI</lem>
 <rdg wit="#Pz" ana="#subtractive"/></app>
@@ -5602,14 +5589,12 @@ quia consueta
 </div>
 
 <div type="textpart" subtype="problem" n="11" xml:id="part11">
-  <head>Problem 11</head>
-   <p>
-<app xml:id="app-11.1" exclude="#app-rdg-PxG-11.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="11">11<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="11">11<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><num type="ordinal" value="11">Undecimum.</num> <hi rend="rubricated"><surplus><num type="ordinal" value="11">Undecimum</num> problema</surplus></hi></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="11">Undecimum</num> problema.</rdg>
-<rdg wit="#G #Py" ana="#subtractive"/></app>
-   </p>
+  <head>
+<app xml:id="app-11.1" exclude="#app-rdg-PxG-11.1"><lem wit="#Va #m #v"><num type="ordinal" value="11">Undecimum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="11">11<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><num type="ordinal" value="11">Undecimum.</num> <surplus><hi rend="rubricated"><num type="ordinal" value="11">Undecimum</num> problema</hi></surplus></rdg>
+<rdg wit="#G #Mb" ana="#subtractive"/></app>
+   </head>
    <p>
 <mentioned><app xml:id="app-11.2" exclude="#app-rdg-G-11.2"><lem wit="#Px #Pz #m #v">PROPTER QUID <app><lem wit="#Px #m #v">SONANS</lem>
 <rdg wit="#Pz" ana="#additive">SONANS SENTENTIAS</rdg></app>
@@ -5681,13 +5666,12 @@ oppositum.
 </div>
 
 <div type="textpart" subtype="problem" n="12" xml:id="part12">
-  <head>Problem 12</head>
-  <p><app xml:id="app-12.1" exclude="#app-rdg-Px-12.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="12">12<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="12">12<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="12">duodecimum</num> problema</surplus></hi> <num type="ordinal" value="12">Duodecimum.</num></rdg>
-<rdg wit="#G #m #v" ana="#additive"><num type="ordinal" value="12">Duodecimum</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app>
-  </p>
+  <head>
+<app xml:id="app-12.1" exclude="#app-rdg-Px-12.1"><lem wit="#G #Va #m #v"><num type="ordinal" value="12">Duodecimum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="12">12<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="12">duodecimum</num> problema</hi></surplus><num type="ordinal" value="12">Duodecimum.</num></rdg>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p><mentioned><app><lem wit="#Px #m #v #G">
 PROPTER QUID CORDARUM GRAUIOR SEMPER SONUM <app><lem wit="#G #Px #m #v">ACCIPIT.</lem>
 <rdg wit="#Pz" ana="#morphological">ACCIPITUR</rdg></app>
@@ -5941,15 +5925,13 @@ sicut apparebit <app><lem wit="#Px #m #v"><num type="ordinal" value="23">.23°.<
 </div>
 
 <div type="textpart" subtype="problem" n="13" xml:id="part13">
-  <head>Problem 13</head>
-  <p>
-<app xml:id="app-13.1" exclude="#app-rdg-Px-13.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="13">13<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="13">13<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><num type="ordinal" value="13">Tredecimum.</num> <hi rend="rubricated"><surplus><num type="ordinal" value="13">Tredecimum</num> problema</surplus></hi></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="13">Tredecimum</num> problema.</rdg>
-<rdg wit="#G" ana="#additive"><num type="ordinal" value="13">Tertiumdecimum</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app>
-  </p>
+  <head>
+<app xml:id="app-13.1" exclude="#app-rdg-Px-13.1"><lem wit="#G #Va"><num type="ordinal" value="13">Tertiumdecimum</num> problema</lem>
+<rdg wit="#m #v" ana="#orthographical"><num type="ordinal" value="13">Tredecimum</num> problema.</rdg>
+  <rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="13">13<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><num type="ordinal" value="13">Tredecimum.</num> <surplus><hi rend="rubricated"><num type="ordinal" value="13">Tredecimum</num> problema</hi></surplus></rdg>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p>
 <mentioned><app><lem wit="#G #Px #Pz #m #v"><seg xml:id="ment-13.1">PROPTER QUID IN <app><lem wit="#m #v">DYAPASON</lem>
 <rdg wit="#Px" ana="#orthographical">DIAPASON</rdg>
@@ -7439,14 +7421,13 @@ composita.
 </div>
 
 <div type="textpart" subtype="problem" n="14" xml:id="part14">
-  <head>Problem 14</head>
-  <p>
-<app xml:id="app-14.1" exclude="#app-rdg-Px-14.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="14">14<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="14">14<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="14">Quartumdecimum</num></surplus></hi> <num type="ordinal" value="14">Quartumdecimum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="14">Quartumdecimum</num> problema.</rdg>
+  <head>
+<app xml:id="app-14.1" exclude="#app-rdg-Px-14.1"><lem wit="#Va #m #v"><num type="ordinal" value="14">Quartumdecimum</num> problema</lem>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="13">13m.</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app></p>
+  <rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="14">14<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="14">Quartumdecimum</num></hi></surplus><num type="ordinal" value="14">Quartumdecimum.</num></rdg>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER <app><lem wit="#Px #m #v">QUID</lem>
 <rdg wit="#G " ana="#orthographical">QUID <del>IN DYAPASON ACUTI QUEDAM ANTIFONUM</del></rdg></app>
@@ -7628,13 +7609,13 @@ saporis insipidi et <app><lem wit="#Pp #Px #Py #m #v">alterum</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="15" xml:id="part15">
-  <head>Problem 15</head>
-  <p><app xml:id="app-15.1" exclude="#app-rdg-Px-15.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="15">15<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="15">15<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><num type="ordinal" value="15">Quintumdecimum.</num> <hi rend="rubricated"><surplus><num type="ordinal" value="15">Quintumdecimum</num></surplus></hi></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="15">Quintumdecimum</num> problema:</rdg>
+  <head>
+ <app xml:id="app-15.1" exclude="#app-rdg-Px-15.1"><lem wit="#Va #m #v"><num type="ordinal" value="15">Quintumdecimum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="15">15<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><num type="ordinal" value="15">Quintumdecimum.</num> <surplus><hi rend="rubricated"><num type="ordinal" value="15">Quintumdecimum</num></hi></surplus></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="14">14m.</num> problema:</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">PROPTER QUID LEGES QUIDEM NON IN CONUERSIONIBUS FACIEBANT. ALII UERO CANTUS <app><lem wit="#G #m #v">CHORICI.</lem>
 <rdg wit="#Px" ana="#orthographical">CORICI.</rdg></app>
 AUT QUIA LEGES QUIDEM <app><lem wit="#v #G #Px">AGONIZANTIUM</lem>
@@ -8215,13 +8196,13 @@ ut gesta librorum <app><lem wit="#Px #Py #m #v">cantare audiant et insignium</le
 </div>
 
 <div type="textpart" subtype="problem" n="16" xml:id="part16">
-  <head>Problem 16</head>
-  <p><app xml:id="app-16.1" exclude="#app-rdg-Px-16.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="16">16<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="16">16<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="16">xvim.</num></surplus></hi> <num type="ordinal" value="16">Sextumdecimum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="16">Sextumdecimum</num> problema.</rdg>
+  <head>
+ <app xml:id="app-16.1" exclude="#app-rdg-Px-16.1"><lem wit="#Va #m #v"><num type="ordinal" value="16">Sextumdecimum</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="16">16<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="16">xvim.</num></hi></surplus><num type="ordinal" value="16">Sextumdecimum.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="15">15tum</num> problema.</rdg>
-<rdg wit="#α" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
  <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID <app><lem wit="#Px #m #v">DELECTABILIUS</lem>
 <rdg wit="#G" ana="#morphological">DELECTABILIS</rdg></app>
@@ -8449,13 +8430,13 @@ ut apparebit <app><lem wit="#α #J #Px #v">consequenter.</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="17" xml:id="part17">
-  <head>Problem 17</head>
-  <p><app xml:id="app-17.1" exclude="#app-rdg-Px-17.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="17">17<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="17">17<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="17">decimum septimum</num></surplus></hi> <num type="ordinal" value="17">Decimumseptimum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="17">Decimumseptimum</num> problema.</rdg>
+  <head>
+ <app xml:id="app-17.1" exclude="#app-rdg-Px-17.1"><lem wit="#Va #m #v"><num type="ordinal" value="17">Decimumseptimum</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="17">17<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="17">decimum septimum</num></hi></surplus><num type="ordinal" value="17">Decimumseptimum.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="16">16tum.</num> Problema.</rdg>
-<rdg wit="#α" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID <app><lem wit="#G #m #v">QUANDOQUE</lem>
 <rdg wit="#Px" ana="#LEXICAL">QUONIAMQUE</rdg></app>
@@ -8659,13 +8640,13 @@ secundum dyapason proprie.
 </div>
 
 <div type="textpart" subtype="problem" n="18" xml:id="part18">
-  <head>Problem 18</head>
-  <p><app xml:id="app-18.1" exclude="#app-rdg-Px-18.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="18">18<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="18">18<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><num type="ordinal" value="18">Decimumoctauum.</num> <hi rend="rubricated"><surplus><num type="ordinal" value="18">decimum octauum.</num></surplus></hi></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="18">Decimumoctauum</num> problema.</rdg>
+  <head>
+ <app xml:id="app-18.1" exclude="#app-rdg-Px-18.1"><lem wit="#Va #m #v"><num type="ordinal" value="18">Decimumoctauum</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="18">18<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><num type="ordinal" value="18">Decimumoctauum.</num> <surplus><hi rend="rubricated"><num type="ordinal" value="18">decimum octauum.</num></hi></surplus></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="17">17m.</num> Problema</rdg>
-<rdg wit="#α" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID DYAPASON <app><lem wit="#G #m #v">CONSONANTIA</lem>
 <rdg wit="#Px" ana="#orthographical">CONSONATIA</rdg></app> 
@@ -8843,13 +8824,13 @@ instrumentalis.
 </div>
 
 <div type="textpart" subtype="problem" n="19" xml:id="part19">
-  <head>Problem 19</head>
-  <p><app xml:id="app-19.1" exclude="#app-rdg-Px-19.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="19">19<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="19">19<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="19">decimum nonum.</num></surplus></hi> <num type="ordinal" value="19">Decimumnonum.</num> </rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="19">Decimumnonum</num> problema.</rdg>
+  <head>
+ <app xml:id="app-19.1" exclude="#app-rdg-Px-19.1"><lem wit="#Va #m #v"><num type="ordinal" value="19">Decimumnonum</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="19">19<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="19">decimum nonum.</num></hi></surplus><num type="ordinal" value="19">Decimumnonum.</num> </rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="18">18m</num> problema.</rdg>
-<rdg wit="#α" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 <seg xml:id="ment-19.1">
 PROPTER QUID <app><lem wit="#v #G #Px">ANTIPHONIS</lem>
@@ -8992,13 +8973,13 @@ tonis.
 </div>
 
 <div type="textpart" subtype="problem" n="20" xml:id="part20">
-  <head>Problem 20</head>
-  <p><app xml:id="app-20.1" exclude="#app-rdg-Px-20.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="20">20<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="20">20<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="20">Uigesimum.</num> problema</surplus></hi> <num type="ordinal" value="20">Uigesimum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="20">Uigesimum</num> problema.</rdg>
+  <head>
+ <app xml:id="app-20.1" exclude="#app-rdg-Px-20.1"><lem wit="#Va #m #v"><num type="ordinal" value="20">Uigesimum</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="20">20<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="20">Uigesimum.</num> problema</hi></surplus><num type="ordinal" value="20">Uigesimum.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="19">19mum.</num> problema.</rdg>
-<rdg wit="#α" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p>
 <mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID SI QUIS NOSTRUM MEDIAM MOUET <app><lem wit="#G #m #v">CONCORDANS:</lem>
@@ -9678,13 +9659,13 @@ extreme. et de hoc <app><lem wit="#α #G #Px #m #v">itidem</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="21" xml:id="part21">
-  <head>Problem 21</head>
-  <p><app xml:id="app-21.1" exclude="#app-rdg-Px-21.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="21">21<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="21">21<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="21">uigesimum. primum.</num></surplus></hi> <num type="ordinal" value="21">Uigesimumprimum</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="21">Uigesimumprimum</num> problema.</rdg>
+  <head>
+<app xml:id="app-21.1" exclude="#app-rdg-Px-21.1"><lem wit="#Va #m #v"><num type="ordinal" value="21">Uigesimumprimum</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="21">21<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="21">uigesimum. primum.</num></hi></surplus><num type="ordinal" value="21">Uigesimumprimum</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="20">Uigesimum</num> problema.</rdg>
-<rdg wit="#Nu" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID CANTANTIUM <app><lem wit="#G #m #v">GRAUIUS CANTANTES</lem>
 <rdg wit="#Px" ana="#ordinal">CANTANTES GRAUIUs</rdg></app>
@@ -9823,14 +9804,14 @@ latet propter eius uelocitatem: ita quod peccatum non perpenditur etiam inexiste
 </div>
 
 <div type="textpart" subtype="problem" n="22" xml:id="part22">
-  <head>Problem 22</head>
-  <p><app xml:id="app-22.1" exclude="#app-rdg-Px-22.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="22">22<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="22">22<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="22">vigesimum secundum.</num></surplus></hi> <num type="ordinal" value="22">Uigesimum secundum.</num></rdg>
-<rdg wit="#v" ana="#additive"><num type="ordinal" value="22">Uigesimumsecundum</num> problema.</rdg>
-<rdg wit="#m" ana="#additive"><num type="ordinal" value="22">Uigesimumsecundum</num> problemar</rdg>
+  <head>
+<app xml:id="app-22.1" exclude="#app-rdg-Px-22.1"><lem wit="#Va #v"><num type="ordinal" value="22">Uigesimumsecundum</num> problema</lem>
+<rdg wit="#m" ana="#orthographical"><num type="ordinal" value="22">Uigesimumsecundum</num> problemar</rdg>
+  <rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="22">22<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="22">vigesimum secundum.</num></hi></surplus><num type="ordinal" value="22">Uigesimum secundum.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="21">21mum.</num> problema.</rdg>
-<rdg wit="#Nu" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID MULTI MAGIS CANTANTES <app><lem wit="#Px #v">RITHIMUM</lem>
 <rdg wit="#m" ana="#orthographical">RITIMUM</rdg>
@@ -9918,12 +9899,13 @@ quidem <app><lem wit="#α #Px #m #v"><num type="ordinal" value="45">.45°.</num>
 </div>
 
 <div type="textpart" subtype="problem" n="23" xml:id="part23">
-  <head>Problem 23</head>
-  <p><app xml:id="app-23.1" exclude="#app-rdg-Px-23.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="23">23<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="23">23<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="23">vigesimum tertium.</num></surplus></hi> <num type="ordinal" value="203">Vigesimum.tertium.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="23">Uigesimumtertium</num> problema.</rdg>
-<rdg wit="#G" ana="#lexical"><num type="ordinal" value="22">22m.</num> problema.</rdg></app></p>
+  <head>
+<app xml:id="app-23.1" exclude="#app-rdg-Px-23.1"><lem wit="#Va #m #v"><num type="ordinal" value="23">Uigesimumtertium</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="23">23<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="23">vigesimum tertium.</num></hi></surplus><num type="ordinal" value="203">Vigesimum.tertium.</num></rdg>
+<rdg wit="#G" ana="#lexical"><num type="ordinal" value="22">22m.</num> problema.</rdg>
+  <rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID DUPLICITER NITE <app><lem wit="#Px #m #v">YPATE.</lem>
 <rdg wit="#G" ana="#morphological">YPATEM</rdg></app>
@@ -10314,12 +10296,13 @@ secundum distantiam: ut <app><lem wit="#α">apparuit</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="24" xml:id="part24">
-  <head>Problem 24</head>
-  <p><app xml:id="app-24.1" exclude="#app-rdg-Px-24.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="24">24<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="24">24<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="24">vigesimum quartvm.</num></surplus></hi> <num type="ordinal" value="24">Vigesimumquartum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="24">Uigesimumquartum</num> problema.</rdg>
-<rdg wit="#G" ana="#lexical"><num type="ordinal" value="23">23m.</num> problema.</rdg></app></p>
+  <head>
+ <app xml:id="app-24.1" exclude="#app-rdg-Px-24.1"><lem wit="#Va #m #v"><num type="ordinal" value="24">Uigesimumquartum</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="24">24<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="24">vigesimum quartvm.</num></hi></surplus><num type="ordinal" value="24">Vigesimumquartum.</num></rdg>
+<rdg wit="#G" ana="#lexical"><num type="ordinal" value="23">23m.</num> problema.</rdg>
+   <rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID IN TENUIBUS <app><lem wit="#m #v">NITEM</lem>
 <rdg wit="#Px" ana="#orthographical">NITEN</rdg>
@@ -10495,12 +10478,13 @@ ut dyapason <app><lem wit="#J #Px #m #v">inducat.</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="25" xml:id="part25">
-  <head>Problem 25</head>
-  <p><app xml:id="app-25.1" exclude="#app-rdg-Px-25.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="25">25<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="25">25<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="25">vigesimum. quintum.</num></surplus></hi> <num type="ordinal" value="25">Vigesimum quintum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="25">Uigesimumquintum</num> problema.</rdg>
-<rdg wit="#G" ana="#lexical"><num type="ordinal" value="24">24m.</num> problema.</rdg></app></p>
+  <head>
+<app xml:id="app-25.1" exclude="#app-rdg-Px-25.1"><lem wit="#Va #m #v"><num type="ordinal" value="25">Uigesimumquintum</num> problema</lem>
+<rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="25">25<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="25">vigesimum. quintum.</num></hi></surplus><num type="ordinal" value="25">Vigesimum quintum.</num></rdg>
+<rdg wit="#G" ana="#lexical"><num type="ordinal" value="24">24m.</num> problema.</rdg>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID MEDIA UOCATUR IN ARMONIIS. <num type="cardinal" value="8">OCTO</num> UERO NON EST MEDIUM. AUT <app><lem wit="#G #m #v">QUIA</lem>
 <rdg wit="#Px" ana="#additive">QUIA HII</rdg></app> 
