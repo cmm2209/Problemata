@@ -28,41 +28,43 @@
    <value>sqb</value>
   </charProp> </glyph>
   </charDecl>
-  <editorialDecl>
-   <correction method="silent">
-    <p>
-     <list>
-      <item>G, Pz and Pp’s armoniac* emended to armonic*</item>
-      <item>G’s rigm* emended to rithim*</item>
-      <item>G’s *ypote emended to *ypate</item>
-      <item>G’s lycan*s emended to lychanos</item>
-      <item>Pp and Pz's lichanos emended to lychanos</item>
-      <item>Pz and Py's licanos emended to lychanos</item>
-      <item>Pz's *messe emended to *mese</item>
-      <item>Px and Py's *congn* emended to *cogn*</item>
-      <item>Px and Py's anthiphon* emended to antiphon*</item>
-      <item>Px and Pp's dyapasser and diapasser emended to dyapason</item>
-      <item>Pp's dyatesser and diatesser emended to dyatesseron</item>
-      <item>Pp's mellodi* emended to melodi*</item>
-      <item>Pz's sinegengium emended to sinezengium</item>
-      <item>G and Py's sesqui* emended to sexqui*</item>
-      <item>v's hi* emended to hii*</item>
-      <item>Px's "fati*" emended to faci*</item>
-      <item>Px and Py's sicud emended to sicut</item>
-      <item>Pz, Px and Py's velud emended to velut</item>
-      <item>All: lira* emended to lyra*</item>
-      <item>All: *ij and *ijs emended to *ii and *ijs</item>
-      <item>All: *cia, *cio, *cium emended to *tia, *tio, *tium</item>
-      <item>All: adinuicem emended to ad inuicem</item>
-      <item>All: probleuma* emended to problema*</item>
-      <item>All: Tironian et emended to et</item>
-      <item>All: ampersand emended to et</item>
-      <item>All: Tall s ( ſ ) emended to round s</item>
-      <item>All: contractions expanded</item>
-     </list>
-    </p>
-   </correction>
-  </editorialDecl>
+   <editorialDecl>
+     <correction method="silent">
+       <p>
+         <list>
+           <item>E, G, Pz, and Pp’s armoniac* emended to armonic*</item>
+           <item>G’s rigm* emended to rithim*</item>
+           <item>Nu's duppl* emended to dupl*</item>
+           <item>G’s *ypote emended to *ypate</item>
+           <item>G’s lycan*s emended to licanos</item>
+           <item>Pp, Px, and Pz's lichanos emended to licanos</item>
+           <item>m and v's lychanos emended to licanos</item>
+           <item>Pz's *messe emended to *mese</item>
+           <item>Px and Py's *congn* emended to *cogn*</item>
+           <item>Px and Py's anthiphon* emended to antiphon*</item>
+           <item>Px, Nu, and Pp's dyapasser and diapasser emended to dyapason</item>
+           <item>Pp's dyatesser and diatesser emended to dyatesseron</item>
+           <item>Pp and Nu's mellodi* emended to melodi*</item>
+           <item>Pz's sinegengium emended to sinezengium</item>
+           <item>G and Py's sesqui* emended to sexqui*</item>
+           <item>v's hi* emended to hii*</item>
+           <item>Px's "fati*" emended to faci*</item>
+           <item>Px and Py's sicud emended to sicut</item>
+           <item>Pz, Px and Py's velud emended to velut</item>
+           <item>All: lira* emended to lyra*</item>
+           <item>All: *ij and *ijs emended to *ii and *ijs</item>
+           <item>All: *cia, *cio, *cium emended to *tia, *tio, *tium</item>
+           <item>All: adinuicem emended to ad inuicem</item>
+           <item>All: probleuma* emended to problema*</item>
+           <item>All: Tironian et emended to et</item>
+           <item>All: ampersand emended to et</item>
+           <item>All: Tall s ( ſ ) emended to round s</item>
+           <item>All: contractions expanded</item>
+           <item>All: changes of hand/ink for problems' marginal numbering is ignored</item>
+         </list>
+       </p>
+     </correction>
+   </editorialDecl>
    <refsDecl>
      <refState ed="C" unit="folio" length="2" delim="." />
      <refState ed="C" unit="column" length="3" />
@@ -268,285 +270,287 @@
           </bibl>
          </listBibl>
         </div>
-      <div type="section" xml:id="conspectus">
-          <head>Conspectus</head>
-        <listWit xml:id="bibliography-manuscripts">
-          <head>Manuscripts</head>
-          <listWit xml:id="bib-manuscripts1">
-            <head>Pietro's first version</head>
-            <witness xml:id="Px">
-              <abbr type="siglum">P<hi rend="superscript">x</hi></abbr> = 
-              <title>Paris, Bibliotheque Nationale man. lat. 6540</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Paris</settlement>     
-                  <repository>Bibliotheque Nationale</repository>     
-                  <idno>man. Lat. 6540</idno>     
-                </msIdentifier>
-              </msDesc>
-              URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90684121.r=6540"/>
-            </witness>
-            <witness xml:id="Vb">
-              <abbr type="siglum">V<hi rend="superscript">b</hi></abbr> = 
-              <title>Vatican, Biblioteca Apostolica lat. 2175</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Vatican</settlement>     
-                  <repository>Biblioteca Apostolica</repository>     
-                  <idno>lat. 2175</idno>     
-                </msIdentifier>
-              </msDesc>
-            </witness>
-            <witness xml:id="γ"><abbr type="siglum">γ</abbr> = <title>Consensus of #Px #Vb</title></witness>
-            <witness xml:id="Ma">
-              <abbr type="siglum">M<hi rend="superscript">a</hi></abbr> = 
-              <title>Cesena, Malatestiana D.XXIV.2</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Cesena</settlement>     
-                  <repository>Biblioteca Malatestiana</repository>     
-                  <idno>D.XXIV.2</idno>     
-                </msIdentifier>
-              </msDesc>
-              URL: <ptr target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=DX.24.02"/>
-            </witness>
-            <witness xml:id="Mb">
-              <abbr type="siglum">M<hi rend="superscript">b</hi></abbr> = 
-              <title>Cesena, Malatestiana S.VI.3</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Cesena</settlement>     
-                  <repository>Biblioteca Malatestiana</repository>     
-                  <idno>S.VI.3</idno>     
-                </msIdentifier>
-              </msDesc>
-              URL: <ptr target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=SX.06.03"/>
-            </witness>
-            <witness xml:id="Pz">
-              <abbr type="siglum">P<hi rend="superscript">z</hi></abbr> = 
-              <title>Paris, Bibliotheque Nationale man. lat. 6541A</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Paris</settlement>     
-                  <repository>Bibliotheque Nationale</repository>     
-                  <idno>man. Lat. 6541A</idno>     
-                </msIdentifier>   
-                <physDesc>
-                  <handDesc hands="2">
-                    <handNote xml:id="Pzh2">
-                      <abbr type="siglum">P<hi rend="superscript">z2</hi></abbr> is responsible for the header, and writes in an ink that has faded significantly.  It may be the same scribe who wrote the large initials which begin each problem.
-                    </handNote>
-                  </handDesc>
-                </physDesc>
-              </msDesc>
-              URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90680829/f2"/>
-            </witness>
-            <witness xml:id="Vm">
-              <abbr type="siglum">V<hi rend="superscript">m</hi></abbr> = 
-              <title>Venice, Biblioteca Nazionale Marciana, lat. VI. 126</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Venice</settlement>     
-                  <repository>Biblioteca Nazionale Marciana</repository>     
-                  <idno>lat. VI. 126</idno>     
-                </msIdentifier>
-              </msDesc>
-            </witness>
-            <witness xml:id="δ"><abbr type="siglum">δ</abbr> = <title>Consensus of #Ma #Mb #Pz #Vm</title></witness>
-            <witness xml:id="ε"><abbr type="siglum">ε</abbr> = <title>Consensus of #Ma #Mb #Pz</title></witness>
-            <witness xml:id="β"><abbr type="siglum">β</abbr> = <title>Consensus of #ε #Px #Vb #Vm</title></witness>
-          </listWit>
-          <listWit xml:id="bib-manuscripts2">
-            <head>Pietro's revised version</head>
-            <witness xml:id="Nu">
-              <abbr type="siglum">N<hi rend="superscript">u</hi></abbr> = 
-              <title>Nuremberg, Stadtbibliothek, Cent. III.38</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Nuremberg</settlement>     
-                  <repository>Stadtbibliothek</repository>     
-                  <idno>Cent. III.38</idno>     
-                </msIdentifier>
-              </msDesc>
-            </witness>
-            <witness xml:id="Py">
-              <abbr type="siglum">P<hi rend="superscript">y</hi></abbr> = 
-              <title>Paris, Bibliotheque Nationale man. lat. 6541</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Paris</settlement>     
-                  <repository>Bibliotheque Nationale</repository>     
-                  <idno>man. Lat. 6541</idno>     
-                </msIdentifier>
-              </msDesc>
-              URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b9068411m.r=6541"/>
-            </witness>
-            <witness xml:id="Va">
-              <abbr type="siglum">V<hi rend="superscript">a</hi></abbr> = 
-              <title>Vatican, Biblioteca Apostolica lat. 2174</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Vatican</settlement>     
-                  <repository>Biblioteca Apostolica</repository>     
-                  <idno>lat. 2174</idno>     
-                </msIdentifier>
-              </msDesc>
-              URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2174"/>
-            </witness>
-            <witness xml:id="α"><abbr type="siglum">α</abbr> = <title>Consensus of #Nu #Py #Va</title></witness>
-          </listWit>
-          <listWit xml:id="bib-manuscripts3">
-            <head>Jean de Jandun's redaction</head>
-            <witness xml:id="C">
-              <abbr type="siglum">C</abbr> = 
-              <title>Cambridge, Peterhouse 79</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Cambridge</settlement>     
-                  <repository>Peterhouse College</repository>     
-                  <idno>ms. 79</idno>     
-                </msIdentifier>
-              </msDesc>
-            </witness>
-            <witness xml:id="E">
-              <abbr type="siglum">E</abbr> = 
-              <title>Erfurt, Bibliothek Amploniana fol. 15</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Erfurt</settlement>     
-                  <repository>Bibliothek Amploniana</repository>     
-                  <idno>fol. 15</idno>     
-                </msIdentifier>
-              </msDesc>
-            </witness>
-            <witness xml:id="G">
-              <abbr type="siglum">G</abbr> = 
-              <title>Ghent, Bibliothéek van de Rijksuniversiteit, ms. 72</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Ghent</settlement>     
-                  <repository>Bibliothéek van de Rijksuniversiteit</repository>     
-                  <idno>ms. 72</idno>     
-                </msIdentifier>
-              </msDesc>
-              URL: <ptr target="http://lib.ugent.be/catalog/rug01:000802948"/>
-            </witness>
-            <witness xml:id="Pa">
-              <abbr type="siglum">P<hi rend="superscript">a</hi></abbr> = 
-              <title>Paris, Bibliotheque Arsenal, 723</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Paris</settlement>     
-                  <repository>Bibliotheque Nationale, Arsenal</repository>     
-                  <idno>man. 723</idno>     
-                </msIdentifier>
-              </msDesc>
-            </witness>
-            <witness xml:id="Pp">
-              <abbr type="siglum">P<hi rend="superscript">p</hi></abbr> = 
-              <title>Paris, Bibliotheque Nationale man. lat. 6542</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Paris</settlement>     
-                  <repository>Bibliotheque Nationale</repository>     
-                  <idno>man. Lat. 6542</idno>     
-                </msIdentifier>
-              </msDesc>
-              URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b10721259d/f1.item.r=6542"/>
-            </witness>
-            <witness xml:id="Pq">
-              <abbr type="siglum">P<hi rend="superscript">q</hi></abbr> = 
-              <title>Paris, Bibliotheque Nationale man. lat. 15454</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Paris</settlement>     
-                  <repository>Bibliotheque Nationale</repository>     
-                  <idno>man. Lat. 15454</idno>     
-                </msIdentifier>
-              </msDesc>
-            </witness>
-            <witness xml:id="Pu">
-              <abbr type="siglum">P<hi rend="superscript">u</hi></abbr> = 
-              <title>Paris, University 122</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Paris</settlement>     
-                  <repository>Sorbonne University</repository>     
-                  <idno>ms. 122</idno>     
-                </msIdentifier>
-              </msDesc>
-            </witness>
-            <witness xml:id="S">
-              <abbr type="siglum">S</abbr> = 
-              <title>Sevilla, Biblioteca Colombina, 7.7.9</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Sevilla</settlement>     
-                  <repository>Biblioteca Colombina</repository>     
-                  <idno>ms. 7.7.9</idno>     
-                </msIdentifier>
-              </msDesc>
-            </witness>            
-            <witness xml:id="Vc">
-              <abbr type="siglum">V<hi rend="superscript">c</hi></abbr> = 
-              <title>Vatican, Biblioteca Apostolica lat. 2176</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Vatican</settlement>     
-                  <repository>Biblioteca Apostolica</repository>     
-                  <idno>lat. 2176</idno>     
-                </msIdentifier>
-              </msDesc>
-              URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2176"/>
-            </witness>            
-            <witness xml:id="Vo">
-              <abbr type="siglum">V<hi rend="superscript">o</hi></abbr> = 
-              <title>Vatican, Biblioteca Apostolica Ottobon. lat. 1764</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Vatican</settlement>     
-                  <repository>Biblioteca Apostolica</repository>     
-                  <idno>Ottobon. lat. 1764</idno>     
-                </msIdentifier>
-              </msDesc>
-            </witness>
-            <witness xml:id="Vz">
-              <abbr type="siglum">V<hi rend="superscript">z</hi></abbr> = 
-              <title>Venice, Biblioteca Nazionale Marciana, lat. Z. 263</title>
-              <msDesc>
-                <msIdentifier>     
-                  <settlement>Venice</settlement>     
-                  <repository>Biblioteca Nazionale Marciana</repository>     
-                  <idno>lat. Z. 263</idno>     
-                </msIdentifier>
-              </msDesc>
-            </witness>
-            <witness xml:id="J"><abbr type="siglum">J</abbr> = <title>Consensus of the Jean de Jandun redaction (#C #G #Pa #Pp #Pq #Pu #S #Vc #Vo)</title></witness>   
-          </listWit>         
-        </listWit>        
-   <listWit xml:id="bibliography-editions-witnesses">
-    <head>Early Editions</head>
-    <witness xml:id="m">
-     <abbr type="siglum">m</abbr> = <bibl>
-      <editor><name>Illarius, Stephanus</name></editor>
-      <title>Expositio succinta problematum Aristotelis quam Petrus edidit Paduanus</title>
-      <pubPlace>Mantua</pubPlace>
-      <publisher>Paulus de Butzbach</publisher>
-      <date>1475</date>
-     </bibl>
-    URL: <ptr target="http://daten.digitale-sammlungen.de/~db/0006/bsb00068444/images/"/>
-    </witness>
-    <witness xml:id="v">
-     <abbr type="siglum">v</abbr> = <bibl>
-        <editor><name>Anonymous</name></editor>
-      <title>Expositio preclarissimi atque eximii artium ac medicine doctoris Petri de Ebano Patauini in librorum problematum Aristotelis</title>
-      <pubPlace>[Venetiis]</pubPlace>
-      <publisher>Johannes Herbort</publisher>
-      <date>1482</date>
-    </bibl>
-    URL: <ptr target="http://daten.digitale-sammlungen.de/~db/0005/bsb00058463/images/"/>
-    </witness>
-   </listWit>
+  <div type="section" xml:id="conspectus">
+    <head>Conspectus</head>
+    <listWit xml:id="bibliography-manuscripts">
+      <head>Manuscripts</head>
+      <listWit xml:id="bib-manuscripts1">
+        <head>Pietro's first version</head>
+        <witness xml:id="Px">
+          <abbr type="siglum">P<hi rend="superscript">x</hi></abbr> = <title>Paris, Bibliotheque
+            Nationale man. lat. 6540</title>
+          <msDesc>
+            <msIdentifier>
+              <settlement>Paris</settlement>
+              <repository>Bibliotheque Nationale</repository>
+              <idno>man. Lat. 6540</idno>
+            </msIdentifier>
+          </msDesc> URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90684121.r=6540"/>
+        </witness>
+        <witness xml:id="Vb">
+          <abbr type="siglum">V<hi rend="superscript">b</hi></abbr> = <title>Vatican, Biblioteca
+            Apostolica lat. 2175</title>
+          <msDesc>
+            <msIdentifier>
+              <settlement>Vatican</settlement>
+              <repository>Biblioteca Apostolica</repository>
+              <idno>lat. 2175</idno>
+            </msIdentifier>
+          </msDesc> URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2175"/>
+        </witness>
+        <witness xml:id="γ"><abbr type="siglum">γ</abbr> = <title>Consensus of #Px
+          #Vb</title></witness>
+        <witness xml:id="Ma">
+          <abbr type="siglum">M<hi rend="superscript">a</hi></abbr> = <title>Cesena,
+            Malatestiana D.XXIV.2</title>
+          <msDesc>
+            <msIdentifier>
+              <settlement>Cesena</settlement>
+              <repository>Biblioteca Malatestiana</repository>
+              <idno>D.XXIV.2</idno>
+            </msIdentifier>
+          </msDesc> URL: <ptr
+            target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=DX.24.02"
+          />
+        </witness>
+        <witness xml:id="Mb">
+          <abbr type="siglum">M<hi rend="superscript">b</hi></abbr> = <title>Cesena,
+            Malatestiana S.VI.3</title>
+          <msDesc>
+            <msIdentifier>
+              <settlement>Cesena</settlement>
+              <repository>Biblioteca Malatestiana</repository>
+              <idno>S.VI.3</idno>
+            </msIdentifier>
+          </msDesc> URL: <ptr
+            target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=SX.06.03"
+          />
+        </witness>
+        <witness xml:id="Vm">
+          <abbr type="siglum">V<hi rend="superscript">m</hi></abbr> = <title>Venice, Biblioteca
+            Nazionale Marciana, lat. VI. 126</title>
+          <msDesc>
+            <msIdentifier>
+              <settlement>Venice</settlement>
+              <repository>Biblioteca Nazionale Marciana</repository>
+              <idno>lat. VI. 126</idno>
+            </msIdentifier>
+          </msDesc>
+        </witness>
+        <witness xml:id="E">
+          <abbr type="siglum">E</abbr> = <title>Erfurt, Bibliothek Amploniana fol. 15</title>
+          <msDesc>
+            <msIdentifier>
+              <settlement>Erfurt</settlement>
+              <repository>Bibliothek Amploniana</repository>
+              <idno>fol. 15</idno>
+            </msIdentifier>
+          </msDesc>
+        </witness>
+        <witness xml:id="Vz">
+          <abbr type="siglum">V<hi rend="superscript">z</hi></abbr> = <title>Venice, Biblioteca
+            Nazionale Marciana, lat. Z. 263</title>
+          <msDesc>
+            <msIdentifier>
+              <settlement>Venice</settlement>
+              <repository>Biblioteca Nazionale Marciana</repository>
+              <idno>lat. Z. 263</idno>
+            </msIdentifier>
+          </msDesc>
+        </witness>
+      </listWit>
+      <witness xml:id="δ"><abbr type="siglum">δ</abbr> = <title>Consensus of #Ma #Mb
+        #Vm</title></witness>
+      <witness xml:id="β"><abbr type="siglum">β</abbr> = <title>Consensus of #Ma #Mb #Px #Vb
+        #Vm</title></witness>
+    </listWit>
+    <listWit xml:id="bib-manuscripts2">
+      <head>Pietro's revised version</head>
+      <witness xml:id="Nu">
+        <abbr type="siglum">N<hi rend="superscript">u</hi></abbr> = <title>Nuremberg,
+          Stadtbibliothek, Cent. III.38</title>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Nuremberg</settlement>
+            <repository>Stadtbibliothek</repository>
+            <idno>Cent. III.38</idno>
+          </msIdentifier>
+        </msDesc>
+      </witness>
+      <witness xml:id="Py">
+        <abbr type="siglum">P<hi rend="superscript">y</hi></abbr> = <title>Paris, Bibliotheque
+          Nationale man. lat. 6541</title>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Paris</settlement>
+            <repository>Bibliotheque Nationale</repository>
+            <idno>man. Lat. 6541</idno>
+          </msIdentifier>
+        </msDesc> URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b9068411m.r=6541"/>
+      </witness>
+      <witness xml:id="Va">
+        <abbr type="siglum">V<hi rend="superscript">a</hi></abbr> = <title>Vatican, Biblioteca
+          Apostolica lat. 2174</title>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Vatican</settlement>
+            <repository>Biblioteca Apostolica</repository>
+            <idno>lat. 2174</idno>
+          </msIdentifier>
+        </msDesc> URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2174"/>
+      </witness>
+      <witness xml:id="α"><abbr type="siglum">α</abbr> = <title>Consensus of #Nu #Py
+        #Va</title></witness>
+    </listWit>
+    <listWit xml:id="bib-manuscripts3">
+      <head>Jean de Jandun's redaction</head>
+      <witness xml:id="G">
+        <abbr type="siglum">G</abbr> = <title>Ghent, Bibliothéek van de Rijksuniversiteit, ms.
+          72</title>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Ghent</settlement>
+            <repository>Bibliothéek van de Rijksuniversiteit</repository>
+            <idno>ms. 72</idno>
+          </msIdentifier>
+        </msDesc> URL: <ptr target="http://lib.ugent.be/catalog/rug01:000802948"/>
+      </witness>
+      <witness xml:id="Pp">
+        <abbr type="siglum">P<hi rend="superscript">p</hi></abbr> = <title>Paris, Bibliotheque
+          Nationale man. lat. 6542</title>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Paris</settlement>
+            <repository>Bibliotheque Nationale</repository>
+            <idno>man. Lat. 6542</idno>
+          </msIdentifier>
+        </msDesc> URL: <ptr
+          target="http://gallica.bnf.fr/ark:/12148/btv1b10721259d/f1.item.r=6542"/>
+      </witness>
+      <witness xml:id="Pq">
+        <abbr type="siglum">P<hi rend="superscript">q</hi></abbr> = <title>Paris, Bibliotheque
+          Nationale man. lat. 15454</title>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Paris</settlement>
+            <repository>Bibliotheque Nationale</repository>
+            <idno>man. Lat. 15454</idno>
+          </msIdentifier>
+        </msDesc>
+      </witness>
+      <witness xml:id="Pz">
+        <abbr type="siglum">P<hi rend="superscript">z</hi></abbr> = <title>Paris, Bibliotheque
+          Nationale man. lat. 6541A</title>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Paris</settlement>
+            <repository>Bibliotheque Nationale</repository>
+            <idno>man. Lat. 6541A</idno>
+          </msIdentifier>
+          <physDesc>
+            <handDesc hands="2">
+              <handNote xml:id="Pzh2">
+                <abbr type="siglum">P<hi rend="superscript">z2</hi></abbr> is responsible for
+                the header, and writes in an ink that has faded significantly. It may be the
+                same scribe who wrote the large initials which begin each problem. </handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc> URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90680829/f2"/>
+      </witness>
+      <witness xml:id="Vo">
+        <abbr type="siglum">V<hi rend="superscript">o</hi></abbr> = <title>Vatican, Biblioteca
+          Apostolica Ottobon. lat. 1764</title>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Vatican</settlement>
+            <repository>Biblioteca Apostolica</repository>
+            <idno>Ottobon. lat. 1764</idno>
+          </msIdentifier>
+        </msDesc>
+      </witness>
+      <witness xml:id="J"><abbr type="siglum">J</abbr> = <title>Consensus of #G #Pq #Pz #Pp
+        #Vo</title></witness>
+      <witness xml:id="K"><abbr type="siglum">K</abbr> = <title>Consensus of #G #Pq #Vo
+        #Pp</title></witness>
+      <witness xml:id="C">
+        <abbr type="siglum">C</abbr> = <title>Cambridge, Peterhouse 79</title>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Cambridge</settlement>
+            <repository>Peterhouse College</repository>
+            <idno>ms. 79</idno>
+          </msIdentifier>
+        </msDesc>
+      </witness>
+      <witness xml:id="Pa">
+        <abbr type="siglum">P<hi rend="superscript">a</hi></abbr> = <title>Paris, Bibliotheque
+          Arsenal, 723</title>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Paris</settlement>
+            <repository>Bibliotheque Nationale, Arsenal</repository>
+            <idno>man. 723</idno>
+          </msIdentifier>
+        </msDesc>
+      </witness>
+      
+      <witness xml:id="Pu">
+        <abbr type="siglum">P<hi rend="superscript">u</hi></abbr> = <title>Paris, University
+          122</title>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Paris</settlement>
+            <repository>Sorbonne University</repository>
+            <idno>ms. 122</idno>
+          </msIdentifier>
+        </msDesc>
+      </witness>
+      <witness xml:id="S">
+        <abbr type="siglum">S</abbr> = <title>Sevilla, Biblioteca Colombina, 7.7.9</title>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Sevilla</settlement>
+            <repository>Biblioteca Colombina</repository>
+            <idno>ms. 7.7.9</idno>
+          </msIdentifier>
+        </msDesc>
+      </witness>
+      <witness xml:id="Vc">
+        <abbr type="siglum">V<hi rend="superscript">c</hi></abbr> = <title>Vatican, Biblioteca
+          Apostolica lat. 2176</title>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Vatican</settlement>
+            <repository>Biblioteca Apostolica</repository>
+            <idno>lat. 2176</idno>
+          </msIdentifier>
+        </msDesc> URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2176"/>
+      </witness>
+    </listWit>
+    <listWit xml:id="bibliography-editions-witnesses">
+      <head>Early Editions</head>
+      <witness xml:id="m">
+        <abbr type="siglum">m</abbr> = <bibl>
+          <editor><name>Illarius, Stephanus</name></editor>
+          <title>Expositio succinta problematum Aristotelis quam Petrus edidit Paduanus</title>
+          <pubPlace>Mantua</pubPlace>
+          <publisher>Paulus de Butzbach</publisher>
+          <date>1475</date>
+        </bibl> URL: <ptr
+          target="http://daten.digitale-sammlungen.de/~db/0006/bsb00068444/images/"/>
+      </witness>
+      <witness xml:id="v">
+        <abbr type="siglum">v</abbr> = <bibl>
+          <editor><name>Anonymous</name></editor>
+          <title>Expositio preclarissimi atque eximii artium ac medicine doctoris Petri de Ebano
+            Patauini in librorum problematum Aristotelis</title>
+          <pubPlace>[Venetiis]</pubPlace>
+          <publisher>Johannes Herbort</publisher>
+          <date>1482</date>
+        </bibl> URL: <ptr
+          target="http://daten.digitale-sammlungen.de/~db/0005/bsb00058463/images/"/>
+      </witness>
+    </listWit>
   </div>
  </front>
   
@@ -554,13 +558,15 @@
 <div type="edition" xml:id="edition-text" xml:space="preserve">
 
 <div type="textpart" subtype="problem" n="26" xml:id="part26">
-  <head>Problem 26</head>
-  <p><app xml:id="app-26.1" exclude="#app-rdg-Px-26.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="26">26<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Py" ana="#additive"><num type="ordinal" value="26">Vigesimumsextum.</num> <hi rend="rubricated"><surplus><num type="ordinal" value="26">vigesimum sextum.</num></surplus></hi></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="26">Uigesimumsextum</num> problema.</rdg>
+  <head>
+ <app xml:id="app-26.1" exclude="#app-rdg-Px-26.1"><lem wit="#Va #m #v"><num type="ordinal" value="26">Uigesimumsextum</num> problema</lem>
+   <rdg wit="#Pp" ana="#subtractive"><add place="margin"><num type="ordinal" value="26">26<hi rend="superscript">m</hi></num></add></rdg>
+   <rdg wit="#Py" ana="#additive"><num type="ordinal" value="26">Vigesimumsextum.</num> <surplus><hi rend="rubricated"><num type="ordinal" value="26">vigesimum sextum.</num></hi></surplus></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="25">25m.</num> problema.</rdg>
-<rdg wit="#Pz" ana="#subtractive"/></app></p>
-   <p><mentioned><app><lem wit="#G #Px #m #v">
+<rdg wit="#Ma #Pz" ana="#subtractive"/></app>
+  </head>
+  <p>
+  <mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID IN ACUTO DISCORDANT <app><lem wit="#G #m #v">PLURIMI:</lem>
 <rdg wit="#Px" ana="#orthographical">PULURIMI.</rdg></app> 
 UTRUM QUIA FACILIUS ACUTUM DIMITTERE QUAM GRAUE: AUT QUIA <app><lem wit="#m #G #Px">PEIUS</lem>
@@ -572,7 +578,7 @@ PECCATUM <app><lem wit="#G #m #v">PEIORIS</lem>
 OPERATIO.</lem>
 <rdg wit="#Pp" ana="#subtractive">PROPTER QUID IN ACUTO</rdg>
 <rdg wit="#Py" ana="#subtractive"/></app></mentioned>
-   </p>  
+</p>
      <p>
 <app xml:id="app-rdg-Px-26.1" exclude="#app-26.1">
 <rdg wit="#Px" ana="#additive"><num type="ordinal" value="26">Uigesimum sextum</num> problema etcetera.</rdg></app>
@@ -677,12 +683,13 @@ ut aurum arte construere: <app><lem wit="#Px #Py #m #v">et id <app><lem wit="#Px
 </div>
 
 <div type="textpart" subtype="problem" n="27" xml:id="part27">
-  <head>Problem 27</head>
-  <p><app xml:id="app-27.1" exclude="#app-rdg-Px-27.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="27">27<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="27">27<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="27">vigesimum septimum.</num></surplus></hi> <num type="ordinal" value="27">Vigesimumseptimum</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="27">Uigesimumseptimum</num> problema.</rdg>
-<rdg wit="#G" ana="#lexical"><num type="ordinal" value="26">26m.</num> problema.</rdg></app></p>
+  <head>
+<app xml:id="app-27.1" exclude="#app-rdg-Px-27.1"><lem wit="#Va #m #v"><num type="ordinal" value="27">Uigesimumseptimum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="27">27<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="27">vigesimum septimum.</num></hi></surplus> <num type="ordinal" value="27">Vigesimumseptimum</num></rdg>
+<rdg wit="#G" ana="#lexical"><num type="ordinal" value="26">26m.</num> problema.</rdg>
+<rdg wit="#Mb" ana="#subtractive"/></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID AUDIBILE SOLUM HABET SENSIBILIUM: ET ENIM IN QUANTUM <app><lem wit="#G #Px #v">ABSQUE</lem>
 <rdg wit="#m" ana="#orthographical">ABQUE</rdg></app>
@@ -1090,12 +1097,13 @@ consuetudo <app><lem wit="#G #Px #Pp #m #v">utcunque.</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="28" xml:id="part28">
-  <head>Problem 28</head>
-  <p><app xml:id="app-28.1" exclude="#app-rdg-Px-28.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="28">28<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="28">28<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="28">vigesimum octauum.</num></surplus></hi> <num type="ordinal" value="28">Vigesimum octauum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="28">Uigesimumoctauum</num> problema.</rdg>
-<rdg wit="#G" ana="#lexical"><num type="ordinal" value="27">27m.</num> problema.</rdg></app></p>
+  <head>
+ <app xml:id="app-28.1" exclude="#app-rdg-Px-28.1"><lem wit="#Va #m #v"><num type="ordinal" value="28">Uigesimumoctauum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="28">28<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="28">vigesimum octauum.</num></hi></surplus> <num type="ordinal" value="28">Vigesimum octauum.</num></rdg>
+<rdg wit="#Mb" ana="#subtractive"/>
+<rdg wit="#G" ana="#lexical"><num type="ordinal" value="27">27m.</num> problema.</rdg></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID LEGES APPELLANTUR QUAS CANTANT. AUT QUIA PRIUSQUAM SCIANT LITTERAS UIDERUNT LEGES: QUOMODO NON LATEANT QUEMADMODUM IN <app><lem wit="#G #Px">AGATHUSIS</lem>
 <rdg wit="#m #v" ana="#orthographical">AGATHIRSIS:</rdg></app> 
@@ -1260,13 +1268,13 @@ dicuntur <app><lem wit="#G #Px #Py #m #v">primitiue.</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="29" xml:id="part29">
-  <head>Problem 29</head>
-  <p><app xml:id="app-29.1" exclude="#app-rdg-Px-29.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="29">29<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="29">29<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#S" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="29">29</num></add><handShift scribe="S"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="29">vigesimum nonum.</num></surplus></hi> <num type="ordinal" value="29">Vigesimumnonum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="29">Uigesimumnonum</num> problema.</rdg>
-<rdg wit="#G" ana="#lexical"><num type="ordinal" value="28">28m.</num> problema.</rdg></app></p>
+  <head>
+<app xml:id="app-29.1" exclude="#app-rdg-Px-29.1"><lem wit="#Va #m #v"><num type="ordinal" value="29">Uigesimumnonum</num> problema</lem>
+<rdg wit="#Pp #Pz #S" ana="#subtractive"><add place="margin"><num type="ordinal" value="29">29<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="29">vigesimum nonum.</num></hi></surplus> <num type="ordinal" value="29">Vigesimumnonum.</num></rdg>
+<rdg wit="#Ma" ana="#subtractive"/>
+<rdg wit="#G" ana="#lexical"><num type="ordinal" value="28">28m.</num> problema.</rdg></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID RITHIMI ET CANTUS UOX EXISTENS CONSUETUDINIBUS <app><lem wit="#G #v">ASSIMILANTUR</lem>
 <rdg wit="#Px #m" ana="#orthographical">ASSIMILLANTUR</rdg></app>
@@ -1375,13 +1383,15 @@ acquiratur.
 </div>
 
 <div type="textpart" subtype="problem" n="30" xml:id="part30">
-  <head>Problem 30</head>
-  <p><app xml:id="app-30.1" exclude="#app-rdg-Px-30.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="30">30<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="30">30<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#S" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="30">30</num></add><handShift scribe="S"/></rdg>
-<rdg wit="#Py" ana="#additive"><num type="ordinal" value="30">Trigesimum.</num> <app xml:id="app-rdg-Py-30.2" exclude="#app-30.2"><rdg wit="#Py" ana="#ordinal">Quare.</rdg></app> <hi rend="rubricated"><surplus><num type="ordinal" value="30">trigesimum</num> problema.</surplus></hi></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="30">Trigesimum</num> problema.</rdg>
-<rdg wit="#G" ana="#lexical"><num type="ordinal" value="29">29m.</num> problema.</rdg></app></p>
+  <head>
+<app xml:id="app-30.1" exclude="#app-rdg-Px-30.1"><lem wit="#Va #m #v"><num type="ordinal" value="30">Trigesimum</num> problema</lem>
+<rdg wit="#Pp #Pz #S" ana="#subtractive"><add place="margin"><num type="ordinal" value="30">30<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><num type="ordinal" value="30">Trigesimum.</num> 
+  <app xml:id="app-rdg-Py-30.2" exclude="#app-30.2"><rdg wit="#Py" ana="#ordinal">Quare.</rdg></app> 
+  <surplus><hi rend="rubricated"><num type="ordinal" value="30">trigesimum</num> problema.</hi></surplus></rdg>
+<rdg wit="#Mb" ana="#subtractive"/>
+<rdg wit="#G" ana="#lexical"><num type="ordinal" value="29">29m.</num> problema.</rdg></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID NEQUE YPODORISTIUM: NEQUE <app><lem wit="#G #m #v">YPOFRIGISTIUM</lem>
 <rdg wit="#Px" ana="#orthographical">YPOFRIDISTIUM</rdg></app> 
@@ -1648,14 +1658,13 @@ uel <app><lem wit="#G #v #Pp #Px #Py">triplat</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="31" xml:id="part31">
-  <head>Problem 31</head>
-  <p><app xml:id="app-31.1" exclude="#app-rdg-Px-31.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="31">31<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="31">31<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#S" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="31">31</num></add><handShift scribe="S"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="31">trigesimum.primum</num></surplus></hi> <num type="ordinal" value="31">Trigesimum primum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="31">Trigesimumprimum</num> problema.</rdg>
-<rdg wit="#G" ana="#lexical"><num type="ordinal" value="30">Trigesimum</num> problema.</rdg>
-</app></p>
+  <head>
+ <app xml:id="app-31.1" exclude="#app-rdg-Px-31.1"><lem wit="#Va #m #v"><num type="ordinal" value="31">Trigesimumprimum</num> problema</lem>
+<rdg wit="#Pp #Pz #S" ana="#subtractive"><add place="margin"><num type="ordinal" value="31">31<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="31">trigesimum.primum</num></hi></surplus> <num type="ordinal" value="31">Trigesimum primum.</num></rdg>
+<rdg wit="#Mb" ana="#subtractive"/>
+<rdg wit="#G" ana="#lexical"><num type="ordinal" value="30">Trigesimum</num> problema.</rdg></app>
+  </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID CIRCA <app><lem wit="#m #v">FRINTHUM</lem>
 <rdg wit="#G" ana="#orthographical">FRICHUM</rdg>
@@ -1739,14 +1748,12 @@ iocunditatem inducere.
 </div>
 
 <div type="textpart" subtype="problem" n="32" xml:id="part32">
-  <head>Problem 32</head>
-  <p><app xml:id="app-32.1" exclude="#app-rdg-Px-32.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="32">32<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="32">32<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#S" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="32">32</num></add><handShift scribe="S"/></rdg>
-<rdg wit="#Py" ana="#additive"><num type="ordinal" value="32">Trigesimumsecundum.</num> <hi rend="rubricated"><surplus><num type="ordinal" value="32">trigesimum secundum</num></surplus></hi></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="32">Trigesimumsecundum</num> problema.</rdg>
+  <head>
+<app xml:id="app-32.1" exclude="#app-rdg-Px-32.1"><lem wit="#Va #m #v"><num type="ordinal" value="32">Trigesimumsecundum</num> problema</lem>
+<rdg wit="#Pp #Pz #S" ana="#subtractive"><add place="margin"><num type="ordinal" value="32">32<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><num type="ordinal" value="32">Trigesimumsecundum.</num> <surplus><hi rend="rubricated"><num type="ordinal" value="32">trigesimum secundum</num></hi></surplus></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="31">31m.</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app></head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID DYAPASON APPELLATUR: SED NON SECUNDUM NUMERUM DYAOCTO: QUEMADMODUM ET <app><lem wit="#G #v">DYATESSERON</lem>
 <rdg wit="#m" ana="#orthographical">DYATEXERON</rdg>
@@ -1930,14 +1937,12 @@ essentie ipsius et tactum quidem. <app><lem wit="#Py #m #v"><num type="ordinal" 
 </div>
 
 <div type="textpart" subtype="problem" n="33" xml:id="part33">
-  <head>Problem 33</head>
-  <p><app xml:id="app-33.1" exclude="#app-rdg-Px-33.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="33">33<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="33">33<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#S" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="33">33</num></add><handShift scribe="S"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="33">trigesimum tertium.</num></surplus></hi> <num type="ordinal" value="33">Trigesimum <del>quartum</del> tertium.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="33">Trigesimumtertium</num> problema. </rdg>
+  <head>
+ <app xml:id="app-33.1" exclude="#app-rdg-Px-33.1"><lem wit="#Va #m #v"><num type="ordinal" value="33">Trigesimumtertium</num> problema</lem>
+<rdg wit="#Pp #Pz #S" ana="#subtractive"><add place="margin"><num type="ordinal" value="33">33<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="33">trigesimum tertium.</num></hi></surplus> <num type="ordinal" value="33">Trigesimum <del>quartum</del> tertium.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="32">32m.</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app></head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID <app><lem wit="#Px #m #v">CONSONANTIUS</lem>
 <rdg wit="#G" ana="#orthographical">CONSONANCIUS</rdg></app>
@@ -2129,14 +2134,12 @@ postea conterminant: et non econtra concordant.
 </div>
 
 <div type="textpart" subtype="problem" n="34" xml:id="part34">
-  <head>Problem 34</head>
-  <p><app xml:id="app-34.1" exclude="#app-rdg-Px-34.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="34">34<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="34">34<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="34">trigesimum quartum.</num></surplus></hi> <num type="ordinal" value="34">Trigesimumquartum.</num> </rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="34">Trigesimumquartum</num> problema.</rdg>
+  <head>
+<app xml:id="app-34.1" exclude="#app-rdg-Px-34.1"><lem wit="#Va #m #v"><num type="ordinal" value="34">Trigesimumquartum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="34">34<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="34">trigesimum quartum.</num></hi></surplus> <num type="ordinal" value="34">Trigesimumquartum.</num> </rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="33">33m.</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app></head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID BIS QUIDEM PER ACUTOS: ET BIS <app><lem wit="#G #m #v">PER</lem>
 <rdg wit="#Px" ana="#lexical">QUE</rdg></app> 
@@ -2248,13 +2251,12 @@ amplioris <app><lem wit="#G #Px #Py #m #v">expositionis gratia.</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="35" xml:id="part35">
-  <head>Problem 35</head>
-  <p><app xml:id="app-35.1" exclude="#app-rdg-Px-35.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="35">35<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="35">35<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="35">trigesimum quintum.</num></surplus></hi> <num type="ordinal" value="35">Trigesimum quintum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="35">Trigesimumquintum</num> problema.</rdg>
+  <head>
+ <app xml:id="app-35.1" exclude="#app-rdg-Px-35.1"><lem wit="#Va #m #v"><num type="ordinal" value="35">Trigesimumquintum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="35">35<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="35">trigesimum quintum.</num></hi></surplus> <num type="ordinal" value="35">Trigesimum quintum.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="34">34m.</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app></head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID <app><lem wit="#G #m #Px">DYAPASON</lem>
 <rdg wit="#v" ana="#orthographical">DIAPASON</rdg></app>
@@ -2888,13 +2890,12 @@ non accidit <app><lem wit="#G #Pp #Px #m #v">simphoniis.</lem>
 </div>
 	
 <div type="textpart" subtype="problem" n="36" xml:id="part36">
-  <head>Problem 36</head>
-  <p><app xml:id="app-36.1" exclude="#app-rdg-Px-36.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="36">36<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="36">36<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="36">trigesimum sextum.</num></surplus></hi> <num type="ordinal" value="36">Trigesimumsextum.</num> </rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="36">Trigesimumsextum</num> problema. </rdg>
+  <head>
+<app xml:id="app-36.1" exclude="#app-rdg-Px-36.1"><lem wit="#Va #m #v"><num type="ordinal" value="36">Trigesimumsextum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="36">36<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="36">trigesimum sextum.</num></hi></surplus> <num type="ordinal" value="36">Trigesimumsextum.</num> </rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="35">35m.</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app></head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 <app><lem wit="#G #v #Px">PROPTER</lem>
 <rdg wit="#m" ana="#orthographical">PRTOPTER</rdg></app>
@@ -3001,13 +3002,12 @@ concordare et consonantiam reddere per virtutem medie. media enim est ut <app><l
 </div>
 
 <div type="textpart" subtype="problem" n="37" xml:id="part37">
-  <head>Problem 37</head>
-  <p><app xml:id="app-37.1" exclude="#app-rdg-Px-37.1"><lem wit="#m #v"><add place="margin"><num type="ordinal" value="37">37<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="37">37<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="37">trigesimumseptimum</num></surplus></hi> <num type="ordinal" value="37">Trigesimumseptimum.</num></rdg>
-<rdg wit="#Pp" ana="#additive"><num type="ordinal" value="37">Trigesimumseptimum</num> problema.</rdg>
+  <head>
+<app xml:id="app-37.1" exclude="#app-rdg-Px-37.1"><lem wit="#Va #m #v"><num type="ordinal" value="37">Trigesimumseptimum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="37">37<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="37">trigesimumseptimum</num></hi></surplus> <num type="ordinal" value="37">Trigesimumseptimum.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="36">36m.</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app></head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID QUOD <app><lem wit="#Px #m #v">EST</lem>
 <rdg wit="#G" ana="#orthographical">ES</rdg></app>
@@ -3352,13 +3352,12 @@ calidi <app><lem wit="#G #Pp #Px #Py">virtuosi.</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="38" xml:id="part38">
-  <head>Problem 38</head>
-  <p><app xml:id="app-38.1" exclude="#app-rdg-Px-38.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="38">38<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="38">39<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="38">trigesimum octauum.</num></surplus></hi> <num type="ordinal" value="38">Trigesimumoctauum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="38">Trigesimumoctauum</num> problema.</rdg>
+  <head>
+ <app xml:id="app-38.1" exclude="#app-rdg-Px-38.1"><lem wit="#Va #m #v"><num type="ordinal" value="38">Trigesimumoctauum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="38">39<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="38">trigesimum octauum.</num></hi></surplus> <num type="ordinal" value="38">Trigesimumoctauum.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="37">37m.</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app></head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID <app><lem wit="#Px">ET</lem>
 <rdg wit="#G #m #v" ana="#additive">ET IN</rdg></app>
@@ -3981,13 +3980,12 @@ dictis non conuenit <persName ref="#Ty"><app><lem wit="#m #v">Thimotei.</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="39" xml:id="part39">
-  <head>Problem 39</head>
-  <p><app xml:id="app-39.1" exclude="#app-rdg-Px-39.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="39">39<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><del>38</del> <num type="ordinal" value="39">39<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="39">trigesimum nonum:</num></surplus></hi> <num type="ordinal" value="39">Trigesimumnonum.</num> </rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="39">Trigesimumnonum</num> problema. </rdg>
+  <head>
+<app xml:id="app-39.1" exclude="#app-rdg-Px-39.1"><lem wit="#Va #m #v"><num type="ordinal" value="39">Trigesimumnonum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><del>38</del> <num type="ordinal" value="39">39<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="39">trigesimum nonum:</num></hi></surplus> <num type="ordinal" value="39">Trigesimumnonum.</num> </rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="38">38m.</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app></head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID DELECTABILIUS EST SECUNDUM <app><lem wit="#G #m #v">CONSONANTIAM</lem>
 <rdg wit="#Px" ana="#orthographical">CONSONATIAM</rdg></app>
@@ -4803,13 +4801,12 @@ ad reliquas consonantias.
 </div>
 
 <div type="textpart" subtype="problem" n="40" xml:id="part40">
-  <head>Problem 40</head>
-  <p><app xml:id="app-40.1" exclude="#app-rdg-Px-40.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="40">40<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="40">40<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><num type="ordinal" value="40">Quadragesimum.</num> <hi rend="rubricated"><surplus><num type="ordinal" value="40">Quadragesimum</num> problema</surplus></hi></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="40">Quadragesimum</num> problema. </rdg>
+  <head>
+<app xml:id="app-40.1" exclude="#app-rdg-Px-40.1"><lem wit="#Va #m #v"><num type="ordinal" value="40">Quadragesimum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="40">40<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><num type="ordinal" value="40">Quadragesimum.</num> <surplus><hi rend="rubricated"><num type="ordinal" value="40">Quadragesimum</num> problema</hi></surplus></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="39">39m.</num> problema.</rdg>
-<rdg wit="#Py" ana="#subtractive"/></app></p>
+<rdg wit="#Mb" ana="#subtractive"/></app></head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID DELECTABILITER AUDIUNT CANTANTES <app><lem wit="#Px #m #v">QUOSCUNQUE</lem>
 <rdg wit="#G" ana="#lexical">QUOUSQUE</rdg></app>
@@ -4853,13 +4850,12 @@ ut memorie <app><lem wit="#Py #m #v">amplius commendetur.</lem><rdg wit="#G" ana
 </div>
   
 <div type="textpart" subtype="problem" n="41" xml:id="part41">
-  <head>Problem 41</head>
-  <p><app><lem wit="#Pp"><add place="margin"><num type="ordinal" value="41">41<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="41">41<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="41">Quadragesimum primum.</num></surplus></hi> <num type="ordinal" value="41">Quadragesimumprimum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="41">Quadragesimumprimum</num> problema.</rdg>
+  <head>
+ <app><lem wit="#Va #m #v"><num type="ordinal" value="41">Quadragesimumprimum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="41">41<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="41">Quadragesimum primum.</num></hi></surplus> <num type="ordinal" value="41">Quadragesimumprimum.</num></rdg>
 <rdg wit="#Px" ana="#additive"><num type="ordinal" value="41">Quadragesimumprimum</num> problema etcetera.</rdg>
-<rdg wit="#G" ana="#subtractive"/></app></p>
+<rdg wit="#G #Mb" ana="#subtractive"/></app></head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 <app xml:id="app-lem-41.1" exclude="#app-rdg-G-41.1 #app-rdg-Px-41.1">
  <lem wit="#m #v">PROPTER QUID BIS PARACUTA AUT BIS <num type="cardinal" value="4"><app><lem wit="#v">QUATUOR</lem>
@@ -5156,13 +5152,13 @@ antedictam <app><lem wit="#Px #Py #m #v">causam.</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="42" xml:id="part42">
-  <head>Problem 42</head>
-  <p><app xml:id="app-42.1" exclude="#app-rdg-Px-42.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="42">42<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="42">42<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="42">Quadragesimum secundum:</num></surplus></hi> <num type="ordinal" value="42">Quadragesimumsecundum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="42">Quadragesimumsecundum</num> problema.</rdg>
+  <head>
+ <app xml:id="app-42.1" exclude="#app-rdg-Px-42.1"><lem wit="#Va #m #v"><num type="ordinal" value="42">Quadragesimumsecundum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="42">42<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="42">Quadragesimum secundum:</num></hi></surplus> <num type="ordinal" value="42">Quadragesimumsecundum.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="41">Quadragesimum primum</num> problema.</rdg>
-</app></p>
+   <rdg wit="#Mb" ana="#subtractive"/>
+</app></head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID <app><lem wit="#G #Px">SI QUIS</lem>
 <rdg wit="#m #v" ana="#orthographical">SIQUIS</rdg></app>
@@ -5834,13 +5830,13 @@ graue tarde et multum moueri <app><lem wit="#G #Pp #Py">acutum</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="43" xml:id="part43">
-  <head>Problem 43</head>
-  <p><app xml:id="app-43.1" exclude="#app-rdg-Px-43.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="43">43<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="43">43<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="43">quadragesimum tertium.</num></surplus></hi> <num type="ordinal" value="43">Quadragesimumtertium.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="43">Quadragesimumtertium</num> problema.</rdg>
+  <head>
+ <app xml:id="app-43.1" exclude="#app-rdg-Px-43.1"><lem wit="#Va #m #v"><num type="ordinal" value="43">Quadragesimumtertium</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="43">43<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="43">quadragesimum tertium.</num></hi></surplus> <num type="ordinal" value="43">Quadragesimumtertium.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="42">42m.</num> problema.</rdg>
-</app></p>
+   <rdg wit="#Mb" ana="#subtractive"/>
+</app></head>
    <p><mentioned><app xml:id="app-43.2" exclude="#app-rdg-Px-43.2"><lem wit="#G #m #v">PROPTER QUID DELECTABILE UNIUS CANTUS EST: SI AD LYRAM ET FISTULAM CANTANT. AUT QUIA OMNE DELECTABILE <app><lem wit="#m #v">MIXTUM</lem>
 <rdg wit="#G" ana="#orthographical"><space/></rdg></app>
 <app><lem wit="#m #v">DELECTABILI</lem>
@@ -6423,13 +6419,13 @@ factum.
 </div>
 
 <div type="textpart" subtype="problem" n="44" xml:id="part44">
-  <head>Problem 44</head>
-  <p><app xml:id="app-44.1" exclude="#app-rdg-Px-44.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="44">44<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift medium="somewhat lighter ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="44">44<hi rend="superscript">m</hi></num></add><handShift medium="darker ink" scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><num type="ordinal" value="44">Quadragesimumquartum.</num> <hi rend="rubricated"><surplus><num type="ordinal" value="44">quadragesimumquartum.</num></surplus></hi></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="44">Quadragesimumquartum</num> problema.</rdg>
+  <head>
+<app xml:id="app-44.1" exclude="#app-rdg-Px-44.1"><lem wit="#Va #m #v"><num type="ordinal" value="44">Quadragesimumquartum</num> problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="44">44<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><num type="ordinal" value="44">Quadragesimumquartum.</num> <surplus><hi rend="rubricated"><num type="ordinal" value="44">quadragesimumquartum.</num></hi></surplus></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="43">43m.</num> problema.</rdg>
-</app></p>
+  <rdg wit="#Mb" ana="#subtractive"/>
+</app></head>
    <p><mentioned><app xml:id="app-44.2" exclude="#app-rdg-Px-44.2"><lem wit="#G #m #v">PROPTER QUID <num type="cardinal" value="7">SEPTEM</num> QUIDEM MEDIA <app><lem wit="#m #v">UOCATUR:</lem>
 <rdg wit="#G" ana="#morphological">UOCANTUR</rdg></app> 
 <num type="cardinal" value="8">OCTO</num> AUTEM NON EST MEDIUM. AUT QUIA <num type="cardinal" value="7">SEPTEM</num> CORDARUM FUERUNT ANTIQUITUS CONSONANTIE <num type="cardinal" value="7">SEPTEM</num> <app><lem wit="#G">AUTEM</lem>
@@ -6701,14 +6697,13 @@ potest <app><lem wit="#G #Px #Py #m #v">inueniri.</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="45" xml:id="part45">
- <head>Problem 45</head>
- <p><app xml:id="app-45.1" exclude="#app-rdg-Px-45.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="45">45<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="45">45<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#S" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="45">45</num></add><handShift scribe="S"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="45">quadragesimumquintum.</num></surplus></hi> <num type="ordinal" value="45">Quadragesimumquintum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="45">Quadragesimumquintum</num> problema. </rdg>
+ <head>
+<app xml:id="app-45.1" exclude="#app-rdg-Px-45.1"><lem wit="#Va #m #v"><num type="ordinal" value="45">Quadragesimumquintum</num> problema</lem>
+<rdg wit="#Pp #Pz #S" ana="#subtractive"><add place="margin"><num type="ordinal" value="45">45<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="45">quadragesimumquintum.</num></hi></surplus> <num type="ordinal" value="45">Quadragesimumquintum.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="44">44m.</num> problema.</rdg>
-</app></p>
+  <rdg wit="#Mb" ana="#subtractive"/>
+</app></head>
   <p><mentioned><app xml:id="app-45.2" exclude="#app-rdg-Px-45.2" next="#app-45.2a"><lem wit="#G #m #v">PROPTER QUID MULTI CANTANTES SALUANT MAGIS <app><lem wit="#m #v">RISMUM</lem>
 <rdg wit="#G" ana="#orthographical">RICHMUM</rdg></app>
 QUAM PAUCI. AUT QUIA MAGIS AD UNUM <app><lem wit="#m #v">AUT ET</lem>
@@ -6833,14 +6828,13 @@ sed ad ducem <app><lem wit="#G #Px #S">exercitantur.</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="46" xml:id="part46">
- <head>Problem 46</head>
- <p><app xml:id="app-46.1" exclude="#app-rdg-Px-46.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="46">46<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="46">46<hi rend="superscript">m</hi></num></add><handShift scribe="S"/></rdg>
-<rdg wit="#S" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="46">46</num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="46">quadragesimum.sextum.</num></surplus></hi> <num type="ordinal" value="46">Quadragesimumsextum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="46">Quadragesimumsextum</num> problema.</rdg>
+ <head>
+<app xml:id="app-46.1" exclude="#app-rdg-Px-46.1"><lem wit="#Va #m #v"><num type="ordinal" value="46">Quadragesimumsextum</num> problema</lem>
+<rdg wit="#Pp #Pz #S" ana="#subtractive"><add place="margin"><num type="ordinal" value="46">46<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="46">quadragesimum.sextum.</num></hi></surplus> <num type="ordinal" value="46">Quadragesimumsextum.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="44">44m.</num> problema.</rdg>
-</app></p>
+  <rdg wit="#Mb" ana="#subtractive"/>
+</app></head>
   <p><mentioned>
 <milestone ed="#G" unit="folio" n="248v"/>
 <milestone ed="#G" unit="column" n="A"/>
@@ -6883,14 +6877,13 @@ grauiter. hic autem videtur contrarium <app><lem wit="#G #Py #S #m #v">dici.</le
 </div>
 
 <div type="textpart" subtype="problem" n="47" xml:id="part47">
- <head>Problem 47</head>
- <p><app xml:id="app-47.1" exclude="#app-rdg-Px-47.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="47">47<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="47">47<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#S" ana="#additive"><handShift medium="darker ink" scribe="m.r."/><add place="margin"><num type="ordinal" value="47">47</num></add><handShift medium="lighter ink" scribe="S"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="47">quadragesimum septimum</num></surplus></hi> <num type="ordinal" value="47">Quadragesimumseptimum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="47">Quadragesimumseptimum</num> problema. </rdg>
+ <head>
+<app xml:id="app-47.1" exclude="#app-rdg-Px-47.1"><lem wit="#Va #m #v"><num type="ordinal" value="47">Quadragesimumseptimum</num> problema</lem>
+<rdg wit="#Pp #Pz #S" ana="#subtractive"><add place="margin"><num type="ordinal" value="47">47<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="47">quadragesimum septimum</num></hi></surplus> <num type="ordinal" value="47">Quadragesimumseptimum.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="45">45m.</num> problema.</rdg>
-</app></p>
+  <rdg wit="#Mb" ana="#subtractive"/>
+</app></head>
   <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID ANTIQUI <num type="cardinal" value="7">SEPTEM</num> CORDARUM FACIENTES CONSONANTIAS RELIQUERUNT <app><lem wit="#G #m #v">YPATEM:</lem> 
 <rdg wit="#Px" ana="#orthographical">YPATEN</rdg></app>
@@ -7230,14 +7223,13 @@ Et huius <num type="ordinal" value="3">3us</num> quidem cetra corda <num type="o
 </div>
 
 <div type="textpart" subtype="problem" n="48" xml:id="part48">
- <head>Problem 48</head>
- <p><app xml:id="app-48.1" exclude="#app-rdg-Px-48.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="48">48<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="48">48<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#S" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="48">48</num></add><handShift scribe="S"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="48">Quadragesimumoctauum</num></surplus></hi> <num type="ordinal" value="48">Quadragesimumoctauum.</num></rdg>
-<rdg wit="#m #v" ana="#additive"><num type="ordinal" value="48">Quadragesimumoctauum</num> problema.</rdg>
+ <head>
+<app xml:id="app-48.1" exclude="#app-rdg-Px-48.1"><lem wit="#Va #m #v"><num type="ordinal" value="48">Quadragesimumoctauum</num> problema</lem>
+<rdg wit="#Pp #Pz #S" ana="#subtractive"><add place="margin"><num type="ordinal" value="48">48<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="48">Quadragesimumoctauum</num></hi></surplus> <num type="ordinal" value="48">Quadragesimumoctauum.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="46">46m.</num> problema.</rdg>
-</app></p>
+  <rdg wit="#Mb" ana="#subtractive"/>
+</app></head>
   <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID IN <app><lem wit="#G #m #v">TRAGEDIA</lem>
 <rdg wit="#Px" ana="#orthographical">TRAG<del>A</del>EDIA</rdg></app>
@@ -7972,15 +7964,14 @@ animos demulcere <app><lem wit="#G #Px #Py #S #m #v">laboret.</lem>
 </div>
 
 <div type="textpart" subtype="problem" n="49" xml:id="part49">
-<head>Problem 49</head>
-<p><app xml:id="app-49.1" exclude="#app-rdg-Px-49.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="49">49<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="49">49<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#S" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="49">49</num></add><handShift scribe="S"/></rdg>
-<rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="49">xl. Nonum.</num> doooo</surplus></hi> <num type="ordinal" value="49">Quadragesimumnonum.</num></rdg>
-<rdg wit="#v" ana="#additive"><num type="ordinal" value="49">Quadragesimumnonum</num> problema.</rdg>
-<rdg wit="#m" ana="#additive"><num type="ordinal" value="49">Quadargesimumnonum</num> problema.</rdg>
+<head>
+<app xml:id="app-49.1" exclude="#app-rdg-Px-49.1"><lem wit="#Va #v"><num type="ordinal" value="49">Quadragesimumnonum</num> problema</lem>
+<rdg wit="#m" ana="#orthographical"><num type="ordinal" value="49">Quadargesimumnonum</num> problema</rdg>
+  <rdg wit="#Pp #Pz #S" ana="#subtractive"><add place="margin"><num type="ordinal" value="49">49<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="49">xl. Nonum.</num> doooo</hi></surplus> <num type="ordinal" value="49">Quadragesimumnonum.</num></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="47">47m.</num> problema.</rdg>
-</app></p>
+  <rdg wit="#Mb" ana="#subtractive"/>
+</app></head>
 <p><mentioned><app><lem wit="#G #Px #m #v">
 PROPTER QUID <app><lem wit="#G #m #v">SONORUM</lem>
 <rdg wit="#Px" ana="#orthographical">SONARUM</rdg></app>
@@ -8165,13 +8156,13 @@ in acutum.
 </div>
 
 <div type="textpart" subtype="problem" n="50" xml:id="part50">
- <head>Problem 50</head>
- <p><app xml:id="app-50.1" exclude="#app-rdg-Px-50.1"><lem wit="#Pp"><add place="margin"><num type="ordinal" value="50">50<hi rend="superscript">m</hi></num></add></lem>
-<rdg wit="#Pz" ana="#additive"><handShift scribe="m.r."/><add place="margin"><num type="ordinal" value="50">50<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
-<rdg wit="#Py" ana="#additive"><num type="ordinal" value="50">Quinquagesimum.</num> <hi rend="rubricated"><surplus><num type="ordinal" value="50">Quinquagesimum.</num></surplus></hi></rdg>
-<rdg wit="#m #v" ana="#additive">Ultimum problema.</rdg>
+ <head>
+ <app xml:id="app-50.1" exclude="#app-rdg-Px-50.1"><lem wit="#Va #m #v">Ultimum problema</lem>
+<rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="50">50<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Py" ana="#additive"><num type="ordinal" value="50">Quinquagesimum.</num> <surplus><hi rend="rubricated"><num type="ordinal" value="50">Quinquagesimum.</num></hi></surplus></rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="48">48m.</num> problema.</rdg>
-</app></p>
+   <rdg wit="#Mb" ana="#subtractive"/>
+</app></head>
   <p>
     <mentioned>
       <app><lem wit="#G #Px #m #v"><seg xml:id="ment-50.1">
@@ -8242,23 +8233,23 @@ ut liquore <app><lem wit="#J #Pq #Py #Pz #Va #Vb #m #v">aliquo</lem>
 <rdg wit="#Px" ana="#subtractive"/></app>
 <app><lem wit="#J #Pq #Px #Py #Vb #Vm #m #v">vacuum</lem>
 <rdg wit="#Va" ana="#morphological">vacuo</rdg>
-<rdg wit="#ε #Vz" ana="#subtractive"/></app>
+<rdg wit="#δ #Vz" ana="#subtractive"/></app>
 <app><lem wit="#Va #Vb #Vm #m #v">plenum tamen aere.</lem>
 <rdg wit="#Pp #Pq" ana="#ordinal">aere tamen plenum</rdg>
 <rdg wit="#G" ana="#ordinal #lexical">Aere cum plenum</rdg>
 <rdg wit="#Py" ana="#morphological">plenum tamen aer</rdg>
-<rdg wit="#ε #Px #Vz" ana="#subtractive"/></app>
+<rdg wit="#δ #Px #Vz" ana="#subtractive"/></app>
 <app><lem xml:id="lem-50.1-Ar">
 <cit><quote><app><lem wit="#J #Pq #Px #Py #Va #Vb #Vm #m #v">idem </lem>
-<rdg wit="#ε #Vz" ana="#subtractive"/></app></quote>
+<rdg wit="#δ #Vz" ana="#subtractive"/></app></quote>
 <app><lem wit="#J #Pq #Px #Py #Vb #Vm">namque</lem>
 <rdg wit="#m #v" ana="#lexical">enim</rdg>
 <rdg wit="#Va" ana="#lexical">tamen</rdg>
-<rdg wit="#ε #Vz" ana="#subtractive"/></app>
+<rdg wit="#δ #Vz" ana="#subtractive"/></app>
 <app><lem wit="#E #Px #Va #Vb #Vm #m #v">apud vulgus</lem>
 <rdg wit="#J #Pq" ana="#additive #morphological">est apud uulgum</rdg>
 <rdg wit="#Py" ana="#lexical">amplius uulgus est</rdg>
-<rdg wit="#ε #Vz" ana="#subtractive"/></app>
+<rdg wit="#δ #Vz" ana="#subtractive"/></app>
 <quote><app><lem wit="#E #Px #Py #Va #Vb #Vm #m #v">est</lem>
 <rdg wit="#J #Ma #Mb #Pq #Pz #Vz" ana="#subtractive"/></app>
 uacuum <app><lem wit="#Ma #Px #Py #Pz #Va #Vb #m #v">et plenum aere</lem>
