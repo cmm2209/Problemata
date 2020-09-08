@@ -276,9 +276,42 @@
       <head>Manuscripts</head>
       <listWit xml:id="bib-manuscripts1">
         <head>Pietro's first version</head>
+        <witness xml:id="Nu">
+          <abbr type="siglum">N<hi rend="superscript">u</hi></abbr> = <title>Nuremberg,Stadtbibliothek, Cent. III.38</title>
+          <msDesc>
+            <msIdentifier>
+              <settlement>Nuremberg</settlement>
+              <repository>Stadtbibliothek</repository>
+              <idno>Cent. III.38</idno>
+            </msIdentifier>
+          </msDesc>
+        </witness>
+        <witness xml:id="Py">
+          <abbr type="siglum">P<hi rend="superscript">y</hi></abbr> = <title>Paris, Bibliotheque Nationale man. lat. 6541</title>
+          <msDesc>
+            <msIdentifier>
+              <settlement>Paris</settlement>
+              <repository>Bibliotheque Nationale</repository>
+              <idno>man. Lat. 6541</idno>
+            </msIdentifier>
+          </msDesc> URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b9068411m.r=6541"/>
+        </witness>
+        <witness xml:id="Va">
+          <abbr type="siglum">V<hi rend="superscript">a</hi></abbr> = <title>Vatican, Biblioteca Apostolica lat. 2174</title>
+          <msDesc>
+            <msIdentifier>
+              <settlement>Vatican</settlement>
+              <repository>Biblioteca Apostolica</repository>
+              <idno>lat. 2174</idno>
+            </msIdentifier>
+          </msDesc> URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2174"/>
+        </witness>
+        <witness xml:id="α"><abbr type="siglum">α</abbr> = <title>Consensus of #Nu #Py #Va</title></witness>
+      </listWit>
+      <listWit xml:id="bib-manuscripts2">
+        <head>Pietro's revised version</head>
         <witness xml:id="Px">
-          <abbr type="siglum">P<hi rend="superscript">x</hi></abbr> = <title>Paris, Bibliotheque
-            Nationale man. lat. 6540</title>
+          <abbr type="siglum">P<hi rend="superscript">x</hi></abbr> = <title>Paris, Bibliotheque Nationale man. lat. 6540</title>
           <msDesc>
             <msIdentifier>
               <settlement>Paris</settlement>
@@ -288,8 +321,7 @@
           </msDesc> URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90684121.r=6540"/>
         </witness>
         <witness xml:id="Vb">
-          <abbr type="siglum">V<hi rend="superscript">b</hi></abbr> = <title>Vatican, Biblioteca
-            Apostolica lat. 2175</title>
+          <abbr type="siglum">V<hi rend="superscript">b</hi></abbr> = <title>Vatican, Biblioteca Apostolica lat. 2175</title>
           <msDesc>
             <msIdentifier>
               <settlement>Vatican</settlement>
@@ -298,37 +330,29 @@
             </msIdentifier>
           </msDesc> URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2175"/>
         </witness>
-        <witness xml:id="γ"><abbr type="siglum">γ</abbr> = <title>Consensus of #Px
-          #Vb</title></witness>
+        <witness xml:id="γ"><abbr type="siglum">γ</abbr> = <title>Consensus of #Px #Vb</title></witness>
         <witness xml:id="Ma">
-          <abbr type="siglum">M<hi rend="superscript">a</hi></abbr> = <title>Cesena,
-            Malatestiana D.XXIV.2</title>
+          <abbr type="siglum">M<hi rend="superscript">a</hi></abbr> = <title>Cesena, Malatestiana D.XXIV.2</title>
           <msDesc>
             <msIdentifier>
               <settlement>Cesena</settlement>
               <repository>Biblioteca Malatestiana</repository>
               <idno>D.XXIV.2</idno>
             </msIdentifier>
-          </msDesc> URL: <ptr
-            target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=DX.24.02"
-          />
+          </msDesc> URL: <ptr target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=DX.24.02"/>
         </witness>
         <witness xml:id="Mb">
-          <abbr type="siglum">M<hi rend="superscript">b</hi></abbr> = <title>Cesena,
-            Malatestiana S.VI.3</title>
+          <abbr type="siglum">M<hi rend="superscript">b</hi></abbr> = <title>Cesena, Malatestiana S.VI.3</title>
           <msDesc>
             <msIdentifier>
               <settlement>Cesena</settlement>
               <repository>Biblioteca Malatestiana</repository>
               <idno>S.VI.3</idno>
             </msIdentifier>
-          </msDesc> URL: <ptr
-            target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=SX.06.03"
-          />
+          </msDesc> URL: <ptr target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=SX.06.03"/>
         </witness>
         <witness xml:id="Vm">
-          <abbr type="siglum">V<hi rend="superscript">m</hi></abbr> = <title>Venice, Biblioteca
-            Nazionale Marciana, lat. VI. 126</title>
+          <abbr type="siglum">V<hi rend="superscript">m</hi></abbr> = <title>Venice, Biblioteca Nazionale Marciana, lat. VI. 126</title>
           <msDesc>
             <msIdentifier>
               <settlement>Venice</settlement>
@@ -348,8 +372,7 @@
           </msDesc>
         </witness>
         <witness xml:id="Vz">
-          <abbr type="siglum">V<hi rend="superscript">z</hi></abbr> = <title>Venice, Biblioteca
-            Nazionale Marciana, lat. Z. 263</title>
+          <abbr type="siglum">V<hi rend="superscript">z</hi></abbr> = <title>Venice, Biblioteca Nazionale Marciana, lat. Z. 263</title>
           <msDesc>
             <msIdentifier>
               <settlement>Venice</settlement>
@@ -359,54 +382,13 @@
           </msDesc>
         </witness>
       </listWit>
-      <witness xml:id="δ"><abbr type="siglum">δ</abbr> = <title>Consensus of #Ma #Mb
-        #Vm</title></witness>
-      <witness xml:id="β"><abbr type="siglum">β</abbr> = <title>Consensus of #Ma #Mb #Px #Vb
-        #Vm</title></witness>
-    </listWit>
-    <listWit xml:id="bib-manuscripts2">
-      <head>Pietro's revised version</head>
-      <witness xml:id="Nu">
-        <abbr type="siglum">N<hi rend="superscript">u</hi></abbr> = <title>Nuremberg,
-          Stadtbibliothek, Cent. III.38</title>
-        <msDesc>
-          <msIdentifier>
-            <settlement>Nuremberg</settlement>
-            <repository>Stadtbibliothek</repository>
-            <idno>Cent. III.38</idno>
-          </msIdentifier>
-        </msDesc>
-      </witness>
-      <witness xml:id="Py">
-        <abbr type="siglum">P<hi rend="superscript">y</hi></abbr> = <title>Paris, Bibliotheque
-          Nationale man. lat. 6541</title>
-        <msDesc>
-          <msIdentifier>
-            <settlement>Paris</settlement>
-            <repository>Bibliotheque Nationale</repository>
-            <idno>man. Lat. 6541</idno>
-          </msIdentifier>
-        </msDesc> URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b9068411m.r=6541"/>
-      </witness>
-      <witness xml:id="Va">
-        <abbr type="siglum">V<hi rend="superscript">a</hi></abbr> = <title>Vatican, Biblioteca
-          Apostolica lat. 2174</title>
-        <msDesc>
-          <msIdentifier>
-            <settlement>Vatican</settlement>
-            <repository>Biblioteca Apostolica</repository>
-            <idno>lat. 2174</idno>
-          </msIdentifier>
-        </msDesc> URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2174"/>
-      </witness>
-      <witness xml:id="α"><abbr type="siglum">α</abbr> = <title>Consensus of #Nu #Py
-        #Va</title></witness>
+      <witness xml:id="δ"><abbr type="siglum">δ</abbr> = <title>Consensus of #Ma #Mb #Vm</title></witness>
+      <witness xml:id="β"><abbr type="siglum">β</abbr> = <title>Consensus of #Ma #Mb #Px #Vb #Vm</title></witness>
     </listWit>
     <listWit xml:id="bib-manuscripts3">
       <head>Jean de Jandun's redaction</head>
       <witness xml:id="G">
-        <abbr type="siglum">G</abbr> = <title>Ghent, Bibliothéek van de Rijksuniversiteit, ms.
-          72</title>
+        <abbr type="siglum">G</abbr> = <title>Ghent, Bibliothéek van de Rijksuniversiteit, ms. 72</title>
         <msDesc>
           <msIdentifier>
             <settlement>Ghent</settlement>
@@ -416,8 +398,7 @@
         </msDesc> URL: <ptr target="http://lib.ugent.be/catalog/rug01:000802948"/>
       </witness>
       <witness xml:id="Pp">
-        <abbr type="siglum">P<hi rend="superscript">p</hi></abbr> = <title>Paris, Bibliotheque
-          Nationale man. lat. 6542</title>
+        <abbr type="siglum">P<hi rend="superscript">p</hi></abbr> = <title>Paris, Bibliotheque Nationale man. lat. 6542</title>
         <msDesc>
           <msIdentifier>
             <settlement>Paris</settlement>
@@ -428,8 +409,7 @@
           target="http://gallica.bnf.fr/ark:/12148/btv1b10721259d/f1.item.r=6542"/>
       </witness>
       <witness xml:id="Pq">
-        <abbr type="siglum">P<hi rend="superscript">q</hi></abbr> = <title>Paris, Bibliotheque
-          Nationale man. lat. 15454</title>
+        <abbr type="siglum">P<hi rend="superscript">q</hi></abbr> = <title>Paris, Bibliotheque Nationale man. lat. 15454</title>
         <msDesc>
           <msIdentifier>
             <settlement>Paris</settlement>
@@ -439,8 +419,7 @@
         </msDesc>
       </witness>
       <witness xml:id="Pz">
-        <abbr type="siglum">P<hi rend="superscript">z</hi></abbr> = <title>Paris, Bibliotheque
-          Nationale man. lat. 6541A</title>
+        <abbr type="siglum">P<hi rend="superscript">z</hi></abbr> = <title>Paris, Bibliotheque Nationale man. lat. 6541A</title>
         <msDesc>
           <msIdentifier>
             <settlement>Paris</settlement>
@@ -458,8 +437,7 @@
         </msDesc> URL: <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90680829/f2"/>
       </witness>
       <witness xml:id="Vo">
-        <abbr type="siglum">V<hi rend="superscript">o</hi></abbr> = <title>Vatican, Biblioteca
-          Apostolica Ottobon. lat. 1764</title>
+        <abbr type="siglum">V<hi rend="superscript">o</hi></abbr> = <title>Vatican, Biblioteca Apostolica Ottobon. lat. 1764</title>
         <msDesc>
           <msIdentifier>
             <settlement>Vatican</settlement>
@@ -468,10 +446,8 @@
           </msIdentifier>
         </msDesc>
       </witness>
-      <witness xml:id="J"><abbr type="siglum">J</abbr> = <title>Consensus of #G #Pq #Pz #Pp
-        #Vo</title></witness>
-      <witness xml:id="K"><abbr type="siglum">K</abbr> = <title>Consensus of #G #Pq #Vo
-        #Pp</title></witness>
+      <witness xml:id="J"><abbr type="siglum">J</abbr> = <title>Consensus of #G #Pq #Pz #Pp #Vo</title></witness>
+      <witness xml:id="K"><abbr type="siglum">K</abbr> = <title>Consensus of #G #Pq #Vo #Pp</title></witness>
       <witness xml:id="C">
         <abbr type="siglum">C</abbr> = <title>Cambridge, Peterhouse 79</title>
         <msDesc>
@@ -483,8 +459,7 @@
         </msDesc>
       </witness>
       <witness xml:id="Pa">
-        <abbr type="siglum">P<hi rend="superscript">a</hi></abbr> = <title>Paris, Bibliotheque
-          Arsenal, 723</title>
+        <abbr type="siglum">P<hi rend="superscript">a</hi></abbr> = <title>Paris, Bibliotheque Arsenal, 723</title>
         <msDesc>
           <msIdentifier>
             <settlement>Paris</settlement>
@@ -493,10 +468,8 @@
           </msIdentifier>
         </msDesc>
       </witness>
-      
       <witness xml:id="Pu">
-        <abbr type="siglum">P<hi rend="superscript">u</hi></abbr> = <title>Paris, University
-          122</title>
+        <abbr type="siglum">P<hi rend="superscript">u</hi></abbr> = <title>Paris, University 122</title>
         <msDesc>
           <msIdentifier>
             <settlement>Paris</settlement>
@@ -516,8 +489,7 @@
         </msDesc>
       </witness>
       <witness xml:id="Vc">
-        <abbr type="siglum">V<hi rend="superscript">c</hi></abbr> = <title>Vatican, Biblioteca
-          Apostolica lat. 2176</title>
+        <abbr type="siglum">V<hi rend="superscript">c</hi></abbr> = <title>Vatican, Biblioteca Apostolica lat. 2176</title>
         <msDesc>
           <msIdentifier>
             <settlement>Vatican</settlement>
@@ -525,30 +497,6 @@
             <idno>lat. 2176</idno>
           </msIdentifier>
         </msDesc> URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2176"/>
-      </witness>
-    </listWit>
-    <listWit xml:id="bibliography-editions-witnesses">
-      <head>Early Editions</head>
-      <witness xml:id="m">
-        <abbr type="siglum">m</abbr> = <bibl>
-          <editor><name>Illarius, Stephanus</name></editor>
-          <title>Expositio succinta problematum Aristotelis quam Petrus edidit Paduanus</title>
-          <pubPlace>Mantua</pubPlace>
-          <publisher>Paulus de Butzbach</publisher>
-          <date>1475</date>
-        </bibl> URL: <ptr
-          target="http://daten.digitale-sammlungen.de/~db/0006/bsb00068444/images/"/>
-      </witness>
-      <witness xml:id="v">
-        <abbr type="siglum">v</abbr> = <bibl>
-          <editor><name>Anonymous</name></editor>
-          <title>Expositio preclarissimi atque eximii artium ac medicine doctoris Petri de Ebano
-            Patauini in librorum problematum Aristotelis</title>
-          <pubPlace>[Venetiis]</pubPlace>
-          <publisher>Johannes Herbort</publisher>
-          <date>1482</date>
-        </bibl> URL: <ptr
-          target="http://daten.digitale-sammlungen.de/~db/0005/bsb00058463/images/"/>
       </witness>
     </listWit>
   </div>
