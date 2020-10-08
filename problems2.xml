@@ -499,6 +499,29 @@
         </msDesc> URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2176"/>
       </witness>
     </listWit>
+    <listWit xml:id="bibliography-editions-witnesses">
+      <head>Early Editions</head>
+      <witness xml:id="m">
+        <abbr type="siglum">m</abbr> = <bibl>
+          <editor><name>Illarius, Stephanus</name></editor>
+          <title>Expositio succinta problematum Aristotelis quam Petrus edidit Paduanus</title>
+          <pubPlace>Mantua</pubPlace>
+          <publisher>Paulus de Butzbach</publisher>
+          <date>1475</date>
+        </bibl> URL: <ptr
+          target="http://daten.digitale-sammlungen.de/~db/0006/bsb00068444/images/"/>
+      </witness>
+      <witness xml:id="v">
+        <abbr type="siglum">v</abbr> = <bibl>
+          <editor><name>Anonymous</name></editor>
+          <title>Expositio preclarissimi atque eximii artium ac medicine doctoris Petri de Ebano Patauini in librorum problematum Aristotelis</title>
+          <pubPlace>[Venetiis]</pubPlace>
+          <publisher>Johannes Herbort</publisher>
+          <date>1482</date>
+        </bibl> URL: <ptr
+          target="http://daten.digitale-sammlungen.de/~db/0005/bsb00058463/images/"/>
+      </witness>
+    </listWit>
   </div>
  </front>
   
@@ -2990,7 +3013,7 @@ non accidit <app><lem wit="#α">symphoniis.</lem>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="35">35m.</num> problema.</rdg>
 <rdg wit="#Mb" ana="#subtractive"/></app></head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
-<app><lem wit="#G #v #Px">PROPTER</lem>
+<app><lem wit="#G #Px #v">PROPTER</lem>
 <rdg wit="#m" ana="#orthographical">PRTOPTER</rdg></app>
 QUID SI QUIDEM MEDIA MOUEBITUR ET ALIE CORDE <app><lem wit="#G #m #v">SONANT.</lem>
 <rdg wit="#Px" ana="#MORPHOLOGICAL">SONAT.</rdg></app> 
