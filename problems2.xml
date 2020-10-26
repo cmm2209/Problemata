@@ -2666,7 +2666,7 @@ accidentis <app><lem wit="#α #Px #m #v">considerando:</lem>
 <rdg wit="#J" ana="#orthographical">consideratio</rdg>
 <note xml:lang="en">Pp is ambiguous: consida<hi rend="superscript">ro</hi></note></app>
 et ita <app><lem wit="#J #Nu #Px #Py #m #v">semper</lem>
-<rdg wit="#Va" ana="#lexical">et propter</rdg></app> 
+<rdg wit="#Va" ana="#additive">et semper</rdg></app> 
 <app><lem wit="#G #Px #Py #Va #m #v">procedendo</lem>
 <rdg wit="#Pp" ana="#orthographical">procendendo</rdg>
 <rdg wit="#Nu" ana="#lexical">protendendo</rdg></app>
@@ -3125,9 +3125,7 @@ puta <app><lem wit="#α #Px #m #v">ceu</lem>
 <app><lem wit="#α #J #m #v">si denario aliquis numerorum 
   <app><lem wit="#J #Nu #Va #m #v">addatur:</lem>
     <rdg wit="#Py" ana="#subtractive"/></app>
-  ut <num type="cardinal" value="2">duo</num> 
-  <app><lem wit="#J #Nu #Py #m #v">semper</lem>
-    <rdg wit="#Va" ana="#lexical">propter</rdg></app> 
+  ut <num type="cardinal" value="2">duo</num> semper 
   <app><lem wit="#α #m #v">remanet</lem>
     <rdg wit="#J" ana="#morphological">remanebit</rdg></app></lem>
 <rdg wit="#Px" cause="homeoteleuton" ana="#subtractive"/></app>
@@ -3215,50 +3213,65 @@ non accidit <app><lem wit="#α">symphoniis.</lem>
 <rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="36">trigesimum sextum.</num></hi></surplus> <num type="ordinal" value="36">Trigesimumsextum.</num> </rdg>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="35">35m.</num> problema.</rdg>
 <rdg wit="#Mb" ana="#subtractive"/></app></head>
-   <p><mentioned><app><lem wit="#G #Px #m #v">
-<app><lem wit="#G #Px #v">PROPTER</lem>
+   <p><mentioned><app><lem wit="#G #Px #Va #m #v">
+<app><lem wit="#G #Px #Va #v">PROPTER</lem>
 <rdg wit="#m" ana="#orthographical">PRTOPTER</rdg></app>
-QUID SI QUIDEM MEDIA MOUEBITUR ET ALIE CORDE <app><lem wit="#G #m #v">SONANT.</lem>
+QUID SI QUIDEM MEDIA MOUEBITUR ET ALIE CORDE <app><lem wit="#G #Va #m #v">SONANT.</lem>
 <rdg wit="#Px" ana="#MORPHOLOGICAL">SONAT.</rdg></app> 
-SI AUTEM ITERUM HIC QUIDEM <app><lem wit="#G #m #v">MANET:</lem>
+SI AUTEM <app><lem wit="#J #Nu #Px #Py #m #v">ITERUM</lem>
+<rdg wit="#Va" ana="#lexical">NEQUE</rdg></app> 
+HIC QUIDEM <app><lem wit="#G #Va #m #v">MANET:</lem>
 <rdg wit="#Px" ana="#LEXICAL">MOUET</rdg></app> 
-ALIARUM AUTEM QUEDAM <app><lem wit="#G #v #Px">MOUEATUR</lem>
+ALIARUM AUTEM QUEDAM <app><lem wit="#G #Px #Va #v">MOUEATUR</lem>
 <rdg wit="#m" ana="#orthographical">MEUEATUR</rdg></app>
-MOTA SOLA SONAT. AUT QUIA CONCORDARE EST OMNIBUS HABERE SE AUTEM QUODAMMODO AD <app><lem wit="#Px">MEDIAM</lem>
-<rdg wit="#G #m #v" ana="#ADDITIVE">MEDIAM ET</rdg></app> 
-OMNIBUS: ET ORDINATIO QUE EST UNIUSCUIUSQUE UTIQUE PER ILLAM EST: ELEUATA IGITUR CAUSA CONCORDANDI ET <app><lem wit="#G #m #v">CONTINENTIS</lem>
+MOTA SOLA SONAT. AUT QUIA CONCORDARE EST OMNIBUS HABERE <app><lem wit="#G #Px #m #v">SE AUTEM</lem>
+<rdg wit="#Va" ana="#ordinal">AUTEM SE</rdg></app>
+QUODAMMODO AD <app><lem wit="#Px">MEDIAM</lem>
+<rdg wit="#G #Va #m #v" ana="#ADDITIVE">MEDIAM ET</rdg></app> 
+OMNIBUS: ET ORDINATIO QUE EST UNIUSCUIUSQUE UTIQUE PER ILLAM EST: ELEUATA IGITUR CAUSA CONCORDANDI ET <app><lem wit="#G #Va #m #v">CONTINENTIS</lem>
 <rdg wit="#Px" ana="#orthographical">CONTINETIS</rdg></app> 
-NON ADHUC SIMILITER APPARENT <app><lem wit="#G #v #Px">EXISTERE.</lem>
+NON ADHUC SIMILITER <app><lem wit="#G #Px #m #v">APPARENT</lem>
+<rdg wit="#Va" ana="#morphological">APPARERE</rdg></app> 
+<app><lem wit="#G #Px #Va #v">EXISTERE.</lem>
 <rdg wit="#m" ana="#orthographical">XEISTERE.</rdg></app>
-UNA AUTEM DISCORDANTE EXISTENTE: MEDIA AUTEM MANENTE RATIONABILITER QUOD EST SECUNDUM IPSAM DEFICIENS ALIIS ENIM EXISTIT CONCORDARE.</lem>
+UNA AUTEM <app><lem wit="#G #Px #m #v">DISCORDANTE</lem>
+<rdg wit="#Va" ana="#morphological">DISCORDANDI</rdg></app> 
+EXISTENTE: MEDIA AUTEM MANENTE RATIONABILITER QUOD EST SECUNDUM IPSAM DEFICIENS ALIIS <app><lem wit="#J #Nu #Px #Py #m #v">ENIM EXISTIT</lem>
+<rdg wit="#Va" ana="#lexical">EXTAT ENIM</rdg></app> 
+CONCORDARE.</lem>
 <rdg wit="#Pp" ana="#subtractive">PROPTER QUID SIQUIDEM</rdg>
-<rdg wit="#α"/>
+<rdg wit="#Nu #Py"/>
 </app></mentioned>
    </p>  
    <p>
 <app xml:id="app-rdg-Px-36.1" exclude="#app-36.1">
-<rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="36">36m.</num> etcetera.</rdg></app>
-Quare si media <app><lem wit="#α">corda</lem>
-<rdg wit="#J #Px #m #v" ana="#morphological">cordarum</rdg></app>
+<rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="36">36m.</num> etcetera.</rdg></app>   
+Quare si media <app><lem wit="#Nu #Py">corda</lem>
+<rdg wit="#J #Px #Va #m #v" ana="#morphological">cordarum</rdg></app>
 moueatur alie corde consonant illi: 
 <milestone ed="#G" unit="folio" n="244v"/>
 <milestone ed="#G" unit="column" n="A"/>
-sed si postea fiat quod media <app><lem wit="#α #Pp #Px #m #v">immobilis</lem>
-<rdg wit="#G" ana="#orthographical">inmobilis</rdg></app>
-permaneat: <app><lem wit="#J #Nu #Px #m #v">et</lem>
+sed si postea fiat quod media <app><lem wit="#Nu #Pp #Px #Py #m #v">immobilis permaneat:</lem>
+<rdg wit="#G" ana="#orthographical">inmobilis permaneat:</rdg>
+<rdg wit="#Va" ana="#additive">immobilis permaneat immobilis</rdg></app>
+ <app><lem wit="#J #Nu #Px #Va #m #v">et</lem>
 <rdg wit="#Py" ana="#lexical #syntactic">est</rdg></app>
-quedam de numero aliarum <app><lem wit="#α #Px #m #v">a media</lem>
+quedam de numero aliarum <app><lem wit="#Nu #Px #Py #m #v">a media</lem>
 <rdg wit="#G" ana="#lexical">armoniarum</rdg>
-<rdg wit="#Pp" ana="#lexical #additive">armonia <num type="cardinal" value="30">30</num></rdg></app> 
-moueatur solum illa que fuerit mota sonat ita quod neque alia sonat propter motum ipsius neque 
+<rdg wit="#Pp" ana="#lexical #additive">armonia <num type="cardinal" value="30">30</num></rdg>
+<rdg wit="#Va" ana="#subtractive"/></app>
+moueatur solum illa que fuerit mota sonat ita quod <app><lem wit="#J #Nu #Px #Py #m #v">neque</lem>
+<rdg wit="#Va" ana="#lexical">in</rdg></app> 
+alia sonat propter motum ipsius neque 
 <app><lem wit="#α #Pp #Px #m #v">etiam</lem>
 <rdg wit="#G" ana="#subtractive"/></app>
 media. 
 <app><lem wit="#α #Px #m #v">Nosce quod 
   <app><lem wit="#Px #Py">huius</lem>
     <rdg wit="#Nu" ana="#lexical">huiusmodi</rdg>
-    <rdg wit="#m #v" ana="#additive">de huiusmodi</rdg></app> 
-  <app><lem wit="#Px #Py #m #v">problemate</lem>
+    <rdg wit="#m #v" ana="#additive">de huiusmodi</rdg>
+    <rdg wit="#Va" ana="#additive">de huius</rdg></app>
+  <app><lem wit="#Px #Py #Va #m #v">problemate</lem>
     <rdg wit="#Nu" ana="#morphological">problematis</rdg></app>
   iam sermo aliqualiter precessit in 
   <app><lem wit="#α #Px"><num type="ordinal" value="20">20a.</num></lem>
@@ -3276,19 +3289,25 @@ Soluit dicens causam esse quoniam media
 <milestone ed="#Pp" unit="column" n="A"/>
 cordarum concordat et consonat cum omnibus <app><lem wit="#α #J #Px">cordis</lem>
 <rdg wit="#m #v" ana="#additive">cordis aliis:</rdg></app>
-quod ostenditur quoniam concordare cum omnibus <app><lem wit="#α">nichil</lem>
+quod ostenditur <app><lem wit="#J #Nu #Px #Py #m #v">quoniam</lem>
+<rdg wit="#Va" ana="#lexical">quia</rdg></app> 
+concordare cum <app><lem wit="#J #Nu #Px #Py #m #v">omnibus</lem>
+<rdg wit="#Va" ana="#lexical">aliis</rdg></app> 
+<app><lem wit="#α">nichil</lem>
 <rdg wit="#Pp #Px #m #v" ana="#orthographical">nihil</rdg>
 <rdg wit="#G" ana="#lexical">non</rdg></app>
-aliud est quam se habere aliqualiter <app><lem wit="#α">ad mediam</lem>
+<app><lem wit="#J #Nu #Px #Py #m #v">aliud</lem>
+<rdg wit="#Va" ana="#lexical">ad</rdg></app> 
+est quam se habere aliqualiter <app><lem wit="#α">ad mediam</lem>
 <rdg wit="#J #m #v" ana="#morphological">ad medium</rdg>
 <rdg wit="#Px" ana="#subtractive"/></app> 
 <app><lem wit="#α #J #m #v">omnis</lem>
 <rdg wit="#Px" ana="#morphological">omnes.</rdg></app> 
 <app><lem wit="#G #Py #v">enim ordinatio</lem>
-<rdg wit="#Nu #Pp #Px #m" ana="#ordinal">ordinatio enim</rdg></app>
-<app><lem wit="#J #Px #Py #m #v">vniuscuiusque</lem>
+<rdg wit="#Nu #Pp #Px #Va #m" ana="#ordinal">ordinatio enim</rdg></app>
+<app><lem wit="#J #Px #Py #Va #m #v">vniuscuiusque</lem>
 <rdg wit="#Nu" ana="#orthographical">unicuiusque</rdg></app>
-aliarum cordarum per illam existit: quod <app><lem wit="#J #Nu #Px #m #v">probatur</lem>
+aliarum cordarum per illam existit: quod <app><lem wit="#J #Nu #Px #Va #m #v">probatur</lem>
 <rdg wit="#Py" ana="#orthographical">pro<del>b</del>batur</rdg></app>
 quoniam <app><lem wit="#α #Px #m #v">ipsa</lem>
 <rdg wit="#Pp" ana="#lexical">ista</rdg>
@@ -3297,14 +3316,14 @@ media remota ex <app><lem wit="#α #J #m #v">instrumento</lem>
 <rdg wit="#Px" ana="#morphological">instrumentorum</rdg></app> 
 non amplius erit sentire cordam aliquam que <app><lem wit="#α #Pp #Px #m #v">existat</lem>
 <rdg wit="#G" ana="#lexical">extat</rdg></app>
-ratio concordandi alias <app><lem wit="#G #Px #Py #m #v">concorditerque</lem>
+ratio concordandi alias <app><lem wit="#G #Px #Py #Va #m #v">concorditerque</lem>
 <rdg wit="#Nu" ana="#orthographical"><del>cordas</del>concorditerque</rdg>
 <rdg wit="#Pp" ana="#additive">concorditerque alias</rdg></app> 
 retinendi: <app><lem wit="#α #Pp #Px #m #v">sed</lem>
 <rdg wit="#G" ana="#additive">Sed si</rdg></app>
 vna aliarum <app><lem wit="#α #Px #m #v">remota:</lem>
 <rdg wit="#J" ana="#morphological">remoueatur</rdg></app>
-ita quod causa existat discordandi <app><lem wit="#J #Nu #Px #m #v">dummodo</lem>
+ita quod causa existat discordandi <app><lem wit="#J #Nu #Px #Va #m #v">dummodo</lem>
 <rdg wit="#Py" ana="#lexical">dum</rdg></app>
 media cordarum <app><lem wit="#α #Px #m #v">recte maneat</lem>
 <rdg wit="#J" ana="#subtractive">remaneat</rdg></app>
@@ -3312,10 +3331,10 @@ sicut <app><lem wit="#α #J #m #v">debet</lem>
 <rdg wit="#Px" ana="#morphological">debeat</rdg></app> 
 illud quod <app><lem wit="#α #G #Px #m #v">erat</lem>
 <rdg wit="#Pp" ana="#orthographical"><del>de</del> erat</rdg></app> 
-<app><lem wit="#J #Nu #Px #m #v">deficiens</lem>
+<app><lem wit="#J #Nu #Px #Va #m #v">deficiens</lem>
 <rdg wit="#Py" ana="#lexical">indeficiens</rdg></app>
 ut corda ablata <app><lem wit="#J #Px #Py #v">suppletur</lem>
-<rdg wit="#Nu #m" ana="#orthographical">supletur</rdg></app>
+<rdg wit="#Nu #Va #m" ana="#orthographical">supletur</rdg></app>
 per mediam ita quod <app><lem wit="#α #G #Px #m #v">illa</lem>
 <rdg wit="#Pp" ana="#lexical">ista</rdg></app> 
 remota <app><lem wit="#α #J #m #v">adhuc</lem>
@@ -3326,8 +3345,10 @@ concordare et consonantiam reddere per virtutem medie. media enim est ut <app><l
 <rdg wit="#Px" ana="#morphological">magistram</rdg>
 <note xml:lang="en">N.B. Px and Pp could read "nigram" as well</note></app> 
 <app><lem wit="#J #Nu #Px #m #v">et regula</lem>
+<rdg wit="#Va" ana="#lexical">et <num type="ordinal" value="2">2<hi rend="superscript">a</hi></num></rdg>
 <rdg wit="#Py" ana="#subtractive"/></app>
-<app><lem wit="#α #Px #m #v">aliarum omnium.</lem>
+<app><lem wit="#Nu #Px #Py #m #v">aliarum omnium.</lem>
+<rdg wit="#Va" ana="#morphological">aliorum omnium.</rdg>
 <rdg wit="#G" ana="#additive">omnium aliarum cordarum</rdg>
 <rdg wit="#Pp" ana="#lexical">omnium ceterarum</rdg></app> 
 <app><lem/>
