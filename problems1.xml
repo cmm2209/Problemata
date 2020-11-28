@@ -5412,33 +5412,34 @@ eam refrangitur auditum <app><lem wit="#K #Ma #Nu #Px #Py">demultiens.</lem>
 <div type="textpart" subtype="problem" n="8" xml:id="part8">
   <head>
   <app xml:id="app-8.1" exclude="#app-rdg-Px-8.1"><lem wit="#G #Va #Vb #m #v"><num type="ordinal" value="8">Octauum</num> problema</lem>
-<rdg wit="#Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin"><num type="ordinal" value="8">8<hi rend="superscript">m</hi></num></add></rdg>
+<rdg wit="#Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin"><num type="ordinal" value="8">8<hi rend="superscript">m</hi></num></add></rdg>
 <rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus><num type="ordinal" value="8">octauum</num> problema.</surplus></hi> <num type="ordinal" value="8">Octauum.</num></rdg>
 <rdg wit="#Mb" ana="#subtractive"/></app>
  </head>
    <p>
-<mentioned><app><lem wit="#G #Px #Pz #Va #m #v">PROPTER QUID <app><lem wit="#G #Px #Pz #Va">GRAUIS ACUTE</lem>
-<rdg wit="#m #v" ana="#orthographical">GRAUE ACUTUM</rdg></app>
+<mentioned><app><lem wit="#G #Ma #Px #Pz #Va #m #v">PROPTER QUID <app><lem wit="#G #Px #Pz #Va">GRAUIS ACUTE</lem>
+<rdg wit="#m #v" ana="#orthographical">GRAUE ACUTUM</rdg>
+<rdg wit="#Ma" ana="#subtractive">GRAUIS</rdg></app>
 FORTIFICAT
-<app><lem wit="#G #Px #Pz #m #v">SONUM.</lem>
+<app><lem wit="#G #Ma #Px #Pz #m #v">SONUM.</lem>
 <rdg wit="#Va" ana="#lexical">SOPNUM.</rdg></app>
 AUT QUIA <app><lem wit="#G #Va #m #v">MAGIS</lem>
-<rdg wit="#Px" ana="#morphological">MAIUS</rdg>
+<rdg wit="#Ma #Px" ana="#morphological">MAIUS</rdg>
 <rdg wit="#Pz" ana="#lexical">IN EIUS</rdg></app>
-HOC GRAUE <app><lem wit="#G #Pz #Va #m #v">OBTUSO</lem>
+HOC GRAUE <app><lem wit="#G #Ma #Pz #Va #m #v">OBTUSO</lem>
 <rdg wit="#Px" ana="#orthographical">OBTUSIO</rdg></app>
-ENIM <app><lem wit="#G #Px #v">ASSIMULATUR</lem>
+ENIM <app><lem wit="#G #Ma #Px #v">ASSIMULATUR</lem>
 <rdg wit="#Pz #Va #m" ana="#orthographical">ASSIMILATUR</rdg></app>
-HOC UERO ACUTO <app><lem wit="#G #Px #m #v">ANGULO.</lem>
+HOC UERO <app><lem wit="#G #Ma #Px #m #v">ACUTO ANGULO.</lem>
 <rdg wit="#Va" ana="#additive">ANGULO ACUTO.</rdg>
-<rdg wit="#Pz" ana="#additive">ANGULO ETCETERA</rdg></app>
+<rdg wit="#Pz" ana="#additive">ACUTO ANGULO ETCETERA</rdg></app>
 </lem>
 <rdg wit="#Pp" ana="#subtractive">PROPTER QUID GRAUIS</rdg>
 <rdg wit="#Nu #Py #Vb #Vz" ana="#subtractive"/></app></mentioned>
      </p>  
      <p>
 <app xml:id="app-rdg-Px-8.1" exclude="#app-8.1">
-<rdg wit="#Px" ana="#additive"><num type="ordinal" value="8">Octauum</num> problema etcetera.</rdg></app>  
+<rdg wit="#Px" ana="#additive"><num type="ordinal" value="8">Octauum</num> problema etcetera.</rdg></app>     
 <app><lem wit="#α #δ #K #Vb #m #v">Quia</lem>
 <rdg wit="#Px #Pz" ana="#lexical">Quare</rdg></app>
 <app><lem wit="#α #β #K #m #v">dixerat</lem>
@@ -5454,7 +5455,7 @@ dicens <app><lem wit="#β #J #Va #m #v">quare</lem>
 grauis <app><lem wit="#δ #J #Nu #Px #Py">corde</lem>
 <rdg wit="#Va #m #v" ana="#morphological">corda</rdg>
 <rdg wit="#Vb" ana="#morphological">cordas</rdg></app>
-<app><lem wit="#α #γ #J #m #v">sonus</lem>
+<app><lem wit="#α #γ #J #Ma #m #v">sonus</lem>
 <rdg wit="#Vz" ana="#subtractive"/></app>
 <app><lem wit="#β #J #Va #m #v">uigorat</lem>
 <rdg wit="#Nu #Py" ana="#lexical">uigilat</rdg></app>
@@ -5472,8 +5473,8 @@ Soluit <app><lem wit="#α #β #Pp #Pz #m #v">dicens causam esse</lem>
 quoniam illud quod est graue <app><lem wit="#α #δ #G #Pz #Vb #m #v">maius</lem>
 <rdg wit="#Pp #Px" ana="#morphological">magis</rdg></app>
 <milestone ed="#G" unit="folio" n="237r"/>
-<app><lem wit="#α #γ #K #m #v">est</lem>
-<rdg wit="#δ #Pz" ana="#subtractive"/></app>
+<app><lem wit="#α #γ #K #Ma #m #v">est</lem>
+<rdg wit="#Pz #Vz" ana="#subtractive"/></app>
 et fortius: quod ostenditur quoniam <app><lem wit="#β #J #Nu #Va #m #v">angulo</lem>
 <rdg wit="#Py" ana="#lexical">angulatio</rdg></app>
 <app><lem wit="#δ #Nu #Px #Py">simulatur obtuso</lem>
@@ -5486,16 +5487,18 @@ trianguli: qui quidem maior <app><lem wit="#α #β #K #m #v">est et</lem>
 <rdg wit="#Pz" ana="#additive">est est <del>fi</del> et</rdg></app>
 fortior <app><lem wit="#α #β #m #v">etiam</lem>
 <rdg wit="#J" ana="#subtractive"/></app>
-uigore acuto: <app><lem wit="#α #J #Vb #m #v">ut res 
+<app><lem wit="#α #γ #J #Vz #m #v">uigore</lem>
+<rdg wit="#Ma" ana="#lexical">minore</rdg></app> 
+<app><lem wit="#δ #Px">acuto:</lem>
+<rdg wit="#α #J #Vb #m #v" ana="#additive">acuto: ut res 
   <app><lem wit="#K #Py #Vb #m #v">ostendunt</lem>
-  <rdg wit="#Nu" ana="#morphological">ostenduntur</rdg>
-  <rdg wit="#Pz #Va" ana="#morphological">ostendit</rdg></app> 
+    <rdg wit="#Nu" ana="#morphological">ostenduntur</rdg>
+    <rdg wit="#Pz #Va" ana="#morphological">ostendit</rdg></app> 
   nature et artis. acutum uero 
   <app><lem wit="#J #Nu #Py">angulo</lem>
     <rdg wit="#Vb #m #v" ana="#lexical">triangulo</rdg>
     <rdg wit="#Va" ana="#subtractive"/></app>
-  proportionatur acuto</lem>
-<rdg wit="#δ #Px" cause="homeoarchy" ana="#subtractive"/></app>
+  proportionatur acuto</rdg></app>      
 <app><lem wit="#α #β #m #v">ceu</lem>
 <rdg wit="#J" ana="#lexical">seu</rdg></app>
 minori et debiliori. quod autem <app><lem wit="#α #δ #Vb #m #v">maius</lem>
@@ -5508,8 +5511,9 @@ fortius uigorat quod minus et debilius: <app><lem wit="#δ #J #Px #Py #Va">huius
 <rdg wit="#Nu #Vb #m #v" ana="#lexical">huiusmodi</rdg></app>
 quidem graue <app><lem wit="#α #β #K #m #v">acuti respectu</lem>
 <rdg wit="#Pz" ana="#ordinal">respectu acuti</rdg></app>
-quare ipsum uigorat <app><lem wit="#β #Nu #Py #m #v">ut <num type="ordinal" value="12">.xii.</num> etiam apparebit.</lem>
+quare ipsum uigorat <app><lem wit="#γ #Nu #Py #Vm #Vz #m #v">ut <num type="ordinal" value="12">.xii.</num> etiam apparebit.</lem>
 <rdg wit="#Va" ana="#additive">ut <num type="ordinal" value="12">xii.</num> at etiam apparebit.</rdg>
+<rdg wit="#Ma #Mb" ana="#lexical">ut <num type="ordinal" value="13">13º</num> etiam apparebit.</rdg>
 <rdg wit="#J" ana="#subtractive"/></app>
 <app><lem/>
 <rdg wit="#Pz #Vb #Vz" ana="#additive">etcetera</rdg>
