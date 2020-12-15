@@ -5172,25 +5172,29 @@ ut pondus <app><lem wit="#γ #Nu #Pp #Py #Va #Vm #Vo #Vz #m #v">meloticum</lem>
 rei de qua <app><lem wit="#α #β #K #m #v">existit.</lem>
 <rdg wit="#Pz" ana="#lexical">extitit</rdg></app>
 <milestone ed="#G" unit="column" n="B"/>
-tunc cantus consurgit <app><lem wit="#δ #K #E #Nu">eurithimus</lem>
+<app><lem xml:id="lem-6.2-Ga">
+tunc cantus consurgit
+<cit><quote><app><lem wit="#δ #K #E #Nu">eurithimus</lem>
 <rdg wit="#m #v" ana="#morphological">euritimus</rdg>
 <rdg wit="#Va" ana="#orthographical">euricti<del>o</del>mus</rdg>
 <rdg wit="#Vb" ana="#orthographical">eurictimus</rdg>
 <rdg wit="#Px" ana="#orthographical">euretimus</rdg>
 <rdg wit="#Pz" ana="#lexical">onrichimius</rdg>
-<rdg wit="#Py" ana="#additive"><choice><sic>in rich enrichimus</sic><corr>enrichimus</corr></choice></rdg></app>
+<rdg wit="#Py" ana="#additive"><choice><sic>in rich enrichimus</sic><corr>enrichimus</corr></choice></rdg></app></quote></cit>
 sicut <app><lem wit="#E #Ma #Mb #Pq #Px #Py #Pz #Va #Vm #Vo">de huius</lem>
 <rdg wit="#Vz" ana="#ordinal">huius de</rdg>
 <rdg wit="#G #Nu #Pp #Vb #m #v" ana="#lexical">de huiusmodi</rdg></app>
 <app><lem wit="#β #E #Nu #Pp #Pz #Va #Vo #m #v">pulsu</lem>
 <rdg wit="#Py" ana="#morphological">pulsi</rdg>
 <rdg wit="#G #Pq" ana="#lexical">cantu</rdg></app>
-scribitur <app><lem wit="#α #β #K #m #v"><ref target="#GaPu">de differentiis pulsuum</ref></lem>
-<rdg wit="#Pz" ana="#lexical #additive"><num type="cardinal" value="8">8</num> <ref target="#GaPu">differentiis pulsuum</ref> et</rdg></app>
-<app><lem wit="#α #β #Pp #Pq #Pz #Vo #m #v">a</lem>
+scribitur
+<cit><bibl><title><app><lem wit="#α #β #K #m #v"><ref target="#GaPu">de differentiis pulsuum</ref></lem>
+<rdg wit="#Pz" ana="#lexical #additive"><num type="cardinal" value="8">8</num> <ref target="#GaPu">differentiis pulsuum</ref> et</rdg></app></title>
+<author><app><lem wit="#α #β #Pp #Pq #Pz #Vo #m #v">a</lem>
 <rdg wit="#G" ana="#additive"><surplus>a</surplus> a</rdg></app>
-<persName><ref target="#Ga"><app><lem wit="#β #E #Nu #Pp #Py #m #v">Galeno</lem>
-<rdg wit="#G #Pq #Pz #Va #Vo" ana="#orthographical">galieno</rdg></app></ref></persName>
+<persName><ref target="#Ga"><app><lem wit="#β #E #Nu #Pp #Py #m #v">Galeno.</lem>
+<rdg wit="#G #Pq #Pz #Va #Vo" ana="#orthographical">galieno</rdg></app></ref></persName></author></bibl></cit></lem>
+<note target="#lem-6.2-Ga" type="fontium"><bibl><author ref="#Ga">Galen</author> <title ref="#GaPu">De differentiis pulsuum</title><biblScope unit="book" n="1"/><biblScope unit="chapter" n="8"/>I.8 Greek; I.12 Latin trans. by Burgundio of Pisa</bibl></note></app>
 <app><lem wit="#β #Nu #Py #Va #m #v">ceu</lem>
 <rdg wit="#J #E" ana="#lexical">seu</rdg></app>
 in <app><lem wit="#γ #J #E #Ma #Mb #Nu #Va #Vm #m #v">bellis</lem>
@@ -5273,7 +5277,7 @@ exponere.
 <rdg wit="#m #v" ana="#lexical">Notandum</rdg></app>
 <milestone ed="#Pq" unit="column" n="B"/>
 quod 
-<app><lem xml:id="lem-6.2-Av">
+<app><lem xml:id="lem-6.3-Av">
 <cit><quote>pondus est <app><lem wit="#α #β #K #m #v">illud</lem>
 <rdg wit="#Pz" ana="#additive">illud quod</rdg></app>
 in <app><lem wit="#α #β #G #m #v">quo</lem>
@@ -5291,7 +5295,7 @@ proportiones</quote>
     <rdg wit="#Pz" ana="#ordinal">musice cadant</rdg>
     <rdg wit="#Py" ana="#additive">cadunt musice et</rdg></app>
 </quote></cit></lem>
-<note target="#lem-6.2-Av" type="fontium"><bibl><author ref="#Av">Avicenna</author> <title ref="#AvCa">Canon of Medicine</title><biblScope unit="book" n="1"/><biblScope unit="doctrine" n="3"/><biblScope unit="fen" n="3"/><biblScope unit="chapter" n="1"/> I.3.3.1</bibl></note></app>
+<note target="#lem-6.3-Av" type="fontium"><bibl><author ref="#Av">Avicenna</author> <title ref="#AvCa">Canon of Medicine</title><biblScope unit="book" n="1"/><biblScope unit="doctrine" n="3"/><biblScope unit="fen" n="3"/><biblScope unit="chapter" n="1"/> I.3.3.1</bibl></note></app>
 hoc autem pondus <app><lem wit="#δ #E #Nu #Va #Vb #m #v">rebus expedit</lem>
 <rdg wit="#Py" ana="#lexical">rebus expetit</rdg>
 <rdg wit="#Px" ana="#lexical">rebus accidit</rdg>
@@ -5309,7 +5313,7 @@ circa quas <app><lem wit="#α #δ #Pz #Vb #Vo #m #v">extat</lem>
 <app><lem wit="#α #β #K #m #v">exprimantur</lem>
 <rdg wit="#Pz" ana="#morphological">exprimatur</rdg></app>
 passiones que sunt in anima. 
-<app><lem xml:id="lem-6.3-Ar">
+<app><lem xml:id="lem-6.4-Ar">
 <cit><quote>
   <app><lem wit="#α #β #G #Pp #Pz #m #v">Voces 
     <app><lem wit="#α #β #Pp #Pz #m #v">enim</lem>
@@ -5334,7 +5338,7 @@ illeque rerum</quote>
 <rdg wit="#Pz #Vb" ana="#orthographical"><choice><expan>p<ex>er</ex>y<ex>arm</ex>e<ex>ni</ex>as</expan><abbr>քye<hi rend="superscript">as</hi></abbr></choice></rdg>
 <rdg wit="#Va" ana="#lexical">pergere</rdg></app></ref></title></bibl>
 </cit></lem>
-<note target="#lem-6.3-Ar" type="fontium"><bibl><author ref="#Ar">Aristotle</author> <title ref="#ArPe">De interpretatione</title><biblScope unit="book" n="1"/><biblScope unit="page" n="403a"/><biblScope unit="line" n="25"/> I.1 (16a l. 5-6)</bibl></note></app>
+<note target="#lem-6.4-Ar" type="fontium"><bibl><author ref="#Ar">Aristotle</author> <title ref="#ArPe">De interpretatione</title><biblScope unit="book" n="1"/><biblScope unit="page" n="403a"/><biblScope unit="line" n="25"/> I.1 (16a l. 5-6)</bibl></note></app>
 vnde <app><lem wit="#α #γ #J #Ma #Mb #Vm #m #v">si</lem>
 <rdg wit="#Vz" ana="#orthographical">si <del>s</del></rdg></app>
 res <app><lem wit="#α #γ #J #Ma #Mb #Vm #m #v">fuerit</lem>
