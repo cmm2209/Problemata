@@ -6677,9 +6677,10 @@ oppositum.
 <app xml:id="app-12.1" exclude="#app-rdg-Px-12.1"><lem wit="#G #Va #m #v"><num type="ordinal" value="12">Duodecimum</num> problema</lem>
 <rdg wit="#Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="12">12<hi rend="superscript">m</hi></num></add></rdg>
 <rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="12">duodecimum</num> problema</hi></surplus><num type="ordinal" value="12">Duodecimum.</num></rdg>
-<rdg wit="#Mb" ana="#subtractive"/></app>
+<rdg wit="#Mb #Vm" ana="#subtractive"/></app>
   </head>
    <p><mentioned><app><lem wit="#Px #m #v #G">
+<seg xml:id="ment-12.1">
 PROPTER QUID CORDARUM GRAUIOR SEMPER SONUM <app><lem wit="#G #Px #Va #m #v">ACCIPIT.</lem>
 <rdg wit="#Pz" ana="#morphological">ACCIPITUR</rdg></app>
 SI ENIM <app><lem wit="#G #Va #m #v">OPORTET</lem>
@@ -6710,7 +6711,8 @@ UTRAQUE <app><lem wit="#G #Px #m #v">ALTA</lem>
 <rdg wit="#Va" ana="#lexical">ALIA</rdg>
 <rdg wit="#Pz" ana="#lexical">AUTEM</rdg></app>
 NON <app><lem wit="#G #Px #m #v">FUERIT:</lem>
-<rdg wit="#Pz #Va" ana="#lexical">FIUNT</rdg></app>
+<rdg wit="#Pz #Va" ana="#lexical">FIUNT</rdg></app></seg>
+<seg xml:id="ment-12.2">     
 AUT QUIA GRAUE MAGNUM EST: 
 <app><lem wit="#G #Px #Pz #m #v">QUARE</lem>
 <rdg wit="#Va" ana="#lexical">QUIA</rdg></app>
@@ -6724,38 +6726,42 @@ ASSUMPTIONE <num type="cardinal" value="2">DUE</num>
 <rdg wit="#Pz" ana="#lexical">UITE</rdg></app>
 <app><lem wit="#G #Px #Va #m #v">IN YPATE FIUNT.</lem>
 <rdg wit="#Pz" ana="#lexical">FIUNT IN PACE ETCETERA</rdg></app>
-</lem><rdg wit="#Pp" ana="#subtractive">PROPTER QUID CORDARUM</rdg>
+</seg></lem>
+<rdg wit="#Pp #Vm" ana="#subtractive">PROPTER QUID CORDARUM</rdg>
 <rdg wit="#Py" ana="#subtractive"/></app></mentioned>
    </p>  
     <p>
 <app xml:id="app-rdg-Px-12.1" exclude="#app-12.1">
 <rdg wit="#Px" ana="#additive"><num type="ordinal" value="12">Duodecimum</num> problema.</rdg></app>  
+<gloss target="#ment-12.1">
 <app><lem wit="#α #G #Px #Pz #m #v">Quare</lem>
+<rdg wit="#δ" ana="#additive">Querit quare</rdg>
 <rdg wit="#Pp" ana="#lexical">que</rdg></app>
-de cordis <app><lem wit="#α #Px #Pz #m #v">illa</lem>
+de cordis <app><lem wit="#α #δ #Px #Pz #m #v">illa</lem>
 <rdg wit="#K" ana="#subtractive"/></app>
-que grauioris <app><lem wit="#α #Px">extat</lem>
+que grauioris <app><lem wit="#α #δ #Px">extat</lem>
 <rdg wit="#J #m #v" ana="#lexical">est</rdg></app>
-<app><lem wit="#α #Pp #Px #Pz #m #v">toni</lem>
+<app><lem wit="#α #δ #Pp #Px #Pz #m #v">toni</lem>
 <rdg wit="#G" ana="#lexical">soni</rdg></app>
-semper accipit <app><lem wit="#α #m #v">sonum</lem>
+semper accipit <app><lem wit="#α #δ #m #v">sonum</lem>
 <rdg wit="#K #Px" ana="#lexical">tonum</rdg>
 <rdg wit="#Pz" ana="#lexical">totuum</rdg></app>
-et representat <app><lem wit="#α #Pz">pre</lem>
+et representat <app><lem wit="#α #δ #Pz">pre</lem>
 <rdg wit="#K #Px #m #v" ana="#lexical">per</rdg></app>
-aliis ipsum ut <app><lem wit="#α #G #Px #Pz #m #v">subiectum</lem>
+aliis ipsum ut <app><lem wit="#α #δ #G #Px #Pz #m #v">subiectum</lem>
 <rdg wit="#Pp" ana="#lexical">sonum</rdg></app>
-proprietatem. <app><lem wit="#α #Pp #Px #Pz #m #v">dum</lem>
+proprietatem.</gloss>
+<app><lem wit="#α #δ #Pp #Px #Pz #m #v">dum</lem>
 <rdg wit="#G" ana="#lexical">Cum</rdg></app>
-tamen equaliter fiat percussio: <app><lem wit="#J #Px #Va #m #v">et</lem>
+tamen equaliter fiat percussio: <app><lem wit="#δ #J #Px #Va #m #v">et</lem>
 <rdg wit="#Py" ana="#subtractive"/></app>
-<app><lem wit="#Px #Va #m #v">ad hoc</lem>
+<app><lem wit="#δ #Px #Va #m #v">ad hoc</lem>
 <rdg wit="#J #Py" ana="#lexical">adhuc</rdg></app>
-si oportet propter aliquam causam <app><lem wit="#α #Px #m #v">ut</lem>
+si oportet propter aliquam causam <app><lem wit="#α #β #m #v">ut</lem>
 <rdg wit="#J" ana="#subtractive"/></app>
-<app><lem wit="#α #G #Px #Pz #m #v">defectum ipsius:</lem>
+<app><lem wit="#α #β #G #Pz #m #v">defectum ipsius:</lem>
 <rdg wit="#Pp" ana="#ordinal">ipsius defectum</rdg></app>
-<app><lem wit="#α #Px #m #v">aut aliter</lem>
+<app><lem wit="#α #β #m #v">aut aliter</lem>
 <rdg wit="#G #Pz" ana="#lexical">aliquando</rdg>
 <rdg wit="#Pp" ana="#subtractive"/></app>
 <milestone ed="#Va" unit="folio" n="73v"/>
@@ -6764,35 +6770,34 @@ si oportet propter aliquam causam <app><lem wit="#α #Px #m #v">ut</lem>
 dimittere par<milestone ed="#Pz" unit="column" n="B" break="no"/>amese 
 que est iuxta mediam. scilicet iuxta mese <app><lem wit="#α #m #v">siue mediam uere</lem>
 <rdg wit="#Px" ana="#lexical">siue mediam ipso</rdg>
+<rdg wit="#δ" ana="#lexical">siue mediam ipse</rdg>
 <rdg wit="#J" ana="#lexical">hec</rdg></app>
-<app><lem wit="#α #Pp #Px #Pz #m">namque</lem>
+<app><lem wit="#α #β #Pp #Pz #m">namque</lem>
 <rdg wit="#v" ana="#orthographical">nanque</rdg>
 <rdg wit="#G" ana="#additive">namque linea</rdg></app>
-<app><lem wit="#α #K #Px #m #v"><num type="cardinal" value="7">septem</num></lem>
+<app><lem wit="#α #β #K #m #v"><num type="cardinal" value="7">septem</num></lem>
 <rdg wit="#Pz" ana="#subtractive"/></app>
-cordarum ut visum <app><lem wit="#α #J #Px">est</lem>
+cordarum ut visum <app><lem wit="#α #β #J">est</lem>
 <rdg wit="#m #v" ana="#additive">est alia</rdg></app>
-<app><lem wit="#Py">media cum alia quodammodo existente media</lem>
-<rdg wit="#J" ana="#lexical">media quodammodo cum aliquo existente</rdg>
-<rdg wit="#Px" ana="#lexical">media cum aliqua quodammodo media existente</rdg>
+<app><lem wit="#δ #Px">media cum aliqua quodammodo media existente</lem>
+<rdg wit="#Py" ana="#lexical #ordinal">media cum alia quodammodo existente media</rdg>
 <rdg wit="#Va" ana="#subtractive">media cum alio quodammodo existente</rdg>
+<rdg wit="#J" ana="#subtractive">media quodammodo cum aliquo existente</rdg>
 <rdg wit="#m #v" ana="#subtractive">quodammodo media existente</rdg></app>
-ut <app><lem wit="#Px #m #v">lichanos</lem>
-<rdg wit="#α #J" ana="#orthographical">licanos</rdg></app>
-ita quod ea <app><lem wit="#J #Px #Va #m #v">sonum</lem>
+ut lychanos ita quod ea <app><lem wit="#β #J #Va #m #v">sonum</lem>
 <rdg wit="#Py" ana="#morphological">sonus</rdg></app>
 <app><lem wit="#Px #m #v">nisi</lem>
-<rdg wit="#α #J" ana="#lexical">non</rdg></app>
-<app><lem wit="#α #Px">constituatur</lem>
+<rdg wit="#α #δ #J" ana="#lexical">non</rdg></app>
+<app><lem wit="#α #β">constituatur</lem>
 <rdg wit="#G" ana="#morphological">constituit</rdg>
 <rdg wit="#Pp #Pz #m #v" ana="#morphological">constituat</rdg></app>
-<app><lem wit="#α #Pp #Px #Pz #m #v">in</lem>
+<app><lem wit="#α #β #Pp #Pz #m #v">in</lem>
 <rdg wit="#G" ana="#lexical">ut</rdg></app>
-armonia <app><lem wit="#α #Pp #Px">nihilominus ex</lem>
+armonia <app><lem wit="#α #β #Pp">nihilominus ex</lem>
 <rdg wit="#G" ana="#lexical">nihilominus in</rdg>
 <rdg wit="#Pz" ana="#subtractive">nichilominus</rdg>
 <rdg wit="#m #v" ana="#lexical">lichanos ex</rdg></app>
-extremis puta <app><lem wit="#α #m #v">ypate nete parypate</lem>
+extremis puta <app><lem wit="#α #δ #m #v">ypate nete parypate</lem>
 <rdg wit="#Pp" ana="#orthographical">ypate nete paripate</rdg>
 <rdg wit="#G" ana="#ordinal">ypate Parypate Nete</rdg>
 <rdg wit="#Pz" ana="#lexical">ypanete parypate</rdg>
@@ -6800,157 +6805,159 @@ extremis puta <app><lem wit="#α #m #v">ypate nete parypate</lem>
 <app><lem wit="#Pp #Px #Va">etiam</lem>
 <rdg wit="#Pz" ana="#additive">et etiam</rdg>
 <rdg wit="#G" ana="#lexical">et</rdg>
-<rdg wit="#Py #m #v" ana="#additive">etiam et</rdg></app>
-<app><lem wit="#α #J #m #v">paranete:</lem>
+<rdg wit="#δ #Py #m #v" ana="#additive">etiam et</rdg></app>
+<app><lem wit="#α #δ #J #m #v">paranete:</lem>
 <rdg wit="#Px" ana="#orthographical">paranote</rdg></app>
-<app><lem wit="#α #Px #m #v">sicut ex illis <num type="cardinal" value="3">tribus</num> mediis</lem>
+<app><lem wit="#α #β #m #v">sicut ex illis <num type="cardinal" value="3">tribus</num> mediis</lem>
 <rdg wit="#J" ana="#subtractive"/></app>
-resultat quoddam medium <app><lem wit="#α #K #Px #m #v">constitutiuum</lem>
+resultat quoddam medium <app><lem wit="#α #β #K #m #v">constitutiuum</lem>
 <rdg wit="#Pz" ana="#morphological">constitiuus</rdg></app>
 armonie in quo grauior cordarum sonum 
-<app><lem wit="#J #Px #Py #m #v">preaccipit</lem>
+<app><lem wit="#β #J #Py #m #v">preaccipit</lem>
 <rdg wit="#Va" ana="#lexical">accipit pro</rdg></app>
 aliis 
-<app><lem wit="#J #Px #Py #m #v">acutis.</lem>
+<app><lem wit="#δ #J #Py #m #v">acutis.</lem>
 <rdg wit="#Va" ana="#lexical">totis. Deinde.</rdg></app>
-<app><lem wit="#α #K #Px #m #v">Communis</lem>
+<app><lem wit="#α #β #K #m #v">Communis</lem>
 <rdg wit="#Pz" ana="#lexical">cum minimis</rdg></app>
-<app><lem wit="#α #G #Px #m #v">quidem</lem>
+<app><lem wit="#α #β #G #m #v">quidem</lem>
 <rdg wit="#Pp" ana="#lexical">quidam</rdg>
 <rdg wit="#Pz" ana="#lexical">que</rdg></app>
-<app><lem wit="#α #K #Px #m #v">littera</lem>
+<app><lem wit="#α #β #K #m #v">littera</lem>
 <rdg wit="#Pz" ana="#lexical #syntactic">habetur</rdg></app>
-circa <app><lem wit="#Px #Va">mediam partem</lem>
+circa <app><lem wit="#β #Va">mediam partem</lem>
 <rdg wit="#Pp #Py #Pz" ana="#additive">mediam partem habet</rdg>
 <rdg wit="#G" ana="#lexical">partem habet</rdg>
 <rdg wit="#m #v" ana="#subtractive">mediam</rdg></app>
-<app><lem wit="#G #Px #Va #m #v">hoc</lem>
+<app><lem wit="#β #G #Va #m #v">hoc</lem>
 <rdg wit="#Pz" ana="#lexical">habet</rdg>
 <rdg wit="#Pp #Py" ana="#subtractive"/></app>
-<app><lem wit="#α #K #Px #m #v">tamen</lem>
+<app><lem wit="#α #β #K #m #v">tamen</lem>
 <rdg wit="#Pz" ana="#lexical">causam</rdg></app>
 licet possit tollerari series tamen iam exposita continens paramese 
-<app><lem wit="#α #G #Px #m #v">
-  <app><lem wit="#α">sauior et planior</lem>
+<app><lem wit="#α #β #G #m #v">
+  <app><lem wit="#β">planior et senior.</lem>
     <rdg wit="#G" ana="#ordinal">planior et sauior</rdg>
     <rdg wit="#Pz" ana="#subtractive">planior suauir</rdg>
     <rdg wit="#m #v" ana="#ordinal">planior et suauior</rdg>
-    <rdg wit="#Px" ana="#lexical">planior et senior.</rdg></app>
-  <app><lem wit="#Px #Py #m #v">sed</lem>
+    <rdg wit="#α" ana="#lexical #ordinal">sauior et planior</rdg></app>
+  <app><lem wit="#β #Py #m #v">sed</lem>
     <rdg wit="#G #Pz #Va" ana="#lexical">Et</rdg></app>
   si 
-  <app><lem wit="#Px #Py #Pz #m #v">utraque media</lem>
+  <app><lem wit="#β #Py #Pz #m #v">utraque media</lem>
     <rdg wit="#Va" ana="#morphological">utreque medie</rdg>
     <rdg wit="#G" ana="#morphological">utraque medio</rdg></app>
   <app><lem wit="#α #G #m #v">coniungantur</lem>
-    <rdg wit="#Px #Pz" ana="#morphological">coniungatur</rdg></app>
+    <rdg wit="#Px #Pz #Vm" ana="#morphological">coniungatur</rdg></app>
   ad inuicem 
-  <app><lem wit="#G #Px #Pz #Va #m #v">utpote</lem>
+  <app><lem wit="#β #G #Pz #Va #m #v">utpote</lem>
     <rdg wit="#Py" ana="#lexical">utputa</rdg></app>
   dicatur 
-  <app><lem wit="#α #G #Pz #m #v">intermediarum</lem>
+  <app><lem wit="#α #δ #G #Pz #m #v">intermediarum</lem>
     <rdg wit="#Px" ana="#morphological">intermediorum</rdg></app>
-  <app><lem wit="#α #Px #Pz">sicut</lem>
+  <app><lem wit="#α #β #Pz">sicut</lem>
     <rdg wit="#G #m #v" ana="#lexical">ut</rdg></app>
-  <app><lem wit="#α #G #Px #m #v">sunt</lem>
+  <app><lem wit="#α #β #G #m #v">sunt</lem>
     <rdg wit="#Pz" ana="#lexical">est</rdg></app>
-  <app><lem wit="#α #G #Pz">licanos</lem>
-    <rdg wit="#Px #m #v" ana="#orthographical">lichanos</rdg></app>
-  mese paramese</lem>
+  <milestone ed="#Vm" unit="folio" n="96v"/>
+  lychanos mese paramese</lem>
 <rdg wit="#Pp" cause="homeoteleuton" ana="#subtractive"/></app>
-siue <app><lem wit="#α #K #Px #m #v">trite</lem>
+siue <app><lem wit="#α #β #K #m #v">trite</lem>
 <rdg wit="#Pz" ana="#lexical">recte</rdg></app>
-non <app><lem wit="#α #J #m #v">constituitur</lem>
+non <app><lem wit="#α #δ #J #m #v">constituitur</lem>
 <rdg wit="#Px" ana="#morphological">constituit</rdg></app>
 <milestone ed="#G" unit="column" n="B"/>
-sonus eleuatus ita ut inde resultet grauis <app><lem wit="#J #Px #Va #m #v">tanquam</lem>
+sonus eleuatus ita ut inde resultet grauis <app><lem wit="#β #J #Va #m #v">tanquam</lem>
 <rdg wit="#Py" ana="#orthographical">tamquam</rdg></app>
-<app><lem wit="#J #Py">corde</lem>
+<app><lem wit="#δ #J #Py">corde</lem>
 <rdg wit="#Px" ana="#orthographical">code</rdg>
 <rdg wit="#m #v" ana="#morphological">cordis</rdg>
 <rdg wit="#Va" ana="#morphological">corda</rdg></app>
-grauioris <app><lem wit="#α #J #m #v">reddentis</lem>
+grauioris <app><lem wit="#α #δ #J #m #v">reddentis</lem>
 <rdg wit="#Px" ana="#morphological">reddente</rdg></app>
-sonum grauiorem: cum sonus <app><lem wit="#α #Px #m #v">harum</lem>
+sonum grauiorem: cum sonus <app><lem wit="#α #β #m #v">harum</lem>
 <rdg wit="#K" ana="#lexical">eorum</rdg>
 <rdg wit="#Pz" ana="#lexical">earum</rdg></app>
-<app><lem wit="#Px #Py #Pz #m #v">existat</lem>
+<app><lem wit="#β #Py #Pz #m #v">existat</lem>
 <rdg wit="#K" ana="#morphological">existet</rdg>
 <rdg wit="#Va" ana="#lexical">extat</rdg></app>
-<app><lem wit="#J #Px #Va #m #v">in medio</lem>
+<app><lem wit="#β #J #Va #m #v">in medio</lem>
 <rdg wit="#Py" ana="#lexical">intermedius</rdg></app>
-<app><lem wit="#α #G #Px #Pz #m #v">inter</lem>
+<app><lem wit="#α #β #G #Pz #m #v">inter</lem>
 <rdg wit="#Pp" ana="#orthographical"><del>earum</del> inter</rdg></app>
-<app><lem wit="#K #Px #m #v">graue</lem>
-<rdg wit="#α #Pz" ana="#morphological">grauem</rdg></app>
-et <app><lem wit="#J #Px #Va #m #v">acutum.</lem>
+<app><lem wit="#α #δ #Pz">grauem</lem>
+<rdg wit="#K #Px #m #v" ana="#morphological">graue</rdg></app>
+et <app><lem wit="#β #J #Va #m #v">acutum.</lem>
 <rdg wit="#Py" ana="#morphological">acutam.</rdg></app>
-sic <app><lem wit="#J #Px #Py #m #v">itaque</lem>
+sic <app><lem wit="#β #J #Py #m #v">itaque</lem>
 <rdg wit="#Va" ana="#lexical">igitur</rdg></app>
-videtur <num type="cardinal" value="2">duo</num> querere <app><lem wit="#α #Pp #Px #Pz #m #v">puta</lem>
+videtur <num type="cardinal" value="2">duo</num> querere <app><lem wit="#α #β #Pp #Pz #m #v">puta</lem>
 <rdg wit="#G" ana="#lexical">scilicet</rdg></app>
-<app><lem wit="#α #J #m #v">quare</lem>
-<rdg wit="#Px" ana="#lexical">quia</rdg></app>
-grauior cor<milestone ed="#v" unit="column" n="B" break="no"/>darum sonum preaccipiat et <app><lem wit="#α #Px #m #v">cur ex</lem>
+<app><lem wit="#δ #Px">quia</lem>
+<rdg wit="#α #J #m #v" ana="#lexical">quare</rdg></app>
+grauior cor<milestone ed="#v" unit="column" n="B" break="no"/>darum sonum preaccipiat et <app><lem wit="#α #β #m #v">cur ex</lem>
 <rdg wit="#G" ana="#lexical">quare cum</rdg>
 <rdg wit="#Pp #Pz" ana="#lexical">cum</rdg></app>
-<app><lem wit="#α #K #Px #m #v">extremis</lem>
+<app><lem wit="#α #β #K #m #v">extremis</lem>
 <rdg wit="#Pz" ana="#lexical">exterius</rdg></app>
-<app><lem wit="#J #Py">concursus</lem>
+<app><lem wit="#δ #J #Py">concursus</lem>
 <rdg wit="Va #m #v" ana="#morphological">concursis</rdg>
 <rdg wit="#Px" ana="#lexical">cum cursus</rdg></app>
-fiat in <app><lem wit="#α #J #Px #m">medium</lem>
+fiat in <app><lem wit="#α #β #J #m">medium</lem>
 <rdg wit="#v" ana="#morphological">mediam</rdg></app>
-reddens grauem sonum <app><lem wit="#α #v">non autem</lem>
+reddens grauem sonum <app><lem wit="#α #β #J #v">non autem</lem>
 <rdg wit="#Pz" ana="#lexical #subtractive">aut</rdg></app>
-ex mediis. <app><lem wit="#J #Px #Py"/>
-<rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg></app>
+ex mediis. 
      </p>
      <p>
-<mentioned>AUT <app><lem wit="#α #K #m #v">QUIA.</lem>
-<rdg wit="#Px #Pz" ana="#subtractive"/></app></mentioned>
-Soluit dicens causam esse <app><lem wit="#α #G #Px #Pz #m #v">quia</lem>
+<app><lem wit="#β #J #Py"/>
+<rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg></app>
+<mentioned><ref target="#ment-12.2"><app><lem wit="#β #Pz">AUT.</lem>
+<rdg wit="#α #K #m #v" ana="#additive">AUT QUIA.</rdg></app></ref></mentioned>
+Soluit dicens causam esse <app><lem wit="#α #β #G #Pz #m #v">quia</lem>
 <rdg wit="#Pp" ana="#lexical">quoniam</rdg></app>
-<app><lem wit="#α #G #Pz #m #v">illud</lem>
-<rdg wit="#Pp #Px" ana="#lexical">id</rdg></app>
-<app><lem wit="#Px #Va #m #v">quod</lem>
+<gloss target="#ment-12.2">
+<app><lem wit="#β #Pp">id</lem>
+<rdg wit="#α #G #Pz #m #v" ana="#lexical">illud</rdg></app>
+<app><lem wit="#β #Va #m #v">quod</lem>
 <rdg wit="#Py" ana="#additive">quod est</rdg>
 <rdg wit="#J" ana="#subtractive"/></app>
-graue magnum et forte <app><lem wit="#α #K #Px #m #v">diuque</lem>
+graue magnum et forte <app><lem wit="#α #β #K #m #v">diuque</lem>
 <rdg wit="#Pz" ana="#lexical">diu</rdg></app>
-<app><lem wit="#α #Px #m #v">perdurans</lem>
+<app><lem wit="#α #β #m #v">perdurans</lem>
 <rdg wit="#J" ana="#additive">permanens seu perdurans</rdg></app>
-preaccipit vigorem sui oppositi talis siquidem est grauior <app><lem wit="#α #K #Px #m #v">cordarum</lem>
+preaccipit vigorem sui oppositi talis siquidem est grauior <app><lem wit="#α #β #K #m #v">cordarum</lem>
 <rdg wit="#Pz" ana="#morphological">cordam</rdg></app>
-ad alias <app><lem wit="#G #Pz #Pp #Va #m #v">etiam</lem>
-<rdg wit="#Px #Py" ana="#lexical">Eti</rdg></app>
-in magno continetur <app><lem wit="#α #J #m #v">et</lem>
+ad alias <app><lem wit="#β #Py">Eti</lem>
+<rdg wit="#G #Pz #Pp #Va #m #v" ana="#lexical">etiam</rdg></app>
+in magno continetur <app><lem wit="#α #δ #J #m #v">et</lem>
 <rdg wit="#Px" ana="#subtractive"/></app>
-occultatur parvuum: sicut in superiori taliter quod sonus <num type="cardinal" value="2">duarum</num> 
-<app><lem wit="#G #Pz #m #v">netarum</lem>
-<rdg wit="#Px" ana="#orthographical">nitarum</rdg>
+occultatur parvuum:</gloss> 
+sicut in superiori taliter quod sonus <num type="cardinal" value="2">duarum</num> 
+<app><lem wit="#δ #Px">nitarum</lem>
+<rdg wit="#G #Pz #m #v" ana="#orthographical">netarum</rdg>
 <rdg wit="#Py" ana="#morphological">neten</rdg>
 <rdg wit="#Va" ana="#lexical">notarum</rdg>
 <rdg wit="#Pp" ana="#lexical">ninctarum</rdg></app>
-assumptus est in sono vno <app><lem wit="#K #Px #Va #m #v">per ypatem</lem>
-<rdg wit="#Py" ana="#lexical">parypatem</rdg>
+assumptus est in sono vno <app><lem wit="#α #β #K #m #v">parypatem</lem>
 <rdg wit="#Pz" ana="#lexical">parametem</rdg></app>
 <app><lem wit="#α #K #Px #m #v">causato:</lem>
-<rdg wit="#Pz" ana="#orthographical">causto</rdg></app>
-ex quo habetur quod grauior cordarum <app><lem wit="#α #Px #Pz #m #v">sonum preaccipit</lem>
+<rdg wit="#Pz" ana="#orthographical">causto</rdg>
+<rdg wit="#Vm" ana="#orthographical"><space/></rdg></app>
+ex quo habetur quod grauior cordarum <app><lem wit="#α #β #Pz #m #v">sonum preaccipit</lem>
 <rdg wit="#K" ana="#ordinal">preaccipit sonum</rdg></app>
 et <app><lem wit="#α #K #m #v">quod</lem>
 <rdg wit="#Px #Pz" ana="#subtractive"/></app>
-ex <app><lem wit="#α #Px #m #v">ultimis extremis</lem>
+ex <app><lem wit="#α #β #m #v">ultimis extremis</lem>
 <rdg wit="#K" ana="#ordinal">extremis ultimis</rdg>
 <rdg wit="#Pz" ana="#lexical">exterius ult<unclear>imi</unclear></rdg></app>
-medium potest <app><lem wit="#Pp #Px #Py #Pz #m #v">resultare</lem>
+medium potest <app><lem wit="#β #Pp #Py #Pz #m #v">resultare</lem>
 <rdg wit="#Va" ana="#morphological">resultari</rdg>
 <rdg wit="#G" ana="#lexical">representare</rdg></app>
-sicut apparebit <app><lem wit="#Px #Va #m #v"><num type="ordinal" value="23">.23°.</num></lem>
+sicut apparebit <app><lem wit="#β #Va #m #v"><ref target="#part23"><num type="ordinal" value="23">.23°.</num></ref></lem>
 <rdg wit="#J" ana="#lexical"><num type="ordinal" value="22">22°.</num></rdg>
-<rdg wit="#Py" ana="#additive"><num type="ordinal" value="23">xxiii°.</num> doooo <space/></rdg>
-<note xml:lang="en">The added characters in Py seem to be space fillers, but there's also a blank space of approximately 5 characters' width to their right, before the start of "tertiumdecimum."  Also, the blank space appears to be an erasure, but the microfilm doesn't make reading the erased characters possible.</note>
+<rdg wit="#Py" ana="#additive" xml:id="part12-rdg-Py"><num type="ordinal" value="23">xxiii°.</num> doooo <space/></rdg>
+<note xml:lang="en" target="#part12-rdg-Py">The added characters in Py seem to be space fillers, but there's also a blank space of approximately 5 characters' width to their right, before the start of "tertiumdecimum."  Also, the blank space appears to be an erasure, but the microfilm doesn't make reading the erased characters possible.</note>
 <rdg wit="#Pz" ana="#lexical #additive">in <num type="ordinal" value="12">12°</num></rdg></app>
 <app><lem/>
 <rdg wit="#Pz" ana="#additive">etcetera</rdg>
