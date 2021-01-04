@@ -1818,26 +1818,28 @@ uel <app><lem wit="#α #β #G #Pp #v">triplat</lem>
  <app xml:id="app-31.1" exclude="#app-rdg-Px-31.1"><lem wit="#Va #m #v"><num type="ordinal" value="31">Trigesimumprimum</num> problema</lem>
 <rdg wit="#Nu #Pp #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="31">31<hi rend="superscript">m</hi></num></add></rdg>
 <rdg wit="#Py" ana="#additive"><surplus><hi rend="rubricated"><num type="ordinal" value="31">trigesimum.primum</num></hi></surplus> <num type="ordinal" value="31">Trigesimum primum.</num></rdg>
-<rdg wit="#Mb" ana="#subtractive"/>
+<rdg wit="#Mb #Vm" ana="#subtractive"/>
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="30">Trigesimum</num> problema.</rdg></app>
   </head>
    <p><mentioned><app><lem wit="#G #Px #m #v">
-PROPTER QUID CIRCA <app><lem wit="#m #v">FRINTHUM</lem>
-<rdg wit="#G" ana="#orthographical">FRICHUM</rdg>
+<seg xml:id="ment-31.1">     
+PROPTER QUID CIRCA <app><lem><persName><ref target="#Phr">PHRINICHUM</ref></persName></lem>
 <rdg wit="#Px" ana="#orthographical">FRIMICUM</rdg>
+<rdg wit="#m #v" ana="#ortgographical">FRINTHUM</rdg>
+<rdg wit="#G" ana="#orthographical">FRICHUM</rdg>
 <rdg wit="#Va" ana="#orthographical">RIMTHUM</rdg></app>
 FUERUNT MAGIS <app><lem wit="#G #Va #v">DULCE</lem>
 <rdg wit="#m" ana="#orthographical">DULEE</rdg>
 <rdg wit="#Px" ana="#morphological">DULCES</rdg></app> 
 <app><lem wit="#Px #Va">MELODIA</lem>
 <rdg wit="#m #v" ana="#morphological">MELODIO</rdg>
-<rdg wit="#G" ana="#lexical">MELODIRIA</rdg></app>
-AUT PROPTER ID QUOD MULTIPLICES 
+<rdg wit="#G" ana="#lexical">MELODIRIA</rdg></app>.</seg>
+<seg xml:id="ment-31.2">AUT PROPTER ID QUOD MULTIPLICES 
 <milestone ed="#m" unit="column" n="B"/>
 SUNT CANTUS <app><lem wit="#G #Px #m #v">TUNC</lem>
 <rdg wit="#Va" ana="#lexical">CIRCA</rdg></app> 
-IN TRAGEDIIS METRORUM.</lem>
-<rdg wit="#S" ana="#subtractive">PROPTER QUID CIRCA FRINICHUM.</rdg>
+IN TRAGEDIIS METRORUM.</seg></lem>
+<rdg wit="#S #Vm" ana="#subtractive">PROPTER QUID CIRCA FRINICHUM.</rdg>
 <rdg wit="#Pp" ana="#subtractive">PROPTER QUID CIRCA</rdg>
 <rdg wit="#Nu #Py" ana="#subtractive"/>
 </app></mentioned>
@@ -1846,11 +1848,15 @@ IN TRAGEDIIS METRORUM.</lem>
 <app xml:id="app-rdg-Px-31.1" exclude="#app-31.1">
 <rdg wit="#Px" ana="#additive">Pricesimum primum problema</rdg></app>
 <milestone ed="#v" unit="folio" n="C5v"/>
-Quare <app><lem wit="#α #J #Px #v">est</lem>
+<gloss target="#ment-31.1">
+<app><lem wit="#α #J #Px #m #v">Quare </lem>
+<rdg wit="#δ" ana="#additive">Querit quare</rdg></app>
+<app><lem wit="#α #β #J #v">est</lem>
 <rdg wit="#m" ana="#morphological">este</rdg></app>
-<app><lem wit="#α #J #Px #m #v">quod</lem> 
+<app><lem wit="#α #β #J #m #v">quod</lem> 
 <rdg wit="#S" ana="#subtractive"/></app>
 <app><lem wit="#Py">apud phrinicum</lem>
+<rdg wit="#Vm" ana="#orthographical">apud frinichum</rdg>
 <rdg wit="#Nu" ana="#orthographical">apud phrinitum</rdg>
 <rdg wit="#S" ana="#orthographical">apud frinichum</rdg>
 <rdg wit="#Va" ana="#lexical">apud plinitum</rdg>
@@ -1858,51 +1864,50 @@ Quare <app><lem wit="#α #J #Px #v">est</lem>
 <rdg wit="#Pp" ana="#lexical">circa fronchum</rdg>
 <rdg wit="#m #v" ana="#lexical">apud finitum</rdg>
 <rdg wit="#Px" ana="#lexical">apphimitum</rdg></app> 
-<app><lem wit="#α #m #v">qui</lem>
+<app><lem wit="#α #δ #m #v">qui</lem>
 <rdg wit="#J #Px" ana="#morphological">quod</rdg></app>
-est modus <app><lem wit="#α #G #Pp #Px #m #v">cantantium</lem> 
+est modus <app><lem wit="#α #β #G #Pp #m #v">cantantium</lem> 
 <rdg wit="#S" ana="#lexical">cantuum</rdg></app>
-<app><lem wit="#α #J #Px #v">quorundam</lem>
-<rdg wit="#m" ana="#orthographical">quoruundam</rdg></app>
-<app><lem wit="#α #G #Pp #Px">melodie</lem>
+quorundam <app><lem wit="#α #β #G #Pp">melodie</lem>
 <rdg wit="#S" ana="#orthographical">melodye</rdg>
 <rdg wit="#m #v" ana="#morphological">melodia</rdg></app>
-<app><lem wit="#α #G #Px #m #v">fuerunt</lem>
+<app><lem wit="#α #β #G #m #v">fuerunt</lem>
 <rdg wit="#Pp" ana="#morphological">fiunt</rdg></app>
-magis suaues quam <app><lem wit="#α #J #m #v">apud</lem>
+magis suaues quam <app><lem wit="#α #δ #J #m #v">apud</lem>
 <rdg wit="#Px" ana="#lexical">amplius</rdg></app> 
-alios. <app><lem wit="#J #Nu #Px #Py"/>
-<rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg></app>
+alios.</gloss> 
   </p>
   <p>
-<mentioned><app><lem wit="#Nu #Px #Py #m #v">AUT.</lem>
+<app><lem wit="#β #J #Nu #Py"/>
+<rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg></app>
+<mentioned><ref target="#ment-31.2"><app><lem wit="#β #Nu #Py #m #v">AUT.</lem>
 <rdg wit="#G #Pp" ana="#additive">AUT QUIA.</rdg>
-<rdg wit="#Va" ana="#lexical">APUD.</rdg></app></mentioned>
-Soluit dicens causam esse <app><lem wit="#α #J">quoniam</lem>
+<rdg wit="#Va" ana="#lexical">APUD.</rdg></app></ref></mentioned>
+Soluit dicens causam esse 
+<gloss target="#ment-31.2"><app><lem wit="#α #δ #J">quoniam</lem>
 <rdg wit="#Px #m #v" ana="#lexical">quia</rdg></app>
-cantus apud <app><lem wit="#α #Pp #m #v">eum</lem>
+cantus apud <app><lem wit="#α #δ #Pp #m #v">eum</lem>
 <rdg wit="#Px" ana="#lexical">cum</rdg>
 <rdg wit="#G" ana="#lexical">enim</rdg></app>
-fuerunt <app><lem wit="#α #J #m #v">multiplices et differenter
-  <app><lem wit="#α #m #v">compositi</lem>
+fuerunt <app><lem wit="#α #δ #J #m #v">multiplices et differenter
+  <app><lem wit="#α #δ #m #v">compositi</lem>
     <rdg wit="#G #Pp" ana="#lexical">appositi</rdg>
     <rdg wit="#S" ana="#lexical">opositi</rdg></app>
   propter quod 
-  <app><lem wit="#α #G #Pp #m #v">secundum plurimum fuerunt</lem> 
-    <rdg wit="#S" ana="#lexical">secundum <choice><expan>p<ex>u</ex>lonu<ex>m</ex></expan><abbr>plʼonu̅</abbr></choice> fuerunt</rdg>
+  <app><lem wit="#α #δ #G #Pp #m #v">secundum plurimum fuerunt</lem>
     <rdg wit="#Va" ana="#ordinal">fuerunt secundum plurimum</rdg></app></lem>
 <rdg wit="#Px" cause="homeoarchy" ana="#subtractive"/></app> 
-in <app><lem wit="#α #G #Pp #Px #m #v">tragediis</lem> 
+in <app><lem wit="#α #β #G #Pp #m #v">tragediis</lem> 
 <rdg wit="#S" ana="#orthographical">tragrediis</rdg></app>
-<app><lem wit="#α #Pp #Px #m #v">metrorum</lem>
-<rdg wit="#G" ana="#morphological">metris</rdg></app>
-tales autem sunt suaues <app><lem wit="#α #J #Px #v">maxime</lem>
+<app><lem wit="#α #β #Pp #m #v">metrorum</lem>
+<rdg wit="#G" ana="#morphological">metris</rdg></app></gloss>.
+tales autem sunt suaues <app><lem wit="#α #β #J #v">maxime</lem>
 <rdg wit="#m" ana="#orthographical">maxine</rdg></app>
 cum eorum 
 <milestone ed="#Py" unit="column" n="B"/>
-<app><lem wit="#α #G #Px #m #v">sit</lem>
+<app><lem wit="#α #β #G #m #v">sit</lem>
 <rdg wit="#Pp" ana="#orthographical">sut</rdg></app>
-principaliter <app><lem wit="#α #Px #m #v">finis</lem>
+principaliter <app><lem wit="#α #β #m #v">finis</lem>
 <rdg wit="#J" ana="#subtractive"/></app>
 iocunditatem inducere.
 <app><lem/>
@@ -9890,6 +9895,11 @@ simplicia <app><lem wit="#α #Pp #Px #m #v">existentia</lem>
             <persName>
               <forename>Philoxenus of</forename>
               <addName>Cythera</addName>
+            </persName>
+          </person>
+          <person xml:id="Phr">
+            <persName>Phrynichus 
+              <addName type="clarifier">tragicus</addName>
             </persName>
           </person>
           <person xml:id="Pl">
