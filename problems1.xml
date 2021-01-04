@@ -44,13 +44,13 @@
               <item>Va and v's hi* emended to hii*</item>
               <item>Px's "fati*" emended to faci*</item>
               <item>Px and Py's sicud emended to sicut</item>
-              <item>Pz, Px and Py's velud emended to velut</item>
+              <item>Ma, Pz, Px and Py's velud emended to velut</item>
               <item>Va's unique orthographical variants ignored</item>
               <item>All: standardized spellings of lychanos and mese</item>
               <item>All: standardized spellings of dyatesseron, dyapente, and dyapason</item>
               <item>All: lira* emended to lyra*</item>
               <item>All: *ij and *ijs emended to *ii and *ijs</item>
-              <item>All: *cia, *cio, *cium emended to *tia, *tio, *tium</item>
+              <item>All: *cia, *cio, *cium, etc. emended to *tia, *tio, *tium, etc.</item>
               <item>All: adinuicem emended to ad inuicem</item>
               <item>All: probleuma* emended to problema*</item>
               <item>All: Tironian et emended to et</item>
@@ -136,6 +136,16 @@
             <author>Coucke, Gijs</author>. 
             <title level="a">Needle in the Haystack: In Search of the Model of Peter of Abano's <hi rend="italic">Expositio Problematum</hi></title>. 
             <title level="j">Revue d'histoire des textes</title> 4 (<date when="2009">2009</date>): <biblScope unit="page" from="179" to="213">179-213</biblScope>
+          </bibl>
+          <bibl xml:id="Klek1922">
+            <abbr type="siglum">Klek 1922</abbr>. =
+            <editor>Klek, Joseph</editor>,
+            <editor>Knoellinger, Hermann</editor>,
+            <editor>Ruelle, Charles Emanuel</editor>,
+            <author>Pseudo-Aristotle</author>.
+            <title>Aristotelis quae feruntur problemata physica</title>
+            <pubPlace>Leipzig</pubPlace>:
+            <publisher>Teubner</publisher>.
           </bibl>
           <bibl xml:id="Kuksewicz1985">
             <abbr type="siglum">Kuksewiz 1985</abbr>. =
@@ -223,7 +233,7 @@
                 <msIdentifier>
                   <settlement>Vatican</settlement>
                   <repository>Biblioteca Apostolica</repository>
-                  <idno>lat. 2174</idno>
+                  <idno>vat. lat. 2174</idno>
                 </msIdentifier>
               </msDesc> URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2174"/>
             </witness>
@@ -247,7 +257,7 @@
               <msIdentifier>
                 <settlement>Vatican</settlement>
                 <repository>Biblioteca Apostolica</repository>
-                <idno>lat. 2175</idno>
+                <idno>vat. lat. 2175</idno>
               </msIdentifier>
             </msDesc> URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2175"/>
           </witness>
@@ -278,7 +288,7 @@
               <msIdentifier>
                 <settlement>Venice</settlement>
                 <repository>Biblioteca Nazionale Marciana</repository>
-                <idno>lat. VI. 126</idno>
+                <idno>vat. lat. VI. 126</idno>
               </msIdentifier>
             </msDesc>
           </witness>
@@ -292,7 +302,6 @@
               </msIdentifier>
             </msDesc>
           </witness>
-
         </listWit>
           <witness xml:id="δ"><abbr type="siglum">δ</abbr> = <title>Consensus of #Ma #Mb #Vm #Vz</title></witness>
           <witness xml:id="β"><abbr type="siglum">β</abbr> = <title>Consensus of #Px #Vb #Ma #Mb #Vm #Vz</title></witness>
@@ -354,7 +363,7 @@
               <msIdentifier>
                 <settlement>Vatican</settlement>
                 <repository>Biblioteca Apostolica</repository>
-                <idno>Ottobon. lat. 1764</idno>
+                <idno>ottobon. lat. 1764</idno>
               </msIdentifier>
             </msDesc>
           </witness>
@@ -406,7 +415,7 @@
               <msIdentifier>
                 <settlement>Vatican</settlement>
                 <repository>Biblioteca Apostolica</repository>
-                <idno>lat. 2176</idno>
+                <idno>vat. lat. 2176</idno>
               </msIdentifier>
             </msDesc> URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2176"/>
           </witness>
@@ -691,7 +700,7 @@ est aqua.</gloss>
 <app><lem wit="#α #β #G #Pq #Vo #m #v">in illa.</lem>
 <rdg wit="#Pz" ana="#lexical">et illa.</rdg>
 <rdg wit="#Pp" ana="#lexical">in aqua.</rdg></app>
-#t <app><lem wit="#α #β #K #Vo #m #v">in</lem>
+Et <app><lem wit="#α #β #K #Vo #m #v">in</lem>
 <rdg wit="#Pz" ana="#subtractive"/></app>
 <app><lem wit="#E #Ma #Mb #Nu #Px #Py #Vz #m #v">ydriis</lem>
 <rdg wit="#Vm" ana="#orthographical">ydris</rdg>
@@ -1970,12 +1979,12 @@ problema <app><lem wit="#β #K #E #Nu #Va #m #v">partim</lem>
 <cit><app><lem wit="#E #Nu #Px #Py"><bibl><biblScope unit="book"><num type="ordinal" value="11">.xi<hi rend="superscript">e</hi>.</num></biblScope> ut uisum <ref target="#ArPr">particule</ref></bibl></lem>
 <rdg wit="#δ #Va #m" ana="#additive"><bibl><biblScope unit="book"><num type="ordinal" value="11">.xi<hi rend="superscript">e</hi>.</num></biblScope> ut visum est <ref target="ArPr">particule</ref></bibl></rdg>
 <rdg wit="#Pq #v" ana="#additive"><bibl><biblScope unit="book"><num type="ordinal" value="11">.xi<hi rend="superscript">e</hi>.</num></biblScope> <ref target="#ArPr">particule</ref> ut uisum est</bibl></rdg>
-<rdg wit="#Pz  #Vo" ana="#subtractive"><bibl> ut uisum est <ref target="#ArPr">particule</ref></bibl></rdg>
+<rdg wit="#Pz #Vo" ana="#subtractive"><bibl> ut uisum est <ref target="#ArPr">particule</ref></bibl></rdg>
 <rdg wit="#Vb" ana="#additive"><bibl><biblScope unit="book"><num type="ordinal" value="11">.xi<hi rend="superscript">e</hi>.</num></biblScope> ut visum est</bibl></rdg>
 <rdg wit="#G #Pp" ana="#lexical"><bibl><biblScope unit="book"><num type="ordinal" value="5">.5e.</num></biblScope> <ref target="#ArPr">particule</ref> ut visum est</bibl></rdg></app>
 </cit><app><lem wit="#α #δ #J #Px #m #v">partimque isti.</lem>
 <rdg wit="#Vb" ana="#additive">partimque pertinet isti.</rdg></app></lem>
-<note target="#lem-2.1-Ar" type="fontium"><bibl><author ref="#Ar">Pseudo-Aristotle</author> <title ref="#ArPr">Problems</title><biblScope unit="book" n="11"/> XI</bibl></note></app>
+<note target="#lem-2.1-Ar" type="fontium"><bibl><author ref="#Ar">Pseudo-Aristotle</author> <title ref="#ArPr">Problems</title><biblScope unit="book" n="11"/>XI</bibl></note></app>
 <app><lem/><rdg wit="#Vb #Vz" ana="#additive">etcetera.</rdg>
   <rdg wit="#Px" ana="#additive">sequitur <ref target="#part3"><num type="ordinal" value="3">3<hi rend="superscript">a</hi>.</num> problema <num type="ordinal" value="19">19.</num> particule.</ref></rdg></app>
  </p>
@@ -5253,9 +5262,9 @@ Unde <ref target="problems2.html#part32"><num type="ordinal" value="32">32°</nu
 <app><lem wit="#β #J #Nu #Py #Va #m #v">dicetur</lem>
 <rdg wit="#E" ana="#additive">unde dicetur</rdg></app>
 quod 
-<gloss target="problems2.html#part32"><app><lem wit="#δ #E #G #Nu #Pq #Pz #Va #Vb #Vo #m #v">tripandius</lem>
+<gloss target="problems2.html#ment-32.2"><persName><ref target="#Ter"><app><lem wit="#δ #E #G #Nu #Pq #Pz #Va #Vb #Vo #m #v">tripandius</lem>
 <rdg wit="#Pp #Px" ana="#orthographical">cripandius</rdg>
-<rdg wit="#Py" ana="#orthographical">torpandius</rdg></app>
+<rdg wit="#Py" ana="#orthographical">torpandius</rdg></app></ref></persName>
 extrahens <num type="ordinal" value="3">tertiam</num> cordam a <app><lem wit="#β #K #E #Nu #Va #m #v">septicordo</lem>
 <rdg wit="#Pz" ana="#orthographical">sopicordo</rdg>
 <rdg wit="#Py" ana="#lexical">cordo</rdg></app>
@@ -6647,13 +6656,15 @@ facta est <app><lem wit="#δ #G #Px #Py #Pz">imbecillior</lem>
 grauiter autem sonans a virtute <app><lem wit="#α #δ #Px #m #v">causatur fortiori</lem>
 <rdg wit="#Pp #Pz" ana="#ordinal">fortiori causatur</rdg>
 <rdg wit="#G" ana="#morphological">fortiore causatur</rdg></app>
+
+<app><lem xml:id="lem-11.1-Ar">
 propter <app><lem wit="#α #δ #K #Px #m #v">quod</lem>
 <rdg wit="#Pz" ana="#morphological">quid</rdg></app>
 <app><lem wit="#Px #Py">dictum</lem>
 <rdg wit="#δ #J #Va #m #v" ana="#additive">dictum est</rdg></app>    
-<app><lem wit="#δ #Px #Py #Va #m #v"><num type="ordinal" value="11">.xi<hi rend="superscript">a</hi>.</num></lem>
-<rdg wit="#J" ana="#subtractive"/></app>     
-quod <app><lem wit="#δ #J #Px #Va #m">pueri femine</lem>
+<cit><bibl><biblScope unit="book" n="11"><app><lem wit="#δ #Px #Py #Va #m #v"><num type="ordinal" value="11">.xi<hi rend="superscript">a</hi>.</num></lem>
+<rdg wit="#J" ana="#subtractive"/></app></biblScope></bibl>
+<quote>quod <app><lem wit="#δ #J #Px #Va #m">pueri femine</lem>
 <rdg wit="#Py" ana="#ordinal">femine pueri</rdg>
 <rdg wit="#v" ana="#lexical">pueri semi</rdg></app>
 <app><lem wit="#δ #K #Px #Py">eunuchi</lem>
@@ -6661,7 +6672,9 @@ quod <app><lem wit="#δ #J #Px #Va #m">pueri femine</lem>
 <rdg wit="#v" ana="#additive">eunuchi et</rdg>
 <rdg wit="#Va" ana="#additive">eunuchi e</rdg>
 <rdg wit="#m" ana="#additive">eunuci et</rdg></app>
-infirmi habent uoces acutas: oppositi <app><lem wit="#α #δ #Px #m #v">autem</lem>
+infirmi habent uoces acutas:</quote></cit></lem>
+<note target="#lem-11.1-Ar" type="fontium"><bibl><author ref="#Ar">Ps.Aristotle</author>, <title ref="#ArPr">Problems</title><biblScope unit="book" n="11">XI.</biblScope><biblScope unit="problem" n="16">16</biblScope>, 900b15-17</bibl></note></app>
+oppositi <app><lem wit="#α #δ #Px #m #v">autem</lem>
 <rdg wit="#J" ana="#lexical">vero</rdg></app>
 graues <app><lem wit="#δ #Px #Va #m #v">propter</lem>
 <rdg wit="#J #Py" ana="#lexical">per</rdg></app>
@@ -12697,6 +12710,10 @@ qui<milestone ed="#v" unit="folio" n="C4v" break="no"/>dem <ref target="problems
                 <surname>d'Abano</surname>
               </persName></author>
               <title>Conciliator differentiarum philosophorum</title>
+              <pubPlace>Venetiis</pubPlace>
+              <publisher>n.p.</publisher>
+              <date when="1504">1504</date>
+              URL: <ptr target="http://data.onb.ac.at/rep/10B710EE"/>
             </bibl>
             <bibl xml:id="AlPr">
               <author><persName>
@@ -12704,6 +12721,17 @@ qui<milestone ed="#v" unit="folio" n="C4v" break="no"/>dem <ref target="problems
                 <addName>Aphrodisias</addName>
               </persName></author>
               <title>Problemata</title>
+              <editor role="translator"><persName>
+                <forename>Pietro</forename>
+                <surname>d'Abano</surname>
+              </persName></editor>
+              <msIdentifier>
+                <settlement>Vatican</settlement>
+                <repository>Biblioteca Apostolica</repository>
+                <idno>reg. lat. 747</idno>
+              </msIdentifier>
+              <citedRange unit="folio" from="75v">f. 75v ff.</citedRange>
+              URL: <ptr target="https://digi.vatlib.it/view/MSS_Reg.lat.747"/>
             </bibl>
             <bibl xml:id="ArAn">
               <author><persName>Aristotle</persName></author>
@@ -12711,7 +12739,22 @@ qui<milestone ed="#v" unit="folio" n="C4v" break="no"/>dem <ref target="problems
             </bibl>
             <bibl xml:id="ArEth">
               <author><persName>Aristotle</persName></author>
-              <title>Ethica</title>
+              <title>Liber ethicorum ad Nicomachum</title>
+              <editor role="translator"><persName>
+                <forename>Robertus</forename>
+                <surname>Grosseteste</surname>
+              </persName></editor>
+              <editor role="editor"><persName>
+                <forename>Guillelmus de</forename>
+                <surname>Moerbeka</surname>
+              </persName></editor>
+              <msIdentifier>
+                <settlement>Vatican</settlement>
+                <repository>Biblioteca Apostolica</repository>
+                <idno>vat. lat. 2104</idno>
+              </msIdentifier>
+              <citedRange unit="folio" from="1r">f. 1r ff.</citedRange>
+              URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2104"/>              
             </bibl>
             <bibl xml:id="ArMet">
               <author><persName>Aristotle</persName></author>
@@ -12732,6 +12775,17 @@ qui<milestone ed="#v" unit="folio" n="C4v" break="no"/>dem <ref target="problems
             <bibl xml:id="ArPo">
               <author><persName>Aristotle</persName></author>
               <title>De politicorum</title>
+              <editor role="translator"><persName>
+                <forename>Guillelmus de</forename>
+                <surname>Moerbeka</surname>
+              </persName></editor>
+              <msIdentifier>
+                <settlement>Vatican</settlement>
+                <repository>Biblioteca Apostolica</repository>
+                <idno>vat. lat. 2104</idno>
+              </msIdentifier>
+              <citedRange unit="folio" from="67r">f. 67r ff.</citedRange>
+              URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2104"/>
             </bibl>
             <bibl xml:id="ArTo">
               <author><persName>Aristotle</persName></author>
