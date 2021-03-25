@@ -11138,28 +11138,34 @@ instrumentalis.
 <rdg wit="#G" ana="#lexical"><num type="ordinal" value="18">18m</num> problema.</rdg>
 <rdg wit="#Mb #Vm" ana="#subtractive"/></app>
   </head>
-   <p><mentioned><app><lem wit="#G #Px #Va #m #v">
+   <p><mentioned><app><lem wit="#G #Ma #Px #Pz #Va #m #v">
 <seg xml:id="ment-19.1">
-PROPTER QUID <app><lem wit="#G #Ma #Px #v">ANTIPHONIS</lem>
+PROPTER QUID <app><lem wit="#G #Ma #Px #Pz #v">ANTIPHONIS</lem>
 <rdg wit="#Va #m" ana="#orthographical">ANTIFONIS</rdg></app>
 HOC <app><lem wit="#G #Va #m #v">SOLUM</lem>
 <rdg wit="#Px" ana="#morphological">SOLIS</rdg>
+<rdg wit="#Pz" ana="#lexical">SONUM</rdg>
 <rdg wit="#Ma" ana="#additive">SOLUM MODO</rdg></app>
-<app><lem wit="#Px #Va #m #v">INEST.</lem>
+<app><lem wit="#Px #Pz #Va #m #v">INEST.</lem>
 <rdg wit="#G" ana="#subtractive"/></app>
 </seg>
 <seg xml:id="ment-19.2">
 <app><lem>AUT</lem>
 <rdg wit="#G #Ma #Px #Va #m #v" ana="#subtractive"/></app>     
-QUIA SOLE EQUALITER DISTANT MEDIO MEDIETAS <app><lem wit="#G #Ma #Va #m #v">IGITUR</lem>
+QUIA SOLE EQUALITER DISTANT MEDIO MEDIETAS <app><lem wit="#G #Ma #Pz #Va #m #v">IGITUR</lem>
 <rdg wit="#Px" ana="#lexical">ENIM</rdg></app>
-SIMILITUDINEM QUANDAM FACIT SONORUM ET UIDETUR AUDITUS DICERE QUOD IPSA ET QUOD <app><lem wit="#Px #m #v">UTERQUE</lem>
+<app><lem wit="#G #Ma #Px #Va #m #v">SIMILITUDINEM</lem>
+<rdg wit="#Pz" ana="#additive">SIMILITUDINIS PER SIMILITUDINEM</rdg></app> 
+QUANDAM FACIT SONORUM ET UIDETUR AUDITUS DICERE QUOD IPSA ET QUOD <app><lem wit="#Px #m #v">UTERQUE</lem>
 <rdg wit="#Ma" ana="#orthographical">UTREQUE</rdg>
 <rdg wit="#Va" ana="#morphological">UTRAQUE</rdg>
-<rdg wit="#G" ana="#morphological">UTROQUE</rdg></app>
-ULTIME.</seg></lem>
+<rdg wit="#G" ana="#morphological">UTROQUE</rdg>
+<rdg wit="#Pz" ana="#additive #morphological">UTRAQUE UEL UTRAQUE</rdg></app>
+<app><lem wit="#G #Ma #Px #Va #m #v">ULTIME.</lem>
+<rdg wit="#Pz" ana="#lexical">ETCETERA.</rdg></app></seg></lem>
 <rdg wit="#Pp #Vm" ana="#subtractive">PROPTER QUID ANTIPHONIS</rdg>
 <rdg wit="β #E #Vb #Vz" ana="#subtractive"/></app></mentioned>
+<milestone ed="#Pz" unit="folio" n="184v"/>     
     </p>  
     <p>
 <app xml:id="app-rdg-Px-19.1" exclude="#app-19.1">
@@ -11179,11 +11185,13 @@ dicens
 cordis <app><lem wit="#α #κ #m #v">inest</lem>
 <rdg wit="#π" ana="#lexical">ita est</rdg></app>
 quod vna cantata <app><lem wit="#α #κ #m #v">cantetur et altera</lem>
-<rdg wit="#G" ana="#subtractive">altera cantatur</rdg>
-<rdg wit="#Pp" ana="#lexical">alia cantatur</rdg></app>
-et quod idem <app><lem wit="#π #E #Ma #Nu #Px #Vb #Vz #m">consonat</lem>
+<rdg wit="#π" ana="#subtractive #morphological"><app><lem wit="#G">altera cantatur</lem>
+  <rdg wit="#Pz" ana="#ordinal">cantatur altera</rdg>
+  <rdg wit="#Pp" ana="#lexical">alia cantatur</rdg></app></rdg></app>
+et quod idem <app><lem wit="#π1 #E #Ma #Nu #Px #Vb #Vz #m">consonat</lem>
 <rdg wit="#Va #v" ana="#morphological">consonet</rdg>
-<rdg wit="#Py #Vm" ana="#lexical">sonat</rdg></app>
+<rdg wit="#Py #Vm" ana="#lexical">sonat</rdg>
+<rdg wit="#Pz" ana="#lexical">esse sonat</rdg></app>
 utro<milestone ed="#Vb" unit="folio" n="111v" break="no"/>bique 
 <app><lem wit="#α #κ #m #v">sicut si 
   <app><lem wit="#β #κ #E #Vb #m #v">ambo</lem>
@@ -11195,16 +11203,16 @@ utro<milestone ed="#Vb" unit="folio" n="111v" break="no"/>bique
      <p>
 <app><lem wit="#α #κ #π"/>
 <rdg wit="#m #v" ana="#additive">Deinde.</rdg></app>
-<mentioned><ref target="#ment-19.2"><app><lem wit="#β #E #Px #Vb #Vm #Vz #m #v">AUT.</lem>
-<rdg wit="#π" ana="#additive">AUT QUIA.</rdg>
+<mentioned><ref target="#ment-19.2"><app><lem wit="#β #E #Px #Pz #Vb #Vm #Vz #m #v">AUT.</lem>
+<rdg wit="#π1" ana="#additive">AUT QUIA.</rdg>
 <rdg wit="#Ma" ana="#lexical">QUIA.</rdg>
 <rdg wit="#Va" ana="#subtractive"/></app></ref></mentioned>
 Soluit dicens causam esse 
 <gloss target="#ment-19.2"><app><lem wit="#α #λ #π #m #v">quia</lem>
 <rdg wit="#Px" ana="#lexical">quoniam</rdg></app>
 so<milestone ed="#v" unit="folio" n="C3r" break="no"/>le 
-<app><lem wit="#κ #E #Py #Va #m #v">huius</lem>
-<rdg wit="#π #Nu #Vb" ana="#lexical">huiusmodi</rdg></app>
+<app><lem wit="#κ #E #Py #Pz #Va #m #v">huius</lem>
+<rdg wit="#π1 #Nu #Vb" ana="#lexical">huiusmodi</rdg></app>
 cordarum antiphone in quibus <app><lem wit="#β #κ #E #Vb #m #v">existit</lem>
 <rdg wit="#Va" ana="#lexical">estit</rdg>
 <rdg wit="#π" ana="#lexical">consistit</rdg></app>
@@ -11216,34 +11224,42 @@ ut dicatur a mese <app><lem wit="#β #γ #κ #m #v">que</lem>
 <rdg wit="#π #E" ana="#morphological">quod</rdg></app>
 est <app><lem wit="#β #κ #π #E">uere</lem>
 <rdg wit="#γ #m #v" ana="#lexical">nete</rdg></app>
-media <app><lem wit="#α #κ #Pp #m #v"><num type="ordinal" value="7">vii.</num></lem>
+media <app><lem wit="#α #κ #Pp #Pz #m #v"><num type="ordinal" value="7">vii.</num></lem>
 <rdg wit="#G" ana="#lexical">enim</rdg></app>
-<app><lem wit="#α #κ #Pp #m #v">cordarum</lem>
+<app><lem wit="#α #κ #Pp #Pz #m #v">cordarum</lem>
 <rdg wit="#G" ana="#morphological">corde</rdg></app></gloss>
 ut visum <app><lem wit="#γ #π #Px #Ma #Vz #m #v">est</lem>
 <rdg wit="#β #E #Vm" ana="#subtractive"/></app>
-illud: <app><lem wit="#α #κ #Pp">autem</lem>
+illud: <app><lem wit="#α #κ #Pp #Pz">autem</lem>
 <rdg wit="#G #m #v" ana="#lexical">aut</rdg></app>
 quod <app><lem wit="#α #κ #m #v">est</lem>
 <rdg wit="#π" ana="#additive">vere est</rdg></app>
-medium conficit quandam <app><lem wit="#γ #κ #E #Py #m #v">similitudinem</lem>
+medium <app><lem wit="#α #κ #π1 #m #v">conficit</lem>
+<rdg wit="#Pz" ana="#lexical #additive">consistit in</rdg></app>
+<app><lem wit="#α #κ #π1 #m #v">quandam</lem>
+<rdg wit="#Pz" ana="#morphological">quadam</rdg></app> 
+<app><lem wit="#γ #κ #E #Py #m #v">similitudinem</lem>
 <rdg wit="#Nu" ana="#lexical">similem</rdg>
-<rdg wit="#π" ana="#lexical">consonantiam</rdg></app>
-et conuenientiam so<milestone ed="#Nu" unit="column" n="B" break="no"/>norum 
+<rdg wit="#π" ana="#lexical"><app><lem wit="#π1">consonantiam</lem>
+  <rdg wit="#Pz" ana="#morphological">consonantia</rdg></app></rdg></app>
+et <app><lem wit="#α #κ #π1 #m #v">conuenientiam</lem>
+<rdg wit="#Pz" ana="#morphological">conuenientia</rdg></app> 
+so<milestone ed="#Nu" unit="column" n="B" break="no"/>norum 
 cum extremis reddit <app><lem wit="#α #κ #π">enim</lem>
 <rdg wit="#m #v" ana="#lexical">cum</rdg></app>
 <app><lem wit="#κ">similitudinem fere sonum</lem>
 <rdg wit="#α #π #m #v" ana="#lexical">
   <app><lem wit="#β #E #Va #m #v">similem fere sonum</lem>
-  <rdg wit="#G" ana="#ordinal">fere similem sonum</rdg>
-  <rdg wit="#Pp" ana="#morphological">similem fere sonorum</rdg>
-  <rdg wit="#Vb" ana="#lexical">similem fore sonum</rdg></app></rdg></app>
-media tacta ac si <app><lem wit="#α #κ #G #m #v">tangerentur ambe ultime.</lem>
+    <rdg wit="#G" ana="#ordinal">fere similem sonum</rdg>
+    <rdg wit="#Pp" ana="#morphological">similem fere sonorum</rdg>
+    <rdg wit="#Pz" ana="#subtractive">similem sonum</rdg>
+    <rdg wit="#Vb" ana="#lexical">similem fore sonum</rdg></app></rdg></app>
+media tacta ac si <app><lem wit="#α #κ #G #Pz #m #v">tangerentur ambe ultime.</lem>
 <rdg wit="#Pp" ana="#ordinal">ambe vltimis tangerentur</rdg></app>
 et hoc est quod <app><lem wit="#β #κ #π #E #Vb #m">dicit</lem>
 <rdg wit="#v" ana="#morphological">dictum</rdg>
 <rdg wit="#Va" ana="#subtractive"/></app>
-auditus videtur <app><lem wit="#α #G #Ma #Px #Vm #m #v">diiudicare</lem>
+auditus videtur <app><lem wit="#α #G #Ma #Px #Pz #Vm #m #v">diiudicare</lem>
 <rdg wit="#Vz" ana="#orthographical">diudicare</rdg>
 <rdg wit="#Pp" ana="#orthographical">diiiudicare</rdg></app>
 quod <app><lem wit="#α #π #Ma #Px #Vm #m #v">ipsa</lem>
@@ -11265,12 +11281,13 @@ Et <app><lem wit="#α #λ #π #m #v">ideo</lem>
 <rdg wit="#Px" ana="#lexical" cert="low">regule</rdg></app>
 in antiphonis <app><lem wit="#α #κ #m #v">solis</lem>
 <rdg wit="#π" ana="#morphological">solum</rdg></app>
-accidit quod vna <app><lem wit="#α #κ #G #m #v">corda</lem>
+accidit quod vna <app><lem wit="#α #κ #G #Pz #m #v">corda</lem>
 <rdg wit="#Pp" ana="#orthographical">cord</rdg></app>
 tacta uel <app><lem wit="#β #κ #π #E #Vb #m #v">cantata</lem>
 <rdg wit="#Va" ana="#lexical">canta</rdg></app> 
 <app><lem wit="#β #κ #E #Pp">cantetur</lem>
-<rdg wit="#γ #G #m #v" ana="#morphological">cantentur</rdg></app>
+<rdg wit="#γ #G #m #v" ana="#morphological">cantentur</rdg>
+<rdg wit="#Pz" ana="#additive">cantetur et</rdg></app>
 <milestone ed="#Py" unit="column" n="B"/>
 <app><lem wit="#π #E #Px #Py #m #v">reliqua</lem>
 <rdg wit="#γ" ana="#morphological">relique</rdg>
@@ -11283,25 +11300,25 @@ cum <app><lem wit="#α #κ #m #v">in</lem>
 <app><lem wit="#α #Px #Vm #Vz #m #v">concurratur</lem>
 <rdg wit="#Ma" ana="#morphological">concurrant</rdg>
 <rdg wit="#π" ana="#morphological">concurrat</rdg></app>
-quare dyapason <app><lem wit="#γ #κ #E #G #Nu #m #v">tantum</lem>
+quare dyapason <app><lem wit="#γ #κ #E #G #Nu #Pz #m #v">tantum</lem>
 <rdg wit="#Py" ana="#lexical">Sed</rdg>
 <rdg wit="#Pp" ana="#subtractive"/></app>
-inter alias <app><lem wit="#α #κ #m #v">proportiones</lem>
+inter alias <app><lem wit="#α #κ #Pz #m #v">proportiones</lem>
 <rdg wit="#G" ana="#lexical">concordias</rdg>
 <rdg wit="#Pp" ana="#subtractive"/></app>
-<app><lem wit="#α #κ #Pp #m #v">sola</lem>
+<app><lem wit="#α #κ #Pp #Pz #m #v">sola</lem>
 <rdg wit="#G" ana="#morphological">solo</rdg></app>
 ex <app><lem wit="#λ #π #E #Nu #Va #m #v">antiphonis est apparentius</lem>
 <rdg wit="#Va" ana="#orthographical">anthiphonis est apparentius</rdg>
 <rdg wit="#Px" ana="#orthographical">antifonis est apparentius</rdg>
 <rdg wit="#Vb" ana="#ordinal">apparentiis antiphonis est</rdg>
 <rdg wit="#Py" ana="#morphological">antiphonis est apparentior</rdg></app>
-tonis.
-<milestone ed="#Pp" unit="column" n="B"/>
-<milestone ed="#Vm" unit="folio" n="97v"/>      
+tonis.     
 <app><lem/>
-<rdg wit="#Vb #Vz" ana="#additive">etcetera</rdg>
+<rdg wit="#Pz #Vb #Vz" ana="#additive">etcetera</rdg>
 <rdg wit="#Px" ana="#additive">sequitur <num type="ordinal" value="20">20.</num> problema <num type="ordinal" value="19">19e.</num> particule.</rdg></app>
+<milestone ed="#Pp" unit="column" n="B"/>
+<milestone ed="#Vm" unit="folio" n="97v"/> 
      </p>
 </div>
 
