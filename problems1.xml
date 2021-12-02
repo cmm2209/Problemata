@@ -269,7 +269,7 @@
               <msIdentifier>
                 <settlement>Venice</settlement>
                 <repository>Biblioteca Nazionale Marciana</repository>
-                <idno>vat. lat. VI. 126</idno>
+                <idno>lat. VI. 126</idno>
               </msIdentifier>
             </msDesc>
           </witness>
@@ -6776,7 +6776,8 @@ SI AUTEM <app><lem wit="#G #Ma #Px #Tk #Va #m #v">MEDIA</lem>
 <rdg wit="#Pz" ana="#morphological">MEDIAM</rdg></app>
 UTRAQUE <app><lem wit="#G #Ma #Tk #Px #m #v">ALTA</lem>
 <rdg wit="#Va" ana="#lexical">ALIA</rdg>
-<rdg wit="#Pz" ana="#lexical">AUTEM</rdg></app>
+<rdg wit="#Pz" ana="#lexical">AUTEM</rdg>
+<note xml:lang="en">Klek reads ψιλα, Monro reads ψηλαι.</note></app>
 NON <app><lem wit="#G #Ma #Px #Tk #m #v">FUERIT</lem>
 <rdg wit="#Pz #Va" ana="#lexical">FIUNT</rdg></app>.</seg>
 <seg xml:id="ment-12.2">     
@@ -14276,6 +14277,12 @@ apparebit <app><lem wit="#γ #κ #π #E #Nu #m #v">
               </author>
               <title>De institutione musica</title>
             </bibl>
+            <bibl xml:id="GaAc">
+              <author>
+                <persName>Galen</persName>
+              </author>
+              <title>De morbo et accidenti; Greek: De symptomatum causis</title>
+            </bibl>
             <bibl xml:id="GaAP">
               <author>
                 <persName>Galen</persName>
@@ -14345,6 +14352,10 @@ apparebit <app><lem wit="#γ #κ #π #E #Nu #m #v">
                 </persName>
               </author>
               <title>Harmonica</title>
+            </bibl>
+            <bibl xml:id="SePr">
+              <author>Pseudo-Hermes, Pseudo-Gilbert of Poitiers</author>
+              <title>De sex rerum principiis</title>
             </bibl>
           </listBibl>
         </p>
