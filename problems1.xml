@@ -150,7 +150,7 @@
           <bibl xml:id="Kuksewicz1985">
             <abbr type="siglum">Kuksewiz 1985</abbr>. =
             <author>Kuksewicz, Zdzislaw</author>. 
-            <title level="a">Les <hi rend="italic">Problemata</hi> de Pietro d'Abano det leur 'Rédaction' par Jean de Jandun</title>. 
+            <title level="a">Les <hi rend="italic">Problemata</hi> de Pietro d'Abano et leur 'Rédaction' par Jean de Jandun</title>. 
             <title level="j">Medioevo</title> 11 (<date when="1985">1985</date>): <biblScope unit="page" from="113" to="137">113-37</biblScope>
           </bibl>
           <bibl xml:id="LeemansCoucke2011" type="article">
@@ -491,11 +491,11 @@
       <rdg wit="#Py" ana="#additive">Sequitur <num type="ordinal" value="19">xviiii.</num></rdg> 
       <rdg wit="#Pq" ana="#additive">Incipit particula <num type="ordinal" value="20">20<hi rend="superscript">a</hi></num> de armonia continens problemata <num type="cardinal" value="47">47</num></rdg>
       <rdg wit="#Pp" ana="#additive"><add place="margin"><num type="ordinal" value="20">20<hi rend="superscript">a</hi></num></add></rdg>
-      <rdg wit="#G" ana="#additive"><bibl><author><ref target="#Ar">Aristotelis</ref></author> <title><ref target="#ArPr">problemata</ref></title></bibl> de hiis que sunt circa armoniam particula <num type="ordinal" value="20">20<hi rend="superscript">m</hi>.</num> Capitulum <num type="ordinal" value="1">primum</num></rdg>
-      <rdg wit="#Ma #Mb" ana="#additive"><hi rend="rubricated">de <bibl><title><ref target="#ArPr">
+      <rdg wit="#G" ana="#additive"><ref><name ref="#Ar">Aristotelis</name> <title ref="#ArPr">problemata</title></ref> de hiis que sunt circa armoniam particula <num type="ordinal" value="20">20<hi rend="superscript">m</hi>.</num> Capitulum <num type="ordinal" value="1">primum</num></rdg>
+      <rdg wit="#Ma #Mb" ana="#additive"><hi rend="rubricated">de <ref><title ref="#ArPr">
         <app><lem wit="#Ma">problematibus</lem>
-          <rdg wit="#Mb" ana="#morphological">problemnati</rdg></app></ref></title> 
-        <author><ref target="#Ar">Arestotelis</ref></author></bibl> que sunt circa armoniam uel musicam particula 
+          <rdg wit="#Mb" ana="#morphological">problemnati</rdg></app></title> 
+        <name ref="#Ar">Arestotelis</name></ref> que sunt circa armoniam uel musicam particula 
         <num type="ordinal" value="19">19<hi rend="superscript">a</hi>.</num></hi></rdg>
     </app>
   </p>
@@ -573,18 +573,24 @@ quedam <app><lem wit="#α #λ #π #m #v">communia</lem>
 est musica et que <app><lem wit="#α #ρ #Ma #Mb #Px #Vm #Vo #m #v">ipsius</lem>
 <rdg wit="#Vz" ana="#additive">sint ipsius species</rdg>
 <rdg wit="#Pz" ana="#lexical">prius</rdg></app>?
-<app><lem xml:id="lem-1.1-Bo">
 <app><lem wit="#α #κ #m #v">Que</lem>
 <rdg wit="#π" ana="#subtractive"/></app>
-secundum <cit><app><lem wit="#β #E #Vb #m #v"><bibl><author><ref target="#Bo">boecium</ref></author> <title><ref target="#BoMu">musice</ref></title> <biblScope unit="book"><num type="ordinal" value="5">5°</num></biblScope></bibl></lem>
-<rdg wit="#λ" ana="#lexical"><bibl><author><ref target="#Bo">boecium</ref></author> <title><ref target="#BoMu">musice</ref></title> <biblScope unit="book"><num type="ordinal" value="4">4°</num></biblScope></bibl></rdg>
-<rdg wit="#Va" ana="#subtractive"><bibl><author><ref target="#Bo">boecium</ref></author> <title><ref target="#BoMu">musicce</ref></title></bibl></rdg>
-<rdg wit="#Px" ana="#lexical"><persName><ref target="#Bo">boecium</ref></persName> raritate <num type="ordinal" value="4">4°</num></rdg>
-<rdg wit="#π" ana="#lexical #ordinal"><bibl><author><ref target="#Bo">boecium</ref></author> 
+secundum <cit><ref><app><lem wit="#β #E #Vb #m #v"><name ref="#Bo">boecium</name> <title ref="#BoMu">musice</title> <num type="ordinal" value="5">5°</num></lem>
+<rdg wit="#λ" ana="#lexical"><name ref="#Bo">boecium</name> <title ref="#BoMu">musice</title> <num type="ordinal" value="4">4°</num></rdg>
+<rdg wit="#Va" ana="#subtractive"><name ref="#Bo">boecium</name> <title ref="#BoMu">musicce</title></rdg>
+<rdg wit="#Px" ana="#lexical"><name ref="#Bo">boecium</name> raritate <num type="ordinal" value="4">4°</num></rdg>
+<rdg wit="#π" ana="#lexical #ordinal"><name ref="#Bo">boecium</name>
   <app><lem wit="#Vo">in</lem>
   <rdg wit="#Pz" ana="#lexical">et</rdg>
   <rdg wit="#G #Pp #Pq" ana="#subtractive"/></app>
-  <biblScope unit="book"><num type="ordinal" value="1">primo</num></biblScope> <title><ref target="#BoMu">musice</ref></title></bibl></rdg></app>
+  <num type="ordinal" value="1">primo</num> 
+  <title ref="#BoMu">musice</title></rdg></app></ref>
+  <bibl corresp="#BoMu">
+    <author>Boethius</author>
+    <title>De inst. mus.</title>
+    <biblScope unit="book" n="5">V.</biblScope>
+    <biblScope unit="chapter" n="2">2</biblScope>
+    (ed. Friedlein p. 352, ll. 4-5)</bibl>
 <quote>
 <app><lem wit="#β #λ #E">est armonica</lem>
 <rdg wit="#Pp #Pq #Pz #Vo" ana="#ordinal">armonica est</rdg>
@@ -604,45 +610,46 @@ facultas <app><lem wit="#α #κ #π #m #v">differentias</lem>
   <rdg wit="#G #Pp #Pq" ana="#subtractive">ratione</rdg>
   <rdg wit="#Pz" ana="#subtractive">sonorum</rdg></app></rdg></app>
 perpendens.
-</quote>
-</cit>
-</lem>
-<note target="#lem-1.1-Bo" type="fontium">
-<bibl><author ref="#Bo">Boethius</author><title ref="#BoMu">De institutione musica</title><biblScope unit="book" n="5"/><biblScope unit="chapter" n="2"/>V.2, Friedlein p. 352, ll. 4-5</bibl></note></app>
-<app><lem xml:id="lem-1.1-Is">
+</quote></cit>
 Secundum <app><lem wit="#α #π #Ma #Mb #Px #Vm #m #v">uero</lem>
 <rdg wit="#Vz" ana="#subtractive"/></app> 
-<cit><bibl><author><ref target="#Is"><app><lem wit="#α #κ #π">ysidorum</lem>
+<cit><ref><name ref="#Is"><app><lem wit="#α #κ #π">ysidorum</lem>
 <rdg wit="#m" ana="#orthographical">ysidorium</rdg>
-<rdg wit="#v" ana="#orthographical">isidorium</rdg></app></ref></author>
+<rdg wit="#v" ana="#orthographical">isidorium</rdg></app></name>
 <app><lem wit="#α #λ #ρ #Vo #m #v">in</lem>
 <rdg wit="#Px" ana="#lexical">ut</rdg>
 <rdg wit="#Pz" ana="#subtractive"/></app>
-<app><lem wit="#β #G #Vb #Vm #m #v"><title><ref target="#IsEt">ethymologiis</ref></title></lem>
-<rdg wit="#Pp #Pq #Va #Vo" ana="#orthographical"><title><ref target="#IsEt">ethimologiis</ref></title></rdg>
-<rdg wit="#Ma #Mb" ana="#orthographical"><title><ref target="#IsEt">ethimologicis</ref></title></rdg>
-<rdg wit="#Pz" ana="#orthographical"><title><ref target="#IsEt">Metimologiis</ref></title></rdg>
-<rdg wit="#E #Px #Vm" ana="#lexical">ethicis</rdg></app></bibl>
+<app><lem wit="#β #G #Vb #Vm #m #v"><title ref="#IsEt">ethymologiis</title></lem>
+<rdg wit="#Pp #Pq #Va #Vo" ana="#orthographical"><title>ethimologiis</title></rdg>
+<rdg wit="#Ma #Mb" ana="#orthographical"><title>ethimologicis</title></rdg>
+<rdg wit="#Pz" ana="#orthographical"><title>metimologiis</title></rdg>
+<rdg wit="#E #Px #Vm" ana="#lexical">ethicis</rdg></app></ref>
+  <bibl corresp="#IsEt">
+    <author>Isidore of Seville</author>, 
+    <title>Etym.</title>
+    <biblScope unit="book" n="3">III</biblScope>.
+    <biblScope unit="chapter" n="15">15</biblScope>.
+    <biblScope unit="part">1</biblScope></bibl>
 <quote>est peritia modulationis, <app><lem wit="#β #κ #E #π #m #v">sono</lem>
 <rdg wit="#Vb" ana="#morphological">sonorum</rdg>
 <rdg wit="#Va" ana="#subtractive"/></app> 
-cantuque consistens.</quote></cit></lem>
-<note target="#lem-1.1-Is"><bibl><author ref="#Is">Isidore of Seville</author> <title ref="#IsEt">Etymologies</title><biblScope unit="book" n="3"/><biblScope unit="chapter" n="15"/> III.15.1</bibl></note></app>
+cantuque consistens.</quote></cit>
    </p>
    <p>
 Dicitur etiam quod 
-<app><lem xml:id="lem-1.5-Ar">
 <cit><quote>sit scientia numeri ad sonos <app><lem wit="#β #γ #κ #m #v">proportionati</lem>
 <rdg wit="#π" ana="#morphological">proportionatos</rdg>
 <rdg wit="#E" ana="#morphological"><term xml:id="proport.">proportionatis</term><gloss target="#proport." rend="interlinear above, lighter ink">relati</gloss></rdg></app>.</quote></cit>
-</lem>
-<note target="#lem-1.5-Ar" type="parallel">Cf. Ar. Post. An. 90a, 14-23</note></app>
+<bibl cert="low" corresp="#ArPA">
+  <author>Arist.</author>
+  <term>An. post.</term>
+  <biblScope unit="page">90a</biblScope>,
+  <biblScope unit="line" from="14" to="23">14-23</biblScope>
+</bibl>
 <milestone ed="#Va" unit="folio" n="72v"/>
-Que 
-<app><lem xml:id="lem-1.2-Is">
-secundum <cit><bibl><author><ref target="#Is"><app><lem wit="#β #γ #π #Ma #Mb #Px #Vm #m">ysidorum</lem>
+Que secundum <cit><ref><name ref="#Is"><app><lem wit="#β #γ #π #Ma #Mb #Px #Vm #m">ysidorum</lem>
 <rdg wit="#Vz #v" ana="#orthographical">isidorum</rdg>
-<rdg wit="#E" ana="#lexical">yrodorum</rdg></app></ref></author></bibl>
+<rdg wit="#E" ana="#lexical">yrodorum</rdg></app></name></ref>
 <quote>dicitur <app><lem wit="#γ #κ #π #E #Nu #m #v">a <foreign xml:lang="grc" xml:id="muso">muso</foreign></lem>
 <rdg wit="#Py" ana="#lexical">autem misso</rdg></app>
 <gloss target="#muso"><app><lem wit="#γ #Nu #Px #Vz #m #v">quasi a querendo</lem>
@@ -662,9 +669,9 @@ quia <app><lem wit="#β #κ #E #Va">per eam uis</lem>
 <app><lem wit="#β #γ #κ #m #v">querebatur</lem>
 <rdg wit="#E" ana="#morphological">queratur</rdg>
 <rdg wit="#π" ana="#lexical">acquiritur</rdg></app>.
-Unde a poetis <persName><ref target="#Ju">iouis</ref></persName> et <persName><ref target="#Mem"><app><lem wit="#β #κ #E #G #Pp #Pz #Vo">memorie</lem>
+Unde a poetis <persName ref="#Ju">iouis</persName> et <persName ref="#Mem"><app><lem wit="#β #κ #E #G #Pp #Pz #Vo">memorie</lem>
 <rdg wit="#Va" ana="#orthographical">menone</rdg>
-<rdg wit="#Pq #Vb #m #v" ana="#orthographical">memone</rdg></app></ref></persName>
+<rdg wit="#Pq #Vb #m #v" ana="#orthographical">memone</rdg></app></persName>
 <app><lem wit="#α #κ #π #m #v">filias</lem>
 <rdg wit="#Pz" ana="#lexical">philos</rdg></app>
 <app><lem wit="#α #Px #Pz #Vm #Vo #Vz #m #v">mutas</lem>
@@ -691,8 +698,13 @@ cum non <app><lem wit="#β #Vb #Vz #m">possint</lem>
 <rdg wit="#Va" ana="#orthographical">posint</rdg>
 <rdg wit="#Ma #Mb #Px #Vm #v" ana="#morphological">possunt</rdg>
 <rdg wit="#π #E" ana="#morphological">possit</rdg></app>
-scribi.</quote></cit></lem>
-<note target="#lem-1.2-Is"><bibl><author ref="#Is">Isidore of Seville</author> <title ref="#IsEt">Etymologies</title><biblScope unit="book" n="3"/><biblScope unit="chapter" n="15"/> III.15.1-2</bibl></note></app>
+scribi.</quote>
+  <bibl corresp="#IsEt">
+    <author>Isidore of Seville</author>,
+    <title>Etym.</title>,
+    <biblScope unit="book" n="3">III</biblScope>.
+    <biblScope unit="chapter" n="15">15</biblScope>.
+    <biblScope unit="part" from="1" to="2">1-2</biblScope></bibl></cit>
 <app><lem wit="#β #κ #Va #m #v">a nonnullis</lem>
 <rdg wit="#Vb" ana="#lexical"><unclear>Amat</unclear> nonnullis</rdg>
 <rdg wit="#E" ana="#lexical">nullus</rdg>
@@ -734,57 +746,59 @@ aquaticis <app><lem wit="#β #κ #π #E #Va #m #v">similiter</lem>
 <app><lem wit="#γ #κ #ρ #E #Nu #Vo #m #v">exercita</lem>
 <rdg wit="#Py" ana="#orthographical">exercitica</rdg>
 <rdg wit="#Pz" ana="#lexical">ex certa</rdg></app>.
-<app><lem xml:id="lem-1.3-Is">
-<quote><app><lem wit="#α #ρ #Ma #Px #Vo #Vz #m #v">Refert autem</lem>
+<cit><quote><app><lem wit="#α #ρ #Ma #Px #Vo #Vz #m #v">Refert autem</lem>
 <rdg wit="#Vm" ana="#orthographical">Reffert autem</rdg>
 <rdg wit="#Mb" ana="#lexical">Refert aut</rdg>
 <rdg wit="#Pz" ana="#lexical #subtractive">Refertur</rdg></app>
-<app><lem wit="#α #λ #ρ #Vo #m #v"><persName><ref target="#Mos">moyses</ref></persName> hanc</lem>
-<rdg wit="#Px" ana="#orthographical"><persName><ref target="#Mos">moises</ref></persName> hanc</rdg>
-<rdg wit="#Pz" ana="#ordinal">hanc <persName><ref target="#Mos">moyses</ref></persName></rdg></app>
+<app><lem wit="#α #λ #ρ #Vo #m #v"><persName ref="#Mos">moyses</persName> hanc</lem>
+<rdg wit="#Px" ana="#orthographical"><persName ref="#Mos">moises</persName> hanc</rdg>
+<rdg wit="#Pz" ana="#ordinal">hanc <persName ref="#Mos">moyses</persName></rdg></app>
 inuenisse 
 <app xml:id="app-homt-1.1a" next="#app-homt-1.1b"><lem wit="#α #λ #π #m #v">
-    <app><lem wit="#G #Ma #Nu #Mb #Vm #Vz #m #v"><persName><ref target="#Tub">tubal</ref></persName></lem>
+    <app><lem wit="#G #Ma #Nu #Mb #Vm #Vz #m #v"><persName ref="#Tub">tubal</persName></lem>
     <rdg wit="#E #Vo" ana="#orthographical">cubal</rdg>
     <rdg wit="#Pz" ana="#orthographical">gubal</rdg>
     <rdg wit="#Pq" ana="#orthographical">habal</rdg>
     <rdg wit="#Vb" ana="#orthographical">tutubal</rdg>
     <rdg wit="#Va" ana="#orthographical">tutubalis</rdg>
     <rdg wit="#Pp" ana="#lexical">aabal</rdg>
-    <rdg wit="#Py" ana="#additive"><persName><ref target="#Tub">tubal</ref></persName> fratrem <persName><ref target="#Ca">cayn</ref></persName></rdg></app>
+    <rdg wit="#Py" ana="#additive"><persName ref="#Tub">tubal</persName> fratrem <persName ref="#Ca">cayn</persName></rdg></app>
   de <app><lem wit="#α #π #Ma #Mb #Vm #m #v">stirpe</lem>
     <rdg wit="#Vz" ana="#orthographical">styrpe</rdg></app>
-  <persName><ref target="#Ca"><app><lem wit="#Pp #Py #Va #Vo #Vz">cayn</lem>
+  <persName ref="#Ca"><app><lem wit="#Pp #Py #Va #Vo #Vz">cayn</lem>
     <rdg wit="#Nu" ana="#orthographical">chayn</rdg>
     <rdg wit="#E #G #Pq #Pz #Vm" ana="#orthographical">caym</rdg>
     <rdg wit="#Vb" ana="#orthographical">kaym</rdg>
-    <rdg wit="#Ma #Mb #m #v" ana="#orthographical">chaym</rdg></app></ref></persName>
+    <rdg wit="#Ma #Mb #m #v" ana="#orthographical">chaym</rdg></app></persName>
   <app><lem wit="#α #λ #Pp #Vo #m #v">ante diluuium</lem>
     <rdg wit="#G" ana="#orthographical">ante dyluuium</rdg>
     <rdg wit="#Pz" ana="#orthographical">ante diluium</rdg>
     <rdg wit="#Pq" ana="#subtractive"/></app></lem>
-<rdg wit="#Px" cause="#homeoteleuton" ana="#subtractive"/></app>.</quote></lem>
-<note target="#lem-1.3-Is"><bibl><author ref="#Is">Isidore of Seville</author> <title ref="#IsEt">Etymologies</title><biblScope unit="book" n="3"/><biblScope unit="chapter" n="16"/> III.16.1</bibl></note></app>
-<app><lem xml:id="lem-1.2-Bo">
+<rdg wit="#Px" cause="#homeoteleuton" ana="#subtractive"/></app>.</quote>
+     <bibl corresp="#IsEt"><author>Isidore of Seville</author>,
+       <title>Etym.</title>
+       <biblScope unit="book" n="3">III</biblScope>.
+       <biblScope unit="chapter" n="16">16</biblScope>.
+       <biblScope unit="part" n="1">1</biblScope></bibl></cit>
 <app xml:id="app-homt-1.1b" prev="#app-homt-1.1a"><lem wit="#α #λ #π #m #v">
-   <quote>Sed <app><lem wit="#α #λ #ρ #Vo #m #v">greci</lem>
-   <rdg wit="#Pz" ana="#lexical">gressi</rdg></app></quote>
-   ut apparet per <bibl><author><ref target="#Mac">macrobium</ref></author></bibl>
-   et <bibl><author><app><lem wit="#β #γ #λ #ρ #Vo #m #v"><ref target="#Bo">boecium</ref></lem>
+   <cit xml:id="cit-1.1a" next="#cit-1.1b"><quote>Sed <app><lem wit="#α #λ #ρ #Vo #m #v">greci</lem>
+   <rdg wit="#Pz" ana="#lexical">gressi</rdg></app>,</quote>
+   <ref>ut apparet per <name ref="#Mac">macrobium</name>
+   et <name ref="#Bo"><app><lem wit="#β #γ #λ #ρ #Vo #m #v">boecium</lem>
    <rdg wit="#E" ana="#orthographical">botium</rdg>
-   <rdg wit="#Pz" ana="#lexical">bonum</rdg></app></author></bibl>
+   <rdg wit="#Pz" ana="#lexical">bonum</rdg></app></name>,</ref>
    <quote>dicunt 
    <milestone ed="#Mb" unit="folio" n="39r"/>
    eam <app><lem wit="#α #λ #π #m">inuenisse</lem>
-   <rdg wit="#v" ana="#orthographical">inueuisse</rdg></app></quote></lem>
+   <rdg wit="#v" ana="#orthographical">inueuisse</rdg></app></quote></cit></lem>
 <rdg wit="#Px" cause="#homeoteleuton" ana="#subtractive"/></app>
-<quote><app><lem wit="#Py"><persName><ref target="#Pyth">pytagori samium</ref></persName></lem>
-<rdg wit="#E #Nu" ana="#orthographical"><persName><ref target="#Pyth">pictagori samium</ref></persName></rdg>
-<rdg wit="#Px" ana="#orthographical"><persName><ref target="#Pyth">pictagori samimum</ref></persName></rdg>
-<rdg wit="#Vb" ana="#morphological"><persName><ref target="#Pyth">pictagorius samium</ref></persName></rdg>
-<rdg wit="#Ma #Mb #Vz" ana="#morphological"><persName><ref target="#Pyth">pitagoram samium</ref></persName></rdg>
-<rdg wit="#Vm" ana="#morphological"><persName><ref target="#Pyth">pictagoram samium</ref></persName></rdg>
-<rdg wit="#π" ana="#morphological #subtractive"><persName><ref target="#Pyth">pictagoram</ref></persName></rdg>
+<cit xml:id="cit-1.1b" prev="#cit-1.1a"><quote><app><lem wit="#Py"><persName ref="#Pyth">pytagori samium</persName></lem>
+<rdg wit="#E #Nu" ana="#orthographical"><persName ref="#Pyth">pictagori samium</persName></rdg>
+<rdg wit="#Px" ana="#orthographical"><persName ref="#Pyth">pictagori samimum</persName></rdg>
+<rdg wit="#Vb" ana="#morphological"><persName ref="#Pyth">pictagorius samium</persName></rdg>
+<rdg wit="#Ma #Mb #Vz" ana="#morphological"><persName ref="#Pyth">pitagoram samium</persName></rdg>
+<rdg wit="#Vm" ana="#morphological"><persName ref="#Pyth">pictagoram samium</persName></rdg>
+<rdg wit="#π" ana="#morphological #subtractive"><persName ref="#Pyth">pictagoram</persName></rdg>
 <rdg wit="#m #v" ana="#lexical">pythagorici samium</rdg>
 <rdg wit="#Va" ana="#lexical #subtractive">pitagorici</rdg></app>
 sonitu <app><lem wit="#π #E #Mb #Nu #Vb #Vm #Vz #m #v">malleorum</lem>
@@ -800,8 +814,19 @@ casu in <app><lem wit="#γ #κ #E #G #Pp #Pq #Py #Pz #Vo #m #v">publicum</lem>
 fabros, et cordarum <app><lem wit="#β #γ #λ #m #v">demum impulsione</lem>
 <rdg wit="#E #Pp #Px" ana="#orthographical">demum inpulsione</rdg>
 <rdg wit="#Pq #Pz #Vo" ana="#lexical">deinde impulsione</rdg>
-<rdg wit="#G" ana="#lexical">deinde pulsione</rdg></app>.</quote></lem>
-<note target="#lem-1.2-Bo" type="fontium"><bibl><author ref="#Bo">Boethius</author> <title ref="#BoMu">De institutione musica</title><biblScope unit="book" n="1"/><biblScope unit="chapter" n="1"/> I.X, Friedlein p. 196-7;</bibl> <bibl><author ref="#Mac">Macrobius</author> <title ref="#MacSS">Commentarium in somnium Scipionis</title><biblScope unit="book" n="2"/><biblScope unit="chapter" n="1"/> II.1, Eyssenhardt p. 572-575</bibl></note></app>
+<rdg wit="#G" ana="#lexical">deinde pulsione</rdg></app>.</quote>
+  <bibl corresp="#BoMu">
+    <author>Boethius</author>,
+    <title>De inst. mus.</title>
+    <biblScope unit="book" n="1">I</biblScope>.
+    <biblScope unit="chapter" n="10">10</biblScope>
+    (Friedlein p. 196-7);</bibl> 
+  <bibl corresp="#MacSS">
+    <author>Macrobius</author>,
+    <title>Comm. in somn. Scip.</title>
+    <biblScope unit="book" n="2">II</biblScope>.
+    <biblScope unit="chapter" n="1">1</biblScope>
+    (Eyssenhardt p. 572-575)</bibl></cit>
     </p>
     <p>
 <app><lem wit="#α #κ #Pq #Pz #Vo #m #v">Diuiditur</lem>
@@ -837,9 +862,9 @@ instrumentalem.
 in sono armonico, <app><lem wit="#β #γ #π #Ma #Mb #Px #Vz #m #v">quem</lem>
 <rdg wit="#Vm" ana="#morphological">que</rdg>
 <rdg wit="#E" ana="#morphological">quam</rdg></app>
-causant orbes celestes, secundum <app><lem wit="#β #π #E #Vm #Vz"><persName><ref target="#Pyth">pictagoram</ref></persName></lem>
-<rdg wit="#Px" ana="#orthographical"><persName><ref target="#Pyth">pictigoram</ref></persName></rdg>
-<rdg wit="#Ma #Mb" ana="#orthographical"><persName><ref target="#Pyth">pitagoram</ref></persName></rdg>
+causant orbes celestes, secundum <app><lem wit="#β #π #E #Vm #Vz"><persName ref="#Pyth">pictagoram</persName></lem>
+<rdg wit="#Px" ana="#orthographical"><persName ref="#Pyth">pictigoram</persName></rdg>
+<rdg wit="#Ma #Mb" ana="#orthographical"><persName ref="#Pyth">pitagoram</persName></rdg>
 <rdg wit="#m #v" ana="#lexical">pithagoricos</rdg>
 <rdg wit="#Vb" ana="#lexical">pictagoricos</rdg>
 <rdg wit="#Va" ana="#lexical">pitagoricos</rdg></app>
@@ -850,7 +875,6 @@ cum aliis musicis,
 <rdg wit="#m #v" ana="#lexical"><choice><expan>d<ex>iffe</ex>r<ex>u</ex>ntur</expan><abbr>drntur</abbr></choice></rdg></app>
 <app><lem wit="#α #κ #m #v">commotos</lem>
 <rdg wit="#π" ana="#morphological">commoti</rdg></app>.
-<app><lem xml:id="lem-1.1-Ar">
 <cit><quote><app><lem wit="#α #λ #π #m #v">Sonum</lem>
 <rdg wit="#Px" ana="#subtractive"/></app>
 <app><lem wit="#γ #κ #π #E #Nu #m #v">enim</lem>
@@ -902,20 +926,27 @@ percipientibus <app><lem wit="#α #λ #G #Pq #Pz #Vo #m #v">consuetudine</lem>
 <rdg wit="#ρ #Vo" ana="#morphological">quod</rdg>
 <rdg wit="#Pz" ana="#morphological">quo</rdg>
 <rdg wit="#Vb" ana="#morphological">quorum</rdg></app>
-<app><lem wit="#β #E #Px #m #v"><bibl><author><ref target="#Ar">aristotelem</ref></author> impugnat <title><ref target="#ArCa">celi et mundi</ref></title> 
+<app><lem wit="#β #E #Px #m #v"><ref><name ref="#Ar">aristotelem</name></ref> impugnat <ref><title ref="#ArCa">celi et mundi</title> 
     <app><lem wit="#β #E #m #v"/>
     <rdg wit="#Px" ana="#additive">et</rdg></app>
-  <biblScope unit="book"><num type="ordinal" value="2">2°.</num></biblScope></bibl></lem>
-<rdg wit="#γ #λ #ρ #Vo" ana="#ordinal"><bibl><author><ref target="#Ar">aristotelem</ref></author> impugnat 
-    <app><lem wit="#γ #λ #G #Pq"/>
+  <num type="ordinal" value="2">2°.</num></ref></lem>
+<rdg wit="#γ #λ #ρ #Vo" ana="#ordinal"><ref><name ref="#Ar">aristotelem</name></ref> impugnat 
+    <ref><app><lem wit="#γ #λ #G #Pq"/>
     <rdg wit="#Pp #Vo" ana="#additive">in</rdg></app>
-  <biblScope unit="book"><app><lem wit="#λ #ρ #Va #Vo"><num type="ordinal" value="2">2°</num></lem>
-    <rdg wit="#Vb" ana="#lexical"><num type="ordinal" value="3">3°</num></rdg></app></biblScope>
-  <title><ref target="#ArCa"><app><lem wit="#γ #Mb #Vm #Vo #Vz">celi et mundi.</lem>
+  <app><lem wit="#λ #ρ #Va #Vo"><num type="ordinal" value="2">2°</num></lem>
+    <rdg wit="#Vb" ana="#lexical"><num type="ordinal" value="3">3°</num></rdg></app>
+  <title ref="#ArCa"><app><lem wit="#γ #Mb #Vm #Vo #Vz">celi et mundi</lem>
     <rdg wit="#Ma" ana="#orthographical">celi et mondi</rdg>
-    <rdg wit="#G #Pp #Pq" ana="#subtractive">celi</rdg></app></ref></title></bibl></rdg>
-<rdg wit="#Pz" ana="#ordinal #additive"><bibl><author><ref target="#Ar">aristotelem</ref></author> in <biblScope unit="book"><num type="ordinal" value="2">2°</num></biblScope> <title><ref target="#ArCa">celi et mundi</ref></title></bibl> inpungnat.</rdg></app></cit></lem>
-<note target="#lem-1.1-Ar" type="fontium"><bibl><author ref="#Ar">Aristotle</author> <title ref="#ArCa">De Caelo</title><biblScope unit="book" n="2"/><biblScope unit="chapter" n="9"/> II.9, 290b, l. 25</bibl></note></app>
+    <rdg wit="#G #Pp #Pq" ana="#subtractive">celi</rdg></app>.</title></ref></rdg>
+<rdg wit="#Pz" ana="#ordinal #additive"><ref><name ref="#Ar">aristotelem</name> in <num type="ordinal" value="2">2°</num> 
+  <title ref="#ArCa">celi et mundi</title></ref> inpungnat.</rdg></app>
+  <bibl corresp="#ArCa">
+    <author>Arist.</author> 
+    <title>De caelo</title>,
+    <biblScope unit="book" n="2">II</biblScope>.
+    <biblScope unit="chapter" n="9">9</biblScope>,
+    <biblScope unit="page" n="290b">290b</biblScope>,
+    l. <biblScope unit="line" n="25">25</biblScope></bibl></cit>
     </p>
     <p>
 Musica uero <app><lem wit="#γ #κ #π #E #Nu #m #v">humana</lem>
@@ -966,17 +997,16 @@ habitum ponentibus animam
 quandam armonicam <app><lem wit="#α #κ #m #v">fore consistentiam</lem>
 <rdg wit="#Pz #Vo" ana="#morphological">esse consistentiam</rdg>
 <rdg wit="#G #Pp #Pq" ana="#ordinal #morphological">consistentiam esse</rdg></app>.
-<app><lem xml:id="lem-1.1-Mas">
-Vnde <cit><app><lem wit="#β #E" ana="#lexical">datum in <bibl><title><ref target="#MasAph">afforismis</ref></title></bibl></lem>
-<rdg wit="#Px" ana="#orthographical"><choice><expan>da<ex>tu</ex>m</expan><abbr>dam</abbr></choice> in <bibl><title><ref target="#MasAph">aforismis</ref></title></bibl></rdg>
-<rdg wit="#γ #λ #m #v" ana="#lexical">dictum est in <bibl><title><ref target="#MasAph"><app><lem wit="#Vb #Vm #Vz #m #v">afforismis</lem>
+Vnde <cit><app><lem wit="#β #E" ana="#lexical">datum in <ref><title ref="#MasAph">afforismis</title></ref></lem>
+<rdg wit="#Px" ana="#orthographical"><choice><expan>da<ex>tu</ex>m</expan><abbr>dam</abbr></choice> in <ref><title ref="#MasAph">aforismis</title></ref></rdg>
+<rdg wit="#γ #λ #m #v" ana="#lexical">dictum est in <ref><title ref="#MasAph"><app><lem wit="#Vb #Vm #Vz #m #v">afforismis</lem>
     <rdg wit="#Va" ana="#orthographical">amforismis</rdg>
-    <rdg wit="#Ma #Mb" ana="#orthographical"><space/></rdg></app></ref></title></bibl></rdg>
-<rdg wit="#π" ana="#lexical"><bibl><author><ref target="#Dam"><app><lem wit="#G #Pq #Pz #Vo">damascenus</lem>
-    <rdg wit="#Pp" ana="#orthographical">damacenus</rdg></app></ref></author>
-  in <title><ref target="#MasAph"><app><lem wit="#Pp #Pz #Vo">afforismis</lem>
+    <rdg wit="#Ma #Mb" ana="#orthographical"><space/></rdg></app></title></ref></rdg>
+<rdg wit="#π" ana="#lexical"><ref><name ref="#Dam"><app><lem wit="#G #Pq #Pz #Vo">damascenus</lem>
+    <rdg wit="#Pp" ana="#orthographical">damacenus</rdg></app></name>
+  in <title ref="#MasAph"><app><lem wit="#Pp #Pz #Vo">afforismis</lem>
     <rdg wit="#G" ana="#orthographical">amforismis</rdg>
-    <rdg wit="#Pq" ana="#lexical">ampliori</rdg></app></ref></title></bibl></rdg></app>
+    <rdg wit="#Pq" ana="#lexical">ampliori</rdg></app></title></ref></rdg></app>
 <quote><app><lem wit="#β #π #E #Mb #Px #Vb #Vm #Vz">colligatio</lem>
 <rdg wit="#Ma #m #v" ana="#orthographical">coligatio</rdg>
 <rdg wit="#Va" ana="#lexical">colicgio</rdg></app>
@@ -989,8 +1019,11 @@ naturalis consonantiam <app><lem wit="#α #κ #G #Pp #Pz #Vo #m #v">facta</lem>
 <app><lem wit="#α #κ #G #Pz #Vo #m #v">est</lem>
 <rdg wit="#Pp #Pq" ana="#subtractive"/></app>,
 ut <app><lem wit="#κ">substat</lem>
-<rdg wit="#α #π #m #v" ana="#lexical">subsistat</rdg></app>,</quote></cit></lem>
-<note target="#lem-1.1-Mas" type="fontium"><bibl><author ref="#Mas">Yuhanna ibn Masawaih</author> <title ref="#MasAph">Aphorisms</title></bibl> See <ref target="https://digi.vatlib.it/view/MSS_Vat.lat.2460">Vat. Lat. 2460</ref>, f. 39v, ll.7-8</note></app>
+<rdg wit="#α #π #m #v" ana="#lexical">subsistat</rdg></app>,</quote>
+  <bibl corresp="#MasAph">
+    <author>Yuhanna ibn Masawaih</author>,
+    <title>Aph.</title>,
+  (Vat. Lat. 2460, f. 39v, ll.7-8)</bibl></cit>
 quare 
 <milestone ed="#Vm" unit="column" n="B"/>
 <app><lem wit="#κ #E #Py #Pz #Va #m #v">huius</lem>
@@ -1096,11 +1129,10 @@ aut quasi <app><lem wit="#β #π #Ma #Mb #Px #Va #Vm #m #v">omni modo</lem>
 <app><lem wit="#γ #π #E #Ma #Mb #Nu #Vz #m #v">Que</lem>
 <rdg wit="#Px #Vm" ana="#morphological">Qui</rdg>
 <rdg wit="#Py" ana="#lexical">Dicitur</rdg></app>
-<app><lem xml:id="lem-1.4-Is">
-iuxta <cit><bibl><author><ref target="#Is"><app><lem wit="#β #π #Ma #Mb #Px #Vb #Vm">ysidorum</lem>
+iuxta <cit><ref><name ref="#Is"><app><lem wit="#β #π #Ma #Mb #Px #Vb #Vm">ysidorum</lem>
 <rdg wit="#E" ana="#orthographical">ysydorum</rdg>
 <rdg wit="#Va #Vz" ana="#orthographical">isidorum</rdg>
-<rdg wit="#m #v" ana="#orthographical">isidorium</rdg></app></ref></author></bibl>
+<rdg wit="#m #v" ana="#orthographical">isidorium</rdg></app></name></ref>
 <quote><app><lem wit="#α #π #Ma #Mb #Vz">diuiditur</lem>
 <rdg wit="#m #v" ana="#morphological">diuidetur</rdg>
 <rdg wit="#Px #Vm" ana="#lexical">dicitur</rdg></app>
@@ -1189,8 +1221,13 @@ suauiter <app><lem wit="#α #π #m #v">uel</lem>
 non suauiter sonus <app><lem wit="#β #κ #G #Pz #Va #Vo #m #v">cohereat</lem>
 <rdg wit="#Vb" ana="#orthographical">coherreat</rdg>
 <rdg wit="#Pp" ana="#orthographical">coherteat</rdg>
-<rdg wit="#Pq" ana="#lexical">adhereat</rdg></app>.</quote></cit></lem>
-<note target="#lem-1.4-Is"><bibl><author ref="#Is">Isidore of Seville</author> <title ref="#IsEt">Etymologies</title><biblScope unit="book" n="3"/><biblScope unit="chapter" n="18"/> III.18.1-2</bibl></note></app>
+<rdg wit="#Pq" ana="#lexical">adhereat</rdg></app>.</quote>
+  <bibl corresp="#IsEt">
+    <author>Isidore of Seville</author>,
+    <title>Etym.</title>
+    <biblScope unit="book" n="3">III</biblScope>.
+    <biblScope unit="chapter" n="18">18</biblScope>.
+    <biblScope unit="page" from="1" to="2">1-2</biblScope></bibl></cit>
 <milestone ed="#Pp" unit="folio" n="184r"/>
    </p>
    <p>
@@ -1246,8 +1283,8 @@ temporum ut apparet <app><lem wit="#α #κ #ρ #Vo #m #v">in</lem>
 <rdg wit="#γ #Pz" ana="#lexical">introductione</rdg></app>
 musice
 <milestone ed="#Vb" unit="folio" n="108v"/>
-<app><lem wit="#β #λ #π #E #m #v"><persName><ref target="#Gu">guidonis</ref></persName></lem>
-<rdg wit="#Va" ana="#orthographical"><persName><ref target="#Gu">gruidonis</ref></persName></rdg>
+<app><lem wit="#β #λ #π #E #m #v"><persName ref="#Gu">guidonis</persName></lem>
+<rdg wit="#Va" ana="#orthographical"><persName ref="#Gu">gruidonis</persName></rdg>
 <rdg wit="#Vb" ana="#lexical">grauidons</rdg>
 <rdg wit="#Px" ana="#lexical">gradionis</rdg></app>.  
 et circa <app><lem wit="#β #γ #κ #π #m #v">has</lem>
@@ -1260,17 +1297,22 @@ et <app><lem wit="#α #κ #Pp #Pq #Pz #Vo #m #v">maxime</lem>
 <rdg wit="#Pz" ana="#lexical">et</rdg></app>
 <app><lem wit="#α #π #Ma #Mb #Px #Vz #m #v">priores</lem>
 <rdg wit="#Vm" ana="#subtractive"/></app>,
-<app><lem xml:id="lem-1.2-Ar">
 <app><lem wit="#α #π #Px #m #v">dubitat</lem>
 <rdg wit="#λ" ana="#morphological">dubitabit</rdg></app>
-<cit><bibl><author><ref target="#Ar">aristoteles</ref></author></bibl>
+<cit><ref><name ref="#Ar">aristoteles</name></ref>
 <quote><app><lem wit="#γ #κ #E #G #Nu #Pp #Pq #Pz #m #v">vtilitas</lem>
 <rdg wit="#Py" ana="#lexical">vnitas</rdg>
 <rdg wit="#Vo" ana="#lexical">volitas</rdg></app>
 <app><lem wit="#α #κ #m #v">uero</lem>
 <rdg wit="#π" ana="#subtractive"/></app>
-musice est,</quote></cit></lem>
-<note target="#lem-1.2-Ar" type="fontium"><bibl><author ref="#Ar">Aristotle</author> <title ref="#ArPo">Politics</title><biblScope unit="book" n="8"/><biblScope unit="page" n="1339a"/><biblScope unit="line" n="11"/> VIII.5, 1339a, l. 11</bibl></note></app>
+musice est,</quote>
+  <bibl corresp="#ArPo">
+    <author>Arist.</author>
+    <title ref="#ArPo">Pol.</title>
+    <biblScope unit="book" n="8">VIII</biblScope>.
+    <biblScope unit="chapter" n="5"></biblScope>,
+    <biblScope unit="page" n="1339a">1339a</biblScope>,
+    l. <biblScope unit="line" n="11">11</biblScope></bibl></cit>
 quia delectat <app><lem wit="#κ">animos</lem>
 <rdg wit="#α #π #m #v" ana="#morphological">animas</rdg></app>
 <app><lem wit="#κ #Nu">excitat, et</lem>
@@ -1317,28 +1359,31 @@ reddit <app><lem wit="#β #κ #E #Vb #m #v">faciles</lem>
 <rdg wit="#Va" ana="#morphological">facille</rdg>
 <rdg wit="#π" ana="#morphological">facilius</rdg></app>
 tollerare.
-<app><lem xml:id="lem-1.3-Ar">
-Unde <cit><app><lem wit="#α #Ma #Mb #Pp #Pz #Vo #Vz #m #v"><bibl><title><ref target="#ArPo">
+Unde <cit><ref><app><lem wit="#α #Ma #Mb #Pp #Pz #Vo #Vz #m #v"><title ref="#ArPo">
     <app><lem wit="#E #Ma #Mb #Nu #Pz #Va #Vo #Vz #m #v">politicorum</lem>
-    <rdg wit="#Pp #Py #Vb" ana="#orthographical">polliticorum</rdg></app></ref></title>
-  <biblScope unit="book"><num type="ordinal" value="8">8°</num></biblScope></bibl>:</lem>
-<rdg wit="#G #Pq #Vm" ana="#ordinal"><bibl><biblScope unit="book"><num type="ordinal" value="8">8°</num></biblScope> <title ref="#ArPo"><app><lem wit="#G #Pq">politicorum</lem>
-    <rdg wit="#Vm" ana="#orthographical">polliticorum</rdg></app></title></bibl></rdg>
-<rdg wit="#Px" ana="#lexical"><bibl><title ref="#ArPo">palliticorum</title> <biblScope unit="book"><num type="cardinal" value="2">duo</num></biblScope></bibl></rdg></app>
+    <rdg wit="#Pp #Py #Vb" ana="#orthographical">polliticorum</rdg></app></title>
+  <num type="ordinal" value="8">8°</num>:</lem>
+<rdg wit="#G #Pq #Vm" ana="#ordinal"><num type="ordinal" value="8">8°</num> <title ref="#ArPo"><app><lem wit="#G #Pq">politicorum</lem>
+    <rdg wit="#Vm" ana="#orthographical">polliticorum</rdg></app></title></rdg>
+<rdg wit="#Px" ana="#lexical"><title ref="#ArPo">palliticorum</title> <num type="cardinal" value="2">duo</num></rdg></app></ref>
 <quote>musica habet delectationem naturalem propter quod omnibus etatibus et omnibus <app><lem wit="#β #κ #E #Pp #Pz #Vb #Vo #m">moribus</lem>
 <rdg wit="#Va" ana="#additive">et moribus</rdg>
 <rdg wit="#v" ana="#lexical">motibus</rdg>
 <rdg wit="#G #Pq" ana="#lexical">horis</rdg></app>
-usus ipsius est amicus.</quote></cit></lem>
-<note target="#lem-1.3-Ar" type="fontium"><bibl><author ref="#Ar">Aristotle</author> <title ref="#ArPo">Politics</title><biblScope unit="book" n="8"/><biblScope unit="page" n="1340a"/><biblScope unit="line" n="3"/> VIII, 1340a, l.3</bibl></note></app>
+usus ipsius est amicus.</quote>
+  <bibl corresp="#ArPo">
+    <author>Arist.</author>
+    <title>Pol.</title>
+    <biblScope unit="book" n="8">VIII</biblScope>,
+    <biblScope unit="page" n="1340a">1340a</biblScope>,
+    ll. <biblScope unit="line" from="3" to="5">3-5</biblScope></bibl></cit>
    </p>
    <p>
-<app><lem xml:id="lem-1.3-Bo">
 Recitat <app><lem wit="#α #π #Ma #Mb #Px #Vz #m #v">etiam</lem>
 <rdg wit="#Vm" ana="#lexical">et</rdg></app>
-<cit><bibl><author><ref target="#Bo"><app><lem wit="#γ #λ #E #Nu #Pp #Pq #Pz #Vo">boetius</lem>
-<rdg wit="#G #Px #Py #m #v" ana="#morphological">boecium</rdg></app></ref></author></bibl>
-<quote><app><lem wit="#E #G #Nu #Pq #Px #Pz #Vm #Vz #Vo"><persName><ref target="#Pyth">pictagoram</ref></persName></lem>
+<cit><ref><name ref="#Bo"><app><lem wit="#γ #λ #E #Nu #Pp #Pq #Pz #Vo">boecius</lem>
+<rdg wit="#G #Px #Py #m #v" ana="#morphological">boecium</rdg></app></name></ref>
+<quote><app><lem wit="#E #G #Nu #Pq #Px #Pz #Vm #Vz #Vo"><persName ref="#Pyth">pictagoram</persName></lem>
 <rdg wit="#Ma #Mb #Pp" ana="#orthographical"><persName ref="#Pyth">pitagoram</persName></rdg>
 <rdg wit="#Py" ana="#additive">primae <persName ref="#Pyth">pyctoragam</persName></rdg>
 <rdg wit="#m #v" ana="#lexical">pythagoricos</rdg>
@@ -1359,19 +1404,24 @@ continebatur melodiis <app><lem wit="#β #κ #π #E #m #v">musicis</lem>
 <rdg wit="#γ" ana="#morphological">musicum</rdg></app>
 eius animum <app><lem wit="#α #κ #Pp #Pq #Pz #m #v">sedasse</lem>
 <rdg wit="#G" ana="#orthographical">cedasse</rdg>
-<rdg wit="#Vo" ana="#orthographical">sedisse</rdg></app>.</quote></cit></lem>
-<note target="#lem-1.3-Bo" type="fontium"><bibl><author ref="#Bo">Boethius</author> <title ref="#BoMu">De institutione musica</title><biblScope unit="book" n="1"/><biblScope unit="chapter" n="1"/> I.1, Friedlein p. 185, l. 3</bibl></note></app>
+<rdg wit="#Vo" ana="#orthographical">sedisse</rdg></app>.</quote>
+  <bibl corresp="#BoMu">
+    <author>Boeth.</author> 
+    <title>De inst. mus.</title>
+    <biblScope unit="book" n="1">I</biblScope>.
+    <biblScope unit="chapter" n="1">1</biblScope> 
+    (Friedlein p. 185, l. 3)</bibl></cit>
 Cuius <app><lem wit="#β #κ #π #Va">vtilitatem</lem>
 <rdg wit="#Vb #m #v" ana="#lexical">subtilitatem</rdg></app>
 <app><lem wit="#α #λ #ρ #Vo #m #v">tangit</lem>
 <rdg wit="#Px" ana="#orthographical">tagit</rdg>
 <rdg wit="#Pz" ana="#lexical">agit</rdg></app>
-<app><lem xml:id="lem-1.4-Ar">
-<cit><app><lem wit="#α #κ #Vo #m #v"><bibl><title><ref target="#ArPo"><app><lem wit="#γ #κ #E #Nu #Vo #m #v">politicorum</lem>
-	<rdg wit="#Py" ana="#orthographical">polliticorum</rdg></app></ref></title>
-  <biblScope unit="book"><num type="ordinal" value="8">8°</num></biblScope></bibl></lem>
-<rdg wit="#Pz" ana="#ordinal"><bibl><biblScope unit="book"><num type="ordinal" value="8">8°</num></biblScope> <title><ref target="#ArPo">politicorum</ref></title></bibl></rdg>
-<rdg wit="#G #Pp #Pq" ana="#additive #ordinal"><bibl><author><ref target="#Ar">aristotelis</ref></author> <biblScope unit="book"><num type="ordinal" value="8">8°</num></biblScope> <title><ref target="#ArPo">politicorum</ref></title></bibl></rdg></app>
+<cit><ref><app><lem wit="#α #κ #Vo #m #v"><title ref="#ArPo"><app><lem wit="#γ #κ #E #Nu #Vo #m #v">politicorum</lem>
+	<rdg wit="#Py" ana="#orthographical">polliticorum</rdg></app></title>
+  <num type="ordinal" value="8">8°</num></lem>
+<rdg wit="#Pz" ana="#ordinal"><num type="ordinal" value="8">8°</num> <title ref="#ArPo">politicorum</title></rdg>
+<rdg wit="#G #Pp #Pq" ana="#additive #ordinal"><name ref="#Ar">aristotelis</name> 
+  <num type="ordinal" value="8">8°</num> <title ref="#ArPo">politicorum</title></rdg></app>,</ref>
 <quote><app><lem wit="#γ #E #Ma #Mb #Px #Vm #m #v">ponitur</lem>
 <rdg wit="#π #Vz" ana="#morphological">ponuntur</rdg>
 <rdg wit="#β" ana="#morphological">ponit</rdg></app>
@@ -1393,11 +1443,11 @@ que sunt <app><lem wit="#β #κ #Pp #Pz #Vo">littere</lem>
 <rdg wit="#G #Pq" ana="#morphological">littera</rdg>
 <rdg wit="#γ #m #v" ana="#lexical">lingue</rdg>
 <rdg wit="#E" ana="#subtractive"/></app>
-<app><lem wit="#ρ #Ma #Mb #Vm #Vo">luctatio</lem>
-<rdg wit="#E" ana="#additive"><surplus>luctatio</surplus> luctatio</rdg>
-<rdg wit="#Py" ana="#morphological">luctatiua</rdg>
-<rdg wit="#Vb #m #v" ana="#morphological">lutatiua</rdg>
-<rdg wit="#Nu #Va" ana="#morphological"><choice><expan>luctat<ex>iu</ex>a</expan><abbr>luctatā</abbr></choice></rdg>
+<app><lem wit="#Py">luctatiua</lem>
+<rdg wit="#Nu #Va" ana="#orthographical"><choice><expan>luctat<ex>iu</ex>a</expan><abbr>luctatā</abbr></choice></rdg>
+<rdg wit="#Vb #m #v" ana="#orthographical">lutatiua</rdg>
+<rdg wit="#ρ #Ma #Mb #Vm #Vo" ana="#morphological">luctatio</rdg>
+<rdg wit="#E" ana="#morphological #additive"><surplus>luctatio</surplus> luctatio</rdg>
 <rdg wit="#Px" ana="#lexical">licatio</rdg>
 <rdg wit="#Vz" ana="#lexical">iutatio</rdg>
 <rdg wit="#Pz" ana="#lexical">britatio</rdg></app>
@@ -1406,8 +1456,13 @@ musica et <app><lem wit="#κ #E #G #Pq #Py #Vo">protractiua</lem>
 <rdg wit="#m #v" ana="#orthographical">protractatiua</rdg>
 <rdg wit="#Pp" ana="#morphological">protractura</rdg>
 <rdg wit="#Vb" ana="#lexical">pertractiua</rdg>
-<rdg wit="#Pz" ana="#lexical">porctiua</rdg></app>,</quote></cit></lem>
-<note target="#lem-1.4-Ar" type="fontium"><bibl><author ref="#Ar">Aristotle</author> <title ref="#ArPo">Politics</title><biblScope unit="book" n="8"/><biblScope unit="page" n="1337b"/><biblScope unit="line" n="23"/> VIII, 1337b, l. 23</bibl></note></app>
+<rdg wit="#Pz" ana="#lexical">porctiua</rdg></app>,</quote>
+  <bibl corresp="#ArPo">
+    <author>Arist.</author> 
+    <title>Pol.</title>
+    <biblScope unit="book" n="8">VIII</biblScope>,
+    <biblScope unit="page" n="1337b">1337b</biblScope>,
+    l. <biblScope unit="line" n="23">23</biblScope></bibl></cit>
 <app><lem wit="#β #κ #G #Vb #m #v">ceu</lem>
 <rdg wit="#E #Pp #Pz #Va #Vo" ana="#lexical">seu</rdg>
 <rdg wit="#Pq" ana="#lexical">siue</rdg></app>
@@ -1419,10 +1474,11 @@ et pingere.
 <milestone ed="#G" unit="column" n="B"/>
 Querit <app><lem wit="#β #λ #E #Pz #Vb #Vo #m #v">igitur</lem>
 <rdg wit="#G #Pp #Pq #Px #Va" ana="#lexical">ergo</rdg></app>
-<bibl><author><ref target="#Ar">aristoteles</ref></author> more <app><lem wit="#α #G #Pp #Px #Pz #Vo #m #v">consueto</lem>
+<persName ref="#Ar">aristoteles</persName>
+more <app><lem wit="#α #G #Pp #Px #Pz #Vo #m #v">consueto</lem>
 <rdg wit="#λ #Pq" ana="#lexical">solito</rdg></app>
-<app><lem wit="#α #κ #m #v"><ref target="#ment-1.1">problema</ref> dicens</lem>
-<rdg wit="#π" ana="#subtractive"/></app></bibl>:
+<app><lem wit="#α #κ #m #v">problema, dicens</lem>
+<rdg wit="#π" ana="#subtractive"/></app>:
 <gloss target="#ment-1.1">Quare <app><lem wit="#κ #Pp">dolentes et</lem>
 <rdg wit="#α #G #Pq #Pz #Vo #m" ana="#subtractive">dolentes</rdg>
 <rdg wit="#v" ana="#subtractive">delentes</rdg></app>
@@ -1446,11 +1502,10 @@ et <app><lem wit="#α #κ #m #v">vniversaliter instrumenta</lem>
 <rdg wit="#Pp #Pq #Pz #Vo" ana="#lexical">gaudium et letitiam inducentia</rdg>
 <rdg wit="#G" ana="#lexical">letitiam quod inducentia</rdg></app>
 expedit audire?</gloss>
-<app><lem xml:id="lem-1.1-Al">
-Unde <cit><bibl><author><ref target="#Al"><app><lem wit="#π #E #Ma #Nu #Px #Vm #Vz #m #v">alexander</lem>
-<rdg wit="#γ #Ma #Py" ana="#orthographical">allexander</rdg></app></ref></author>
+Unde <cit><ref><name ref="#Al"><app><lem wit="#π #E #Ma #Nu #Px #Vm #Vz #m #v">alexander</lem>
+<rdg wit="#γ #Ma #Py" ana="#orthographical">allexander</rdg></app></name>
 <app><lem wit="#γ #κ #π #m #v"/>
-<rdg wit="#β" ana="#additive">in <title><ref target="#AlPr">problematibus</ref></title></rdg></app></bibl>
+<rdg wit="#β" ana="#additive">in <title ref="#AlPr">problematibus</title></rdg></app></ref>
 <app><lem wit="#β #γ #κ #π #m #v">et maxime</lem>
 <rdg wit="#E" ana="#additive"><surplus>et maxime</surplus> et maxime</rdg></app>
 <app><lem wit="#α #λ #Pz #Vo #m #v">quantum</lem>
@@ -1466,12 +1521,16 @@ patientibus fistule <app><lem wit="#α #κ #Pp #Pq #Pz #Vo #m #v">et</lem>
 <app><lem wit="#E #G #Mb #Pq #Px #Py #Vo">tympana.</lem>
 <rdg wit="#Ma #Nu #Pp #Pz #Vm #Vz #m #v" ana="#orthographical">timpana.</rdg>
 <rdg wit="#Va" ana="#morphological">tympane.</rdg>
-<rdg wit="#Vb" ana="#additive">timpana etcetera.</rdg></app></quote></cit></lem>
-<note target="#lem-1.1-Al" type="fontium"><bibl><author ref="#Al">Alexander of Aphrodisias</author> <title ref="#AlPr">Problems</title> <biblScope unit="book" n="1">I</biblScope>.<biblScope unit="problem" n="78">78</biblScope> (See <ref target="https://digi.vatlib.it/view/MSS_Reg.lat.747">Vat. Reg.lat. 747</ref> f. 75v for d'Abano's own translation)</bibl></note></app>
+<rdg wit="#Vb" ana="#additive">timpana etcetera.</rdg></app></quote>
+  <bibl corresp="#AlPr">
+    <author>Ps.-Alex. Aph.</author>,
+    <title ref="#AlPr">Prob.</title> 
+    <biblScope unit="book" n="1">I</biblScope>.
+    <biblScope unit="problem" n="78">78</biblScope> 
+    (Vat. reg. lat. 747, f. 75v)</bibl></cit>
     </p>
     <p>
 <app><lem wit="#α #κ #m #v"> 
-  <app><lem xml:id="lem-1.6-Ar">
   Nosce quod <cit><quote><app><lem wit="#κ">omnes passiones</lem>
   <rdg wit="#γ #m #v" ana="#additive">licet omnes passiones</rdg>
   <rdg wit="#E" ana="#lexical">licet omnes</rdg>
@@ -1481,8 +1540,15 @@ patientibus fistule <app><lem wit="#α #κ #Pp #Pq #Pz #Vo #m #v">et</lem>
   <rdg wit="#β #γ" ana="#morphological">sint coniuncte</rdg>
   <rdg wit="#m #v" ana="#lexical">sint coniecti</rdg>
   <rdg wit="#κ" ana="#lexical">sicut continetur</rdg></app>,</quote>
-  <bibl><biblScope unit="book"><num type="ordinal" value="1">1°</num></biblScope> <title><ref target="#ArAn">de anima</ref></title></bibl></cit>;</lem>
-  <note target="#lem-1.6-Ar" type="fontium"><bibl><author ref="#Ar">Aristotle</author> <title ref="#ArAb">De anima</title><biblScope unit="book" n="1"/><biblScope unit="page" n="403a"/><biblScope unit="line" n="25"/> I.1, ?b, l. 25 (Cf. 403a l. 16)</bibl></note></app>
+  <ref><num type="ordinal" value="1">1°</num> <title ref="#ArAn">de anima</title></ref>
+    <bibl corresp="#ArAn">
+      <author>Arist</author>.
+      <title>De an.</title>
+      <biblScope unit="book" n="1">I</biblScope>.
+      <biblScope unit="chapter" n="1">1</biblScope>,
+      <biblScope unit="page" n="403a">403a</biblScope>,
+      l. <biblScope unit="line" n="25">25</biblScope>
+      <note xml:lang="en">(Cf. 403a l. 16)</note></bibl></cit>;
   <app><lem wit="#γ #κ #E #Nu #m #v">quedam</lem>
   <rdg wit="#Py" ana="#additive">quedam te</rdg></app>
   <app><lem wit="#Px #Vm #Vz #m #v">tamen se plus tenet</lem>
@@ -1503,9 +1569,9 @@ patientibus fistule <app><lem wit="#α #κ #Pp #Pq #Pz #Vo #m #v">et</lem>
   per 
   <milestone ed="#E" unit="column" n="B"/>
   vnum expressum 
-  <app><lem wit="#γ #λ #E #Nu #m #v">aliud <persName><ref target="#Ar">aristoteles</ref></persName> audiat</lem>
-  <rdg wit="#Px" ana="#ordinal"><persName><ref target="#Ar">aristoteles</ref></persName> audiat aliud</rdg>
-  <rdg wit="#Py" ana="#ordinal">aliud audiat <persName><ref target="#Ar">aristoteles</ref></persName></rdg></app>
+  <app><lem wit="#γ #λ #E #Nu #m #v">aliud <persName ref="#Ar">aristoteles</persName> audiat</lem>
+  <rdg wit="#Px" ana="#ordinal"><persName ref="#Ar">aristoteles</persName> audiat aliud</rdg>
+  <rdg wit="#Py" ana="#ordinal">aliud audiat <persName ref="#Ar">aristoteles</persName></rdg></app>
   <app><lem wit="#γ #m #v">recitatum</lem>
   <rdg wit="#β #λ #E" ana="#orthographical">reticitum</rdg>
   <rdg wit="#Px" ana="#orthographical">reciticum</rdg></app></lem>
@@ -1604,7 +1670,6 @@ per se <app><lem wit="#α #G #Ma #Mb #Pq #m #v">aut</lem>
 <rdg wit="#Pp #Pz #Vo" ana="#lexical">et</rdg></app>
 per accidens <app><lem wit="#α #κ #ρ #Vo #m #v">extat</lem>
 <rdg wit="#Pz" ana="#lexical">existat</rdg></app>,
-<app><lem xml:id="lem-1.7-Ar">
 <cit><quote>ut <app><lem wit="#β #γ #κ #π #m #v">nauta</lem>
 <rdg wit="#E" ana="#orthographical">nata</rdg></app>
 per <app><lem wit="#α #κ #Pp #Pz #Vo #m #v">sui</lem>
@@ -1622,11 +1687,17 @@ uero <app><lem wit="#γ #λ #E #G #Nu #Pz #Vo #m #v">absentia</lem>
 <rdg wit="#Pq" ana="#additive">absentia causa</rdg>
 <rdg wit="#Py" ana="#subtractive"/></app>
 submersionis</quote>
-<app><lem wit="#κ #π #E #Nu #Vb #m #v"><bibl><biblScope unit="book"><num type="ordinal" value="2">2°</num></biblScope> 
-<title><ref target="#ArPh"><app><lem wit="#λ #G #Nu #Vb #Vo">physicorum.</lem>
-  <rdg wit="#E #Pp #Pq #Px #Pz #m #v" ana="#orthographical">phisicorum.</rdg></app></ref></title></bibl></lem>
-<rdg wit="#Py #Va" ana="#ordinal"><bibl><title><ref target="#ArPh">physicorum</ref></title> <biblScope unit="book"><num type="ordinal" value="2">2°</num></biblScope></bibl>.</rdg></app></cit></lem>
-<note target="#lem-1.7-Ar" type="fontium"><bibl><author ref="#Ar">Aristotle</author> <title ref="#ArPh">Physics</title><biblScope unit="book" n="2"/><biblScope unit="page" n="195a"/><biblScope unit="line" n="13"/> II.3, 195a, l. 13</bibl></note></app>
+<ref><app><lem wit="#κ #π #E #Nu #Vb #m #v"><num type="ordinal" value="2">2°</num> 
+<title ref="#ArPh"><app><lem wit="#λ #G #Nu #Vb #Vo">physicorum.</lem>
+  <rdg wit="#E #Pp #Pq #Px #Pz #m #v" ana="#orthographical">phisicorum.</rdg></app></title></lem>
+<rdg wit="#Py #Va" ana="#ordinal"><title ref="#ArPh">physicorum</title> <num type="ordinal" value="2">2°</num>.</rdg></app></ref>
+  <bibl corresp="#ArPh">
+    <author>Arist.</author>
+    <title>Phys.</title>
+    <biblScope unit="book" n="2">II</biblScope>.
+    <biblScope unit="chapter" n="3">3</biblScope>,
+    <biblScope unit="page" n="195a">195a</biblScope>,
+    l. <biblScope unit="line" n="13">13</biblScope></bibl></cit>
 <app><lem/>
 <rdg wit="#Vz" ana="#additive">et cetera</rdg>
 <rdg wit="#Px" ana="#additive">sequitur <ref target="#part2"><num type="ordinal" value="2">2<hi rend="superscript">m</hi>.</num> problema.</ref></rdg></app>
@@ -3868,7 +3939,7 @@ nam consonantia <app><lem wit="#α #κ #Pp #Pq #Vo #m #v">fessa</lem>
         <rdg wit="#Py" ana="#additive">tympana etcetera.</rdg></app></quote></lem>
     <rdg wit="#E" ana="#subtractive">secundum</rdg></app></cit></lem>
 <rdg wit="#π"/>
-<note target="#lem-4.1-Al" type="fontium"><bibl><author ref="#Al">Alexander of Aphrodisias</author> <title ref="#AlPr">Problems</title> <biblScope unit="book" n="1"/><biblScope unit="problem" n="78"/> I.78 (See Vat. Reg.lat. 747 f. 75v for d'Abano's own translation)</bibl></note></app>
+<note target="#lem-4.1-Al" type="fontium"><bibl><author ref="#Al">Ps.-Alex. Aph.</author> <title ref="#AlPr">Problems</title> <biblScope unit="book" n="1"/><biblScope unit="problem" n="78"/> I.78 (See Vat. Reg.lat. 747 f. 75v for d'Abano's own translation)</bibl></note></app>
 <app><lem wit="#β #γ #κ #π #m #v">
   <app><lem wit="#β #γ #λ #π #m #v">Sic</lem>
     <rdg wit="#Px" ana="#lexical">Sicut</rdg></app>
@@ -5088,7 +5159,7 @@ illeque rerum</quote>
 <rdg wit="#Pz #Vb" ana="#orthographical"><choice><expan>p<ex>er</ex>y<ex>arm</ex>e<ex>ni</ex>as</expan><abbr>քye<hi rend="superscript">as</hi></abbr></choice>.</rdg>
 <rdg wit="#Va" ana="#lexical">pergere</rdg></app>.</ref></title></bibl>
 </cit></lem>
-<note target="#lem-6.4-Ar" type="fontium"><bibl><author ref="#Ar">Aristotle</author> <title ref="#ArPe">De interpretatione</title><biblScope unit="book" n="1"/><biblScope unit="page" n="403a"/><biblScope unit="line" n="25"/> I.1 (16a l. 5-6)</bibl></note></app>
+<note target="#lem-6.4-Ar" type="fontium"><bibl><author ref="#Ar">Aristotle</author> <title ref="#ArPe">Peri hermeneias</title><biblScope unit="book" n="1"/><biblScope unit="page" n="403a"/><biblScope unit="line" n="25"/> I.1 (16a l. 5-6)</bibl></note></app>
 Unde si res <app><lem wit="#α #π #Ma #Mb #Px #Vm #m #v">fuerit</lem>
 <rdg wit="#Vz" ana="#morphological">fuit</rdg></app> 
 <app><lem wit="#α #κ #G #Pz #Vo #m #v">alta</lem>
@@ -14162,94 +14233,194 @@ apparebit <app><lem wit="#γ #κ #π #E #Nu #m #v">
           <listBibl>
             <bibl xml:id="AbCo">
               <author><persName>
+                <surname>d'Abano</surname>,
                 <forename>Pietro</forename>
-                <surname>d'Abano</surname>
-              </persName></author>
-              <title>Conciliator differentiarum philosophorum</title>
-              <pubPlace>Venetiis</pubPlace>
-              <publisher>n.p.</publisher>
-              <date when="1504">1504</date>
+              </persName></author>.
+              <title>Conciliator differentiarum philosophorum</title>.
+              <pubPlace>Venetiis</pubPlace>:
+              <publisher>n.p.</publisher>,
+              <date when="1504">1504</date>.
               URL: <ptr target="http://data.onb.ac.at/rep/10B710EE"/>
             </bibl>
             <bibl xml:id="AlPr">
               <author><persName>
-                <forename>Alexander of</forename>
+                <forename>Pseudo-Alexander of</forename>
                 <addName>Aphrodisias</addName>
-              </persName></author>
-              <title>Problemata</title>
-              <editor role="translator"><persName>
+              </persName></author>.
+              <title>Problemata</title>.
+              Ed. <editor>
+                <forename>Robert W.</forename>
+                <surname>Sharples</surname></editor>
+              and <editor>
+                <forename>Sophia</forename>
+                <surname>Kapetanaki</surname>
+              </editor>
+              as <title>Pseudo-Aristoteles (Pseudo-Alexander), Supplementa Problematorum: A new edition of the Greek text with introduction and annotated translation</title>.
+              <pubPlace>Berlin</pubPlace>:
+              <publisher>De Gruyter</publisher>,
+              <date>2006</date>;
+              trans. <editor role="translator"><persName>
                 <forename>Pietro</forename>
                 <surname>d'Abano</surname>
               </persName></editor>
-              <msIdentifier>
+              in <msIdentifier>
                 <settlement>Vatican</settlement>
                 <repository>Biblioteca Apostolica</repository>
                 <idno>reg. lat. 747</idno>
-              </msIdentifier>
-              <citedRange unit="folio" from="75v">f. 75v ff.</citedRange>
+              </msIdentifier>,
+              <citedRange unit="folio" from="62r" to="104r">ff. 62r-104r</citedRange>,
               URL: <ptr target="https://digi.vatlib.it/view/MSS_Reg.lat.747"/>
             </bibl>
             <bibl xml:id="ArAn">
-              <author><persName>Aristotle</persName></author>
-              <title>De anima</title>
-            </bibl>
-            <bibl xml:id="ArEth">
-              <author><persName>Aristotle</persName></author>
-              <title>Liber ethicorum ad Nicomachum</title>
-              <editor role="translator"><persName>
-                <forename>Robertus</forename>
-                <surname>Grosseteste</surname>
-              </persName></editor>
-              <editor role="editor"><persName>
-                <forename>Guillelmus de</forename>
-                <surname>Moerbeka</surname>
-              </persName></editor>
-              <msIdentifier>
-                <settlement>Vatican</settlement>
-                <repository>Biblioteca Apostolica</repository>
-                <idno>vat. lat. 2104</idno>
-              </msIdentifier>
-              <citedRange unit="folio" from="1r">f. 1r ff.</citedRange>
-              URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2104"/>              
-            </bibl>
-            <bibl xml:id="ArMet">
-              <author><persName>Aristotle</persName></author>
-              <title>Metaphysica</title>
+              <author><persName>Aristotle</persName></author>.
+              <title>De anima</title>.
+              Ed. <editor>
+                <forename>J.</forename>
+                <surname>Decorte</surname></editor>
+              and <editor>
+                <forename>J.</forename>
+                <surname>Brams</surname>
+              </editor>
+              as <title level="m">De Anima</title>.
+              <title level="s">Aristoteles Latinus Database</title>
+              <biblScope unit="volume" n="12.1">XII.1</biblScope>
+              URL: <ptr target="http://clt.brepolis.net/ALD/pages/TextSearch.aspx?key=MIV11ANIM_"/>
             </bibl>
             <bibl xml:id="ArCa">
-              <author><persName>Aristotle</persName></author>
+              <author><persName>Aristotle</persName></author>.
               <title>De caelo</title>
+              Ed. <editor>
+                <forename>F.</forename>
+                <surname>Bossier</surname></editor>
+              as <title level="m">De caelo et mundo</title>.
+              <title level="s">Aristoteles Latinus Database</title>
+              <biblScope unit="volume" n="8">VIII</biblScope>
+              URL: <ptr target="http://clt.brepolis.net/ALD/pages/TextSearch.aspx?key=MGM11CAMU_"/>
+            </bibl>
+            <bibl xml:id="ArEth">
+              <author><persName>Aristotle</persName></author>.
+              <title>Liber ethicorum ad Nicomachum</title>.
+              Ed. <editor><persName>
+                <forename>R.A.</forename>
+                <surname>Gauthier</surname>
+              </persName></editor>
+              as <title level="m">Analytica posteriora (Iacobi Venetici translationis recensio)</title>.
+              <title level="s">Aristoteles Latinus</title>
+              <biblScope unit="volume" n="26">XXVI.1-3</biblScope>
+              <pubPlace>Leiden and Bruxelles</pubPlace>:
+              <publisher>Brill and Desclée De Brouwer</publisher>,
+              <date>1972-1974</date>,
+              URL: <ptr target="http://clt.brepolis.net/ALD/pages/TextSearch.aspx?key=MBUPIETN1_"/>
+            </bibl>
+            <bibl xml:id="ArMet">
+              <author><persName>Aristotle</persName></author>.
+              <title>Metaphysica</title>.
+              Ed. <editor>
+                <forename>G.</forename>
+                <surname>Vuillemin-Diem</surname></editor>
+              as <title level="m">Metaphysica, lib. I-XIV. Recensio et Translatio Guillelmi de Moerbeka</title>.
+              <title level="s">Aristoteles Latinus</title>
+              <biblScope unit="volume" n="25">XXV.3</biblScope>
+              <pubPlace>Leiden, New York, and Köln</pubPlace>:
+              <publisher>E.J. Brill</publisher>,
+              <date>1995</date>,
+              URL: <ptr target="http://clt.brepolis.net/ALD/pages/TextSearch.aspx?key=MGM55META_"/>
+            </bibl>
+            <bibl xml:id="ArPA">
+              <author><persName>Aristotle</persName></author>.
+              <title>Analytica posteriora</title>.
+              Ed. <editor>
+                <forename>L.</forename>
+                <surname>Minio-Paluello</surname></editor>
+              and <editor>
+                <forename>B.G.</forename>
+                <surname>Dod</surname>
+              </editor>
+              as <title level="m">Analytica posteriora (Iacobi Venetici translationis recensio)</title>.
+              <title level="s">Aristoteles Latinus</title>
+              <biblScope unit="volume" n="4">IV.1-4</biblScope>
+              <pubPlace>Bruges and Paris</pubPlace>:
+              <publisher>Desclée De Brouwer</publisher>,
+              <date>1968</date>,
+              URL: <ptr target="http://clt.brepolis.net/ALD/pages/TextSearch.aspx?key=MGM55ANPO_"/>
             </bibl>
             <bibl xml:id="ArPe">
-              <author><persName>Aristotle</persName></author>
-              <title>De interpretatione</title>
+              <author><persName>Aristotle</persName></author>.
+              <title>Peri hermeneias</title>.
+              Ed. <editor>
+                <forename>L.</forename>
+                <surname>Minio-Paluello</surname></editor>
+              and <editor>
+                <forename>G.</forename>
+                <surname>Verbeke</surname>
+              </editor>
+              as <title level="m">Periermenias (Peri hermeneias) (uel De Interpretatione)</title>.
+              <title level="s">Aristoteles Latinus</title>
+              <biblScope unit="volume" n="2">II.2</biblScope>
+              <pubPlace>Bruges and Paris</pubPlace>:
+              <publisher>Desclée De Brouwer</publisher>,
+              <date>1965</date>,
+              URL: <ptr target="http://clt.brepolis.net/ALD/pages/TextSearch.aspx?key=MGM11PEHE_"/>              
             </bibl>
             <bibl xml:id="ArPh">
-              <author><persName>Aristotle</persName></author>
-              <title>Physica</title>
+              <author><persName>Aristotle</persName></author>.
+              <title>Physica</title>.
+              Ed. <editor>
+                <forename>F.</forename>
+                <surname>Bossier</surname></editor>
+              and <editor>
+                <forename>J.</forename>
+                <surname>Brams</surname>
+              </editor>
+              as <title level="m">Physica (translatio 'uetus')</title>.
+              <title level="s">Aristoteles Latinus</title>
+              <biblScope unit="volume" n="7">VII</biblScope>
+              <pubPlace>Leiden and New York</pubPlace>:
+              <publisher>E.J. Brill</publisher>,
+              <date>1990</date>,
+              URL: <ptr target="http://clt.brepolis.net/ALD/pages/TextSearch.aspx?key=MIV11PHYS_"/>
             </bibl>
             <bibl xml:id="ArPo">
               <author><persName>Aristotle</persName></author>
               <title>De politicorum</title>
-              <editor role="translator"><persName>
-                <forename>Guillelmus de</forename>
-                <surname>Moerbeka</surname>
-              </persName></editor>
-              <msIdentifier>
-                <settlement>Vatican</settlement>
-                <repository>Biblioteca Apostolica</repository>
-                <idno>vat. lat. 2104</idno>
-              </msIdentifier>
-              <citedRange unit="folio" from="67r">f. 67r ff.</citedRange>
-              URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2104"/>
+              Ed. <editor>
+                <forename>Franciscus</forename>
+                <surname>Susemihl</surname></editor>
+              as <title>Aristotelis Politicorum libri octo cum vetusta translatione Guilelmi de Moerbeka</title>.
+              <pubPlace>Leipzig</pubPlace>:
+              <publisher>Teubner</publisher>,
+              <date>1872</date>.
             </bibl>
             <bibl xml:id="ArTo">
-              <author><persName>Aristotle</persName></author>
-              <title>Topica</title>
+              <author><persName>Aristotle</persName></author>.
+              <title>Topica</title>.
+              Ed. <editor>
+                <forename></forename>
+                <surname>Minio-Paluello</surname></editor>
+              as <title level="m">Topica. Translatio Boethii, Fragmentum Recensionis Alterius et Translatio Anonyma</title>.
+              <title level="s">Aristoteles Latinus</title>
+              <biblScope unit="volume" n="5">V.1-3</biblScope>
+              <pubPlace>Bruges and Paris</pubPlace>:
+              <publisher>Desclée De Brouwer</publisher>,
+              <date>1969</date>,
+              URL: <ptr target="http://clt.brepolis.net/ALD/pages/TextSearch.aspx?key=PARBOTOPI_"/>
             </bibl>
             <bibl xml:id="ArPr">
-              <author><persName>Pseudo-Aristotle</persName></author>
-              <title>Problemata</title>
+              <author><persName>Pseudo-Aristotle</persName></author>.
+              <title>Problemata physica</title>.
+              Ed. <editor>
+                <forename>Carolus</forename>
+                <surname>Ruelle</surname></editor>,
+              <editor>
+                <forename>Hermannus</forename>
+                <surname>Knoellinger</surname></editor>
+              and <editor>
+                <forename>iosephus</forename>
+                <surname>Klek</surname></editor>
+              as <title level="m">Aristotelis quae feruntur Problemata physica</title>.
+              <pubPlace>Leipzig</pubPlace>:
+              <publisher>Teubner</publisher>,
+              <date>1922</date>
             </bibl>
             <bibl xml:id="AvCa">
               <author><persName>Avicenna</persName></author>
@@ -14258,24 +14429,40 @@ apparebit <app><lem wit="#γ #κ #π #E #Nu #m #v">
             <bibl xml:id="BoAr">
               <author>
                 <persName>
+                  <surname>Boethius</surname>, 
                   <forename>Anicius</forename>
                   <forename>Manlius</forename>
-                  <forename>Severinus</forename>
-                  <surname>Boethius</surname>
+                  <forename>Severinus</forename>.
                 </persName>
               </author>
-              <title>De institutione arithmetica</title>
+              <title>De institutione arithmetica</title>.
+              Ed. <editor>
+                <forename>Godofredus</forename>
+                <surname>Friedlein</surname></editor>
+              in <title level="m">Anicii Manlii Torquati Severini Boetii De institutione arithmetica libri duo, De institutione musica libri quinque</title>,
+              <biblScope unit="page" from="1" to="173">1-173</biblScope>.
+              <pubPlace>Leipzig</pubPlace>:
+              <publisher>Teubner</publisher>,
+              <date>1868</date>.
             </bibl>
             <bibl xml:id="BoMu">
               <author>
                 <persName>
+                  <surname>Boethius</surname>,
                   <forename>Anicius</forename>
                   <forename>Manlius</forename>
                   <forename>Severinus</forename>
-                  <surname>Boethius</surname>
                 </persName>
-              </author>
-              <title>De institutione musica</title>
+              </author>.
+              <title>De institutione musica</title>.
+              Ed. <editor>
+                    <forename>Godofredus</forename>
+                    <surname>Friedlein</surname></editor>
+              in <title level="m">Anicii Manlii Torquati Severini Boetii De institutione arithmetica libri duo, De institutione musica libri quinque</title>,
+              <biblScope unit="page" from="175" to="371">175-371</biblScope>.
+              <pubPlace>Leipzig</pubPlace>:
+              <publisher>Teubner</publisher>,
+              <date>1868</date>.
             </bibl>
             <bibl xml:id="GaAc">
               <author>
@@ -14313,8 +14500,16 @@ apparebit <app><lem wit="#γ #κ #π #E #Nu #m #v">
                   <forename>Isidore of</forename>
                   <addName>Seville</addName>
                 </persName>
-              </author>
-              <title>Etymologiae</title>
+              </author>.
+              <title>Etymologiae</title>.
+              Ed. <editor>
+                <forename>W. M.</forename>
+                <surname>Friedlein</surname></editor>
+              in <title>Isidori Hispalensis Episcopi Etymologiarum sive originum libri xx</title>,
+              <biblScope unit="volume">vol. 1</biblScope>.
+              <pubPlace>Oxford</pubPlace>:
+              <publisher>Clarendon Press</publisher>,
+              <date>1911</date>.
             </bibl>
             <bibl xml:id="MacSS">
               <author>
@@ -14323,17 +14518,41 @@ apparebit <app><lem wit="#γ #κ #π #E #Nu #m #v">
                   <forename>Ambrosius</forename>
                   <surname>Theodosius</surname>
                 </persName>
-              </author>
-              <title>Commentarium in somnium Scipionis</title>
+              </author>.
+              <title>Commentarium in somnium Scipionis</title>.
+              Ed. <editor>
+                <forename>Franciscus</forename>
+                <surname>Eyssenhardt</surname></editor>
+              in <title level="m">Macrobius</title>,
+              <biblScope unit="page" from="465" to="570">465-570</biblScope>.
+              <pubPlace>Leipzig</pubPlace>:
+              <publisher>Teubner</publisher>,
+              <date>1868</date>.
             </bibl>
             <bibl xml:id="MasAph">
               <author>
                 <persName>
-                  <forename>Yuhanna ibn</forename>
-                  <addName>Masawaiyh</addName>
+                  <addName>Masawaiyh</addName>,
+                  <forename>Yuhanna ibn</forename>                  
                 </persName>
-              </author>
-              <title>Aphorismi</title>
+              </author>.
+              <title>Aphorismorum libri</title>.
+              Ed. <editor>
+                <forename>Danielle</forename>
+                <surname>Jacquart</surname>
+                and <forename>Gérard</forename>
+                <surname>Troupeau</surname></editor>
+              as <title>Yuhannà ibn Màsawayh (Jean Mésué), Le livre des Axiomes médicaux (Aphorismi), édition du texte arabe et des versions latines avec traduction française et lexique</title>.
+              <pubPlace>Geneva</pubPlace>:
+              <publisher>Droz</publisher>,
+              <date>1980</date>.
+              See also <msIdentifier>
+                <settlement>Vatican</settlement>
+                <repository>Biblioteca Apostolica</repository>
+                <idno>vat. lat. 2460</idno>
+              </msIdentifier>
+              <citedRange unit="folio" from="39r" to="42r">f. 39r-42r</citedRange>
+              URL: <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2460"/>
             </bibl>
             <bibl xml:id="NiGer">
               <author>
