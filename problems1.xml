@@ -331,8 +331,12 @@
               </listWit>
             </witness>
           </listWit>
-          <listWit xml:id="π">
-            <head>Collated manuscripts from Jean de Jandun's redaction (<abbr type="siglum">π</abbr>)</head>
+          <listWit>
+            <head>Jean de Jandun's redaction</head>
+            <witness xml:id="π">
+              <abbr type="siglum">π</abbr> 
+              <name>Collated manuscripts</name>
+            <listWit>
             <witness xml:id="Gu">
               <abbr type="siglum">G<hi rend="superscript">u</hi></abbr> 
               <name><ref target="http://lib.ugent.be/catalog/rug01:000802948">Ghent, Bibliothéek van de Rijksuniversiteit, ms. 72</ref></name> (accessed 2022-01-03),
@@ -374,9 +378,12 @@
               <locus from="147r" to="157v">ff. 147r-57v</locus>
               <date>fourteenth century</date>
             </witness>
-          </listWit>
-          <listWit><head>Other manuscripts from the Jean de Jandun redaction</head>
-            <witness xml:id="Ca">
+              </listWit>
+            </witness>
+            <witness>
+              <name>Other manuscripts from the Jean de Jandun redaction</name>
+              <listWit>
+              <witness xml:id="Ca">
               <abbr type="siglum">C<hi rend="superscript">a</hi></abbr> 
               <name>Cambridge, Peterhouse 79</name>,
               <locus from="76r" to="81v">ff. 76r-81v</locus>
@@ -405,6 +412,8 @@
               <name><ref target="https://digi.vatlib.it/view/MSS_Vat.lat.2176">Vatican, Biblioteca Apostolica lat. 2176</ref></name> (accessed 2022-01-03),
               <locus from="62r" to="65r">ff. 62r-65r</locus>
               <date>fourteenth century</date>
+            </witness>
+              </listWit>
             </witness>
           </listWit>
         </listWit>
