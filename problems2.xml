@@ -153,7 +153,7 @@
                   <name><ref target="https://digi.vatlib.it/view/MSS_Vat.lat.2175">Vatican, Biblioteca Apostolica lat. 2175</ref></name> (accessed 2022-01-03),
                   <locus from="107v" to="116r">ff. 107-16r</locus>
                   <date>fifteenth century</date>
-                 </witness>
+                </witness>
               </listWit>
             </witness>          
             <witness xml:id="Ea">
@@ -205,80 +205,89 @@
               </listWit>
             </witness>
           </listWit>
-          <listWit xml:id="π">
-            <head>Collated manuscripts from Jean de Jandun's redaction (<abbr type="siglum">π</abbr>)</head>
-            <witness xml:id="Gu">
-              <abbr type="siglum">G<hi rend="superscript">u</hi></abbr> 
-              <name><ref target="http://lib.ugent.be/catalog/rug01:000802948">Ghent, Bibliothéek van de Rijksuniversiteit, ms. 72</ref></name> (accessed 2022-01-03),
-              <locus from="234r" to="249v">ff. 234r-49v</locus>
-              <date>fourteenth century</date>
+          <listWit>
+            <head>Jean de Jandun's redaction</head>
+            <witness xml:id="π">
+              <abbr type="siglum">π</abbr> 
+              <name>Collated manuscripts</name>
+              <listWit>
+                <witness xml:id="Gu">
+                  <abbr type="siglum">G<hi rend="superscript">u</hi></abbr> 
+                  <name><ref target="http://lib.ugent.be/catalog/rug01:000802948">Ghent, Bibliothéek van de Rijksuniversiteit, ms. 72</ref></name> (accessed 2022-01-03),
+                  <locus from="234r" to="249v">ff. 234r-49v</locus>
+                  <date>fourteenth century</date>
+                </witness>
+                <witness xml:id="Pp">
+                  <abbr type="siglum">P<hi rend="superscript">p</hi></abbr> 
+                  <name><ref target="http://gallica.bnf.fr/ark:/12148/btv1b10721259d/f1.item.r=6542">Paris, Bibliotheque Nationale man. lat. 6542</ref></name> (accessed 2022-01-03),
+                  <locus from="183v" to="194v">ff. 183v-94v</locus>
+                  <date>1385</date>
+                </witness>
+                <witness xml:id="Pu">
+                  <abbr type="siglum">P<hi rend="superscript">u</hi></abbr> 
+                  <name>Paris, University 122</name>,
+                  <locus from="114v" to="123r">114v-23r</locus>
+                  <date>fifteenth century</date>
+                </witness>
+                <witness xml:id="Pz">
+                  <abbr type="siglum">P<hi rend="superscript">z</hi></abbr> 
+                  <name><ref target="http://gallica.bnf.fr/ark:/12148/btv1b90680829/f2">Paris, Bibliotheque Nationale man. lat. 6541A</ref></name> (accessed 2022-01-03),
+                  <locus from="179r" to="192r">ff. 179r-92r</locus>
+                  <date>fourteenth century</date>.
+                  <msDesc>
+                    <msIdentifier><objectName>Pz</objectName></msIdentifier>
+                    <physDesc>
+                      <handDesc hands="2">
+                        <handNote xml:id="Pzh2">
+                          <abbr type="siglum">P<hi rend="superscript">z2</hi></abbr> is responsible for
+                          the header, and writes in an ink that has faded significantly. It may be the
+                          same scribe who wrote the large initials which begin each problem. </handNote>
+                      </handDesc>
+                    </physDesc>
+                  </msDesc> 
+                </witness>
+                <witness xml:id="Vo">
+                  <abbr type="siglum">V<hi rend="superscript">o</hi></abbr> 
+                  <name>Vatican, Biblioteca Apostolica Ottobon. lat. 1764</name>,
+                  <locus from="147r" to="157v">ff. 147r-57v</locus>
+                  <date>fourteenth century</date>
+                </witness>
+              </listWit>
             </witness>
-            <witness xml:id="Pp">
-              <abbr type="siglum">P<hi rend="superscript">p</hi></abbr> 
-              <name><ref target="http://gallica.bnf.fr/ark:/12148/btv1b10721259d/f1.item.r=6542">Paris, Bibliotheque Nationale man. lat. 6542</ref></name> (accessed 2022-01-03),
-              <locus from="183v" to="194v">ff. 183v-94v</locus>
-              <date>1385</date>
-            </witness>
-            <witness xml:id="Pu">
-              <abbr type="siglum">P<hi rend="superscript">u</hi></abbr> 
-              <name>Paris, University 122</name>,
-              <locus from="114v" to="123r">114v-23r</locus>
-              <date>fifteenth century</date>
-            </witness>
-            <witness xml:id="Pz">
-              <abbr type="siglum">P<hi rend="superscript">z</hi></abbr> 
-              <name><ref target="http://gallica.bnf.fr/ark:/12148/btv1b90680829/f2">Paris, Bibliotheque Nationale man. lat. 6541A</ref></name> (accessed 2022-01-03),
-              <locus from="179r" to="192r">ff. 179r-92r</locus>
-              <date>fourteenth century</date>.
-              <msDesc>
-                <msIdentifier><objectName>Pz</objectName></msIdentifier>
-                <physDesc>
-                  <handDesc hands="2">
-                    <handNote xml:id="Pzh2">
-                      <abbr type="siglum">P<hi rend="superscript">z2</hi></abbr> is responsible for
-                      the header, and writes in an ink that has faded significantly. It may be the
-                      same scribe who wrote the large initials which begin each problem. </handNote>
-                  </handDesc>
-                </physDesc>
-              </msDesc> 
-            </witness>
-            <witness xml:id="Vo">
-              <abbr type="siglum">V<hi rend="superscript">o</hi></abbr> 
-              <name>Vatican, Biblioteca Apostolica Ottobon. lat. 1764</name>,
-              <locus from="147r" to="157v">ff. 147r-57v</locus>
-              <date>fourteenth century</date>
-            </witness>
-          </listWit>
-          <listWit><head>Other manuscripts from the Jean de Jandun redaction</head>
-            <witness xml:id="Ca">
-              <abbr type="siglum">C<hi rend="superscript">a</hi></abbr> 
-              <name>Cambridge, Peterhouse 79</name>,
-              <locus from="76r" to="81v">ff. 76r-81v</locus>
-              <date>fourteenth century</date>
-            </witness>
-            <witness xml:id="Pa">
-              <abbr type="siglum">P<hi rend="superscript">a</hi></abbr> 
-              <name>Paris, Bibliotheque Arsenal, 723</name>,
-              <locus from="183v" to="197r">ff. 183v-97r</locus>
-              <date>fourteenth century</date>
-            </witness>
-            <witness xml:id="Pq">
-              <abbr type="siglum">P<hi rend="superscript">q</hi></abbr> 
-              <name>Paris, Bibliotheque Nationale man. lat. 15454</name>,
-              <locus from="127r" to="136r">ff. 127r-36r</locus>
-              <date>fifteenth century</date>
-            </witness>          
-            <witness xml:id="Sc">
-              <abbr type="siglum">S<hi rend="superscript">c</hi></abbr> 
-              <name>Seville, Biblioteca Colombina, 7.7.9</name>,
-              <locus from="121r">ff. 121r ff.</locus>
-              <date>fourteenth to fifteenth century</date>
-            </witness>
-            <witness xml:id="Vc">
-              <abbr type="siglum">V<hi rend="superscript">c</hi></abbr> 
-              <name><ref target="https://digi.vatlib.it/view/MSS_Vat.lat.2176">Vatican, Biblioteca Apostolica lat. 2176</ref></name> (accessed 2022-01-03),
-              <locus from="62r" to="65r">ff. 62r-65r</locus>
-              <date>fourteenth century</date>
+            <witness>
+              <name>Other manuscripts from the Jean de Jandun redaction</name>
+              <listWit>
+                <witness xml:id="Ca">
+                  <abbr type="siglum">C<hi rend="superscript">a</hi></abbr> 
+                  <name>Cambridge, Peterhouse 79</name>,
+                  <locus from="76r" to="81v">ff. 76r-81v</locus>
+                  <date>fourteenth century</date>
+                </witness>
+                <witness xml:id="Pa">
+                  <abbr type="siglum">P<hi rend="superscript">a</hi></abbr> 
+                  <name>Paris, Bibliotheque Arsenal, 723</name>,
+                  <locus from="183v" to="197r">ff. 183v-97r</locus>
+                  <date>fourteenth century</date>
+                </witness>
+                <witness xml:id="Pq">
+                  <abbr type="siglum">P<hi rend="superscript">q</hi></abbr> 
+                  <name>Paris, Bibliotheque Nationale man. lat. 15454</name>,
+                  <locus from="127r" to="136r">ff. 127r-36r</locus>
+                  <date>fifteenth century</date>
+                </witness>          
+                <witness xml:id="Sc">
+                  <abbr type="siglum">S<hi rend="superscript">c</hi></abbr> 
+                  <name>Seville, Biblioteca Colombina, 7.7.9</name>,
+                  <locus from="121r">ff. 121r ff.</locus>
+                  <date>fourteenth to fifteenth century</date>
+                </witness>
+                <witness xml:id="Vc">
+                  <abbr type="siglum">V<hi rend="superscript">c</hi></abbr> 
+                  <name><ref target="https://digi.vatlib.it/view/MSS_Vat.lat.2176">Vatican, Biblioteca Apostolica lat. 2176</ref></name> (accessed 2022-01-03),
+                  <locus from="62r" to="65r">ff. 62r-65r</locus>
+                  <date>fourteenth century</date>
+                </witness>
+              </listWit>
             </witness>
           </listWit>
         </listWit>
