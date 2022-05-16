@@ -62,6 +62,9 @@
           </p>
         </correction>
       </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="bold" scheme="css">font-weight: bold</rendition>
+      </tagsDecl>
       <refsDecl>
         <refState ed="C" unit="folio" length="2" delim="."/>
         <refState ed="C" unit="column" length="3"/>
@@ -135,9 +138,9 @@
           </div>
           <div type="section" xml:id="preface-subsection-1.2"><head>1.2 Structure</head>
             <p n="1">Each of the pseudo-Aristotelian problems follows a set structure. 
-              First, a question is posed, such as at the start the first problem: “Why do those who are suffering and those who are rejoicing have pipes played for them?” (<hi rend="italic">Propter quid dolentes et gaudentes fistulantur</hi>?)  
+              First, a question is posed, such as at the start the first problem: “Why do those who are suffering and those who are rejoicing have pipes played for them?” (<hi rend="italic"><foreign xml:lang="la">Propter quid dolentes et gaudentes fistulantur</foreign></hi>?)  
               Then one or more possible reasons are proposed, often accompanied by additional explanation. 
-              For instance, the first problem continues: “Is it so that the former mourn less, but the latter rejoice more?” (<hi rend="italic">Aut ut hii quidem minus tristentur, alii autem ut magis gaudeant</hi>?”)  
+              For instance, the first problem continues: “Is it so that the former mourn less, but the latter rejoice more?” (<hi rend="italic"><foreign xml:lang="la">Aut ut hii quidem minus tristentur, alii autem ut magis gaudeant</foreign></hi>?”)  
               In his commentary Pietro follows a similar pattern. 
               He first paraphrases the opening question, and then addresses the remainder of the problem, dividing it into between one and seven parts, depending on its length. 
               He signals the beginning of each successive division of the text with its first word or two, followed by a partial or complete paraphrase. 
@@ -156,9 +159,9 @@
             <p n="2">Further complicating matters, some of the manuscripts change affiliations partway through the lengthy work. 
               As Joan Cadden has observed, manuscript Pz “contains the first half of Pietro’s version and the second half of Jean’s,” and manuscript Ea has the converse arrangement (<ref target="Cadden2013">2013</ref>, 228). 
               Additionally, in his edition of section IV of the <hi rend="italic">Expositio</hi>, Coucke identifies manuscript Vb as deriving from Pietro’s revised version, whereas by section XIX it hews more closely to the initial version. 
-              (Furthermore, manuscript Pq contains Jean’s version in sections IV and XIX, but by section XXVII it appears to have changed to Pietro’s version (<ref target="Coucke2008">Coucke 2008</ref>, vol. 2, xxvi).)  
+              (Furthermore, manuscript Pq contains Jean’s version in sections IV and XIX, but by section XXVII it appears to have changed to Pietro’s version [<ref target="Coucke2008">Coucke 2008</ref>, vol. 2, xxvi].)  
               As a result, I have preserved Coucke’s manuscript sigils, but not his labeling of families and conjectured sub-types. 
-              For instance, Coucke labels Pietro’s first and second versions Pa and Pb, respectively whereas I call them α and κ. 
+              For instance, Coucke labels Pietro’s first and second versions <emph rendition="#bold">Pa</emph> and <emph rendition="#bold">Pb</emph>, respectively whereas I call them α and κ. 
               (This change is made in part to avoid the confusing use of letters in Coucke’s <hi rend="italic">Conspectus siglorum</hi>, where the manuscripts elsewhere labeled as Pb are listed under heading A, and those as Pa under heading B.)</p>
             <p n="3">In classifying the manuscripts I used Coucke’s findings on section IV as a point of departure. 
               I collated all the manuscripts’ versions of section XIX’s tenth problem to test the validity of Coucke’s findings to section XIX. 
@@ -367,7 +370,7 @@
               Manuscripts Nu and Py usually carry the best version of this text. 
               Unfortunately, Nu’s codex has lost a number of pages, resulting in total loss of the text from a point partway into problem 9 through problem 15, and again from the end of problem 38 through the end of the section.</p>
             <p n="2">Manuscripts Va and Vb are associated by shared error. 
-              The most salient of these occurs in problem 20, where they repeatedly mistake discussion of the Greek language (<hi rend="italic">oratio greca</hi>) for “grammatical speech” (<hi rend="italic">oratio gramatica</hi>). 
+              The most salient of these occurs in problem 20, where they repeatedly mistake discussion of the Greek language (<hi rend="italic"><foreign xml:lang="la">oratio greca</foreign></hi>) for “grammatical speech” (<hi rend="italic"><foreign xml:lang="la">oratio gramatica</foreign></hi>). 
               The scribe of manuscript Va evidently prioritized speed over neatness of script and also had very idiosyncratic orthography, regularly doubling single consonants or omitting one where they are normally doubled. 
               Given the ubiquity of these variants, I have omitted them from the critical apparatus unless they are shared by other manuscripts. 
               In his edition of section IV, Coucke finds that Vb contains the second version of Pietro’s commentary, but by section XIX there is little evidence of Vb sharing readings characteristic of that second version.
@@ -389,10 +392,10 @@
               For instance, in problem 2 the scribe of Ma erroneously wrote “unaa” instead of “una,” and Mb’s scribe wrote “unaa” before deleting the superfluous a. 
               Still stronger evidence of copying is found in problem 3’s table of Greek note names, where Mb’s scribe was consulting a manuscript that breaks the word “prollabamenos” (<hi rend="italic">recte: proslambanomenos</hi>) into “prolla” and “bamenos,” as Ma does. 
               We can tell this because Mb’s scribe evidently thought the line break divided two distinct words: in Mb, following “prolla” the rest of the line (about six characters’ worth) is left blank, before the table of note names begins at the top of the next column with “bamenos.”  
-              Furthermore, in problem 6 Mb’s scribe follows the word <hi rend="italic">magnatis</hi> with the superfluous phrase “uel huius est inequale non eundem seruans tenorem” ahead of where it should occur in the text, and then repeats it in the correct place, following <hi rend="italic">excellentis</hi>. 
-              In this case of homeoteleuton the –<hi rend="italic">tis</hi> endings of <hi rend="italic">magnatis</hi> and <hi rend="italic">excellentis</hi> are nearly aligned in two successive lines of Ma (f. 97v), so it is very likely that Mb’s scribe’s eyes skipped from the end of <hi rend="italic">magnatis</hi> down a line to <hi rend="italic">excellentis</hi>, and then erroneously copied the words that followed. 
+              Furthermore, in problem 6 Mb’s scribe follows the word <hi rend="italic"><foreign xml:lang="la">magnatis</foreign></hi> with the superfluous phrase “<foreign xml:lang="la">uel huius est inequale non eundem seruans tenorem</foreign>” ahead of where it should occur in the text, and then repeats it in the correct place, following <hi rend="italic"><foreign xml:lang="la">excellentis</foreign></hi>. 
+              In this case of homeoteleuton the –<hi rend="italic">tis</hi> endings of <hi rend="italic"><foreign xml:lang="la">magnatis</foreign></hi> and <hi rend="italic"><foreign xml:lang="la">excellentis</foreign></hi> are nearly aligned in two successive lines of Ma (f. 97v), so it is very likely that Mb’s scribe’s eyes skipped from the end of <hi rend="italic"><foreign xml:lang="la">magnatis</foreign></hi> down a line to <hi rend="italic"><foreign xml:lang="la">excellentis</foreign></hi>, and then erroneously copied the words that followed. 
               In sum, because my collation of Mb across the first ten problems revealed no meaningful discrepancies with Ma, but rather signs of direct copying, I conclude that it is not useful for establishing the best text of Pietro’s second version.</p>
-            <p n="3">Of the remaining manuscripts in sub-family λ, Vm often preserves better readings than Ma and Vz. Additionally, Vz may have been copied later, as it is written on paper and is the only extant manuscript to be copied in a single column. (Zanetti, however, dates it to about the fourteenth century (<ref target="Zanetti1741">1741</ref>, 121).)  Nonetheless, its unique readings are not obviously inferior to those of Ma, so I have included its variants in the critical apparatus throughout.</p>
+            <p n="3">Of the remaining manuscripts in sub-family λ, Vm often preserves better readings than Ma and Vz. Additionally, Vz may have been copied later, as it is written on paper and is the only extant manuscript to be copied in a single column. (Zanetti, however, dates it to about the fourteenth century [<ref target="Zanetti1741">1741</ref>, 121].)  Nonetheless, its unique readings are not obviously inferior to those of Ma, so I have included its variants in the critical apparatus throughout.</p>
           </div>
           <div type="section" xml:id="preface-subsection-2.5"><head>2.5 Jean de Jandun’s Redaction</head>
             <p n="1">The redaction undertaken by Jean de Jandun necessarily cannot help reconstruct the best text of Pietro’s commentary, but it is still of some interest. 
@@ -403,7 +406,7 @@
               First, the redaction is most saliently characterized by omissions that “either cover well defined text-units (paragraphs, or entire (subordinate) clauses), or entail the removal of repetitive or superfluous speech” (<ref target="Coucke2008">2008</ref>, vol. 2: xxvii). 
               Second, as a whole the manuscripts of Jean’s redaction largely agree with those of Pietro’s first version, but on occasion they follow his second version instead, as Coucke found (xxx–xxxi). 
               Third, as in section IV manuscript Vo appears to be most valuable for establishing the text of the redaction (xxxiii). 
-              It has almost no unique errors of any importance, but a brief passage in problem 9 (<hi rend="italic">utrobique existente. Et hoc quia in cantu</hi>), which it alone omits, indicates that it cannot be the direct (or at least the sole) model for the rest of the redaction’s manuscripts.</p>
+              It has almost no unique errors of any importance, but a brief passage in problem 9 (<hi rend="italic"><foreign xml:lang="la">utrobique existente. Et hoc quia in cantu</foreign></hi>), which it alone omits, indicates that it cannot be the direct (or at least the sole) model for the rest of the redaction’s manuscripts.</p>
             <p n="3">Beyond these broad characteristics, however, further clarity is elusive. 
               Whereas Coucke found that manuscripts Pp and Vc are “contaminated,” since in section IV they complete the omissions which are otherwise characteristic of Jean’s redaction (xxxi–xxxii), in section XIX Pp never does so and Vc only sometimes does. 
               Coucke then goes on to note of section IV (and he observes that Delaurenti’s [then]-in-progress edition of section VII confirms the same), that:
@@ -412,7 +415,11 @@
               In the second branch, moreover, frequent agreements of Pq with Gu and Pu with Pp also emerge. 
               The remaining manuscripts, Vc, Pa, and Sc, do not clearly align with either branch.</p>
             <p n="4">Given that Jean’s redaction cannot help to establish Pietro’s text, I have not included all its manuscripts in the apparatus. 
-              I follow Coucke (xxxiv)in selecting manuscripts Vo, due to its paucity of errors, and Gu, because of its careful preparation and occasional unique variants . I also selected manuscript Pz, on account of its interest as it switches from Pietro’s second version to Jean’s redaction. Because Coucke identified manuscripts Pu and Pq as constituting a differentiated branch in section IV, I selected manuscript Pu, since by section XIX Pq closely matches Gu. And finally I included manuscript Pp to help establish the second branch’s readings. (Other manuscripts from Jean’s redaction are also occasionally cited when they support variants that would otherwise appear unique.)</p>
+              I follow Coucke (xxxiv) in selecting manuscripts Vo, due to its paucity of errors, and Gu, because of its careful preparation and occasional unique variants. 
+              I also selected manuscript Pz, on account of its interest as it switches from Pietro’s second version to Jean’s redaction. 
+              Because Coucke identified manuscripts Pu and Pq as constituting a differentiated branch in section IV, I selected manuscript Pu, since by section XIX Pq closely matches Gu. 
+              And finally I included manuscript Pp to help establish the second branch’s readings. 
+              (Other manuscripts from Jean’s redaction are also occasionally cited when they support variants that would otherwise appear unique.)</p>
           </div>
           <div type="section" xml:id="preface-subsection-2.6"><head>2.6 Stemmatic Hypothesis</head>
             <p n="1">
@@ -434,7 +441,7 @@
             The other medical sources range from the better known, such Avicenna’s <hi rend="italic">Canon medicinae</hi>, to the obscure, for instance the <hi rend="italic">Aphorismi</hi> of Yuhanna ibn Masawaiyh, which Pietro attributes to John of Damascus.</p>
           <p n="4">The number of texts in the third category, writings on music, is very small. 
             While Pietro makes reference to Macrobius and Ptolemy, he demonstrates first-hand knowledge of only Boethius’s <hi rend="italic">De institutione harmonica</hi> and the section (III.15–23) of Isidore’s <hi rend="italic">Etymologies</hi> which concerns music. 
-            He also has at least passing familiarity with some aspects of medieval music theory, as he makes reference to the “Guidonian tradition” (<hi rend="italic">traditio Guidonis</hi>) in problem 1 and on occasion employs solmization syllables, but he displays no further awareness of music-theoretical writing from after late Antiquity. 
+            He also has at least passing familiarity with some aspects of medieval music theory, as he makes reference to the “Guidonian tradition” (<hi rend="italic"><foreign xml:lang="la">traditio Guidonis</foreign></hi>) in problem 1 and on occasion employs solmization syllables, but he displays no further awareness of music-theoretical writing from after late Antiquity. 
             (He is, however, certainly aware of his day’s musical culture, as he discusses antiphonal singing and medieval instruments, which are unmentioned in Boethius or Isidore.)</p>
         </div>	
         <div type="section" xml:id="preface-section-4"><head>IV. Principles of Edition</head>
