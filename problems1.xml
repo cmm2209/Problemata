@@ -64,8 +64,20 @@
       </editorialDecl>
       <tagsDecl>
         <rendition xml:id="bold" scheme="css">font-weight: bold</rendition>
-        <rendition xml:id="suba" scheme="xslfo">fo:character      character="a"      baseline-shift="sub"      font-size="-150%"</rendition>
-        <rendition xml:id="subb" scheme="xslfo">fo:character      character="b"      baseline-shift="sub"      font-size="-150%"</rendition>
+        <rendition xml:id="sub" scheme="css">
+          vertical-align:sub; 
+          font-size:80%;</rendition>
+        <rendition xml:id="blockquote" scheme="css">
+          display:block;
+          font-size:90%;
+          margin-left:3em;
+          padding-left:1em;
+          border-left: 1px solid gray;
+          margin-top:.75em;
+          margin-bottom:.75em;
+          padding-top:.75em;
+          padding-bottom:.75em;
+        </rendition>
       </tagsDecl>
       <refsDecl>
         <refState ed="C" unit="folio" length="2" delim="."/>
@@ -163,8 +175,8 @@
               Additionally, in his edition of section IV of the <hi rend="italic">Expositio</hi>, Coucke identifies manuscript Vb as deriving from Pietro’s revised version, whereas by section XIX it hews more closely to the initial version. 
               (Furthermore, manuscript Pq contains Jean’s version in sections IV and XIX, but by section XXVII it appears to have changed to Pietro’s version [<ref target="Coucke2008">Coucke 2008</ref>, vol. 2, xxvi].)  
               As a result, I have preserved Coucke’s manuscript sigils, but not his labeling of families and conjectured sub-types. 
-              For instance, Coucke labels Pietro’s first and second versions <emph rendition="#bold">P<emph rendition="#suba">a</emph></emph> and <emph rendition="#bold">P<emph rendition="#subb">b</emph></emph>, respectively whereas I call them α and κ. 
-              (This change is made in part to avoid the confusing use of letters in Coucke’s <hi rend="italic">Conspectus siglorum</hi>, where the manuscripts elsewhere labeled as <emph rendition="#bold">P<emph rendition="#subb">b</emph></emph> are listed under heading A, and those as <emph rendition="#bold">P<emph rendition="#suba">a</emph></emph> under heading B.)</p>
+              For instance, Coucke labels Pietro’s first and second versions <emph rendition="#bold">P<emph rendition="#sub">a</emph></emph> and <emph rendition="#bold">P<emph rendition="#sub">b</emph></emph>, respectively whereas I call them α and κ. 
+              (This change is made in part to avoid the confusing use of letters in Coucke’s <hi rend="italic">Conspectus siglorum</hi>, where the manuscripts elsewhere labeled as <emph rendition="#bold">P<emph rendition="#sub">b</emph></emph> are listed under heading A, and those as <emph rendition="#bold">P<emph rendition="#sub">a</emph></emph> under heading B.)</p>
             <p n="3">In classifying the manuscripts I used Coucke’s findings on section IV as a point of departure. 
               I collated all the manuscripts’ versions of section XIX’s tenth problem to test the validity of Coucke’s findings to section XIX. 
               Then I collated all the manuscripts representing solely either Pietro’s first or his second version (with the exception of Mb, to be discussed below), along with manuscripts Ea and Pz (since their classification differs between sections IV and XIX), and four representative manuscripts from the Jean de Jandun redaction.</p>
@@ -412,7 +424,7 @@
             <p n="3">Beyond these broad characteristics, however, further clarity is elusive. 
               Whereas Coucke found that manuscripts Pp and Vc are “contaminated,” since in section IV they complete the omissions which are otherwise characteristic of Jean’s redaction (xxxi–xxxii), in section XIX Pp never does so and Vc only sometimes does. 
               Coucke then goes on to note of section IV (and he observes that Delaurenti’s [then]-in-progress edition of section VII confirms the same), that:
-              <quote source="Coucke2008" rend="indented">"The other representatives of J [Jean’s redaction], however, are hardly differentiated, and among them the relations are volatile and changing. Yet, the samples allow for a division of the manuscripts along two main branches: (1) one of them is built around V<hi rend="superscript">o</hi>, C<hi rend="superscript">a</hi> and E<hi rend="superscript">a</hi>; (2) another unites the distinct pair P<hi rend="superscript">q</hi> P<hi rend="superscript">u</hi>" (xxxii).</quote>
+              <quote source="Coucke2008" rendition="#blockquote">"The other representatives of J [Jean’s redaction], however, are hardly differentiated, and among them the relations are volatile and changing. Yet, the samples allow for a division of the manuscripts along two main branches: (1) one of them is built around V<hi rend="superscript">o</hi>, C<hi rend="superscript">a</hi> and E<hi rend="superscript">a</hi>; (2) another unites the distinct pair P<hi rend="superscript">q</hi> P<hi rend="superscript">u</hi>" (xxxii).</quote>
               Broad outlines of these relations among manuscripts are still present in section XIX: in the first branch, Ca and Vo are still closely related, but Ea now aligns better with Pietro’s first version. 
               In the second branch, moreover, frequent agreements of Pq with Gu and Pu with Pp also emerge. 
               The remaining manuscripts, Vc, Pa, and Sc, do not clearly align with either branch.</p>
