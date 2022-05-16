@@ -64,6 +64,8 @@
       </editorialDecl>
       <tagsDecl>
         <rendition xml:id="bold" scheme="css">font-weight: bold</rendition>
+        <rendition xml:id="suba" scheme="xslfo">fo:character      character="a"      baseline-shift="sub"      font-size="-150%"</rendition>
+        <rendition xml:id="subb" scheme="xslfo">fo:character      character="b"      baseline-shift="sub"      font-size="-150%"</rendition>
       </tagsDecl>
       <refsDecl>
         <refState ed="C" unit="folio" length="2" delim="."/>
@@ -161,8 +163,8 @@
               Additionally, in his edition of section IV of the <hi rend="italic">Expositio</hi>, Coucke identifies manuscript Vb as deriving from Pietro’s revised version, whereas by section XIX it hews more closely to the initial version. 
               (Furthermore, manuscript Pq contains Jean’s version in sections IV and XIX, but by section XXVII it appears to have changed to Pietro’s version [<ref target="Coucke2008">Coucke 2008</ref>, vol. 2, xxvi].)  
               As a result, I have preserved Coucke’s manuscript sigils, but not his labeling of families and conjectured sub-types. 
-              For instance, Coucke labels Pietro’s first and second versions <emph rendition="#bold">Pa</emph> and <emph rendition="#bold">Pb</emph>, respectively whereas I call them α and κ. 
-              (This change is made in part to avoid the confusing use of letters in Coucke’s <hi rend="italic">Conspectus siglorum</hi>, where the manuscripts elsewhere labeled as Pb are listed under heading A, and those as Pa under heading B.)</p>
+              For instance, Coucke labels Pietro’s first and second versions <emph rendition="#bold">P<emph rendition="#suba">a</emph></emph> and <emph rendition="#bold">P<emph rendition="#subb">b</emph></emph>, respectively whereas I call them α and κ. 
+              (This change is made in part to avoid the confusing use of letters in Coucke’s <hi rend="italic">Conspectus siglorum</hi>, where the manuscripts elsewhere labeled as <emph rendition="#bold">P<emph rendition="#subb">b</emph></emph> are listed under heading A, and those as <emph rendition="#bold">P<emph rendition="#suba">a</emph></emph> under heading B.)</p>
             <p n="3">In classifying the manuscripts I used Coucke’s findings on section IV as a point of departure. 
               I collated all the manuscripts’ versions of section XIX’s tenth problem to test the validity of Coucke’s findings to section XIX. 
               Then I collated all the manuscripts representing solely either Pietro’s first or his second version (with the exception of Mb, to be discussed below), along with manuscripts Ea and Pz (since their classification differs between sections IV and XIX), and four representative manuscripts from the Jean de Jandun redaction.</p>
