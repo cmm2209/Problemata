@@ -631,6 +631,19 @@ var appcrit = (function () {
   					btn.show();
   				}
   			});
+  			 $("tei-lem[ana~=\"\\#" + evt.currentTarget.name + "\"]").each(function (i, elt) {
+  				if (evt.currentTarget.checked) {
+  					$(elt).addClass("hidden");
+  					$(elt).next("span").addClass("hidden");
+  					if ($(elt.parentElement).children("tei-rdg").not(".hidden").length == 0) {
+  						$("#button-" + $(elt.parentElement).attr("id")).hide();
+  					}
+  				} else {
+  					$(elt).removeClass("hidden");
+  					$(elt).next("span").removeClass("hidden");
+  					$("#button-" + $(elt.parentElement).attr("id")).show();
+  				}
+  			});
   			$("tei-rdg[ana~=\"\\#" + evt.currentTarget.name + "\"]").each(function (i, elt) {
   				if (evt.currentTarget.checked) {
   					$(elt).addClass("hidden");
