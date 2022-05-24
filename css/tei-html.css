@@ -222,6 +222,9 @@ div.apparatus span.lineref {
 .ui-tooltip-content div.apparatus tei-lem {
   display: inline;
 }
+.ui-tooltip-content div.apparatus tei-lem.hidden {
+  display: none;
+}
 .ui-tooltip-content div.apparatus tei-rdg {
   font-style: italic;
   display: inline;
@@ -280,6 +283,9 @@ div.apparatus span.lineref {
 }
 .ui-dialog-content tei-lem {
   display: inline;
+}
+.ui-dialog-content tei-rdg.hidden {
+  display: none;
 }
 .ui-dialog-content tei-lem:hover {
   cursor: pointer;
