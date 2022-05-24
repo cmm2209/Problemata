@@ -479,7 +479,7 @@ var appcrit = (function () {
   							var lem = app.children("tei-lem");
   							if (lem.find("tei-app").length > 0) {
   								lem.find("tei-rdg,tei-rdggrp,tei-note,tei-wit").remove();
-  								lem.find("tei-lem").remove();
+  								lem.find("tei-lem").removeAttr("wit").removeAttr("source");
   							}
   							// turn phrases into first...last
   							if (lem.children(this.variantBlocks).length == 0) {
