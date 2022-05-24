@@ -126,6 +126,9 @@ div.apparatus tei-app>span.lem:before {
   content: '\a';
   white-space: pre;
 }
+div.apparatus tei-app>span.lem.hidden {
+  display: none;
+}
 span.note {
   display:none;
 }
