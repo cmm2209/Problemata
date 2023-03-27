@@ -81,8 +81,10 @@
             <listWit xml:id="bibliography-manuscripts"><head>Manuscripts</head>
               <listWit>
                 <head>The Independent Branch</head>
-                <listWit xml:id="a">
-                  <head>Consensus of A<hi rend="superscript">p</hi>, T<hi rend="superscript">k</hi>, U<hi rend="superscript">k</hi>, and U<hi rend="superscript">k</hi> (<abbr type="siglum">a</abbr>)</head>
+                <witness xml:id="a">
+                  <abbr type="siglum">a</abbr> 
+                  <name>Consensus of A<hi rend="superscript">p</hi>, T<hi rend="superscript">k</hi>, U<hi rend="superscript">k</hi>, and U<hi rend="superscript">k</hi></name>
+                  <listWit>
                   <witness xml:id="Ap">
                   <abbr type="siglum">A<hi rend="superscript">p</hi></abbr> 
                   <name>Patavinus, Bibl. Antoniana, Scaff. XVII, 370</name>,
@@ -118,7 +120,8 @@
                     </witness>
                   </listWit>
                 </witness>
-                </listWit>  
+                </listWit>
+                </witness>  
               <witness xml:id="Gu">
                   <abbr type="siglum">G<hi rend="superscript">u</hi></abbr> 
                   <name>?<ref target="http://lib.ugent.be/catalog/rug01:000802948">Ghent, Bibliothéek van de Rijksuniversiteit, ms. 72</ref>?</name> (accessed 2022-01-03),
@@ -163,10 +166,9 @@
                   <name><ref target="https://digi.vatlib.it/view/MSS_Vat.lat.2174">Vatican, Biblioteca Apostolica lat. 2174</ref></name> (accessed 2022-01-03),
                   <locus from="72r" to="77r">ff. 72r-77r</locus>
                   <date>fourteenth century</date>
-                </witness>                
-           <witness xml:id="q"><abbr type="siglum">q</abbr>
-             <name>The Parisian Sub-branch</name>
-             <listWit>
+                </witness> 
+              </listWit>
+              <listWit xml:id="q"><head>The Parisian Sub-branch (<abbr type="siglum">q</abbr>)</head>
                <witness xml:id="Ma">
                  <abbr type="siglum">M<hi rend="superscript">a</hi></abbr> 
                  <name><ref target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=DX.24.02">Cesena, Malatestiana D.XXIV.2</ref></name> (accessed 2022-01-03),
@@ -192,7 +194,6 @@
                  <locus from="136v" to="262r">ff. 136v-262r</locus>
                  <date>fourteenth century</date>
                </witness>
-              </listWit></witness>
             </listWit>
             </listWit>  
             <listWit xml:id="bibliography-editions-witnesses">
