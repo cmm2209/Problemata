@@ -1589,15 +1589,17 @@ AUTEM ET <app><lem wit="#p #q #Ap #Gu #Px #Tk #m #v">RITHIMO</lem>
 IN <app><lem wit="#a2 #p #q #Gu #Px #m #v">GRAUIORI</lem>
 <rdg wit="#Ap" ana="#morphological">GRAUIORE</rdg>
 <rdg wit="#Klek1922" ana="#lexical">TARDO</rdg></app>
-<app><lem wit="#Ap #Gu #Ob #Pz #Yk #m #v">PECCANTES</lem>
-<rdg wit="#q2 #Px #Tk #Xp" ana="#orthographical">PECANTES</rdg>
+<app><lem wit="#Ap #Gu #Mb #Ob #Pz #Yk #m #v">PECCANTES</lem>
+<rdg wit="#Ma #Px #Tk #Xp" ana="#orthographical">PECANTES</rdg>
 <rdg wit="Va" ana="#morphological">PECANTE</rdg></app>
 <app><lem wit="#p #q #Gu #Yk #m #v">MANIFESTI MAGIS</lem>
 <rdg wit="#Ap" ana="#morphological">MANIFESTE MAGIS</rdg>
 <rdg wit="#Tk" ana="#lexical">MANIFESTI FIUNT</rdg>
 <rdg wit="#Px" ana="#additive #ordinal">MAGIS MANIFESTI FIUNT</rdg></app>.</seg>
-<seg xml:id="ment-21.2" n="2">UTRUM QUOD PLUS TEMPUS GRAUI,
-HIC <app><lem wit="#a2 #p #q #Gu #Px #m #v">AUTEM</lem>
+<seg xml:id="ment-21.2" n="2">UTRUM QUOD PLUS 
+<app><lem wit="#a #p #Gu #Ma #Px #Pz #m #v">TEMPUS</lem>
+<rdg wit="#Mb" ana="#morphological">TEMPORE</rdg></app>  
+GRAUI, HIC <app><lem wit="#a2 #p #q #Gu #Px #m #v">AUTEM</lem>
 <rdg wit="#Ap" ana="#lexical">AUT</rdg></app> 
 <app><lem wit="#p #q #Ap #Gu #Px #Yk #m #v">MAGIS</lem>
 <rdg wit="#Tk" ana="#subtractive"/></app> 
@@ -1693,7 +1695,9 @@ MEDIUM
 PER TOTAM <app><lem wit="#a #q #Gu #Ob #Px #Xp #m #v">FISTULAM</lem>
 <rdg wit="Va" ana="#lexical">FIGURAM</rdg></app>
 DYAPASON. 
-ADHUC ET IN <app><lem wit="#a #p #q #Gu #Px #m #v">ALIIS</lem>
+ADHUC <app><lem wit="#a #p #Gu #Px #Pz #m #v">ET</lem>
+<rdg wit="#q2" ana="#lexical">ETIAM</rdg></app> 
+IN <app><lem wit="#a #p #q #Gu #Px #m #v">ALIIS</lem>
 <rdg wit="#Klek1922" ana="#lexical" type="emendation">LIRIS</rdg></app>
 <app><lem wit="#a2 #q #Gu #Px #Va #Xp #m #v">IN <num type="ratio" value="2/1">DUPLICI</num> DISTANTIA</lem>
 <rdg wit="#Ob" ana="#subtractive"><num type="ratio" value="2/1">DUPLICI</num> DISTANTIA</rdg>
@@ -1754,7 +1758,7 @@ ET <app><lem wit="#a2 #p #q #Gu #Px #m #v">PER <num type="cardinal" value="4">QU
 <rdg wit="#Ap" ana="#additive">P<unclear>ER</unclear> <num type="cardinal" value="4">QUATUOR</num> CUM</rdg>
 <rdg wit="#Klek1922" ana="#lexical">DYATESSERON</rdg></app>
 <app><lem wit="#a #q2 #Ob #Px #Va #m #v"><num type="ratio" value="4/3">EPITRICA</num></lem>
-  <rdg wit="#Xp" ana="#orthographical"><num type="ratio" value="4/3">EPTRICA</num></rdg>
+<rdg wit="#Xp" ana="#orthographical"><num type="ratio" value="4/3">EPTRICA</num></rdg>
 <rdg wit="#Pz" ana="#lexical #additive">CUM EPITHERICA</rdg>
 <rdg wit="#Gu" ana="#orthographical"><space/></rdg></app>
 DISTANTIA <app><lem wit="#a #p #q2 #Gu #Px #m #v">ACCIPIUNT</lem>
@@ -1810,10 +1814,10 @@ QUI <app><lem wit="#p #q #Ap #Gu #Px #m #v">EST</lem>
 AB IPSA PROPTER <app><lem wit="#a #p #q2 #Gu #Px #m #v">ID</lem>
 <rdg wit="#Pz" ana="#subtractive"/></app> 
 QUOD CONSONANS EST?
-SIMUL AUGERI <app><lem wit="#Px #Pz #Tk #m #v">AUT</lem>
+SIMUL AUGERI <app><lem wit="#Ap #Mb">AUTEM</lem>
 <rdg wit="#Ma #Va" ana="#orthographical"><choice><abbr><hi rend="supraline">A</hi>T</abbr><expan>A<ex>U</ex>T</expan></choice></rdg>
-<rdg wit="#Ap #Gu #Yk" ana="#lexical"><app><lem wit="#Ap">AUTEM</lem>
-  <rdg wit="#Gu #Yk" ana="#orthographical"><choice><abbr>A'</abbr><expan>A<ex>UTEM</ex></expan></choice></rdg></app></rdg>
+<rdg wit="#Gu #Yk" ana="#orthographical"><choice><abbr>A'</abbr><expan>A<ex>UTEM</ex></expan></choice></rdg>
+<rdg wit="#Px #Pz #Tk #m #v" ana="#lexical">AUT</rdg>
 <rdg wit="#Ob #Xp" ana="#lexical">A</rdg>
 <rdg wit="#Klek1922" ana="#subtractive"/></app>  
 <app><lem wit="#a #Gu #Ob #Px #Xp">SIMILI</lem>
@@ -1848,7 +1852,8 @@ UERO NON EST MEDIUM?</seg>
 <milestone ed="#Ap" unit="folio" n="35v"/>     
 <seg xml:id="ment-25.2" n="2">AUT QUIA <num type="cardinal" value="7">SEPTEM</num> CORDARUM ERANT <app><lem wit="#a2 #p #q #Gu #Px #m #v">ARMONIE</lem>
 <rdg wit="#Ap" ana="#morphological">ARMONIA</rdg></app> 
-ANTIQUITUS? <num type="cardinal" value="7">SEPTEM</num> AUTEM HABENT MEDIUM</seg>.
+ANTIQUITUS? 
+<num type="cardinal" value="7">SEPTEM</num> AUTEM HABENT MEDIUM</seg>.
    </p>  
 </div>
           
@@ -1929,8 +1934,8 @@ MOUET ENIM ET COLOR UISUM,
 <app><lem wit="#a #q2 #Gu #Ob #Px #Va #m #v">CONSEQUENTEM</lem>
 <rdg wit="#Pz" ana="#morphological">CONSEQUENS</rdg>
 <rdg wit="#Xp" ana="#lexical">SEQUENTEM</rdg></app> 
-<app><lem wit="#a2 #p #q2 #Gu #Px">HUIUS</lem>
-<rdg wit="#Ap #m #v" ana="#lexical">HUIUSMODI</rdg>
+<app><lem wit="#a2 #p #Gu #Ma #Px">HUIUS</lem>
+<rdg wit="#Ap #Mb #m #v" ana="#lexical">HUIUSMODI</rdg>
 <rdg wit="#Pz" ana="#lexical">HUIC</rdg></app>
 <milestone ed="#m" unit="folio" n="194v"/>
 <app><lem wit="#a #p #q #Px #m #v">SONO</lem>
@@ -1987,7 +1992,8 @@ LEGES <app><lem wit="#p #q #Ap #Gu #Px #Yk #m #v">QUOMODO</lem>
 NON <app><lem wit="#p #q #Ap #Gu #Px #Tk #m #v">LATEANT</lem>
 <rdg wit="#Yk" ana="#orthographical">LETEANT</rdg></app>,
 QUEMADMODUM IN <app><lem wit="#Gu #Px #Tk #Va">AGATHUSIS</lem>
-<rdg wit="#q2 #Ob #Xp #m #v" ana="#orthographical">AGATHIRSIS</rdg>
+<rdg wit="#Ma #Ob #Xp #m #v" ana="#orthographical">AGATHIRSIS</rdg>
+<rdg wit="#Mb" ana="#orthographical">AGATHARSIS</rdg>
 <rdg wit="#Ap" ana="#orthographical">AGATHIS</rdg>
 <rdg wit="#Yk" ana="#orthographical">AGATHIS SIS</rdg>
 <rdg wit="#Pz" ana="#lexical">GATISIS</rdg></app>
@@ -2000,12 +2006,13 @@ POSTERIORIBUS IGITUR <app><lem wit="#a #q2 #Gu #Px #Va #m #v">CANTIBUS</lem>
 <rdg wit="#Pz" ana="#morphological #additive">POSSIBILE CANTANTIBUS</rdg>
 <rdg wit="#Xp" ana="#additive">A CANTANTIBUS</rdg>
 <rdg wit="#Ob" ana="#lexical">AD EUITANTIBUS</rdg></app> 
-<app><lem wit="#a #q #Px">PRIMOS</lem>
-<rdg wit="#Gu #Ob #m #v" ana="#lexical">PRIOS</rdg>
-<rdg wit="#Va" ana="#lexical">PRIORES</rdg>
-<rdg wit="#Xp" ana="#lexical">PRIORUM</rdg></app>
-<app><lem wit="#a #Gu #Ob #Px #Xp #m #v">IDEM</lem>
-<rdg wit="#q2" ana="#lexical">QUIDEM</rdg>
+<app><lem wit="#a #Ma #Px #Pz">PRIMOS</lem>
+<rdg wit="#Gu #Mb #Ob #Va #Xp #m #v" ana="#lexical"><app><lem wit="#Gu #Ob #m #v">PRIOS</lem>
+  <rdg wit="#Mb" ana="#morphological">PRIUS</rdg>
+  <rdg wit="#Va" ana="#morphological">PRIORES</rdg>
+  <rdg wit="#Xp" ana="#morphological">PRIORUM</rdg></app></rdg></app>
+<app><lem wit="#a #Gu #Mb #Ob #Px #Xp #m #v">IDEM</lem>
+<rdg wit="#Ma" ana="#lexical">QUIDEM</rdg>
 <rdg wit="#Va" ana="#lexical">DEINDE</rdg>
 <rdg wit="#Pz" ana="#subtractive"/></app> 
 <app><lem wit="#a #Ob #Px #Pz #Xp #m #v">APPELLAUERUNT</lem>
