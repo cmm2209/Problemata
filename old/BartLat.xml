@@ -31,7 +31,7 @@
               <item>Px's sicud emended to sicut</item>
               <item>Ap and Xp's set emended to sed</item>
               <item>Ma, Pz, and Px's velud emended to velut</item>
-              <item>Ap's quottuor emended to quatuor</item>
+              <item>Ap's quattuor emended to quatuor</item>
               <item>Va's unique orthographical variants ignored</item>
               <item>All: standardized spellings of lychanos, mese, and paramese</item>
               <item>All: standardized spellings of dyatesseron, dyapente, and dyapason</item>
@@ -1099,26 +1099,33 @@ DECIPIUNTUR<app><lem n="DECIPIUNTUR"/><rdg wit="#Pz" ana="#additive"> ETCETERA</
 <app xml:id="app-15.1" exclude="#app-rdg-Px-15.1"><lem wit="#Va #m #v"><num type="ordinal" value="15">Quintumdecimum</num> problema</lem>
 <rdg wit="#Ma #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="15">15<hi rend="superscript">m</hi></num></add></rdg>
 <rdg wit="#Gu" ana="#lexical"><num type="ordinal" value="14">14m.</num> problema:</rdg>
-<rdg wit="#Ap #Mb #Ob #Xp #Yk" ana="#subtractive"/></app>
+<rdg wit="#Ap #Mb #Ob #Xp #Yk #Zn" ana="#subtractive"/></app>
   </head>
    <p n="1">
-<seg xml:id="ment-15.1" n="1">PROPTER QUID LEGES QUIDEM NON IN CONUERSIONIBUS FACIEBANT, ALII UERO CANTUS <app><lem wit="#a #p #q2 #Gu #m #v">CHORICI</lem>
+<seg xml:id="ment-15.1" n="1">PROPTER QUID LEGES QUIDEM 
+<app><lem wit="#a #p #q2 #Gu #Px #Pz #m #v">NON</lem>
+<rdg wit="#Zn" ana="#lexical">NOUI</rdg></app>  
+IN CONUERSIONIBUS FACIEBANT, ALII UERO CANTUS <app><lem wit="#a #p #q2 #Gu #Zn #m #v">CHORICI</lem>
 <rdg wit="#Pz #Xp" ana="#orthographical">THORICI</rdg></app>?</seg>
 <seg xml:id="ment-15.2" n="2">     
 AUT QUIA LEGES QUIDEM 
 <app><lem wit="#p #q #Gu #Px #Tk #Yk #m #v">AGONIZANTIUM</lem>
 <rdg wit="#Ap" ana="#morphological">AGONIZATIUUM</rdg></app>
 <milestone ed="#Ob" unit="column" n="B"/> 
-FUERUNT? QUIBUS UTIQUE 
+<milestone ed="#Zn" unit="folio" n="139v"/>  
+<app><lem wit="#a #p #q2 #Gu #Px #Pz #m #v">FUERUNT</lem>
+<rdg wit="#Zn" ana="#morphological">FUERINT</rdg></app>? 
+QUIBUS UTIQUE 
 <milestone ed="#Xp" unit="folio" n="32v"/>  
 <app><lem wit="#a2 #q2 #Gu #Ob #Px #Va #m #v">IMITARI</lem>
 <rdg wit="#Xp" ana="#orthographical">IMMITARI</rdg>
 <rdg wit="#Pz" ana="#lexical">MUTARI</rdg>
+<rdg wit="#Zn" ana="#lexical">INMUTARI</rdg>
 <rdg wit="#Ap" ana="#lexical">INMUTATI</rdg></app> 
 <app><lem wit="#a #q #Gu #Ob #Px #Xp #m #v">POTENTIBUS</lem>
 <rdg wit="#Va" ana="#lexical">PORTENTIBUS</rdg></app>
 ET DISTENDI,
-CANTUS <app><lem wit="#a #p #q2 #Gu #Px #m #v">FIEBAT</lem>
+CANTUS <app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">FIEBAT</lem>
 <rdg wit="#Pz" ana="#morphological">FIEBANT</rdg></app> 
 LONGUS <app><lem wit="#p #q #Ap #Gu #Yk #m #v">ET</lem>
 <rdg wit="#Px #Tk" ana="#subtractive"/></app>
@@ -1129,24 +1136,26 @@ ET CANTUS <app><lem wit="#Gu #Ob #Px #Tk #Yk">IMITATIONEM</lem>
 <rdg wit="#Ap #Xp" ana="#orthographical">IMMITATIONEM</rdg>
 <rdg wit="#Va #m #v" ana="#morphological">IMITATIONE</rdg>
 <rdg wit="#q2" ana="#lexical">MUTATIONEM</rdg>
-<rdg wit="#Pz" ana="#lexical">MUTANTES</rdg></app>
+<rdg wit="#Pz" ana="#lexical">MUTANTES</rdg>
+<rdg wit="#Zn" ana="#lexical">NON MUTANTIONEM</rdg></app>
 <app><lem wit="#q #Ap #Gu #Ob #Px #Tk #Xp #m #v">SEQUEBANTUR, SEMPER</lem>
 <rdg wit="#Va #Yk" ana="#lexical">SEQUEBATUR PROPTER</rdg></app>
-<app><lem wit="#Ap #Yk #Klek1922">ALTERA</lem>
-<rdg wit="#Tk" ana="#orthographical">ALT<del>ER</del>A</rdg>
-<rdg wit="#p #q #Gu #Px #m #v" ana="#lexical">ALTA</rdg></app> 
+<app><lem wit="#Ap #Tk #Yk #Klek1922">ALTERA</lem>
+<rdg wit="#p #q #Gu #Px #m #v" ana="#lexical"><app><lem wit="#p #q #Gu #Px #m #v">ALTA</lem>
+  <rdg wit="#Tk" ana="#orthographical">ALT<del>ER</del>A</rdg></app></rdg></app> 
 FACTA.</seg> 
 <seg xml:id="ment-15.3" n="3">MAGIS ENIM <app><lem wit="#p #q #Ap #Gu #Px #Tk #m #v">CANTU</lem>
 <rdg wit="#Yk" ana="#morphological">CANTUM</rdg></app>  
-NECESSE <app><lem wit="#a2 #q #Ob #Px #Va #m #v">IMITARI</lem>
+NECESSE <app><lem wit="#a2 #q2 #Ob #Px #Pz #Va #m #v">IMITARI</lem>
 <rdg wit="#Gu #Xp" ana="#orthographical">IMMITARI</rdg>
-<rdg wit="#Ap" ana="#orthographical">INMITARI</rdg></app>  
-QUAM <app><lem wit="#a2 #q2 #Gu #Px #Va #Xp #m #v">UERBIS</lem>
+<rdg wit="#Ap" ana="#orthographical">INMITARI</rdg>
+<rdg wit="#Zn" ana="#lexical">INMUTARI</rdg></app>  
+QUAM <app><lem wit="#a2 #q2 #Gu #Px #Va #Xp #Zn #m #v">UERBIS</lem>
 <rdg wit="#Ob" ana="#morphological">UERBUM</rdg>
 <rdg wit="#Ap" ana="#additive">UERBIS ET</rdg>
 <rdg wit="#Pz" ana="#additive">UERBIS ETCETERA</rdg>
 <witDetail wit="#Pz">#Pz switches from lemma to commentary formatting after this point.</witDetail></app>.
-PROPTER QUOD ET <app><lem wit="#q2 #Px #Tk #Yk #m #v">DITIRAMBI</lem>
+PROPTER QUOD ET <app><lem wit="#q2 #Px #Tk #Yk #Zn #m #v">DITIRAMBI</lem>
 <rdg wit="#Va" ana="#orthographical">DITHITANDI</rdg>
 <rdg wit="#Gu" ana="#orthographical">DITIRANBI</rdg>
 <rdg wit="#Ap" ana="#morphological">DITIRANBIS</rdg>
@@ -1157,22 +1166,25 @@ PROPTER QUOD ET <app><lem wit="#q2 #Px #Tk #Yk #m #v">DITIRAMBI</lem>
 <rdg wit="#Gu #Va" ana="#subtractive"/></app>
 <app><lem wit="#q2 #Ob #Px #Tk #m #v">IMITATIUI</lem>
 <rdg wit="#Gu #Xp" ana="#orthographical">IMMITATIUI</rdg>
-<rdg wit="#Ap #Pz #Yk" ana="#lexical">INMUTATIUI</rdg></app>,
+<rdg wit="#Ap #Pz #Yk #Zn" ana="#lexical">INMUTATIUI</rdg></app>,
 FIEBANT.
-NON <app><lem wit="#p #q #Ap #Gu #Px #Tk #m #v">ADHUC</lem>
+<app><lem wit="#a #p #q2 #Gu #Px #Pz #m #v">NON</lem>
+<rdg wit="#Zn" ana="#lexical">NEC</rdg></app> 
+<app><lem wit="#p #q #Ap #Gu #Px #Tk #m #v">ADHUC</lem>
 <rdg wit="#Yk" ana="#additive">ADHUC AUTEM</rdg></app> 
 HABENT CONUERSIUOS, 
 PRIUS <app><lem wit="#a2 #p #q #Gu #Px">AUTEM</lem>
 <rdg wit="#Ap #m #v" ana="#lexical">AUT</rdg></app>
 HABEBANT. 
-CAUSA <app><lem wit="#a #p #q2 #Gu #Px #m #v">AUTEM</lem>
+CAUSA <app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">AUTEM</lem>
 <rdg wit="#Pz" ana="#lexical">AUT</rdg></app> 
 <app><lem wit="#q #Ap #Gu #Px #Tk #Va #m #v">QUONIAM</lem>
 <rdg wit="#Yk" ana="#lexical">QUIA</rdg>
 <rdg wit="#Ob #Xp" ana="#lexical">QUANDO</rdg></app> 
-ANTIQUITUS <app><lem wit="#a #q #Gu #Ob #Px #Va #m #v">LIBERI</lem>
+ANTIQUITUS <app><lem wit="#a #q2 #Gu #Ob #Px #Pz #Va #m #v">LIBERI</lem>
+<rdg wit="#Zn" ana="#lexical">LIBRI</rdg>
 <rdg wit="#Xp" ana="#subtractive"/></app> 
-<app><lem wit="#a #Ob #Px #Pz #Va #m #v">ROTABANT</lem>
+<app><lem wit="#a #Ob #Px #Pz #Va #Zn #m #v">ROTABANT</lem>
 <rdg wit="#Xp" ana="#additive">ROTABANT TULERANT</rdg>
 <rdg wit="#Gu" ana="#lexical">RECILLANT</rdg>
 <rdg wit="#q2" ana="#lexical">DOTABANT</rdg></app>
@@ -1181,28 +1193,28 @@ IPSI,
 <rdg wit="#Gu #Xp" ana="#morphological">MULTAS</rdg></app>
 <app><lem wit="#p #q #Ap #Gu #Yk #m #v">IGITUR</lem>
 <rdg wit="#Px #Tk" ana="#lexical">ENIM</rdg></app>
-<app><lem wit="#a #p #q2 #Gu #Px #m #v">AGONISTICE</lem>
+<app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">AGONISTICE</lem>
 <rdg wit="#Pz" ana="#additive">AGONISTICE CAUDA</rdg></app> 
 <app><lem wit="#a #p #q #Px #m #v">CANTARE</lem>
 <rdg wit="#Gu" ana="#subtractive"/></app>
 DIFFICILE ERAT, 
-QUARE IN <app><lem wit="#a #Ob #Px #Pz #Xp #m #v">ARMONIA</lem>
+QUARE IN <app><lem wit="#a #Ob #Px #Pz #Xp #Zn #m #v">ARMONIA</lem>
 <rdg wit="#q2 #Gu #Va" ana="#morphological">ARMONIAM</rdg></app>
 CANTUM DELECTABILITER.
-<app><lem wit="#a #p #Gu #Px #Pz #m #v">MUTARE</lem>
+<app><lem wit="#a #p #Gu #Px #Pz #Zn #m #v">MUTARE</lem>
 <rdg wit="#q2" ana="#lexical">IMITARE</rdg></app> 
 <app><lem wit="#a #q #Gu #Ob #Px #Xp #m #v">ENIM</lem>
 <rdg wit="#Va" ana="#lexical">EST</rdg></app>
-<app><lem wit="#a #p #q2 #Gu #Px #m #v">MULTIS</lem>
+<app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">MULTIS</lem>
 <rdg wit="#Pz" ana="#morphological">MULTUM</rdg></app> 
 MUTATIONIBUS 
 <milestone ed="#Yk" unit="column" n="B"/>
-<app><lem wit="#a #p #Gu #Px #m #v">UNO</lem>
-<rdg wit="#q" ana="#lexical"><app><lem wit="#Mb">IMMO</lem>
+<app><lem wit="#a #p #Gu #Px #Zn #m #v">UNO</lem>
+<rdg wit="#q2 #Pz" ana="#lexical"><app><lem wit="#Mb">IMMO</lem>
   <rdg wit="#Ma" ana="#orthographical">IMO</rdg>
   <rdg wit="#Pz" ana="#orthographical">YMMO</rdg></app></rdg></app> 
 FACILE QUAM MULTIS
-ET <app><lem wit="#a2 #Gu #Ob #Px #Pz #Va #m #v">AGONISTE</lem>
+ET <app><lem wit="#a2 #Gu #Ob #Px #Pz #Va #Zn #m #v">AGONISTE</lem>
 <rdg wit="#Ap" ana="#orthographical">ACONISTE</rdg>
 <rdg wit="#q2 #Xp" ana="#morphological">AGONISTICE</rdg></app> 
 <app><lem wit="#a2 #q #Gu #Ob #Px #Va #m #v">ID EST</lem>
@@ -1215,7 +1227,7 @@ PROPTER QUOD SIMPLICIORES FACIEBANT SIBI
 <rdg wit="#Px #Tk" ana="#orthographical">MELODYAS</rdg>
 <rdg wit="#Ap" ana="#lexical">CANTUS</rdg></app>.
 <app><lem wit="#a2 #p #q2 #Gu #Px #m #v">CONUERSIUUS</lem>
-<rdg wit="#Ap" ana="#morphological">CONUERSUS</rdg>
+<rdg wit="#Ap #Zn" ana="#morphological">CONUERSUS</rdg>
 <rdg wit="#Pz" ana="#morphological">CONUERSIM</rdg></app> 
 <app><lem wit="#a #p #q #Gu #Px">AUTEM</lem>
 <rdg wit="#m #v" ana="#lexical">AUT</rdg></app>
@@ -1229,31 +1241,35 @@ ET UNO MENSURATUR.</seg>
 AUTEM EST CAUSA ET PROPTER QUOD QUE QUIDEM A SCENA NON CONUERSIUA, 
 <app><lem wit="#a #p #q #Gu #Px #m #v">CHORI ENIM</lem>
 <rdg wit="#Klek1922" ana="#lexical">QUE AUTEM CHORI</rdg></app> 
-<app><lem wit="#q2 #Ap #Yk">CONUERSIUA</lem>
-<rdg wit="#Tk" ana="#orthographical">CONUERS<del>IU</del>A</rdg>
-<rdg wit="#p #Gu #Px #Pz #m #v" ana="#lexical">CONUERSA</rdg></app>.
-QUI 
+<app><lem wit="#q2 #Ap #Tk #Yk">CONUERSIUA</lem>
+<rdg wit="#p #Gu #Px #Pz #Zn #m #v" ana="#lexical"><app><lem wit="#p #Gu #Px #Pz #Zn #m #v">CONUERSA</lem>
+  <rdg wit="#Tk" ana="#orthographical">CONUERS<del>IU</del>A</rdg></app></rdg></app>.
+<app><lem wit="#a #p #q2 #Gu #Px #Pz #m #v">QUI</lem>
+<rdg wit="#Zn" ana="#additive">QUI ENIM</rdg></app> 
 <milestone ed="#Pz" unit="folio" n="183v"/>
 ENIM <app><lem wit="#a #p #Gu #Px #v">CANTAT</lem>
 <rdg wit="#q #m" ana="#morphological">CANTANT</rdg></app>
 <milestone ed="#Ap" unit="folio" n="35r"/>  
-IN <app><lem wit="#a #p #Gu #Px #m #v">SCENA</lem>  
+IN <app><lem wit="#a #p #Gu #Px #Zn #m #v">SCENA</lem>  
 <rdg wit="#q2" ana="#orthographical">ASCENA</rdg>
 <rdg wit="#Pz" ana="#lexical">CENA</rdg></app>
-<app><lem wit="#a #p #q2 #Gu #Px #m #v">AGONISTA</lem>
+<app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">AGONISTA</lem>
 <rdg wit="#Pz" ana="#morphological">AGONISTICA</rdg></app>
 <app><lem wit="#a #Px">ET IMITATOR</lem>
-<rdg wit="#Pz #Va" ana="#orthographical">ET IMMITATOR</rdg>
+<rdg wit="#Pz #Va #Zn" ana="#orthographical">ET IMMITATOR</rdg>
 <rdg wit="#m #v" ana="#subtractive">IMITATOR</rdg>
 <rdg wit="#q2 #Ob #Xp" ana="#lexical">ET MUTATOR</rdg>
 <rdg wit="#Gu" ana="#lexical">ET MUTATORUM</rdg></app>,
-<app><lem wit="#a #q2 #Va #m #v">CHORUS</lem>
+<app><lem wit="#a #q2 #Va #Zn #m #v">CHORUS</lem>
 <rdg wit="#Px" ana="#orthographical"><space/></rdg>
 <rdg wit="#Gu #Ob #Pz #Xp" ana="#morphological"><app><lem wit="#Gu #Ob">CHORIS</lem>
   <rdg wit="#Pz #Xp" ana="#lexical">THORIS</rdg></app></rdg></app>
 <app><lem wit="#a2 #p #q #Gu #m #v">AUTEM</lem>
 <rdg wit="#Ap #Px" ana="#lexical">AUT</rdg></app>
-MINUS <app><lem wit="#a2 #Px #Va #m #v">IMITATUR</lem>
+MINUS 
+<milestone ed="#Zn" unit="folio" n="140r"/>  
+<app><lem wit="#a2 #Px #Va #m #v">IMITATUR</lem>
+<rdg wit="#Zn" ana="#orthographical">IMMITATUR</rdg>
 <rdg wit="#Ap" ana="#lexical">IMMUTATUR</rdg>
 <rdg wit="#Pz" ana="#lexical">INMICTATUR</rdg>
 <rdg wit="#q2 #Gu #Ob #Xp" ana="#lexical">MUTATUR</rdg></app></seg>.</p>  
@@ -1264,7 +1280,7 @@ MINUS <app><lem wit="#a2 #Px #Va #m #v">IMITATUR</lem>
  <app xml:id="app-16.1" exclude="#app-rdg-Px-16.1"><lem wit="#Va #m #v"><num type="ordinal" value="16">Sextumdecimum</num> problema</lem>
 <rdg wit="#Ma #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="16">16<hi rend="superscript">m</hi></num></add></rdg>
 <rdg wit="#Gu" ana="#lexical"><num type="ordinal" value="15">15tum</num> problema.</rdg>
-<rdg wit="#Ap #Mb #Ob #Xp #Yk" ana="#subtractive"/></app>
+<rdg wit="#Ap #Mb #Ob #Xp #Yk #Zn" ana="#subtractive"/></app>
   </head>
  <p n="1">
 <seg xml:id="ment-16.1" n="1">  
@@ -1272,11 +1288,15 @@ PROPTER QUID <app><lem wit="#a #p #q #Px #m #v">DELECTABILIUS</lem>
 <rdg wit="#Gu" ana="#morphological">DELECTABILIS</rdg></app>
 <app><lem wit="#a #p #q #Gu #Px">ANTIPHONUM</lem>
 <rdg wit="#m #v" ana="#morphological">ANTIPHONUS</rdg></app>
-<app><lem wit="#a2 #p #q2 #Gu #Px">CONSONO</lem>
+<app><lem wit="#a2 #p #q2 #Gu #Px #Zn">CONSONO</lem>
 <rdg wit="#Pz" ana="#lexical">CUM SONO</rdg>
 <rdg wit="#m #v" ana="#lexical">SONO</rdg>
 <rdg wit="#Ap" ana="#subtractive"/></app>?</seg>
-<seg xml:id="ment-16.2" n="2">AUT QUIA MAGIS MANIFESTUM FIT <app><lem wit="#a #Pz #Va #m #v">CONSONARE</lem>
+<seg xml:id="ment-16.2" n="2">AUT <app><lem wit="#a #p #q2 #Gu #Px #Pz #m #v">QUIA</lem>
+<rdg wit="#Zn" ana="#subtractive"/></app> 
+MAGIS MANIFESTUM <app><lem wit="#a #p #q2 #Gu #Px #Pz #m #v">FIT</lem>
+<rdg wit="#Zn" ana="#lexical">SIT</rdg></app> 
+<app><lem wit="#a #Pz #Va #Zn #m #v">CONSONARE</lem>
 <rdg wit="#q2 #Gu #Ob #Xp" ana="#morphological">CONSONANTE</rdg>
 <rdg wit="#Px" ana="#lexical">CONSONA</rdg></app>?</seg> 
 <seg xml:id="ment-16.3" n="3"><app><lem wit="#a2 #p #q #Gu #Px #m #v">AUT</lem>
@@ -1305,7 +1325,7 @@ ALTERAM<app><lem n="ALTERAM"/><rdg wit="#Pz" ana="#additive"> ETCETERA</rdg></ap
  <app xml:id="app-17.1" exclude="#app-rdg-Px-17.1"><lem wit="#Va #m #v"><num type="ordinal" value="17">Decimumseptimum</num> problema</lem>
 <rdg wit="#Ma #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="17">17<hi rend="superscript">m</hi></num></add></rdg>
 <rdg wit="#Gu" ana="#lexical"><num type="ordinal" value="16">16tum.</num> Problema.</rdg>
-<rdg wit="#Ap #Mb #Ob #Xp #Yk" ana="#subtractive"/></app>
+<rdg wit="#Ap #Mb #Ob #Xp #Yk #Zn" ana="#subtractive"/></app>
   </head>
    <p n="1">
 <seg xml:id="ment-17.1" n="1">
@@ -1313,18 +1333,19 @@ PROPTER QUID <app><lem wit="#a #q #Ob #Px #Xp">QUINQUE</lem>
 <rdg wit="#Gu #m #v" ana="#lexical">QUANDOQUE</rdg>
 <rdg wit="#Va" ana="#lexical">VNAM</rdg>
 <rdg wit="#Klek1922" ana="#additive" type="conjecture">PER QUINQUE</rdg></app>
-NON CANTANT <app><lem wit="#p #Ap #Gu #Pz #Yk #m #v">ANTIPHONA</lem>
+NON CANTANT <app><lem wit="#p #Ap #Gu #Pz #Yk #Zn #m #v">ANTIPHONA</lem>
 <rdg wit="#q2 #Px #Tk" ana="#morphological">ANTIFONAM</rdg></app>?</seg>
 <seg xml:id="ment-17.2" n="2">     
-AUT QUIA NON EADEM CONSONA <app><lem wit="#a #p #q2 #Gu #Px #m #v">CONSONANTIE</lem>
+AUT QUIA NON EADEM CONSONA <app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">CONSONANTIE</lem>
 <rdg wit="#Pz" ana="#morphological">CONSONANTE</rdg></app>,
 <app><lem wit="#a #q #Gu #Ob #Px #Xp #m #v">QUEMADMODUM</lem>
 <rdg wit="#Va" ana="#lexical">QUE EST AD MODUM</rdg></app>
 IN DYAPASON? 
 ILLA <app><lem wit="#a #p #q #Gu #Px #m #v">ENIM</lem>
 <rdg wit="#Klek1922" ana="#additive" type="conjectural">ENIM GRAUE</rdg></app>
-IN GRAUI <app><lem wit="#a2 #p #q #Gu #Px #m #v">PROPORTIONALE</lem>
-<rdg wit="#Ap" ana="#morphological">PROPORTIONALI</rdg></app>,
+IN GRAUI <app><lem wit="#a2 #p #q2 #Gu #Px #Pz #m #v">PROPORTIONALE</lem>
+<rdg wit="#Ap" ana="#morphological">PROPORTIONALI</rdg>
+<rdg wit="#Zn" ana="#lexical">PROPORTIONE</rdg></app>,
 SICUT ACUTA 
 <milestone ed="#Px" unit="folio" n="158v"/>
 IN ACUTO,
@@ -1332,19 +1353,20 @@ QUEMADMODUM IGITUR EADEM EST IN SIMUL ET ALIA.
 QUE <app><lem wit="#a #p #q #Gu #Px">AUTEM</lem>
 <rdg wit="#m #v" ana="#LEXICAL">AUT</rdg></app>
 IN DYAPENTE ET DYATESSERON NON HABENT,
-ITA QUARE NON <app><lem wit="#a #p #q2 #Gu #Px #m #v">APPARET</lem>
+ITA QUARE NON <app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">APPARET</lem>
 <rdg wit="#Pz" ana="#morphological">APPARENT</rdg></app>  
-<app><lem wit="#a #p #Gu #Px #m #v">QUANDO</lem>
-<rdg wit="#q2" ana="#lexical">QUONIAM</rdg>
-<rdg wit="#Pz" ana="#lexical">CUM</rdg>
-<rdg wit="#Klek1922" ana="#subtractive"/></app> 
-<app><lem wit="#a2 #p #q2 #Gu #Px #m #v">ANTIPHONE</lem>
-<rdg wit="#Pz" ana="#orthographical">ANTIPHONIE</rdg>
-<rdg wit="#Ap" ana="#morphological">ANTIFON</rdg></app>
-<app><lem wit="#a #p #q2 #Gu #Px #Va #m #v">SONUS</lem>
-<rdg wit="#Pz" ana="#morphological">SONUM</rdg></app>,
+<app><lem wit="#a #p #q2 #Gu #Px #Pz #m #v"><app><lem wit="#a #p #Gu #Px #m #v">QUANDO</lem>
+    <rdg wit="#q2" ana="#lexical">QUONIAM</rdg>
+    <rdg wit="#Pz" ana="#lexical">CUM</rdg>
+    <rdg wit="#Klek1922" ana="#subtractive"/></app> 
+  <app><lem wit="#a2 #p #q2 #Gu #Px #m #v">ANTIPHONE</lem>
+    <rdg wit="#Pz" ana="#orthographical">ANTIPHONIE</rdg>
+    <rdg wit="#Ap" ana="#morphological">ANTIFON</rdg></app>
+  <app><lem wit="#a #p #q2 #Gu #Px #Va #m #v">SONUS</lem>
+    <rdg wit="#Pz" ana="#morphological">SONUM</rdg></app></lem>
+<rdg wit="#Zn" ana="#subtractive"/></app>,
 NON <app><lem wit="#Ap #Px #Tk">ENIM EST IDEM</lem>
-<rdg wit="#Pz #m #v" ana="#ordinal">ENIM IDEM EST</rdg>
+<rdg wit="#Pz #Zn #m #v" ana="#ordinal">ENIM IDEM EST</rdg>
 <rdg wit="#p #q2 #Gu" ana="#ordinal"><app><lem wit="#q2 #Gu #Ob #Xp">IDEM ENIM EST</lem>
   <rdg wit="#Va" ana="#subtractive">IDEM EST</rdg></app></rdg>
 <rdg wit="#Yk" ana="#lexical">ENIM EST IBIDEM</rdg></app><app><lem n="ENIM EST IDEM"/><rdg wit="#Pz" ana="#additive"> ETCETERA</rdg></app>.</seg>
@@ -1356,49 +1378,54 @@ NON <app><lem wit="#Ap #Px #Tk">ENIM EST IDEM</lem>
  <app xml:id="app-18.1" exclude="#app-rdg-Px-18.1"><lem wit="#Va #m #v"><num type="ordinal" value="18">Decimumoctauum</num> problema</lem>
 <rdg wit="#Ma #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="18">18<hi rend="superscript">m</hi></num></add></rdg>
 <rdg wit="#Gu" ana="#lexical"><num type="ordinal" value="17">17m.</num> Problema</rdg>
-<rdg wit="#Ap #Mb #Ob #Xp #Yk" ana="#subtractive"/></app>
+<rdg wit="#Ap #Mb #Ob #Xp #Yk #Zn" ana="#subtractive"/></app>
   </head>
    <p n="1">
-<seg xml:id="ment-18.1" n="1">PROPTER QUID <app><lem wit="#a #p #q2 #Gu #Px #m #v">DYAPASON</lem>
+<seg xml:id="ment-18.1" n="1">PROPTER QUID <app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">DYAPASON</lem>
 <rdg wit="#Pz" ana="#additive">DYAPASON CUM</rdg></app>  
-<app><lem wit="#p #q #Ap #Gu #Yk #m #v">CONSONANTIA</lem>
-<rdg wit="#Px #Tk" ana="#orthographical">CONSONATIA</rdg></app> 
+<app><lem wit="#p #q2 #Ap #Gu #Pz #Yk #m #v">CONSONANTIA</lem>
+<rdg wit="#Px #Tk" ana="#orthographical">CONSONATIA</rdg>
+<rdg wit="#Zn" ana="#subtractive"/></app>
 <milestone ed="#v" unit="column" n="B"/>
-<app><lem wit="#a2 #q2 #Gu #Px #Va #Xp #m #v">CANTATUR</lem>
+<app><lem wit="#a2 #q2 #Gu #Px #Va #Xp #Zn #m #v">CANTATUR</lem>
 <rdg wit="#Ap #Ob #Pz" ana="#morphological">CANTANTUR</rdg></app>
 SOLA?
-<app><lem wit="#a #q2 #Va #m #v">ORGANIZANT</lem>
+<app><lem wit="#a #q2 #Va #Zn #m #v">ORGANIZANT</lem>
 <rdg wit="#Px" ana="#morphological">ORGANIZARE</rdg>
 <rdg wit="#Pz" ana="#morphological">ORGANIZAT</rdg>
 <rdg wit="#Gu #Ob #Xp" ana="#lexical">ORGANICANT</rdg></app>
 ENIM SECUNDUM HANC,
-<app><lem wit="#a2 #p #q2 #Gu #Px #m #v">ALIAM</lem>
+<app><lem wit="#a2 #p #q2 #Gu #Px #Zn #m #v">ALIAM</lem>
 <rdg wit="#Ap" ana="#morphological">ALIA</rdg>
 <rdg wit="#Pz" ana="#lexical">AMBA</rdg></app>  
 <app><lem wit="#a #p #q #Gu #Px">AUTEM</lem>
 <rdg wit="#m #v" ana="#lexical">AUT</rdg></app>
 <app><lem wit="#a2 #p #q #Gu #Px #m #v">NULLAM</lem>
 <rdg wit="#Ap" ana="#morphological">NULLA</rdg></app>.</seg> 
-<seg xml:id="ment-18.2" n="2">AUT QUIA SOLA EX <app><lem wit="#a #p #q2 #Gu #Px #Tk #m #v">ANTIPHONIS</lem>
+<seg xml:id="ment-18.2" n="2">AUT QUIA SOLA EX <app><lem wit="#a #p #q2 #Gu #Px #Tk #Zn #m #v">ANTIPHONIS</lem>
 <rdg wit="#Pz" ana="#orthographical">ANTIPHONIIS</rdg></app>  
 EST CORDIS,
-IN <app><lem wit="#a #p #q2 #Gu #Px #m #v">ANTIPHONIS</lem>
+IN <app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">ANTIPHONIS</lem>
 <rdg wit="#Pz" ana="#orthographical">ANTIPHONIIS</rdg></app>  
-AUTEM ET <app><lem wit="#a2 #p #q #Gu #Px #m #v">ALTERAM</lem>
+<app><lem wit="#a #p #q2 #Gu #Px #Pz #m #v">AUTEM</lem>
+<rdg wit="#Zn" ana="#subtractive"/></app> 
+ET <app><lem wit="#a2 #p #q #Gu #Px #m #v">ALTERAM</lem>
 <rdg wit="#Ap" ana="#morphological">ALTERA</rdg></app> 
-SI <app><lem wit="#a #p #Gu #Px #Pz #m #v">CANTAT</lem>
-<rdg wit="#q2" ana="#morphological">CANTANT</rdg></app>, 
+SI <app><lem wit="#a #p #Gu #Px #m #v">CANTAT</lem>
+<rdg wit="#q" ana="#morphological">CANTANT</rdg></app>, 
 IDEM FACIT.
 <app><lem wit="#a2 #p #q #Gu #Px #m #v">UNA</lem>
 <rdg wit="#Ap" ana="#lexical">NAMQUE</rdg></app> 
-ENIM QUODAMMODO <app><lem wit="#a #p #q2 #Gu #Px #m #v">UTRORUNQUE</lem>
+ENIM QUODAMMODO <app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">UTRORUNQUE</lem>
 <rdg wit="#Pz" ana="#orthographical">UTRORUMQUE</rdg></app>  
 HABET CORDAS,
-QUARE ET UNA <app><lem wit="#a #p #q2 #Gu #Px #m #v">CANTATA</lem>
-<rdg wit="#Pz" ana="#additive">CANTATA IN HAC CONSONANTIA, NON CANTATUR SIMPHONIA ET AMBO CANTANTES AUT HAC QUIDEM CANTATA</rdg></app> 
+QUARE ET UNA 
+<milestone ed="#Zn" unit="folio" n="140v"/>  
+<app><lem wit="#a #p #q2 #Gu #Px #m #v">CANTATA</lem>
+<rdg wit="#Pz" ana="#additive" cause="dittography">CANTATA <surplus>IN HAC CONSONANTIA, NON CANTATUR SIMPHONIA ET AMBO CANTANTES AUT HAC QUIDEM CANTATA</surplus></rdg></app> 
 IN HAC CONSONANTIA <app><lem wit="#p #q #Ap #Gu #Px #Yk #m #v">CANTATUR</lem>
 <rdg wit="#Tk" ana="#subtractive"/></app> 
-<app><lem wit="#p #Gu #Mb #Px #Tk">SYMPHONIA</lem>
+<app><lem wit="#p #Gu #Mb #Px #Tk #Zn">SYMPHONIA</lem>
 <rdg wit="#Ap #Ma #Pz #Yk #m #v" ana="#orthographical">SIMPHONIA</rdg></app>
 ET AMBO CANTANTES.
 <milestone ed="#Ob" unit="folio" n="78v"/>
@@ -1413,15 +1440,15 @@ UERO FISTULATA,
 QUEMADMODUM <app><lem wit="#a2 #p #q #Gu #Px #m #v">UNAM</lem>
 <rdg wit="#Ap" ana="#morphological">UNA</rdg></app> 
 <app><lem wit="#p #q2 #Gu #Px #m #v">UTRANQUE</lem>
-<rdg wit="#Pz #Tk" ana="#orthographical">UTRAMQUE</rdg>
+<rdg wit="#Pz #Tk #Zn" ana="#orthographical">UTRAMQUE</rdg>
 <rdg wit="#Ap #Yk" ana="#morphological">UTRAQUE</rdg></app>  
 CANTANT. 
 PROPTER QUOD SOLA <app><lem wit="#a2 #p #q #Gu #Px #m #v">CANTATUR</lem>
 <rdg wit="#Ap" ana="#morphological">CANTANTUR</rdg></app>,
-<app><lem wit="#a #p #Gu #Px #Pz #m #v">QUIA</lem>
+<app><lem wit="#a #p #Gu #Px #Pz #Zn #m #v">QUIA</lem>
 <rdg wit="#q2" ana="#lexical">QUARE</rdg></app> 
 UNAM <app><lem wit="#Ap #Px #Pz #Tk">HABET</lem>
-<rdg wit="#p #q2 #Gu #Yk #m #v" ana="#morphological">HABENT</rdg></app>
+<rdg wit="#p #q2 #Gu #Yk #Zn #m #v" ana="#morphological">HABENT</rdg></app>
 <app><lem wit="#a #q #Gu #Ob #Px #Xp #m #v">CORDE</lem>
 <rdg wit="#Va" ana="#morphological">CORDAM</rdg></app>
 <milestone ed="#Xp" unit="column" n="B"/>
@@ -1438,13 +1465,13 @@ UNAM <app><lem wit="#Ap #Px #Pz #Tk">HABET</lem>
  <app xml:id="app-19.1" exclude="#app-rdg-Px-19.1"><lem wit="#Va #m #v"><num type="ordinal" value="19">Decimumnonum</num> problema</lem>
 <rdg wit="#Ma #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="19">19<hi rend="superscript">m</hi></num></add></rdg>
 <rdg wit="#Gu" ana="#lexical"><num type="ordinal" value="18">18m</num> problema.</rdg>
-<rdg wit="#Ap #Mb #Ob #Xp #Yk" ana="#subtractive"/></app>
+<rdg wit="#Ap #Mb #Ob #Xp #Yk #Zn" ana="#subtractive"/></app>
   </head>
    <p n="1">
 <seg xml:id="ment-19.1" n="1">
 PROPTER QUID ANTIPHONIS HOC <app><lem wit="#Tk #Px">SOLIS</lem>
 <rdg wit="#Ap #Yk" ana="#morphological"><choice><orig>SOLʾ</orig><expan>SOL<ex>UM</ex></expan></choice></rdg>  
-<rdg wit="#p #q #Gu #m #v" ana="#morphological"><app><lem wit="#p #Gu #m #v">SOLUM</lem>
+<rdg wit="#p #q #Gu #m #v" ana="#morphological"><app><lem wit="#p #Gu #Zn #m #v">SOLUM</lem>
   <rdg wit="#q2" ana="#additive">SOLUM MODO</rdg>
   <rdg wit="#Pz" ana="#lexical">SONUM</rdg></app></rdg></app>
 <app><lem wit="#a #q #Px #Va #m #v">INEST</lem>
@@ -1455,18 +1482,18 @@ PROPTER QUID ANTIPHONIS HOC <app><lem wit="#Tk #Px">SOLIS</lem>
 QUIA SOLE EQUALITER DISTANT MEDIO?
 MEDIETAS <app><lem wit="#p #q #Ap #Gu #Yk #m #v #Klek1922">IGITUR</lem>
 <rdg wit="#Px #Tk" ana="#lexical">ENIM</rdg></app>
-<app><lem wit="#a #p #q2 #Gu #Px #m #v">SIMILITUDINEM</lem>
+<app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">SIMILITUDINEM</lem>
 <rdg wit="#Pz" ana="#additive">SIMILITUDINIS PER SIMILITUDINEM</rdg></app> 
 QUANDAM FACIT SONORUM. ET UIDETUR AUDITUS DICERE <app><lem wit="#a #q #Gu #Ob #Px #Va #m #v">QUOD</lem>
 <rdg wit="#Xp" ana="#lexical">QUIA</rdg></app> 
 IPSA ET <app><lem wit="#p #q #Ap #Gu #Px #Tk #m #v">QUOD</lem>
 <rdg wit="#Yk" ana="#subtractive"/></app>
 <app><lem wit="#Px #Tk #m #v">UTERQUE</lem>
-<rdg wit="#q2 #Ob #Xp #Yk" ana="#orthographical">UTREQUE</rdg>
+<rdg wit="#q2 #Ob #Xp #Yk #Zn" ana="#orthographical">UTREQUE</rdg>
 <rdg wit="#Va" ana="#morphological">UTRAQUE</rdg>
 <rdg wit="#Ap #Gu" ana="#morphological">UTROQUE</rdg>
 <rdg wit="#Pz" ana="#additive #morphological">UTRAQUE UEL UTRAQUE</rdg></app>
-<app><lem wit="#a #p #q2 #Gu #Px #m #v">ULTIME</lem>
+<app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">ULTIME</lem>
 <rdg wit="#Pz" ana="#subtractive"/></app><app><lem n="ULTIME"/><rdg wit="#Pz" ana="#additive"> ETCETERA</rdg></app>.</seg>
 <milestone ed="#Pz" unit="folio" n="184v"/> 
 <milestone ed="#Yk" unit="folio" n="45r"/>
@@ -1478,7 +1505,7 @@ IPSA ET <app><lem wit="#p #q #Ap #Gu #Px #Tk #m #v">QUOD</lem>
  <app xml:id="app-20.1" exclude="#app-rdg-Px-20.1"><lem wit="#Va #m #v"><num type="ordinal" value="20">Uigesimum</num> problema</lem>
 <rdg wit="#Ma #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="20">20<hi rend="superscript">m</hi></num></add></rdg>
 <rdg wit="#Gu" ana="#lexical"><num type="ordinal" value="19">19mum.</num> problema.</rdg>
-<rdg wit="#Ap #Mb #Ob #Xp #Yk" ana="#subtractive"/></app>
+<rdg wit="#Ap #Mb #Ob #Xp #Yk #Zn" ana="#subtractive"/></app>
   </head>
    <p n="1">
 <seg xml:id="ment-20.1" n="1">PROPTER QUID SI QUIS NOSTRUM MEDIAM MOUET,
@@ -1486,7 +1513,7 @@ CONCORDANS <app><lem wit="#a2 #p #q #Gu #Px #m #v">ALIAS CORDAS</lem>
 <rdg wit="#m #v" ana="#lexical">ALIAS CONCORDAS</rdg>
 <rdg wit="#Ap" ana="#subtractive"/></app>,
 UTITUR INSTRUMENTO,
-NON SOLUM QUANDO SECUNDUM <app><lem wit="#a #p #Gu #Px #Pz #m #v">MEDIE FIAT SONUM</lem>
+NON SOLUM QUANDO SECUNDUM <app><lem wit="#a #p #Gu #Px #Pz #Zn #m #v">MEDIE FIAT SONUM</lem>
 <rdg wit="#q2" ana="#morphological">MEDIAM FIAT SONUS</rdg></app> 
 DEFICIT,
 ET <app><lem wit="#a #q #Gu #Ob #Px #Va #m #v">UIDETUR</lem>
@@ -1496,18 +1523,19 @@ SED ET SECUNDUM <app><lem wit="#p #q #Ap #Gu #Px #Tk #m #v">ALIAM</lem>
 <rdg wit="#Yk" ana="#morphological">ALIA</rdg></app> 
 MELODIAM?
 SI AUTEM LICHANUM AUT <app><lem wit="#a #Px #Va #Xp">ALIQUEM ALIUM</lem>
-<rdg wit="#q2 #Gu #Ob #m #v" ana="#ordinal">ALIUM ALIQUEM</rdg>
+<rdg wit="#q2 #Gu #Ob #Zn #m #v" ana="#ordinal">ALIUM ALIQUEM</rdg>
 <rdg wit="#Pz" ana="#morphological">ALIQUE ALIUM</rdg></app>
 SONUM,
 TUNC UIDETUR <app><lem wit="#q2 #Gu #Px #m #v">DIFFERE</lem>
-<rdg wit="#a2 #Ob #Pz #Xp" ana="#orthographical">DIFFERRE</rdg>
+<rdg wit="#a2 #Ob #Pz #Xp #Zn" ana="#orthographical">DIFFERRE</rdg>
 <rdg wit="#Va" ana="#orthographical">DIFERRE</rdg>
 <rdg wit="#Ap" ana="#lexical">DEFERRE</rdg></app>
-<app><lem wit="#a #q #Gu #Ob #Px #Va #m #v">SOLUM</lem>
+<app><lem wit="#a #q2 #Gu #Ob #Px #Pz #Va #m #v">SOLUM</lem>
+<rdg wit="#Zn" ana="#morphological">SOLAM</rdg>
 <rdg wit="#Xp" ana="#lexical">SONUM</rdg></app> 
-QUANDO <app><lem wit="#a #p #Gu #Px #Pz #m #v">ILLA</lem>
+QUANDO <app><lem wit="#a #p #Gu #Px #Pz #Zn #m #v">ILLA</lem>
 <rdg wit="#q2" ana="#lexical">EA</rdg></app> 
-<app><lem wit="#a #p #q2 #Gu #Px #m #v">QUIS</lem>
+<app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">QUIS</lem>
 <rdg wit="#Pz" ana="#lexical">QUIES</rdg></app> 
 UTITUR.</seg> 
 <seg xml:id="ment-20.2" n="2">AUT 
@@ -1515,31 +1543,33 @@ UTITUR.</seg>
 RATIONABILITER <app><lem wit="#p #q #Ap #Gu #Px #Tk">HOC ACCIDIT</lem>
 <rdg wit="#m #v" ana="#morphological">HIC ACCIDIT</rdg>
 <rdg wit="#Yk" ana="#subtractive"/></app>,
-OMNES <app><lem wit="#p #q #Ap #Gu #Yk #m #v #Klek1922">ENIM</lem>
+OMNES <app><lem wit="#p #q #Ap #Gu #Yk #m #v">ENIM</lem>
 <rdg wit="#Px #Tk" ana="#subtractive"/></app>
-UTILES CANTUS MULTOTIENS MEDIA <app><lem wit="#a #p #q2 #Gu #Px">UTUNTUR</lem>
+UTILES CANTUS MULTOTIENS MEDIA <app><lem wit="#a #p #q2 #Gu #Px #Zn">UTUNTUR</lem>
 <rdg wit="#Pz" ana="#morphological">UTANTUR</rdg>
-<rdg wit="#m #v" ana="#morphological">UTIMUR</rdg></app>.</seg> 
+<rdg wit="#m #v" ana="#morphological">UTIMUR</rdg></app>.
+<milestone ed="#Zn" unit="folio" n="141r"/></seg> 
 <seg xml:id="ment-20.3" n="3">
 ET OMNES BONI POETE FREQUENTER AD MEDIAM OBUIANT. 
 QUAMUIS <app><lem wit="#a #p #q #Gu #Px">DISCEDANT</lem>
 <rdg wit="#m #v" ana="#morphological">DISCEDEAT</rdg></app>,
 CITO REUERTUNTUR AD <app><lem wit="#Px #Tk">ALIAM, ITA AUTEM NEQUE</lem>
 <rdg wit="#Yk" ana="#ordinal">ALIAM, AUTEM NEQUE ITA</rdg>
-<rdg wit="#q #Ap #Gu #Ob #Xp #m #v" ana="#ordinal">ALIAM, AUTEM ITA NEQUE</rdg>
+<rdg wit="#q #Ap #Gu #Ob #Xp #m #v" ana="#ordinal"><app><lem wit="#q2 #Ap #Gu #Ob #Pz #Xp #m #v">ALIAM, AUTEM ITA NEQUE</lem>
+  <rdg wit="#Zn" ana="#additive">ALIAM, AUTEM ITA NEQUE AD</rdg></app></rdg>
 <rdg wit="#Klek1922" ana="#ordinal">AUTEM ALIAM ITA NEQUE</rdg>
 <rdg wit="#Va" ana="#lexical">ALIAM, AUT ITA NEQUE</rdg></app>
 UNAM.</seg>     
 <seg xml:id="ment-20.4" n="4">QUEMADMODUM <app><lem wit="#p #q #Ap #Gu #Px #Tk #m #v">EX</lem>
 <rdg wit="#Yk" ana="#lexical">ET</rdg></app> 
-<app><lem wit="#a2 #p #q2 #Gu #Px #m #v">ORATIONIBUS</lem>
+<app><lem wit="#a2 #p #q2 #Gu #Px #Zn #m #v">ORATIONIBUS</lem>
 <rdg wit="#Ap" ana="#additive">ORATIONIBUS CUM</rdg>
 <rdg wit="#Pz" ana="#lexical">RATIONIBUS EX</rdg></app>:
 QUIBUSDAM
 <milestone ed="#Ap" unit="column" n="B"/>
 ABLATIS CONIUNCTIONIBUS,
 NON EST ORATIO GRECA,
-<app><lem wit="#a #q2 #Ob #Px #Xp">UT AUTEM</lem>
+<app><lem wit="#a #q2 #Ob #Px #Xp #Zn">UT AUTEM</lem>
 <rdg wit="#Gu #m #v" ana="#lexical">UT AUT</rdg>
 <rdg wit="#Pz" ana="#lexical">SI AUTEM</rdg>
 <rdg wit="#Va" ana="#subtractive">AUT</rdg></app>
@@ -1551,36 +1581,36 @@ ET UERO ET,
 NON DEFICIUNT,
 PROPTER <app><lem wit="#a2 #p #q #Gu #Px #m #v">ID</lem>
 <rdg wit="#Ap" ana="#lexical">HIIS</rdg></app> 
-QUOD <app><lem wit="#a #Gu #Mb #Px #Pz #Va">HIIS</lem>
+QUOD <app><lem wit="#a #Gu #Mb #Px #Pz #Va #Zn">HIIS</lem>
 <rdg wit="#Ob #Xp" ana="#additive">HIIS QUE</rdg>
 <rdg wit="#Ma #m #v" ana="#lexical">IIS</rdg></app>
 QUIDEM NECESSARIUM EST <app><lem wit="#a #q #Ob #Px #Xp #m #v">ESSE</lem>
 <rdg wit="#Gu #Va" ana="#lexical">TUNC</rdg></app>
 UTI MULTOTIENS,
-<app><lem wit="#a #p #Gu #Px #Pz #m #v">SI</lem>
+<app><lem wit="#a #p #Gu #Px #Pz #Zn #m #v">SI</lem>
 <rdg wit="#q2" ana="#lexical">SED</rdg></app> 
 <app><lem wit="#a #q #Gu #Ob #Px #Xp #m #v">ERIT</lem>
 <rdg wit="#Va" ana="#morphological">ERUNT</rdg></app>
-<app><lem wit="#a #p #q2 #Gu #Px #m #v">ORATIO</lem>
+<app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">ORATIO</lem>
 <rdg wit="#Pz" ana="#lexical">OMNINO</rdg></app>,
 <app><lem wit="#p #q #Ap #Gu #Px #Yk #m #v">HIIS</lem>
 <rdg wit="#Tk" ana="#orthographical">HIS</rdg></app> 
 AUTEM NON.</seg> 
 <seg xml:id="ment-20.5" n="5">ITA <app><lem wit="#a #p #q #Gu #Px">AUTEM</lem>
 <rdg wit="#m #v" ana="#lexical">AUT</rdg></app> 
-ET SONORUM <app><lem wit="#a #p #Gu #Px #Pz #m #v">MEDIA</lem>
+ET SONORUM <app><lem wit="#a #p #Gu #Px #Pz #Zn #m #v">MEDIA</lem>
 <rdg wit="#q2" ana="#additive">MEDIA FACIT</rdg></app>
 <app><lem wit="#a #q #Gu #Ob #Px #Xp #m #v">SICUT</lem>
 <rdg wit="#Va" ana="#lexical">SIC</rdg></app> 
-<app><lem wit="#a #p #q2 #Gu #Px #m #v">CONIUNCTIO EST</lem>
+<app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">CONIUNCTIO EST</lem>
 <rdg wit="#Pz" ana="#morphological #subtractive">CONUICTIONEM</rdg></app> 
-ET MAXIME <app><lem wit="#Gu #Px #Pz #Tk #Va #m #v">BONORUM</lem>
-<rdg wit="#q2 #Ap #Ob #Xp #Yk" ana="#morphological">BONARUM</rdg></app>,
+ET MAXIME <app><lem wit="#Gu #Px #Tk #Va #m #v">BONORUM</lem>
+<rdg wit="#q #Ap #Ob #Xp #Yk" ana="#morphological">BONARUM</rdg></app>,
 PROPTER ID 
 <app><lem wit="#a #q #Gu #Ob #Px #Xp #m #v">QUOD</lem>
 <rdg wit="#Va" ana="#additive">QUOD HIIS QUIDEM NECCESARIUM</rdg></app>
-MULTOTIENS INEST <app><lem wit="#Gu #Px #Pz #Va #m #v #Klek1922">IPSIUS</lem>
-<rdg wit="#a #q2 #Ob #Xp" ana="#morphological">IPSIS</rdg></app> 
+MULTOTIENS INEST <app><lem wit="#Gu #Px #Va #m #v #Klek1922">IPSIUS</lem>
+<rdg wit="#a #q #Ob #Xp #Zn" ana="#morphological">IPSIS</rdg></app> 
 SONIS</seg>.
 <milestone ed="#Ma" unit="column" n="B"/>     
    </p>  
@@ -1591,7 +1621,7 @@ SONIS</seg>.
 <app xml:id="app-21.1" exclude="#app-rdg-Px-21.1"><lem wit="#Va #m #v"><num type="ordinal" value="21">Uigesimumprimum</num> problema</lem>
 <rdg wit="#Ma #Pz" ana="#subtractive"><add place="margin"><num type="ordinal" value="21">21<hi rend="superscript">m</hi></num></add></rdg>
 <rdg wit="#Gu" ana="#lexical"><num type="ordinal" value="20">Uigesimum</num> problema.</rdg>
-<rdg wit="#Ap #Mb #Ob #Xp #Yk" ana="#subtractive"/></app>
+<rdg wit="#Ap #Mb #Ob #Xp #Yk #Zn" ana="#subtractive"/></app>
   </head>
    <p n="1">
 <seg xml:id="ment-21.1" n="1">    
