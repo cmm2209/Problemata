@@ -189,14 +189,12 @@
                             orientation and explanation.</p>
                         <p n="2">Into the breach strode Pietro d’Abano (c. 1257–1316), who was a
                             professor of medicine with wide-ranging interests and expertise. Pietro
-                            composed his <title>Expositio</title>, the first commentary on the
-                            entirety of the <title>Problems</title> in the first decade of the
-                            fourteenth century, and there are more than twenty extant manuscripts of
-                            it, as well as multiple early print editions. His commentary also
-                            attracted the attention of his contemporaries, most notably Jean de
-                            Jandun (c. 1285–1328), a philosopher and theologian of considerable
-                            importance based at the University of Paris, who produced a revision of
-                            the entire <title>Expositio</title>. Moreover, Pietro’s commentary on
+                            composed his <title>Expositio</title>, the first commentary on the entirety of the Problems in
+              the first decade of the fourteenth century, and there are more than twenty extant
+              manuscripts of it, as well as multiple early print editions. His commentary also
+              attracted the attention of his contemporaries, most notably Jean de Jandun (c.
+              1285–1328), a philosopher and theologian of considerable importance based at the
+              University of Paris, who produced a revision of the entire <title>Expositio</title>. Moreover, Pietro’s commentary on
                             the problems of section XIX, in particular, was the first widely
                             circulated medieval attempt to interpret and assimilate rediscovered
                             knowledge about music in the ancient world, and his explanations
@@ -1150,8 +1148,8 @@
                     <div type="textpart" subtype="problem" n="1" xml:id="part1">
                         <milestone ed="#Gu" unit="column" n="B"/>
                         <milestone ed="#Pq" unit="column" n="B"/>
-                        <head><app xml:id="app-1.1" exclude="#app-rdg-γ-1.1">
-                                <lem wit="#Gu #m #v"><num type="ordinal" value="1">Primum</num>
+                        <head><app>
+                                <lem wit="#Gu #m #v" xml:id="app-1.1" exclude="#app-rdg-γ-1.1"><num type="ordinal" value="1">Primum</num>
                                     problema</lem>
                                 <rdg wit="#α #Ea #Pp #Vm #Vo #Vz" ana="#subtractive"/>
                                 <rdg wit="#Ma #Pq #Pz" ana="#subtractive"><add place="margin"><num
@@ -1172,11 +1170,13 @@
                                             n="2">AUT UT HII QUIDEM MINUS TRISTENTUR? ALII AUTEM
                                             MAGIS GAUDEANT</seg></rdg>
                                 </app>.</mentioned>
-                            <app xml:id="app-rdg-γ-1.1" exclude="#app-1.1">
-                                <rdg wit="#Px" ana="#additive">Propter quid dolentes etcetera.</rdg>
-                                <rdg wit="#Vb" ana="#additive">Propter quid dolentes et gaudentes
-                                    fistulantur etcetera</rdg>
-                            </app> Determinatis problematibus circa <app>
+                            <app>
+                                <rdg wit="#Px #Vb" ana="#additive" xml:id="app-rdg-γ-1.1" exclude="#app-1.1"><app>
+                    <lem wit="#Px">Propter quid dolentes etcetera</lem>
+                    <rdg wit="#Vb" ana="#additive">Propter quid dolentes et gaudentes fistulantur
+                      etcetera</rdg>
+                  </app></rdg>
+                                </app> Determinatis problematibus circa <app>
                                 <lem wit="#γ #Px #Py #Gu #Pp #Pu #Vo #Vz #m #v">mathematicam</lem>
                                 <rdg wit="#Ma #Mb #Nu #Vm" ana="#morphological">mathematica</rdg>
                                 <rdg wit="#Ea" xml:id="rdg-methaphysica" ana="#lexical"
