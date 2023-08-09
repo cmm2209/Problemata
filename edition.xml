@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+﻿<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -107,6 +109,9 @@
           padding-left:1em; margin-top:0; margin-bottom:0; padding-top:0; padding-bottom:0;
         </rendition>
       </tagsDecl>
+      <listPrefixDef>
+        <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
+      </listPrefixDef>
       <refsDecl>
         <refState ed="Ca" unit="folio" length="2" delim="."/>
         <refState ed="Ca" unit="column" length="3"/>
@@ -151,6 +156,77 @@
         <refState ed="v" unit="column" length="3"/>
         <refState ed="m" unit="folio" length="2" delim="."/>
         <refState ed="m" unit="column" length="3"/>
+      </refsDecl>
+      <refsDecl>
+        <!-- There's a citeStructure for each section of the document we want to a) appear in the ToC,
+             b) be output as a separate file. 
+        
+             @match selects the document section(s) to be used in resolving citations. 
+             @use indicates the the string that will be used in citations. -->
+        <citeStructure match="//front/div[@xml:id='preface']" use="head">
+          <!-- Defines the identifier to use for this structure -->
+          <citeData property="dc:identifier" use="@xml:id"/>
+          <!-- Defines the title to be used for this structure (e.g. in a ToC) -->
+          <citeData property="dc:title" use="head"/>
+          <!-- Specifies a function for this structure, in this case, it should be used as an entry in the ToC. -->
+          <citeData property="function" use="'toc-entry'"/>
+          <citeStructure match="./div[@type='section']" use="head" delim=", ">
+            <citeData property="dc:title" use="head"/>
+            <citeData property="dc:identifier" use="@xml:id"/>
+            <citeData property="function" use="'toc-entry'"/>
+            <!-- This structure should be split out into a separate document. -->
+            <citeData property="function" use="'split'"/>
+            <!-- When it is split out, the bibliography should go along with it -->
+            <citeData property="dc:requires" use="//front/div[@type='bibliography']"/>
+          </citeStructure>
+        </citeStructure>
+        <citeStructure match="//front/div[@xml:id='bibliography']" use="head">
+          <citeData property="dc:identifier" use="@xml:id"/>
+          <citeData property="dc:title" use="head"/>
+          <citeData property="function" use="'toc-entry'"/>
+          <citeStructure match="./div[@type='section']" use="head" delim=", ">
+            <citeData property="dc:identifier" use="@xml:id"/>
+            <citeData property="dc:title" use="head"/>
+            <citeData property="function" use="'toc-entry'"/>
+            <citeData property="function" use="'split'"/>
+          </citeStructure>
+        </citeStructure>
+        <citeStructure match="//front/div[@xml:id='conspectus-editionum']" use="head" delim=", ">
+          <citeData property="dc:identifier" use="@xml:id"/>
+          <citeData property="dc:title" use="head"/>
+          <citeData property="function" use="'toc-entry'"/>
+          <citeData property="function" use="'split'"/>
+        </citeStructure>
+        <!-- The @unit attribute marks a citeStructure as a citable unit and makes e.g., 4.100 resolvable to poem 4, line 100. -->
+        <citeStructure match="//div[@type='edition']" use="head">
+          <citeData property="dc:title" use="head"/>
+          <citeData property="function" use="'toc-entry'"/>
+          <citeStructure match="p" use="@n" unit="chapter" delim=' '>    
+            <citeData property="dc:title" use="@n"/>
+            <citeData property="dc:identifier" use="@n"/>
+            <citeData property="function" use="'toc-entry'"/>
+            <citeData property="function" use="'split'"/>
+            <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
+            <citeStructure match=".//seg" use="@n" delim="." unit="part"/>
+          </citeStructure>
+        </citeStructure>
+        <citeStructure match="//back/div[@type='commentary'][@xml:id='appendix-critica']" use="head">
+          <citeData property="dc:identifier" use="@xml:id"/>
+          <citeData property="dc:title" use="head"/>
+          <citeData property="function" use="'toc-entry'"/>
+          <citeData property="function" use="'split'"/>
+        </citeStructure>
+        <citeStructure match="//back/div[@type='commentary'][@xml:id='commentary']" use="head">
+          <citeData property="dc:identifier" use="@xml:id"/>
+          <citeData property="dc:title" use="head"/>
+          <citeData property="function" use="'toc-entry'"/>
+          <citeStructure match="./div[@type='section']" use="head" delim=' '>
+            <citeData property="dc:identifier" use="@xml:id"/>
+            <citeData property="dc:title" use="head"/>
+            <citeData property="function" use="'toc-entry'"/>
+            <citeData property="function" use="'split'"/>
+          </citeStructure>
+        </citeStructure>
       </refsDecl>
       <variantEncoding method="location-referenced" location="internal"/>
     </encodingDesc>
