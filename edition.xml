@@ -54,10 +54,18 @@
     </fileDesc>
     <encodingDesc>
       <charDecl>
-        <glyph xml:id="sqb">
-          <desc>Latin Letter Small B Squared</desc>
-          <localProp name="Name" value="LATIN LETTER SMALL B SQUARED"/>
-          <localProp name="entity" value="sqb"/>
+        <glyph xml:id="_medRenFlatHardB">
+          <desc>Latin Letter Small B Squared; a.k.a. Flat, hard b (mi)</desc>
+          <localProp name="Name" value="medRenFlatHardB"/>
+          <localProp name="entity" value="_medRenFlatHardB"/>
+          <mapping type="smufl">U+E9E1</mapping>
+          <graphic url="https://smufl-browser.edirom.de/E9E1.png"/>
+          <note>
+            <list>
+              <head>Classes</head>
+              <item>combiningStaffPositions</item>
+            </list>
+          </note>
         </glyph>
         <glyph xml:id="con">
           <desc>Latin Small Letter Con</desc>
@@ -9908,7 +9916,7 @@
                     <lem wit="#κ #Ea #Py #Va #m #v">illis</lem>
                     <rdg wit="#Vb" ana="#lexical">hiis</rdg>
                   </app>
-                  <num type="cardinal" value="3">tribus</num><app>
+                  <num type="cardinal" value="3">tribus</num> <app>
                     <lem wit="#α #Ma #Px #Vm #m #v">mediis</lem>
                     <rdg wit="#Vz" ana="#lexical">medicis</rdg>
                   </app></lem>
@@ -12419,7 +12427,7 @@
                     <row>
                       <cell role="label"><app>
                           <lem wit="#π #Ea #Ma #Px #Va #m #v">b.</lem>
-                          <rdg wit="#Py" ana="#lexical"><g ref="#sqb">b</g></rdg>
+                          <rdg wit="#Py" ana="#lexical"><g ref="#_medRenFlatHardB">b</g></rdg>
                         </app></cell>
                       <cell><num type="cardinal" value="512">512.</num></cell>
                       <cell><app>
@@ -12553,7 +12561,7 @@
                     <row>
                       <cell role="label"><app>
                           <lem wit="#π #Ea #Va #m #v">b.</lem>
-                          <rdg wit="#Py" ana="#orthographical"><g ref="#sqb">b</g></rdg>
+                          <rdg wit="#Py" ana="#orthographical"><g ref="#_medRenFlatHardB">b</g></rdg>
                           <rdg wit="#Ma #Px" ana="#subtractive"/>
                         </app></cell>
                       <cell><app>
