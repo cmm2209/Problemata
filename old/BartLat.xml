@@ -112,7 +112,7 @@
                         <witness xml:id="Uk">
                           <abbr type="siglum">U<hi rend="superscript">k</hi></abbr> 
                           <name>Vaticanus, Bibl. Apost. Vat., Chig., G. V. 131</name>,
-                          <locus from="69r" to="102r">ff. 69r-102r</locus>
+                          <locus from="69r" to="102r">ff. 87r-88v</locus>
                           <origDate from="1250" to="1299">late thirteenth century</origDate>
                         </witness>
                       </listWit>
@@ -274,7 +274,7 @@
 <milestone ed="#Um" unit="folio" n="227v"/>
 <milestone ed="#Va" unit="folio" n="72r"/>
 <milestone ed="#Xp" unit="folio" n="31v"/>  
-<milestone ed="Yk" unit="folio" n="43v"/>  
+<milestone ed="#Yk" unit="folio" n="43v"/>  
 <milestone ed="#Zn" unit="folio" n="136v"/>  
 <milestone ed="#v" unit="folio" n="B5v"/>
 <milestone ed="#m" unit="folio" n="188r"/>
@@ -1210,15 +1210,12 @@ MUTATIONIBUS
   <rdg wit="#Ma" ana="#orthographical">IMO</rdg>
   <rdg wit="#Pz" ana="#orthographical">YMMO</rdg></app></rdg></app> 
 FACILE QUAM MULTIS
-ET <app><lem wit="#a2 #Gu #Ob #Px #Pz #Va #Zn #m #v">AGONISTE</lem>
+ET <app><lem wit="#a2 #Px #Va #Zn #m #v">AGONISTE</lem>
 <rdg wit="#Ap" ana="#orthographical">ACONISTE</rdg>
-<rdg wit="#q2 #Um #Xp" ana="#morphological">AGONISTICE</rdg></app> 
-<app><lem wit="#a2 #q #Gu #Ob #Px #Va #m #v">ID EST</lem>
-<rdg wit="#Ap" ana="#additive">ID EST ET</rdg>
-<rdg wit="#Xp" ana="#lexical">ENIM</rdg>
-<rdg wit="#Um"><unclear/></rdg>  
-<rdg wit="#Klek1922" type="conjecture" ana="#lexical">QUAM</rdg>
-<witDetail wit="#Um">Marciana follow-up!</witDetail></app> 
+<rdg wit="#p #q2 #Gu #Pz" ana="#morphological">AGONISTICE</rdg></app> 
+<app><lem wit="#a2 #q #Gu #Ob #Px #Um #Va #m #v">ID EST</lem>
+<rdg wit="#Xp" ana="#lexical">ENIM</rdg>  
+<rdg wit="#Klek1922" type="conjecture" ana="#lexical">QUAM</rdg></app> 
 CONSUETUDINEM SERUANT. 
 PROPTER QUOD SIMPLICIORES FACIEBANT SIBI 
 <app><lem wit="#q #Gu #Ob #Uk #Va #Xp #Yk #m #v">MELODIAS</lem>
@@ -1232,10 +1229,8 @@ PROPTER QUOD SIMPLICIORES FACIEBANT SIBI
 <rdg wit="#m #v" ana="#lexical">AUT</rdg></app>
 <app><lem wit="#a #q #Gu #Ob #Va #Xp #m #v">SIMPLEX</lem>
 <rdg wit="#Px #Um" ana="#morphological">SIMPLICITER</rdg></app>,
-NUMERUS <app><lem wit="#a #q #Ob #Px #Va #Xp #m #v">ENIM EST</lem>
-<rdg wit="#Gu" ana="#ordinal">EST ENIM</rdg>
-<rdg wit="#Um"><unclear/></rdg>
-<witDetail wit="#Um">Marciana follow-up!</witDetail></app>
+NUMERUS <app><lem wit="#a #p #q #Px #Va #m #v">ENIM EST</lem>
+<rdg wit="#Gu" ana="#ordinal">EST ENIM</rdg></app>
 ET UNO MENSURATUR.</seg> 
 <seg xml:id="ment-15.4" n="4"><app><lem wit="#a2 #p #q #Gu #Px #m #v">EADEM</lem>
 <rdg wit="#Ap" ana="#additive">EADEM EST</rdg></app> 
@@ -1829,9 +1824,7 @@ PONUNT,
 <rdg wit="#Xp" ana="#lexical">NISI</rdg></app>
 AD MEDIUM REPLENT. 
 <app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">SIMILITER AUTEM</lem>
-<rdg wit="#Um" ana="#orthographical"><unclear/> AUTEM</rdg>
-<rdg wit="#Pz" ana="#ordinal">AUTEM SIMILITER</rdg>
-<witDetail wit="#Um">Marciana follow-up!</witDetail></app> 
+<rdg wit="#Pz" ana="#ordinal">AUTEM SIMILITER</rdg></app> 
 ET <app><lem wit="#a #p #q2 #Gu #Px #Zn #m #v">PER DYAPENTE</lem>
 <rdg wit="#Pz" ana="#lexical">PRO DYAPENTE</rdg>
 <rdg wit="#Klek1922" ana="#subtractive">DYAPENTE</rdg></app>
@@ -4230,11 +4223,10 @@ NON <app><lem wit="#a #p #q2 #Px #Zn #m #v">YPODORISTIUM</lem>
 <rdg wit="#Mb #Ob #m #v" ana="#orthographical">NEQUE YPOFRIDISTRIE</rdg>
 <rdg wit="#Zn" ana="#orthographical">NEQUE YPOFODISTRIE</rdg>
 <rdg wit="#Xp" ana="#orthographical">NEQUE YPOFRIDRISTRIE</rdg>
-<rdg wit="#Ap #Pz" ana="#orthographical"><app><lem wit="#Ap #Pz">NEQUE YPOFRIGISTIE</lem>
+<rdg wit="#Ap #Pz #Um" ana="#orthographical"><app><lem wit="#Ap #Pz">NEQUE YPOFRIGISTIE</lem>
   <rdg wit="#Um" ana="#orthographical"><add place="margin">NEQUE YPOFRIGISTIE</add></rdg></app></rdg>
 <rdg wit="#Va" ana="#lexical">NEQUE YPOSIDISTEM</rdg>
-<rdg wit="#Um" ana="#subtractive">YPO<unclear>SFRRR</unclear>DISTRIE</rdg>
-<witDetail wit="#Um">Marciana follow-up!</witDetail></app>
+<rdg wit="#Um" ana="#subtractive">YPOFFARDISTRIE</rdg></app>
 CANTANT?</seg>
 <seg xml:id="ment-48.2" n="2">AUT 
 <milestone ed="#Yk" unit="folio" n="47v"/>
