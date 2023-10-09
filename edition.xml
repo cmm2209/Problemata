@@ -109,9 +109,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           padding-left:1em; margin-top:0; margin-bottom:0; padding-top:0; padding-bottom:0;
         </rendition>
       </tagsDecl>
-      <listPrefixDef>
-        <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
-      </listPrefixDef>
       <refsDecl>
         <refState ed="Ca" unit="folio" length="2" delim="."/>
         <refState ed="Ca" unit="column" length="3"/>
@@ -157,6 +154,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <refState ed="m" unit="folio" length="2" delim="."/>
         <refState ed="m" unit="column" length="3"/>
       </refsDecl>
+      <listPrefixDef>
+        <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
+      </listPrefixDef>
       <refsDecl>
         <!-- There's a citeStructure for each section of the document we want to a) appear in the ToC,
              b) be output as a separate file. 
