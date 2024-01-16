@@ -7407,9 +7407,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <bibl corresp="#GaPu"><author>Gal.</author>
                   <title>De diff. puls.</title>
                   <biblScope unit="book" n="1">I</biblScope>.<biblScope unit="chapter" n="8"
-                    >8</biblScope> (I.12 in Latin trans. by Burgundio of Pisa) <note type="parallel"
-                    target="#quote-6.1-Gal">Cf. <title ref="#AbCo">Conciliator</title> diff.
-                    83</note></bibl>
+                    >8</biblScope> (I.12 in Latin trans. by Burgundio of Pisa)</bibl> 
+                <note type="parallel" target="#quote-6.1-Gal" xml:id="note-6.1">Cf. <listBibl>
+                    <bibl><author>Pietro d'Abano</author> <title ref="#AbCo">Conciliator
+                    </title> <biblScope n="83">diff. 83</biblScope></bibl></listBibl></note>
               </cit>
               <app>
                 <lem wit="#β #γ #κ #Pu #m #v">Ceu</lem>
@@ -35811,9 +35812,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <rdg wit="#Ea #Ma #Vz" ana="#lexical">et <num type="ordinal" value="5"
                   >5º</num>,</rdg>
                 <rdg wit="#π" ana="#subtractive #J"/>
-              </app></biblScope>
-                <note>Pietro expresses this idea in his commentary on problem 10 of particula 15. 
-                His reference to 5/25 is obscure.</note></bibl></cit> 
+              </app></biblScope></bibl>
+                <note>Pietro expresses this idea in his commentary on problem 10 of 
+                  particula 15. His reference to 5/25 is obscure.</note></cit> 
               puta quod <gloss target="#ment-50.1"><app>
                 <lem wit="#α #κ #Gu #Pp #Vo #m #v">vnum sit</lem>
                 <rdg wit="#Pu" ana="#ordinal #J">sit vnum</rdg>
