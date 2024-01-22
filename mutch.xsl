@@ -20,6 +20,9 @@
         <xsl:value-of select="tei:lem"/>
     </xsl:template>
     
+    <!-- Exclude app elements that do not have a child lem -->
+    <xsl:template match="tei:app[@exclude and not(tei:lem)]"/>
+    
     <!-- Exclude variant readings from tables -->
     <xsl:template match="tei:app">
         <xsl:choose>
@@ -28,6 +31,7 @@
             </xsl:when>
             <xsl:otherwise>
                 <xsl:copy>
+                    <xsl:apply-templates select="@*"/> 
                     <xsl:apply-templates/>
                 </xsl:copy>
             </xsl:otherwise>
