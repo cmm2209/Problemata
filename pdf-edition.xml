@@ -493,8 +493,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </listWit>
                 </witness>
                 <witness>
-                  <name full="yes" instant="false">Other manuscripts from the Jean de Jandun redaction</name>
                   <listWit>
+                    <head>Other manuscripts from the Jean de Jandun redaction</head>
                     <witness xml:id="Ca">
                       <abbr type="siglum">C<hi rend="superscript">a</hi></abbr>
                       <name full="yes" instant="false">Cambridge, Peterhouse 79</name>, <locus from="76r" to="81v">ff.
@@ -943,7 +943,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           <div type="textpart" subtype="problem" n="1" xml:id="part1" part="N" org="uniform" sample="complete">
             <milestone ed="#Gu" unit="column" n="B"/>
             <milestone ed="#Pq" unit="column" n="B"/>
-            <head><app>
+            <head><app xml:id="app-1.1" exclude="#app-rdg-γ-1.1">
                 <lem wit="#Gu #m #v"><num type="ordinal" value="1">Primum</num> problema</lem>
                 <rdg wit="#α #Ea #Pp #Vm #Vo #Vz" ana="#subtractive"/>
                 <rdg wit="#Ma #Pq #Pz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="1">.1.</num></add></rdg>
@@ -957,11 +957,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <rdg wit="#Gu #Ma #Mb #Px #Pz #Va #m #v" ana="#additive"><seg xml:id="ment-1.1" n="1" part="N">PROPTER QUID DOLENTES ET DELECTANTES FISTULANTUR?</seg><seg xml:id="ment-1.2" n="2" part="N">AUT UT HII QUIDEM MINUS TRISTENTUR? ALII AUTEM MAGIS
                       GAUDEANT</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Propter quid dolentes etcetera.</rdg>
-                <rdg wit="#Vb" ana="#additive">Propter quid dolentes et gaudentes fistulantur
-                  etcetera</rdg>
-              </app> Determinatis problematibus circa <app>
+               Determinatis problematibus circa <app>
                 <lem wit="#γ #Px #Py #Gu #Pp #Pu #Vo #Vz #m #v">mathematicam</lem>
                 <rdg wit="#Ma #Mb #Nu #Vm" ana="#morphological">mathematica</rdg>
                 <rdg wit="#Ea" xml:id="rdg-methaphysica" ana="#lexical">methaphysica</rdg>
@@ -1234,7 +1230,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       hanc</lem>
                     
                     <rdg wit="#Pz" ana="#ordinal #J">hanc <persName ref="#Mos" instant="false" full="yes">moyses</persName></rdg>
-                  </app> inuenisse <app>
+                  </app> inuenisse <app xml:id="app-homt-1.1a" next="#app-homt-1.1b">
                     <lem wit="#α #λ #π #m #v"><app>
                         <lem wit="#Gu #Ma #Nu #Mb #Vm #Vz #m #v"><persName ref="#Tub" instant="false" full="yes">tubal</persName></lem>
                         
@@ -1266,7 +1262,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <bibl corresp="#IsEt" default="false" status="draft"><author>Isidore of Seville</author>, <title>Etym.</title>
                   <biblScope unit="book" n="3">III</biblScope>.<biblScope unit="chapter" n="16">16</biblScope>.<biblScope unit="part" n="1">1</biblScope></bibl>
               </cit>
-              <app>
+              <app xml:id="app-homt-1.1b" prev="#app-homt-1.1a">
                 <lem wit="#α #λ #π #m #v"><cit xml:id="cit-1.1a" next="#cit-1.1b">
                     <quote rend="inline">Sed <app>
                         <lem wit="#α #λ #Gu #Pp #Pu #Vo #m #v">greci</lem>
@@ -2490,7 +2486,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="2" xml:id="part2" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-2.1" exclude="#app-rdg-Px-2.1">
                 <lem wit="#γ #Gu #m #v"><num type="ordinal" value="2">Secundum</num> problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pq #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="2">2<hi rend="superscript">m</hi></num></add></rdg>
                 <rdg wit="#Py" ana="#additive"><surplus instant="false"><hi rend="rubricated"><num type="ordinal" value="2">Secundum</num></hi></surplus>
@@ -2513,10 +2509,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-2.5" n="5" part="N">ETENIM EX OMNIBUS UOX UNIUSCUIUSQUE
                     MULTIPLEX</seg></rdg>
                 </app>.</mentioned>
-              <milestone ed="#m" unit="folio" n="188v"/><app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="2">Secundum</num> problema
-                  etcetera.</rdg>
-              </app>
+              <milestone ed="#m" unit="folio" n="188v"/>
               <gloss target="#ment-2.1"><app>
                   <lem wit="#α #π #Ma #Mb #Px #Vm #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -2964,7 +2957,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="3" xml:id="part3" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-3.1" exclude="#app-rdg-Px-3.1">
                 <lem wit="#γ #Gu #m #v"><num type="ordinal" value="3">Tertium</num> problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pq #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="3">3<hi rend="superscript">m</hi></num></add></rdg>
                 <rdg wit="#Py" ana="#additive"><surplus instant="false"><hi rend="rubricated"><num type="ordinal" value="3">tertium</num></hi></surplus>
@@ -2983,10 +2976,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       DEPRESSIONEM UOCIS. IN HIIS AUTEM LABOR, LABORANS AUTEM MAGIS
                       CORRUMPITUR</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="3">Tertium</num> problema
-                  etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-3.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -4069,7 +4059,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   descriptio</rdg>
                 <rdg wit="#Vb" ana="#lexical">Cuiusmodi est huiusmodi descriptio</rdg>
               </app>
-              <app>
+              <app xml:id="app-3.2" exclude="#rdg-J-3.2">
                 <lem wit="#α #κ #m #v"><list>
                     <item><app>
                         <lem wit="#κ #Vb #m #v">dyatonici</lem>
@@ -4279,28 +4269,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#Ma #Px #Vm">canon</lem>
                 <rdg wit="#Vz" ana="#morphological">canono</rdg>
                 <rdg wit="#α #π #m #v" ana="#additive">canon dictus</rdg>
-              </app> ostendit. <milestone ed="#Gu" unit="column" n="B"/><app>
-                <rdg wit="#π" ana="#ordinal #J"><list>
-                    <item>dyatonici</item>
-                    <item>proslabanomenos</item>
-                    <item>ypate ypaton</item>
-                    <item>parypate ypaton</item>
-                    <item>lychanos ypato dyatonici</item>
-                    <item>ypate meson</item>
-                    <item>lychanos meson</item>
-                    <item>Mese</item>
-                    <item>Trite sinezengium</item>
-                    <item>Paranete sinezengium dyatonici</item>
-                    <item>Nete sinezengium</item>
-                    <item>Paramese</item>
-                    <item>Trite dyazengium</item>
-                    <item>paranete dyezengium dyatonici</item>
-                    <item>zeze dyezengium</item>
-                    <item>trite yperboleon
-                      dyatonici</item>
-                    <item>Nete yperboleon</item>
-                  </list></rdg>
-              </app>
+              </app> ostendit. <milestone ed="#Gu" unit="column" n="B"/>
               <app>
                 <lem wit="#β #κ #π #Ea #Vb"/>
                 <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
@@ -4692,7 +4661,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="4" xml:id="part4" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-4.1" exclude="#app-rdg-Px-4.1">
                 <lem wit="#γ #Gu #m #v"><num type="ordinal" value="4">Quartum</num> problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pq #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="4">4<hi rend="superscript">m</hi></num></add></rdg>
                 <rdg wit="#Py" ana="#additive"><surplus instant="false"><hi rend="rubricated"><num type="ordinal" value="4">Quartum</num> problema</hi></surplus>
@@ -4715,10 +4684,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-4.5" n="5" part="N">HUIUS AUTEM UTIQUE CONSONANTIA QUEDAM
                     CAUSA</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="3">Quartum</num> problema
-                  etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-4.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -5320,7 +5286,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="5" xml:id="part5" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-5.1" from="#5.1" exclude="#app-rdg-Px-5.1">
                 <lem wit="#γ #Gu #m #v"><num type="ordinal" value="5">Quintum</num> problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pq #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="5">5<hi rend="superscript">m</hi></num></add></rdg>
                 <rdg wit="#Py" ana="#additive"><surplus instant="false"><hi rend="rubricated"><num type="ordinal" value="5">quintum</num> problema.</hi></surplus> Quintum.</rdg>
@@ -5339,10 +5305,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-5.3" n="3" part="N">ADHUC AUTEM ET CONSUETUM DELECTABILE MAGIS
                       INCONSUETO</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="5">Quintum</num> problema
-                  etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-5.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -5710,7 +5673,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#κ" n="delectantur"/>
                 <rdg wit="#α #π #m #v" ana="#additive">et melodia et ystoria et siquidem
                   cum habuerint</rdg>
-              </app>. <app>
+              </app>. <app xml:id="app-lem-5.2" exclude="#app-rdg-5.2">
                 <lem wit="#κ" ana="#ordinal">Triplex enim <app>
                     <lem wit="#Ma #Px #Vm">tunc</lem>
                     <rdg wit="#Vz" ana="#subtractive"/>
@@ -5738,12 +5701,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#α #λ #Pp #Pu #m #v">delectantur</lem>
                 <rdg wit="#Ca #Gu #Pa #Px #Pz #Vc #Vo" ana="#morphological">delectatur</rdg>
               </app>
-              <app>
-                <rdg wit="#β #Ea #Gu #Pu #Pz #Vb #Vo #m #v">triplex enim tunc delectatio
-                  concurrit</rdg>
-                <rdg wit="#Va" ana="#ordinal">triplex enim delectatio tunc concurit</rdg>
-                <rdg wit="#Pp #Pu" ana="#subtractive #J">triplex enim delectatio concurrit</rdg>
-              </app>, <app>
+              , <app>
                 <lem wit="#β #κ #π #Ea #Vb" n="delectantur"/>
                 <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
               </app> unde <num type="ordinal" value="2">secundo</num> confirmat causam <app>
@@ -6200,7 +6158,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="6" xml:id="part6" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-6.1" exclude="#app-rdg-Px-6.1">
                 <lem wit="#γ #Gu #m #v"><num type="ordinal" value="6">Sextum</num> problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pq #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="6">6<hi rend="superscript">m</hi></num></add></rdg>
                 <rdg wit="#Py" ana="#additive"><surplus instant="false"><hi rend="rubricated"><num type="ordinal" value="6">sextum.</num></hi></surplus>
@@ -6216,10 +6174,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       ET IN MAGNITUDINE FORTUNE AUT TRISTITIE. EQUALE AUTEM MINUS PLORABILE UEL
                       ULULABILE</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="6">Sextum</num> problema
-                  etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-6.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -6666,8 +6621,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     </app>.</name></ref>
                 <bibl corresp="#GaPu" default="false" status="draft"><author>Gal.</author>
                   <title>De diff. puls.</title>
-                  <biblScope unit="book" n="1">I</biblScope>.<biblScope unit="chapter" n="8">8</biblScope> (I.12 in Latin trans. by Burgundio of Pisa) <note type="parallel" target="#quote-6.1-Gal" anchored="true">Cf. <title ref="#AbCo">Conciliator</title> diff.
-                    83</note></bibl>
+                  <biblScope unit="book" n="1">I</biblScope>.<biblScope unit="chapter" n="8">8</biblScope> (I.12 in Latin trans. by Burgundio of Pisa)</bibl> 
+                <note type="parallel" target="#quote-6.1-Gal" xml:id="note-6.1" anchored="true">Cf. <listBibl default="false">
+                    <bibl default="false" status="draft"><author>Pietro d'Abano</author> <title ref="#AbCo">Conciliator
+                    </title> <biblScope n="83">diff. 83</biblScope></bibl></listBibl></note>
               </cit>
               <app>
                 <lem wit="#β #γ #κ #Pu #m #v">Ceu</lem>
@@ -6904,7 +6861,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="7" xml:id="part7" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-7.1" exclude="#app-rdg-Px-7.1">
                 <lem wit="#γ #Gu #m #v"><num type="ordinal" value="7">Septimum</num> problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pq #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="7">7<hi rend="superscript">m</hi></num></add></rdg>
                 <rdg wit="#Py" ana="#additive"><surplus instant="false"><hi rend="rubricated"><num type="ordinal" value="7">Septimum.</num></hi></surplus>
@@ -6924,10 +6881,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-7.4" n="4" part="N">QUIA ACUTUM POTENTIA MAGIS, GRAUE AUTEM FACILIUS
                       CANTATUR</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="7">Septimum</num> problema
-                  etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-7.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -7248,11 +7202,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <app>
                   <lem wit="#β #κ #π #Vb #m #v">acutum</lem>
                   <rdg wit="#Va" ana="#morphological">acuta</rdg>
-                </app> cantare <app>
+                </app> cantare <app xml:id="app-7.2a" next="#app-7.2b">
                   <lem wit="#α #κ #Gu #Pq #Pz #Vo #m #v">sed graue facilius,</lem>
                   <rdg wit="#Pp #Pu #Vm" cause="homeoteleuton" ana="#subtractive"/>
                 </app></gloss>
-              <app>
+              <app xml:id="app-7.2b" prev="#app-7.2a">
                 <lem wit="#α #κ #Gu #Pq #Pz #Vo #m #v">sicut pluries dicetur. Sic <app>
                     <lem wit="#α #κ #Pz #Vo #m #v">itaque</lem>
                     <rdg wit="#Gu #Pq" ana="#lexical #J">ergo</rdg>
@@ -7603,7 +7557,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="8" xml:id="part8" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-8.1" exclude="#app-rdg-Px-8.1">
                 <lem wit="#γ #Gu #m #v"><num type="ordinal" value="8">Octauum</num> problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pq #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="8">8<hi rend="superscript">m</hi></num></add></rdg>
                 <rdg wit="#Py" ana="#additive"><hi rend="rubricated"><surplus instant="false"><num type="ordinal" value="8">octauum</num> problema.</surplus></hi>
@@ -7618,10 +7572,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-8.2" n="2" part="N">AUT QUIA MAIUS HOC GRAUE? OBTUSO ENIM ASSIMULATUR,
                       HOC UERO ACUTO ANGULO</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="8">Octauum</num> problema
-                  etcetera.</rdg>
-              </app>
+              
               <app>
                 <lem wit="#β #γ #λ #Gu #Pp #Pu #Vo #m #v">Quia</lem>
                 <rdg wit="#Ea #Pq #Px #Pz" ana="#lexical">Quare</rdg>
@@ -7765,7 +7716,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="9" xml:id="part9" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-9.1" exclude="#app-rdg-Px-9.1">
                 <lem wit="#γ #Gu #m #v"><num type="ordinal" value="9">Nonum</num> problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pq #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="9">9<hi rend="superscript">m</hi></num></add></rdg>
                 <rdg wit="#Py" ana="#additive"><surplus instant="false"><hi rend="rubricated"><num type="ordinal" value="9">nonum</num> problema.</hi></surplus><num type="ordinal" value="9">Nonum.</num></rdg>
@@ -7785,10 +7736,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       QUANDO AD FISTULAM AUT LYRAM? QUOD UERO AD MULTOS FISTULA<milestone ed="#m" unit="column" n="B" break="no"/>TORES AUT LYRAS MULTAS NON EST DELECTABILE
                       PROPTER ID QUOD DESTRUIT MELODIAM</seg></rdg>
                 </app>.</mentioned>
-              <milestone ed="#Vm" unit="column" n="B"/><app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="9">Nonum</num> problema
-                  etcetera.</rdg>
-              </app>
+              <milestone ed="#Vm" unit="column" n="B"/>
               <milestone ed="#Vb" unit="folio" n="109v"/><gloss target="#ment-9.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -8252,7 +8200,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="10" xml:id="part10" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-10.1" exclude="#app-rdg-Px-10.1">
                 <lem wit="#γ #Gu #m #v"><num type="ordinal" value="10">Decimum</num> problema</lem>
                 <rdg wit="#Ea #Ma #Pp #Pq #Pz #Vz" ana="#subtractive"><handShift scribe="m.r."/><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="10">10<hi rend="superscript">m</hi></num></add><handShift scribe="Pz"/></rdg>
                 <rdg wit="#Py" ana="#additive"><surplus instant="false"><hi rend="rubricated"><num type="ordinal" value="10">decimum</num> problema.</hi></surplus>
@@ -8270,14 +8218,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-10.3" n="3" part="N">AT UERO SED PROPTER OPUS IPSUM. UOX ENIM
                       DELECTABILIS QUE EST HOMINIS, PERCUSSIUA AUTEM MAGIS INSTRUMENTA ORIS. PROPTER
                       QUOD DELECTABILIUS AUDIRE QUAM UERNARE</seg></rdg>
-                </app>. <app>
-                  <rdg wit="#Gu" ana="#J">PROPTER QUID SONANS ACUTIOR QUIA MINUS IMBECILLIOR EST
-                    FACTA.</rdg>
-                </app></mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="10">Decimum</num> problema
-                  etcetera.</rdg>
-              </app>
+                </app>. </mentioned>
+              
               <gloss target="#ment-10.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -8782,7 +8724,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="11" xml:id="part11" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-11.1" exclude="#app-rdg-PxG-11.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="11">Undecimum</num> problema</lem>
                 <rdg wit="#Ea #Ma #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="11">11<hi rend="superscript">m</hi></num></add></rdg>
                 <rdg wit="#Py" ana="#additive"><num type="ordinal" value="11">Undecimum.</num>
@@ -8790,18 +8732,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       problema</hi></surplus></rdg>
                 <rdg wit="#Gu #Mb #Vm #Vo" ana="#subtractive"/>
               </app></head>
-            <p n="1" part="N"><mentioned><app>
+            <p n="1" part="N"><mentioned><app xml:id="app-11.2" exclude="#app-rdg-G-11.2">
                   <lem wit="#Pu #Vm #Vo">PROPTER QUID SONANS</lem>
                   
                   <rdg wit="#Ea #Py #Vb #Vz" ana="#subtractive"/>
                   <rdg wit="#Ma #Px #Pz #Va #m #v" ana="#additive"><seg xml:id="ment-11.1" n="1" part="N">PROPTER QUID SONANS ACUTIOR?</seg>
                     <seg xml:id="ment-11.2" n="2" part="N">AUT QUIA MINUS IMBECILLIOR FACTA EST</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="11">Undecimum</num>
-                  problema etcetera.</rdg>
-                <rdg wit="#Gu" ana="#lexical #J">Propter quid sonans etcetera</rdg>
-              </app>
+              
               <gloss target="#ment-11.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -8904,7 +8842,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="12" xml:id="part12" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-12.1" exclude="#app-rdg-Px-12.1">
                 <lem wit="#γ #Gu #m #v"><num type="ordinal" value="12">Duodecimum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Pp #Pz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="12">12<hi rend="superscript">m</hi></num></add></rdg>
@@ -8921,10 +8859,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       IN MAGNO PARUUM, ET ASSUMPTIONE <num type="cardinal" value="2">DUE</num> NITE
                       IN YPATE FIUNT</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="12">Duodecimum</num>
-                  problema.</rdg>
-              </app>
+              
               <gloss target="#ment-12.1"><app>
                   <lem wit="#α #Gu #Px #Pu #Pz #Vo #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -9115,7 +9050,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               </app> licet possit <app>
                 <lem wit="#κ #π #Ea #Py #Va #m #v">tollerari series</lem>
                 <rdg wit="#Vb" ana="#ordinal">series tollerari</rdg>
-              </app> tamen iam exposita continens paramese <app>
+              </app> tamen iam exposita continens paramese <app xml:id="app-12.3a" next="#app-12.3b">
                 <lem wit="#α #κ #Gu #Pu #Pz #Vo #m #v"><app>
                     <lem wit="#Ea #Gu #Pu #Vb #Vo">planior et sauior</lem>
                     
@@ -9127,7 +9062,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </app>. </lem>
                 <rdg wit="#Pp" cause="homeoteleuton" ana="#subtractive #J"/>
               </app>
-              <gloss target="#ment-12.1"><app>
+              <gloss target="#ment-12.1"><app xml:id="app-12.3b" prev="#app-12.3a">
                   <lem wit="#α #κ #Gu #Pu #Pz #Vo #m #v"><app>
                       <lem wit="#κ #Py #Vb #m #v">Sed si</lem>
                       <rdg wit="#Ea" ana="#subtractive">Sed</rdg>
@@ -9339,7 +9274,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="13" xml:id="part13" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-13.1" exclude="#app-rdg-Px-13.1">
                 <lem wit="#Gu #Va"><num type="ordinal" value="13">Tertiumdecimum</num>
                   problema</lem>
                 
@@ -9358,10 +9293,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-13.2" n="2" part="N">AUT QUIA MAXIME QUIDEM IN AMBOBUS EST AMBORUM
                       MELODIA? SI AUTEM NON, NON GRAUE, MAIUS ENIM EST</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="13">Decimumtertium</num>
-                  problema etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-13.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -9454,7 +9386,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#α #κ #Gu #Pp #Pu #Pz #m #v">arismetricis</lem>
                 
               </app>
-              <milestone ed="#Pp" unit="folio" n="186v"/><app>
+              <milestone ed="#Pp" unit="folio" n="186v"/><app xml:id="app-13.12a" next="#app-13.12b">
                 <lem wit="#γ #κ #Py #m #v"><app>
                     <lem wit="#κ #Py #Vb #m #v">intuendum</lem>
                     <rdg wit="#Va" ana="#additive">intuendum est</rdg>
@@ -9462,7 +9394,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#π #Ea" ana="#subtractive"/>
               </app>
               <cit>
-                <app>
+                <app xml:id="app-13.12b" prev="#app-13.12a">
                   <lem wit="#α #κ #m #v"><app>
                       <lem wit="#γ #κ #Py #m #v">Sunt autem secundum <ref><name ref="#Bo" full="yes" instant="false">boecium</name> in <app>
                             <lem wit="#κ #Py #Va #m #v"><num type="ordinal" value="1">primis</num></lem>
@@ -9519,7 +9451,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <rdg wit="#Pz" ana="#lexical #J">superari</rdg>
                     <rdg wit="#Vz" ana="#lexical">subsuperparticulari</rdg>
                   </app>
-                  <app>
+                  <app xml:id="app-13.11a" next="#app-13.11b">
                     <lem wit="#γ #Ma #Pp #Pu #Px #Py #Pz #Vm #Vo #m #v"><app>
                         <lem wit="#α #Ma #Px #Vm #m #v">et ex</lem>
                         <rdg wit="#Pp #Pu #Pz #Vo" ana="#subtractive #J">et</rdg>
@@ -9535,7 +9467,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                         <rdg wit="#Py" ana="#lexical">et superparticulari</rdg>
                       </app></lem>
                     <rdg wit="#Ea #Gu #Vz" ana="#subtractive" cause="homeoteleuton"/>
-                  </app>, <app>
+                  </app>, <app xml:id="app-13.11b" prev="#app-13.11a">
                     <lem wit="#α #Pp #Pu #Px #Vm #Vo #Vz #m #v"><num type="ordinal" value="2">secunda</num> ex <app>
                         <lem wit="#Ea #Px #Vb #Vm #Vo #Vz">multiplici superparticulari</lem>
                         <rdg wit="#Va #m #v" ana="#additive">multiplici et superparticulari</rdg>
@@ -9979,7 +9911,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <corr instant="false"><num type="ratio" value="5/2">duplex sexquialtera</num></corr>
                   </choice></rdg>
                 <rdg wit="#Gu" ana="#subtractive #J"><num type="ratio" value="3/2">sexquialtera</num></rdg>
-              </app>, <app>
+              </app>, <app xml:id="app-13.10a" next="#app-13.10b">
                 <lem wit="#α #λ #π #m #v"><app>
                     <lem wit="#α #Gu #Pp #Pu #Pz #m #v"><num type="ratio" value="7/3">duplex
                         sexquitertia</num></lem>
@@ -9990,7 +9922,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </app>, <num type="ratio" value="9/4">duplex sexquiquarta</num>, etcetera,</lem>
                 <rdg wit="#Px" ana="#subtractive"/>
               </app>
-              <app>
+              <app xml:id="app-13.10b" prev="#app-13.10a" next="#app-13.10c">
                 <lem wit="#λ #Pp #Pu #Py #Pz #Vb #Vo #m #v">et <app>
                     <lem wit="#λ #Pp #Pu #Vo">id ratione</lem>
                     <rdg wit="#Ea #Vb #m #v" ana="#morphological">id rationem</rdg>
@@ -10014,7 +9946,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     </app></num></lem>
                 <rdg wit="#Ca #Gu #Px #Va" ana="#subtractive"/>
               </app>
-              <app>
+              <app xml:id="app-13.10c" prev="#app-13.10b">
                 <lem wit="#κ #Ea #Pp #Pu #Py #Pz #Vb #m #v"><app>
                     <lem wit="#Ea #Pp #Pu #Px #Py #Pz #Vb #Vo #m #v"><num type="ratio" value="7/2">triplex sexquialtera,</num></lem>
                     <rdg wit="#λ" ana="#subtractive"/>
@@ -10539,7 +10471,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               </app> una uox in grauitate <app>
                 <lem wit="#α #κ #Pp #Pu #Pz #Vo #m #v">uel</lem>
                 <rdg wit="#Gu #Pq" ana="#lexical #J">seu</rdg>
-              </app> acuitate <app>
+              </app> acuitate <app xml:id="app-13.3a" next="#app-13.3b">
                 <lem wit="#α #π #m #v"><app>
                     <lem wit="#γ #Ea #Gu #Pu #Vo #m #v">se habuerit ad aliam sicut</lem>
                     <rdg wit="#Py" ana="#morphological">se habet ad aliam sicut</rdg>
@@ -10555,7 +10487,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Vm #Vz" ana="#subtractive">se hii·</rdg>
                 <rdg wit="#Ma" ana="#lexical #subtractive">sed hii</rdg>
               </app>.</p>
-            <p n="10" part="N"><app>
+            <p n="10" part="N"><app xml:id="app-13.3b" prev="#app-13.3a">
                 <lem wit="#α #π #m #v">Iuxta uero <num type="ratio" value="3/2"><app>
                       <lem wit="#α #Gu #Pp #Pu #m #v">emiolam</lem>
                       
@@ -11114,7 +11046,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Vb" ana="#additive">ista videlicet</rdg>
                 <rdg wit="#Va" ana="#additive">ista in ista <unclear instant="false">t</unclear>olitua</rdg>
                 <rdg wit="#π" ana="#lexical #J">talis</rdg>
-              </app>. <app>
+              </app>. <app xml:id="app-13.2-lem" exclude="#app-13.2-rdg">
                 <lem wit="#α #π #Ma #Px #m #v"><table rows="22" cols="4">
                     <row role="data" rows="1" cols="1">
                       <cell role="label" rows="1" cols="1">Γ.</cell>
@@ -11756,153 +11688,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Px" ana="#additive">sequitur <num type="ordinal" value="14">14m.</num>
                   problema <num type="ordinal" value="19">19e.</num> particule.</rdg>
               </app>
-              <app>
-                <rdg wit="#Vz" ana="#subtractive"><gap reason="omitted" unit="line" quantity="14" instant="false"/></rdg>
-                <rdg wit="#Vm" ana="#ordinal"><table rows="22" cols="4">
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">G</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="1296">1296</num></cell>
-                      <cell role="data" rows="1" cols="1">ut</cell>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">a.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="1152">1152</num>.</cell>
-                      <cell role="data" rows="1" cols="1">re.</cell>
-                      <cell role="data" rows="1" cols="1">Dyatonus</cell>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">b.</cell>
-                      <cell role="data" rows="1" cols="1">1034.</cell>
-                      <cell role="data" rows="1" cols="1">mi.</cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">c.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="972">972.</num></cell>
-                      <cell role="data" rows="1" cols="1">fa ut.</cell>
-                      <cell role="data" rows="1" cols="1">Dyatesseron.</cell>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">d.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="864">864.</num></cell>
-                      <cell role="data" rows="1" cols="1">solre.</cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">e.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="786">786.</num></cell>
-                      <cell role="data" rows="1" cols="1">la mi.</cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">f.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="739">739.</num></cell>
-                      <cell role="data" rows="1" cols="1">fa ut.</cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">g.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="646">646.</num></cell>
-                      <cell role="data" rows="1" cols="1">solreut.</cell>
-                      <cell role="data" rows="1" cols="1">dyapason.</cell>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">a.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="576">576.</num></cell>
-                      <cell role="data" rows="1" cols="1">lamire.</cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">b.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="554">554.</num></cell>
-                      <cell role="data" rows="1" cols="1">mi</cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">b.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="512">512.</num></cell>
-                      <cell role="data" rows="1" cols="1">fa.</cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">c.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="486">486</num></cell>
-                      <cell role="data" rows="1" cols="1">solfaut.</cell>
-                      <cell role="data" rows="1" cols="1">dyatesseron dyapason.</cell>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">d.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="432">432</num>.</cell>
-                      <cell role="data" rows="1" cols="1">lasolre</cell>
-                      <cell role="data" rows="1" cols="1">dyapente dyapason.</cell>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">e.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="384">384</num>.</cell>
-                      <cell role="data" rows="1" cols="1">la mi.</cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">f.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="349">349.</num></cell>
-                      <cell role="data" rows="1" cols="1">faut.</cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">g.</cell>
-                      <cell role="data" rows="1" cols="1"><num type="cardinal" value="324">324.</num></cell>
-                      <cell role="data" rows="1" cols="1">solreut.</cell>
-                      <cell role="data" rows="1" cols="1">bis dyapason.</cell>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">a.</cell>
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1">lamire</cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <!-- SJH: Is it important to keep these empty rows? -->
-                    <row role="data" rows="1" cols="1">
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                  </table></rdg>
-              </app></p>
+              </p>
           </div>
 
           <div type="textpart" subtype="problem" n="14" xml:id="part14" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-14.1" exclude="#app-rdg-Px-14.1">
                 <lem wit="#Va #m #v"><num type="ordinal" value="14">Quartumdecimum</num>
                   problema</lem>
                 
@@ -11923,10 +11713,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       ANALOGUM, EQUALITAS IN SONIS, EQUALE AUTEM UNIUS? HOC AUTEM IDEM IN FISTULIS
                       DECIPIUNTUR</seg></rdg>
                 </app>.</mentioned>
-              <milestone ed="#Pz" unit="column" n="B"/><app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="14">Decimum quartum</num>
-                  problema etcetera.</rdg>
-              </app>
+              <milestone ed="#Pz" unit="column" n="B"/>
               <gloss target="#ment-14.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -12248,7 +12035,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="15" xml:id="part15" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-15.1" exclude="#app-rdg-Px-15.1">
                 <lem wit="#Va #m #v"><num type="ordinal" value="15">Quintumdecimum</num>
                   problema</lem>
                 
@@ -12280,10 +12067,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       SCENA NON CONUERSIUA, CHORI ENIM CONUERSIUA. QUI <milestone ed="#Pz" unit="folio" n="183v"/>ENIM CANTAT IN SCENA AGONISTA ET MUTATOR, CHORUS
                       AUTEM MINUS MUTATUR</seg></rdg>
                 </app>.</mentioned>
-              <milestone ed="#Px" unit="folio" n="158r"/><app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="15">Decimum quintum</num>
-                  problema etcetera.</rdg>
-              </app>
+              <milestone ed="#Px" unit="folio" n="158r"/>
               <gloss target="#ment-15.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -12440,7 +12224,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Ea" ana="#additive">altius alterius</rdg>
                 <rdg wit="#Pp #Pu" ana="#additive #J">alterius perfectis</rdg>
               </app>
-              <app>
+              <app xml:id="app-15.2a" next="#app-15.2b">
                 <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">cantus <milestone ed="#Ea" unit="folio" n="140v"/><app>
                     <lem wit="#κ #Py">secunda <mentioned><ref target="#ment-15.4">EADEM
                         AUTEM</ref></mentioned></lem>
@@ -12458,7 +12242,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </app> dicens</lem>
                 <rdg wit="#Pz" ana="#subtractive #J" cause="homeoteleuton"/>
               </app>
-              <gloss target="#ment-15.2"><app>
+              <gloss target="#ment-15.2"><app xml:id="app-15.2b" prev="#app-15.2a">
                   <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">causam esse quoniam leges fuerunt</lem>
                   <rdg wit="#Pz" ana="#subtractive #J" cause="homeoteleuton"/>
                 </app> cantus constituti ab agonizantibus et <app>
@@ -12619,7 +12403,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#κ #π #Ea #Py #Vb" n="diuersificando"/>
                 <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
               </app>
-              <app>
+              <app xml:id="app-15.3a" next="#app-15.3b">
                 <lem wit="#κ #π #Ea #Py #Va #m #v"><mentioned><ref target="#ment-15.3">MAGIS <app>
                         <lem wit="#κ #Ea #Py #Pz #Vo #m #v">ENIM</lem>
                         <rdg wit="#Va" ana="#lexical">EST</rdg>
@@ -12714,7 +12498,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     </app></gloss></lem>
                 
               </app>
-              <gloss target="#ment-15.3"><app>
+              <gloss target="#ment-15.3"><app xml:id="app-15.3b" prev="#app-15.3a">
                   <lem wit="#κ #π #Ea #Py #Va #m #v"><app>
                       <lem wit="#κ #Ea #Py #Va #m #v">ideo</lem>
                       <rdg wit="#π" ana="#subtractive #J"/>
@@ -13380,7 +13164,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="16" xml:id="part16" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-16.1" exclude="#app-rdg-Px-16.1">
                 <lem wit="#Va #m #v"><num type="ordinal" value="16">Sextumdecimum</num>
                   problema</lem>
                 
@@ -13399,10 +13183,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       ALTERAM CONSONARE? QUARE <num type="cardinal" value="2">DUE</num> AD UNAM
                       UOCEM FACTE DESTRUUNT ALTERAM</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="16">Decimum sextum</num>
-                  problema.</rdg>
-              </app>
+              
               <gloss target="#ment-16.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -13818,7 +13599,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="17" xml:id="part17" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-17.1" exclude="#app-rdg-Px-17.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="17">Decimumseptimum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="17">17<hi rend="superscript">m</hi></num></add></rdg>
@@ -13838,10 +13619,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       EADEM EST SIMUL ET ALIA. QUE AUTEM IN DYAPENTE ET DYATESSERON NON HABENT, ITA
                       QUARE NON APPARET QUANDO ANTIFONE SONUS, NON ENIM EST IDEM</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="17">Decimum septimum</num>
-                  problema.</rdg>
-              </app>
+              
               <milestone ed="#m" unit="folio" n="192v"/><gloss target="#ment-17.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -14144,7 +13922,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 
                 
                 <rdg wit="#Vo" ana="#lexical #J">partium <add place="margin" instant="false" status="unremarkable"><handShift/>paruum<handShift/></add></rdg>
-              </app> excessum non poterit excedentia <app>
+              </app> excessum non poterit excedentia <app xml:id="app-17.2a" next="#app-17.2b">
                 <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">manifestari vnius ad alterum, quare <app>
                     <lem wit="#Nu #Pp #Vb #Vm">non contraphonizare contingit</lem>
                     
@@ -14163,7 +13941,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <rdg wit="#Py" cause="homeoteleuton" ana="#subtractive"/>
                   </app></lem>
                 <rdg wit="#Pz" ana="#subtractive #lexical #J">moueri</rdg>
-              </app>. <app>
+              </app>. <app xml:id="app-17.2b" prev="#app-17.2a">
                 <lem wit="#γ #κ #π #m #v">Unde relinquitur</lem>
                 <rdg wit="#Py" ana="#subtractive" cause="homeoteleuton"/>
               </app>
@@ -14187,7 +13965,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="18" xml:id="part18" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-18.1" exclude="#app-rdg-Px-18.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="18">Decimumoctauum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="18">18<hi rend="superscript">m</hi></num></add></rdg>
@@ -14210,10 +13988,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       QUEMADMODUM UNAM UTRANQUE CANTANT. PROPTER QUOD SOLA CANTATUR, QUIA UNAM
                       HABENT CORDE UOCEM ANTIPHONAM</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="18">Decimum octauum</num>
-                  problema etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-18.1"><app>
                   <lem wit="#α #Pp #Px #Pz #Vo #m #v">Quare</lem>
                   <rdg wit="#Gu" ana="#additive">Quare cum</rdg>
@@ -14306,11 +14081,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <lem wit="#α #κ #Vo #m #v">per</lem>
                   <rdg wit="#Gu #Pp #Pu" ana="#lexical #J">propter</rdg>
                   <rdg wit="#Pz" ana="#subtractive #J"/>
-                </app> proportionem <milestone ed="#m" unit="column" n="B"/><num type="ratio" value="2/1">duplam</num>.<app>
+                </app> proportionem <milestone ed="#m" unit="column" n="B"/><num type="ratio" value="2/1">duplam</num>.<app xml:id="app-18.2a" next="#app-18.2b">
                   <lem wit="#β #κ #π #Ea">In antiphonis enim cordis ita se habet</lem>
                   <rdg wit="#γ #m #v" ana="#subtractive"/>
                 </app>
-                <app>
+                <app xml:id="app-18.2b" next="#app-18.2c" prev="#app-18.2a">
                   <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">quod si altera <app>
                       <lem wit="#β #κ #Ea">cantetur</lem>
                       <rdg wit="#Gu #Pp #Pu #Vo" ana="#additive #J">cantetur simul</rdg>
@@ -14318,7 +14093,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <rdg wit="#Pz" ana="#subtractive #J" cause="homeoteleuton"/>
                   <rdg wit="#γ #m #v" ana="#subtractive"/>
                 </app>
-                <app>
+                <app xml:id="app-18.2c" prev="#app-18.2b" next="#app-18.2d">
                   <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">siue <app>
                       <lem wit="#β #γ #Gu #Pp #Pu #Px #Vm #Vo #Vz #m #v">tangatur</lem>
                       <rdg wit="#Ea" ana="#morphological">tangetur</rdg>
@@ -14337,7 +14112,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     </app>,</lem>
                   <rdg wit="#Pz" ana="#subtractive" cause="homeoteleuton"/>
                 </app></gloss>
-              <app>
+              <app xml:id="app-18.2d" prev="#app-18.2c">
                 <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v"><app>
                     <lem wit="#α #Gu #Pp #Pu #Vo #m #v">ac si</lem>
                     <rdg wit="#κ" ana="#subtractive">si</rdg>
@@ -14468,11 +14243,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   
                   <rdg wit="#Pz" ana="#additive #J">nete tunc</rdg>
                   <rdg wit="#Pu #Vc" ana="#lexical #J">vite</rdg>
-                </app> cantando et fistulando utrobique cantatur <app>
+                </app> cantando et fistulando utrobique cantatur <app xml:id="app-18.3a" next="#app-18.3b">
                   <lem wit="#α #κ #m #v">vna quia media</lem>
                   <rdg wit="#Gu #Pp #Pu #Vo" ana="#subtractive">quia media</rdg>
                   <rdg wit="#Pz" ana="#subtractive" cause="homeoteleuton"/>
-                </app>.<app>
+                </app>.<app xml:id="app-18.3b" prev="#app-18.3a">
                   <lem wit="#α #κ #Gu #Pp #Vo #m #v">Et ideo sola <app>
                       <lem wit="#β #Px #Pu #Vo #Vz">symphonia</lem>
                       
@@ -14563,7 +14338,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="19" xml:id="part19" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-19.1" exclude="#app-rdg-Px-19.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="19">Decimumnonum</num> problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="19">19<hi rend="superscript">m</hi></num></add></rdg>
                 <rdg wit="#Py" ana="#additive"><surplus instant="false"><hi rend="rubricated"><num type="ordinal" value="19">decimum nonum.</num></hi></surplus><num type="ordinal" value="19">Decimumnonum.</num></rdg>
@@ -14579,10 +14354,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       IGITUR SIMILITUDINEM QUANDAM FACIT SONORUM. ET UIDETUR AUDITUS DICERE QUOD
                       IPSA ET QUOD UTREQUE ULTIME</seg></rdg>
                 </app>.</mentioned>
-              <milestone ed="#Pz" unit="folio" n="184v"/><app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="19">Decimum nonum</num>
-                  problema etcetera.</rdg>
-              </app>
+              <milestone ed="#Pz" unit="folio" n="184v"/>
               <app>
                 <lem wit="#α #κ #m #v">Consequenter</lem>
                 <rdg wit="#π" ana="#subtractive #J"/>
@@ -14775,7 +14547,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="20" xml:id="part20" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-20.1" exclude="#app-rdg-Px-20.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="20">Uigesimum</num> problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="20">20<hi rend="superscript">m</hi></num></add></rdg>
                 <rdg wit="#Py" ana="#additive"><surplus instant="false"><hi rend="rubricated"><num type="ordinal" value="20">Uigesimum.</num> problema</hi></surplus><num type="ordinal" value="20">Uigesimum.</num></rdg>
@@ -14803,10 +14575,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-20.5" n="5" part="N">ITA AUTEM ET SONORUM MEDIA SICUT CONIUNCTIO EST ET
                       MAXIME BONORUM, PROPTER ID QUOD MULTOTIENS INEST IPSIS SONIS</seg></rdg>
                 </app>.</mentioned>
-              <milestone ed="#Ma" unit="column" n="B"/><app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="20">Uigesimum</num>
-                  problema.</rdg>
-              </app>
+              <milestone ed="#Ma" unit="column" n="B"/>
               <gloss target="#ment-20.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -15177,7 +14946,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#β #γ #Px #Pz #m #v">et</lem>
                 <rdg wit="#λ #Ea #Gu #Pp #Pu #Vo" ana="#subtractive"/>
               </app>
-              <num type="ordinal" value="1">primo</num> in metrica, que est <app>
+              <num type="ordinal" value="1">primo</num> in metrica, que est <app xml:id="app-20.2a" next="#app-20.2b">
                 <lem wit="#β #γ #κ #π #m #v"><app>
                     <lem wit="#β #γ #κ #Gu #Pu #Pz #Vo #m #v">musica quedam</lem>
                     <rdg wit="#Pp" ana="#ordinal #J">quedam musica</rdg>
@@ -15190,7 +14959,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </app> quod</lem>
                 <rdg wit="#Ea" ana="#subtractive">musica</rdg>
               </app>
-              <gloss target="#ment-20.3"><app>
+              <gloss target="#ment-20.3"><app xml:id="app-20.2b" prev="#app-20.2a">
                   <lem wit="#β #γ #κ #π #m #v">omnes boni poete utentes hac parte musice metrica
                     dicta, <app>
                       <lem wit="#β #π #Ma #Px #Vz">quam</lem>
@@ -16059,7 +15828,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="21" xml:id="part21" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-21.1" exclude="#app-rdg-Px-21.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="21">Uigesimumprimum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="21">21<hi rend="superscript">m</hi></num></add></rdg>
@@ -16079,10 +15848,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-21.3" n="3" part="N">AUT QUIA IN PLURI TEMPORE MULTUM EXHIBET, UELOX
                       AUTEM ET ACUTUM LATET PROPTER UELOCITATEM</seg></rdg>
                 </app>?</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="21">Uigesimum primum</num>
-                  problema.</rdg>
-              </app>
+              
               <milestone ed="#m" unit="folio" n="193v"/><gloss target="#ment-21.1"><app>
                   <lem wit="#α #Gu #Px #Pz #Vo #m #v">Quare cantantes</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare cantantes</rdg>
@@ -16305,7 +16071,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="22" xml:id="part22" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-22.1" exclude="#app-rdg-Px-22.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="22">Uigesimumsecundum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="22">22<hi rend="superscript">m</hi></num></add></rdg>
@@ -16322,10 +16088,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       GRAUIUS INCIPIUNT, QUARE FACILE IDEM ATTINGUNT? IN UELOCITATE ENIM PECCATUM
                       EST PLUS</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="22">Uigesimum
-                    secundum</num> problema.</rdg>
-              </app>
+              
               <gloss target="#ment-22.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -16478,7 +16241,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="23" xml:id="part23" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-23.1" exclude="#app-rdg-Px-23.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="23">Uigesimumtertium</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="23">23<hi rend="superscript">m</hi></num></add></rdg>
@@ -16505,10 +16268,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-23.4" n="4" part="N">AMPLIUS IN TRIANGULIS PSALTERIIS EQUALI
                       DISTENSIONE FACTA CONSONANT DYAPASON. HEC QUIDEM <num type="ratio" value="2/1">DUPLEX</num> EXISTENS, ALIA UERO MEDIA LONGITUDINE</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="23">Uigesimum
-                    tertium</num> problema.</rdg>
-              </app>
+              
               <milestone ed="#Vb" unit="folio" n="112r"/><app>
                 <lem wit="#β #γ #Px #Pz #m #v">Quare</lem>
                 <rdg wit="#λ #Ea #Gu #Pu #Vo" ana="#lexical">Quia</rdg>
@@ -16902,7 +16662,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <app>
                   <lem wit="#α #κ #Gu #Pp #Pq #m #v">proportionato</lem>
                   <rdg wit="#Pz #Vo" ana="#morphological #J">proportionate</rdg>
-                </app> ypate, ut sonus eius <app>
+                </app> ypate, ut sonus eius <app xml:id="app-23.2a" next="#app-23.2b">
                   <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">subgrauetur, et foramina per <app>
                       <lem wit="#Ea #Nu #Px #Vb #Vm #Vz">nitem</lem>
                       
@@ -16919,7 +16679,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     </app> usque <milestone ed="#Pp" unit="folio" n="189r"/>ad medium</lem>
                   <rdg wit="#Pz" ana="#subtractive" cause="hometeleuton"/>
                 </app>,</gloss>
-              <app>
+              <app xml:id="app-23.2b" prev="#app-23.2a">
                 <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v"><app>
                     <lem wit="#γ #κ #Ea #Gu #Nu #Pp #Pu #Vo #m #v">ut</lem>
                     <rdg wit="#Py" ana="#lexical">in</rdg>
@@ -17181,7 +16941,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="24" xml:id="part24" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-24.1" exclude="#app-rdg-Px-24.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="24">Uigesimumquartum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="24">24<hi rend="superscript">m</hi></num></add></rdg>
@@ -17199,10 +16959,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       EST AB IPSA PROPTER ID QUOD CONSONANS EST? SIMUL AUGERI AUTEM SIMILI UIDETUR
                       SOLUS. ALII UERO PROPTER PARUITATEM INMANIFESTI</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="24">Uigesimum
-                    quartum</num> problema.</rdg>
-              </app>
+              
               <milestone ed="#v" unit="column" n="B"/><gloss target="#ment-24.2"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -17385,7 +17142,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </app> minus grauem.</lem>
                 <rdg wit="#Pz" ana="#subtractive #J" cause="homeoarchon"/>
               </app>
-              <app>
+              <app xml:id="app-24.2a" next="#app-24.2b">
                 <lem wit="#β #κ #π #Ea #Vb #m #v">Sonus autem <app>
                     <lem wit="#κ">grauis</lem>
                     <rdg wit="#β #π #Ea #Vb #m #v" ana="#additive">grauis sonum</rdg>
@@ -17399,7 +17156,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <rdg wit="#Py" ana="#morphological">acuto</rdg>
                   </app></lem>
                 <rdg wit="#Va" ana="#subtractive"/>
-              </app>, <milestone ed="#Py" unit="column" n="B"/><gloss target="#ment-24.2"><app>
+              </app>, <milestone ed="#Py" unit="column" n="B"/><gloss target="#ment-24.2"><app xml:id="app-24.2b" prev="#app-24.2a">
                   <lem wit="#β #κ #π #Ea #Vb #m #v"><app>
                       <lem wit="#κ #π #Ea #Nu #Vb #m #v">sed</lem>
                       <rdg wit="#Py" ana="#lexical">et</rdg>
@@ -17520,7 +17277,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="25" xml:id="part25" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-25.1" exclude="#app-rdg-Px-25.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="25">Uigesimumquintum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="25">25<hi rend="superscript">m</hi></num></add></rdg>
@@ -17536,10 +17293,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <rdg wit="#Gu #Ma #Px #Pz  #Va #m #v" ana="#additive"><seg xml:id="ment-25.1" n="1" part="N">PROPTER QUID MEDIA UOCATUR IN ARMONIIS, <num type="cardinal" value="8">OCTO</num> UERO NON EST MEDIUM?</seg>
                     <seg xml:id="ment-25.2" n="2" part="N">AUT QUIA <num type="cardinal" value="7">SEPTEM</num> CORDARUM ERANT ARMONIE ANTIQUITUS? <num type="cardinal" value="7">SEPTEM</num> AUTEM HABENT MEDIUM</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="25">Uigesimum
-                    quintum</num> problema.</rdg>
-              </app>
+              
               <gloss target="#ment-25.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -17835,7 +17589,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="26" xml:id="part26" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-26.1" exclude="#app-rdg-Px-26.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="26">Uigesimumsextum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="26">26<hi rend="superscript">m</hi></num></add></rdg>
@@ -17854,10 +17608,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       GRAUE?</seg>
                     <seg xml:id="ment-26.3" n="3" part="N">AUT QUIA PEIUS GRAUI? <milestone ed="#Pz" unit="folio" n="186r"/>PECCATUM PEIORIS OPERATIO</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="26">Uigesimum sextum</num>
-                  problema etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-26.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#lexical">Querit quare</rdg>
@@ -18095,7 +17846,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="27" xml:id="part27" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-27.1" exclude="#app-rdg-Px-27.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="27">Uigesimumseptimum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="27">27<hi rend="superscript">m</hi></num></add></rdg>
@@ -18119,10 +17870,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-27.3" n="3" part="N">MOTUS AUTEM IPSI OPERATIUI SUNT, OPERATIONES ENIM
                       CONSUETUDINIS SIGNIFICATIO EST</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="27">Uigesimum
-                    septimum</num> problema etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-27.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -18586,7 +18334,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <lem wit="#β #π #Ea #Vm">sensibili</lem>
                   <rdg wit="#Ma #Vz" ana="#morphological">sensibilis</rdg>
                   <rdg wit="#γ #Px #m #v" ana="#morphological">sensibiliter</rdg>
-                </app>, <gloss target="#ment-27.3">et <app>
+                </app>, <gloss target="#ment-27.3">et <app xml:id="app-27.2a" next="#app-27.2b">
                   <lem wit="#α #κ #Gu #Pu #Pz #Vo #m #v"><app>
                       <lem wit="#β #κ #Ea #Gu #Pu #Pz #Va #Vo #m #v">motus</lem>
                       <rdg wit="#Vb" ana="#additive">motus aeris</rdg>
@@ -18601,7 +18349,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       <rdg wit="#Px" ana="#lexical">sensicun</rdg>
                     </app></lem>
                   <rdg wit="#Pp" ana="#subtractive #J" cause="homeoteleuton"/>
-                </app></gloss>. <app>
+                </app></gloss>. <app xml:id="app-27.2b" prev="#app-27.2a">
                 <lem wit="#α #κ #Gu #Pu #Pz #Vo #m #v">Operationes enim fiunt per <app>
                     <lem wit="#γ #λ #Ea #Gu #Nu #Pu #Pz #Vo #m #v">eos</lem>
                     <rdg wit="#Px" ana="#morphological">eas</rdg>
@@ -18909,7 +18657,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="28" xml:id="part28" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-28.1" exclude="#app-rdg-Px-28.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="28">Uigesimumoctauum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="28">28<hi rend="superscript">m</hi></num></add></rdg>
@@ -18928,10 +18676,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       NON LATEANT, QUEMADMODUM IN AGATHUSIS AMPLIUS CONSUEUERUNT? ET POSTERIORIBUS
                       IGITUR CANTIBUS PRIMOS IDEM APPELLAUERUNT QUIDAM PRIMAS</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="28">Uigesimum
-                    octauum</num> problema.</rdg>
-              </app>
+              
               <gloss target="#ment-28.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -19066,7 +18811,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#κ #π #Ea #Nu #Va #m #v">reddantur</lem>
                 <rdg wit="#Vb" ana="#morphological">redduntur</rdg>
                 <rdg wit="#Py" ana="#lexical">declaratum</rdg>
-              </app> manifeste <app>
+              </app> manifeste <app xml:id="rdg-28.1-Ar">
                 <lem wit="#α #Gu #Pp #Pu #Vo #m #v">note</lem>
                 <rdg wit="#κ" ana="#lexical">uoce</rdg>
                 <rdg wit="#Pz" ana="#lexical #J">nete</rdg>
@@ -19242,7 +18987,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="29" xml:id="part29" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-29.1" exclude="#app-rdg-Px-29.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="29">Uigesimumnonum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="29">29<hi rend="superscript">m</hi></num></add></rdg>
@@ -19261,10 +19006,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       IAM UTIQUE ACTIO QUIDEM MORALE ET FACIT CONSUETUDINEM, SAPORES AUTEM ET
                       COLORES NON FACIUNT SIMILITER</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="29">Uigesimum nonum</num>
-                  problema etcetera.</rdg>
-              </app>
+              
               <milestone ed="#m" unit="folio" n="195r"/>Repetit <app>
                 <lem wit="#λ"><ref target="#part27"><num type="ordinal" value="27">27<hi rend="superscript">m</hi></num> problema</ref> dicens</lem>
                 <rdg wit="#Px" ana="#lexical"><num type="ordinal" value="27">.27.</num> partem
@@ -19440,7 +19182,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="30" xml:id="part30" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-30.1" exclude="#app-rdg-Px-30.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="30">Trigesimum</num> problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="30">30<hi rend="superscript">m</hi></num></add></rdg>
                 <rdg wit="#Py" ana="#additive"><num type="ordinal" value="30">Trigesimum.</num>
@@ -19460,10 +19202,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-30.2" n="2" part="N">AUT NON HABET CONUERSIUUM? SED A SCENA, IMMUTATIUA
                       ENIM</seg></rdg>
                 </app>.</mentioned>
-              <milestone ed="#Px" unit="folio" n="160v"/><milestone ed="#Pz" unit="column" n="B"/><app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="30">.30m.</num>
-                  etcetera.</rdg>
-              </app>
+              <milestone ed="#Px" unit="folio" n="160v"/><milestone ed="#Pz" unit="column" n="B"/>
               <gloss target="#ment-30.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -19719,7 +19458,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 
                 <rdg wit="#Py" ana="#lexical">maluafiati cuius</rdg>
               </app> cantus laudabilis <cit>
-                <quote rend="inline"><app>
+                <quote rend="inline"><app xml:id="app-30.3a" next="#app-30.3b">
                     <lem wit="#α #κ #π"><app>
                         <lem wit="#α #Gu #Ma #Pp #Pu #Px #Vm #Vo">tanquam</lem>
                         
@@ -19740,7 +19479,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <title>Pol.</title>
                   <biblScope unit="book" n="8">VIII</biblScope>, <biblScope unit="page" n="1342b">1324b</biblScope> l. <biblScope unit="line" n="12">12</biblScope></bibl>
               </cit><cit>
-                <app>
+                <app xml:id="app-30.3b" prev="#app-30.3a">
                   <lem wit="#α #κ #π"><app>
                       <lem wit="#β #π #Px #Va #Vm #Vz"><app>
                           <lem type="emendation">unde <ref target="#ment-48.4"><num type="ordinal" value="48">.48.</num></ref></lem>
@@ -19960,7 +19699,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="31" xml:id="part31" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-31.1" exclude="#app-rdg-Px-31.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="31">Trigesimumprimum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="31">31<hi rend="superscript">m</hi></num></add></rdg>
@@ -19978,9 +19717,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       FUERUNT MAGIS DULCE MELODIA?</seg>
                     <seg xml:id="ment-31.2" n="2" part="N">AUT PROPTER ID QUOD MULTIPLICES <milestone ed="#m" unit="column" n="B"/>SUNT TUNC CANTUS IN TRAGEDIIS METRORUM</seg></rdg>
                 </app>?</mentioned>
-              <milestone ed="#Ma" unit="folio" n="101r"/><app>
-                <rdg wit="#Px" ana="#additive">Pricesimum primum problema</rdg>
-              </app>
+              <milestone ed="#Ma" unit="folio" n="101r"/>
               <milestone ed="#v" unit="folio" n="C5v"/><gloss target="#ment-31.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -20083,7 +19820,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="32" xml:id="part32" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-32.1" exclude="#app-rdg-Px-32.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="32">Trigesimumsecundum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="32">32<hi rend="superscript">m</hi></num></add></rdg>
@@ -20103,10 +19840,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       APPOSUIT. ET IN HOC APPELLATA EST. DYAPASON, SED NON DYAOCTO, DYASEPTEM
                         <milestone ed="#Pz" unit="folio" n="187r"/>ENIM ERAT</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="32">32m.</num>
-                  etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-32.1"><app>
                   <lem wit="#α #Gu #Pp #Px #Pz #m #v">Quare consonantia</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare consonantia</rdg>
@@ -20450,7 +20184,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="33" xml:id="part33" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-33.1" exclude="#app-rdg-Px-33.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="33">Trigesimumtertium</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="33">33<hi rend="superscript">m</hi></num></add></rdg>
@@ -20469,10 +20203,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       HOC AUTEM NON A PRINCIPIO, SED A FINE.</seg>
                     <seg xml:id="ment-33.4" n="4" part="N">AUT QUIA GRAUE AB ACUTO FORTIUS ET MA<milestone ed="#v" unit="column" n="B" break="no"/>GIS UOCALE</seg></rdg>
                 </app>?</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="33">33m.</num>
-                  etcetera.</rdg>
-              </app>
+              
               <milestone ed="#m" unit="folio" n="195v"/><gloss target="#ment-33.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -20554,7 +20285,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#β #κ #π #Ea #Vb" n="arte"/>
                 <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
               </app>
-              <mentioned><ref target="#ment-33.3">MEDIA</ref></mentioned>. <app>
+              <mentioned><ref target="#ment-33.3">MEDIA</ref></mentioned>. <app xml:id="app-33.2a" next="#app-33.2b">
                 <lem wit="#β #γ #κ #π #m #v">Remouet <app>
                     <lem wit="#β #γ #κ #Pp #Pu #Pz #Vo #m #v">dubitationem</lem>
                     <rdg wit="#Gu #Pq" ana="#lexical #J">dubium</rdg>
@@ -20585,7 +20316,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </app> quod</lem>
                 <rdg wit="#Ea" ana="#subtractive" cause="homeoteleuton"/>
               </app>
-              <gloss target="#ment-33.3"><app>
+              <gloss target="#ment-33.3"><app xml:id="app-33.2b" prev="#app-33.2a">
                   <lem wit="#γ #Nu #Pp #Pu #Px #Pz #Vo #m #v">corda media et principalis est</lem>
                   <rdg wit="#λ" ana="#subtractive">corda media principalis est</rdg>
                   <rdg wit="#Py" ana="#ordinal">corda principalis et media est</rdg>
@@ -20774,7 +20505,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="34" xml:id="part34" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-34.1" exclude="#app-rdg-Px-34.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="34">Trigesimumquartum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="34">34<hi rend="superscript">m</hi></num></add></rdg>
@@ -20793,10 +20524,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-34.2" n="2" part="N">AUT QUIA BIS PER ACUTOS NEQUE BIS DYATESSERON EST,
                       QUOD AUTEM PER <num type="cardinal" value="4">QUATUOR</num> AUT PER <num type="cardinal" value="5">QUINQUE</num></seg></rdg>
                 </app>?</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="34">34m.</num>
-                  etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-34.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -20828,7 +20556,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <lem wit="#Ma #Nu #Pp #Px #Pz #Va #Vo #m #v">simphoniam</lem>
                   
                 </app> constituunt, dyapason uero concordat?</gloss> Dicitur autem bis paracutos
-                <app>
+                <app xml:id="app-34.2a" next="#app-34.2b">
                 <lem wit="#α #π #Ma #Px #Vm #m #v"><app>
                     <lem wit="#β #κ #π #Ea #Vb #m #v">dyapente</lem>
                     <rdg wit="#Va" ana="#subtractive"/>
@@ -20872,7 +20600,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#β #κ #π #Vb" n="dactili"/>
                 <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
               </app>
-              <app>
+              <app xml:id="app-34.2b" prev="#app-34.2a">
                 <lem wit="#α #π #Ma #Px #Vm #m #v"><mentioned><ref target="#ment-34.2"><app>
                         <lem wit="#α #κ #Pz #Vo #m #v">AUT.</lem>
                         <rdg wit="#Gu #Pp #Pu" ana="#additive #J">AUT QUIA.</rdg>
@@ -20952,7 +20680,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="35" xml:id="part35" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-35.1" exclude="#app-rdg-Px-35.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="35">Trigesimumquintum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="35">35<hi rend="superscript">m</hi></num></add></rdg>
@@ -20984,10 +20712,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       CAUSA QUE EST PER MEDIUM PORUM ACUTISSIMUM OPORTET FIERI. QUARE SI HOC NON
                       ACCIDIT, NON ERIT MOTUS ALICUIUS</seg></rdg>
                 </app>.</mentioned>
-              <milestone ed="#Pz" unit="folio" n="187v"/><app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="35">35m. </num>
-                  etcetera.</rdg>
-              </app>
+              <milestone ed="#Pz" unit="folio" n="187v"/>
               <gloss target="#ment-35.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -21090,7 +20815,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#α #λ #Pz #Vo #m #v">ex parte</lem>
                 <rdg wit="#Gu #Pp #Pu #Px" ana="#subtractive"/>
               </app>
-              <app>
+              <app xml:id="app-35.2a" next="#app-35.2b">
                 <lem wit="#α #κ #Gu #Pp #Pz #Vo #m #v"><app>
                     <lem wit="#β #Ea #Pz #Vb #Vm">quantitatis et qualitatis</lem>
                     <rdg wit="#Va #Vz #m #v" ana="#ordinal">qualitatis et quantitatis</rdg>
@@ -21104,7 +20829,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </app> quod </lem>
                 <rdg wit="#Pu" ana="#subtractive #J" cause="homeoteleuton"/></app> 
               <gloss target="#ment-35.2">
-                <app>
+                <app xml:id="app-35.2b" prev="#app-35.2a">
                   <lem wit="#α #κ #Gu #Pp #Pz #Vo #m #v">duplex 
                     <app>
                     <lem wit="#Ea #Px #Vb #Vm #Vz">nite</lem>
@@ -21371,11 +21096,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#α #π #Ma #Px #Vm #m #v">comparatio</lem>
                 <rdg wit="#Vz" ana="#lexical">operatio</rdg>
               </app>
-              <app>
+              <app xml:id="app-35.3a" next="#app-35.3b">
                 <lem wit="#β #γ #κ #Gu #Pu #Pz #Vo #m #v">totius ad totum,</lem>
                 <rdg wit="#Ea #Pp" cause="homeoteleuton" ana="#subtractive"/>
               </app></gloss> 
-              <app>
+              <app xml:id="app-35.3b" prev="#app-35.3a" next="#app-35.3c">
                 <lem wit="#β #γ #κ #Gu #Pu #Pz #Vo #m #v">
                   <app>
                     <lem wit="#γ #κ #Gu #Nu #Pu #Pz #Vo #m #v">ut</lem>
@@ -21406,7 +21131,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 </lem>
                 <rdg wit="#Ea #Pp" cause="homeoteleuton" ana="#subtractive"/>
               </app> 
-              <gloss target="#ment-35.3"><app>
+              <gloss target="#ment-35.3"><app xml:id="app-35.3c" prev="#app-35.3b">
                 <lem wit="#β #γ #κ #Gu #Pu #Pz #Vo #m #v">sed 
                   <app>
                     <lem wit="#α #κ #Pu #Pz #Vo #m #v">fit</lem>
@@ -21419,11 +21144,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#γ #λ #π #Ea #Py #m #v">erit</lem>
                 <rdg wit="#Nu" ana="#morphological">est</rdg>
                 <rdg wit="#Px" ana="#morphological">erunt</rdg>
-              </app> optima consonantiarum <app>
+              </app> optima consonantiarum <app xml:id="app-35.22a" next="#app-35.22b">
                 <lem wit="#α #λ #π #m #v">dyapente</lem>
                 <rdg wit="#Px" cause="homeoteleuton" ana="#subtractive"/>
               </app>.</p>
-            <p n="4" part="N"><app>
+            <p n="4" part="N"><app xml:id="app-35.22b" prev="#app-35.22a">
                 <lem wit="#α #λ #π #m #v"><app>
                     <lem wit="#β #λ #π #Ea #Vb" n="dyapente"/>
                     <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
@@ -22230,7 +21955,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="36" xml:id="part36" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-36.1" exclude="#app-rdg-Px-36.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="36">Trigesimumsextum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="36">36<hi rend="superscript">m</hi></num></add></rdg>
@@ -22253,10 +21978,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       MANENTE, RATIONABILITER QUOD EST SECUNDUM IPSAM DEFICIENS, ALIIS ENIM EXISTIT
                       CONCORDARE</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="36">36m.</num>
-                  etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-36.1"><app>
                   <lem wit="#β #γ #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -22481,7 +22203,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="37" xml:id="part37" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-37.1" exclude="#app-rdg-Px-37.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="37">Trigesimumseptimum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="37">37<hi rend="superscript">m</hi></num></add></rdg>
@@ -22511,10 +22233,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       PROPTER QUOD ET ACUTUM POTENTIE SIGNUM. PROPTER QUOD ET QUI SUNT BONI HABITUS 
                       ACUTE UOCIS, ET MOLESTUM QUE ELEUANTUR CANTARE, GRAUIA AUTEM DEORSUM</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="37">.37m. </num>
-                  etcetera.</rdg>
-              </app>
+              
               <app>
                 <lem wit="#α #κ #Pp #Pu #m #v">Querit</lem>
                 <rdg wit="#Gu #Pz #Vc" ana="#lexical #J">Quare</rdg>
@@ -23203,7 +22922,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="38" xml:id="part38" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-38.1" exclude="#app-rdg-Px-38.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="38">Trigesimumoctauum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Nu #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="38">38<hi rend="superscript">m</hi></num></add></rdg>
@@ -23236,10 +22955,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-38.7" n="7" part="N">QUAMUIS SENSIBILE SIT UTRISQUE EXTREMIS EX EQUALI
                       POTENTIAM HABET IN CONSONANTIA PROPORTIO</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="38">38m.</num>
-                  etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-38.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -24128,7 +23844,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               <milestone ed="#Gu" unit="folio" n="245v"/><app>
                 <lem wit="#α #λ #π #m #v">ordinatio</lem>
                 <rdg wit="#Px" ana="#lexical">inordinatio</rdg>
-              </app>, que naturaliter <app>
+              </app>, que naturaliter <app xml:id="app-38.3a" next="#app-38.3b">
                 <lem wit="#α #π #m #v">
                   <app>
                     <lem wit="#β #γ #λ #m #v">delectabilis existit</lem>
@@ -24137,7 +23853,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </app>.
                 </lem>
                 <rdg wit="#Px" ana="#subtractive" cause="homeoteleuton">delectabilis</rdg>
-              </app></gloss> <app>
+              </app></gloss> <app xml:id="app-38.3b" prev="#app-38.3a">
                 <lem wit="#α #π #m #v">Quod autem hoc sit delectabile</lem>
                 <rdg wit="#Px" ana="#subtractive" cause="homeoteleuton"/>
               </app> ostenditur quoniam <app>
@@ -24147,14 +23863,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#γ #κ #π #Ea #Nu #m #v">complexionatum</lem>
                 
               </app>
-              <app>
+              <app xml:id="app-38.4a" next="#app-38.4b">
                 <lem wit="#β #κ #π #Ea #Vb #m #v"><app>
                   <lem wit="#β #κ #Ea #Gu #Pp #Pu #Vo #m #v">seu</lem>
                   <rdg wit="#Pz" ana="#lexical #J">ceu</rdg>
                   <rdg wit="#Vb" ana="#lexical">siue</rdg>
                 </app> mixtum,</lem>
                 <rdg wit="#Va" ana="#subtractive" cause="homeoteleuton"/>
-              </app> <gloss target="#ment-38.6"><app>
+              </app> <gloss target="#ment-38.6"><app xml:id="app-38.4b" prev="#app-38.4a">
                 <lem wit="#β #κ #π #Ea #Vb #m #v">omne autem <app>
                   <lem wit="#β #κ #Ea #Pz #Vb #m #v">complexionatum</lem>
                   <rdg wit="#Gu #Pp #Pu #Vo" ana="#additive #J">complexionatum et mixtum</rdg>
@@ -24224,7 +23940,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#β #κ #π #Ea #Vb #m #v">vtrisque</lem>
                 <rdg wit="#Va" ana="#lexical">utique</rdg>
               </app>
-              <app>
+              <app xml:id="app-38.2a" next="#app-38.2b">
                 <lem wit="#α #π #Vb #m #v"><app>
                     <lem wit="#α #Gu #Pu #Pz #Vo #m #v">extremorum</lem>
                     <rdg wit="#Pp" ana="#lexical #J">postrimorum</rdg>
@@ -24242,7 +23958,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </app> remouet, dicens</lem>
                 <rdg wit="#κ" ana="#subtractive" cause="homeoteleuton"/>
               </app>
-              <gloss target="#ment-38.7"><app>
+              <gloss target="#ment-38.7"><app xml:id="app-38.2b" prev="#app-38.2a">
                   <lem wit="#α #π #m #v"><app>
                       <lem wit="#α #Pp #Pz #Vo #m #v">quodlibet</lem>
                       <rdg wit="#Gu" ana="#lexical #J">quod</rdg>
@@ -24506,7 +24222,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="39" xml:id="part39" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-39.1" exclude="#app-rdg-Px-39.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="39">Trigesimumnonum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="39">39<hi rend="superscript">m</hi></num></add></rdg>
@@ -24545,10 +24261,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       DELECTABILISSIMUM EX DYAPASON. ORGANIZANT AUTEM EX CONTRARIIS UOCIBUS; PROPTER
                       HOC IN DYAPASON ORGANIZANT</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="39">.39m.</num>
-                  etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-39.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -25229,10 +24942,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#α #Gu #Ma #Pu #Px #Pz #Vo #m #v">causam partis alterius</lem>
                 <rdg wit="#Vm #Vz" ana="#ordinal">causam alterius partis</rdg>
                 <rdg wit="#Pp" ana="#subtractive #J">partem alterius</rdg>
-              </app>, <app>
+              </app>, <app xml:id="app-39.2a" next="#app-39.2b">
                 <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">dicens quod</lem>
                 <rdg wit="#Pz" ana="#subtractive #J" cause="homeoteleuton"/>
-              </app>, <gloss target="#ment-39.5"><app>
+              </app>, <gloss target="#ment-39.5"><app xml:id="app-39.2b" prev="#app-39.2a">
                   <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">de numero aliarum consonantiarum <app>
                     <lem wit="#κ #Gu #Vb #m #v">ad</lem>
                     <rdg wit="#Pp #Pu #Py #Va #Vo" ana="#lexical">a</rdg>
@@ -26061,17 +25774,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem n="consonantias"/>
                 <rdg wit="#Pz #Vz" ana="#additive">et cetera</rdg>
               </app>
-              <app>
-                <rdg wit="#Px" ana="#additive">problema <num type="ordinal" value="40">40.</num></rdg>
-              </app>
-              <app>
-                <rdg wit="#Px" ana="#lexical">et huius quidem expositio sufficiens iam <num type="ordinal" value="5">5to.</num> apparebit parte repetitur uero ut memorie
-                  amplius comendetur.</rdg>
-              </app></p>
+              
+              </p>
           </div>
 
           <div type="textpart" subtype="problem" n="40" xml:id="part40" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-40.1" exclude="#app-rdg-Px-40.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="40">Quadragesimum</num>
                   problema</lem>
                 <rdg wit="#Ea #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="40">40<hi rend="superscript">m</hi></num></add></rdg>
@@ -26096,21 +25804,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       AUTEM OMNIS CONSONANS, QUI NON PROPTER ALIQUAM NECESSITATEM FACIT
                     HOC</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg source="#Gu">PROPTER QUID BIS PARACUTA AUT BIS <num type="cardinal" value="4">IIII.OR</num> NON CONCORDANT BIS DYAPASON AUTEM ITA. AUT QUIA QUOD QUIDEM
-                  DYAPENTE EST IN <num type="ratio" value="3/2">EMIOLA</num> PROPORTIONE QUID UERO
-                  PER <num type="cardinal" value="4">IIII.OR</num> IN ENIPIRITIO EXISTENTIBUS AUT
-                    <num type="ratio" value="3/2">EMIOLIBUS</num>
-                  <num type="cardinal" value="3">TRIBUS</num> CONSEQUENTER NUMERIS QUE EST <num type="ratio" value="4/3">EPITRITIO</num> EXTREMA AD SE INUICEM NULLAM
-                  PROPORTIONEM HABEBUNT. NEQUE ENIM PARTICULARIA ERUNT NEQUE MULTIPLICIA DYAPASON
-                  AUT QUONIAM EST IN <num type="ratio" value="2/1">DUPLICI</num> PROPORTIONE BIS.
-                  HOC FACTO IN <num type="ratio" value="4/1">QUADRUPLICI</num> PROPORTIONE SI FIUNT
-                  EXTREMA AD INUICEM. QUARE QUONIAM CONSONANTIA RATIONABILEM HABENTIUM SONUM AD SE
-                  INUICEM EST RATIONEM AUT QUI QUIDEM HABENT BIS DYAPASON INTER DECISIONEM AD SE
-                  INUICEM SONI HABENT. QUI AUTEM BIS PER <num type="cardinal" value="4">IIII.OR</num> AUT PER <num type="cardinal" value="5">QUINQUE</num> NON HABENT
-                  QUICQUID DYAPASON CONSONABUNT UTIQUE ALII UERO NON PER EA QUE DICTA SUNT.</rdg>
-              </app>
-              <app>
+              
+              <app xml:id="app-40.2" exclude="#app-rdg-Px-40.2">
                 <lem wit="#α #λ #π #m #v"><app>
                     <lem wit="#α #m #v">Et</lem>
                     <rdg wit="#λ #π" ana="#subtractive"/>
@@ -26163,45 +25858,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <rdg wit="#Pp #Vz" ana="#additive">et cetera</rdg>
                   </app></lem>
               </app>
-              <app>
-                <rdg wit="#Gu">Propter quid bis. Repetit <num type="ordinal" value="34">34.</num> ut
-                  amplius exponat. Aut quia. Soluit Et primo assignat causam <num type="ordinal" value="1">prime</num> partis Et secundo secunde ibi dyapason <num type="ordinal" value="3">.3°</num> concludit in tantum ibi quare quoniam Primo querit quare
-                  quoniam dyapente est in <num type="ratio" value="3/2">sexquialtera</num>
-                  proportione dyatesseron in <num type="ratio" value="4/3">sexquitertia</num>. hiis
-                  itaque ita dispositis numerus ut <num type="cardinal" value="3">3us.</num> etiam
-                  numeris consequenter reiterati ut <num type="cardinal" value="3">tria</num> et
-                    <num type="cardinal" value="4">quatuor</num>. ex quibus erat <num type="ratio" value="4/3">Epitrica</num> ut dictum est proportio cum erant simplices in
-                  repetiti. Tunc si extrema huiusmodi <num type="cardinal" value="2">duarum</num>
-                  consonantiarum duplentur ad inuicem coniuncta nullam habebunt proportionem
-                  consurgentem inde quod probatur quia talia non reddunt nec superticularia neque
-                  multiplicia penes que ut visum est <num type="ordinal" value="13">13.</num>
-                  proportiones accipiuntur musice. vnde apparet quod <persName ref="#Ar" instant="false" full="yes">aristotelis</persName> consentit pictagoricis has ponentibus solum Et non
-                  concidit cum <persName ref="#Pt" instant="false" full="yes">ptolomeo</persName> ponente proportionem
-                  compositam ex dyatesseron et dyapason consurgere ex multiplici et
-                  superparticulari. Si namque sumatur bis dyatesseron puta prima dyatesseron fit
-                  proportio <num type="cardinal" value="3">3.</num> ad <num type="cardinal" value="4">4.</num> et <num type="ordinal" value="2">2a</num>
-                  <num type="cardinal" value="5">5.</num> ad <num type="cardinal" value="4">4.</num>
-                  Et coniungantur extrema: ut <num type="cardinal" value="3">.3.</num> ad <num type="cardinal" value="4">4.</num> Nulla consurgit proportio pretactorum
-                  multiplicitatis aut superparticularis Similiter in dyapente si sumatur Exempli
-                  gratia Vna dyapente cum <num type="cardinal" value="2">2</num> comparantur ad <num type="cardinal" value="3">3</num> et 2a quando <num type="cardinal" value="6">.6.</num> ad <num type="cardinal" value="9">.9.</num> ita ut <num type="cardinal" value="2">duo</num> comparentur ad <num type="cardinal" value="9">.9.</num> modo eodem nulla consurgit proportio cum omnis ut sic
-                  constet in numero <num type="ratio" value="4/3">Epitrico</num>. <num type="ratio" value="3/2">Emiolis</num>
-                  <num type="ratio" value="2/1">duplari</num>: <num type="ratio" value="3/1">triplari</num> Et <num type="ratio" value="4/1">quadruplo</num> ut ostensum est
-                  superius. etcetera Dyapason. Assignat causam <num type="ordinal" value="2">2e</num> partis dicens quia dyapason se habet in <num type="ratio" value="2/1">dupla</num> proportione si bis sumatur ea erit in <num type="ratio" value="4/1">quadruplici</num> extre<milestone ed="#Gu" unit="column" n="B" break="no"/>mis
-                  comparatis ad inuicem proportionum maiorum et minorum Puta sumatur bis dyapason ut
-                  in vnaquaque comparetur <num type="cardinal" value="1">vnum</num> comparetur ad
-                    <num type="cardinal" value="2">duo</num> Et reliqua <num type="cardinal" value="2">2</num> ad <num type="cardinal" value="4">4</num> resultabit numerus
-                    <num type="cardinal" value="4">quadruplus</num> Iuxta quod predictum est bis
-                  dyapason bis Quare quoniam 3° concludit intentum dicens Et ideo quia consonantia
-                  est compositio quedam tonorum habentium et rationabilem et proportionalem
-                  proportionem ad inuicem Et hoc habet bis dyapason Non autem bis dyatesseron aut
-                  dyapente et reliqua Quod declaratur quia proportio quam habent soni ad inuicem Est
-                  habere inter se decisiones et confractionem quandam ad inuicem per quam sonsultant
-                  quidem proportionales armonici: ut bisdyapason quod non habet consonantiam per
-                    <num type="cardinal" value="4">4or.</num> et <num type="cardinal" value="5">quinque</num> siue dyatesseron et dyapente Cunque ut dictum est tantum soni qui
-                  fuerunt secundum dyapason <num type="ratio" value="2/1">duplatum</num> consonant
-                  alii vero minime: sicut ostensum est per ante dictam causam.</rdg>
-                <witDetail wit="#Pq">#Pq runs problem 40 into 41 just as #Gu does.</witDetail>
-              </app></p>
+              </p>
           </div>
 
 
@@ -26231,13 +25888,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       UTIQUE ALII UERO <milestone ed="#Pz" unit="column" n="b"/>NON PER EA QUE DICTA
                       SUNT</seg></rdg>
                 </app>.</mentioned>
-              <milestone ed="#Ma" unit="column" n="B"/><milestone ed="#m" unit="column" n="B"/><app>
+              <milestone ed="#Ma" unit="column" n="B"/><milestone ed="#m" unit="column" n="B"/><app xml:id="app-lem-41.2a" exclude="#app-rdg-G-41.2" next="#app-lem-41.2b">
                 <lem wit="#α #κ #Pp #Pz #Vo #m #v">Repetit <ref target="part34"><num type="ordinal" value="34">trigesimumquartum</num></ref> ut amplius <app>
                     <lem wit="#α #κ #Pp #Pu #Vo #m #v">exponat</lem>
                     <rdg wit="#Pz" ana="#morphological #J">exponatur</rdg>
                   </app>.</lem>
               </app></p>
-            <p n="2" part="N"><app>
+            <p n="2" part="N"><app xml:id="app-lem-41.2b" exclude="#app-rdg-G-41.2" next="#app-lem-41.2c" prev="#app-lem-41.2a">
                 <lem wit="#α #κ #Pp #m #v"><app>
                     <lem wit="#κ #Ea #Pp #Py #Vb" n="exponat"/>
                     <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
@@ -26257,10 +25914,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       </app></lem>
                     <rdg wit="#Pz" ana="#subtractive #J"/>
                   </app>
-                  <mentioned><ref target="#ment-41.4"><app>
+                  <mentioned><ref target="#ment-41.4"><app xml:id="app-41.2a" next="#app-41.2b">
                         <lem wit="#γ #κ #Pp #Pu #Py #Vo #m #v">QUARE QUONIAM</lem>
                         <rdg wit="#Ea #Pz" ana="#subtractive" cause="homeoarchon">QUARE</rdg>
-                      </app></ref></mentioned>. <app>
+                      </app></ref></mentioned>. <app xml:id="app-41.2b" prev="#app-41.2a">
                     <lem wit="#κ #Py #Vb #m #v"><app>
                         <lem wit="#Px #Py #Vb #Vm #m #v">Dicens</lem>
                         <rdg wit="#Ma #Vz" ana="#morphological">Dicit</rdg>
@@ -26591,7 +26248,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <rdg wit="#Pp #Pu #Pz #Vo #Vz" ana="#lexical">superius</rdg>
                   </app>.</lem>
               </app></p>
-            <p n="3" part="N"><app>
+            <p n="3" part="N"><app xml:id="app-lem-41.2c" exclude="#app-rdg-G-41.2" next="#app-lem-41.2d" prev="#app-lem-41.2b">
                 <lem wit="#α #κ #m #v"><app>
                     <lem wit="#κ #Ea #Pp #Py #Vb" n="anterius"/>
                     <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
@@ -26698,7 +26355,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <rdg wit="#Vb" ana="#subtractive"/>
                   </app></lem>
               </app></p>
-            <p n="4" part="N"><app>
+            <p n="4" part="N"><app xml:id="app-lem-41.2d" exclude="#app-rdg-G-41.2" prev="#app-lem-41.2c">
                 <lem wit="#α #κ #Pp #m #v"><app>
                     <lem wit="#κ #Ea #Pp #Py #Vb" n="siue"/>
                     <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
@@ -26821,24 +26478,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   problema <num type="ordinal" value="19">19e.</num> particule.</rdg>
               </app></lem>
               </app>
-              <app>
-                <rdg source="#Px">propter quid bis paracuta autem bis <num type="cardinal" value="4">iiii.or</num> non concordant bis dyapason autem ita. Aut quia quod quidem
-                  dyapente est in <num type="ratio" value="3/2">emiolia</num> proportione quod uero
-                  per <num type="cardinal" value="4">iii.or</num> in epyptrico existentibus autem
-                    <num type="ratio" value="3/2">emiolibus</num>
-                  <num type="cardinal" value="3">tribus</num> consequenter numerus que est <num type="ratio" value="4/3">epitricon</num> extrema ad se inuicem nullam
-                  proportionem habebunt. neque enim particularia neque multiplitia erunt dyapason
-                  quoniam est in <num type="ratio" value="2/1">duplici</num> proportione bis. hoc
-                  factum in <num type="ratio" value="2/1">quadruplici</num> proportione si fuerint
-                  extrema ad inuicem. quoniam consonantia rationabilem habentium sonum ad se inuicem
-                  est rationem aut qui quidem habent bis dyapason interpositionem ad se inuicem soni
-                  habent. qui autem quidem bis dyapason. et consonabunt utique alii uero non per ea
-                  que dicta sunt.</rdg>
-              </app></p>
+              </p>
           </div>
 
           <div type="textpart" subtype="problem" n="42" xml:id="part42" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-42.1" exclude="#app-rdg-Px-42.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="42">Quadragesimumsecundum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="42">42<hi rend="superscript">m</hi></num></add></rdg>
@@ -26876,10 +26520,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-42.5" n="5" part="N">QUARE MERITO ET SECULARIUM IPSIUS MAIUS ERIT QUAM 
                       QUOD EST ALIARUM, QUARE BREUES MOUERI, SICUT IPSIS</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="42">quadragesimum
-                    secundum</num> etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-42.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -28198,7 +27839,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="43" xml:id="part43" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-43.1" exclude="#app-rdg-Px-43.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="43">Quadragesimumtertium</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="43">43<hi rend="superscript">m</hi></num></add></rdg>
@@ -28235,10 +27876,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       IPSORUM. INIUSTIS AUTEM IN CANTU CULPATIS, COMMUNE EX UTRISQUE NECESSARIE PEIUS
                       FIERI</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="43">.43m.</num>
-                  etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-43.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -29269,7 +28907,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="44" xml:id="part44" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-44.1" exclude="#app-rdg-Px-44.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="44">Quadragesimumquartum</num>
                   problema</lem>
                 <rdg wit="#Ma #Pp #Pz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="44">44<hi rend="superscript">m</hi></num></add></rdg>
@@ -29279,7 +28917,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   problema.</rdg>
                 <rdg wit="#Ea #Mb #Pu #Vm #Vo #Vz" ana="#subtractive"/>
               </app></head>
-            <p n="1" part="N"><mentioned><app>
+            <p n="1" part="N"><mentioned><app xml:id="app-44.2" exclude="#app-rdg-Px-44.2">
                   <lem wit="#Pp #Pu #Vm #Vo">PROPTER QUID SEPTEM</lem>
                   <rdg wit="#Ea #Py #Vb #Vz" ana="#subtractive"/>
                   <rdg wit="#Gu #Ma #Pz #Va #m #v" ana="#additive"><seg xml:id="ment-44.1" n="1" part="N">PROPTER QUID <num type="cardinal" value="7">SEPTEM</num> QUIDEM MEDIA
@@ -29293,9 +28931,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-44.4" n="4" part="N">EORUM AUTEM QUE SUNT IN MEDIO QUARUNDAM
                       EXTREMITATUM MEDIUM ERAT PRINCIPIUM SOLUM</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="44">.44<hi rend="superscript">m</hi>.</num> etcetera.</rdg>
-              </app>
+              
               <app>
                 <lem wit="#γ #κ #π #Py #m #v">Repetit</lem>
                 <rdg wit="#Ea" ana="#additive">Quare repetit</rdg>
@@ -29590,7 +29226,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               </app> tunc mese utro<milestone ed="#Gu" unit="column" n="B" break="no"/>bique <app>
                 <lem wit="#α #κ #m #v">uere</lem>
                 <rdg wit="#π" ana="#subtractive #J"/>
-              </app> medium extat. <app>
+              </app> medium extat. <app xml:id="app-44.3" exclude="#app-rdg-Px-44.3">
                 <lem wit="#α #π #Ma #m #v"><app>
                     <lem wit="#α #Ma #Pp #Vc #m #v">verbi gratia</lem>
                     <rdg wit="#Gu #Pz #Vo" ana="#additive #J">verbi gratia si ordinantur</rdg>
@@ -29630,9 +29266,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       <cell role="data" rows="1" cols="1"/>
                     </row>
                   </table>
-                  <app>
-                    <rdg wit="#Py"><num type="ordinal" value="1">Primum</num> retrocordum</rdg>
-                  </app>
+                  
                   <app>
                     <lem wit="#α #κ #Gu #Pp #Pz #Vo #m #v"><app>
                         <lem wit="#α #Gu #Ma #Pp #Pz #m #v">Et</lem>
@@ -29794,7 +29428,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div> 
 
           <div type="textpart" subtype="problem" n="45" xml:id="part45" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-45.1" exclude="#app-rdg-Px-45.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="45">Quadragesimumquintum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="45">45<hi rend="superscript">m</hi></num></add></rdg>
@@ -29804,7 +29438,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   problema.</rdg>
                 <rdg wit="#Mb #Pu #Vm #Vo" ana="#subtractive"/>
               </app></head>
-            <p n="1" part="N"><mentioned><app>
+            <p n="1" part="N"><mentioned><app xml:id="app-45.2" exclude="#app-rdg-Px-45.2">
                   <lem wit="#Vm">PROPTER QUID MULTI</lem>
                   <rdg wit="#π" ana="#lexical #J">PROPTER QUID MULTIPLICANTES</rdg>
                   <rdg wit="#Ea #Py #Vb #Vz" ana="#subtractive"/>
@@ -29817,10 +29451,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       AUTEM MAGIS ILLUSTRANTUR, PROPTER QUΟD SECUNDUM SE IN SE IPSIS MAGIS
                       EXERCITANTUR QUAM APUD DUCEM</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="45">.45m.</num>
-                  etcetera.</rdg>
-              </app> Repetit <app>
+               Repetit <app>
                 <lem wit="#κ #Ea #Py #Pz #Vo"><ref target="problems1.xml#part22"><num type="ordinal" value="22">.22<hi rend="superscript">m</hi></num></ref></lem>
                 <rdg wit="#γ #m #v" ana="#additive"><num type="ordinal" value="22">.22m.</num>
                   problema</rdg>
@@ -29997,18 +29628,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#m #v" ana="#additive">amen</rdg>
                 <rdg wit="#Py" ana="#additive">dooo .</rdg>
               </app>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="46">46</num></rdg>
-              </app>
-              <app>
-                <rdg wit="#Px">huius precessit expositio <num type="ordinal" value="26">.26°.</num>
-                  et uerita illic iam apparuit cuiusdam apparentis contrarietatis inter <num type="ordinal" value="27">.27m.</num> et istud cum dictum sit ibidem difficilius
-                  acute cantare quam grauiter. hic autem videtur contrarium dici. sequitur <num type="ordinal" value="47">47.</num> problema <num type="ordinal" value="19">19e.</num> particule.</rdg>
-              </app></p>
+              
+              </p>
           </div>
 
           <div type="textpart" subtype="problem" n="46" xml:id="part46" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-46.1" exclude="#app-rdg-Px-46.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="46">Quadragesimumsextum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="46">46<hi rend="superscript">m</hi></num></add></rdg>
@@ -30029,7 +29654,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-46.3" n="3" part="N">CANTANT IGITUR ACUTE MAGIS, ET IN QUO CANTANT
                       PECCANT</seg></rdg>
                 </app>.</mentioned>
-              <app>
+              <app xml:id="app-46.3" exclude="#app-rdg-Px-46.3">
                 <lem wit="#α #λ #π #m #v"><app>
                     <lem wit="#π #Ea #Py #Vb">Huius</lem>
                     <rdg wit="#Va" ana="#lexical">Huiusmodi</rdg>
@@ -30092,7 +29717,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="47" xml:id="part47" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-47.1" exclude="#app-rdg-Px-47.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="47">Quadragesimumseptimum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="47">47<hi rend="superscript">m</hi></num></add></rdg>
@@ -30115,9 +29740,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       INFERIORIS AUTEM PRINCIPIUM, ET MEDIAM HABEBAT PROPORTIONEM TONO
                       EXTREMITATUM</seg></rdg>
                 </app>?</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="47">Quadragesimumseptimum</num> problema etcetera.</rdg>
-              </app>
+              
               <app>
                 <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">Repetit</lem>
                 <rdg wit="#Pz" ana="#additive #J">Repetit quoddam problema predictum</rdg>
@@ -30745,43 +30368,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Px" ana="#additive">sequitur <num type="ordinal" value="48">48.</num>
                   problema <num type="ordinal" value="19">19e.</num> particule.</rdg>
               </app>
-              <app>
-                <rdg wit="#Px">verbi gratia <table rows="7" cols="2">
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1"><ref style="connected by a line" target="#tet1Px">ypate</ref></cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">paripate</cell>
-                      <cell role="data" rows="1" cols="1"><seg xml:id="tet1Px" part="N"><num type="ordinal" value="1">primum</num> tena
-                          cordum</seg></cell>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1"><ref style="connected by a line" target="#tet1Px">lychanos</ref></cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1"><ref style="connected by a line" target="#tet2Px">mese</ref></cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1">paramese</cell>
-                      <cell role="data" rows="1" cols="1"><seg xml:id="tet2Px" part="N"><num type="cardinal" value="45">45</num></seg></cell>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1"><ref style="connected by a line" target="#tet2Px">Paramete</ref></cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                    <row role="data" rows="1" cols="1">
-                      <cell role="label" rows="1" cols="1"><ref style="connected by a line" target="#tet2Px">nete</ref></cell>
-                      <cell role="data" rows="1" cols="1"/>
-                    </row>
-                  </table> Et huius <num type="ordinal" value="3">3us</num> quidem cetra corda <num type="ordinal" value="2">2m.</num> sinzeusim</rdg>
-              </app><milestone ed="#Px" unit="column" n="B"/></p>
+              <milestone ed="#Px" unit="column" n="B"/></p>
           </div>
 
           <div type="textpart" subtype="problem" n="48" xml:id="part48" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-48.1" exclude="#app-rdg-Px-48.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="48">Quadragesimumoctauum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="48">48<hi rend="superscript">m</hi></num></add></rdg>
@@ -30818,10 +30409,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <seg xml:id="ment-48.8" n="8" part="N">EST AUTEM CHORUS CURATOR INOPERABILIS,
                       BENIUOLENTIAM ENIM SOLUM PREBET QUIBUS ADEST</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="48">.48m.</num>
-                  etcetera.</rdg>
-              </app> Repetit <app>
+               Repetit <app>
                 <lem wit="#λ #Ea #Gu #Pp #Pu #Py #Va #Vo #m #v"><ref target="#part30"><num type="ordinal" value="30">30<hi rend="superscript">m</hi></num></ref></lem>
                 <rdg wit="#Pz #Vb" ana="#additive"><num type="ordinal" value="30">30.</num>
                   problema</rdg>
@@ -31221,7 +30809,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </app></ref></mentioned> Ostendit secundo qualis <app>
                 <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">sit</lem>
                 <rdg wit="#Pz" ana="#subtractive #J"/>
-              </app> cantus <milestone ed="#Vo" unit="folio" n="157r"/><app>
+              </app> cantus <milestone ed="#Vo" unit="folio" n="157r"/><app xml:id="app-48.2a" next="#app-48.2b">
                 <lem wit="#γ #κ #π #Ea #m #v"><app>
                     <lem wit="#Pp #Pu #Vb #Vo #m #v">ypodoristium. Dicit quod</lem>
                     
@@ -31233,7 +30821,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </app></lem>
                 <rdg wit="#Py" ana="#subtractive" cause="homeoteleuton">ypodorum</rdg>
               </app>
-              <gloss target="#ment-48.4"><app>
+              <gloss target="#ment-48.4"><app xml:id="app-48.2b" prev="#app-48.2a">
                   <lem wit="#γ #κ #π #Ea #m #v"><app>
                       <lem wit="#κ #π #Ea #Vb #m #v">cantus</lem>
                       <rdg wit="#Va" ana="#subtractive"/>
@@ -32007,7 +31595,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="49" xml:id="part49" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-49.1" exclude="#app-rdg-Px-49.1">
                 <lem wit="#γ #m #v"><num type="ordinal" value="49">Quadragesimumnonum</num>
                   problema</lem>
                 <rdg wit="#Ea #Ma #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="49">49<hi rend="superscript">m</hi></num></add></rdg>
@@ -32028,10 +31616,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       QUIETUS EST, ACUTUS AUTEM MOTIUUS, ET HABENTIBUS IDEM MELOS, ERIT UTIQUE
                       MOLLIOR GRAUIOR IN EODEM MELOS MAGIS. ERAT AUTEM MELOS IPSI MOLLE</seg></rdg>
                 </app>.</mentioned>
-              <app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="49">.49m.</num>
-                  etcetera.</rdg>
-              </app>
+              
               <gloss target="#ment-49.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -32337,7 +31922,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           </div>
 
           <div type="textpart" subtype="problem" n="50" xml:id="part50" part="N" org="uniform" sample="complete">
-            <head><app>
+            <head><app xml:id="app-50.1" exclude="#app-rdg-Px-50.1">
                 <lem wit="#γ"><num type="ordinal" value="50">Quinquagesimum problema</num></lem>
                 <rdg wit="#m #v" ana="#lexical">Ultimum problema</rdg>
                 <rdg wit="#Ea #Ma #Pp #Pz #Vz" ana="#subtractive"><add place="margin" instant="false" status="unremarkable"><num type="ordinal" value="50">50<hi rend="superscript">m</hi></num></add></rdg>
@@ -32359,10 +31944,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       DUPLICIBUS TANTUM, ET IN ALIIS PROPORTIONALE. CONSONAT AUTEM DYAPASON ET
                       DUPLEX ITER AD MEDIUM</seg></rdg>
                 </app>.</mentioned>
-              <milestone ed="#Px" unit="column" n="B"/><app>
-                <rdg wit="#Px" ana="#additive">Problema <num type="ordinal" value="50">.50m.</num>
-                  etcetera.</rdg>
-              </app>
+              <milestone ed="#Px" unit="column" n="B"/>
               <gloss target="#ment-50.1"><app>
                   <lem wit="#α #π #Px #m #v">Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
@@ -32423,9 +32005,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#α #Px #Vm #m #v"><num type="ordinal" value="25">25°</num>,</lem>
                 <rdg wit="#Ea #Ma #Vz" ana="#lexical">et <num type="ordinal" value="5">5º</num>,</rdg>
                 <rdg wit="#π" ana="#subtractive #J"/>
-              </app></biblScope>
-                <note anchored="true">Pietro expresses this idea in his commentary on problem 10 of particula 15. 
-                His reference to 5/25 is obscure.</note></bibl></cit> 
+              </app></biblScope></bibl>
+                <note anchored="true">Pietro expresses this idea in his commentary on problem 10 of 
+                  particula 15. His reference to 5/25 is obscure.</note></cit> 
               puta quod <gloss target="#ment-50.1"><app>
                 <lem wit="#α #κ #Gu #Pp #Vo #m #v">vnum sit</lem>
                 <rdg wit="#Pu" ana="#ordinal #J">sit vnum</rdg>
@@ -32448,7 +32030,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#λ" ana="#lexical">acuto</rdg>
                 <rdg wit="#Px" ana="#subtractive"/>
               </app>
-              <app>
+              <app xml:id="app-50.2a" next="#app-50.2b">
                 <lem wit="#α #Gu #Pp #Px #Vm #Vo #m #v"><app>
                     <lem wit="#Ea #Gu #Pp #Pu #Px #Py #Vb #Vm #Vo #m #v">vacuum</lem>
                     <rdg wit="#Va" ana="#morphological">vacuo</rdg>
@@ -32460,7 +32042,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </app></lem>
                 <rdg wit="#Ma #Pz #Vz" ana="#subtractive" cause="homeoteleuton"/>
               </app>,</gloss> <cit>
-                <quote rend="inline"><app>
+                <quote rend="inline"><app xml:id="app-50.2b" prev="#app-50.2a">
                     <lem wit="#α #Gu #Pp #Pu #Px #Vm #m #v">idem <app>
                         <lem wit="#Ea #Gu #Pp #Pu #Px #Py #Vb #Vm #Vo">namque</lem>
                         <rdg wit="#m #v" ana="#lexical">enim</rdg>
