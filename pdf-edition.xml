@@ -472,7 +472,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       2022-01-03), <locus from="179r" to="192r">ff. 179r-92r</locus>
                       <date instant="false">fourteenth century</date>. <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90680829/f2"/><msDesc status="draft">
                         <msIdentifier>
-                          <objectName instant="false" full="yes">Pz</objectName>
+                          <objectName>Pz</objectName>
                         </msIdentifier>
                         <physDesc>
                           <handDesc hands="2">
@@ -492,7 +492,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     </witness>
                   </listWit>
                 </witness>
-                <witness>
                   <listWit>
                     <head>Other manuscripts from the Jean de Jandun redaction</head>
                     <witness xml:id="Ca">
@@ -524,7 +523,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       <date instant="false">fourteenth century</date>. <ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2176"/>
                     </witness>
                   </listWit>
-                </witness>
               </listWit>
             </div>
             <div type="section" xml:id="bibliography-early-editions" part="N" org="uniform" sample="complete">
@@ -813,8 +811,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <bibl xml:id="Cohen2012" default="false" status="draft">
               <abbr type="siglum">Cohen 2012</abbr><author>Cohen, David E.</author>. <title level="m">Harmonic Mediation and the Triad: Gaffurio, Zarlino, Lippius and Pietro
                 d’Abano’s Commentary on the Pseudo-Aristotelian <title>Problems</title>.</title>
-              Paper presented at the annual conference of the <orgName instant="false" full="yes">Music Theory Society of New
-                York State</orgName>. <placeName instant="false" full="yes">New York, N.Y.</placeName>, <date when="2012" instant="false">March
+              Paper presented at the annual conference of the <orgName>Music Theory Society of New
+                York State</orgName>. <placeName>New York, N.Y.</placeName>, <date when="2012" instant="false">March
                 31, 2012</date>. </bibl>
             <bibl xml:id="Coucke2008" default="false" status="draft">
               <abbr type="siglum">Coucke 2008</abbr><author>Coucke, Gijs</author>. <title level="m">Philosophy between Text and Tradition The Reception of Aristotle's
@@ -1120,7 +1118,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <lem wit="#β #γ #κ #m #v">querebatur</lem>
                     <rdg wit="#Ea" ana="#morphological">queratur</rdg>
                     <rdg wit="#π" ana="#lexical #J">acquiritur</rdg>
-                  </app>. Unde a poetis <persName ref="#Ju" instant="false" full="yes">iouis</persName> et <persName ref="#Mem" instant="false" full="yes"><app>
+                  </app>. Unde a poetis <persName ref="#Ju">iouis</persName> et <persName ref="#Mem"><app>
                       <lem wit="#β #κ #Ea #Gu #Pp #Pz #Vo">memorie</lem>
                       
                       
@@ -1226,26 +1224,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <rdg wit="#Pz" ana="#lexical #subtractive #J">Refertur</rdg>
                   </app>
                   <app>
-                    <lem wit="#α #λ #Gu #Pp #Pu #Vo #m #v"><persName ref="#Mos" instant="false" full="yes">moyses</persName>
+                    <lem wit="#α #λ #Gu #Pp #Pu #Vo #m #v"><persName ref="#Mos">moyses</persName>
                       hanc</lem>
                     
-                    <rdg wit="#Pz" ana="#ordinal #J">hanc <persName ref="#Mos" instant="false" full="yes">moyses</persName></rdg>
+                    <rdg wit="#Pz" ana="#ordinal #J">hanc <persName ref="#Mos">moyses</persName></rdg>
                   </app> inuenisse <app xml:id="app-homt-1.1a" next="#app-homt-1.1b">
                     <lem wit="#α #λ #π #m #v"><app>
-                        <lem wit="#Gu #Ma #Nu #Mb #Vm #Vz #m #v"><persName ref="#Tub" instant="false" full="yes">tubal</persName></lem>
+                        <lem wit="#Gu #Ma #Nu #Mb #Vm #Vz #m #v"><persName ref="#Tub">tubal</persName></lem>
                         
                         
                         
                         
                         <rdg wit="#Pp #Pu" ana="#lexical #J">aabal</rdg>
-                        <rdg wit="#Py" ana="#additive"><persName ref="#Tub" instant="false" full="yes">tubal</persName> fratrem
-                            <persName ref="#Cay" instant="false" full="yes">cayn</persName></rdg>
+                        <rdg wit="#Py" ana="#additive"><persName ref="#Tub">tubal</persName> fratrem
+                            <persName ref="#Cay">cayn</persName></rdg>
                       </app>
                       <milestone ed="#Pu" unit="column" n="B"/>de <app>
                         <lem wit="#α #π #Ma #Vm #m #v">stirpe</lem>
                         
                       </app>
-                      <persName ref="#Cay" instant="false" full="yes"><app>
+                      <persName ref="#Cay"><app>
                           <lem wit="#Pp #Pu #Py #Va #Vo #Vz">cayn</lem>
                           
                           
@@ -1281,16 +1279,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               </app>
               <cit xml:id="cit-1.1b" prev="#cit-1.1a">
                 <quote rend="inline"><app>
-                    <lem wit="#Py"><persName ref="#Pyth" instant="false" full="yes">pytagori samium</persName></lem>
+                    <lem wit="#Py"><persName ref="#Pyth">pytagori samium</persName></lem>
                     
                     
-                    <rdg wit="#Vb" ana="#morphological"><persName ref="#Pyth" instant="false" full="yes">pictagorius
+                    <rdg wit="#Vb" ana="#morphological"><persName ref="#Pyth">pictagorius
                         samium</persName></rdg>
-                    <rdg wit="#Ma #Vz" ana="#morphological"><persName ref="#Pyth" instant="false" full="yes">pitagoram
+                    <rdg wit="#Ma #Vz" ana="#morphological"><persName ref="#Pyth">pitagoram
                         samium</persName></rdg>
-                    <rdg wit="#Vm" ana="#morphological"><persName ref="#Pyth" instant="false" full="yes">pictagoram
+                    <rdg wit="#Vm" ana="#morphological"><persName ref="#Pyth">pictagoram
                         samium</persName></rdg>
-                    <rdg wit="#π" ana="#morphological #subtractive #J"><persName ref="#Pyth" instant="false" full="yes">pictagoram</persName></rdg>
+                    <rdg wit="#π" ana="#morphological #subtractive #J"><persName ref="#Pyth">pictagoram</persName></rdg>
                     <rdg wit="#m #v" ana="#lexical">pythagorici samium</rdg>
                     <rdg wit="#Va" ana="#lexical #subtractive">pitagorici</rdg>
                   </app> sonitu <app>
@@ -1368,7 +1366,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Vm" ana="#morphological">que</rdg>
                 <rdg wit="#Ea" ana="#morphological">quam</rdg>
               </app> causant orbes celestes, secundum <app>
-                <lem wit="#β #π #Ea #Vm #Vz"><persName ref="#Pyth" instant="false" full="yes">pictagoram</persName></lem>
+                <lem wit="#β #π #Ea #Vm #Vz"><persName ref="#Pyth">pictagoram</persName></lem>
                 
                 
                 <rdg wit="#m #v" ana="#lexical">pithagoricos</rdg>
@@ -1484,7 +1482,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 </app>
                 <bibl corresp="#ArCa" default="false" status="draft"><author>Arist.</author>
                   <title>De caelo</title>, <biblScope unit="book" n="2">II</biblScope>.<biblScope unit="chapter" n="9">9</biblScope>, <biblScope unit="page" n="290b">290b</biblScope>, l. <biblScope unit="line" n="25">25</biblScope></bibl>
-              </cit></p>
+              </cit>.</p>
             <p n="4" part="N">Musica uero <app>
                 <lem wit="#γ #κ #π #Ea #Nu #m #v">humana</lem>
                 <rdg wit="#Py" ana="#lexical">mundana</rdg>
@@ -1543,7 +1541,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               </app>
               <app>
                 <lem wit="#α #κ #Gu #Pp #Pz #Vo #m #v">videtur</lem>
-                <rdg wit="#Pq #Pu" ana="#lexical #J"><persName instant="false" full="yes"><ref target="#Ar">aristotelem</ref></persName></rdg>
+                <rdg wit="#Pq #Pu" ana="#lexical #J"><persName><ref target="#Ar">aristotelem</ref></persName></rdg>
               </app>
               <app>
                 <lem wit="#α #λ #π #m #v">a platonicis</lem>
@@ -1928,7 +1926,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Ea" ana="#morphological">traditionem</rdg>
                 <rdg wit="#γ #Pz" ana="#lexical">introductione</rdg>
               </app> musice <milestone ed="#Vb" unit="folio" n="108v"/><app>
-                <lem wit="#β #λ #π #Ea #m #v"><persName ref="#GAr" instant="false" full="yes">guidonis</persName></lem>
+                <lem wit="#β #λ #π #Ea #m #v"><persName ref="#GAr">guidonis</persName></lem>
                 
                 <rdg wit="#Vb" ana="#lexical">grauidons</rdg>
                 <rdg wit="#Px" ana="#lexical">gradionis</rdg>
@@ -2055,10 +2053,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       <rdg wit="#Gu #Px #Py #m #v" ana="#morphological">boecium</rdg>
                     </app></name></ref>
                 <quote rend="inline"><app>
-                    <lem wit="#Ea #Gu #Nu #Px #Pz #Vm #Vz #Vo"><persName ref="#Pyth" instant="false" full="yes">pictagoram</persName></lem>
+                    <lem wit="#Ea #Gu #Nu #Px #Pz #Vm #Vz #Vo"><persName ref="#Pyth">pictagoram</persName></lem>
                     
                     
-                    <rdg wit="#Py" ana="#additive">primae <persName ref="#Pyth" instant="false" full="yes">pyctoragam</persName></rdg>
+                    <rdg wit="#Py" ana="#additive">primae <persName ref="#Pyth">pyctoragam</persName></rdg>
                     <rdg wit="#m #v" ana="#lexical">pythagoricos</rdg>
                     <rdg wit="#γ" ana="#lexical">pictagoricas</rdg>
                   </app>
@@ -2178,7 +2176,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#β #λ #Ea #Pu #Pz #Vb #Vo #m #v">igitur</lem>
                 <rdg wit="#Gu #Pp #Px #Va" ana="#lexical">ergo</rdg>
               </app>
-              <persName ref="#Ar" instant="false" full="yes">aristoteles</persName> more <app>
+              <persName ref="#Ar">aristoteles</persName> more <app>
                 <lem wit="#α #Gu #Pp #Pu #Px #Pz #Vo #m #v">consueto</lem>
                 <rdg wit="#λ #Ca #Pq" ana="#lexical">solito</rdg>
               </app>
@@ -2300,11 +2298,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <lem wit="#β #κ #Ea #Vb #m #v">ut</lem>
                     <rdg wit="#Va" ana="#subtractive"/>
                   </app> per <milestone ed="#Ea" unit="column" n="B"/>vnum expressum <app>
-                    <lem wit="#γ #λ #Ea #Nu #m #v">aliud <persName ref="#Ar" instant="false" full="yes">aristoteles</persName>
+                    <lem wit="#γ #λ #Ea #Nu #m #v">aliud <persName ref="#Ar">aristoteles</persName>
                       audiat</lem>
-                    <rdg wit="#Px" ana="#ordinal"><persName ref="#Ar" instant="false" full="yes">aristoteles</persName> audiat
+                    <rdg wit="#Px" ana="#ordinal"><persName ref="#Ar">aristoteles</persName> audiat
                       aliud</rdg>
-                    <rdg wit="#Py" ana="#ordinal">aliud audiat <persName ref="#Ar" instant="false" full="yes">aristoteles</persName></rdg>
+                    <rdg wit="#Py" ana="#ordinal">aliud audiat <persName ref="#Ar">aristoteles</persName></rdg>
                   </app>
                   <app>
                     <lem wit="#γ #m #v">recitatum</lem>
@@ -2878,8 +2876,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               </app> uox <app>
                 <lem wit="#α #λ #Pu #Pz #Vo #m #v">quedam</lem>
                 <rdg wit="#Gu #Pp #Px" ana="#lexical">quidem</rdg>
-                <witDetail wit="#Gu">#Gu scribe later changes to "quedam" in the dittographic
-                  version of this clause</witDetail>
+                
               </app> una constituitur <app>
                 <lem wit="#α #π #Ma #Px #Vm #m #v">multiplicium</lem>
                 <rdg wit="#Vz" ana="#morphological">multiplicem</rdg>
@@ -2891,14 +2888,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#β #γ #κ #m #v">ceu</lem>
                 <rdg wit="#Ea #Pz #Vo" ana="#lexical">seu</rdg>
                 <rdg wit="#Gu #Pp #Pu" ana="#lexical #J">sicut</rdg>
-                <witDetail wit="#Gu">#Gu scribe later changes to "sceu" in the dittographic version
-                  of this clause</witDetail>
+                
               </app>
               <app>
                 <lem wit="#κ #Ea #Gu #Pp #Pu #Va #Vo #m #v">tractus</lem>
                 
-                <witDetail wit="#Py">#Py could be totus with a misplaced a-squiggle above the o, or
-                  tractus with an o accidentally replacing the c.</witDetail>
+                
                 
                 <rdg wit="#Pz" ana="#morphological #J">tractum</rdg>
                 <rdg wit="#Vb" ana="#morphological">tracti</rdg>
@@ -3135,13 +3130,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#γ #κ #π #Ea #Nu #m #v">dicendorum</lem>
                 <rdg wit="#Py" ana="#additive">contentorum et dicendorum</rdg>
               </app> quod antiquitus <app>
-                <lem wit="#Ea #Gu #Nu #Pp #Vm #Vo">a <persName ref="#Pyth" instant="false" full="yes">pictagora</persName>
+                <lem wit="#Ea #Gu #Nu #Pp #Vm #Vo">a <persName ref="#Pyth">pictagora</persName>
                   inuentum fuit instrumentum dictum monocordum</lem>
                 
                 
                 
                 
-                <rdg wit="#Pz" ana="#ordinal #J">inuentum fuit a <persName ref="#Pyth" instant="false" full="yes">pictagora</persName> instrumentum dictum menocordum</rdg>
+                <rdg wit="#Pz" ana="#ordinal #J">inuentum fuit a <persName ref="#Pyth">pictagora</persName> instrumentum dictum menocordum</rdg>
                 <rdg wit="#Vb" ana="#lexical">a pictagoricis inuentum fuit instrumentum dictum
                   monocordum</rdg>
                 <rdg wit="#Va" ana="#lexical">a pitagoricis instrumentum inuentum fuit dictum
@@ -3247,7 +3242,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </app>
                   <name ref="#Bo" full="yes" instant="false">boecius</name></ref>
                 <quote rend="inline"><app>
-                    <lem wit="#Nu #Vb #Vz #m #v"><persName ref="#Ni" instant="false" full="yes">nichomacum</persName></lem>
+                    <lem wit="#Nu #Vb #Vz #m #v"><persName ref="#Ni">nichomacum</persName></lem>
                     
                     
                     
@@ -3274,7 +3269,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <num type="cardinal" value="4">quatuor</num> cordis. Quod <app>
                     <lem wit="#β #κ #π #Ea #Vb #m #v">durauit</lem>
                     <rdg wit="#Va" ana="#morphological">durabat</rdg>
-                  </app> vsque ad <persName ref="#Or" instant="false" full="yes"><app>
+                  </app> vsque ad <persName ref="#Or"><app>
                       <lem wit="#β #π #Ma #Px #Va #Vz">orphei</lem>
                       
                       
@@ -3361,7 +3356,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <rdg wit="#Vz" ana="#subtractive"/>
                   </app>
                   <app>
-                    <lem wit="#α #κ #m #v">dicitur <persName ref="#Mer" instant="false" full="yes">mercurium</persName>
+                    <lem wit="#α #κ #m #v">dicitur <persName ref="#Mer">mercurium</persName>
                       inuentorem</lem>
                     <rdg wit="#π" ana="#morphological #J">dicitur mercurius inuentor</rdg>
                   </app> fuisse. <app>
@@ -3472,7 +3467,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <lem wit="#γ #λ #Nu #Pq #m #v"><num type="ordinal" value="7">Septimam</num></lem>
                     <rdg wit="#Ea #Gu #Pp #Pu #Px #Py #Pz #Vo" ana="#lexical">Aliam</rdg>
                   </app> uero <app>
-                    <lem><persName ref="#Ter" instant="false" full="yes">terpanterius lesbius</persName></lem>
+                    <lem><persName ref="#Ter">terpanterius lesbius</persName></lem>
                     
                     
                     
@@ -3521,7 +3516,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <lem wit="#α #Gu #Pp #Pz #Vm #Vo #Vz #m #v">honorabilior</lem>
                     <rdg wit="#Pu" ana="#morphological #J">honorabilis</rdg>
                     <rdg wit="#Ma #Px" ana="#lexical">honor</rdg>
-                  </app> vnde et <persName ref="#Ju" instant="false" full="yes">iouem</persName>
+                  </app> vnde et <persName ref="#Ju">iouem</persName>
                   <app>
                     <lem wit="#β #Pp #Pu #Va #Vm #Vo #Vz #m #v">ypaton uocant</lem>
                     
@@ -3769,7 +3764,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 
                 
                 
-              </app> secundum <persName ref="#Ty" instant="false" full="yes"><app>
+              </app> secundum <persName ref="#Ty"><app>
                   <lem wit="#Ma #Pp #Pq #Px #Vz">thimotheum</lem>
                   
                   
@@ -3881,7 +3876,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Gu #Pp #Pu" ana="#ordinal #subtractive #J">essentialiores et
                   necessariores septem videntur
                       esse</rdg>
-              </app>, ita ut <persName ref="#Ar" instant="false" full="yes">aristoteles</persName>
+              </app>, ita ut <persName ref="#Ar">aristoteles</persName>
               <app>
                 <lem wit="#α #κ #m #v"><app>
                     <lem wit="#β #γ #κ #m #v">supra</lem>
@@ -3951,10 +3946,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Pu" ana="#lexical #J">ex trite ut numerus</rdg>
               </app>
               <milestone ed="#Gu" unit="column" n="B"/>ut <app>
-                <lem wit="#β #κ #Va"><persName ref="#Bo" instant="false" full="yes">boecius</persName>
+                <lem wit="#β #κ #Va"><persName ref="#Bo">boecius</persName>
                   <num type="cardinal" value="18">18</num> cum</lem>
-                <rdg wit="#π #Ea #Vb #m #v" ana="#subtractive"><persName ref="#Bo" instant="false" full="yes">boecius</persName> cum</rdg>
-                <rdg wit="#Va" ana="#lexical"><persName ref="#Bo" instant="false" full="yes">boecius</persName>
+                <rdg wit="#π #Ea #Vb #m #v" ana="#subtractive"><persName ref="#Bo">boecius</persName> cum</rdg>
+                <rdg wit="#Va" ana="#lexical"><persName ref="#Bo">boecius</persName>
                   <num type="cardinal" value="7">7</num></rdg>
               </app> reiteratione <app>
                 <lem wit="#κ #Ea #Nu #Pp #Pu #Pz #Vb #Vo #m #v">ipsarum</lem>
@@ -5909,7 +5904,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#α #λ #Pp #Pu #Pz #Vo #m #v">omne</lem>
                 <rdg wit="#Gu" ana="#lexical #J">ore</rdg>
                 <rdg wit="#Px" ana="#lexical">esse</rdg>
-              </app>, <persName ref="#Ar" instant="false" full="yes">aristoteles</persName>
+              </app>, <persName ref="#Ar">aristoteles</persName>
               <app>
                 <lem wit="#β #γ #κ #π #m #v">talem</lem>
                 <rdg wit="#Ea" ana="#lexical">et aliam</rdg>
@@ -6448,7 +6443,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Pz #Vc" ana="#lexical">motus</rdg>
               </app>
               <app>
-                <lem wit="#Ma #Px #Vz"><persName ref="#Hor" instant="false" full="yes">oratii</persName> fuit</lem>
+                <lem wit="#Ma #Px #Vz"><persName ref="#Hor">oratii</persName> fuit</lem>
                 
                 <rdg wit="#α #π #m #v" ana="#ordinal">fuit oratii</rdg>
               </app> maxime.</p>
@@ -7015,7 +7010,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               <app>
                 <lem wit="#β #γ #κ #π #m #v">dicetur</lem>
                 <rdg wit="#Ea" ana="#additive">unde dicetur</rdg>
-              </app> quod <gloss target="problems2.html#ment-32.2"><persName ref="#Ter" instant="false" full="yes"><app>
+              </app> quod <gloss target="problems2.html#ment-32.2"><persName ref="#Ter"><app>
                     <lem wit="#γ #λ #Ea #Gu #Nu #Pu #Pz #Vo #m #v">tripandius</lem>
                     
                     
@@ -7349,8 +7344,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     
                     <rdg wit="#Vz" ana="#lexical">acuto concordantibus</rdg>
                     <rdg wit="#γ #π #Ea #Ma #Px #Vm" ana="#lexical #additive">acuto a cordantibus</rdg>
-                    <witDetail wit="#Pp">#Pp and #Pu are ambiguous, because they use the character
-                      "a" to represent "7."</witDetail>
+                    
                   </app> sonis, <app>
                     <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">cuius</lem>
                     <rdg wit="#Pz" ana="#lexical #J">suis</rdg>
@@ -8239,7 +8233,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <rdg wit="#Pp #Pu #Pz #Vo" ana="#morphological #J">auditui</rdg>
                 </app></gloss>, unde <cit>
                 <quote rend="inline"><app>
-                    <lem wit="#κ #Py #m #v"><persName ref="#Mu" instant="false" full="yes">museus</persName></lem>
+                    <lem wit="#κ #Py #m #v"><persName ref="#Mu">museus</persName></lem>
                     <rdg wit="#Ea" ana="#lexical">muscis</rdg>
                     <rdg wit="#γ" ana="#lexical">musicus</rdg>
                     <rdg wit="#π" ana="#lexical #J">dicitur</rdg>
@@ -8330,7 +8324,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#γ #κ #π #Ea #m #v">itaque</lem>
                 <rdg wit="#Py" ana="#subtractive"/>
               </app> uerbis <app>
-                <lem wit="#κ #Ea #Gu #Pp #Pu #Py #Va #Vo #m #v"><persName ref="#Ar" instant="false" full="yes">aristoteles</persName></lem>
+                <lem wit="#κ #Ea #Gu #Pp #Pu #Py #Va #Vo #m #v"><persName ref="#Ar">aristoteles</persName></lem>
                 <rdg wit="#Pz" ana="#lexical #J">eadem</rdg>
                 <rdg wit="#Vb" ana="#subtractive"/>
               </app>
@@ -9259,11 +9253,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Ca #Pa #Vo" ana="#lexical #J"><num type="ordinal" value="12">12º</num></rdg>
                 <rdg wit="#Py" ana="#additive"><num type="ordinal" value="23">xxiii°</num> doooo
                     <gap reason="lost" instant="false"/></rdg>
-                <witDetail wit="#Py">The added characters in Py seem to be space fillers, but
-                  there's also a blank space of approximately 5 characters' width to their right,
-                  before the start of "tertiumdecimum." Also, the blank space appears to be an
-                  erasure, but the microfilm doesn't make reading the erased characters
-                  possible.</witDetail>
+                
                 <rdg wit="#Pz" ana="#lexical #additive">in <num type="ordinal" value="12">12°</num></rdg>
               </app>. <app>
                 <lem n="23°"/>
@@ -10320,7 +10310,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Ca #Vo" ana="#lexical #J">quid</rdg>
                 <rdg wit="#λ" ana="#subtractive"/>
               </app>
-              <persName ref="#Mac" instant="false" full="yes">macrobium</persName> et <persName ref="#Bo" instant="false" full="yes">boecium</persName> ex
+              <persName ref="#Mac">macrobium</persName> et <persName ref="#Bo">boecium</persName> ex
               omni <app>
                 <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">numerorum</lem>
                 <rdg wit="#Pz #Vc" ana="#lexical #J">modorum</rdg>
@@ -10831,8 +10821,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               </app>
               <num type="cardinal" value="9"><app>
                   <lem wit="#λ #π #Vb #m #v">nouenario</lem>
-                  
-                  
                   <rdg wit="#Ea" ana="#morphological">nouenarum</rdg>
                   <rdg wit="#Py" ana="#morphological">nouem</rdg>
                 </app></num>, <app>
@@ -10891,7 +10879,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">uero</lem>
                 <rdg wit="#Pz" ana="#lexical #J">nomen</rdg>
               </app>
-              <persName ref="#Bo" instant="false" full="yes"><app>
+              <persName ref="#Bo"><app>
                   <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">boecium</lem>
                   
                 </app></persName>
@@ -11376,8 +11364,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <lem wit="#α #λ #Gu #Pp #Pu #Vo #m #v">differentia <num type="ordinal" value="83">.83<hi rend="superscript">a</hi>.</num></lem>
                   <rdg wit="#Pz" ana="#lexical #J">differentiis <num type="ordinal" value="93">93.</num></rdg>
                   <rdg wit="#Px" ana="#lexical">differentia sed</rdg>
-                  <witDetail wit="#Px">If the scribe of #Px uses tall s to mean 8 (as other places
-                    suggest), then it is 83, not sed.</witDetail>
+                  
                 </app>
                 <app>
                   <lem wit="#α #κ #m #v">exposita.</lem>
@@ -11402,7 +11389,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                           musice</rdg>
                   </app></ref>
                 <quote rend="inline">quod <app>
-                    <lem wit="#Ma #Pu #Py #Vm #Vo #m #v"><persName ref="#Pt" instant="false" full="yes">ptholomeus</persName></lem>
+                    <lem wit="#Ma #Pu #Py #Vm #Vo #m #v"><persName ref="#Pt">ptholomeus</persName></lem>
                     
                     
                     
@@ -11523,7 +11510,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               </app>, <app>
                 <lem wit="#α #π #Ma #Px #Vz #m #v">quod</lem>
                 <rdg wit="#Vm" ana="#lexical">et</rdg>
-              </app> videtur <persName ref="#Ar" instant="false" full="yes">aristoteles</persName> sentire <milestone ed="#Pz" unit="column" n="B"/><app>
+              </app> videtur <persName ref="#Ar">aristoteles</persName> sentire <milestone ed="#Pz" unit="column" n="B"/><app>
                 <lem wit="#α #Ma #Pp #Pu #Px #Pz #Vo #m #v"><ref target="problems2.xml#part41"><num type="ordinal" value="41">xli</num></ref></lem>
                 <rdg wit="#Vm" ana="#lexical"><num type="ordinal" value="11">xiº</num></rdg>
                 <rdg wit="#Gu #Vz" ana="#lexical #J"><num type="ordinal" value="4">4°</num></rdg>
@@ -11584,7 +11571,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <rdg wit="#γ #m #v" ana="#subtractive"/>
                   </app>
                   <app>
-                    <lem wit="#Ea #Ma #Pp #Pu #Py #Pz #Vo #Vz"><persName ref="#Ty" instant="false" full="yes"><app>
+                    <lem wit="#Ea #Ma #Pp #Pu #Py #Pz #Vo #Vz"><persName ref="#Ty"><app>
                           <lem wit="#Ea #Ma #Pp #Pu #Pz #Vo">thimoteus</lem>
                           
                           
@@ -11811,7 +11798,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 </app>
                 <app>
                   <lem wit="#α #κ #Gu #Pu #Pz #Vo #m #v">existentes</lem>
-                  <rdg wit="Pp" ana="#morphological #J">existentis</rdg>
+                  <rdg wit="#Pp" ana="#morphological #J">existentis</rdg>
                 </app>
                 <app>
                   <lem wit="#α #κ #Gu #Pu #Pz #Vo #m #v">acuti</lem>
@@ -12193,8 +12180,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       scilicet</rdg>
                   </app>.</lem>
                 <rdg wit="#π #Ea" ana="#subtractive"/>
-                <witDetail wit="#Vc">This is a typical Jandun omission which #Vc also
-                  omits.</witDetail>
+                
               </app></p>
             <p n="2" part="N"><app>
                 <lem wit="#κ #π #Ea #Py #Vb" n="xlviii"/>
@@ -12562,7 +12548,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       <num type="ordinal" value="8">.8.</num></rdg>
                   </app></ref>
                 <quote rend="inline"><app>
-                    <lem wit="#Ea #Gu #Pp #Pu #Vm #Vo #m #v"><persName ref="#Phil" instant="false" full="yes">filoxenus</persName></lem>
+                    <lem wit="#Ea #Gu #Pp #Pu #Vm #Vo #m #v"><persName ref="#Phil">filoxenus</persName></lem>
                     
                     
                     <rdg wit="#Px" ana="#lexical">philoseus</rdg>
@@ -13153,8 +13139,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <rdg wit="#m #v" ana="#lexical">patet</rdg>
                   </app></lem>
                 <rdg wit="#π" ana="#subtractive"/>
-                <witDetail wit="#Vc">#Vc's scribe includes this representative Jandun
-                  omission.</witDetail>
+                
               </app>. <app>
                 <lem n="apparebit"/>
                 <rdg wit="#Pp #Pz #Vb #Vz" ana="#additive">etcetera</rdg>
@@ -13554,7 +13539,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <title>De inst. mus.</title>
                   <biblScope unit="book" n="1">I</biblScope>.<biblScope unit="chapter" n="8">8</biblScope> (Freidlein 195, ll. 6–13)</bibl>
               </cit> Videtur si<milestone ed="#v" unit="folio" n="C2v" break="no"/><milestone ed="#Vo" unit="folio" n="151r" break="no"/>quidem quantum facit ad sermonem
-                <persName ref="#Ar" instant="false" full="yes"><app>
+                <persName ref="#Ar"><app>
                   <lem wit="#α #κ #Gu #Pp #Vo #m #v">aristoteles</lem>
                   
                 </app></persName> quod antiphonus sit delecta<milestone ed="#Gu" unit="folio" n="240r" break="no"/>bilior ex contrariis ualde distantibus consurgens ut ex <app>
@@ -14777,7 +14762,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <p n="2" part="N"><app>
                 <lem wit="#α #κ #Gu #Pz #Vo #m #v">Notandum</lem>
                 <rdg wit="#Pp #Pu" ana="#morphological #J">Nota</rdg>
-              </app> quod <persName ref="#Ar" instant="false" full="yes">aristoteles</persName>
+              </app> quod <persName ref="#Ar">aristoteles</persName>
               <app>
                 <lem wit="#Ea #Nu #Px #Vb #m #v">multotiens dicit</lem>
                 <rdg wit="#λ #π #Va" ana="#ordinal">dicit multotiens</rdg>
@@ -14810,7 +14795,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               <app>
                 <lem wit="#γ #κ #π #Ea #Nu #m #v">alie</lem>
                 <rdg wit="#Py" ana="#morphological">alii</rdg>
-              </app>. <persName ref="#Pyth" instant="false" full="yes"><app>
+              </app>. <persName ref="#Pyth"><app>
                   <lem wit="#β #Ea #Gu #Pp #Px #Pz #Vb #Vm #Vo #Vz">Pictagoras</lem>
                   
                   
@@ -14830,10 +14815,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Pz" ana="#lexical #J">et omni</rdg>
               </app> magis <app>
                 <lem wit="#β #κ #Va #m #v">inherere</lem>
-                <rdg wit="#Vb" ana="#additive">inherere <persName ref="#Ar" instant="false" full="yes">aristotelem</persName></rdg>
+                <rdg wit="#Vb" ana="#additive">inherere <persName ref="#Ar">aristotelem</persName></rdg>
                 <rdg wit="#Ea" ana="#morphological">inheretur</rdg>
                 <rdg wit="#π" ana="#lexical #J">adherere</rdg>
-              </app>, <persName ref="#Ax" instant="false" full="yes"><app>
+              </app>, <persName ref="#Ax"><app>
                   <lem wit="#λ #Ea #Nu #Pz #m #v">aristoxenus</lem>
                   
                   
@@ -14848,7 +14833,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#α #λ #Gu #Pu #Vo #m #v">sensui</lem>
                 <rdg wit="#Pp #Px #Pz" ana="#morphological">sensum</rdg>
               </app>, quos ambos <app>
-                <lem wit="#Ea #Px #Py #m #v"><persName ref="#Pt" instant="false" full="yes">ptholomeus</persName> in eius</lem>
+                <lem wit="#Ea #Px #Py #m #v"><persName ref="#Pt">ptholomeus</persName> in eius</lem>
                 
                 
                 <rdg wit="#λ" ana="#lexical">pertheus in eius</rdg>
@@ -15207,7 +15192,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Va" ana="#lexical">quia</rdg>
               </app>
               <app>
-                <lem wit="#β #γ #λ #m #v"><persName ref="#Ov" instant="false" full="yes">ouidii</persName></lem>
+                <lem wit="#β #γ #λ #m #v"><persName ref="#Ov">ouidii</persName></lem>
                 
                 <rdg wit="#Ea" ana="#lexical">ouii</rdg>
                 <rdg wit="#Gu #Pp #Pu" ana="#lexical #J">toni</rdg>
@@ -15224,7 +15209,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Vz" ana="#lexical">aut que sunt</rdg>
                 <rdg wit="#α #π #m #v" ana="#ordinal #lexical">autem sic que</rdg>
               </app>
-              <persName ref="#Hor" instant="false" full="yes"><app>
+              <persName ref="#Hor"><app>
                   <lem wit="#κ #Ea #Gu #Pu #Pz #Va #v">oracii</lem>
                   
                 </app></persName> et ideo <app>
@@ -15342,7 +15327,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <lem wit="#β #κ #Ea #Vb #Vo">congruissimam et perfectam</lem>
                   <rdg wit="#Gu #Pp #Pu" ana="#ordinal #J">perfectam et congruissimam</rdg>
                   <rdg wit="#m #v" ana="#morphological">congruissimam et perfectissimam</rdg>
-                  <rdg wit="Va" ana="#morphological">congruisima et perfectam</rdg>
+                  <rdg wit="#Va" ana="#morphological">congruisima et perfectam</rdg>
                   <rdg wit="#Pz" ana="#lexical #J">congrauissimam et perfectam</rdg>
                 </app> bene sonantem, <app>
                   <lem wit="#α #λ #π #m #v">et</lem>
@@ -15364,7 +15349,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <app>
                   <lem wit="#β #Ea #Gu #Pp #Pu #Vo #m #v">horret</lem>
                   
-                  <rdg wit="Va" ana="#lexical">abhoret</rdg>
+                  <rdg wit="#Va" ana="#lexical">abhoret</rdg>
                   <rdg wit="#κ" ana="#lexical">oret</rdg>
                   <rdg wit="#Pz" ana="#lexical #J">honoret</rdg>
                 </app>
@@ -15571,7 +15556,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#β #κ #π #Ea">greci</lem>
                 <rdg wit="#γ #m #v" ana="#lexical">gramatici</rdg>
               </app> et potissime <app>
-                <lem wit="#Gu #Pq"><persName ref="#Ga" instant="false" full="yes">galienus</persName></lem>
+                <lem wit="#Gu #Pq"><persName ref="#Ga">galienus</persName></lem>
                 <rdg wit="#β #Ea #Ma #Pp #Pu #Px #Vm #Vo" ana="#lexical"><choice>
                     <abbr>Gal'</abbr>
                     <expan instant="false">Gal<ex instant="false">ienus</ex></expan>
@@ -17365,7 +17350,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <rdg wit="#m #v" ana="#morphological">medium habent</rdg>
                 </app>
                 <app>
-                  <lem wit="#Ea Ma #Nu #Pp #Px #Vb #Vz #m">equidistans</lem>
+                  <lem wit="#Ea #Ma #Nu #Pp #Px #Vb #Vz #m">equidistans</lem>
                   
                   
                   <rdg wit="#Vm" ana="#morphological">equidistant</rdg>
@@ -17413,16 +17398,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       <title ref="#BoMu">musice</title></rdg>
                   </app></ref>
                 <quote rend="inline">cum <app>
-                    <lem wit="#Py #m #v"><persName ref="#Co" instant="false" full="yes">estiacus colophonius</persName></lem>
+                    <lem wit="#Py #m #v"><persName ref="#Co">estiacus colophonius</persName></lem>
                     
                     
                     
-                    <rdg wit="#Nu" ana="#lexical">ostiatus <persName ref="#Co" instant="false" full="yes">colophonius</persName></rdg>
-                    <rdg wit="#Px" ana="#lexical">estimatus <persName ref="#Co" instant="false" full="yes">colophimus</persName></rdg>
-                    <rdg wit="#Ea" ana="#lexical">estimatus <persName ref="#Co" instant="false" full="yes">colofonius</persName></rdg>
+                    <rdg wit="#Nu" ana="#lexical">ostiatus <persName ref="#Co">colophonius</persName></rdg>
+                    <rdg wit="#Px" ana="#lexical">estimatus <persName ref="#Co">colophimus</persName></rdg>
+                    <rdg wit="#Ea" ana="#lexical">estimatus <persName ref="#Co">colofonius</persName></rdg>
                     <rdg wit="#π" ana="#lexical #J">existimatus
-                      <persName ref="#Co" instant="false" full="yes">colofonius</persName></rdg>
-                    <rdg wit="#Va" ana="#lexical">estyrginatus <persName ref="#Co" instant="false" full="yes">colophonius</persName></rdg>
+                      <persName ref="#Co">colofonius</persName></rdg>
+                    <rdg wit="#Va" ana="#lexical">estyrginatus <persName ref="#Co">colophonius</persName></rdg>
                     <rdg wit="#Vz" ana="#lexical">stiatiis elephinus</rdg>
                   </app>
                   <app>
@@ -17438,7 +17423,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     
                     
                     <rdg wit="#Ma" ana="#subtractive"/>
-                  </app>, <persName ref="#Ty" instant="false" full="yes"><app>
+                  </app>, <persName ref="#Ty"><app>
                       <lem wit="#Nu #m #v">thimoteus</lem>
                       
                       
@@ -17452,7 +17437,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <lem wit="#β #γ #κ #Pq #Pu #m #v">superveniens</lem>
                     <rdg wit="#Ea #Gu #Pp #Pz #Vo" ana="#additive">superveniens et</rdg>
                   </app>
-                  <persName ref="#Ty" instant="false" full="yes"><app>
+                  <persName ref="#Ty"><app>
                       <lem wit="#κ">milexius</lem>
                       
                       
@@ -18450,8 +18435,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#α #κ #π">nosce</lem>
                 <rdg wit="#m #v" ana="#lexical">notandum</rdg>
               </app> quod causa <app>
-                <lem wit="#γ #Ea #Ma #Px #Vm #m #v">fundatur <persName ref="#Ar" instant="false" full="yes">aristoteles</persName></lem>
-                <rdg wit="#β #π #Vz" ana="#ordinal"><persName ref="#Ar" instant="false" full="yes">aristoteles</persName>
+                <lem wit="#γ #Ea #Ma #Px #Vm #m #v">fundatur <persName ref="#Ar">aristoteles</persName></lem>
+                <rdg wit="#β #π #Vz" ana="#ordinal"><persName ref="#Ar">aristoteles</persName>
                   fundatur</rdg>
               </app>
               <app>
@@ -19545,7 +19530,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Vb" ana="#ordinal">dicitur quidem</rdg>
                 <rdg wit="#m #v" ana="#lexical">siquidem dicitur</rdg>
                 <rdg wit="#Va" ana="#subtractive">dicitur</rdg>
-              </app> a <persName ref="#Tor" instant="false" full="yes"><app>
+              </app> a <persName ref="#Tor"><app>
                   <lem wit="#β #Ea #Vo">chorebo</lem>
                   
                   
@@ -19682,12 +19667,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Ea #Pp #Pu #Vo" ana="#lexical">enim</rdg>
                 <rdg wit="#Pz" ana="#lexical #J"><num type="cardinal" value="7">7</num></rdg>
               </app> uel triplat <milestone ed="#Gu" unit="column" n="b"/><app>
-                <lem wit="#β #κ #Ea #Pp #Pu #Pz #Va #Vo">quod <persName ref="#Ar" instant="false" full="yes">aristoteles</persName>
-                  <persName ref="#Bo" instant="false" full="yes">boecius</persName></lem>
-                <rdg wit="#Vb" ana="#additive">quod <persName ref="#Ar" instant="false" full="yes">aristoteles</persName> et
-                    <persName ref="#Bo" instant="false" full="yes">boecius</persName></rdg>
-                <rdg wit="#m #v" ana="#additive">quod <persName ref="#Ar" instant="false" full="yes">aristoteles</persName>
-                  <persName ref="#Bo" instant="false" full="yes">boecius</persName>
+                <lem wit="#β #κ #Ea #Pp #Pu #Pz #Va #Vo">quod <persName ref="#Ar">aristoteles</persName>
+                  <persName ref="#Bo">boecius</persName></lem>
+                <rdg wit="#Vb" ana="#additive">quod <persName ref="#Ar">aristoteles</persName> et
+                    <persName ref="#Bo">boecius</persName></rdg>
+                <rdg wit="#m #v" ana="#additive">quod <persName ref="#Ar">aristoteles</persName>
+                  <persName ref="#Bo">boecius</persName>
                   <num type="ordinal" value="31">.31</num></rdg>
                 <rdg wit="#Gu #Pq" ana="#subtractive #J"/>
               </app>. <app>
@@ -19710,10 +19695,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Mb #Pu #Vm #Vo" ana="#subtractive"/>
               </app></head>
             <p n="1" part="N"><mentioned><app>
-                  <lem wit="#Vm #Vo">PROPTER QUID CIRCA <persName instant="false" full="yes"><ref target="#Phr">FRINICHUM</ref></persName></lem>
+                  <lem wit="#Vm #Vo">PROPTER QUID CIRCA <persName><ref target="#Phr">FRINICHUM</ref></persName></lem>
                   <rdg wit="#Pp #Pu" ana="#subtractive #J">PROPTER QUID CIRCA</rdg>
                   <rdg wit="#β #Ea #Vb #Vz" ana="#subtractive"/>
-                  <rdg wit="#Gu #Ma #Px #Pz #Va #m #v" ana="#additive"><seg xml:id="ment-31.1" n="1" part="N">PROPTER QUID CIRCA <persName instant="false" full="yes"><ref target="#Phr">PHRINICUM</ref></persName>
+                  <rdg wit="#Gu #Ma #Px #Pz #Va #m #v" ana="#additive"><seg xml:id="ment-31.1" n="1" part="N">PROPTER QUID CIRCA <persName><ref target="#Phr">PHRINICUM</ref></persName>
                       FUERUNT MAGIS DULCE MELODIA?</seg>
                     <seg xml:id="ment-31.2" n="2" part="N">AUT PROPTER ID QUOD MULTIPLICES <milestone ed="#m" unit="column" n="B"/>SUNT TUNC CANTUS IN TRAGEDIIS METRORUM</seg></rdg>
                 </app>?</mentioned>
@@ -19836,7 +19821,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <rdg wit="#β #Ea #Vb #Vz"/>
                   <rdg wit="#Gu #Ma #Px #Pz #Va #m #v" ana="#additive"><seg xml:id="ment-32.1" n="1" part="N">PROPTER QUID DYAPASON APPELLATUR, SED NON SECUNDUM NUMERUM DYAOCTO,
                       QUEMADMODUM ET DYATESSERON ET DYAPENTE?</seg>
-                    <seg xml:id="ment-32.2" n="2" part="N">AUT QUIA <num type="cardinal" value="7">SEPTEM</num> FUERUNT CORDE ANTIQUITUS? POSTEA EXTRAHENS <num type="ordinal" value="3">TERTIAM</num>, <persName ref="#Ter" instant="false" full="yes">TERPANDERUS</persName> NITEM
+                    <seg xml:id="ment-32.2" n="2" part="N">AUT QUIA <num type="cardinal" value="7">SEPTEM</num> FUERUNT CORDE ANTIQUITUS? POSTEA EXTRAHENS <num type="ordinal" value="3">TERTIAM</num>, <persName ref="#Ter">TERPANDERUS</persName> NITEM
                       APPOSUIT. ET IN HOC APPELLATA EST. DYAPASON, SED NON DYAOCTO, DYASEPTEM
                         <milestone ed="#Pz" unit="folio" n="187r"/>ENIM ERAT</seg></rdg>
                 </app>.</mentioned>
@@ -19988,7 +19973,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <rdg wit="#Py" ana="#additive #ordinal">instrumentorum antiquitus tantum <num type="cardinal" value="5">.5.</num>
                     <num type="cardinal" value="7">.7.</num> fuere</rdg>
                   <rdg wit="#π" ana="#subtractive #J">instrumentorum antiquitus 7 fuere</rdg>
-                </app>. Postmodum superuenit <persName ref="#Ter" instant="false" full="yes"><app>
+                </app>. Postmodum superuenit <persName ref="#Ter"><app>
                     <lem wit="#γ #Ea #Ma #Nu #Px #Vm #m #v">tripandius</lem>
                     
                     
@@ -20474,7 +20459,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 
                 
                 <rdg wit="#Px #Vm" ana="#lexical">mutantes</rdg>
-                <witDetail wit="#Pp">#Pp could be imitantes or mutantes</witDetail>
+                
               </app>
               <app>
                 <lem wit="#β #κ #π #Ea #Vb #m #v"><app>
@@ -22056,7 +22041,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       <rdg wit="#m #v" ana="#lexical">capitulo</rdg>
                     </app></ref></lem>
                 <rdg wit="#π" ana="#subtractive #J"/>
-                <witDetail wit="#Vc">#Vc includes this passage.</witDetail>
+                
               </app>.</p>
             <p n="3" part="N"><app>
                 <lem wit="#β #κ #π #Ea #Vb" n="problemate"/>
@@ -22182,7 +22167,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               <app>
                 <lem wit="#α #λ #π #m #v">magistra</lem>
                 <rdg wit="#Px" ana="#morphological">magistram</rdg>
-                <witDetail wit="#Pp #Px">#Px and #Pp could alternately read "nigram"</witDetail>
+                
               </app>
               <app>
                 <lem wit="#κ #π #Ea #Nu #Vb #m #v">et regula</lem>
@@ -22247,7 +22232,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 
                 <rdg wit="#Nu" ana="#lexical">cuiustorum primitus</rdg>
                 <rdg wit="#Py" ana="#lexical">corpus primo</rdg>
-                <witDetail wit="#Nu">#Nu's reading results from a dittographic c<hi rend="superscript">ⳋ</hi> being blended with what should be t<hi rend="superscript">ⳋ</hi>orum = terminorum</witDetail>
+                
               </app> tangit expositionem, dicens quod <gloss target="#ment-37.2">cum in uoce <app>
                   <lem wit="#β #κ #π #Ea #Vb #m #v">acutum</lem>
                   <rdg wit="#Va" ana="#morphological">acuta</rdg>
@@ -23030,8 +23015,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Py" ana="#lexical">triplex pretacta inducatur</rdg>
                 <rdg wit="#Va" ana="#lexical">pretacta indicatur triplex</rdg>
                 <rdg wit="#π" ana="#ordinal #lexical #J">triplex iudicatur pretacta</rdg>
-                <witDetail wit="#Pp #Pu #Px #Vm">#Pp, #Pu, #Px, and #Vm could be either "iudicatur"
-                  or "indicatur"</witDetail>
+                
               </app> musica?</p>
             <p n="2" part="N"><app>
                 <lem wit="#β #κ #π #Ea #Vb" n="indicatur"/>
@@ -23971,7 +23955,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       <rdg wit="#Py" ana="#ordinal #additive">complexionatum sit compositum</rdg>
                     </app> ex utrisque</lem>
                   <rdg wit="#κ" cause="homeoarchon" ana="#subtractive"/>
-                  <witDetail wit="#Ca #Pq">#Ca and #Pq also omit this passage.</witDetail>
+                  
                 </app>
                 <app>
                   <lem wit="#γ #Ea #Gu #Ma #Nu #Px #Pz #Vm #Vo #m #v">extremorum excellentiis</lem>
@@ -24013,7 +23997,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               </app>. <app>
                 <lem wit="#α #κ #π">Et</lem>
                 <rdg wit="#m #v" ana="#subtractive"/>
-              </app> ideo <persName instant="false" full="yes"><ref target="#Ty"><app>
+              </app> ideo <persName><ref target="#Ty"><app>
                     <lem wit="#Nu #m #v">thimoteus</lem>
                     
                     
@@ -24088,7 +24072,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               <app>
                 <lem wit="#α #κ #Gu #Pu #Pz #Vo #m #v">acuto</lem>
                 <rdg wit="#Pp" ana="#morphological #J">acuta</rdg>
-              </app>. <persName instant="false" full="yes"><ref target="#Pl">Plato</ref></persName>
+              </app>. <persName><ref target="#Pl">Plato</ref></persName>
               <app>
                 <lem wit="#α #π #Ma #Px #Vm #m #v">siquidem</lem>
                 <rdg wit="#Vz" ana="#subtractive"/>
@@ -24205,7 +24189,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">conuenit</lem>
                 <rdg wit="#Pz" ana="#lexical #J">continet</rdg>
               </app>
-              <persName instant="false" full="yes"><ref target="#Ty"><app>
+              <persName><ref target="#Ty"><app>
                     <lem wit="#m #v">thimotei</lem>
                     
                     
@@ -24621,7 +24605,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Vo" ana="#morphological #J">edocentur</rdg>
               </app>
               <app>
-                <lem wit="#γ #Vz #m #v"><persName ref="#Bo" instant="false" full="yes">boecii</persName></lem>
+                <lem wit="#γ #Vz #m #v"><persName ref="#Bo">boecii</persName></lem>
                 <rdg wit="#Ma #Vm" ana="#lexical">boni</rdg>
                 <rdg wit="#Px" ana="#lexical">uero</rdg>
                 <rdg wit="#Py" ana="#lexical"><num type="cardinal" value="10">.10</num></rdg>
@@ -25197,7 +25181,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Pu #Vo" ana="#lexical #J">sensui</rdg>
               </app>
               <app>
-                <lem wit="#Ea #Gu #Pp #Px #Vb #Vm #Vo #Vz"><persName instant="false" full="yes"><ref target="#Pyth">pictagoras</ref></persName></lem>
+                <lem wit="#Ea #Gu #Pp #Px #Vb #Vm #Vo #Vz"><persName><ref target="#Pyth">pictagoras</ref></persName></lem>
                 
                 
                 <rdg wit="#Pu" ana="#lexical #J">pythagoricis</rdg>
@@ -25215,7 +25199,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <lem wit="#γ #π #Ea #Ma #Px #Vz #m #v">sicut</lem>
                 <rdg wit="#Py #Vm" ana="#lexical">sic</rdg>
               </app>
-              <persName instant="false" full="yes"><ref target="#Ax"><app>
+              <persName><ref target="#Ax"><app>
                     <lem wit="#λ #Ea #Pu #Vo">aristoxenus</lem>
                     <rdg wit="#Px #m #v" ana="#lexical">aristotenus</rdg>
                     
@@ -25833,7 +25817,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <app>
                     <lem wit="#γ #λ #π #Py #m #v">apparuit</lem>
                     <rdg wit="#Ea" ana="#morphological">apparebit</rdg>
-                    <witDetail wit="#Px">#Px shares #Ea's reading here.</witDetail>
+                    
                   </app>
                   <app>
                     <lem wit="#α #λ">problemate</lem>
@@ -26042,18 +26026,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                         
                         <rdg wit="#Py" ana="#ordinal">assumuntur proportiones</rdg>
                         <rdg wit="#Pp #Pu #Pz #Vo" ana="#lexical #J">proportiones accipiuntur</rdg>
-                      </app> musice. Unde apparet quod <persName ref="#Ar" instant="false" full="yes">aristoteles</persName></lem>
+                      </app> musice. Unde apparet quod <persName ref="#Ar">aristoteles</persName></lem>
                     <rdg wit="#Px" ana="#subtractive"/>
                   </app> consentit <app>
                     <lem wit="#Pz #Vb #Vo">pictagoricis</lem>
                     
                     
-                    <rdg wit="#Ea #Pp #Px #Py #Va #Vm #Vz" ana="#lexical"><persName ref="#Pyth" instant="false" full="yes">pictagoras</persName></rdg>
+                    <rdg wit="#Ea #Pp #Px #Py #Va #Vm #Vz" ana="#lexical"><persName ref="#Pyth">pictagoras</persName></rdg>
                   </app>, has ponentibus solum, et non concidit <app>
                     <lem wit="#α #λ #Pp #Pu #Pz #Vo #m #v">cum</lem>
                     <rdg wit="#Px" ana="#lexical">causa</rdg>
                   </app>
-                  <persName ref="#Pt" instant="false" full="yes"><app>
+                  <persName ref="#Pt"><app>
                       <lem wit="#Ma #Pu #Px #Py #Vm #m">ptholomeo</lem>
                       
                       
@@ -26328,7 +26312,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                         <rdg wit="#Ea" ana="#lexical">etiam</rdg>
                       </app> si extrema comparentur ad inuicem ut <num type="cardinal" value="1">vnum</num> ad <num type="cardinal" value="4">quatuor</num></lem>
                     <rdg wit="#Pp #Pu #Pz #Py #Vo" cause="homeoteleuton"/>
-                    <witDetail wit="#Pp #Pz #Py #Vo">#Gu also omits this lemma.</witDetail>
+                    
                   </app>
                   <app>
                     <lem wit="#α #κ #Pp #Pu #Vo #m #v">resultabit</lem>
@@ -26778,8 +26762,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               </app> neate, <app>
                 <lem wit="#γ #κ #π #Ea #m #v">omnes</lem>
                 <rdg wit="#Py" ana="#lexical">quiaa</rdg>
-                <witDetail wit="#Py">#Py has the quia symbol with the squiggly-line "a" symbol above
-                  it</witDetail>
+                
               </app> relique <milestone ed="#Vz" unit="folio" n="66v"/>corde <app>
                 <lem wit="#κ #Gu #Pp #Pu #Py #Vo">in terminatione</lem>
                 <rdg wit="#γ #Pz #m #v" ana="#lexical">iteratione</rdg>
@@ -29812,7 +29795,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                       <rdg wit="#Va" ana="#lexical">cetere</rdg>
                     </app>. Sed abstulerunt</lem>
                   <rdg wit="#π #Ea" ana="#subtractive" cause="homeoteleuton"/>
-                  <witDetail wit="#Vc">#Vc also omits this passage</witDetail>
+                  
                 </app>, ut <app>
                   <lem wit="#γ #κ #π #Ea #m #v">propositum</lem>
                   <rdg wit="#Py" ana="#lexical">dictum</rdg>
@@ -30319,7 +30302,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <rdg wit="#Pz #Vo" ana="#lexical #J">perueniens</rdg>
                 <rdg wit="#Gu #Pp #Pu" ana="#lexical #J">veniens</rdg>
               </app>
-              <persName instant="false" full="yes"><ref target="#Ter"><app>
+              <persName><ref target="#Ter"><app>
                     <lem wit="#γ #κ #Gu #m #v">tripandius</lem>
                     
                     
@@ -32656,129 +32639,129 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
           <listPerson type="historical" default="false">
             <head>Historical figures</head>
             <person xml:id="Al" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Al</abbr><forename full="yes">Alexander</forename>
+              <persName><abbr type="siglum">Al</abbr><forename full="yes">Alexander</forename>
                 <addName full="yes">Aphrodisiensis</addName></persName>
             </person>
             <person xml:id="Ar" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Ar</abbr>Aristoteles</persName>
+              <persName><abbr type="siglum">Ar</abbr>Aristoteles</persName>
             </person>
             <person xml:id="Ax" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Ax</abbr><forename full="yes">Aristoxenus</forename>
+              <persName><abbr type="siglum">Ax</abbr><forename full="yes">Aristoxenus</forename>
                 <addName full="yes">Tarentinus</addName></persName>
             </person>
             <person xml:id="Av" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Av</abbr>Avicenna</persName>
+              <persName><abbr type="siglum">Av</abbr>Avicenna</persName>
             </person>
             <person xml:id="Bo" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Bo</abbr><surname full="yes">Boethius</surname>,
+              <persName><abbr type="siglum">Bo</abbr><surname full="yes">Boethius</surname>,
                   <forename full="yes">Anicius</forename>
                 <forename full="yes">Manlius</forename>
                 <forename full="yes">Severinus</forename></persName>
             </person>
             <person xml:id="Co" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Co</abbr><forename full="yes">Hestiaeus</forename>
+              <persName><abbr type="siglum">Co</abbr><forename full="yes">Hestiaeus</forename>
                 <addName full="yes">Colophonius</addName></persName>
             </person>
             <person xml:id="Dam" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Dam</abbr><forename full="yes">Johannes</forename>
+              <persName><abbr type="siglum">Dam</abbr><forename full="yes">Johannes</forename>
                 <addName full="yes">Damascenus</addName></persName>
             </person>
             <person xml:id="Ga" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Ga</abbr><surname full="yes">Galenus</surname>,
+              <persName><abbr type="siglum">Ga</abbr><surname full="yes">Galenus</surname>,
                   <forename full="yes">Claudius</forename></persName>
             </person>
             <person xml:id="GAr" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">GAr</abbr><forename full="yes">Guido</forename>
+              <persName><abbr type="siglum">GAr</abbr><forename full="yes">Guido</forename>
                 <addName full="yes">Aretinus</addName></persName>
             </person>
             <person xml:id="Hip" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Hip</abbr>Hippocrates</persName>
+              <persName><abbr type="siglum">Hip</abbr>Hippocrates</persName>
             </person>
             <person xml:id="Hor" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Hor</abbr><surname full="yes">Horatius Flaccus</surname>,
+              <persName><abbr type="siglum">Hor</abbr><surname full="yes">Horatius Flaccus</surname>,
                   <forename full="yes">Quintus</forename></persName>
             </person>
             <person xml:id="Is" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Is</abbr><forename full="yes">Isidorus</forename>
+              <persName><abbr type="siglum">Is</abbr><forename full="yes">Isidorus</forename>
                 <addName full="yes">Hispalensis</addName></persName>
             </person>
             <person xml:id="Mac" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Mac</abbr><forename full="yes">Macrobius</forename>
+              <persName><abbr type="siglum">Mac</abbr><forename full="yes">Macrobius</forename>
                 <forename full="yes">Ambrosius</forename>
                 <surname full="yes">Theodosius</surname></persName>
             </person>
             <person xml:id="Mu" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Mu</abbr><forename full="yes">Musaeus</forename>
+              <persName><abbr type="siglum">Mu</abbr><forename full="yes">Musaeus</forename>
                 <addName full="yes">Atheniensis</addName></persName>
             </person>
             <person xml:id="Ni" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Ni</abbr><forename full="yes">Nicomachus</forename>
+              <persName><abbr type="siglum">Ni</abbr><forename full="yes">Nicomachus</forename>
                 <addName full="yes">Gerasenus</addName></persName>
             </person>
             <person xml:id="Ov" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Ov</abbr><surname full="yes">Ovidius Naso</surname>,
+              <persName><abbr type="siglum">Ov</abbr><surname full="yes">Ovidius Naso</surname>,
                   <forename full="yes">Publius</forename></persName>
             </person>
             <person xml:id="Phil" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Phil</abbr><forename full="yes">Philoxenus</forename>
+              <persName><abbr type="siglum">Phil</abbr><forename full="yes">Philoxenus</forename>
                 <addName full="yes">Cytherius</addName></persName>
             </person>
             <person xml:id="Phr" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Phr</abbr>Phrynichus (tragicus)</persName>
+              <persName><abbr type="siglum">Phr</abbr>Phrynichus (tragicus)</persName>
             </person>
             <person xml:id="Pl" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Pl</abbr>Plato</persName>
+              <persName><abbr type="siglum">Pl</abbr>Plato</persName>
             </person>
             <person xml:id="Pt" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Pt</abbr><surname full="yes">Ptolemaeus</surname>,
+              <persName><abbr type="siglum">Pt</abbr><surname full="yes">Ptolemaeus</surname>,
                   <forename full="yes">Claudius</forename></persName>
             </person>
             <person xml:id="Pyth" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Pyth</abbr>Pythagoras</persName>
+              <persName><abbr type="siglum">Pyth</abbr>Pythagoras</persName>
             </person>
             <person xml:id="Ter" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Ter</abbr><forename full="yes">Terpander</forename>
+              <persName><abbr type="siglum">Ter</abbr><forename full="yes">Terpander</forename>
                 <addName full="yes">Antissenis</addName></persName>
             </person>
             <person xml:id="Th" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Th</abbr><forename full="yes">Theophilus</forename>
+              <persName><abbr type="siglum">Th</abbr><forename full="yes">Theophilus</forename>
                 <addName full="yes">Antiochenus</addName></persName>
             </person>
             <person xml:id="Ti" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Ti</abbr><forename full="yes">Timaeus</forename>
+              <persName><abbr type="siglum">Ti</abbr><forename full="yes">Timaeus</forename>
                 <addName full="yes">Locrus</addName></persName>
             </person>
             <person xml:id="Ty" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Ty</abbr><forename full="yes">Timotheus</forename>
+              <persName><abbr type="siglum">Ty</abbr><forename full="yes">Timotheus</forename>
                 <addName full="yes">Milesius</addName></persName>
             </person>
           </listPerson>
           <listPerson type="mythical" default="false">
             <head>Mythical figures</head>
             <person xml:id="Cay" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Cay</abbr>Cain</persName>
+              <persName><abbr type="siglum">Cay</abbr>Cain</persName>
             </person>
             <person xml:id="Ju" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Ju</abbr>Jupiter</persName>
+              <persName><abbr type="siglum">Ju</abbr>Jupiter</persName>
             </person>
             <person xml:id="Mem" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Mem</abbr>Memoria</persName>
+              <persName><abbr type="siglum">Mem</abbr>Memoria</persName>
             </person>
             <person xml:id="Mer" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Mer</abbr>Mercurius</persName>
+              <persName><abbr type="siglum">Mer</abbr>Mercurius</persName>
             </person>
             <person xml:id="Mos" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Mos</abbr>Moses</persName>
+              <persName><abbr type="siglum">Mos</abbr>Moses</persName>
             </person>
             <person xml:id="Or" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Or</abbr>Orpheus</persName>
+              <persName><abbr type="siglum">Or</abbr>Orpheus</persName>
             </person>
             <person xml:id="Tor" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Tor</abbr><forename full="yes">Torebus</forename>, <genName full="yes">filius
+              <persName><abbr type="siglum">Tor</abbr><forename full="yes">Torebus</forename>, <genName full="yes">filius
                   Atys</genName></persName>
             </person>
             <person xml:id="Tub" instant="false">
-              <persName instant="false" full="yes"><abbr type="siglum">Tub</abbr>Tubal Cain</persName>
+              <persName><abbr type="siglum">Tub</abbr>Tubal Cain</persName>
             </person>
           </listPerson>
         </div>
@@ -32807,7 +32790,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               and <editor>J. Brams</editor> as <title level="m">De Anima</title>. <title level="s">Aristoteles Latinus Database</title>
               <biblScope unit="volume" n="12.1">XII.1</biblScope> URL: <ptr target="http://clt.brepolis.net/ALD/pages/TextSearch.aspx?key=MIV11ANIM_"/></bibl>
             <bibl xml:id="ArCa" default="false" status="draft"><abbr type="siglum">Arist. Cael.</abbr>
-              <author><persName instant="false" full="yes">Aristotle</persName></author>. <title>De caelo</title> Ed.
+              <author><persName>Aristotle</persName></author>. <title>De caelo</title> Ed.
                 <editor>F. Bossier</editor> as <title level="m">De caelo et mundo</title>. <title level="s">Aristoteles Latinus Database</title>
               <biblScope unit="volume" n="8">VIII</biblScope> URL: <ptr target="http://clt.brepolis.net/ALD/pages/TextSearch.aspx?key=MGM11CAMU_"/></bibl>
             <bibl xml:id="ArEth" default="false" status="draft"><abbr type="siglum">Arist. Eth. Nic.</abbr>
