@@ -38,4 +38,7 @@
         </xsl:choose>
     </xsl:template>
     
+    <!-- Exclude witDetail -->
+    <xsl:template match="tei:witDetail"/>
+    
 </xsl:stylesheet>
