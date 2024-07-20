@@ -92,7 +92,7 @@
                 </witness>
                 <witness xml:id="a2">
                   <abbr type="siglum">a<hi rend="subscript">2</hi></abbr> 
-                  <name>Consensus of T<hi rend="superscript">k</hi>, U<hi rend="superscript">k</hi>, and Y<hi rend="superscript">k</hi></name>
+                  <name>Consensus of Y<hi rend="superscript">k</hi>, T<hi rend="superscript">k</hi>, and U<hi rend="superscript">k</hi></name>
                   <listWit> 
                     <witness xml:id="Yk">
                       <abbr type="siglum">Y<hi rend="superscript">k</hi></abbr> 
@@ -278,21 +278,30 @@
 <milestone ed="#Zn" unit="folio" n="136v"/>  
 <milestone ed="#v" unit="folio" n="B5v"/>
 <milestone ed="#m" unit="folio" n="188r"/>
-  <head>[Incipit]</head>
+  <head><app xml:id="lem-inc-1" exclude="#rdg-inc-1"><lem wit="#Gu #Ob #Uk #Xp #Yk"><ref><name ref="#Ar">Aristotelis</name> <title ref="#ArPr">problemata</title></ref></lem>
+      <rdg wit="#Ma #Pz" ana="#additive #syntactic">De problematibus Aristotelis</rdg>
+      <rdg wit="#Px #Um #Zn #m #v" ana="#subtractive"/>
+    </app>
+    <app xml:id="rdg-inc-3" exclude="#lem-inc-3"><rdg wit="#Ap" ana="#ordinal">Particula <num type="ordinal" value="19">xviiii</num>.</rdg></app>
+  </head>
   <p n="1">
-    <app><lem wit="#Px #Zn" n="[Incipit]"/>
+    <app xml:id="lem-inc-2" exclude="#rdg-inc-2"><lem wit="#Gu #Ob #Xp #Yk">De hiis que sunt circa armoniam</lem>
+      <rdg wit="#Pz" ana="#additive">Que sunt circa musicam uel armoniam</rdg>      
+      <rdg wit="#Ma" ana="#additive">Que sunt circa armoniam uel musicam</rdg>
+      <rdg wit="#Uk" ana="#additive">Quecumque sunt circa armoniam</rdg>
+      <rdg wit="#Px #Um #Zn #m #v" ana="#subtractive"/>
+    </app>
+    <app xml:id="rdg-inc-1" exclude="#lem-inc-1"><rdg wit="#Ap" ana="#subtractive">De problematibus</rdg></app>
+    <app xml:id="lem-inc-3" exclude="#rdg-inc-3"><lem wit="#Ma #Ob #Pz #Uk #Xp">Particula <num type="ordinal" value="19">xix<hi rend="superscript">a</hi></num></lem>
+      <rdg wit="#Yk" ana="#lexical">Particula <num type="ordinal" value="18">xviii</num>.</rdg>
+      <rdg wit="#Gu" ana="#lexical">Particula <num type="ordinal" value="20">20<hi rend="superscript">m</hi>.</num></rdg>
+      <rdg wit="#Um" ana="#ordinal #lexical"><add place="margin"><num type="ordinal" value="20">VIGESIMA</num> PARTICULA</add></rdg>
+      <rdg wit="#Px #Zn #m #v" ana="#subtractive"/>    
+    </app>
+    <app xml:id="rdg-inc-2" exclude="#lem-inc-2"><rdg wit="#Ap" ana="#subtractive">Que sunt circa armoniam.</rdg></app>   
+    <app><lem n="Particula xixa"/>
+      <rdg wit="#Pz" ana="#additive"><handShift medium="darker ink" scribe="Pzh1"/><add place="margin">Incipit <num type="ordinal" value="19">decimanona</num> particula etcetera</add></rdg>
       <rdg wit="#m #v" ana="#additive">Incipit <num type="ordinal" value="19">decimanona</num> particula.</rdg>
-      <rdg wit="#Pz" ana="#additive"><add place="margin">Incipit <num type="ordinal" value="19">decimanona</num> particula etcetera</add> <handShift medium="lighter ink" scribe="Pzh2"/>De problematibus Aristotelis que sunt circa Musicam l'armoniam particula <num type="ordinal" value="19">.19<hi rend="superscript">a</hi>.</num></rdg>
-      <rdg wit="#Gu #Ob #Xp #Yk" ana="#additive"><ref><name ref="#Ar">Aristotelis</name> <title ref="#ArPr">problemata</title></ref> de hiis que sunt circa armoniam particula 
-        <app><lem wit="#Xp"><num type="ordinal" value="19">xix<hi rend="superscript">a</hi></num></lem>
-          <rdg wit="#Yk" ana="#lexical"><num type="ordinal" value="18">xviii</num>.</rdg>
-          <rdg wit="#Gu" ana="#lexical"><num type="ordinal" value="20">20<hi rend="superscript">m</hi>.</num></rdg>
-          <witDetail wit="#Xp">The incipit is copied by a different hand in the bottom margin.</witDetail></app></rdg>
-      <rdg wit="#Ap" ana="#additive #ordinal">particula <num type="ordinal" value="19">xviiii</num>. de problematibus que sunt circa armoniam.</rdg>
-      <rdg wit="#Ma" ana="#additive"><hi rend="rubricated">de <ref><title ref="#ArPr">problematibus</title> <name ref="#Ar">Arestotelis</name></ref> que sunt circa armoniam uel musicam particula 
-        <num type="ordinal" value="19">19<hi rend="superscript">a</hi>.</num></hi></rdg>
-      <rdg wit="#Uk" ana="#additive"><hi rend="rubricated"><name ref="#Ar">Arestotelis</name> <ref><title ref="#ArPr">problemata</title></ref> quecumque sunt circa armoniam particula <num type="ordinal" value="19">19</num>.</hi></rdg>
-      <rdg wit="#Um" ana="#additive #lexical"><add place="margin"><num type="ordinal" value="20">VIGESIMA</num> PARTICULA</add></rdg>
     </app>
   </p>
 </div>
