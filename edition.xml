@@ -24435,18 +24435,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <rdg wit="#Pp #Va" ana="#ordinal">moueri cogitur</rdg>
                     <rdg wit="#Px" ana="#subtractive">moueri</rdg>
                   </app>,</quote>
-                <app>
+                <ref>
+                  <app>
                   <lem wit="#α #κ #m #v">vt declaratum <app>
                       <lem wit="#κ #Ea #Vb #m #v">est</lem>
                       <rdg wit="#β #Va" ana="#subtractive"/>
                     </app>
-                    <ref><app>
+                    <app>
                         <lem wit="#α #κ #m"><num type="ordinal" value="11">xi<hi rend="superscript"
                               >a</hi></num></lem>
                         <rdg wit="#v" ana="#lexical"><num type="ordinal" value="2">iia</num></rdg>
-                      </app>,</ref></lem>
+                      </app>,</lem>
                   <rdg wit="#π" ana="#subtractive #J"/>
                 </app>
+                </ref>
                 <bibl corresp="#ArPr"><author>Arist.</author>
                   <title>Prob.</title>
                   <biblScope unit="book" n="11">XI</biblScope>.<biblScope unit="problem" n="15"
@@ -25459,14 +25461,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lem wit="#β #γ #κ #π #m #v">fertur</lem>
                     <rdg wit="#Ea" ana="#orthographical">feretur</rdg>
                   </app>,</quote>
+                <ref>
                 <app>
                   <lem wit="#α #κ #m #v">vt <app>
                       <lem wit="#γ #κ #Ea #m #v">visum est</lem>
                       <rdg wit="#β" ana="#subtractive">visum</rdg>
                     </app>
-                    <ref><num type="ordinal" value="11">.xi°.</num></ref></lem>
+                    <num type="ordinal" value="11">.xi°.</num></lem>
                   <rdg wit="#π" ana="#subtractive #J"/>
                 </app>
+                </ref>
                 <bibl corresp="#ArPr"><author>Ps.Arist.</author>
                   <title>Prob.</title>
                   <biblScope unit="book" n="11">XI</biblScope>.<biblScope unit="problem" n="13"
