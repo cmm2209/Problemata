@@ -23078,7 +23078,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     n="B"/>in principio a leuibus <milestone ed="#Vz" unit="folio" n="62r"/>et
                   debilibus incipit, non enim tunc est, operosa <milestone ed="#Py" unit="folio"
                     n="187r"/>sed in fine,</quote>
-                <app>
+                <ref>
+                  <app>
                   <lem wit="#α #κ #m #v">vt 
                     
                     <app>
@@ -23086,13 +23087,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                       <rdg wit="#Nu" ana="#subtractive">dictum</rdg>
                       <rdg wit="#Py" ana="#morphological">dicatur</rdg>
                     </app>
-                    <ref><app>
+                    <app>
                         <lem wit="#β #κ #π #Ea #Va #m #v"><num type="ordinal" value="10">10<hi
                               rend="superscript">a</hi></num>.</lem>
                         <rdg wit="#Vb" ana="#lexical"><num type="ordinal" value="20">20</num>.</rdg>
-                      </app></ref></lem>
+                      </app></lem>
                   <rdg wit="#π" ana="#subtractive #J"/>
                 </app>
+                </ref>
                 <bibl corresp="#ArPr"><author>Ps.Arist.</author>
                   <title ref="#ArPr">Prob.</title>
                   <biblScope unit="book" n="10">X</biblScope>.<biblScope unit="problem" n="45"
