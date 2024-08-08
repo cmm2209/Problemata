@@ -11,23 +11,23 @@
                 <xsl:apply-templates select="@*|node()" />
             </xsl:copy>
         </xsl:template>
-        
-    <!-- Exclude rdg elements with @ana that contains "#orthographical" -->
-    <xsl:template match="tei:rdg[contains(@ana, '#orthographical')]"/>
     
-    <!-- Exclude nested apps in rdg elements -->
-    <xsl:template match="tei:app[ancestor::tei:rdg]">
-        <xsl:value-of select="tei:lem"/>
-    </xsl:template>
-    
-    <!-- Exclude app elements that do not have a child lem -->
-    <xsl:template match="tei:app[@exclude and not(tei:lem)]"/>
-    
-    <!-- Exclude variant readings from tables -->
     <xsl:template match="tei:app">
         <xsl:choose>
             <xsl:when test="ancestor::tei:table">
                 <xsl:value-of select="child::tei:lem"/>
+            </xsl:when>
+            <xsl:when test="count(child::tei:rdg) = 1 and count(tokenize(child::tei:rdg/@wit, '#')) = 2 and not(descendant::tei:app)">
+                <xsl:value-of select="tei:lem"/>
+            </xsl:when>
+            <xsl:when test="parent::tei:rdg">
+                <xsl:value-of select="tei:lem"/>
+            </xsl:when>
+            <xsl:when test="child::tei:lem/tei:app">
+                <xsl:copy>
+                    <xsl:apply-templates select="@*"/> 
+                    <xsl:apply-templates/>
+                </xsl:copy>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:copy>
@@ -38,6 +38,10 @@
         </xsl:choose>
     </xsl:template>
     
+    <!-- Exclude app elements that do not have a child lem -->
+    <xsl:template match="tei:app[@exclude and not(tei:lem)]"/>
+    <!-- Exclude rdg elements with @ana that contains "#orthographical" -->
+    <xsl:template match="tei:rdg[contains(@ana, '#orthographical')]"/>
     <!-- Exclude witDetail -->
     <xsl:template match="tei:witDetail"/>
     
