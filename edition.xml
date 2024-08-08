@@ -2498,14 +2498,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <rdg wit="#Pp #Pu #Pz #Vo" ana="#lexical #J">gaudium et letitiam inducentia</rdg>
                   <rdg wit="#Gu" ana="#lexical #J">letitiam quod inducentia</rdg>
                 </app> expedit audire?</gloss> Vnde <cit>
-                <ref><name ref="#Al"><app>
+                <ref>
+                  <name ref="#Al"><app>
                       <lem wit="#Ea #Gu #Ma #Nu #Pp #Px #Pz #Vm #Vo #Vz #m #v">alexander</lem>
                       <rdg wit="#γ #Py #Pu" ana="#orthographical">allexander</rdg>
-                    </app></name>
+                    </app>
+                  </name>
                   <app>
                     <lem wit="#γ #κ #π #m #v" n="alexander"/>
                     <rdg wit="#β" ana="#additive">in <title ref="#AlPr">problematibus</title></rdg>
-                  </app></ref>
+                  </app>
                 <app>
                   <lem wit="#β #γ #κ #π #m #v">et maxime</lem>
                   <rdg wit="#Ea" ana="#additive"><surplus>et maxime</surplus> et maxime</rdg>
@@ -2520,6 +2522,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <rdg wit="#Py" ana="#subtractive">ad <num type="ordinal" value="1"
                     >primam</num>:</rdg>
                 </app>
+                </ref>
                 <quote rend="inline">Propter <app>
                     <lem wit="#β #γ #κ #π #m #v">quid</lem>
                     <rdg wit="#Ea" ana="#subtractive"/>
@@ -7536,10 +7539,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <rdg wit="#Ca #Pu #Vo" ana="#morphological #J">quod</rdg>
                     <rdg wit="#Pp #Pq #Pz" ana="#morphological #J">quid</rdg>
                   </app> proportiones</quote>
-                <app>
-                  <lem wit="#α #κ #m #v">secundum <ref><name ref="#Av">auicenna</name></ref></lem>
+                <ref>
+                  <app>
+                  <lem wit="#α #κ #m #v">secundum <name ref="#Av">auicenna</name></lem>
                   <rdg wit="#π" ana="#subtractive #J"/>
                 </app>
+                </ref>
                 <quote rend="inline">
                   <app>
                     <lem wit="#γ #κ #Ea #Nu #m #v">cadunt <milestone ed="#Vz" unit="folio" n="52v"
@@ -12922,7 +12927,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                           <rdg wit="#Pp #Pu #Vo" ana="#orthographical #J">consiliatoris</rdg>
                           <rdg wit="#Gu" ana="#morphological #J">consiliatore</rdg>
                         </app></rdg>
-                    </app></title></ref>
+                    </app></title>
                 <app>
                   <lem wit="#α #λ #Gu #Pp #Pu #Vo #m #v">differentia <num type="ordinal" value="83"
                         >.83<hi rend="superscript">a</hi>.</num></lem>
@@ -12936,6 +12941,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <lem wit="#α #κ #m #v">exposita.</lem>
                   <rdg wit="#π" ana="#subtractive #J"/>
                 </app>
+                </ref>
                 <bibl corresp="#AbCo"><author>Pietro d'Abano</author>
                   <title>Concil.</title> diff. <biblScope unit="differentia" n="83"
                   >83</biblScope></bibl>
@@ -24519,11 +24525,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                       >armonica</title></lem>
                     <rdg wit="#Va" ana="#morphological"><title ref="#PtHar">armonicam</title></rdg>
                     <rdg wit="#Vz" ana="#additive"><title ref="#PtHar">armonica</title> sua</rdg>
-                  </app></ref>
+                  </app>
                 <app>
                   <lem wit="#α #π #Ma #Px #Vz #m #v">taliter declarare</lem>
                   <rdg wit="#Vm" ana="#lexical">alter declarare</rdg>
                 </app>
+                </ref>
                 <quote rend="inline" xml:id="quote-35.1">dyapason esse optimam et perfectissimam <app>
                     <lem wit="#γ #κ #Ea #Nu #m #v">consonantiarum</lem>
                     <rdg wit="#π #Py" ana="#morphological">consonantiam</rdg>
@@ -25649,7 +25656,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <rdg wit="#Pp #Pu" ana="#lexical #J"><num type="ordinal" value="5">5<hi
                           rend="superscript">a</hi></num> particula</rdg>
                     <rdg wit="#Gu" ana="#lexical #J">ille particula</rdg>
-                  </app></ref>
+                  </app>
                 <app>
                   <lem wit="#β #κ #Ea #Pp #Pu #Vb #Vo #m #v">intelligenti dicta,</lem>
                   <rdg wit="#Pz" ana="#morphological #J">intelligentis dicta,</rdg>
@@ -25676,6 +25683,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <lem wit="#β #κ #π #Ea #Vb #m #v">considerare: puta</lem>
                   <rdg wit="#Va" ana="#lexical">consingulare: puta</rdg>
                 </app>
+                </ref>
                 <quote rend="inline"><app>
                     <lem wit="#γ #κ #π #Ea #Nu #m #v">modicum</lem>
                     <rdg wit="#Py" ana="#subtractive"/>
@@ -25861,13 +25869,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                       <lem wit="#γ #κ #Ea #Gu #Nu #Pp #Pu #Vo #m #v">vtcunque</lem>
                       <rdg wit="#Py #Pz" ana="#lexical">vtrunque</rdg>
                     </app></quote>
-                  <app>
+                  <ref>
+                    <app>
                     <lem wit="#α #κ #m #v"><app>
                         <lem wit="#α #Ma #Vm #m #v">sicut videbitur</lem>
                         <rdg wit="#Px" ana="#lexical">sint videbitur</rdg>
                         <rdg wit="#Vz" ana="#subtractive"/>
                       </app>
-                      <ref><num type="ordinal" value="7">.vii°.</num></ref>
+                      <num type="ordinal" value="7">.vii°.</num>
                       <app>
                         <lem wit="#β #κ #m #v"><ref><num type="ordinal" value="29">xxix<hi
                                 rend="superscript">e</hi>.</num></ref></lem>
@@ -25878,6 +25887,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                       </app>,</lem>
                     <rdg wit="#π" ana="#subtractive #J"/>
                   </app>
+                  </ref>
                   <bibl corresp="#ArPr"><author>Ps.Arist.</author>
                     <title ref="#ArPr">Prob.</title>
                     <biblScope unit="book" n="28">XXVIII</biblScope>.<biblScope unit="problem" n="7"
