@@ -19799,11 +19799,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app></gloss>
               <cit>
                 <quote rend="inline"><num type="cardinal" value="7">septem</num> planetarum,</quote>
-                <app>
+                <ref>
+                  <app>
                   <lem wit="#α #κ #Gu #Pp #Pu #Pz #m #v">secundum</lem>
                   <rdg wit="#Vo" ana="#subtractive #J"/>
                 </app>
-                <ref><name ref="#Bo">boecium,</name></ref>
+                <name ref="#Bo">boecium,</name>
+                </ref>
                 <quote rend="inline"><app>
                     <lem wit="#α #Ma #Pp #Pu #Pz #Vm #m">imitatione</lem>
                     <rdg wit="#Gu #Vz" ana="#orthographical">ymitatione</rdg>
