@@ -26686,7 +26686,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </app>
               <cit>
                 <quote rend="inline">egritudo sit motus</quote>
-                <app>
+                <ref>
+                  <app>
                   <lem wit="#Px #Vm #Vz">ostensum <ref>differentia <num type="ordinal" value="7"
                           >7<hi rend="superscript">a</hi></num></ref></lem>
                   <rdg wit="#Ea #Ma #Va #m #v" ana="#additive"><app>
@@ -26714,6 +26715,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <rdg wit="#Pp" ana="#ordinal #J"><ref><num type="ordinal" value="4">quarto</num>
                       problemate</ref>.</rdg>
                 </app>
+                </ref>
                 <bibl corresp="#ArPr"><author>Ps.Arist.</author>
                   <title>Prob.</title>
                   <biblScope unit="book" n="7">VII</biblScope>.<biblScope unit="problem" n="4"
