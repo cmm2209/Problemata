@@ -21290,12 +21290,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <biblScope unit="book" n="2">II</biblScope>.<biblScope unit="chapter" n="1"
                     >1</biblScope>, <biblScope unit="page" n="993b">993b</biblScope> ll. <biblScope
                     unit="line" from="4" to="5">4–5</biblScope></bibl>
-                <app>
+                <ref>
+                  <app>
                   <lem wit="#α #κ #m #v">vt ostensum <app>
                       <lem wit="#γ #κ #Ea #m #v">est</lem>
                       <rdg wit="#β" ana="#subtractive"/>
                     </app>
-                    <ref><app>
+                    <app>
                         <lem wit="#γ #Ea #Nu #Px #Vm #m #v"><num type="ordinal" value="18"
                           >.18</num></lem>
                         <rdg wit="#Ma" ana="#additive"><num type="ordinal" value="18">18<hi
@@ -21304,11 +21305,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 rend="superscript">vo</hi></num></add></rdg>
                         <rdg wit="#Py" ana="#lexical">supra</rdg>
                         <rdg wit="#Vz" ana="#subtractive"/>
-                      </app></ref>. <note xml:lang="en">As cited in d'Abano's commentary on Book
+                      </app>. <note xml:lang="en">As cited in d'Abano's commentary on Book
                       XVIII, Problem 8, where the paraphrased quotation begins with
                     "nota"</note></lem>
                   <rdg wit="#π" ana="#subtractive #J"/>
                 </app>
+                </ref>
               </cit> Nam quod primitus <app>
                 <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">discitur</lem>
                 <rdg wit="#Pz #Vc" ana="#lexical #J">dicitur</rdg>
