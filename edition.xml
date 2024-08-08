@@ -20357,18 +20357,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <rdg wit="#Ea" ana="#morphological">actu</rdg>
                     <rdg wit="#Gu #Pp #Pu #Px #m #v" ana="#lexical">acutum</rdg>
                   </app>,</quote>
-                <app>
+                <ref>
+                  <app>
                   <lem wit="#α #κ #m #v">vt apparet</lem>
                   <rdg wit="#π" ana="#lexical #additive #J">vt <app>
                       <lem wit="#Pp #Pu #Vo" ana="#J">patet in</lem>
                       <rdg wit="#Gu #Pz" ana="#subtractive #J">patet</rdg>
                     </app></rdg>
                 </app>
-                <ref><app>
+                <app>
                     <lem wit="#α #π #Px #Vm #Vz #m #v"><num type="ordinal" value="2">2°</num></lem>
                     <rdg wit="#Ma" ana="#lexical"><num type="ordinal" value="3">3º</num></rdg>
                   </app>
-                  <title ref="#ArAn">de anima.</title></ref>
+                  <title ref="#ArAn">de anima.</title>
+                </ref>
                 <bibl corresp="#ArAn"><author>Arist.</author>
                   <title ref="#ArAn">De an.</title>
                   <biblScope unit="book" n="2">II</biblScope>.<biblScope unit="chapter" n="12"
