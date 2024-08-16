@@ -5,44 +5,40 @@
     exclude-result-prefixes="a rng tei teix xsl" version="2.0">
     <!-- Disable indentation and preserve white space within elements -->
     <xsl:output method="xml" indent="no" />
-        <!-- Identity template copies all input nodes to output -->
-        <xsl:template match="@*|node()">
-            <xsl:copy>
-                <xsl:apply-templates select="@*|node()" />
-            </xsl:copy>
-        </xsl:template>
-    
-    <xsl:template match="tei:app">
-        <xsl:choose>
-            <xsl:when test="ancestor::tei:table">
-                <xsl:value-of select="child::tei:lem"/>
-            </xsl:when>
-            <xsl:when test="count(child::tei:rdg) = 1 and count(tokenize(child::tei:rdg/@wit, '#')) = 2 and not(descendant::tei:app)">
-                <xsl:value-of select="tei:lem"/>
-            </xsl:when>
-            <xsl:when test="parent::tei:rdg">
-                <xsl:value-of select="tei:lem"/>
-            </xsl:when>
-            <xsl:when test="child::tei:lem/tei:app">
-                <xsl:copy>
-                    <xsl:apply-templates select="@*"/> 
-                    <xsl:apply-templates/>
-                </xsl:copy>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:copy>
-                    <xsl:apply-templates select="@*"/> 
-                    <xsl:apply-templates/>
-                </xsl:copy>
-            </xsl:otherwise>
-        </xsl:choose>
+
+    <xsl:template match="@*|node()">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
     </xsl:template>
+
+    <!-- Do something about handling app in rdg -->
+    <xsl:template match="tei:rdg/tei:app">
+        <xsl:apply-templates select="tei:lem/node()"/>
+    </xsl:template>    
+    
+    <!-- Handle app with lem but no rdg -->
+<!--    <xsl:template match="//tei:app[not(tei:rdg)]">
+        <xsl:apply-templates select="tei:lem/node()"/>
+    </xsl:template>
+-->    <!-- Dealing with triple-nested apps in lem -->
+    <!--<xsl:template match="//tei:app//tei:app//tei:app/tei:lem/tei:app">
+        <xsl:apply-templates select="tei:lem/node()"/>
+    </xsl:template>-->
+    <!-- Dealing with quadruple-nested app elements -->
+    <!--<xsl:template match="//tei:app//tei:app//tei:app/tei:rdg/tei:app">
+        <xsl:apply-templates select="tei:lem/node()"/>
+    </xsl:template>-->
+    <!-- Exclude singletons -->
+    <!--<xsl:template match="tei:app[count(tei:rdg) = 1 and count(tokenize(tei:rdg/@wit, '#')) = 2]">
+        <xsl:apply-templates select="tei:lem/node()"/>
+    </xsl:template>-->
     
     <!-- Exclude app elements that do not have a child lem -->
-    <xsl:template match="tei:app[@exclude and not(tei:lem)]"/>
+    <!--<xsl:template match="tei:app[not(tei:lem)]"/>-->
     <!-- Exclude rdg elements with @ana that contains "#orthographical" -->
-    <xsl:template match="tei:rdg[contains(@ana, '#orthographical')]"/>
+    <!--<xsl:template match="tei:rdg[contains(@ana, '#orthographical')]"/>-->
     <!-- Exclude witDetail -->
-    <xsl:template match="tei:witDetail"/>
+    <!--<xsl:template match="tei:witDetail"/>-->
     
 </xsl:stylesheet>
