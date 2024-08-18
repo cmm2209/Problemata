@@ -1992,7 +1992,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                       <rdg wit="#Va #Vz" ana="#orthographical">isidorum</rdg>
                       <rdg wit="#m #v" ana="#orthographical">isidorium</rdg>
                     </app></name></ref>
-                <quote rend="inline"><app>
+                <quote rend="blockquote"><app>
                     <lem wit="#α #π #Ma #Vz">diuiditur</lem>
                     <rdg wit="#m #v" ana="#morphological">diuidetur</rdg>
                     <rdg wit="#Px #Vm" ana="#lexical">dicitur</rdg>
@@ -3637,7 +3637,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <rdg wit="#Gu" ana="#orthographical #J">ayt</rdg>
                   </app>
                   <name ref="#Bo">boecius</name></ref>
-                <quote rend="inline"><app>
+                <quote rend="blockquote"><app>
                     <lem wit="#Nu #Vb #Vz #m #v"><persName ref="#Ni">nichomacum</persName></lem>
                     <rdg wit="#Gu #Pp #Pu #Vo" ana="#orthographical #J"><persName ref="#Ni"
                         >nicomacum</persName></rdg>
@@ -4709,6 +4709,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                       </app></item>
                     <item>nete yperboleon.</item>
                   </list></lem>
+                <!-- There aren't any other notes of this sort. It would be better to leave it out or find another place for it. -->
                 <note xml:lang="en">"Of the 'moveable' notes whose positions varied in different
                   genera, Lychanos was treated as especially diagnostic of genus, and as a note-name
                   it is sometimes augmented or replaced by enharmonios, chrōmatikē, or diatonos,
@@ -10449,7 +10450,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <rdg wit="#π" ana="#lexical #J">numeri</rdg>
                 </app>
                 </ref>
-                <quote rend="inline"><num type="cardinal" value="5">quinque</num>
+                <quote rend="blockquote"><num type="cardinal" value="5">quinque</num>
                   <app>
                     <lem wit="#α #κ #m #v">sumpte</lem>
                     <rdg wit="#π" ana="#morphological #J">sumptis</rdg>
@@ -12964,7 +12965,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                           <title ref="#BoMu">musice</title></rdg>
                       </app></rdg>
                   </app></ref>
-                <quote rend="inline">quod <app>
+                <quote rend="blockquote">quod <app>
                     <lem wit="#Ma #Pu #Py #Vm #Vo #m #v"><persName ref="#Pt"
                       >ptholomeus</persName></lem>
                     <rdg wit="#Gu #Pp #Pz #Vb #Vz" ana="#orthographical"><persName ref="#Pt"
@@ -15396,7 +15397,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <lem wit="#α #κ #Gu #m #v">quod</lem>
                   <rdg wit="#Pp #Pu #Pz #Vo" ana="#subtractive #J"/>
                 </app></ref>
-                <quote rend="inline"><app>
+                <quote rend="blockquote"><app>
                     <lem wit="#α #λ #π #m #v">consonantia</lem>
                     <rdg wit="#Px" ana="#morphological">consonantiam</rdg>
                   </app> est acuti soni <app>
