@@ -12,16 +12,24 @@
         </xsl:copy>
     </xsl:template>
 
-    <!-- Do something about handling app in rdg -->
-    <xsl:template match="tei:rdg/tei:app">
+<!-- NOTE: These templates must be processed one at a time, 
+        moving from the bottom up. --> 
+
+<!-- Handle app as a descendant, not just a child, of rdg -->
+   <!-- <xsl:template match="tei:rdg//tei:app">
         <xsl:apply-templates select="tei:lem/node()"/>
-    </xsl:template>    
+    </xsl:template>-->
+
+    <!-- Do something about handling app in rdg -->
+    <!--<xsl:template match="tei:rdg/tei:app">
+        <xsl:apply-templates select="tei:lem/node()"/>
+    </xsl:template>-->    
     
     <!-- Handle app with lem but no rdg -->
-<!--    <xsl:template match="//tei:app[not(tei:rdg)]">
+    <!--<xsl:template match="//tei:app[not(tei:rdg)]">
         <xsl:apply-templates select="tei:lem/node()"/>
-    </xsl:template>
--->    <!-- Dealing with triple-nested apps in lem -->
+    </xsl:template>-->
+    <!-- Dealing with triple-nested apps in lem -->
     <!--<xsl:template match="//tei:app//tei:app//tei:app/tei:lem/tei:app">
         <xsl:apply-templates select="tei:lem/node()"/>
     </xsl:template>-->
