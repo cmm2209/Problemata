@@ -1,0 +1,1244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pseudo-Aristotelian Problems, section XIX, translated by Bartholomew of Messina</title>
+        <author>Pseudo-Aristotle</author>
+        <editor>Caleb Mutch</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Draft</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Aristoteles Latinus</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:lang="lat">Problemata Aristotelis</title>
+          <date notBefore="1258" notAfter="1265"/>
+        </bibl>
+        <listWit xml:id="bibliography-manuscripts"><head>Manuscripts</head>
+                  <witness xml:id="Ap">
+                  <abbr type="siglum">A<hi rend="superscript">p</hi></abbr> 
+                  <name>Patavinus, Bibl. Antoniana, Scaff. XVII, 370</name>,
+                  <locus from="344" to="374">ff. 34r-37r</locus>
+                  <origDate notBefore="1300" notAfter="1350"/>
+                </witness>
+                <witness xml:id="Gu">
+                  <abbr type="siglum">G<hi rend="superscript">u</hi></abbr> 
+                  <name>?<ref target="http://lib.ugent.be/catalog/rug01:000802948">Ghent, Bibliothéek van de Rijksuniversiteit, ms. 72</ref>?</name> (accessed 2022-01-03),
+                  <locus from="234r" to="249v">ff. 234r-49v</locus>
+                  <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+                </witness>            
+              <witness xml:id="Hv">
+                <abbr type="siglum">H<hi rend="superscript">v</hi></abbr> 
+                <name>Vatican, Vat. lat. 2993</name>,
+                <locus from="181v" to="183v">ff. 181v-183v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="Lb">
+                <abbr type="siglum">L<hi rend="superscript">b</hi></abbr> 
+                <name>London, Bibl. Brit. Add 21978</name>,
+                <locus from="50v" to="56v">ff. 50v-56v</locus>
+                <origDate when="1477">1477</origDate>
+              </witness>
+               <witness xml:id="Lbt">
+                 <abbr type="siglum">L<hi rend="superscript">bt</hi></abbr> 
+                 <name>London, Bibl. Brit. Add 21978, first hand</name>,
+                 <locus from="50v" to="56v">ff. 50v-56v</locus>
+                 <origDate when="1477">1477</origDate>
+               </witness>
+               <witness xml:id="Lbsl">
+                 <abbr type="siglum">L<hi rend="superscript">bsl</hi></abbr> 
+                 <name>London, Bibl. Brit. Add 21978, supra lineam</name>,
+                 <locus from="50v" to="56v">ff. 50v-56v</locus>
+                 <origDate when="1477">1477</origDate>
+               </witness>
+                  <witness xml:id="Ma">
+                 <abbr type="siglum">M<hi rend="superscript">a</hi></abbr> 
+                 <name><ref target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=DX.24.02">Cesena, Malatestiana D.XXIV.2</ref></name> (accessed 2022-01-03),
+                 <locus from="96v" to="104r">ff. 96v-104r</locus>
+                 <origDate notAfter="1381">before 1381</origDate>
+               </witness>
+                <witness xml:id="Mat">
+                  <abbr type="siglum">M<hi rend="superscript">at</hi></abbr> 
+                  <name>Cesena, Malatestiana D.XXIV.2</name>, first hand,
+                  <locus from="96v" to="104r">ff. 96v-104r</locus>
+                  <origDate notAfter="1381">before 1381</origDate>
+                </witness>
+                <witness xml:id="Mamg">
+                  <abbr type="siglum">M<hi rend="superscript">amg</hi></abbr> 
+                  <name>Cesena, Malatestiana D.XXIV.2</name>, in margine,
+                  <locus from="96v" to="104r">ff. 96v-104r</locus>
+                  <origDate notAfter="1381">before 1381</origDate>
+                </witness>
+               <witness xml:id="Mb">
+                 <abbr type="siglum">M<hi rend="superscript">b</hi></abbr> 
+                 <name><ref target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=SX.06.03">Cesena, Malatestiana S.VI.2/3</ref></name> (accessed 2022-01-03),
+                 <locus n="S.VI.3" from="38v" to="56r">S.VI.3, ff. 38v-56r</locus>
+                 <origDate when="1381">1381</origDate>
+               </witness>
+               <witness xml:id="Mbt">
+                 <abbr type="siglum">M<hi rend="superscript">bt</hi></abbr> 
+                 <name>Cesena, Malatestiana S.VI.2/3</name>, first hand,
+                 <locus n="S.VI.3" from="38v" to="56r">S.VI.3, ff. 38v-56r</locus>
+                 <origDate when="1381">1381</origDate>
+               </witness>
+               <witness xml:id="Mbmg">
+                 <abbr type="siglum">M<hi rend="superscript">bmg</hi></abbr> 
+                 <name>Cesena, Malatestiana S.VI.2/3</name> in margine,
+                 <locus n="S.VI.3" from="38v" to="56r">S.VI.3, ff. 38v-56r</locus>
+                 <origDate when="1381">1381</origDate>
+               </witness>
+              <witness xml:id="Mh">
+                <abbr type="siglum">M<hi rend="superscript">h</hi></abbr> 
+                <name>Milan, Biblioteca Ambrosiana B. 129 Sup</name>,
+                <locus from ="22r" to="24r">ff. 22r-24r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>   
+               <witness xml:id="Mht">
+                 <abbr type="siglum">M<hi rend="superscript">ht</hi></abbr> 
+                 <name>Milan, Biblioteca Ambrosiana B. 129 Sup, first hand</name>,
+                 <locus from ="22r" to="24r">ff. 22r-24r</locus>
+                 <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+               </witness>
+               <witness xml:id="Mhmg">
+                 <abbr type="siglum">M<hi rend="superscript">hmg</hi></abbr> 
+                 <name>Milan, Biblioteca Ambrosiana B. 129 Sup, in margine</name>,
+                 <locus from ="22r" to="24r">ff. 22r-24r</locus>
+                 <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+               </witness>
+              <witness xml:id="Mhac">
+                <abbr type="siglum">M<hi rend="superscript">hac</hi></abbr> 
+                <name>Milan, Biblioteca Ambrosiana B. 129 Sup, ante correctionem</name>,
+                <locus from ="22r" to="24r">ff. 22r-24r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>  
+              <witness xml:id="Mhpc">
+                <abbr type="siglum">M<hi rend="superscript">hpc</hi></abbr> 
+                <name>Milan, Biblioteca Ambrosiana B. 129 Sup, post correctionem</name>,
+                <locus from ="22r" to="24r">ff. 22r-24r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>  
+              <witness xml:id="Nw">
+                <abbr type="siglum">N<hi rend="superscript">w</hi></abbr> 
+                <name>Paris, Bibl. Nat. 14725</name>,
+                <locus n="58r">f. 58r (exemplar stopped after problem 17);</locus>
+                <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="Ob">
+                <abbr type="siglum">O<hi rend="superscript">b</hi></abbr> 
+                <name>Oxoniensis, Bibl. Collegii Ballionensis, 250</name>,
+                <locus from="77v" to="80v">ff. 77v-80v</locus>
+                <origDate notBefore="1258" to="1299">late thirteenth century</origDate>
+              </witness>
+                <witness xml:id="Pi">
+                  <abbr type="siglum">Pi</abbr> 
+                  <name>Reconstruction of text consulted by Pietro d'Abano</name>,
+                  <origDate notBefore="1300" notAfter="1315"/>
+                </witness>
+                <witness xml:id="Px">
+                  <abbr type="siglum">P<hi rend="superscript">x</hi></abbr> 
+                  <name><ref target="http://gallica.bnf.fr/ark:/12148/btv1b90684121.r=6540">Paris, Bibliotheque Nationale man. lat. 6540</ref></name> (accessed 2022-01-03),
+                  <locus from="154v" to="164v">ff. 154v-64v</locus>
+                  <origDate notBefore="1300" notAfter="1399">Fourteenth century</origDate>.
+                  <note><origPlace>Italy</origPlace></note>
+                </witness>
+               <witness xml:id="Pz">
+                 <abbr type="siglum">P<hi rend="superscript">z</hi></abbr> 
+                 <name><ref target="http://gallica.bnf.fr/ark:/12148/btv1b90680829/f2">Paris, Bibliotheque Nationale man. lat. 6541A</ref></name> (accessed 2022-01-03),
+                 <locus from="179r" to="192r">ff. 179r-92r</locus>
+                 <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>.
+               </witness>
+              <witness xml:id="Sx">
+                <abbr type="siglum">S<hi rend="superscript">x</hi></abbr> 
+                <name>Salamanca, Bibl. Univ. 2055</name>,
+                <locus from="44r" to="47r">ff. 44r-47r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="Tk">
+                <abbr type="siglum">T<hi rend="superscript">k</hi></abbr> 
+                <name><ref target="https://digi.vatlib.it/view/MSS_Vat.lat.2112">Vatican, Biblioteca Apostolica lat. 2112</ref></name> (accessed 2022-01-03),
+                <origDate notBefore="1300" notAfter="1350">early fourteenth century</origDate>
+              </witness>
+               <witness xml:id="Tkt">
+                 <abbr type="siglum">T<hi rend="superscript">kt</hi></abbr> 
+                 <name>Vatican, Biblioteca Apostolica lat. 2112</name>, first hand,
+                 <origDate notBefore="1300" notAfter="1350">early fourteenth century</origDate>
+               </witness>
+               <witness xml:id="Tksl">
+                 <abbr type="siglum">T<hi rend="superscript">ksl</hi></abbr> 
+                 <name>Vatican, Biblioteca Apostolica lat. 2112</name>, supra lineam,
+                 <origDate notBefore="1300" notAfter="1350">early fourteenth century</origDate>
+               </witness>
+              <witness xml:id="Tkac">
+                <abbr type="siglum">T<hi rend="superscript">kac</hi></abbr> 
+                <name>Vatican, Biblioteca Apostolica lat. 2112</name>, ante correctionem,
+                <origDate notBefore="1300" notAfter="1350">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="Tkpc">
+                <abbr type="siglum">T<hi rend="superscript">kpc</hi></abbr> 
+                <name>Vatican, Biblioteca Apostolica lat. 2112</name>, post correctionem,
+                <origDate notBefore="1300" notAfter="1350">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="Uk">
+                <abbr type="siglum">U<hi rend="superscript">k</hi></abbr> 
+                <name>Vaticanus, Bibl. Apost. Vat., Chig., G. V. 131</name>,
+                <locus from="87r" to="88r">ff. 87r-88v</locus>
+                <origDate notBefore="1258" to="1299">late thirteenth century</origDate>
+              </witness> 
+              <witness xml:id="Um">
+                <abbr type="siglum">U<hi rend="superscript">m</hi></abbr> 
+                <name>Venetus, S. Marci, lat. VI, 43 (=2488)</name>,
+                <locus from="227v" to="231r">ff. 227v-231r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness> 
+              <witness xml:id="Umt">
+                <abbr type="siglum">U<hi rend="superscript">mt</hi></abbr> 
+                <name>Venetus, S. Marci, lat. VI, 43 (=2488), first hand</name>,
+                <locus from="227v" to="231r">ff. 227v-231r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness> 
+              <witness xml:id="Umsl">
+                <abbr type="siglum">U<hi rend="superscript">msl</hi></abbr> 
+                <name>Venetus, S. Marci, lat. VI, 43 (=2488), supra lineam</name>,
+                <locus from="227v" to="231r">ff. 227v-231r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness> 
+              <witness xml:id="Ummg">
+                <abbr type="siglum">U<hi rend="superscript">mmg</hi></abbr> 
+                <name>Venetus, S. Marci, lat. VI, 43 (=2488), in margine</name>,
+                <locus from="227v" to="231r">ff. 227v-231r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="Uw">
+                <abbr type="siglum">U<hi rend="superscript">w</hi></abbr> 
+                <name>Venetus, S. Marci, lat. VI, 44 (=2846)</name>,
+                <locus from="48v" target="50v">ff. 48v-50v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="Uwac">
+                <abbr type="siglum">U<hi rend="superscript">wac</hi></abbr> 
+                <name>Venetus, S. Marci, lat. VI, 44 (=2846), ante correctionem</name>,
+                <locus from="48v" target="50v">ff. 48v-50v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>  
+             <witness xml:id="Uwt">
+               <abbr type="siglum">U<hi rend="superscript">wt</hi></abbr> 
+               <name>Venetus, S. Marci, lat. VI, 44 (=2846), first hand</name>,
+               <locus from="48v" target="50v">ff. 48v-50v</locus>
+               <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+             </witness> 
+              <witness xml:id="Uwpc">
+                <abbr type="siglum">U<hi rend="superscript">wpc</hi></abbr> 
+                <name>Venetus, S. Marci, lat. VI, 44 (=2846), post correctionem</name>,
+                <locus from="48v" target="50v">ff. 48v-50v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness> 
+               <witness xml:id="Uwmg">
+                 <abbr type="siglum">U<hi rend="superscript">wmg</hi></abbr> 
+                 <name>Venetus, S. Marci, lat. VI, 44 (=2846), in margine</name>,
+                 <locus from="48v" target="50v">ff. 48v-50v</locus>
+                 <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+               </witness>  
+                <witness xml:id="Uwsl">
+                  <abbr type="siglum">U<hi rend="superscript">wsl</hi></abbr> 
+                  <name>Venetus, S. Marci, lat. VI, 44 (=2846), supra lineam</name>,
+                  <locus from="48v" target="50v">ff. 48v-50v</locus>
+                  <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+                </witness> 
+              <witness xml:id="Va">
+                <abbr type="siglum">V<hi rend="superscript">a</hi></abbr> 
+                <name><ref target="https://digi.vatlib.it/view/MSS_Vat.lat.2174">Vatican, Biblioteca Apostolica lat. 2174</ref></name> (accessed 2022-01-03),
+                <locus from="72r" to="77r">ff. 72r-77r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="Vc">
+                <abbr type="siglum">V<hi rend="superscript">c</hi></abbr> 
+                <name><ref target="https://digi.vatlib.it/view/MSS_Vat.lat.2176">Vatican, Biblioteca Apostolica lat. 2176</ref></name> (accessed 2022-01-03),
+                <locus from="10r" to="11r">ff. 10r-11r</locus>
+                <origDate notBefore="1350" notAfter="1399">late fourteenth century</origDate>
+              </witness>
+              <witness xml:id="Xe">
+                <abbr type="siglum">X<hi rend="superscript">3</hi></abbr> 
+                <name>Erfurt, Bibliothek Amploniana qu. 237</name>,
+                <locus from="54v" to="60r">ff. 154v-60v</locus>
+                <origDate when="1329">1329</origDate>
+              </witness>             
+              <witness xml:id="Xp">
+                <abbr type="siglum">X<hi rend="superscript">p</hi></abbr> 
+                <name>Patavinus, Bibl. Universitatis, 1418</name>,
+                <locus from="1r" to="56v">ff. 31v-34v</locus>
+                <origDate when="1293">1293</origDate>
+              </witness> 
+              <witness xml:id="Yk">
+                <abbr type="siglum">Y<hi rend="superscript">k</hi></abbr> 
+                <name>Assisiensis, Bibl. Communalis, 663</name>,
+                <locus from="43v" to="47v">ff. 43v-47v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="Yp">
+                <abbr type="siglum">Y<hi rend="superscript">p</hi></abbr> 
+                <name>Paris, Bibl. Nat. lat. 3121A</name>,
+                <locus from="219r" to="220r">ff. 219r-220r</locus>
+                <origDate notBefore="1350" notAfter="1449">late fourteenth to early fifteenth century</origDate>
+                <msDesc>
+                  <msIdentifier><geogName>Paris,</geogName><institution>Bibl. Nat.</institution><msName>lat. 3121A</msName></msIdentifier>
+                  <msContents><p>Contains problems 1, 2, 8, 9, 16, 21, 26, 28, 31, 34, 38, 40, 49, then 41.</p></msContents>
+                </msDesc>
+              </witness>
+              <witness xml:id="Yz">
+                <abbr type="siglum">Y<hi rend="superscript">z</hi></abbr> 
+                <name>Paris, Bibl. Nat. 6327</name>,
+                <locus from="52v" target="56v">ff. 52v-56v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="Yzt">
+                <abbr type="siglum">Y<hi rend="superscript">zt</hi></abbr> 
+                <name>Paris, Bibl. Nat. 6327, first hand</name>,
+                <locus from="52v" target="56v">ff. 52v-56v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="Yzsl">
+                <abbr type="siglum">Y<hi rend="superscript">zsl</hi></abbr> 
+                <name>Paris, Bibl. Nat. 6327, supra lineam</name>,
+                <locus from="52v" target="56v">ff. 52v-56v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+               <witness xml:id="Zn">
+                 <abbr type="siglum">Z<hi rend="superscript">n</hi></abbr> 
+                 <name><ref target="https://manuscripta.at/?ID=880">Claustroneoburgensis, Bibl. Monsterii, 677</ref></name> (accessed 2022-01-03),
+                 <locus from="136v" to="150v">ff. 136v-150v</locus>
+                 <origDate notBefore="1350" notAfter="1399">second half of fourteenth century</origDate>
+               </witness>
+              <witness xml:id="Zv">
+                <abbr type="siglum">Z<hi rend="superscript">v</hi></abbr> 
+                <name>Vienna, Bibl. Nat. 2416</name>,
+                <locus from="30r" to="32v">ff. 30r-32v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="Zw">
+                <abbr type="siglum">Z<hi rend="superscript">w</hi></abbr> 
+                <name>Vienna, Bibl. Nat. 125</name>,
+                <locus from="106r" to="110r">ff. 106r-110r</locus>
+                <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+              </witness>
+               <witness xml:id="Zwt">
+                 <abbr type="siglum">Z<hi rend="superscript">wt</hi></abbr> 
+                 <name>Vienna, Bibl. Nat. 125, first hand</name>,
+                 <locus from="106r" to="110r">ff. 106r-110r</locus>
+                 <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+               </witness>
+                <witness xml:id="Zwmg">
+                  <abbr type="siglum">Z<hi rend="superscript">wmg</hi></abbr> 
+                  <name>Vienna, Bibl. Nat. 125, in margine</name>,
+                  <locus from="106r" to="110r">ff. 106r-110r</locus>
+                  <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+                </witness>
+                <witness xml:id="Zwac">
+                  <abbr type="siglum">Z<hi rend="superscript">wac</hi></abbr> 
+                  <name>Vienna, Bibl. Nat. 125, ante correctionem</name>,
+                  <locus from="106r" to="110r">ff. 106r-110r</locus>
+                  <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+                </witness>
+              <witness xml:id="Zwpc">
+                <abbr type="siglum">Z<hi rend="superscript">wpc</hi></abbr> 
+                <name>Vienna, Bibl. Nat. 125, post correctionem</name>,
+                <locus from="106r" to="110r">ff. 106r-110r</locus>
+                <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+              </witness>
+             <witness xml:id="Zwsl">
+               <abbr type="siglum">Z<hi rend="superscript">wsl</hi></abbr> 
+               <name>Vienna, Bibl. Nat. 125, supra lineam</name>,
+               <locus from="106r" to="110r">ff. 106r-110r</locus>
+               <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+             </witness>
+              <witness xml:id="AL30">
+                <abbr type="siglum">AL30</abbr> 
+                <name>Admont, Bibl. Mon. 345</name>,
+                <locus from="99r" to="101r">ff. 99r-101r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+               <witness xml:id="AL30t">
+                 <abbr type="siglum">AL30<hi rend="superscript">t</hi></abbr> 
+                 <name>Admont, Bibl. Mon. 345, first hand</name>,
+                 <locus from="99r" to="101r">ff. 99r-101r</locus>
+                 <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+               </witness>
+               <witness xml:id="AL30mg">
+                 <abbr type="siglum">AL30<hi rend="superscript">mg</hi></abbr> 
+                 <name>Admont, Bibl. Mon. 345, in margine</name>,
+                 <locus from="99r" to="101r">ff. 99r-101r</locus>
+                 <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+               </witness>
+              <witness xml:id="AL155">
+                <abbr type="siglum">AL155</abbr> 
+                <name>Brugge, Bibl. Pub. 476</name>,
+                <locus from="111v" to="113v">ff. 111v-13v</locus>
+                <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL155t">
+                <abbr type="siglum">AL155<hi rend="superscript">t</hi></abbr> 
+                <name>Brugge, Bibl. Pub. 476, first hand</name>,
+                <locus from="111v" to="113v">ff. 111v-13v</locus>
+                <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL155pc">
+                <abbr type="siglum">AL155<hi rend="superscript">pc</hi></abbr> 
+                <name>Brugge, Bibl. Pub. 476, post correctionem</name>,
+                <locus from="111v" to="113v">ff. 111v-13v</locus>
+                <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL201">
+                <abbr type="siglum">AL201</abbr> 
+                <name>Prague, Bibl. Pub. atque Univ., IV. D. 6</name>,
+                <locus from="189v" to="192r">ff. 189v-192r</locus>
+                <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL253">
+                <abbr type="siglum">AL253</abbr> 
+                <name>Cambridge, Bibl. Peterhouse 121</name>,
+                <locus from="168v" to="171r">ff. 168v-171r</locus>
+                <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+              </witness>
+              <witness xml:id="AL263">
+                <abbr type="siglum">AL263</abbr> 
+                <name>Cambridge, Bibl. Univ. Kh, II, 5</name>,
+                <locus from="266v" to="269v">ff. 266v-269v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL366">
+                <abbr type="siglum">AL366</abbr> 
+                <name>Oxford, Bibl. Coll. Merton 270</name>,
+                <locus from="158v" to="161r">ff. 158v-161r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL411">
+                <abbr type="siglum">AL411</abbr> 
+                <name>Angers, Bibl. Mun. 450</name>,
+                <locus from="88v" to="91r">ff. 88v-91r</locus>
+                <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+              </witness>
+              <witness xml:id="AL411t">
+                <abbr type="siglum">AL411<hi rend="superscript">t</hi></abbr> 
+                <name>Angers, Bibl. Mun. 450, first hand</name>,
+                <locus from="88v" to="91r">ff. 88v-91r</locus>
+                <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+              </witness>
+              <witness xml:id="AL411sl">
+                <abbr type="siglum">AL411<hi rend="superscript">sl</hi></abbr> 
+                <name>Angers, Bibl. Mun. 450, supra lineam</name>,
+                <locus from="88v" to="91r">ff. 88v-91r</locus>
+                <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+              </witness>
+              <witness xml:id="AL426">
+                <abbr type="siglum">AL426</abbr> 
+                <name>St. Omer, Bibl. Mun. 598</name>,
+                <locus from="199r" to="202v">ff. 199r-202v</locus>
+                <origDate notBefore="1258" notAfter="1349">late thirteenth to early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL459">
+                <abbr type="siglum">AL459</abbr> 
+                <name>Cambrai, Bibl. Mun. 908</name>,
+                <locus from="355r" to="361r">ff. 355r-361r</locus>
+                <origDate notBefore="1258" notAfter="1349">late thirteenth to early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL460">
+                <abbr type="siglum">AL460</abbr> 
+                <name>Cambrai, Bibl. Mun. 921</name>,
+                <locus from="172r" to="176v">ff. 172r-176v</locus>
+                <origDate notBefore="1258" notAfter="1349">late thirteenth to early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL517">
+                <abbr type="siglum">AL517</abbr> 
+                <name>Paris, Bibl. Maz. 774</name>,
+                <locus from="243r" to="245r">ff. 243r-245r</locus>
+                <origDate notBefore="1258" notAfter="1399">late thirteenth to fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL562">
+                <abbr type="siglum">AL562</abbr> 
+                <name>Paris, Bibl. Nat. 6307</name>,
+                <locus from="231v" to="235v">ff. 231v-235v</locus>
+                <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+              </witness>
+               <witness xml:id="AL562ac">
+                 <abbr type="siglum">AL562<hi rend="superscript">ac</hi></abbr> 
+                 <name>Paris, Bibl. Nat. 6307, ante correctionem</name>,
+                 <locus from="231v" to="235v">ff. 231v-235v</locus>
+                 <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+               </witness>
+               <witness xml:id="AL562pc">
+                 <abbr type="siglum">AL562<hi rend="superscript">pc</hi></abbr> 
+                 <name>Paris, Bibl. Nat. 6307, post correctionem</name>,
+                 <locus from="231v" to="235v">ff. 231v-235v</locus>
+                 <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+               </witness>
+              <witness xml:id="AL649">
+                <abbr type="siglum">AL649</abbr> 
+                <name>Paris, Bibl. Nat. 15081</name>,
+                <locus from="36v" to="39v">ff. 36v-39v</locus>
+                <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+              </witness>
+               <witness xml:id="AL649t">
+                 <abbr type="siglum">AL649<hi rend="superscript">t</hi></abbr> 
+                 <name>Paris, Bibl. Nat. 15081, first hand</name>,
+                 <locus from="36v" to="39v">ff. 36v-39v</locus>
+                 <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+               </witness>
+               <witness xml:id="AL649sl">
+                 <abbr type="siglum">AL649<hi rend="superscript">sl</hi></abbr> 
+                 <name>Paris, Bibl. Nat. 15081, supra lineam</name>,
+                 <locus from="36v" to="39v">ff. 36v-39v</locus>
+                 <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+               </witness>
+              <witness xml:id="AL703">
+                <abbr type="siglum">AL703</abbr> 
+                <name>Paris, Bibl. Nat. 16633</name>,
+                <locus from="55v" to="60v">ff. 55v-60v</locus>
+                <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+              </witness>
+             <witness xml:id="AL703t">
+               <abbr type="siglum">AL703<hi rend="superscript">t</hi></abbr> 
+               <name>Paris, Bibl. Nat. 16633, first hand</name>,
+               <locus from="55v" to="60v">ff. 55v-60v</locus>
+               <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+             </witness>
+             <witness xml:id="AL703sl">
+               <abbr type="siglum">AL703<hi rend="superscript">sl</hi></abbr> 
+               <name>Paris, Bibl. Nat. 16633, supra lineam</name>,
+               <locus from="55v" to="60v">ff. 55v-60v</locus>
+               <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+             </witness>
+              <witness xml:id="AL703mg">
+                <abbr type="siglum">AL703<hi rend="superscript">mg</hi></abbr> 
+                <name>Paris, Bibl. Nat. 16633, in margine</name>,
+                <locus from="55v" to="60v">ff. 55v-60v</locus>
+                <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+              </witness>
+              <witness xml:id="AL781">
+                <abbr type="siglum">AL781</abbr> 
+                <name>Vendome, Bibl. Mun. 111</name>,
+                <locus from="74v" to="77v">ff. 74v-77v</locus>
+                <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+              </witness>
+               <witness xml:id="AL781ac">
+                 <abbr type="siglum">AL781<hi rend="superscript">ac</hi></abbr> 
+                 <name>Vendome, Bibl. Mun. 111, ante correctionem</name>,
+                 <locus from="74v" to="77v">ff. 74v-77v</locus>
+                 <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+               </witness>
+               <witness xml:id="AL781pc">
+                 <abbr type="siglum">AL781<hi rend="superscript">pc</hi></abbr> 
+                 <name>Vendome, Bibl. Mun. 111, post correctionem</name>,
+                 <locus from="74v" to="77v">ff. 74v-77v</locus>
+                 <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+               </witness>  
+              <witness xml:id="AL853">
+                <abbr type="siglum">AL853</abbr> 
+                <name>Erfurt, Bibl. Amp. fol. 16</name>,
+                <locus from="28r" to="30v">ff. 28r-30v</locus>
+                <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL853t">
+                <abbr type="siglum">AL853<hi rend="superscript">t</hi></abbr> 
+                <name>Erfurt, Bibl. Amp. fol. 16, first hand</name>,
+                <locus from="28r" to="30v">ff. 28r-30v</locus>
+                <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL853pc">
+                <abbr type="siglum">AL853<hi rend="superscript">pc</hi></abbr> 
+                <name>Erfurt, Bibl. Amp. fol. 16, post correctionem</name>,
+                <locus from="28r" to="30v">ff. 28r-30v</locus>
+                <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL862">
+                <abbr type="siglum">AL862</abbr> 
+                <name>Erfurt, Bibl. Amp. fol. 26</name>,
+                <locus from="157r" to="160r">ff. 157r-160r</locus>
+                <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL862t">
+                <abbr type="siglum">AL862<hi rend="superscript">t</hi></abbr> 
+                <name>Erfurt, Bibl. Amp. fol. 26, first hand</name>,
+                <locus from="157r" to="160r">ff. 157r-160r</locus>
+                <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL862sl">
+                <abbr type="siglum">AL862<hi rend="superscript">sl</hi></abbr> 
+                <name>Erfurt, Bibl. Amp. fol. 26, supra lineam</name>,
+                <locus from="157r" to="160r">ff. 157r-160r</locus>
+                <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL1249">
+                <abbr type="siglum">AL1249</abbr> 
+                <name>Valencia, Bibl. Cap. 86 (=236)</name>,
+                <locus from="82r" to="85v">ff. 82r-85v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL1249t">
+                <abbr type="siglum">AL1249<hi rend="superscript">t</hi></abbr> 
+                <name>Valencia, Bibl. Cap. 86 (=236), first hand</name>,
+                <locus from="82r" to="85v">ff. 82r-85v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL1249pc">
+                <abbr type="siglum">AL1249<hi rend="superscript">pc</hi></abbr> 
+                <name>Valencia, Bibl. Cap. 86 (=236), post correctionem</name>,
+                <locus from="82r" to="85v">ff. 82r-85v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL1300">
+                <abbr type="siglum">AL1300</abbr> 
+                <name>Cesena, Bibl. Malat. DXXII.2</name>,
+                <locus from="193r" to="199r">ff. 193r-99r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL1300t">
+                <abbr type="siglum">AL1300<hi rend="superscript">t</hi></abbr> 
+                <name>Cesena, Bibl. Malat. DXXII.2, first hand</name>,
+                <locus from="193r" to="199r">ff. 193r-99r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL1300sl">
+                <abbr type="siglum">AL1300<hi rend="superscript">sl</hi></abbr> 
+                <name>Cesena, Bibl. Malat. DXXII.2, supra lineam</name>,
+                <locus from="193r" to="199r">ff. 193r-99r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL1300pc">
+                <abbr type="siglum">AL1300<hi rend="superscript">pc</hi></abbr> 
+                <name>Cesena, Bibl. Malat. DXXII.2, post correctionem</name>,
+                <locus from="193r" to="199r">ff. 193r-99r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL1674">
+                <abbr type="siglum">AL1674</abbr> 
+                <name>Cracow, Bibl. Jag. 654</name>,
+                <locus from="13v" to="15v">ff. 13v-15v</locus>
+                <origDate when="1366">1366</origDate>
+                <msDesc>
+                  <msIdentifier><geogName>Cracow,</geogName><institution>Bibl. Jag.</institution><msName>654</msName></msIdentifier>
+                  <msContents><p>Contains loose paraphrases of many of the problems, out of order. I have omitted it.</p></msContents>
+                </msDesc>
+              </witness>
+              <witness xml:id="AL1721">
+                <abbr type="siglum">AL1721</abbr> 
+                <name>Vatican, Vat. Borgh. 37</name>,
+                <locus from="282v" to="286r">ff. 282v-286r</locus>
+                <origDate notBefore="1300" notAfter="1349">early fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL1753">
+                <abbr type="siglum">AL1753</abbr> 
+                <name>Vatican, Vat. Chis. E. VIII. 254</name>,
+                <locus from="100v" target="103v">ff. 100v-103v</locus>
+                <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+              </witness>
+              <witness xml:id="AL1764">
+                <abbr type="siglum">AL1764</abbr> 
+                <name>Vatican, Vat. Ottobon. lat. 2083</name>,
+                <locus>ff. 39r-42v</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL1885">
+                <abbr type="siglum">AL1885</abbr> 
+                <name>Vatican, Vat. lat. 3007</name>,
+                <locus from="23r" to="24r">ff. 23r-24r</locus>
+                <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>
+              </witness>
+              <witness xml:id="AL1900">
+                <abbr type="siglum">AL1900</abbr> 
+                <name>Vatican, Vat. lat. 10452</name>,
+                <locus from="89r" to="90v">ff. 89r-90v</locus>
+                <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+              </witness>
+               <witness xml:id="AL1900t">
+                 <abbr type="siglum">AL1900<hi rend="superscript">t</hi></abbr> 
+                 <name>Vatican, Vat. lat. 10452, first hand</name>,
+                 <locus from="89r" to="90v">ff. 89r-90v</locus>
+                 <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+               </witness>
+               <witness xml:id="AL1900mg">
+                 <abbr type="siglum">AL1900<hi rend="superscript">mg</hi></abbr> 
+                 <name>Vatican, Vat. lat. 10452, in margine</name>,
+                 <locus from="89r" to="90v">ff. 89r-90v</locus>
+                 <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+               </witness>
+                <witness xml:id="AL1900ac">
+                  <abbr type="siglum">AL1900<hi rend="superscript">ac</hi></abbr> 
+                  <name>Vatican, Vat. lat. 10452, ante correctionem</name>,
+                  <locus from="89r" to="90v">ff. 89r-90v</locus>
+                  <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+                </witness>
+                <witness xml:id="AL1900pc">
+                  <abbr type="siglum">AL1900<hi rend="superscript">pc</hi></abbr> 
+                  <name>Vatican, Vat. lat. 10452, post correctionem</name>,
+                  <locus from="89r" to="90v">ff. 89r-90v</locus>
+                  <origDate notBefore="1258" notAfter="1299">late thirteenth century</origDate>
+                </witness>
+          <witness xml:id="m">
+            <abbr type="siglum">m</abbr> 
+            <name>Expositio succinta problematum Aristotelis quam Petrus edidit Paduanus, ed. Illarius</name>
+            <origDate when="1475"/>
+          </witness>
+          <witness xml:id="v">
+            <abbr type="siglum">v</abbr>
+            <name>Expositio preclarissimi atque eximii artium ac medicine doctoris Petri de Ebano Patauini in librorum problematum Aristotelis, ed. anon.</name>
+            <origDate when="1482"></origDate>
+          </witness>
+          <witness xml:id="Klek1922">
+            <abbr type="siglum">Klek1922</abbr> 
+            <name>Aristotelis quae feruntur problemata physica, ed. Klek</name>
+            <origDate when="1922"></origDate>
+          </witness>
+            </listWit>  
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="edition" xml:id="edition-text" xml:space="preserve">
+        <div type="textpart" subtype="book" n="19" xml:id="book-19">
+
+<div type="textpart" subtype="problem" n="3" xml:id="part3">
+<p n="1">
+PROPTER QUID
+<app xml:id="a1"><lem wit="#Ap #Hv #Lb #Ma #Mb #Mh #Nw #Px #Pz #Sx #Tk #Uk #Um #Uwpc #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">PARIPATEM</lem>
+<rdg wit="#Gu #Pi" ana="#lexical">PER YPOTE</rdg></app>
+CANTANTES MAXIME
+<app xml:id="a2"><lem wit="#Ap #Gu #Lb #Pz #Uw #Klek1922">RUMPUNTUR</lem>
+<rdg wit="#Px #Tk #Uk #Yk #AL253 #AL703 #AL1249" ana="#morphological">RUMPIMUR</rdg>
+<rdg wit="#Hv #Ma #Mb #Mh #Nw #Pi #Sx #Um #Va #Vc #Xe #Xp #Yz #Zn #Zv #Zw #AL30 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885" ana="#morphological">RUMPIMUS</rdg></app>
+NICHILOMINUS QUAM 
+<app xml:id="a3"><lem wit="#Gu #Hv #Ma #Mb #Ob #Pi #Px #Pz #Sx #Tk #Xp #Yk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Zn #Zw #AL30 #AL155 #AL201 #AL253 #AL366 #AL411 #AL426 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">NITEM</lem>
+<rdg wit="#Zv #AL263" ana="#lexical">NECESSE</rdg></app>
+<app xml:id="a4"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Vc #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">ET SUPERIORA</lem>
+<rdg wit="#Va #Xe" ana="#subtractive"/></app>,
+CUM DISTANTIA PLURI? AUT QUIA DIFFICILLIME HANC CANTANT, ET IPSA EST PRINCIPIUM? DIFFICILE AUTEM PROPTER ELEUATIONEM ET DEPRESSIONEM UOCIS. IN HIIS AUTEM LABOR, LABORANS AUTEM
+<app xml:id="a5"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xp #Yk #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">MAGIS</lem>
+<rdg wit="#Xe #Zn" ana="#morphological">MAXIME</rdg></app>
+CORRUMPITUR.
+</p>
+</div>
+
+<div type="textpart" subtype="problem" n="4" xml:id="part4">
+<p n="1">
+PROPTER 
+<app xml:id="a6"><lem wit="#Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411sl #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">QUID</lem>
+<rdg wit="#Ap #AL411t" ana="#subtractive"/></app> 
+<app xml:id="a7"><lem wit="#Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL366 #AL411sl #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">SECUNDUM</lem>
+<rdg wit="#AL263 #AL411t" ana="#subtractive"/></app>  
+<app xml:id="a8"><lem wit="#Uk #Yk #Pi">HANC DIFFICULTER YPATEN</lem>
+<rdg wit="#Ap #Px #Tk" ana="#lexical">HANC DIFFICULTER PARYPATEM</rdg>
+<rdg wit="#Gu #Lb #Hv #Ma #Mb #Nw #Ob #Um #Uwmg #Uwsl #Va #Vc #Xe #Xp #Yz #Zn #Zv #Zw #AL155 #AL201 #AL253 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703t #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900" ana="#lexical">HANC PARYPATEM DIFFICULTER</rdg>
+<rdg wit="#Mh #AL263" ana="#lexical #subtractive">PARIPATEM DIFFICULTER</rdg></app>,
+<app xml:id="a9"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL426 #AL459 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">FACILE</lem>
+<rdg wit="#Yz #AL411 #AL460" ana="#additive">FACILE EST</rdg></app>
+<app xml:id="a10"><lem wit="#Ap #Gu #Lb #Hv #Nw #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Xe #Yk #Yz #Zn #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">ETIAM</lem>
+<rdg wit="#Ma #Mb #Ob #Va #Xp" ana="#lexical">AUTEM</rdg>
+<rdg wit="#Va #Mh #AL460" ana="#lexical">ET</rdg></app>
+DIUISIO ALTERIUS? AUT QUIA CUM
+<app xml:id="a11"><lem wit="#Ap #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Zn #AL30 #AL253 #AL263 #AL562 #AL649 #AL703 #AL1249 #AL1900">REMISSIONE</lem>
+<rdg wit="#Gu #Sx #Yz #Zv #Zw #AL155 #AL201 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885" ana="#morphological">REMISSIONEM</rdg></app>
+YPATE
+<app xml:id="a12"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1249 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">ET</lem>
+<rdg wit="#Nw #AL426 #AL862 #AL1300" ana="#subtractive"/></app> 
+SIMUL POST 
+<app xml:id="a13"><lem wit="#Ap #Hv #Lb #Mh #Px #Tk #Vc #Uk #Um #Uw #Yk #Yzsl #Zn #AL253 #AL459 #AL562pc #AL703 #AL781pc #AL853 #AL1249 #AL1721">DIMISSIONEM</lem>
+<rdg wit="#Pi #Va" ana="#additive">DURATIONEM UEL DIUISIONEM</rdg>  
+<rdg wit="#Ma #Mb #Nw #Ob #Sx #Yzt #Zn #Zwpc #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL460 #AL517 #AL649 #AL862 #AL1300 #AL1753 #AL1764 #AL1900" ana="#lexical">DURATIONEM</rdg>
+<rdg wit="#Pz #Xe" ana="#lexical">DIMENSIONEM</rdg> 
+<rdg wit="#Gu #Zwac #AL562ac #AL781ac #AL1885" ana="#additive">DURATIONEM DIMISSIONEM</rdg></app>
+LEUE SURSUM PROICERE? 
+<app xml:id="a14"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1753 #AL1885 #AL1900">PROPTER HOC</lem>
+<rdg wit="#AL1721 #AL1764" ana="#subtractive">PROPTER</rdg></app>
+AUTEM UIDETUR ET QUE
+<app xml:id="a15"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL366 #AL411 #AL426 #AL459 #AL460 #AL562 #AL649 #AL703 #AL781 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">DICUNTUR</lem>
+<rdg wit="#AL263 #AL853" ana="#morphological">DICUNT</rdg></app>
+AD VNAM
+<app xml:id="a16"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Nw #Ob #Pi #Px #Pz #Sx #Tksl #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">AD</lem>
+<rdg wit="#Tkt #Uk #m #v" ana="#subtractive"/></app>  
+<app xml:id="a17"><lem wit="#Gu #Hv #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tksl #Uk #Um #Uw #Va #Vc #Xe #Xp #Yzt #Zn #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">HANC QUAM CIRCA</lem>
+<rdg wit="#Yk #AL459" ana="#morphological">HANC QUE CIRCA</rdg>
+<rdg wit="#AL426 #AL862" ana="#lexical">HANC QUAM TUNC</rdg></app>
+<app xml:id="a18"><lem wit="#Ap #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Uk #Uw #Xe #Yk #Zn #AL155 #AL253 #AL411 #AL459 #AL460 #AL517 #AL562 #AL703 #AL781 #AL1249 #AL1753">NITEM</lem>
+<rdg wit="#Yzt #Zv #Zw #AL862" ana="#lexical">UOCEM</rdg>  
+<rdg wit="#Gu #Hv #Um #Va #AL366 #AL853 #AL1721 #AL1885 #AL1900" ana="#lexical">MENTEM</rdg>
+<rdg wit="#Sx #Vc #Xp #AL30 #AL201 #AL263 #AL426 #AL649 #AL1300 #AL1764" ana="#subtractive"/></app>
+<app xml:id="a19"><lem wit="#Ap #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Pz #Tk #Uk #Uw #Va #Xe #Yk #Yz #Zn #Zv #Zwt #AL155 #AL253 #AL411 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL862 #AL1249 #AL1900" n="NITEM"/>
+<rdg wit="#Gu #Sx #Um #Va #Vc #Xp #Zwmg #AL30 #AL201 #AL263 #AL366 #AL426 #AL853 #AL1300 #AL1721 #AL1764 #AL1885" ana="#additive">NECESSE</rdg></app>.
+OPORTET ENIM CUM 
+<app xml:id="a20"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Px #Pz #Tk #Uk #Uw #Va #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1753 #AL1764 #AL1885">REMISSIONE ET DIMISSIONE</lem>
+<rdg wit="#Vc #Pi" ana="#ordinal">DIMISSIONE ET REMISSIONE</rdg>
+<rdg wit="#Um #AL1721" ana="#morphological">REMISSIONE ET DIMISSIONEM</rdg>
+<rdg wit="#Sx #AL1300 #AL1900" ana="#lexical">REMISSIONE ET DIUISIONE</rdg></app>
+UALDE PROPRIA CONSUETUDINI AD UOLUNTATEM.
+<app xml:id="a21"><lem wit="#Ap #Gu #Hv #Lb #Mh #Pi #Px #Pz #Tk #Uk #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL253 #AL411 #AL459 #AL460 #AL1249">HUIUS</lem>
+<rdg wit="#Ma #Mb #Nw #Ob #Sx #Um #AL155 #AL201 #AL263 #AL366 #AL426 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900" ana="#lexical">HUIUSMODI</rdg></app>
+AUTEM
+<app xml:id="a22"><lem wit="#Ap #Hv #Lb #Mh #Nw #Ob #Px #Tk #Uk #Va #Vc #Xe #Yk #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL411 #AL426 #AL460 #AL517 #AL562 #AL649 #AL703 #AL862sl #AL1249 #AL1300 #AL1764 #AL1885 #AL1900">UTIQUE CUM</lem>
+<rdg wit="#Pi #Sx #Uw #Xp #AL862t" ana="#subtractive">UTIQUE</rdg>
+<rdg wit="#Gu #Ma #Mb #Um #Yz #AL366 #AL781 #AL853 #AL1721 #AL1753" ana="#lexical">UTIQUE TAMEN</rdg></app>
+CONSONANTIA QUEDAM CAUSA.
+</p>
+</div>
+
+<div type="textpart" subtype="problem" n="13" xml:id="part13">
+<p n="1">
+PROPTER QUID IN
+<app xml:id="a23"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Yk #Yz #Zn #Zw #AL30 #AL201 #AL253 AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">DYAPASON ACUTI</lem>
+<rdg wit="#Xp #AL155" ana="#lexical">DYAPASONATI<hi rend="superscript" cert="medium">UR</hi></rdg></app> 
+QUIDEM ANTIFONUM FIT GRAUE, 
+<app xml:id="a24"><lem wit="#Ap #Hv #Lb #Gu #Ma #Mh #Nw #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1885">HUIUS</lem>
+<rdg wit="#Mb #Px #Tk #AL201 #AL781 #AL1764 #AL1900" ana="#lexical">HUIUSMODI</rdg></app>
+AUTEM ACUTUM NON? 
+<app xml:id="a25"><lem wit="#Mhmg #Pi #Yz #AL411 #AL460">AUT</lem>
+<rdg wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mht #Nw #Ob #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL426 #AL459 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900" ana="#subtractive"/></app>
+QUIA MAXIME QUIDEM IN
+<app xml:id="a26"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mbmg #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw  #Va #Vc #Xe #Xp #Yz #Zn #Zv #Zw #AL30 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">AMBOBUS EST AMBORUM</lem>
+<rdg wit="#Yk #AL155" ana="#subtractive">AMBOBUS AMBORUM</rdg></app> 
+MELODIA? SI AUTEM NON, 
+<app xml:id="a27"><lem wit="#Ap #Gu #Hv #Lb #Ma #Nw #Ob #Pi #Px #Sx #Tk #Uk #Um #Uw #Va #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900ac">NON</lem>
+<rdg wit="#Mb #Mh #Pz #Vc #AL263 #AL781 #AL1900pc" ana="#subtractive"/></app>
+<app xml:id="a28"><lem wit="#Ap #Lb #Px #Tk #Uk #Yk">GRAUI</lem>
+<rdg wit="#Gu #Hv #Ma #Mb #Mh #Nw #Ob #Pi #Pz #Sx #Um #Uw #Va #Vc #Xe #Xp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900" ana="#morphological">GRAUE</rdg></app>,
+MAIUS ENIM EST.
+</p>
+</div>
+
+<div type="textpart" subtype="problem" n="17" xml:id="part17">
+<p n="1">
+PROPTER QUID
+<app xml:id="a29"><lem wit="#Ap #Hv #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zwt #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">QUINQUE</lem>
+<rdg wit="#Gu #Zwmg" ana="#lexical">QUANDOQUE</rdg></app>
+NON CANTANT
+<app xml:id="a30"><lem wit="#Ap #Gu #Hv #Mh #Ob #Pz #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">ANTIPHONA</lem>
+<rdg wit="#Ma #Mb #Nw #Pi #Px #Sx #Tk #AL253" ana="#morphological">ANTIFONAM</rdg></app>?  
+AUT QUIA NON EADEM CONSONA CONSONANTIE, QUEMADMODUM
+<app xml:id="a31"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zw #AL30 #AL155 #AL253 #AL263 #AL366 #AL411 #AL459 #AL460 #AL517 #AL703 #AL781 #AL853 #AL1721 #AL1753 #AL1885">IN DYAPASON</lem>
+<rdg wit="#Nw #Sx #AL201 #AL426 #AL649t #AL862 #AL1249 #AL1300 #AL1764" ana="#lexical">ET DYAPASON</rdg>
+<rdg wit="#Zv #AL649sl" ana="#additive">ET IN DYAPASON</rdg></app>? 
+ILLA ENIM IN GRAUI
+<app xml:id="a32"><lem wit="#Gu #Hv #Ma #Mb #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zwt #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">PROPORTIONALE</lem>
+<rdg wit="#Zn #Zv #Zwsl" ana="#lexical">PROPORTIONE</rdg></app>,
+SICUT ACUTA IN ACUTO, QUEMADMODUM 
+<app xml:id="a33"><lem wit="#Ap #Gu #Hv #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL155 #AL201 #AL253 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">IGITUR</lem> 
+<rdg wit="#AL263 #AL1300" ana="#subtractive"/></app>
+EADEM
+<app xml:id="a34"><lem wit="#Pi #AL253 #AL411 #AL1300 #AL1885">EST</lem>
+<rdg wit="#Ap #Gu #Hv #Ma #Mb #Mh #Nw #Ob #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1721 #AL1753 #AL1764 #AL1900" ana="#additive">EST IN</rdg></app>
+SIMUL ET ALIA. QUE AUTEM IN DYAPENTE ET DYATESSERON
+<app xml:id="a35"><lem wit="#Ap #Gu #Hv #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">NON HABENT</lem>
+<rdg wit="#Yz #AL862" ana="#morphological">NON HABET</rdg></app>,
+ITA QUARE NON APPARET  
+<app xml:id="a36"><lem wit="#Ap #Gu #Hv #Mh #Nw #Ob #Pi #Px #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">QUANDO</lem>
+<rdg wit="#Ma #Mb" ana="#lexical">QUONIAM</rdg></app>   
+ANTIPHONE SONUS,
+<app xml:id="a37"><lem wit="#Ap #Pi #Px #Tk #Uk">NON ENIM EST IDEM</lem>
+<rdg wit="#Gu #Ma #Mb #Mh #Nw #Ob #Sx #Um #Xe #Xp #Zv #Zw #AL30 #AL155 #AL201 #AL366 #AL426 #AL459 #AL517 #AL562 #AL649 #AL781 #AL862 #AL1300 #AL1753 #AL1764" ana="#ordinal">NON IDEM ENIM EST</rdg>
+<rdg wit="#Pz #Uwmg #Vc #Yz #Zn #AL253 #AL263 #AL411 #AL460 #AL703 #AL1249" ana="#ordinal">NON ENIM IDEM EST</rdg>  
+<rdg wit="#Va #AL1721 #AL1885 #AL1900" ana="#ordinal #subtractive">NON IDEM EST</rdg></app>.
+</p> 
+</div>
+
+<div type="textpart" subtype="problem" n="21" xml:id="part21">
+<p n="1">
+PROPTER QUID CANTANTIUM 
+<app xml:id="a38"><lem wit="#Ap #Gu #Hv #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">GRAUIUS CANTANTES</lem>
+<rdg wit="#Lb #Px #Tk" ana="#ordinal">CANTANTES GRAUIUS</rdg></app>
+ACUTE CANTANTIBUS, SI
+<app xml:id="a39"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Yk #Yp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">DISSONANT</lem>
+<rdg wit="#Xp #AL459" ana="#lexical">DISSOLUANT</rdg></app>,
+MAGIS 
+<app xml:id="a40"><lem wit="#Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Uw #Vc #Xe #Xp #Yk #Yp #Yz #Zn #Zv #Zwsl #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1300 #AL1753 #AL1764 #AL1900">MANIFESTI</lem>
+<rdg wit="#Ap #Gu #Um #Va #Zwt #AL411 #AL1721 #AL1885" ana="#morphological">MANIFESTE</rdg></app>
+<app xml:id="a41"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Va #Vc #Xe #Yk #Yp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885">FIUNT</lem>
+<rdg wit="#Uw #AL1900" ana="#lexical">SUNT</rdg></app>?
+SIMILITER AUTEM ET 
+<app xml:id="a42"><lem wit="#Ap #Gu #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Va #Vc #Xe #Xp #Yp #Yz #Zn #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">RITHIMO</lem>
+<rdg wit="#Hv #Yk #Zv #AL253 #AL1300" ana="#additive">IN RITHIMO</rdg></app>:
+<app xml:id="a43"><lem wit="#Ap #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1300 #AL1753 #AL1764 #AL1900">QUI</lem>
+<rdg wit="#Gu #AL1249 #AL1721 #AL1885" ana="#morphological">QUE</rdg></app>
+IN GRAUIORI PECCANTES
+<app xml:id="a44"><lem wit="#Gu #Hv #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Um #Uw #Va #Vc #Xe #Xp #Yk #Yp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">MANIFESTI MAGIS</lem>
+<rdg wit="#Tk #Uk" ana="#lexical">MANIFESTI FIUNT</rdg>
+<rdg wit="#Lb #Px" ana="#additive #ordinal">MAGIS MANIFESTI FIUNT</rdg></app>.
+UTRUM QUOD PLUS 
+<app xml:id="a45"><lem wit="#Ap #Gu #Hv #Lb #Mat #Ob #Pi #Px #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yp #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885">TEMPUS</lem>
+<rdg wit="#Mamg #Mb #Mh #Pz #Zn #AL703 #AL1249 #AL1900" ana="#morphological">TEMPORE</rdg></app>  
+GRAUI, HIC AUTEM
+<app xml:id="a46"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">MAGIS</lem>
+<rdg wit="#Tk #AL253" ana="#subtractive"/></app> 
+<app xml:id="a47"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Sx #Tk #Uk #Um #Uw #Va #Xe #Xp #Yk #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885">SENSIBILIS</lem>
+<rdg wit="#Va #Vc #Yz #AL460 #AL1900" ana="#morphological">SENSIBILE</rdg></app>?
+AUT QUIA 
+<app xml:id="a48"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1249 #AL1300 #AL1753 #AL1764 #AL1885 #AL1900">IN PLURI TEMPORE</lem> 
+<rdg wit="#AL426 #AL862" ana="#lexical">IN PLURITATEM PORE</rdg></app>
+MULTUM 
+<app xml:id="a49"><lem wit="#Ap #Gu #Lb #Ma #Mb #Ob #Px #Pz #Tk #Uk #Uw #Va #Yk #Zn #AL253 #AL703 #AL1249 #AL1900">SENSUM</lem>
+<rdg wit="#Hv #Mh #Pi #Sx #Um #Vc #Xe #Xp #Yp #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885" ana="#subtractive"/></app> 
+EXHIBET, UELOX AUTEM ET ACUTUM
+<app xml:id="a50"><lem wit="#Ap #Gu #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">LATET</lem>
+<rdg wit="#Yp #AL1300" ana="#subtractive"/></app> 
+PROPTER UELOCITATEM?
+</p>
+</div>
+
+<div type="textpart" subtype="problem" n="24" xml:id="part24">
+<p n="1">  
+PROPTER QUID IN TENUIBUS
+<app xml:id="a51"><lem wit="#Ap #Hv #Mh #Ob #Px #Pz #Tk #Uk #Uw #Vc #Xp #Yk #Yz #Zn #AL253 #AL263 #AL411 #AL460 #AL649 #AL703 #AL781 #AL1249 #AL1900">NITEM</lem>
+<rdg wit="#Gu #Ma #Mb #Pi #Sx #Um #Va #Xe #Zv #Zw #AL30 #AL155 #AL201 #AL366 #AL426 #AL459 #AL517 #AL562 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764" ana="#lexical">MENTEM</rdg></app>
+APPONERE, YPATE SOLA UIDETUR 
+<app xml:id="a52"><lem wit="#Gu #Hv #Ma #Mb #Mh #Ob #Pi #Um #Vc #Xe #Xp #Yz #Zw #AL30 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764">CONTRASONARE</lem>
+<rdg wit="#Sx #Uw #Va #Zn #Zv #AL155 #AL253 #AL1249 #AL1900" ana="#lexical">CONSONARE</rdg>
+<rdg wit="#Ap #Yk" ana="#lexicalal">RESONARE</rdg>
+<rdg wit="#Lb #Px #Tk #Uk" ana="#lexical">PERSONARE</rdg></app>? 
+AUT QUIA 
+<app xml:id="a53"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">CONNATURALIS</lem>
+<rdg wit="#AL426 #AL853 #AL862" ana="#lexical">CONTRANATURALIS</rdg></app>
+MAXIME 
+<app xml:id="a54"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">FIT</lem>
+<rdg wit="#AL460 #AL1900" ana="#lexical">SIT</rdg></app>
+SONO SONUS 
+<app xml:id="a55"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Um #Uw #Va #Vc #Xe #Xp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1900">QUI EST</lem> 
+<rdg wit="#Tk #Uk #Yk" ana="#subtractive">QUI</rdg></app> 
+AB IPSA PROPTER ID QUOD CONSONANS
+<app xml:id="a56"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">EST</lem>
+<rdg wit="#Uw #AL1900" ana="#subtractive"/></app>? 
+<app xml:id="a57"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">SIMUL</lem>
+<rdg wit="#AL253 #AL1249" ana="#lexical">SIMILIS</rdg></app>
+AUGERI 
+<app xml:id="a58"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">AUTEM</lem>
+<rdg wit="#Ob #Xp #AL781" ana="#lexical">A</rdg></app>    
+<app xml:id="a59"><lem wit="#Ap #Gu #Hv #Mh #Ob #Pi #Px #Sx #Tk #Uk #Uw #Vc #Xe #Xp #Yk #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">SIMILI</lem>
+<rdg wit="#Lb #Pz #Zn" ana="#lexical">SIMUL</rdg>
+<rdg wit="#Ma #Mb #Um #Va" ana="#lexical">SIMILITER</rdg></app>
+UIDETUR SOLUS. ALII UERO PROPTER PARUITATEM? 
+<app xml:id="a60"><lem wit="#Ap #Gu #Hv #Ma #Mb #Mh #Ob #Pi #Px #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">INMANIFESTI</lem>
+<rdg wit="#Yk #AL562" ana="#lexical">MANIFESTI</rdg>
+<rdg wit="#Lb #AL253" ana="#additive">INMANIFESTI QUE DICITUR MUSE UEL MESON IN MUSICA</rdg></app>.
+</p>
+</div>
+
+<div type="textpart" subtype="problem" n="31" xml:id="part31">
+<p n="1">    
+PROPTER QUID CIRCA PHRINICUM FUERUNT MAGIS 
+<app xml:id="a61"><lem wit="#Ap #Gu #Hv #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Tk #Uk #Um #Uw #Va #Xe #Xp #Yk #Yp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">DULCE</lem>
+<rdg wit="#Lb #Px #Vc #AL253" ana="#morphological">DULCES</rdg></app> 
+<app xml:id="a62"><lem wit="#Ap #Tk #Uk #Yk">CANTANTES</lem>
+<rdg wit="#Ob #Pi #Px #Pz #Um #Va #Xp #Yp #Zv #AL460 #AL1300 #AL1885" ana="#lexical">MELODIA</rdg>
+<rdg wit="#Gu #Hv #Mh #Sx #Um #Va #Xe #Xp #Yz #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL517 #AL562 #AL649 #AL781 #AL853 #AL862 #AL1721 #AL1753 #AL1764 #AL1900" ana="#lexical">MELODICIA</rdg>
+<rdg wit="#Ma #Mb #Uw #Zn #AL253 #AL703 #AL1249" ana="#lexical">MELODICI</rdg></app>?
+AUT PROPTER 
+<app xml:id="a63"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">ID</lem>
+<rdg wit="#AL426 #AL862" ana="#subtractive"/></app>
+QUOD MULTIPLICES 
+<app xml:id="a64"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yp #Yz #Zn #Zwt #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">SUNT</lem>
+<rdg wit="#Zv #Zwmg" ana="#lexical">FUERUNT</rdg>  </app>
+<app xml:id="a65"><lem wit="#Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Sx #Um #Uw #Vc #Xe #Xp #Yp #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">CANTUS TUNC</lem>
+<rdg wit="#Tk #Uk #Yk" ana="#subtractive">CANTUS</rdg></app>
+IN TRAGEDIIS METRORUM?     
+</p>  
+</div>
+
+<div type="textpart" subtype="problem" n="37" xml:id="part37">
+<p n="1">
+PROPTER 
+<app xml:id="a66"><lem wit="#Ap #Gu #Lb #Ma #Mb #Ob #Pi #Px #Sx #Tk #Uk #Um #Uw #Va #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 AL1300 #AL1721 #AL1753 #AL1900">QUID QUOD</lem> 
+<rdg wit="#Mh #Pz #Vc" ana="#subtractive">QUID</rdg></app>
+<app xml:id="a67"><lem wit="#Lb #Ma #Mb #Mh #Ob #Pi #Px #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 AL1300 #AL1721 #AL1753 #AL1764 #AL1900">EST</lem>
+<rdg wit="#Ap #Pz #AL366" ana="#subtractive"/>
+</app>  
+IN UOCE 
+<app xml:id="a68"><lem wit="#Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Sx #Tk #Uk #Um #Uw #Va #Vc #Xp #Yk #Yz #Zn #Zw #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">ACUTO EXISTENTE</lem>
+<rdg wit="#Xe #Zv #AL1900" ana="#morphological">ACUTA EXISTENTE</rdg>  </app> 
+SECUNDUM MODICUM, GRAUI AUTEM SECUNDUM MULTUM? GRAUE QUIDEM
+<app xml:id="a69"><lem wit="#Gu #Hv #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Um #Uw #Va #Vc #Xp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">ENIM</lem>
+<rdg wit="#Ap #Lb #Px #Tk #Uk #Xe #Yk" ana="#additive">ENIM EST</rdg></app> 
+PROPTER MULTITUDINEM GRAUE, ACUTUM AUTEM PROPTER PAUCITATEM UELOX 
+<app xml:id="a70"><lem wit="#Lb #Px #Tk #Uk #Uw #Va #Yk #Zn #AL253 #AL703 #AL1249 #AL1900">EST</lem>
+<rdg wit="#Gu #Hv #Ma #Mb #Mht #Ob #Sx #Um #Vc #Xe #Xp #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL649 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764" ana="#lexical">AUTEM</rdg>
+<rdg wit="#Ap #Pz" ana="#subtractive"/></app>.
+MOLESTUM MAGIS CANTARE ACUTA QUAM GRAUIA, ET PAUCI ASCENDENTIA POSSUNT CANTARE, ET LEGES DIRIGUNT, ET ACUTI 
+<app xml:id="a71"><lem wit="#Ap #Hv #Lb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Uw #Vc #Yk #Zn #AL253 #AL562 #AL703 #AL781 #AL1249 #AL1900t">DIFFICILES</lem>
+<rdg wit="#Ma #Mb #Um #Va #Xe #Xp #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL649 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900mg" ana="#morphological">DIFFICILE</rdg></app>  
+DIMITTERE PROPTER ID QUOD
+<app xml:id="a72"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Umsl #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL459 #AL517 #AL562 #AL649 #AL703 #AL781 #AL1249 #AL1764 #AL1900">TENSI SUNT</lem>
+<rdg wit="#AL426 #AL862 #AL1753" ana="#lexical">DENSI SUNT</rdg>
+<rdg wit="#AL853 #AL1721" ana="#lexical">TENTI SUNT</rdg></app>.
+<app xml:id="a73"><lem wit="#Ap #Gu #Hv #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Um #Uw #Va #Vc #Xe #Xp #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764">MINUS</lem>
+<rdg wit="#Lb #Px #Tk #Uk #Yk" ana="#additive">ET MINUS</rdg></app>
+<app xml:id="a74"><lem wit="#Ap #Lb #Px #Tk #Uk #Yk" n="MINUS"/> 
+<rdg wit="#Gu #Hv #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Um #Uw #Va #Vc #Xe #Xp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900" ana="#additive">EST</rdg></app> 
+OPUS MODICUM MOUERE QUAM MULTUM, QUARE ET AEREM. AUT IDEM 
+<app xml:id="a75"><lem wit="#Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">ACUTE</lem>
+<rdg wit="#AL411 #AL460" ana="#morphological">ACUTUM</rdg></app>
+SONANS ESSE 
+<app xml:id="a76"><lem wit="#Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL862 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">NATURA</lem>
+<rdg wit="#Ap #AL853" ana="#morphological">NATURAM</rdg></app> 
+ET ACUTE CANERE, SED NATURA QUIDEM ACUTE UOCIS 
+<app xml:id="a77"><lem wit="#Ap #Gu #Hv #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">OMNIA</lem>
+<rdg wit="#Lb #Px #Tk" ana="#lexical">OMNINO</rdg></app> 
+PROPTER IMBECILLITATEM PRO EO QUOD NON POTEST MOUERE MULTUM AEREM, SED MODICUM. MODICUS AUTEM
+<app xml:id="a78"><lem wit="#Ap #Hv #Ma #Mb #Mh #Ob #Pi #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">UELOCITER</lem>
+<rdg wit="#Lb #Px #Tk" ana="#additive">NON UELOCITER</rdg></app>
+FERTUR. 
+<app xml:id="a79"><lem wit="#Ap #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL862 #AL1249 #AL1300 #AL1753 #AL1764 #AL1900">IN</lem>
+<rdg wit="#AL853 #AL1721" ana="#subtractive"/></app>
+CANTANDO AUTEM ACUTUM POTENTIE SIGNUM, 
+<app xml:id="a81"><lem wit="#Ap #Pi #Pz #Tkac #Uk #Yk">QUOD QUIDEM</lem> 
+<rdg wit="#Gu #Mh #Ob #Px #Sx #Tkpc #Um #Uw #Va #Vc #Xp #Yz #Zn #Zv #Zwmg #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900mg" ana="#subtractive">QUOD</rdg> 
+<rdg wit="#Hv #Lb #Ma #Mb #Xe #Zwt #AL1900t" ana="#subtractive"/></app> 
+<app xml:id="a82"><lem wit="#Ap #Uk #Yk">ENIM UEHEMENTER FERTUR</lem>
+<rdg wit="#Gu #Mh #Ob #Pi #Px #Pz #Sx #Tk #Um #Uw #Va #Vc #Xp #Yz #Zn #Zv #Zwmg #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900mg" ana="#subtractive">ENIM UELOCITER FERTUR</rdg>
+<rdg wit="#Hv #Lb #Ma #Mb #Xe #Zwt #AL1900t" ana="#subtractive"/></app>
+<app xml:id="a83"><lem wit="#Ap #Uk">UELOCITER FERTUR</lem>
+<rdg wit="#Gu #Mh #Ob #Pi #Px #Pz #Sx #Tk #Um #Uw #Va #Vc #Xp #Yk #Yz #Zn #Zv #Zwmg #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900mg" ana="#subtractive"/>
+<rdg wit="#Hv #Lb #Ma #Mb #Xe #Zwt #AL1900t" ana="#subtractive"/></app>,
+<app xml:id="a84"><lem wit="#Ap #Gu #Hv #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Vc #Yk #Zn #Zv #Zwmg #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900mg">PROPTER QUOD ET ACUTUM POTENTIE SIGNUM</lem>
+<rdg wit="#Hv #Lb #Ma #Mb #Sx #Va #Xe #Yz #Zwt #AL1900t" ana="#subtractive"/></app> .
+PROPTER QUOD ET QUI SUNT BONI HABITUS ACUTE UOCIS, ET MOLESTUM 
+<app xml:id="a85"><lem wit="#Ap #Gu #Hv #Ma #Mb #Mh #Pi #Px #Pz #Sx #Tk #Uk #Uw #Va #Vc #Um #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">QUE</lem>
+<rdg wit="#Lb #Ob #AL1900" ana="#morphological">QUI</rdg></app> 
+ELEUANTUR CANTARE, GRAUIA AUTEM DEORSUM.
+</p>  
+</div>
+
+<div type="textpart" subtype="problem" n="42" xml:id="part42">
+<p n="1"> 
+PROPTER QUID SI 
+<app xml:id="a86"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1900">QUIS</lem>
+<rdg wit="#Hv #AL1764" ana="#morphological">QUID</rdg></app>     
+<app xml:id="a87"><lem wit="#Ap #Lb #Pi #Px #Tk #Uk #Yk #AL263 #AL460 #AL517 #AL862">ALTERA</lem>  
+<rdg wit="#Mhac #Va #AL1300sl" ana="#morphological">ALTERAM</rdg>
+<rdg wit="#Gu #Hv #Ma #Mb #Mhpc #Ob #Um #Uw #Vc #Xe #Xp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL366 #AL411 #AL426 #AL459 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1249 #AL1300t #AL1721 #AL1753 #AL1764 #AL1900" ana="#lexical">ALTAM</rdg></app> 
+<app xml:id="a88"><lem wit="#Ap #Gu #Ma #Mb #Mh #Ob #Pi #Px #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zwmg #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL460 #AL517 #AL562 #AL649 #AL703 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">NITEM</lem>
+<rdg wit="#Hv #Zwt #AL781 #AL853" ana="#lexical">UOCEM</rdg></app>      
+ACCIPIAT AUT YPATEM ACCIPIAT, YPATE SOLA 
+<app xml:id="a89"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">UIDETUR</lem>
+<rdg wit="#Mh #Vc" ana="#subtractive"/></app>
+SUBSONARE? AUT QUIA 
+<app xml:id="a90"><lem wit="#Ap #Hv #Ma #Mb #Mh #Pi #Px #Pz #Tk #Uk #Uw #Va #Xp #Yk #Zn #AL253 #AL562 #AL649 #AL703 #AL1249 #AL1900">NEATE</lem> 
+<rdg wit="#Ob #Sx #Um #Xe #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL781 #AL853 #AL862 #AL1300 #AL1753 #AL1764" ana="#lexical">UITE</rdg></app>
+<app xml:id="a91"><lem n="NEATE" wit="#Ap #Pi #Tk #Uk #Yk"/>
+<rdg wit="#Hv #Lb #Ma #Mb #Mh #Sx #Ob #Px #Pz #Um #Uw #Va #Vc #Xe #Xp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">MAXIME</rdg></app>  
+FINIENS ET DEPERDITA YPATE FIT? SIGNUM AUTEM POSSE AB YPATE
+<app xml:id="a92"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1753 #AL1764 #AL1900">NEATEM</lem>  
+<rdg wit="#AL426 #AL1721" ana="#morphological">NEATE</rdg></app> 
+POSSE CANERE. 
+<app xml:id="a93"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL459 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">SICUT ENIM EXISTENTE</lem>
+<rdg wit="#AL426 #AL862" ana="#subtractive"/></app>
+<app xml:id="a94"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">IPSA</lem>  
+<rdg wit="#Tk #AL426 #AL862" ana="#subtractive"/></app>
+  
+<app xml:id="a95"><lem wit="#Ap #Lb #Ma #Mb #Px #Tk #Uk #Uw #Va #Xp #Yk #Zn #AL155 #AL253 #AL703 #AL1249">CANTU NEATE</lem>
+<rdg wit="#Gu #Hv #Ob #Pi #Sx #Um #Xe #Yz #Zv #Zw #AL30 #AL201 #AL263 #AL366 #AL411 #AL517 #AL562 #AL649 #AL781 #AL853 #AL1300 #AL1721 #AL1753 #AL1764" ana="#lexical">CAUSAM NEATE</rdg>  
+<rdg wit="#Mh #Vc #AL426 #AL862" ana="#subtractive" cause="homeoteleuton"/></app>,
+<app xml:id="a96"><lem wit="#Ap #Gu #Hv #Ma #Mb #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">SIMILITUDINEM ACCIPIUNT AB IPSA</lem>
+<rdg wit="#Mh #Vc" ana="#subtractive" cause="homeoteleuton"/></app>.
+QUONIAM AUTEM ET ECHO CANTUS QUIDAM 
+<app xml:id="a97"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900" n="QUIDAM"/> 
+<rdg wit="#Zv #Zw #AL1249" ana="#additive">EST</rdg></app>   
+<app xml:id="a98"><lem wit="#Ap #Gu #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">TACTUS</lem>
+<rdg wit="#Hv #Ma #Mb #AL1900" ana="#lexical">CANTUS</rdg></app>
+<app xml:id="a99"><lem wit="#Ap #Gu #Hv #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900" n="TACTUS"/>
+<rdg wit="#Ma #Mb" ana="#additive">AUTEM</rdg></app>  
+EST UOCIS NEATIS FINIENTIS SONUS EXISTENS IDEM SONO
+<app xml:id="a100"><lem wit="#Ap #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Sx #Tk #Uk #Um #Uwt #Va #Vc #Xe #Xp #Yk #Zn #Zv #Zwsl #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">YPATES</lem>
+<rdg wit="#Uwpc #Yz #Zwt #AL1900" ana="#morphological">YPATE</rdg></app> 
+<app xml:id="a101"><lem wit="#Ap #Lb #Ma #Mb #Pi #Px #Pz #Tk #Uk #Uwpc #Xp #Yk #Zn #AL253 #AL703 #AL1249 #AL1900">MOUET</lem>
+<rdg wit="#Gu #Hv #Mh #Ob #Vc #Xe #Zv #Zw #AL155 #AL201 #AL426 #AL459 #AL460 #AL517 #AL562 #AL853 #AL862 #AL1300 #AL1721 #AL1753" ana="#morphological">MOUE</rdg>
+<rdg wit="#Sx #Um #Va #Yz #AL30 #AL263 #AL366 #AL411 #AL649 #AL781 #AL1764" ana="#morphological">MOUERE</rdg></app>
+CONUENIENTER, SIMILITUDINI  
+<app xml:id="a102"><lem wit="#Ap #Lb #Ma #Mb #Mh #Ob #Pi #Px #Sx #Tk #Uk #Um #Vc #Xe #Xp #Yk #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">YPATEN</lem>
+<rdg wit="#Pz #Uw #Yz #AL1900" ana="#morphological">YPATE</rdg></app>
+<app xml:id="a103"><lem wit="#Ap #Gu #Hv #Mh #Ob #Pi #Pz #Sx #Um #Va #Xe #Xp #Yz #Zn #Zv #Zw #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1300 #AL1721 #AL1753 #AL1764">NITE</lem>
+<rdg wit="#Ma #Mb #Px #Tk #Uk #Uw #Yk #AL1249 #AL1900" ana="#morphological">NITEM</rdg>
+<rdg wit="#Lb #Vc" ana="#lexical">INTER</rdg>
+<rdg wit="#AL30 #AL517" ana="#subtractive"/></app>
+<app xml:id="a104"><lem wit="#Ap #Gu #Hv #Lb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL862 #AL853 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900" n="NITE"></lem>
+<rdg wit="#Ma #Mb" ana="#additive">NOMINATUS EST</rdg></app>
+<app xml:id="a105"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">UIDETUR</lem>
+<rdg wit="#AL426 #AL862" ana="#lexical">DICETUR</rdg></app>
+MOUERE. NEATEN
+<app xml:id="a106"><lem wit="#Ap #Lb #Ma #Mb #Mh #Ob #Pi #Px #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL703 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">ENIM SCIMUS</lem>
+<rdg wit="#Hv #AL649" ana="#lexical">NESCIMUS</rdg></app> 
+<app xml:id="a107"><lem wit="#Ap #Hv #Lb #Ma #Mb #Mh #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Yk #Yz #Zn #Zwpc #AL30 #AL201 #AL253 #AL263 #AL703 #AL1249 #AL1900">UBI</lem>
+<rdg wit="#Gu #Ob #Zwac #AL155 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764" ana="#lexical">NISI</rdg></app>
+MOUETUR ASSUMPTA. YPATEN AUTEM
+<app xml:id="a108"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Ob #Pi #Pz #Sx #Um #Uw #Vc #Xe #Xp #Yk #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">IPSAM UIDENTES</lem>
+<rdg wit="#Px #Tk #Uk #Va #Zn" ana="#morphological">IPSA UIDENTES</rdg></app> 
+INCOMPREHENSIBILEM 
+<app xml:id="a109"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">EXISTENTEM</lem>
+<rdg wit="#Px #Tk" ana="#morphological">EXISTENTE</rdg></app>
+ET SONUM IPSIUS AUDIENTES, HANC PUTAMUS SONARE. QUOD IN MULTIS NOBIS ACCIDIT, IN QUIBUS NEQUE
+<app xml:id="a110"><lem wit="#Ap #Ma #Mb #Pi #Uk #Uw #Va #AL460 #AL703 #AL853 #AL1249 #AL1900">RATIONE</lem>
+<rdg wit="#Gu #Hv #Lb #Mh #Ob #Px #Sx #Tk #Um #Vc #Xe #Xp #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL517 #AL562 #AL649 #AL781 #AL862 #AL1300 #AL1721 #AL1753 #AL1764" ana="#additive #morphological">RATIO</rdg>
+<rdg wit="#Pz #Yk #Zn" ana="#morphological">RATIONEM</rdg></app>
+<app xml:id="a111"><lem wit="#Ap #Ma #Mb #Pi #Pz #Uk #Uw #Va #Yk #Zn #AL703 #AL853 #AL1249 #AL1900" n="RATIONE"/>
+<rdg wit="#Gu #Hv #Lb #Mh #Ob #Px #Sx #Tk #Um #Vc #Xe #Xp #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL781 #AL862 #AL1300 #AL1721 #AL1753 #AL1764" ana="#additive #morphological">EST</rdg></app>.
+NEQUE 
+<app xml:id="a112"><lem wit="#Ap #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Sx #Uk #Um #Uw #Va #Vc #Xp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">SENSU</lem>
+<rdg wit="#Pz #Yk" ana="#morphological">SENSUM</rdg></app>  
+POSSUMUS 
+<app xml:id="a113"><lem wit="#Ap #Ob #Lb #Mamg #Mh #Pz #Uk #Um #Uw #Va #Vc #Xp #Yk #Zn #Zv #AL30 #AL201 #AL253 #AL562 #AL649 #AL703 #AL853pc #AL1249pc #AL1764 #AL1900">SPECIFICARE</lem>
+<rdg wit="#Mbt #Pi #Um #Xp #Yz #AL411 #AL426 #AL459 #AL517 #AL781 #AL862" ana="#lexical">CERTIFICARE</rdg>
+<rdg wit="#Zv #Zw" ana="#orthographical"><space/> CERTIFICARE</rdg>  
+<rdg wit="#Gu #Hv #AL155 #AL366 #AL853t #AL1249t #AL1300 #AL1721 #AL1753" ana="#lexical #orthographical"><space/>TIFICARE</rdg>
+<rdg wit="#Mat #Mbmg" ana="#lexical">UERIFICARE</rdg></app>
+<app xml:id="a114"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL155 #AL201 #AL253 #AL263 #AL366 #AL426 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1753 #AL1764 #AL1900">CERTUM</lem>
+<rdg wit="#AL411 #AL460" ana="#additive">SENSUM CERTUM</rdg></app>.
+AMPLIUS IN QUANTUM 
+<app xml:id="a115"><lem wit="#Ap #Lb #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Zn #AL30 #AL155pc #AL201 #AL253 #AL562 #AL649 #AL703 #AL781 #AL853pc #AL1249 #AL1300pc #AL1764 #AL1900">PERCUSSA</lem>
+<rdg wit="#Gu #AL155t #AL366 #AL426 #AL459 #AL853t #AL862 #AL1300t #AL1721 #AL1753" ana="#orthographical">PER<space/></rdg>
+<rdg wit="#Yz #AL411 #AL460 #AL517" ana="#lexical">PER TENSA</rdg>
+<rdg wit="#Zv #Zw" ana="#lexical">PER</rdg></app>
+NEATE MAXIME 
+<app xml:id="a116"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL459 #AL460 #AL517 #AL649 #AL703 #AL781 #AL853 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">TENSA</lem>
+<rdg wit="#AL426 #AL562" ana="#lexical">DENSA</rdg></app> 
+ACCIDIT 
+<app xml:id="a117"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Pz #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">IUGUM</lem>
+<rdg wit="#AL426 #AL862" ana="#lexical">NIGRUM</rdg></app> 
+MOUERI
+<app xml:id="a118"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">EST</lem>
+<rdg wit="#Px #Tk #Zv #Zw #AL1249" ana="#subtractive"/></app>,
+NICHIL UTIQUE ERIT MIRABILE.
+<app xml:id="a119"><lem wit="#Ap #Hv #Mh #Ob #Pi #Pz #Sx #Uk #Uw #Va #Vc #Xe #Xp #Yk #Zn #Zv #Zwpc #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL862 #AL1249 #AL1300 #AL1721 #AL1764 #AL1900">MOTO AUTEM</lem>
+<rdg wit="#Gu #Yz #Zwac" ana="#morphological">MOTA AUTEM</rdg>
+<rdg wit="#Lb #Ma #Mb #Px #Tk #AL253" ana="#additive">MOTO AUTEM IUGO</rdg></app>
+<app xml:id="a120"><lem wit="#Ap #Hv #Ma #Mb #Mh #Ob #Pi #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL649 #AL703 #AL781 #AL862 #AL1249 #AL1721 #AL1900">OMNES CORDAS PARITER</lem>
+<rdg wit="#AL853 #AL1300" ana="#subtractive">OMNES CORDAS</rdg>  
+<rdg wit="#AL562 #AL1764" ana="#lexical">OMNES CORDAS PARTEM</rdg></app> 
+MOUERI ET SONUM FACERE
+<app xml:id="a121"><lem wit="#Ap #Gu #Hv #Lb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL460 #AL562 #AL649 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1900">NON</lem>
+<rdg wit="#Ma #Mb" ana="#additive">NON ENIM</rdg>
+<rdg wit="#AL517 #AL459 #AL703 #AL1249 #AL1753 #AL1764" ana="#additive">NON IN</rdg></app> 
+<app xml:id="a122"><lem wit="#Hv #Lb #Ma #Mb #Mh #Ob #Pi #Uk #Um #Uw #Va #Xp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL862 #AL1249 #AL1753 #AL1900">IRRATIONABILE</lem>
+<rdg wit="#Ap #Pz #Sx #Vc #Yk #AL426 #AL1300 #AL1721 #AL1764" ana="#lexical">IN RATIONABILE</rdg></app>.
+ALIIS QUIDEM IGITUR NEATIS SONUS ALIENUS EST ET FINIENS 
+<app xml:id="a123"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uwmg #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">ET INCIPIENS, YPATE AUTEM FINIENS</lem> 
+<rdg wit="#Uwt #AL426 #AL862" ana="#subtractive" cause="homeoteleuton"/></app>
+<app xml:id="a124"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL459 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">IDEM</lem>
+<rdg wit="#AL426 #AL862" ana="#lexical">ID</rdg></app>.
+<app xml:id="a125"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Yk #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">NON</lem>
+<rdg wit="#Xp #Yz" ana="#lexical">ENIM</rdg></app> 
+<app xml:id="a126"><lem wit="#Ap #Lb #Ma #Mb #Pi #Pz #Uk #Uw #Va #Xe #Yk #Zn #AL253 #AL703 #AL1249 #AL1900">APPOSITO</lem>
+<rdg wit="#Gu #Xp" ana="#lexical">APPERCITO</rdg>
+<rdg wit="#AL411 #AL460" ana="#lexical">APPARITIO</rdg> 
+<rdg wit="#Hv #Mh #Ob #Sx #Um #Vc #Yz #Zv #Zw #AL30 #AL366 #AL459 #AL517 #AL562 #AL649 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764" ana="#lexical">APTITIO</rdg>
+<rdg wit="#AL155 #AL201" ana="#lexical">APPETITIO</rdg></app>
+<app xml:id="a127"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Yk #Yz #Zn #Zw #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">PROPRIO SUO</lem>
+<rdg wit="#AL30 #Xe #Xp #Zv" ana="#ordinal">SUO PROPRIO</rdg></app> 
+MOTU ILLIUS, UIDEBITUR OMNIA EORUNDEM ESSE NON 
+<app xml:id="a128"><lem wit="#Ap #Gu #Hv #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">EST</lem>
+<rdg wit="#Lb #Px #Tk #AL263 #AL1900" ana="#morphological">ESSE</rdg></app>
+INCONUENIENS. 
+<app xml:id="a129"><lem wit="#Ap #Hv #Lb #Ma #Mb #Mh #Ob #Pz #Sx #Uk #Um #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">ERIT</lem>
+<rdg wit="#Uw #AL1900" ana="#morphological">ERAT</rdg></app> 
+AUTEM MAIOR 
+<app xml:id="a130"><lem wit="#Ap #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Sx #Uk #Um #Uw #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">QUAM</lem>
+<rdg wit="#Pz #Va" ana="#lexical">ANTEQUAM</rdg></app> 
+RELIQUARUM CORDARUM SONUS,
+<app xml:id="a131"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Pz #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL459 #AL460 #AL517 #AL562 #AL649 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">QUOD</lem> 
+<rdg wit="#Sx #Uk #AL30 #AL703" ana="#lexical">QUIA</rdg></app> 
+<app xml:id="a132"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Tk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">HEE</lem>
+<rdg wit="#Px #Pz #Sx" ana="#lexical">HOC</rdg></app> 
+QUIDEM A NEATE 
+<app xml:id="a133"><lem wit="#Ap #Gu #Hv #Lb #Mh #Ob #Pi #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">SICUT</lem>
+<rdg wit="#Ma #Mb" ana="#lexical">SINT</rdg></app> 
+IMPULSE
+<app xml:id="a134"><lem wit="#Ap #Hv #Ma #Mb #Pi #Pz #Sx #Tk #Uk #Uw #Yk #AL411 #AL460">MOLLITER</lem>
+<rdg wit="#Lb #Mh #Px #Ob #Um #Vc #Xe #Xp #Zn #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL426 #AL459 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764" ana="#morphological">MOLLITUS</rdg></app>
+<app xml:id="a135"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Px #Pz #Sx #Tk #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764 #AL1885 #AL1900">SONUERUNT</lem>  
+<rdg wit="#Zv #Zw" ana="#morphological">SONUERINT</rdg></app>, 
+NEATE AUTEM,
+<app xml:id="a136"><lem wit="#Ap #Hv #Ma #Mb #Mh #Ob #Pi #Sx #Um #Uw #Va #Vc #Xe #Xp #Yz #Zn #AL155 #AL201 #AL253 #AL366 #AL426 #AL459 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">TOTA SUI IPSIUS</lem>
+<rdg wit="#Px #Tk" ana="#morphological">TOTAS SUI IPSIUS</rdg>  
+<rdg wit="#Uk #Yk #AL30 #AL411" ana="#subtractive">TOTA IPSIUS</rdg>
+<rdg wit="#Zv #Zw" ana="#lexical">RATIO SUI IPSIUS</rdg></app>  
+POTENTIA EXISTENS, IPSARUM FORTISSIMA EST. QUARE MERITO 
+<app xml:id="a137"><lem wit="#Ap #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Vc #Xe #Yk #Zn #AL30 #AL155 #AL263 #AL411 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL1249 #AL1764 #AL1900">ET</lem>
+<rdg wit="#Gu #Um #Va #Yz #Zwac #AL201 #AL366 #AL426 #AL459 #AL853 #AL862 #AL1300 #AL1721 #AL1753" ana="#lexical">ETIAM</rdg>
+<rdg wit="#Uw #Xp #Zv #Zwpc" ana="#subtractive"/></app>
+<app xml:id="a138"><lem wit="#Ap #Uw">SECUNDARIUM</lem>
+<rdg wit="#Gu #Hv #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Va #Vc #Xe #Xp #Yk #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764" ana="#lexical">SECULARIUM</rdg>
+<rdg wit="#Lb #Px #Tk #AL253" ana="#lexical">SOLARI</rdg></app>
+<app xml:id="a138a"><lem wit="#Ap #Gu #Hv #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900" n="SECUNDARIUM"/>
+<rdg wit="#Lb #Px #Tk #AL253" ana="#lexical">NEQUE</rdg></app>  
+IPSIUS MAIUS 
+<app xml:id="a139"><lem wit="#Ap #Uk #Yk">UTIQUE ERIT</lem>
+<rdg wit="#Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Um #Uw #Vc #Xe #Xp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900" ana="#subtractive">ERIT</rdg></app>
+<app xml:id="a140"><lem wit="#Ap #Uk #Yk">QUAM ID</lem>
+<rdg wit="#Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Px #Pz #Sx #Tk #Um #Uw #Va #Vc #Xe #Xp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764" ana="#subtractive">QUAM</rdg></app> 
+QUOD 
+<app xml:id="a141"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Nw #Ob #Pi #Pz #Uk #Um #Uw #Va #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">EST</lem>
+<rdg wit="#Sx #AL30" ana="#subtractive"/></app> 
+ALIARUM, QUARE 
+<app xml:id="a142"><lem wit="#Ap #Lb #Px #Tk #Uk #Yk #AL253 #AL1900">BREUES</lem>
+<rdg wit="#Gu #Hv #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Um #Uwsl #Va #Vc #Xe #Xp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764" ana="#morphological">BREUIS</rdg></app>
+MOUERI, SICUT
+<app xml:id="a143"><lem wit="#Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pz #Sx #Tk #Um #Uw #Va #Vc #Xe #Xp #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL459 #AL460 #AL517 #AL562 #AL649 #AL703 #AL781 #AL853 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">IPSIS</lem>
+<rdg wit="#Ap #Uk #Yk #AL426 #AL862" ana="#morphological">IPSAS</rdg>
+<rdg wit="#Px #Yz" ana="#morphological">IPSIUS</rdg></app>
+<app xml:id="a143a"><lem wit="#Ap #Lb #Ma #Mb #Mh #Ob #Pz #Uk #Ummg #Uw #Vc #Xe #Yk #Zn #AL30 #AL253 #AL263 #AL703 #AL781 #AL1249 #AL1900">FACTAS</lem>
+<rdg wit="#Xp #Yz" ana="#morphological">FACTA</rdg>
+<rdg wit="#Gu #Pi #Umt #Va #Zv #Zw #AL155 #AL201 #AL366 #AL426 #AL459 #AL562 #AL649 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764" ana="#subtractive"/> 
+<rdg wit="#AL411 #AL460" ana="#lexical">IPSAS</rdg></app>.    
+</p> 
+</div>
+
+<div type="textpart" subtype="problem" n="44" xml:id="part44">
+<p n="1">
+PROPTER QUID SEPTEM QUIDEM MEDIA 
+<app xml:id="a144"><lem wit="#Ap #Lb #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zwpc #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL562 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1753 #AL1900">UOCATUR</lem>
+<rdg wit="#Gu #Uk #Zwac #AL30 #AL517 #AL1764" ana="#morphological">UOCANTUR</rdg></app>,
+OCTO AUTEM NON EST MEDIUM? AUT QUIA SEPTEM CORDARUM FUERUNT ANTIQUITUS CONSONANTIE, SEPTEM AUTEM
+<app xml:id="a145"><lem wit="#Ap #Lb #Uk #Uw #Yk #Zn #AL253 #AL703 #AL1249 #AL1900">HABENT MEDIUM</lem>
+<rdg wit="#Gu #Hv #Ma #Mb #Mh #Ob #Pi #Sx #Um #Va #Vc #Xe #Xp #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL426 #AL459 #AL517 #AL562 #AL781 #AL853 #AL862 #AL1300 #AL1721 #AL1753 #AL1764" ana="#morphological">HABET MEDIUM</rdg>
+<rdg wit="#AL411 #AL460" ana="#subtractive">MEDIUM</rdg></app>? 
+<app xml:id="a146"><lem wit="#Ap #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">AMPLIUS</lem>
+<rdg wit="#AL253 #AL1900" ana="#additive">AMPLIUS AUTEM</rdg></app> 
+EORUM QUE SUNT IN MEDIO EXTREMITATUM, MEDIUM SOLUM
+<app xml:id="a147"><lem wit="#Ap #Gu #Hv #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Um #Va #Vc #Xe #Xp #Yk #Zn #Zw #AL30 #AL155 #AL201 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">PRINCIPIUM QUODDAM EST</lem>
+<rdg wit="#Lb #Uk" ana="#ordinal">PRINCIPIUM EST QUODDAM</rdg>
+<rdg wit="#Uw #AL1900" ana="#ordinal">QUODDAM PRINCIPIUM EST</rdg></app>,
+<app xml:id="a148"><lem wit="#Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Sx #Uk #Um #Uw #Vc #Xe #Xp #Yk #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL703 #AL781 #AL853 #AL862 #AL1300 #AL1753 #AL1764 #AL1900">EST</lem>
+<rdg wit="#Ap #Pz #Va #Yz #AL263 #AL1249 #AL1721" ana="#subtractive"/></app> 
+ENIM 
+<app xml:id="a149"><lem wit="#Gu #Hv #Lb #Mamg #Mb #Mh #Ob #Pi #Pz #Sx #Um #Uw #Va #Vc #Xe #Xp #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">ALTERA</lem>
+<rdg wit="#Ap #Uk #Yk" ana="#morphological">ALTERAM</rdg></app> 
+EXTREMITATUM DECLINANTIUM IN ALIQUA DISTANTIA PER MEDIUM 
+<app xml:id="a150"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zwmg #AL30 #AL155 #AL201 #AL253 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764">QUOD PRINCIPIUM EST: HOC EST MEDIUM</lem> 
+<rdg wit="#Zwt #AL1900" ana="#subtractive" cause="homeoteleuton"/></app>.
+QUONIAM 
+<app xml:id="a151"><lem wit="#Gu #Hv #Lb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yz #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL426 #AL459 #AL517 #AL562 #AL703 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1764 #AL1900">AUTEM</lem>
+<rdg wit="#Ma #Mb #AL411 #AL460" ana="#additive">AUTEM IN</rdg>
+<rdg wit="#Yk #AL781" ana="#subtractive"/></app>
+ULTIMA MEDIUM EST CONSONANTIE NEATE ET YPATE, HORUM AUTEM IN MEDIO RELIQUI SONI, QUORUM MEDIA 
+<app xml:id="a152"><lem wit="#Ap #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Um #Uw #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zwpc #AL30 #AL155 #AL201 #AL253 #AL263 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL703 #AL781 #AL862 #AL1249 #AL1300 #AL1753 #AL1764 #AL1900">UOCATA SOLA</lem>  
+<rdg wit="#Gu #Zwac #AL366 #AL1721" ana="#lexical">NOTAM SOLA</rdg></app> 
+PRINCIPIUM EST ALTERIUS
+<app xml:id="a153"><lem wit="#Ap #Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Sx #Uk #Um #Uw #Xp #Yk #Yz #Zn #Zv #AL155 #AL201 #AL253 #AL366 #AL460 #AL562 #AL703 #AL853 #AL1249 #AL1300 #AL1721">TETRACORDI</lem>
+<rdg wit="#Pz #AL426" ana="#morphological #orthographical">RETRACORDA</rdg>
+<rdg wit="#Zw #AL30 #AL263 #AL459 #AL517 #AL781 #AL1753 #AL1764" ana="#morphological">RETRACORDI</rdg>  
+<rdg wit="#Va #AL411" ana="#lexical">RECTA CORDI</rdg></app>,
+<app xml:id="a154"><lem wit="#Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1300 #AL1721 #AL1753 #AL1900">IUSTE</lem>
+<rdg wit="#Ap #AL1764" ana="#morphological">IUSTA</rdg></app> 
+MEDIA 
+<app xml:id="a155"><lem wit="#Ap #Gu #Hv #Ma #Mb #Mh #Ob #Pi #Pz #Sx #Uk #Um #Uw #Va #Vc #Xe #Xp #Yk #Yz #Zn #Zv #Zw #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL460 #AL517 #AL562 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1721 #AL1753 #AL1764 #AL1900">APPELLATUR</lem>
+<rdg wit="#Lb #AL1300" ana="#morphological">APPELLANTUR</rdg></app>. 
+EORUM AUTEM QUE SUNT IN MEDIO 
+<app xml:id="a157"><lem wit="#Gu #Hv #Lb #Ma #Mb #Mh #Ob #Pi #Sx #Uk #Um #Uw #Vc #Xe #Xp #Yz #Zn #AL30 #AL155 #AL201 #AL253 #AL263 #AL366 #AL411 #AL426 #AL459 #AL517 #AL562 #AL703 #AL781 #AL853 #AL862 #AL1249 #AL1721 #AL1753 #AL1764 #AL1900">QUARUNDAM</lem>
+<rdg wit="#Ap #Pz #Va #Yk #Zv #Zw #AL460" ana="#morphological">QUORUNDAM</rdg></app>
+EXTREMITATUM MEDIUM ERAT PRINCIPIUM SOLUM.
+</p>  
+</div>
+</div>          
+</div>
+</body>
+</text>
+</TEI>
