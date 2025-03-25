@@ -79,26 +79,7 @@
         <correction method="silent">
           <p>
             <list>
-              <item>Ea, Gu, Pp, Pz, and Vz’s armoniac* emended to armonic*</item>
-              <item>Gu and Pq’s rigm* emended to rithim*</item>
-              <item>Nu's duppl* emended to dupl*</item>
-              <item>Gu’s *ypote emended to *ypate</item>
-              <item>Px, Py, and Pz's anthiphon* emended to antiphon*</item>
-              <item>Nu and Pp's mellodi* emended to melodi*</item>
-              <item>Pz's sinegengium emended to sinezengium</item>
-              <item>Gu, Py, and Vz's sesqui* emended to sexqui*</item>
-              <item>Ma, Va, and v's hi* emended to hii*</item>
-              <item>Px's "fati*" emended to faci*</item>
-              <item>Px and Py's sicud emended to sicut</item>
-              <item>Ma, Px, Py and Pz's velud emended to velut</item>
-              <item>Va's unique orthographical variants ignored</item>
-              <item>All: standardized spellings of lychanos, mese, and paramese</item>
-              <item>All: standardized spellings of dyatesseron, dyapente, and dyapason</item>
-              <item>All: lira* emended to lyra*</item>
-              <item>All: *ij and *ijs emended to *ii and *ijs</item>
-              <item>All: *cia, *cio, *cium, etc. emended to *tia, *tio, *tium, etc.</item>
-              <item>All: adinuicem emended to ad inuicem</item>
-              <item>All: probleuma* emended to problema*</item>
+              <item>Orthographical variants emended unless particularly noteworthy</item>
               <item>All: Tironian et emended to et</item>
               <item>All: ampersand emended to et</item>
               <item>All: Tall s ( ſ ) emended to round s</item>
@@ -637,10 +618,12 @@
               and consequently his understanding of the <title ref="#ArPr">Problems</title> and
               Pietro’s commentary merits attention. Furthermore, due to the significant circulation
               of Jean’s redaction in the environs of the University of Paris it is valuable for
-              understanding the <title ref="#ArPr">Problems</title>’ reception. As a result, I have
-              included readings from selected manuscripts of Jean’s redaction in my critical
-              edition, but have also tagged them so that readers may filter out readings only found
-              in that redaction.</p>
+              understanding the <title ref="#ArPr">Problems</title>’ reception. 
+              
+              As a result, the xml
+              version of this edition includes readings from five selected manuscripts of Jean’s 
+              redaction. In the interest of brevity, this pdf version usually presents only the best 
+              reading from that recension, unless other variants are of particular interest.</p>
             <p n="2">Three broad feature of Jean’s redaction identified by Coucke in section IV also
               occur in section XIX. First, the redaction is most saliently characterized by
               omissions that <quote rend="inline">either cover well defined text-units (paragraphs,
@@ -651,7 +634,7 @@
               (xxx–xxxi). Third, as in section IV manuscript Vo appears to be most valuable for
               establishing the text of the redaction (xxxiii). It has almost no unique errors of any
               importance, but a brief passage in problem 9 (<foreign xml:lang="la">vtrobique
-                existente. Et hoc quia in cantu</foreign>), which it alone omits, indicates that it
+              existente. Et hoc quia in cantu</foreign>), which it alone omits, indicates that it
               cannot be the direct (or at least the sole) model for the rest of the redaction’s
               manuscripts.</p>
             <p n="3">Beyond these broad characteristics, however, further clarity is elusive.
@@ -677,18 +660,23 @@
               remaining manuscripts, V<hi rend="superscript">c</hi>, P<hi rend="superscript">a</hi>,
               and S<hi rend="superscript">c</hi>, do not clearly align with either branch.</p>
             <p n="4">Given that Jean’s redaction cannot help to establish Pietro’s text, I have not
-              included all its manuscripts in the apparatus. I follow Coucke (xxxiv) in selecting
-              manuscripts V<hi rend="superscript">o</hi>, due to its paucity of errors, and G<hi
-                rend="superscript">u</hi>, because of its careful preparation and occasional unique
-              variants. I also selected manuscript P<hi rend="superscript">z</hi>, on account of its
-              interest as it switches from Pietro’s second version to Jean’s redaction. Because
-              Coucke identified manuscripts P<hi rend="superscript">u</hi> and P<hi
-                rend="superscript">q</hi> as constituting a differentiated branch in section IV, I
-              selected manuscript P<hi rend="superscript">u</hi>, since by section XIX P<hi
-                rend="superscript">q</hi> closely matches G<hi rend="superscript">u</hi>. And
-              finally I included manuscript P<hi rend="superscript">p</hi> to help establish the
-              second branch’s readings. (Other manuscripts from Jean’s redaction are also
-              occasionally cited when they support variants that would otherwise appear unique.)</p>
+              collated all its manuscripts. In the interest of brevity, this 
+              pdf version usually presents only the best reading from that recension, unless other 
+              variants are of particular interest. I follow Coucke (xxxiv) in selecting
+              manuscript V<hi rend="superscript">o</hi>, due to its paucity of errors.</p>
+            <p n="5">The xml version of this edition, by contrast, includes readings from 
+              four other selected manuscripts of Jean’s redaction.  Again following Coucke, 
+              it includes G<hi rend="superscript">u</hi>, because of that source's careful 
+              preparation and occasional unique variants. The xml version also collates manuscript 
+              P<hi rend="superscript">z</hi>, on account of its interest as it switches from 
+              Pietro’s second version to Jean’s redaction. Because Coucke identified manuscripts 
+              P<hi rend="superscript">u</hi> and P<hi rend="superscript">q</hi> as constituting a 
+              differentiated branch in section IV, I selected manuscript P<hi rend="superscript">u</hi> 
+              for inclusion, since by section XIX P<hi rend="superscript">q</hi> closely matches 
+              G<hi rend="superscript">u</hi>. And finally I included manuscript P<hi 
+              rend="superscript">p</hi> to help establish the second branch’s readings. (Other 
+              manuscripts from Jean’s redaction are also occasionally cited when they support 
+              variants that would otherwise appear unique.)</p>
           </div>
           <div type="section" xml:id="preface-subsection-2.6">
             <head>2.6 Stemmatic Hypothesis</head>
@@ -763,11 +751,11 @@
             <p n="1">To constitute the text and the critical apparatus I have accounted for all the
               manuscripts containing Pietro’s first and second versions of the commentary (except
               for manuscript M<hi rend="superscript">b</hi>, since it is a copy of M<hi
-                rend="superscript">a</hi>). I have also included a selection of manuscripts from
-              Jean of Jandun’s recension: V<hi rend="superscript">o</hi>, G<hi rend="superscript"
-                >u</hi>, P<hi rend="superscript">p</hi>, and P<hi rend="superscript">z</hi>.
-              Furthermore, readings from the two incunable editions are mentioned when they agree on
-              a unique reading or with variants found in other manuscripts.</p>
+                rend="superscript">a</hi>). In this pdf version of the edition I have also included 
+              best readings from Jean of Jandun’s recension, usually based on manuscript
+              V<hi rend="superscript">o</hi>. Furthermore, readings from the two incunable editions 
+              are mentioned when they agree on a unique reading of interest or with variants found 
+              in other manuscripts.</p>
             <p n="2">In the edition’s text I aim to reconstruct Pietro’s second version of the
               commentary, and consequently readings shared by manuscript P<hi rend="superscript"
                 >x</hi> and family λ are preferred. Where their readings diverge, if either P<hi
@@ -778,38 +766,12 @@
             <p n="3">With respect to orthography, I have largely preserved medieval spellings,
               rather than changing them to classical Latin standards. (The most prominent exceptions
               are that words ending with -cio, -cia, and the like have been changed to –tia, etc.,
-              and the –ij and –ijs endings to –ii and –iis.) Because the digital critical edition
-              allows readers to choose whether to view orthographical variants, I have recorded most
-              spelling variances in the apparatus. Certain commonly occurring differences have been
-              silently normalized, however: <list>
-                <item>E<hi rend="superscript">a</hi>, G<hi rend="superscript">u</hi>, P<hi
-                    rend="superscript">p</hi>, P<hi rend="superscript">z</hi>, and V<hi
-                    rend="superscript">z</hi>’s armoniac* emended to armonic*</item>
-                <item>N<hi rend="superscript">u</hi>'s duppl* emended to dupl*</item>
-                <item>P<hi rend="superscript">p</hi> and N<hi rend="superscript">u</hi>'s mellodi*
-                  emended to melodi*</item>
-                <item>P<hi rend="superscript">z</hi>'s sinegengium emended to sinezengium</item>
-                <item>G<hi rend="superscript">u</hi>, P<hi rend="superscript">y</hi>, nd V<hi
-                    rend="superscript">z</hi>'s sesqui* emended to sexqui*</item>
-                <item>M<hi rend="superscript">a</hi> and V<hi rend="superscript">a</hi>'s hi*
-                  emended to hii*</item>
-                <item>P<hi rend="superscript">x</hi>'s fati* emended to faci*</item>
-                <item>P<hi rend="superscript">x</hi> and P<hi rend="superscript">y</hi>'s sicud
-                  emended to sicut</item>
-                <item>P<hi rend="superscript">z</hi>, P<hi rend="superscript">x</hi> and P<hi
-                    rend="superscript">y</hi>'s velud emended to velut</item>
-                <item>V<hi rend="superscript">a</hi>'s ubiquitous unique orthographical variants
-                  ignored</item>
-                <item>All: adinuicem emended to ad inuicem</item>
-                <item>All: probleuma* emended to problema*</item>
-                <item>All: lira* emended to lyra*</item>
-                <item>All: standardized spellings of rithim*, chor*, and antiphon*</item>
-                <item>All: standardized spellings of dyatesseron, dyapente, and dyapason</item>
-                <item>All: standardized spellings of lychanos, mese, and paramese</item>
-                <item>G<hi rend="superscript">u</hi>’s *ypote emended to *ypate</item>
-              </list> All contractions have been silently expanded, including the ampersand and
-              Tironian <foreign xml:lang="la">et</foreign>, and tall s has been changed to round s. 
-              I have ignored all changes of hand and/or ink for the marginal numbering of the 
+              and the –ij and –ijs endings to –ii and –iis.) The xml version of this edition records most
+              spelling variances in the apparatus, but they have been silently normalized in this pdf version
+              unless they are of particular interest. All contractions have been silently expanded, 
+              including the ampersand and \Tironian <foreign xml:lang="la">et</foreign>, and tall s has 
+              been changed to round s. I have ignored all changes of hand and/or ink for the marginal 
+              numbering of the 
               problems.</p>
             <p n="3">Punctuation varies widely among the manuscripts. I initially adopted manuscript
                 P<hi rend="superscript">x</hi>’s punctuation, which is relatively sparse. Thereafter
