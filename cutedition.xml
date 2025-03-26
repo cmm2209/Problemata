@@ -934,144 +934,42 @@
           <milestone ed="#Vo" unit="folio" n="147r"/>
           <milestone ed="#v" unit="folio" n="B5v"/>
           <milestone ed="#m" unit="folio" n="188r"/>
-          <head><app>
-              <lem wit="#γ #Nu #Px #Vm #Vo" n="[Incipit]"><supplied reason="omitted"
-                  >Incipit</supplied></lem>
-              <rdg wit="#m #v" ana="#additive">Incipit <num type="ordinal" value="19"
-                  >decimanona</num> particula.</rdg>
-              <rdg wit="#Pz" ana="#additive"><add place="margin">Incipit <num type="ordinal"
-                    value="19">decimanona</num> particula et cetera</add>
-                <handShift medium="lighter ink" scribe="Pzh2"/>De problematibus Aristotelis que sunt
-                circa Musicam l'armoniam particula <num type="ordinal" value="19">.19<hi
-                    rend="superscript">a</hi>.</num></rdg>
-              <rdg wit="#Ea" ana="#additive"><add place="margin"><num type="cardinal" value="19"
-                    >xix</num></add></rdg>
-              <rdg wit="#Py" ana="#additive">Sequitur <num type="ordinal" value="19"
-                >xviiii.</num></rdg>
-              <rdg wit="#Pp" ana="#additive"><add place="margin"><num type="ordinal" value="20"
-                      >20<hi rend="superscript">a</hi></num></add></rdg>
-              <rdg wit="#Pu" ana="#additive"><add place="margin"><num type="ordinal" value="20"
-                      >20<hi rend="superscript">a</hi></num> particula</add></rdg>
-              <rdg wit="#Pq" ana="#additive">Incipit particula <num type="ordinal" value="20">20<hi
-                    rend="superscript">a</hi></num> de armonia continens problemata <num
-                  type="cardinal" value="47">47</num></rdg>
-              <rdg wit="#Gu" ana="#additive"><ref><name ref="#Ar">Aristotelis</name>
-                  <title ref="#ArPr">problemata</title></ref> de hiis que sunt circa armoniam
-                particula <num type="ordinal" value="20">20<hi rend="superscript">m</hi>.</num>
-                Capitulum <num type="ordinal" value="1">primum</num></rdg>
-              <rdg wit="#Ma #Mb" ana="#additive"><hi rend="rubricated">de <ref><title ref="#ArPr"><app>
-                        <lem wit="#Ma">problematibus</lem>
-                        <rdg wit="#Mb" ana="#morphological">problemnati</rdg>
-                      </app></title><name ref="#Ar">arestotelis</name></ref> que sunt circa armoniam
-                  vel musicam particula <num type="ordinal" value="19">19<hi rend="superscript"
-                      >a</hi>.</num></hi></rdg>
+          <head>Incipit <app><lem/>            
+              <rdg wit="#Ma #Pz" ana="#additive"><hi rend="rubricated">De <ref><title 
+                ref="#ArPr">problematibus</title><name ref="#Ar">Aristotelis</name></ref> que sunt 
+                circa armoniam vel musicam particula <num type="ordinal" 
+                  value="19">19<hi rend="superscript">a</hi>.</num></hi></rdg>
             </app></head>
 
           <div type="textpart" subtype="problem" n="1" xml:id="part1">
-            <milestone ed="#Gu" unit="column" n="B"/>
-            <milestone ed="#Pq" unit="column" n="B"/>
-            <head><app xml:id="app-1.1" exclude="#app-rdg-γ-1.1">
-                <lem wit="#Gu #m #v"><num type="ordinal" value="1">Primum</num> problema</lem>
-                <rdg wit="#α #Ea #Pp #Vm #Vo #Vz" ana="#subtractive"/>
-                <rdg wit="#Ma #Pq #Pz" ana="#subtractive"><add place="margin"><num type="ordinal"
-                      value="1">.1.</num></add></rdg>
-                <rdg wit="#Mb" ana="#ordinal">problema <num type="ordinal" value="1"
-                  >primum</num></rdg>
-              </app></head>
+            <head><num type="ordinal" value="1">Primum</num> problema</head>
             <p n="1"><mentioned><app>
-                  <lem wit="#β #Ea #Vm #Vo #Vz">PROPTER QUID DOLENTES</lem>
-                  <rdg wit="#Vo" ana="#additive #J">PROPTER QUID DOLENTES ET GAUDENTES</rdg>
-                  <rdg wit="#Pp #Pu" ana="#additive #J">PROPTER QUID DOLENTES FISTULANTUR</rdg>
-                  <rdg wit="#Vb" ana="#subtractive"/>
-                  <rdg wit="#Gu #Ma #Mb #Px #Pz #Va #m #v" ana="#additive"><seg xml:id="ment-1.1"
+                  <lem>PROPTER QUID DOLENTES</lem>
+                  <rdg wit="#Vb #Vo" ana="#additive">PROPTER QUID DOLENTES ET GAUDENTES</rdg>
+                  <rdg wit="#Ma #Px #Va" ana="#additive"><seg xml:id="ment-1.1"
                       n="1">PROPTER QUID DOLENTES ET DELECTANTES FISTULANTUR?</seg><seg
                       xml:id="ment-1.2" n="2">AUT UT HII QUIDEM MINUS TRISTENTUR? ALII AUTEM MAGIS
                       GAUDEANT</seg></rdg>
                 </app>.</mentioned>
-              <app xml:id="app-rdg-γ-1.1" exclude="#app-1.1">
-                <rdg wit="#Px" ana="#additive">Propter quid dolentes et cetera.</rdg>
-                <rdg wit="#Vb" ana="#additive">Propter quid dolentes et gaudentes fistulantur
-                  et cetera</rdg>
-              </app> Determinatis problematibus circa <app>
-                <lem wit="#γ #Px #Py #Gu #Pp #Pu #Vo #Vz #m #v">mathematicam</lem>
-                <rdg wit="#Ma #Mb #Nu #Vm" ana="#morphological">mathematica</rdg>
-                <rdg wit="#Ea" xml:id="rdg-methaphysica" ana="#lexical">methaphysica</rdg>
-                <note target="#rdg-methaphysica">metha<hi rend="superscript">ca</hi> a.c.</note>
-                <rdg wit="#Ea" xml:id="rdg-mathematica" ana="#orthographical">mathamatica</rdg>
-                <note target="#rdg-mathematica">matha<hi rend="superscript">ca</hi> p.c.</note>
-                <rdg wit="#Pz" ana="#lexical #J"><choice>
-                    <expan>metha<ex>physi</ex>cam</expan>
-                    <abbr>metha<hi rend="superscript">cam</hi></abbr>
-                  </choice></rdg>
-              </app> et orationes, determinat <app>
-                <lem wit="#γ #κ #π #Ea #Nu #m #v">nunc</lem>
-                <rdg wit="#Py" ana="#subtractive"/>
-              </app> problemata circa <app>
-                <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">armonicam</lem>
-                <rdg wit="#Pz" ana="#morphological #J">armoniam</rdg>
-              </app> vel <app>
-                <lem wit="#β #κ #π #Ea #Vb #m #v">musicam</lem>
-                <rdg wit="#Va" ana="#morphological">musica</rdg>
-              </app>, eo quod in <app>
-                <lem wit="#β #γ #κ #Gu #Pq #m #v">ipsa</lem>
-                <rdg wit="#Ea #Pp #Pz #Pu #Vo" ana="#morphological">ipso</rdg>
-              </app> est <app>
-                <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">quidam</lem>
-                <rdg wit="#Pz" ana="#subtractive #J"/>
-              </app> amor sermonis, vt <app>
-                <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">in</lem>
-                <rdg wit="#Pz" ana="#subtractive #J"/>
-              </app>
-              <app>
-                <lem wit="#κ #π #Ea #Nu #m #v">priori</lem>
-                <rdg wit="#Py" ana="#lexical">posteriori</rdg>
-              </app> particula. <milestone ed="#Gu" unit="column" n="B"/>Et primitus ad <app>
-                <lem wit="#β #κ #π #Ea #Va #m #v">huius</lem>
-                <rdg wit="#Vb" ana="#lexical">huiusmodi</rdg>
-              </app>
-              <app>
-                <lem wit="#β #κ #Ea #Vb #m #v">maiorem</lem>
-                <rdg wit="#Va" ana="#lexical">amorem</rdg>
+              Determinatis problematibus circa <app>
+                <lem>mathematicam</lem>
+                <rdg wit="#Ma #Nu #Vm" ana="#morphological">mathematica</rdg>
+              </app> et orationes, determinat nunc problemata circa armonicam vel musicam, eo quod 
+              in ipsa est quidam amor sermonis, vt in priori particula. Et primitus ad huius <app>
+                <lem>maiorem</lem>
                 <rdg wit="#π" ana="#subtractive #J"/>
-              </app> expositionem <app>
-                <lem wit="#γ #κ #π #Ea #Nu">premittantur</lem>
-                <rdg wit="#Py #m #v" ana="#morphological">premittuntur</rdg>
-              </app> quedam <app>
-                <lem wit="#α #λ #π #m #v">communia</lem>
-                <rdg wit="#Px" ana="#lexical">coloris</rdg>
-              </app>, <app>
-                <lem wit="#β #κ #Va #m #v">sicut</lem>
+              </app> expositionem premittantur quedam communia, <app>
+                <lem>sicut</lem>
                 <rdg wit="#π #Vb" ana="#lexical">scilicet</rdg>
-              </app>
-              <app>
-                <lem wit="#α #π #Ma #Mb #Px #Vz #m #v">quid</lem>
-                <rdg wit="#Vm" ana="#lexical">quidem</rdg>
-              </app> est musica et que <app>
-                <lem wit="#α #Gu #Ma #Mb #Pp #Pu #Px #Vm #Vo #m #v">ipsius</lem>
-                <rdg wit="#Vz" ana="#additive">sint ipsius species</rdg>
-                <rdg wit="#Pz" ana="#lexical #J">prius</rdg>
-              </app>? <app>
-                <lem wit="#α #κ #m #v">Que</lem>
+              </app> quid est musica et que ipsius? <app>
+                <lem>Que</lem>
                 <rdg wit="#π" ana="#subtractive #J"/>
               </app> secundum <cit>
-                <ref><app>
-                    <lem wit="#β #Ea #Vb #m #v"><name ref="#Bo">boecium</name>
-                      <title ref="#BoMu">musice</title>
-                      <num type="ordinal" value="5">5°</num></lem>
-                    <rdg wit="#λ" ana="#lexical"><name ref="#Bo">boecium</name><title ref="#BoMu"
-                        >musice</title>
-                      <num type="ordinal" value="4">4°</num></rdg>
-                    <rdg wit="#Va" ana="#subtractive"><name ref="#Bo">boecium</name><title
-                        ref="#BoMu">musicce</title></rdg>
-                    <rdg wit="#Px" ana="#lexical"><name ref="#Bo">boecium</name> raritate <num
-                        type="ordinal" value="4">4°</num></rdg>
-                    <rdg wit="#π" ana="#lexical #ordinal #J"><name ref="#Bo">boecium</name>
-                      <app>
-                        <lem wit="#Vo" ana="#J">in</lem>
-                        <rdg wit="#Pz" ana="#lexical #J">et</rdg>
-                        <rdg wit="#Gu #Pp #Pu" ana="#subtractive #J"/>
-                      </app><num type="ordinal" value="1">primo</num><title ref="#BoMu"
-                        >musice</title></rdg>
+                <ref><name ref="#Bo">boecium</name> <title ref="#BoMu">musice</title> 
+                  <app>
+                    <lem wit="#β #Ea #Vb #m #v"><num type="ordinal" value="5">5°</num></lem>
+                    <rdg wit="#κ" ana="#lexical"><num type="ordinal" value="4">4°</num></rdg>
+                    <rdg wit="#π" ana="#lexical #J"><num type="ordinal" value="1">primo</num></rdg>
                   </app></ref>
                 <bibl corresp="#BoMu"><author>Boethius</author>
                   <title>De inst. mus.</title>
@@ -1079,64 +977,32 @@
                     >2</biblScope> <note>(Friedlein p. 352, ll. 4–5)</note></bibl>
                 <quote rend="inline"><app>
                     <lem wit="#β #λ #Ea">est armonica</lem>
-                    <rdg wit="#Pp #Pu #Pz #Vo" ana="#ordinal #J">armonica est</rdg>
-                    <rdg wit="#γ #Px #m #v" ana="#morphological">est armonice</rdg>
-                    <rdg wit="#Gu" ana="#lexical #J">Armonia est</rdg>
-                  </app> facultas <app>
-                    <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">differentias</lem>
-                    <rdg wit="#Pz" ana="#lexical #J">differens</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #κ #m #v">acutorum et grauium sonorum <app>
-                        <lem wit="#β #κ #Va #m #v">sensu</lem>
-                        <rdg wit="#Vb" ana="#morphological">sensum</rdg>
-                      </app>
-                      <app>
-                        <lem wit="#κ #Py">et</lem>
-                        <rdg wit="#γ #Ea #Nu #m #v" ana="#lexical">ac</rdg>
-                      </app> ratione</lem>
-                    <rdg wit="#π" ana="#subtractive #ordinal #J">acutorum sonorum et grauium <app>
-                        <lem wit="#Vo" ana="#J">sonorum ratione</lem>
-                        <rdg wit="#Gu #Pp #Pu" ana="#subtractive #J">ratione</rdg>
-                        <rdg wit="#Pz" ana="#subtractive #J">sonorum</rdg>
-                      </app></rdg>
-                  </app> perpendens.</quote>
-              </cit> Secundum <app>
-                <lem wit="#α #π #Ma #Mb #Px #Vm #m #v">vero</lem>
-                <rdg wit="#Vz" ana="#subtractive"/>
-              </app>
+                    <rdg wit="#Vo" ana="#ordinal #J">armonica est</rdg>
+                    <rdg wit="#γ #Px" ana="#morphological">est armonice</rdg>
+                </app> facultas differentias <app>
+                    <lem wit="#α #κ #m #v">acutorum</lem>
+                    <rdg wit="#π" ana="#additive #J">acutorum sonorum</rdg>
+                </app> et grauium sonorum <app>
+                    <lem wit="#κ #Py">sensu et</lem>
+                     <rdg wit="#γ #Ea #Nu" ana="#lexical">sensu ac</rdg>
+                     <rdg wit="#π" ana="#subtractive #J"/>
+                </app> ratione perpendens.</quote>
+              </cit> Secundum vero
               <cit>
-                <ref><name ref="#Is">ysidorum</name>
-                  <app>
-                    <lem wit="#α #λ #Gu #Pp #Pu #Vo #m #v">in</lem>
-                    <rdg wit="#Px" ana="#lexical">vt</rdg>
-                    <rdg wit="#Pz" ana="#subtractive #J"/>
-                  </app>
-                  <app>
-                    <lem wit="#β #Gu #Pu #Vb #Vm #m #v"><title ref="#IsEt"
+                <ref><name ref="#Is">ysidorum</name> in <app>
+                    <lem><title ref="#IsEt"
                       >ethymologiis</title></lem>
-                    <rdg wit="#Pp #Pq #Va #Vo" ana="#orthographical"
-                      ><title>ethimologiis</title></rdg>
-                    <rdg wit="#Ma" ana="#orthographical"><title>ethimologicis</title></rdg>
-                    <rdg wit="#Pz" ana="#orthographical #J"><title>metimologiis</title></rdg>
                     <rdg wit="#Ea #Px #Vm" ana="#lexical">ethicis</rdg>
                   </app></ref>
                 <bibl corresp="#IsEt"><author>Isidore of Seville</author>, <title>Etym.</title>
                   <biblScope unit="book" n="3">III</biblScope>.<biblScope unit="chapter" n="15"
                     >15</biblScope>.<biblScope unit="part">1</biblScope></bibl>
-                <quote rend="inline">est peritia modulationis, <app>
-                    <lem wit="#β #κ #Ea #π #m #v">sono</lem>
-                    <rdg wit="#Vb" ana="#morphological">sonorum</rdg>
-                    <rdg wit="#Va" ana="#subtractive"/>
-                  </app> cantuque consistens.</quote>
+                <quote rend="inline">est peritia modulationis, sono cantuque consistens.</quote>
               </cit></p>
             <p n="2">Dicitur etiam quod <cit>
                 <quote rend="inline">sit scientia numeri ad sonos <app>
-                    <lem wit="#β #γ #κ #m #v">proportionati</lem>
+                    <lem>proportionati</lem>
                     <rdg wit="#π" ana="#morphological #J">proportionatos</rdg>
-                    <rdg wit="#Ea" ana="#morphological"><term xml:id="proport."
-                        >proportionatis</term><gloss target="#proport."
-                        rend="interlinear above, lighter ink">relati</gloss></rdg>
                   </app>.</quote>
                 <bibl cert="low" corresp="#ArPA"><author>Arist.</author>
                   <title>An. post.</title>
@@ -1144,83 +1010,38 @@
                     >14–23</biblScope></bibl>
               </cit>
               <milestone ed="#Va" unit="folio" n="72v"/>Que secundum <cit>
-                <ref><name ref="#Is"><app>
-                      <lem wit="#β #γ #π #Ma #Mb #Px #Vm #m">ysidorum</lem>
-                      <rdg wit="#Vz #v" ana="#orthographical">isidorum</rdg>
-                      <rdg wit="#Ea" ana="#lexical">yrodorum</rdg>
-                    </app></name></ref>
-                <quote rend="inline">dicitur <app>
-                    <lem wit="#γ #κ #π #Ea #Nu #m #v">a <foreign xml:lang="grc" xml:id="muso"
-                        >muso</foreign></lem>
-                    <rdg wit="#Py" ana="#lexical">autem misso</rdg>
-                  </app>
+                <ref><name ref="#Is">ysidorum</name></ref>
+                <quote rend="inline">dicitur a <foreign xml:lang="grc" xml:id="muso"
+                        >muso</foreign> 
                   <gloss target="#muso"><app>
-                      <lem wit="#γ #Nu #Px #Vz #m #v">quasi a querendo</lem>
-                      <rdg wit="#Ea" ana="#orthographical">quasi a quirendo</rdg>
-                      <rdg wit="#Ma #Py #Pz #Vo" ana="#lexical">quasi acquirendo</rdg>
-                      <rdg wit="#Vm" ana="#lexical">que acquerendo</rdg>
+                      <lem>quasi a querendo</lem>
+                      <rdg wit="#Ma #Py #Vo" ana="#lexical">quasi acquirendo</rdg>
                       <rdg wit="#Gu #Pp #Pu #Pz" ana="#lexical #J">id est acquirendo</rdg>
-                    </app></gloss>, quia <app>
-                    <lem wit="#β #κ #Ea #Va">per eam vis</lem>
-                    <rdg wit="#m #v" ana="#lexical">per eam ius</rdg>
-                    <rdg wit="#Vb" ana="#lexical">per ea vix</rdg>
-                    <rdg wit="#Gu #Pp #Pu #Vo" ana="#subtractive #J">per ius</rdg>
-                    <rdg wit="#Pz" ana="#lexical #J">paruis</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #κ #Gu #Pp #Pu #Pz #m #v">carminum</lem>
-                    <rdg wit="#Vo" ana="#lexical #J">corninum</rdg>
-                  </app>
-                  <milestone ed="#Pz" unit="folio" n="179v"/><app>
-                    <lem wit="#β #γ #κ #m #v">querebatur</lem>
-                    <rdg wit="#Ea" ana="#morphological">queratur</rdg>
+                    </app></gloss>, quia per <app>
+                    <lem>eam</lem>
+                    <rdg wit="#π" ana="#subtractive #J"/>
+                    </app> <app>
+                      <lem>vis</lem>
+                      <rdg wit="#π #m #v" ana="#lexical">ius</rdg>
+                    </app> carminum <app>
+                    <lem>querebatur</lem>
                     <rdg wit="#π" ana="#lexical #J">acquiritur</rdg>
-                  </app>. Vnde a poetis <persName ref="#Ju">iouis</persName> et <persName ref="#Mem"><app>
-                      <lem wit="#β #κ #Ea #Gu #Pp #Pz #Vo">memorie</lem>
-                      <rdg wit="#Va" ana="#orthographical">menone</rdg>
-                      <rdg wit="#Pq #Vb #m #v" ana="#orthographical">memone</rdg>
-                      <rdg wit="#Pu" ana="#lexical #J" cert="low">venem</rdg>
-                    </app></persName>
+                  </app>. Vnde a poetis <persName ref="#Ju">iouis</persName> et <persName 
+                    ref="#Mem">memorie</persName> filias
                   <app>
-                    <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">filias</lem>
-                    <rdg wit="#Pz" ana="#lexical #J">philos</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #Px #Pz #Vm #Vo #Vz #m #v">mutas</lem>
+                    <lem>mutas</lem>
                     <rdg wit="#Gu #Pp #Pu" ana="#lexical #J">musas</rdg>
-                    <rdg wit="#Ma" ana="#lexical">unitas</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #π #Ma #Px #Vm #m #v">esse</lem>
-                    <rdg wit="#Vz" ana="#subtractive"/>
-                  </app> confictum <app>
-                    <lem wit="#β #γ #κ #Gu #Pp #Pu #Vo #m #v">est</lem>
-                    <rdg wit="#Ea" ana="#morphological">esse</rdg>
-                    <rdg wit="#Pz" ana="#subtractive #J"/>
-                  </app>, nam <app>
-                    <lem wit="#κ">memoria soni</lem>
-                    <rdg wit="#π" ana="#ordinal #J"><app>
-                        <lem wit="#Pu #Pz #Vo" ana="#J">soni memoria</lem>
-                        <rdg wit="#Pp" ana="#morphological #J">soni memorie</rdg>
-                        <rdg wit="#Gu" ana="#additive #J">soni memoria si</rdg>
-                      </app></rdg>
-                    <rdg wit="#Py #Vb #m #v" ana="#additive"><app>
-                        <lem wit="#Py #Vb #m #v">si memoria soni</lem>
-                        <rdg wit="#Va" ana="#orthographical">si menoria soni</rdg>
-                        <rdg wit="#Nu" ana="#lexical">si memoria sibi</rdg>
-                      </app></rdg>
+                  </app> esse confictum est, nam <app><lem>si</lem>
+                    <rdg wit="#κ #π" ana="#subtractive"/>
+                  </app> <app>
+                    <lem>memoria soni</lem>
+                    <rdg wit="#π" ana="#ordinal #J">soni memoria</rdg>
                   </app> non <app>
-                    <lem wit="#α #m #v">teneantur, pereunt</lem>
+                    <lem>teneantur, pereunt</lem>
                     <rdg wit="#κ" ana="#morphological">teneatur, pereunt</rdg>
-                    <rdg wit="#π" ana="#morphological #J"><app>
-                        <lem wit="#Gu #Vo" ana="#J">teneatur, perit</lem>
-                        <rdg wit="#Pz" ana="#orthographical #J">tineatur, perit</rdg>
-                        <rdg wit="#Pu" ana="#lexical #J">teneatur pariter</rdg>
-                        <rdg wit="#Pp" ana="#lexical #ordinal #J">pariter teneatur</rdg>
-                      </app></rdg>
+                    <rdg wit="#π" ana="#morphological #J">teneatur, perit</rdg>
                   </app>, cum non <app>
-                    <lem wit="#β #Vb #Vz #m">possint</lem>
-                    <rdg wit="#Va" ana="#orthographical">posint</rdg>
+                    <lem>possint</lem>
                     <rdg wit="#Ma #Px #Vm #v" ana="#morphological">possunt</rdg>
                     <rdg wit="#π #Ea" ana="#morphological">possit</rdg>
                   </app> scribi.</quote>
@@ -1229,173 +1050,42 @@
                     >15</biblScope>.<biblScope unit="part" from="1" to="2">1–2</biblScope></bibl>
               </cit>
               <app>
-                <lem wit="#β #κ #Va #m #v">A nonnullis</lem>
-                <rdg wit="#Vb" ana="#lexical"><unclear>Amat</unclear> nonnullis</rdg>
-                <rdg wit="#Ea" ana="#lexical">nullus</rdg>
-                <rdg wit="#π" ana="#lexical #J">Aut</rdg>
-              </app>
+                <lem>A nonnullis vero</lem>
+                <rdg wit="#π" ana="#lexical #subtractive #J">Aut</rdg>
+              </app> a <foreign xml:lang="egy" xml:id="moys">moys</foreign>
+              <gloss target="#moys">quod est aqua,</gloss> quia
               <app>
-                <lem wit="#β #γ #κ #m #v">vero dicitur</lem>
-                <rdg wit="#Ea" ana="#ordinal">dicitur vero</rdg>
-                <rdg wit="#π" ana="#subtractive #J">dicitur</rdg>
-              </app>
-              <app>
-                <lem wit="#α #λ #Gu #Pu #Pz #Vo #m #v">a <foreign xml:lang="egy" xml:id="moys"
-                    >moys</foreign></lem>
-                <rdg wit="#Pp" ana="#orthographical #J">a moyis</rdg>
-                <rdg wit="#Px" ana="#lexical">amois</rdg>
-              </app>
-              <gloss target="#moys"><app>
-                  <lem wit="#α #λ #π #m #v">quod</lem>
-                  <rdg wit="#Px #Pz" ana="#morphological">que</rdg>
-                </app> est aqua,</gloss>
-              <app>
-                <lem wit="#α #π #Ma #Px #Vz #m #v">quia</lem>
-                <rdg wit="#Vm" ana="#subtractive"/>
-              </app>
-              <app>
-                <lem wit="#α #Ma #Pp #Px #Pu #Pz #Vm #m #v">olim primitus</lem>
-                <rdg wit="#Vz" ana="#ordinal">primitus olim</rdg>
+                <lem>olim primitus</lem>
                 <rdg wit="#Ca #Vo" ana="#lexical #J">olim amicus</rdg>
-                <rdg wit="#Gu" ana="#additive #J"><app>
-                    <lem wit="#Gu" ana="#J">olim tali primitus</lem>
-                    <rdg wit="#Pq" ana="#subtractive #J">tali primitus</rdg>
-                  </app></rdg>
+                <rdg wit="#Gu #Pq" ana="#additive #J">olim tali primitus</rdg>
               </app>
               <app>
-                <lem wit="#β #κ #Ea #Vb #m #v">inuenta fuit</lem>
+                <lem>inuenta fuit</lem>
                 <rdg wit="#π #Va" ana="#ordinal">fuit inuenta</rdg>
-              </app>
-              <app>
-                <lem wit="#α #κ #Gu #Pu #Vo #m #v">in illa</lem>
-                <rdg wit="#Pz" ana="#lexical #J">et illa</rdg>
-                <rdg wit="#Pp" ana="#lexical #J">in aqua</rdg>
-              </app>, et <app>
-                <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">in</lem>
-                <rdg wit="#Pz" ana="#subtractive #J"/>
-              </app>
-              <app>
-                <lem wit="#β #Ea #Ma #Px #Vz #m #v">ydriis</lem>
-                <rdg wit="#Vm" ana="#orthographical">ydris</rdg>
-                <rdg wit="#Va" ana="#orthographical">idriis</rdg>
-                <rdg wit="#Vb" ana="#orthographical">yndriis</rdg>
-                <rdg wit="#Gu #Pp #Pu #Vo" ana="#orthographical #J">ydreis</rdg>
-                <rdg wit="#Pz" ana="#orthographical #J">ydeis</rdg>
-              </app> siue <app>
-                <lem wit="#α #κ #Gu #Pu #Pz #Vo #m #v">instrumentis</lem>
-                <rdg wit="#Pp" ana="#additive #J">in instrumentis</rdg>
-              </app> aquaticis <app>
-                <lem wit="#β #κ #π #Ea #Va #m #v">similiter</lem>
-                <rdg wit="#Va" ana="#lexical">simpliciter</rdg>
-              </app>
-              <app>
-                <lem wit="#γ #κ #Ea #Gu #Nu #Pp #Pu #Vo #m #v">exercita</lem>
-                <rdg wit="#Py" ana="#orthographical">exercitica</rdg>
-                <rdg wit="#Pz" ana="#lexical #J">ex certa</rdg>
-              </app>. <cit>
-                <quote rend="inline"><app>
-                    <lem wit="#α #Gu #Ma #Pp #Pu #Px #Vo #Vz #m #v">Refert autem</lem>
-                    <rdg wit="#Vm" ana="#orthographical">Reffert autem</rdg>
-                    <rdg wit="#Pz" ana="#lexical #subtractive #J">Refertur</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #λ #Gu #Pp #Pu #Vo #m #v"><persName ref="#Mos">moyses</persName>
-                      hanc</lem>
-                    <rdg wit="#Px" ana="#orthographical"><persName ref="#Mos">moises</persName>
-                      hanc</rdg>
-                    <rdg wit="#Pz" ana="#ordinal #J">hanc <persName ref="#Mos"
-                      >moyses</persName></rdg>
-                  </app> inuenisse <app xml:id="app-homt-1.1a" next="#app-homt-1.1b">
-                    <lem wit="#α #λ #π #m #v"><app>
-                        <lem wit="#Gu #Ma #Nu #Mb #Vm #Vz #m #v"><persName ref="#Tub"
-                            >tubal</persName></lem>
-                        <rdg wit="#Ea #Vo" ana="#orthographical">cubal</rdg>
-                        <rdg wit="#Pz" ana="#orthographical #J">gubal</rdg>
-                        <rdg wit="#Vb" ana="#orthographical">tutubal</rdg>
-                        <rdg wit="#Va" ana="#orthographical">tutubalis</rdg>
-                        <rdg wit="#Pp #Pu" ana="#lexical #J">aabal</rdg>
-                        <rdg wit="#Py" ana="#additive"><persName ref="#Tub">tubal</persName> fratrem
-                            <persName ref="#Cay">cayn</persName></rdg>
-                      </app>
-                      <milestone ed="#Pu" unit="column" n="B"/>de <app>
-                        <lem wit="#α #π #Ma #Vm #m #v">stirpe</lem>
-                        <rdg wit="#Vz" ana="#orthographical">styrpe</rdg>
-                      </app>
-                      <persName ref="#Cay"><app>
-                          <lem wit="#Pp #Pu #Py #Va #Vo #Vz">cayn</lem>
-                          <rdg wit="#Nu" ana="#orthographical">chayn</rdg>
-                          <rdg wit="#Ea #Gu #Pz #Vm" ana="#orthographical">caym</rdg>
-                          <rdg wit="#Vb" ana="#orthographical">kaym</rdg>
-                          <rdg wit="#Ma #m #v" ana="#orthographical">chaym</rdg>
-                        </app></persName>
-                      <app>
-                        <lem wit="#α #λ #Pp #Pu #Vo #m #v">ante diluuium</lem>
-                        <rdg wit="#Gu" ana="#orthographical #J">ante dyluuium</rdg>
-                        <rdg wit="#Pz" ana="#orthographical #J">ante diluium</rdg>
-                      </app></lem>
-                    <rdg wit="#Px" cause="#homeoteleuton" ana="#subtractive"/>
-                  </app>.</quote>
+              </app> in illa, et in ydriis siue instrumentis aquaticis similiter exercita.
+              <cit>
+                <quote rend="inline">Refert autem <persName ref="#Mos">moyses</persName>
+                  hanc inuenisse <persName ref="#Tub">tubal</persName> de stirpe <persName 
+                  ref="#Cay">cayn</persName> ante diluuium.</quote>
                 <bibl corresp="#IsEt"><author>Isidore of Seville</author>, <title>Etym.</title>
                   <biblScope unit="book" n="3">III</biblScope>.<biblScope unit="chapter" n="16"
                     >16</biblScope>.<biblScope unit="part" n="1">1</biblScope></bibl>
               </cit>
-              <app xml:id="app-homt-1.1b" prev="#app-homt-1.1a">
-                <lem wit="#α #λ #π #m #v"><cit xml:id="cit-1.1a" next="#cit-1.1b">
-                    <quote rend="inline">Sed <app>
-                        <lem wit="#α #λ #Gu #Pp #Pu #Vo #m #v">greci</lem>
-                        <rdg wit="#Pz" ana="#lexical #J">gressi</rdg>
-                      </app>,</quote>
-                    <ref>vt apparet per <name ref="#Mac">macrobium</name> et <name ref="#Bo"><app>
-                          <lem wit="#β #γ #λ #Gu #Pp #Pu #Vo #m #v">boecium</lem>
-                          <rdg wit="#Ea" ana="#orthographical">botium</rdg>
-                          <rdg wit="#Pz" ana="#lexical #J">bonum</rdg>
-                        </app></name>, </ref>
-                    <quote rend="inline">dicunt <milestone ed="#Mb" unit="folio" n="39r"/>eam
-                      inuenisse</quote>
-                  </cit>
-                </lem>
-                <rdg wit="#Px" cause="#homeoteleuton" ana="#subtractive"/>
-              </app>
-              <cit xml:id="cit-1.1b" prev="#cit-1.1a">
-                <quote rend="inline"><app>
-                    <lem wit="#Py"><persName ref="#Pyth">pytagori samium</persName></lem>
-                    <rdg wit="#Ea #Nu" ana="#orthographical"><persName ref="#Pyth">pictagori
-                        samium</persName></rdg>
-                    <rdg wit="#Px" ana="#orthographical"><persName ref="#Pyth">pictagori
-                        samimum</persName></rdg>
-                    <rdg wit="#Vb" ana="#morphological"><persName ref="#Pyth">pictagorius
-                        samium</persName></rdg>
-                    <rdg wit="#Ma #Vz" ana="#morphological"><persName ref="#Pyth">pitagoram
-                        samium</persName></rdg>
-                    <rdg wit="#Vm" ana="#morphological"><persName ref="#Pyth">pictagoram
-                        samium</persName></rdg>
-                    <rdg wit="#π" ana="#morphological #subtractive #J"><persName ref="#Pyth"
-                        >pictagoram</persName></rdg>
-                    <rdg wit="#m #v" ana="#lexical">pythagorici samium</rdg>
-                    <rdg wit="#Va" ana="#lexical #subtractive">pitagorici</rdg>
-                  </app> sonitu <app>
-                    <lem wit="#π #Ea #Nu #Vb #Vm #Vz #m #v">malleorum</lem>
-                    <rdg wit="#Ma #Px #Py #Va" ana="#orthographical">maleorum</rdg>
-                  </app>, <app>
-                    <lem wit="#β #κ #π #Ea #Vb #m #v">cum</lem>
-                    <rdg wit="#Va" ana="#additive">cum pro</rdg>
-                  </app> casu in <app>
-                    <lem wit="#γ #κ #π #Ea #m #v">publicum</lem>
-                    <rdg wit="#Nu" ana="#orthographical">plubicum</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #π #Ma #Px #Vm #m #v">exiret</lem>
-                    <rdg wit="#Vz" ana="#lexical">iret</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #κ #Pp #Pu #Pz #Vo #m #v">ad</lem>
-                    <rdg wit="#Gu" ana="#lexical #J">cum</rdg>
-                  </app> fabros, et cordarum <app>
-                    <lem wit="#β #γ #λ #m #v">demum impulsione</lem>
-                    <rdg wit="#Ea #Pp #Pu #Px" ana="#orthographical">demum inpulsione</rdg>
-                    <rdg wit="#Pq #Pz #Vo" ana="#lexical #J">deinde impulsione</rdg>
-                    <rdg wit="#Gu" ana="#lexical #J">deinde pulsione</rdg>
-                  </app>.</quote>
+              <cit>
+                    <quote rend="inline">Sed greci,</quote>
+                    <ref>vt apparet per <name ref="#Mac">macrobium</name> et <name 
+                      ref="#Bo">boecium</name>,</ref>
+                <quote rend="inline">dicunt eam inuenisse <app>
+                  <lem><persName ref="#Pyth">pitagoram</persName></lem>
+                  <rdg wit="#β #Ea #Px" ana="#morphological"><persName ref="#Pyth">pictagori</persName></rdg>
+                  <rdg wit="#Va #m #v" ana="#lexical">pitagorici</rdg>
+                </app> <app>
+                  <lem><persName ref="#Pyth">samium</persName></lem>
+                  <rdg wit="#π #Va" ana="#subtractive"/>
+                </app> sonitu malleorum, cum casu in publicum exiret ad fabros, et cordarum <app>
+                    <lem>demum</lem>
+                    <rdg wit="#π" ana="#lexical #J">deinde</rdg>
+                  </app> impulsione.</quote>
                 <bibl corresp="#BoMu"><author>Boethius</author>, <title>De inst. mus.</title>
                   <biblScope unit="book" n="1">I</biblScope>.<biblScope unit="chapter" n="10"
                     >10</biblScope> <note>(Friedlein p. 196–7)</note></bibl>
@@ -1404,309 +1094,76 @@
                   <biblScope unit="book" n="2">II</biblScope>.<biblScope unit="chapter" n="1"
                     >1</biblScope> <note>(Eyssenhardt p. 572–575)</note></bibl>
               </cit></p>
-            <p n="3"><app>
-                <lem wit="#α #κ #Pu #Pz #Vo #m #v">Diuiditur</lem>
-                <rdg wit="#Gu #Pp" ana="#lexical #J">Dicitur</rdg>
-              </app> autem musica <app>
-                <lem wit="#α #κ #Pp #Pu #Pz #Vo #m #v">iuxta</lem>
-                <rdg wit="#Gu" ana="#lexical #J">secundum</rdg>
-              </app>
-              <app>
-                <lem wit="#β #γ #λ #π #m #v">eosdem</lem>
-                <rdg wit="#Ea" ana="#morphological">easdem</rdg>
-                <rdg wit="#Px" ana="#lexical #syntactic">eo sedem</rdg>
-              </app> in <app>
-                <lem wit="#α #Gu #Mb #Pp #Pu #Px #Pz #Vm #Vo #Vz #m #v">mundanam</lem>
-                <rdg wit="#Ma" ana="#orthographical">mondanam</rdg>
-              </app>, <app>
-                <lem wit="#α #λ #π #m #v">humanam</lem>
-                <rdg wit="#Px" ana="#lexical">habentiuam</rdg>
-              </app>, <app>
-                <lem wit="#β #κ #π #Va #m #v">et</lem>
-                <rdg wit="#Vb" ana="#subtractive"/>
-              </app> organicam <app>
-                <lem wit="#α #λ #π #m #v">vel</lem>
-                <rdg wit="#Px" ana="#lexical">seu</rdg>
-              </app>
-              <milestone ed="#Gu" unit="column" n="B"/>instrumentalem. <app>
-                <lem wit="#β #γ #Gu #Mb #Pp #Pu #Px #Pz #Vm #Vz #m #v">Mundana</lem>
-                <rdg wit="#Ma" ana="#orthographical">mondana</rdg>
-                <rdg wit="#Vo" ana="#orthographical #J">munda</rdg>
-                <rdg wit="#Ea" ana="#morphological">mundanam</rdg>
-              </app>
-              <app>
-                <lem wit="#β #γ #κ #m #v">vero</lem>
+            <p n="3">Diuiditur autem musica iuxta eosdem in mundanam, humanam, et organicam vel 
+              instrumentalem. Mundana <app>
+                <lem>vero</lem>
                 <rdg wit="#π" ana="#lexical #J">quidem</rdg>
-                <rdg wit="#Ea" ana="#lexical">non</rdg>
-              </app>
+              </app> attenditur in sono armonico, quem causant orbes celestes, secundum <app>
+                <lem><persName ref="#Pyth">pictagoram</persName></lem>
+                <rdg wit="#γ #m #v" ana="#lexical">pithagoricos</rdg>
+              </app> cum aliis musicis, differenter 
               <app>
-                <lem wit="#γ #λ #Gu #Py #Pz #Vo #m #v">attenditur</lem>
-                <rdg wit="#Nu" ana="#orthographical">adtenditur</rdg>
-                <rdg wit="#Px" ana="#orthographical">acctenditur</rdg>
-                <rdg wit="#Ea" ana="#lexical">intenditur</rdg>
-                <rdg wit="#Pp #Pu" ana="#subtractive #J"/>
-              </app> in sono armonico, <app>
-                <lem wit="#β #γ #π #Ma #Px #Vz #m #v">quem</lem>
-                <rdg wit="#Vm" ana="#morphological">que</rdg>
-                <rdg wit="#Ea" ana="#morphological">quam</rdg>
-              </app> causant orbes celestes, secundum <app>
-                <lem wit="#β #π #Ea #Vm #Vz"><persName ref="#Pyth">pictagoram</persName></lem>
-                <rdg wit="#Px" ana="#orthographical"><persName ref="#Pyth"
-                  >pictigoram</persName></rdg>
-                <rdg wit="#Ma" ana="#orthographical"><persName ref="#Pyth"
-                  >pitagoram</persName></rdg>
-                <rdg wit="#m #v" ana="#lexical">pithagoricos</rdg>
-                <rdg wit="#Vb" ana="#lexical">pictagoricos</rdg>
-                <rdg wit="#Va" ana="#lexical">pitagoricos</rdg>
-              </app> cum aliis musicis, <app>
-                <lem wit="#γ #λ #Ea #Pq">differenter</lem>
-                <rdg wit="#Gu #Pu #Py #Pz" ana="#orthographical"><choice>
-                    <expan>d<ex>iffe</ex>r<ex>e</ex>nter</expan>
-                    <abbr>drnter</abbr>
-                  </choice></rdg>
-                <rdg wit="#Pp #Px #Vo" ana="#orthographical"><choice>
-                    <expan>d<ex>iffe</ex>r<ex>e</ex>nt<ex>er</ex></expan>
-                    <abbr>drntʾ</abbr>
-                  </choice></rdg>
-                <rdg wit="#m #v" ana="#lexical"><choice>
-                    <expan>d<ex>iffe</ex>r<ex>u</ex>ntur</expan>
-                    <abbr>drntur</abbr>
-                  </choice></rdg>
-              </app>
-              <app>
-                <lem wit="#α #κ #m #v">commotos</lem>
+                <lem>commotos</lem>
                 <rdg wit="#π" ana="#morphological #J">commoti</rdg>
               </app>. <cit>
-                <quote rend="inline"><app>
-                    <lem wit="#α #λ #π #m #v">Sonum</lem>
-                    <rdg wit="#Px" ana="#subtractive"/>
-                  </app>
-                  <app>
-                    <lem wit="#γ #κ #π #Ea #Nu #m #v">enim</lem>
-                    <rdg wit="#Py" ana="#subtractive"/>
-                  </app>
-                  <app>
-                    <lem wit="#α #π #Ma #Px #Vm #m #v">armonicum</lem>
-                    <rdg wit="#Vz" ana="#lexical">organicum</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #π #Ma #Px #Vz #m #v">causant</lem>
-                    <rdg wit="#Vm" ana="#morphological">causatur</rdg>
-                  </app>, <app>
-                    <lem wit="#β #κ #π #Ea #Vb #m #v">sed</lem>
-                    <rdg wit="#Va" ana="#lexical">per</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#β #γ #κ #Gu #Pp #Pu #Vo #m #v">eum</lem>
-                    <rdg wit="#Pz" ana="#morphological #J">eius</rdg>
-                    <rdg wit="#Ea" ana="#additive">eum <surplus>sed eum</surplus></rdg>
-                  </app> non <app>
-                    <lem wit="#α #κ #m #v">percipimus</lem>
+                <quote rend="inline">Sonum enim armonicum causant, sed eum non <app>
+                    <lem>percipimus</lem>
                     <rdg wit="#π" ana="#additive #J">percipimus vt</rdg>
                   </app>, dicunt, <app>
-                    <lem wit="#γ #Ea #Nu #Px #Vm #Vz #m #v">propter quod</lem>
-                    <rdg wit="#π" ana="#additive #J">propter hoc quod</rdg>
-                    <rdg wit="#Py" ana="#lexical">propter ea quod</rdg>
-                    <rdg wit="#Ma" ana="#lexical">preterea</rdg>
-                  </app>
-                  <milestone ed="#Ea" unit="folio" n="137r"/><app>
-                    <lem wit="#β #γ #κ #m #v">in auribus nostris a principio</lem>
-                    <rdg wit="#Ea" ana="#additive">in auribus et nostris a principio</rdg>
-                    <rdg wit="#π" ana="#ordinal #additive #J">a principio nobis in <app>
-                        <lem wit="#Pp #Pu #Pz #Vo" ana="#J">auribus nostris</lem>
-                        <rdg wit="#Gu #Pq" ana="#ordinal #J">nostris auribus</rdg>
-                      </app></rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #κ #m #v">natiuitatis</lem>
-                    <rdg wit="#Gu #Pp #Pu #Pz" ana="#lexical #J">natum</rdg>
-                    <rdg wit="#Vo" ana="#lexical #J">notum</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #κ #m #v">est</lem>
-                    <rdg wit="#π" ana="#additive #J">est et</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #κ #v #v">complantatus</lem>
-                    <rdg wit="#π" ana="#morphological #J">complantatur</rdg>
-                  </app>, <app>
-                    <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">vt</lem>
-                    <rdg wit="#Pz" ana="#subtractive #J"/>
-                  </app>
-                  <app>
-                    <lem wit="#β #κ #Gu #Pu #Vo">in eris apparet</lem>
-                    <rdg wit="#Pp" ana="#ordinal #J">apparet in eris</rdg>
-                    <rdg wit="#γ #Ea #Pz #m #v" ana="#lexical">in eis apparet</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #Gu #Pp #Pu #Px #Pz #Vm #Vo #Vz #m #v">malleatoribus</lem>
-                    <rdg wit="#Ma" ana="#orthographical">maleatoribus</rdg>
-                    <rdg wit="#Pq" ana="#morphological #J">malleationibus</rdg>
-                  </app> strepitum <app>
-                    <lem wit="#γ #κ #π #Ea #Nu #m #v">suum</lem>
-                    <rdg wit="#Py" ana="#subtractive"/>
-                  </app>
-                  <app>
-                    <lem wit="#β #κ #π #Ea #Vb #m #v">vix</lem>
-                    <rdg wit="#Va" ana="#lexical">vis</rdg>
-                  </app> percipientibus <app>
-                    <lem wit="#α #λ #Gu #Pu #Pz #Vo #m #v">consuetudine</lem>
-                    <rdg wit="#Px" ana="#orthographical"><choice>
-                        <sic>consuebus consuetudine</sic>
-                        <corr>consuetudine</corr>
-                      </choice></rdg>
-                    <rdg wit="#Pp" ana="#additive #J">et ex consuetudine</rdg>
-                  </app></quote>
+                    <lem>propter quod in auribus nostris a principio natiuitatis est complantatus</lem>
+                    <rdg wit="#π" ana="#ordinal #additive #J">propter hoc quod a principio nobis in auribus nostris natum est et complantatur</rdg>
+                  </app>, vt in <app>
+                    <lem>eris</lem>
+                    <rdg wit="#γ #Ea" ana="#lexical">eis</rdg>
+                  </app> apparet malleatoribus strepitum suum vix percipientibus consuetudine</quote>
                 <app>
-                  <lem wit="#β #κ #Va #m #v">quos</lem>
-                  <rdg wit="#Gu #Pp #Pu #Vo" ana="#morphological #J">quod</rdg>
-                  <rdg wit="#Pz" ana="#morphological #J">quo</rdg>
-                  <rdg wit="#Vb" ana="#morphological">quorum</rdg>
-                </app>
-                <app>
-                  <lem wit="#β #Ea #Px #m #v"><ref><name ref="#Ar">aristotelem</name></ref> impugnat
-                        <ref><title ref="#ArCa">celi et mundi</title>
-                      <app>
-                        <lem wit="#β #Ea #m #v" n="mundi"/>
-                        <rdg wit="#Px" ana="#additive">et</rdg>
-                      </app>
-                      <num type="ordinal" value="2">2°.</num></ref></lem>
-                  <rdg wit="#γ #λ #Gu #Pp #Pu #Vo" ana="#ordinal"><ref><name ref="#Ar"
-                        >aristotelem</name></ref> impugnat <ref><app>
-                        <lem wit="#γ #λ #Gu #Pu" n="impugnat"/>
-                        <rdg wit="#Pp #Vo" ana="#additive #J">in</rdg>
-                      </app>
-                      <app>
-                        <lem wit="#λ #Gu #Pp #Pu #Va #Vo"><num type="ordinal" value="2"
-                          >2°</num></lem>
-                        <rdg wit="#Vb" ana="#lexical"><num type="ordinal" value="3">3°</num></rdg>
-                      </app>
-                      <title ref="#ArCa"><app>
-                          <lem wit="#γ #Mb #Vm #Vo #Vz">celi et mundi</lem>
-                          <rdg wit="#Ma" ana="#orthographical">celi et mondi</rdg>
-                          <rdg wit="#Gu #Pp #Pu" ana="#subtractive #J">celi</rdg>
-                        </app>.</title></ref></rdg>
-                  <rdg wit="#Pz" ana="#ordinal #additive #J"><ref><name ref="#Ar">aristotelem</name>
-                      in <num type="ordinal" value="2">2°</num>
-                      <title ref="#ArCa">celi et mundi</title></ref> inpungnat.</rdg>
+                  <lem>quos</lem>
+                  <rdg wit="#π" ana="#morphological #J">quod</rdg>
+                </app> <ref><name ref="#Ar">aristotelem</name></ref>
+                <app><lem>impugnat <ref><title ref="#ArCa">celi et mundi</title> <num type="ordinal" 
+                  value="2">2°.</num></ref></lem>
+                  <rdg wit="#γ #λ #π" ana="#ordinal">impugnat <ref> <num type="ordinal" value="2"
+                          >2°</num>
+                      <title ref="#ArCa">celi et mundi.</title></ref></rdg>
                 </app>
                 <bibl corresp="#ArCa"><author>Arist.</author>
                   <title>De caelo</title>, <biblScope unit="book" n="2">II</biblScope>.<biblScope
                     unit="chapter" n="9">9, </biblScope> <biblScope unit="page" n="290b"
                     >290b</biblScope>l. <biblScope unit="line" n="25">25</biblScope></bibl>
               </cit></p>
-            <p n="4">Musica vero <app>
-                <lem wit="#γ #κ #π #Ea #Nu #m #v">humana</lem>
-                <rdg wit="#Py" ana="#lexical">mundana</rdg>
-              </app>
-              <app>
-                <lem wit="#β #κ #π #Va #m #v">dicitur</lem>
-                <rdg wit="#Vb" ana="#subtractive"/>
-              </app>
-              <app>
-                <lem wit="#γ #κ #π #Ea #Nu #m #v">que</lem>
-                <rdg wit="#Py" ana="#lexical">que est</rdg>
-              </app> circa <app>
-                <lem wit="#β #Ea #Ma #Px #Vm #Vz #m #v">concordantiam elementorum</lem>
-                <rdg wit="#Va" ana="#morphological">concordantia elementorum</rdg>
+            <p n="4">Musica vero humana dicitur que circa <app>
+                <lem>concordantiam elementorum</lem>
                 <rdg wit="#π" ana="#subtractive #J">elementa</rdg>
-              </app>
-              <app>
-                <lem wit="#γ #κ #π #Ea #Py #m #v">diuersorum</lem>
-                <rdg wit="#Nu" ana="#morphological">diuersi</rdg>
-              </app> ad inuicem <app>
-                <lem wit="#γ #κ #Nu #m #v">in vno composito</lem>
-                <rdg wit="#Py" ana="#lexical">non composito</rdg>
+              </app> diuersorum ad inuicem <app>
+                <lem>in vno composito</lem>
                 <rdg wit="#π #Ea" ana="#subtractive"/>
-              </app> vel <app>
-                <lem wit="#γ #λ #π #Ea #Nu #m #v">compositionem</lem>
-                <rdg wit="#Py" ana="#morphological">compositione</rdg>
-                <rdg wit="#Px" ana="#lexical">compositum</rdg>
-              </app> corporis <app>
-                <lem wit="#γ #κ #π #Ea #Nu #m #v">versatur</lem>
-                <rdg wit="#Py" ana="#lexical">similatur</rdg>
-              </app>, per <app>
-                <lem wit="#β #λ #π #Ea #Va">eam</lem>
-                <rdg wit="#Px #Vb #m #v" ana="#morphological">ea</rdg>
-              </app> enim natura spiritualis <milestone ed="#Py" unit="folio" n="180"/>coniungitur <app>
-                <lem wit="#β #γ #Ma #Vm #Vz #m #v">corpori et rationalis</lem>
-                <rdg wit="#Mb" ana="#additive">corpori et in rationalis</rdg>
+              </app> vel compositionem corporis versatur, per <app>
+                <lem>eam</lem>
+                <rdg wit="#Px #Vb" ana="#morphological">ea</rdg>
+              </app> enim natura spiritualis coniungitur <app>
+                <lem>corpori et rationalis</lem>
                 <rdg wit="#Px" ana="#subtractive">rationalis</rdg>
                 <rdg wit="#π #Ea" ana="#subtractive"/>
-              </app>
-              <app>
-                <lem wit="#β #κ #π #Ea #Vb">concorditer</lem>
-                <rdg wit="#Va" ana="#orthographical">concordatur</rdg>
-                <rdg wit="#m #v" ana="#lexical">concordie</rdg>
-              </app> cum <app>
-                <lem wit="#β #Gu #Ma #Pp #Pu #Px #Vb #Vm #Vo #m #v">irrationali</lem>
-                <rdg wit="#Va" ana="#orthographical">yrationali</rdg>
-                <rdg wit="#Ea #Pz" ana="#morphological">irrationabili</rdg>
-                <rdg wit="#Vz" ana="#lexical">rationali</rdg>
-              </app>
-              <app>
-                <lem wit="#α #κ #m #v">coniungitur</lem>
+              </app> concorditer cum irrationali <app>
+                <lem>coniungitur</lem>
                 <rdg wit="#π" ana="#subtractive #J"/>
-              </app>. <app>
-                <lem wit="#α #π #Ma #Px #Vz #m #v">Quod</lem>
-                <rdg wit="#Vm" ana="#lexical"><unclear>erum</unclear></rdg>
-              </app>
-              <app>
-                <lem wit="#α #κ #Gu #Pp #Pz #Vo #m #v">videtur</lem>
-                <rdg wit="#Pq #Pu" ana="#lexical #J"><persName><ref target="#Ar"
-                    >aristotelem</ref></persName></rdg>
-              </app>
-              <app>
-                <lem wit="#α #λ #π #m #v">a platonicis</lem>
-                <rdg wit="#Px" ana="#lexical">apolatonicis</rdg>
-              </app> habitum ponentibus animam <milestone ed="#Vm" unit="folio" n="49r"/>quandam
-              armonicam <app>
+              </app>. Quod videtur a platonicis habitum ponentibus animam quandam armonicam <app>
                 <lem wit="#α #κ #m #v">fore consistentiam</lem>
-                <rdg wit="#π" ana="#morphological #J"><app>
-                    <lem wit="#Pz #Vo" ana="#J">esse consistentiam</lem>
-                    <rdg wit="#Gu #Pp #Pu" ana="#ordinal #J">consistentiam esse</rdg>
-                  </app></rdg>
+                <rdg wit="#π" ana="#morphological #J">esse consistentiam</rdg>
               </app>. Vnde <cit>
                 <app>
-                  <lem wit="#β #Ea" ana="#lexical">datum in <ref><title ref="#MasAph"
-                        >afforismis</title></ref></lem>
-                  <rdg wit="#Px" ana="#orthographical"><choice>
-                      <expan>da<ex>tu</ex>m</expan>
-                      <abbr>dam</abbr>
-                    </choice> in <ref><title ref="#MasAph">aforismis</title></ref></rdg>
-                  <rdg wit="#γ #λ #m #v" ana="#lexical">dictum est in <ref><title ref="#MasAph"><app>
-                          <lem wit="#Vb #Vm #Vz #m #v">afforismis</lem>
-                          <rdg wit="#Va" ana="#orthographical">amforismis</rdg>
-                          <rdg wit="#Ma #Mb" ana="#orthographical"><gap reason="lost"/></rdg>
-                        </app></title></ref></rdg>
-                  <rdg wit="#π" ana="#lexical"><ref><name ref="#Dam"><app>
-                          <lem wit="#Gu #Pu #Pz #Vo" ana="#J">damascenus</lem>
-                          <rdg wit="#Pp" ana="#orthographical #J">damacenus</rdg>
-                        </app></name> in <title ref="#MasAph"><app>
-                          <lem wit="#Pp #Pu #Pz #Vo" ana="#J">afforismis</lem>
-                          <rdg wit="#Gu" ana="#orthographical #J">amforismis</rdg>
-                        </app></title></ref></rdg>
+                  <lem>datum in <ref><title 
+                    ref="#MasAph">afforismis</title></ref></lem>
+                  <rdg wit="#γ #λ #m #v" ana="#lexical">dictum est in <ref><title 
+                    ref="#MasAph">afforismis</title></ref></rdg>
+                  <rdg wit="#π" ana="#lexical"><ref><name ref="#Dam">damascenus</name> 
+                    in <title ref="#MasAph">afforismis</title></ref></rdg>
                 </app>
-                <quote rend="inline"><app>
-                    <lem wit="#β #π #Ea #Px #Vb #Vm #Vz">colligatio</lem>
-                    <rdg wit="#Ma #m #v" ana="#orthographical">coligatio</rdg>
-                    <rdg wit="#Va" ana="#lexical">colicgio</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#κ">anime et corporis</lem>
-                    <rdg wit="#α #π #m #v" ana="#ordinal">corporis et anime</rdg>
-                  </app> secundum <app>
-                    <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">ordinis</lem>
-                    <rdg wit="#Pz" ana="#lexical #J">cordis</rdg>
-                  </app> naturalis consonantiam <app>
-                    <lem wit="#α #κ #Gu #Pp #Pz #Vo #m #v">facta</lem>
-                    <rdg wit="#Pq #Pu #Vc" ana="#morphological #J">factam</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #κ #Gu #Pu #Pz #Vo #m #v">est</lem>
-                    <rdg wit="#Pp #Pq" ana="#subtractive #J"/>
-                  </app>, vt <app>
-                    <lem wit="#κ">substat</lem>
+                <quote rend="inline">colligatio <app>
+                    <lem>anime et corporis</lem>
+                    <rdg wit="#α #π" ana="#ordinal">corporis et anime</rdg>
+                  </app> secundum ordinis naturalis consonantiam facta est, vt <app>
+                    <lem>substat</lem>
                     <rdg wit="#α #π #m #v" ana="#lexical">subsistat</rdg>
                   </app>,</quote>
                 <bibl corresp="#MasAph"><author>Yu&#x1E25;annā ibn Māsawaiyh</author>,
@@ -1714,396 +1171,126 @@
                     <idno n="2460">2460,</idno></msIdentifier> 
                     <biblScope unit="page" n="39">f. 39v,</biblScope> 
                     <biblScope unit="line" from="7" to="8">ll. 7–8)</biblScope></bibl>
-              </cit> quare <milestone ed="#Vm" unit="column" n="B"/><app>
-                <lem wit="#κ #Ea #Pu #Py #Pz #Va #m #v">huius</lem>
-                <rdg wit="#Gu #Nu #Pp #Vb #Vo" ana="#lexical">huiusmodi</rdg>
+              </cit> quare <app>
+                <lem>huius</lem>
+                <rdg wit="#Nu #Vb #Vo" ana="#lexical">huiusmodi</rdg>
               </app>
               <app>
-                <lem wit="#κ">musice</lem>
-                <rdg wit="#α #m #v" ana="#additive">musice naturali</rdg>
-                <rdg wit="#π" ana="#lexical #J"><app>
-                    <lem wit="#Gu #Pu #Vo" ana="#J">numeratione naturali</lem>
-                    <rdg wit="#Pp" ana="#orthographical #J"><choice>
-                        <expan><unclear>nu</unclear><ex>me</ex>rat<ex>i</ex>o<ex>n</ex>e</expan>
-                        <abbr><unclear>nu</unclear><hi rend="superscript">r</hi>atoe</abbr>
-                      </choice> naturali</rdg>
-                    <rdg wit="#Pz" ana="#ordinal #J">naturali numeratione</rdg>
-                  </app></rdg>
+                <lem>musice</lem>
+                <rdg wit="#α" ana="#additive">musice naturali</rdg>
+                <rdg wit="#π" ana="#lexical #J">numeratione naturali</rdg>
               </app>
               <app>
-                <lem wit="#β #Ea #Ma #Mb #Px #Vz #m #v">videntur scientie</lem>
-                <rdg wit="#Va" ana="#ordinal">scientie videntur</rdg>
-                <rdg wit="#π" ana="#additive #J">videntur hec scientie</rdg>
-                <rdg wit="#Vm" ana="#lexical">numeri scientie</rdg>
-                <rdg wit="#Vb" ana="#lexical">videntur sane</rdg>
+                <lem>videntur</lem>
+                <rdg wit="#π" ana="#additive #J">videntur hec</rdg>
+              </app> scientie supponi.</p>
+            <p n="5">Instrumentalis vero dicitur que quibusdam exercetur armonicis instrumentis, que <app>
+                <lem>predicamentis videtur</lem>
+                <rdg wit="#Ea #Vo #Vz" ana="#morphological">predicamentis videntur</rdg>
               </app>
               <app>
-                <lem wit="#γ #κ #π #Ea #Py #m #v">supponi</lem>
-                <rdg wit="#Nu" ana="#orthographical">subponi</rdg>
-              </app>.</p>
-            <p n="5">Instrumentalis <app>
-                <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">vero</lem>
-                <rdg wit="#Pz" ana="#subtractive #J"/>
-              </app> dicitur que quibusdam <app>
-                <lem wit="#κ #π #Ea #Py #Va #m #v">exercetur</lem>
-                <rdg wit="#Nu" ana="#morphological">exercet</rdg>
-              </app> armonicis instrumentis, que <app>
-                <lem wit="#β #γ #Ma #Mb #Pq #Vm #m #v">predicamentis videtur</lem>
-                <rdg wit="#Ea #Gu #Pu #Pz #Vo #Vz" ana="#morphological">predicamentis videntur</rdg>
-                <rdg wit="#Pp" ana="#ordinal #morphological #J">videntur predicamentis</rdg>
-                <rdg wit="#Px" ana="#lexical">possunt videtur</rdg>
-              </app>
-              <app>
-                <lem wit="#α #κ #m #v">fore</lem>
+                <lem>fore</lem>
                 <rdg wit="#π" ana="#morphological #J">esse</rdg>
-              </app>
+              </app> considerationis 
               <app>
-                <lem wit="#κ #π #Ea #Nu #Va #m #v">considerationis</lem>
-                <rdg wit="#Py" ana="#lexical">speculationis</rdg>
-                <rdg wit="#Vb" ana="#lexical" cert="low"><choice>
-                    <expan>c<ex>on</ex>t<ex>rist</ex>ationis</expan>
-                    <abbr><hi rend="subscript">9</hi><unclear>t</unclear>ātionis</abbr>
-                  </choice></rdg>
-              </app>
-              <app>
-                <lem wit="#γ #κ #m #v">existens duplex</lem>
-                <rdg wit="#Nu" ana="#lexical">existens <choice>
-                    <expan>d<ex>icendu</ex>m</expan>
-                    <abbr>dd'</abbr>
-                  </choice></rdg>
-                <rdg wit="#Py" ana="#lexical">existens dicendum</rdg>
-                <rdg wit="#Ea" ana="#subtractive">existens</rdg>
+                <lem>existens duplex</lem>
                 <rdg wit="#π" ana="#subtractive #J"/>
-              </app>: <app>
-                <lem wit="#α #π #Px #Vm #Vz #m #v">nam</lem>
-                <rdg wit="#Ma" ana="#subtractive"/>
-              </app> quedam exercetur instrumento naturali, <milestone ed="#Px" unit="folio"
-                n="155r"/>vt <app>
-                <lem wit="#α #λ #Gu #Pz #Vo #m #v">hominis</lem>
-                <rdg wit="#Pp #Pu #Px" ana="#morphological">homines</rdg>
-              </app>
-              <app>
-                <lem wit="#α #κ #Pp #Pu #Pz #Vo #m #v">voce</lem>
-                <rdg wit="#Gu" ana="#morphological #J">voces</rdg>
+              </app>: nam quedam exercetur instrumento naturali, vt hominis voce, cum reliquis organis <app>
+                <lem>locutionis</lem>
+                <rdg wit="#Ma #Vb #Vz" ana="#lexical">locutiuis</rdg>
               </app>, <app>
-                <lem wit="#α #κ #Gu #Pu #Pz #Vo #m #v">cum reliquis</lem>
-                <rdg wit="#Pp" ana="#ordinal #J">reliquis cum</rdg>
-              </app> organis <app>
-                <lem wit="#π #Ea #Nu #Px">locutionis</lem>
-                <rdg wit="#Py" ana="#orthographical">loqutionis</rdg>
-                <rdg wit="#Va" ana="#morphological">locutiones</rdg>
-                <rdg wit="#Ma #Vb #Vz #m #v" ana="#lexical">locutiuis</rdg>
-                <rdg wit="#Vm #Vo" ana="#subtractive"/>
-              </app>, <app>
-                <lem wit="#α #π #Ma #m #v">aut</lem>
+                <lem>aut</lem>
                 <rdg wit="#Px #Vm #Vz" ana="#lexical">an</rdg>
-              </app>
-              <app>
-                <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">artificiali</lem>
-                <rdg wit="#Pz" ana="#morphological #J">artificiale</rdg>
-              </app>. Et <app>
-                <lem wit="#β #λ #Ea #Gu #Pu #Pz #Vb #Vo">id</lem>
-                <rdg wit="#Pp #Px #m #v" ana="#lexical">illud</rdg>
-                <rdg wit="#Va" ana="#subtractive"/>
-              </app>
-              <app>
-                <lem wit="#β #κ #π #Va #m #v">multipliciter</lem>
-                <rdg wit="#Vb" ana="#additive"><surplus>multiplicatur aut artificiali et
-                    id</surplus> multipliciter</rdg>
-              </app>: <app>
-                <lem wit="#β #κ #π #Ea #Vb #m #v">aut</lem>
-                <rdg wit="#Va" ana="#lexical">vt</rdg>
-              </app> tactu <app>
-                <lem wit="#β #γ #κ #π #m #v">vt</lem>
-                <rdg wit="#Ea" ana="#subtractive"/>
-              </app>
-              <app>
-                <lem wit="#β #Ea #Gu #Ma #Pp #Px #Vo">viellis</lem>
-                <rdg wit="#Mb #Vm" ana="#orthographical">mellis</rdg>
-                <rdg wit="#Vb" ana="#orthographical">vielis</rdg>
-                <rdg wit="#m #v" ana="#orthographical">violis</rdg>
-                <rdg wit="#Pq #Pu #Va #Vz" ana="#orthographical #J">vigellis</rdg>
-                <rdg wit="#Pz" ana="#lexical #J">vincul</rdg>
-              </app>, <app>
-                <lem wit="#α #κ #Gu #Vo #m #v">vel</lem>
-                <rdg wit="#Pp #Pu" ana="#lexical #J">aut</rdg>
-                <rdg wit="#Pz" ana="#subtractive #J"/>
-              </app> pulsu <app>
-                <lem wit="#β #γ #κ">ceu</lem>
+              </app> artificiali. Et id multipliciter: aut tactu vt viellis, vel pulsu <app>
+                <lem>ceu</lem>
                 <rdg wit="#Ea #Vo #m #v" ana="#lexical">seu</rdg>
                 <rdg wit="#Gu #Pp #Pu" ana="#lexical #J">sicut</rdg>
-                <rdg wit="#Pz" ana="#subtractive #J"/>
+              </app> cimbalis, vel 
+              <app>
+                <lem>flatu</lem>
+                <rdg wit="#Px #Vm" ana="#lexical">flatio</rdg>
               </app>
               <app>
-                <lem wit="#γ #Ma #Nu #Px #Vm #Vz #m">cimbalis</lem>
-                <rdg wit="#Gu #Pp #Pu #Vo" ana="#orthographical #J">simbalis</rdg>
-                <rdg wit="#Mb #Py #v" ana="#orthographical">cymbalis</rdg>
-                <rdg wit="#Pq" ana="#orthographical #J">symbalis</rdg>
-                <rdg wit="#Ea" ana="#lexical">ebalis</rdg>
-              </app>, <app>
-                <lem wit="#β #γ #κ #π #m #v">vel</lem>
-                <rdg wit="#Ea" ana="#lexical">vt</rdg>
-              </app>
-              <app>
-                <lem wit="#α #Gu #Ma #Pu #Pz #Vo #Vz #m #v">flatu</lem>
-                <rdg wit="#Pp" ana="#morphological #J">flatum</rdg>
-                <rdg wit="#Px #Vm" ana="#lexical">flacio</rdg>
-              </app>
-              <app>
-                <lem wit="#β #γ #λ #Pz #Vo #m #v">vt</lem>
+                <lem>vt</lem>
                 <rdg wit="#Gu #Pp #Pu" ana="#lexical #J">sicut</rdg>
                 <rdg wit="#Ea #Px" ana="#lexical">in</rdg>
-              </app>
-              <app>
-                <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">tubis</lem>
-                <rdg wit="#Pz" ana="#lexical #J">tibiis</rdg>
-              </app>, aut quasi <app>
-                <lem wit="#β #π #Ma #Px #Va #Vm #m #v">omni modo</lem>
+              </app> tubis, aut quasi <app>
+                <lem>omni modo</lem>
                 <rdg wit="#Vb #Vz" ana="#lexical">omnino</rdg>
               </app>
               <app>
-                <lem wit="#γ #κ #Ea #Nu #m #v">sicut</lem>
+                <lem>sicut</lem>
                 <rdg wit="#π #Py" ana="#lexical">vt</rdg>
-              </app>
-              <app>
-                <lem wit="#β #κ #π #Ea #Vb #m #v">fistulis</lem>
-                <rdg wit="#Va" ana="#orthographical">vistulis</rdg>
-              </app>.</p>
+              </app> fistulis.</p>
             <p n="6"><app>
-                <lem wit="#γ #π #Ea #Ma #Nu #Vz #m #v">Que</lem>
+                <lem>Que</lem>
                 <rdg wit="#Px #Vm" ana="#morphological">Qui</rdg>
-                <rdg wit="#Py" ana="#lexical">Dicitur</rdg>
               </app> iuxta <cit>
-                <ref><name ref="#Is"><app>
-                      <lem wit="#β #Gu #Ma #Pp #Pu #Px #Pz #Vb #Vm #Vo">ysidorum</lem>
-                      <rdg wit="#Ea" ana="#orthographical">ysydorum</rdg>
-                      <rdg wit="#Va #Vz" ana="#orthographical">isidorum</rdg>
-                      <rdg wit="#m #v" ana="#orthographical">isidorium</rdg>
-                    </app></name></ref>
+                <ref><name ref="#Is">ysidorum</name></ref>
                 <quote rend="inline"><app>
-                    <lem wit="#α #π #Ma #Vz">diuiditur</lem>
-                    <rdg wit="#m #v" ana="#morphological">diuidetur</rdg>
+                    <lem>diuiditur</lem>
                     <rdg wit="#Px #Vm" ana="#lexical">dicitur</rdg>
-                  </app> in <app>
-                    <lem wit="#γ #κ #π #Ea #Nu #m #v">armonicam</lem>
-                    <rdg wit="#Py" ana="#additive">armonicam et</rdg>
-                  </app> metricam et <app>
-                    <lem wit="#β #γ #π #Ma #Px #Vm #m #v">rithimicam</lem>
-                    <rdg wit="#Vz" ana="#additive">et rithimicam</rdg>
-                    <rdg wit="#Ea" ana="#lexical">rethoricam</rdg>
-                  </app>. <app>
-                    <lem wit="#β #γ #κ #m #v">Quarum</lem>
-                    <rdg wit="#Ea" ana="#morphological">Quorum</rdg>
+                  </app> in armonicam metricam et rithimicam. <app>
+                    <lem>Quarum</lem>
                     <rdg wit="#π" ana="#subtractive #J"/>
-                  </app>
-                  <milestone ed="#v" unit="folio" n="B6r"/><app>
-                    <lem wit="#α #λ #π #m #v">armonica</lem>
-                    <rdg wit="#Px" ana="#additive">armonica metricam</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#γ #κ #Ea #Nu #m #v">graue in sonis et <app>
-                        <lem wit="#γ #κ #Nu #m #v">acutum</lem>
-                        <rdg wit="#Ea" ana="#morphological">acutis</rdg>
-                      </app></lem>
-                    <rdg wit="#π" ana="#ordinal #J">graue et acutum in sonis</rdg>
-                    <rdg wit="#Py" ana="#subtractive">graue in sonis acutum</rdg>
-                  </app> discernit. <app>
-                    <lem wit="#β #γ #π #Mb #Vm #Vz #m #v">Metrica</lem>
-                    <rdg wit="#Ea" ana="#morphological">etricam</rdg>
-                    <rdg wit="#Ma #Px" ana="#lexical">Matricam</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #π #m #v">est</lem>
+                  </app> armonica graue<app>
+                    <lem>in sonis et acutum</lem>
+                    <rdg wit="#π" ana="#ordinal #J">et acutum in sonis</rdg>
+                  </app> discernit. Metrica <app>
+                    <lem>est</lem>
                     <rdg wit="#κ" ana="#lexical">etiam</rdg>
-                  </app> que ratione probabili <app>
-                    <lem wit="#β #κ #π #Ea #Vb #m #v">cognoscit <app>
-                        <lem wit="#β #κ #Ea #Pp #Pu #Pz #Vb #m #v">mensuram</lem>
-                        <rdg wit="#Vo" ana="#orthographical #J">mensurum</rdg>
-                        <rdg wit="#Gu" ana="#morphological #J">mensuras</rdg>
-                      </app></lem>
-                    <rdg wit="#Va" ana="#ordinal">mensuram cognoscit</rdg>
-                  </app> diuersorum pedum <milestone ed="#Gu" unit="column" n="B"/>vt <app>
-                    <lem wit="#Ea #Ma #Nu #Pu">heroycum</lem>
-                    <rdg wit="#Gu #Pp #Py #Vo" ana="#orthographical">heroychum</rdg>
-                    <rdg wit="#Pz #Vb #m #v" ana="#orthographical">eroycum</rdg>
-                    <rdg wit="#Vm #Vz" ana="#orthographical">heroicum</rdg>
-                    <rdg wit="#Pq" ana="#orthographical #J">herocum</rdg>
-                    <rdg wit="#Va" ana="#orthographical">eroicum</rdg>
-                    <rdg wit="#Px" ana="#lexical">heronicam</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#λ #Ea #Gu #Pp #Pu #Py #Pz #Vo #m #v">iambicum</lem>
-                    <rdg wit="#Nu" ana="#orthographical">iambycom</rdg>
-                    <rdg wit="#γ" ana="#orthographical">iambicon</rdg>
-                    <rdg wit="#Px" ana="#lexical">in abitio</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#β #γ #κ #π #m #v">et</lem>
-                    <rdg wit="#Ea" ana="#subtractive"/>
-                  </app>
-                  <app>
-                    <lem wit="#Pp #Vm #Vz">heliacum</lem>
-                    <rdg wit="#Px" ana="#orthographical">heliatum</rdg>
-                    <rdg wit="#Gu" ana="#orthographical #J">elyacum</rdg>
-                    <rdg wit="#m #v" ana="#orthographical">eliachum</rdg>
-                    <rdg wit="#γ" ana="#orthographical">eliacon</rdg>
-                    <rdg wit="#Pz" ana="#orthographical #J">elyacom</rdg>
-                    <rdg wit="#β" ana="#orthographical">helyacom</rdg>
-                    <rdg wit="#Ma #Pu" ana="#orthographical">helyacum</rdg>
-                    <rdg wit="#Vo" ana="#orthographical #J">eliacum</rdg>
-                    <rdg wit="#Ea" ana="#subtractive"/>
-                  </app>. Rithimica <app>
-                    <lem wit="#κ #π #Ea #Vb #m #v">vero</lem>
+                  </app> que ratione probabili cognoscit mensuram diuersorum pedum vt heroycum, 
+                  iambicum et heliacum. Rithimica <app>
+                    <lem>vero</lem>
                     <rdg wit="#β" ana="#additive">vero est</rdg>
                     <rdg wit="#Va" ana="#lexical">est</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #Ma #Pp #Pu #Px #Pz #Vm #Vo #m #v">que</lem>
-                    <rdg wit="#Gu #Vz" ana="#subtractive"/>
-                  </app> verborum <app>
-                    <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">incursionem</lem>
-                    <rdg wit="#Pz" ana="#lexical #J">intercessionem</rdg>
-                  </app>
-                  <milestone ed="#Vo" unit="column" n="B"/><app>
-                    <lem wit="#α #κ #Pz #Vo #m #v">inquirit</lem>
+                  </app> que verborum incursionem <app>
+                    <lem>inquirit</lem>
                     <rdg wit="#Gu #Pp #Pu" ana="#lexical #J">iungit</rdg>
-                  </app>, <app>
-                    <lem wit="#α #λ #π #m #v">vt</lem>
-                    <rdg wit="#Px" ana="#lexical">verum</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#γ #Mb">aut</lem>
-                    <rdg wit="#Px #m #v" ana="#lexical">autem</rdg>
-                    <rdg wit="#Ma" ana="#lexical"><choice>
-                        <expan>au<ex>t</ex></expan>
-                        <abbr>aū</abbr>
-                      </choice></rdg>
+                  </app>, vt <app>
+                    <lem>aut</lem>
                     <rdg wit="#β #Ea #Vm #Vz" ana="#lexical">an</rdg>
                     <rdg wit="#π" ana="#subtractive #J"/>
                   </app> suauiter <app>
-                    <lem wit="#α #π #m #v">vel</lem>
+                    <lem>vel</lem>
                     <rdg wit="#Px #Vm #Vz" ana="#lexical">an</rdg>
-                    <rdg wit="#Ma" ana="#lexical">aut</rdg>
-                  </app> non suauiter sonus <app>
-                    <lem wit="#β #κ #Gu #Pu #Pz #Va #Vo #m #v">cohereat</lem>
-                    <rdg wit="#Vb" ana="#orthographical">coherreat</rdg>
-                    <rdg wit="#Pp" ana="#orthographical #J">coherteat</rdg>
-                    <rdg wit="#Pq" ana="#lexical #J">adhereat</rdg>
-                  </app>.</quote>
+                  </app> non suauiter sonus cohereat.</quote>
                 <bibl corresp="#IsEt"><author>Isidore of Seville</author>, <title>Etym.</title>
                   <biblScope unit="book" n="3">III</biblScope>.<biblScope unit="chapter" n="18"
                     >18</biblScope>.<biblScope unit="part" from="1" to="2">1–2</biblScope></bibl>
-              </cit>
-              <milestone ed="#Pp" unit="folio" n="184r"/></p>
-            <p n="7"><app>
-                <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">Que</lem>
-                <rdg wit="#Pz" ana="#lexical #J">Quasi</rdg>
-              </app>
-              <app>
-                <lem wit="#α #κ #Pp #Pu #Vo #m #v">siquidem</lem>
-                <rdg wit="#Gu" ana="#lexical #J">quidem</rdg>
-                <rdg wit="#Pz" ana="#lexical #J">quedam</rdg>
-              </app>
-              <app>
-                <lem wit="#β #κ #Ea #Gu #Pp #Pu #Vo"><num type="cardinal" value="3">tria</num></lem>
+              </cit></p>
+            <p n="7">Que siquidem <app>
+                <lem><num type="cardinal" value="3">tria</num></lem>
                 <rdg wit="#γ #m #v" ana="#lexical">tripliciter</rdg>
-                <rdg wit="#Pz" ana="#subtractive #J"/>
               </app> ad genus <app>
-                <lem wit="#Gu #Nu #Pq #Px #Vo #Vz">videntur concurrere</lem>
-                <rdg wit="#Ea" ana="#orthographical">videntur concurere</rdg>
-                <rdg wit="#Py" ana="#ordinal">concurrere videntur</rdg>
-                <rdg wit="#γ #Ma #Vm #m #v" ana="#morphological">videtur concurrere</rdg>
-                <rdg wit="#Pp #Pu" ana="#lexical #J">videntur currere</rdg>
-                <rdg wit="#Pz" ana="#lexical #J">videntur concinere</rdg>
-              </app>
-              <app>
-                <lem wit="#β #π #Ma #Vz #m #v">cantilene</lem>
-                <rdg wit="#Ea #Vm" ana="#orthographical">cantinelle</rdg>
-                <rdg wit="#Va" ana="#lexical"><choice>
-                    <expan>ca<ex>n</ex>tic<ex>u</ex>le.</expan>
-                    <abbr>c<hi rend="supraline">a</hi>ticlʼe</abbr>
-                  </choice></rdg>
-                <rdg wit="#Vb" ana="#lexical"><choice>
-                    <expan>can<ex>tic</ex>ule</expan>
-                    <abbr>c<hi rend="supraline">a</hi>nule</abbr>
-                  </choice></rdg>
-                <rdg wit="#Px" ana="#lexical">causa <num type="cardinal" value="1000"
-                  >mille</num></rdg>
-              </app>, armonica tamen, vt <app>
-                <lem wit="#β #Ea #Px #Vb">tactum</lem>
-                <rdg wit="#Va" ana="#morphological">tactu</rdg>
+                <lem>videntur</lem>
+                <rdg wit="#γ #Ma #Vm" ana="#morphological">videtur</rdg>
+              </app> concurrere cantilene, armonica tamen, vt <app>
+                <lem>tactum</lem>
                 <rdg wit="#π #Ma #Vm #m #v" ana="#additive">tactum est</rdg>
-                <rdg wit="#Vz" ana="#lexical">dictum est</rdg>
               </app>, <app>
-                <lem wit="#β #γ #π #Ma #Vz #m #v">consonantiam</lem>
+                <lem>consonantiam</lem>
                 <rdg wit="#Ea #Px #Vm" ana="#morphological">consonantia</rdg>
-              </app> grauis et <app>
-                <lem wit="#β #κ #π #Ea #Vb #m #v">acuti</lem>
-                <rdg wit="#Va" ana="#morphological">accuta</rdg>
-              </app>
-              <app>
-                <lem wit="#γ #κ #π #Ea #Py #m #v">attendit</lem>
-                <rdg wit="#Nu" ana="#orthographical">adtendit</rdg>
-              </app>, <app>
-                <lem wit="#γ #κ #Ea #Gu #Pp #Pu #Vo #m #v">rithimica</lem>
+              </app> grauis et acuti attendit, <app>
+                <lem>rithimica</lem>
                 <rdg wit="#β" ana="#additive">rithimica vero</rdg>
-                <rdg wit="#Pz" ana="#additive #morphological #J">rithimicam vt tactum est</rdg>
               </app>
               <app>
-                <lem wit="#β #γ #Ma #Pp #Pu #Pz #Vo #Vz #m #v">consonantiam</lem>
-                <rdg wit="#Ea" ana="#orthographical">consonantium</rdg>
-                <rdg wit="#Gu #Px #Vm" ana="#morphological">consonantia</rdg>
-              </app>
-              <app>
-                <lem wit="#β #γ #κ #π #m #v">terminationum</lem>
-                <rdg wit="#Ea" ana="#lexical">durationum</rdg>
-              </app>, metrica <app>
-                <lem wit="#α #κ #Gu #Pp #Pu #Pz #m #v">vero</lem>
-                <rdg wit="#Vo" ana="#lexical #J">vel</rdg>
-              </app> temporum vt apparet <app>
-                <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">in</lem>
-                <rdg wit="#Pz" ana="#subtractive #J"/>
-              </app>
-              <app>
-                <lem wit="#β #κ #Gu #Pp #Pu #Vo #m #v">traditione</lem>
-                <rdg wit="#Ea" ana="#morphological">traditionem</rdg>
+                <lem>consonantiam</lem>
+                <rdg wit="#Px #Vm" ana="#morphological">consonantia</rdg>
+              </app> terminationum, metrica vero temporum vt apparet in <app>
+                <lem>traditione</lem>
                 <rdg wit="#γ #Pz" ana="#lexical">introductione</rdg>
-              </app> musice <milestone ed="#Vb" unit="folio" n="108v"/><app>
-                <lem wit="#β #λ #π #Ea #m #v"><persName ref="#GAr">guidonis</persName></lem>
-                <rdg wit="#Va" ana="#orthographical"><persName ref="#GAr">gruidonis</persName></rdg>
-                <rdg wit="#Vb" ana="#lexical">grauidons</rdg>
-                <rdg wit="#Px" ana="#lexical">gradionis</rdg>
-              </app>. et circa <app>
-                <lem wit="#β #γ #κ #π #m #v">has</lem>
-                <rdg wit="#Ea" ana="#subtractive"/>
-              </app>
-              <num type="cardinal" value="3">tres</num> partes musice, et <app>
-                <lem wit="#α #κ #Pp #Pu #Pz #Vo #m #v">maxime</lem>
-                <rdg wit="#Gu" ana="#additive #J">maxime circa</rdg>
-              </app>
-              <app>
-                <lem wit="#α #κ #Ea #Gu #Pp #Pu #Vo #m #v"><num type="cardinal" value="2"
-                  >duas</num></lem>
-                <rdg wit="#Pq" ana="#morphological #J"><num type="cardinal" value="2"
-                  >duos</num></rdg>
-                <rdg wit="#Pz" ana="#lexical #J">et</rdg>
-              </app>
-              <app>
-                <lem wit="#α #π #Ma #Px #Vz #m #v">priores</lem>
-                <rdg wit="#Vm" ana="#subtractive"/>
-              </app>, <app>
-                <lem wit="#α #π #Px #m #v">dubitat</lem>
+              </app> musice <persName ref="#GAr">guidonis</persName>. Et circa has<num type="cardinal" 
+                value="3">tres</num> partes musice, et maxime <num type="cardinal" value="2">duas</num>
+              priores, <app>
+                <lem>dubitat</lem>
                 <rdg wit="#λ" ana="#morphological">dubitabit</rdg>
               </app>
               <cit>
                 <ref><name ref="#Ar">aristoteles</name></ref>
-                <quote rend="inline"><app>
-                    <lem wit="#γ #κ #Ea #Gu #Nu #Pp #Pu #Pz #m #v">vtilitas</lem>
-                    <rdg wit="#Py" ana="#lexical">vnitas</rdg>
-                    <rdg wit="#Vo" ana="#lexical #J">volitas</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #κ #m #v">vero</lem>
+                <quote rend="inline">vtilitas <app>
+                    <lem>vero</lem>
                     <rdg wit="#π" ana="#subtractive #J"/>
                   </app> musice est,</quote>
                 <bibl corresp="#ArPo"><author>Arist.</author>
@@ -2112,86 +1299,35 @@
                     >5</biblScope>, <biblScope unit="page" n="1339a">1339a</biblScope>, l.
                     <biblScope unit="line" n="11">11</biblScope></bibl>
               </cit> quia delectat <app>
-                <lem wit="#κ">animos</lem>
+                <lem>animos</lem>
                 <rdg wit="#α #π #m #v" ana="#morphological">animas</rdg>
               </app>
               <app>
-                <lem wit="#κ #Nu">excitat, et</lem>
-                <rdg wit="#Vb" ana="#lexical">exercitas et</rdg>
-                <rdg wit="#Py #m #v" ana="#lexical">exercitat et</rdg>
-                <rdg wit="#Va" ana="#lexical">et exercitat</rdg>
-                <rdg wit="#Ea" ana="#lexical">exitat et</rdg>
-                <rdg wit="#π" ana="#subtractive #J">et</rdg>
-              </app> affectus mouet, <app>
-                <lem wit="#α #λ #π #m #v">et</lem>
-                <rdg wit="#Px" ana="#subtractive"/>
-              </app>
-              <app>
-                <lem wit="#α #Gu #Ma #Pu #Px #Vm #m #v">furiam</lem>
-                <rdg wit="#Pp #Pz #Vo" ana="#orthographical #J">furiem</rdg>
-                <rdg wit="#Vz" ana="#morphological">furias</rdg>
-              </app> placat, <app>
-                <lem wit="#γ #Ea #Ma #Nu #Px #Vz #m #v">siluestrem</lem>
-                <rdg wit="#Vm" ana="#morphological">siluestres</rdg>
-                <rdg wit="#π #Py" ana="#morphological"><app>
-                    <lem wit="#Pp #Pu #Pz #Vo">siluestre</lem>
-                    <rdg wit="#Py" ana="#additive">siluestre quod</rdg>
-                    <rdg wit="#Gu" ana="#additive #J">siluestre assuescere aut</rdg>
-                  </app></rdg>
-              </app>
-              <app>
-                <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">mansuescere</lem>
-                <rdg wit="#Pz" ana="#lexical #J">mansuestrem</rdg>
-              </app>
-              <milestone ed="#Mb" unit="column" n="B"/><app>
-                <lem wit="#α #π #Px #Vz #m #v">facit</lem>
+                <lem>excitat</lem>
+                <rdg wit="#γ #Py" ana="#lexical">exercitat</rdg>
+                <rdg wit="#π" ana="#subtractive #J"></rdg>
+              </app>, et affectus mouet, et furiam placat, <app>
+                <lem>siluestrem</lem>
+                <rdg wit="#π #Py" ana="#morphological">siluestre</rdg>
+              </app> mansuescere <app>
+                <lem>facit</lem>
                 <rdg wit="#Ma #Vm" ana="#subtractive"/>
-              </app>, vt apparet clangore, <app>
-                <lem wit="#α #κ #π">namque</lem>
-                <rdg wit="#m #v" ana="#lexical">enim</rdg>
-              </app> tubarum et similium <milestone ed="#Gu" unit="folio" n="234v"/>fortiores
-              redduntur bellatores. Similiter <app>
-                <lem wit="#Nu #Vb #m #v">lassatos et exercitio</lem>
-                <rdg wit="#λ" ana="#orthographical">laxatos et exercitio</rdg>
-                <rdg wit="#Gu" ana="#ordinal #J">et laxatos exercitio</rdg>
-                <rdg wit="#Va" ana="#morphological">lasatas et exercitio</rdg>
-                <rdg wit="#Py" ana="#morphological">laxatiuo et exercitio</rdg>
-                <rdg wit="#Ea #Pp #Pu #Px #Pz #Vo" ana="#subtractive">laxatos exercitio</rdg>
-                <rdg wit="#Pq" ana="#subtractive #J">lassatos exercitio</rdg>
-              </app>
+              </app>, vt apparet clangore, namque tubarum et similium fortiores
+              redduntur bellatores. Similiter lassatos<app>
+                <lem>et</lem>
+                <rdg wit="#Ea #Px #Vo" ana="#subtractive"/>
+              </app> exercitio
               <app>
                 <lem wit="#α #κ #m #v">laborioso</lem>
                 <rdg wit="#π" ana="#additive #J">laborioso et</rdg>
-              </app>
-              <app>
-                <lem wit="#β #κ #Gu #Pp #Pu #Va #Vo #m #v">detentos</lem>
-                <rdg wit="#Vb" ana="#orthographical">detemptos</rdg>
-                <rdg wit="#Pz" ana="#subtractive #J">detento</rdg>
-              </app> reddit <app>
-                <lem wit="#β #κ #Ea #Vb #m #v">faciles</lem>
-                <rdg wit="#Va" ana="#morphological">facille</rdg>
+              </app> detentos reddit <app>
+                <lem>faciles</lem>
                 <rdg wit="#π" ana="#morphological #J">facilius</rdg>
               </app> tollerare. Vnde <cit>
-                <ref><app>
-                    <lem wit="#α #Ma #Pp #Pu #Pz #Vo #Vz #m #v"><title ref="#ArPo"><app>
-                          <lem wit="#Ea #Ma #Nu #Pz #Va #Vo #Vz #m #v">politicorum</lem>
-                          <rdg wit="#Pp #Py #Vb" ana="#orthographical">polliticorum</rdg>
-                        </app></title>
-                      <num type="ordinal" value="8">8°</num>:</lem>
-                    <rdg wit="#Gu #Pq #Vm" ana="#ordinal"><num type="ordinal" value="8">8°</num>
-                      <title ref="#ArPo"><app>
-                          <lem wit="#Gu #Pq">politicorum</lem>
-                          <rdg wit="#Vm" ana="#orthographical">polliticorum</rdg>
-                        </app></title></rdg>
-                    <rdg wit="#Px" ana="#lexical"><title ref="#ArPo">palliticorum</title>
-                      <num type="cardinal" value="2">duo</num></rdg>
-                  </app></ref>
+                <ref><title ref="#ArPo">politicorum</title> <num type="ordinal" 
+                  value="8">8°</num>:</ref> 
                 <quote rend="inline">musica habet delectationem naturalem propter quod omnibus
-                  etatibus et omnibus <app>
-                    <lem wit="#β #κ #Ea #Pp #Pu #Pz #Vb #Vo #m #v">moribus</lem>
-                    <rdg wit="#Va" ana="#additive">et moribus</rdg>
-                    <rdg wit="#Gu #Pq" ana="#lexical #J">horis</rdg>
-                  </app> vsus ipsius est amicus.</quote>
+                  etatibus et omnibus moribus vsus ipsius est amicus.</quote>
                 <bibl corresp="#ArPo"><author>Arist.</author>
                   <title>Pol.</title>
                   <biblScope unit="book" n="8">VIII</biblScope>, <biblScope unit="page" n="1340a"
