@@ -3890,135 +3890,62 @@
           </div>
 
           <div type="textpart" subtype="problem" n="11" xml:id="part11">
-            <head><app xml:id="app-11.1" exclude="#app-rdg-PxG-11.1">
-                <lem wit="#γ #m #v"><num type="ordinal" value="11">Vndecimum</num> problema</lem>
-                <rdg wit="#Ea #Ma #Pp #Pz #Vz" ana="#subtractive"><add place="margin"><num
-                      type="ordinal" value="11">11<hi rend="superscript">m</hi></num></add></rdg>
-                <rdg wit="#Py" ana="#additive"><num type="ordinal" value="11">Vndecimum.</num>
-                  <surplus><hi rend="rubricated"><num type="ordinal" value="11">Vndecimum</num>
-                      problema</hi></surplus></rdg>
-                <rdg wit="#Gu #Mb #Vm #Vo" ana="#subtractive"/>
-              </app></head>
-            <p n="1"><mentioned><app xml:id="app-11.2" exclude="#app-rdg-G-11.2">
-                  <lem wit="#Pu #Vm #Vo">PROPTER QUID SONANS</lem>
-                  <rdg wit="#Pp" ana="#orthographical #J">PROPTER QUID SONAS</rdg>
+            <head><num type="ordinal" value="11">Vndecimum</num> problema</head>
+            <p n="1"><mentioned><app xml:id="app-11.2">
+                  <lem wit="#Ma #Px #Va"><seg xml:id="ment-11.1" n="1">PROPTER QUID SONANS 
+                    ACUTIOR?</seg>
+                    <seg xml:id="ment-11.2" n="2">AUT QUIA MINUS IMBECILLIOR FACTA EST</seg></lem>
+                  <rdg wit="#Vm #Vo" ana="#subtractive">PROPTER QUID SONANS</rdg>
                   <rdg wit="#Ea #Py #Vb #Vz" ana="#subtractive"/>
-                  <rdg wit="#Ma #Px #Pz #Va #m #v" ana="#additive"><seg xml:id="ment-11.1" n="1"
-                      >PROPTER QUID SONANS ACUTIOR?</seg>
-                    <seg xml:id="ment-11.2" n="2">AUT QUIA MINUS IMBECILLIOR FACTA EST</seg></rdg>
                 </app>.</mentioned>
-              <app xml:id="app-rdg-PxG-11.1" exclude="#app-11.1">
-                <rdg wit="#Px" ana="#additive"><num type="ordinal" value="11">Vndecimum</num>
-                  problema et cetera.</rdg>
-                <rdg wit="#Gu" ana="#lexical #J">Propter quid sonans et cetera</rdg>
-              </app>
               <gloss target="#ment-11.1"><app>
-                  <lem wit="#α #π #Px #m #v">Quare</lem>
+                  <lem>Quare</lem>
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
-                </app> aliquis sonans <app>
-                  <lem wit="#α #λ #π #m #v">sonitu</lem>
-                  <rdg wit="#Px" ana="#morphological">sonitum</rdg>
-                </app> uel voce acutior redditur et per consequens <app>
-                  <lem wit="#κ #π #Ea #Va #m #v">alius</lem>
-                  <rdg wit="#Vb" ana="#morphological">alii</rdg>
-                  <rdg wit="#Py" ana="#lexical">autem</rdg>
-                </app> grauior?</gloss></p>
+                </app> aliquis sonans sonitu uel voce acutior redditur 
+                et per consequens alius grauior?</gloss></p>
             <p n="2"><app>
-                <lem wit="#κ #π #Py #Vb" n="grauior"/>
+                <lem n="grauior"/>
                 <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
               </app>
-              <mentioned><ref target="#ment-11.2"><app>
-                    <lem wit="#α #Px #Pz #Vm #Vo #Vz #m #v">AUT.</lem>
-                    <rdg wit="#Gu #Pp #Pu" ana="#additive">AUT QUIA.</rdg>
-                    <rdg wit="#Ma" ana="#lexical">QUIA.</rdg>
-                  </app></ref></mentioned> Soluit dicens causam esse quia <app>
-                <lem wit="#κ #π #Ea">hic</lem>
-                <rdg wit="#Py" ana="#lexical">sicut</rdg>
-                <rdg wit="#γ #m #v" ana="#subtractive"/>
-              </app> sonans est <app>
-                <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">minus</lem>
-                <rdg wit="#Pz" ana="#lexical #J">unius</rdg>
-              </app> sonans <app>
-                <lem wit="#γ #κ #π #Py #m #v">quam</lem>
-                <rdg wit="#Ea" ana="#subtractive"/>
-              </app> illud <app>
-                <lem wit="#κ #Ea #Gu #Nu #Pz #Vo #m #v">quod</lem>
-                <rdg wit="#Pp #Pu #Py" ana="#morphological">quid</rdg>
-              </app> grauiter sonat. <gloss target="#ment-11.2"> Quod autem <app>
-                  <lem wit="#α #κ #Pp #Pu #Pz #Vo #m #v">sit</lem>
-                  <rdg wit="#Gu" ana="#lexical #J">fit</rdg>
-                </app> minus ostenditur <app>
-                  <lem wit="#α #λ #π #m #v">quia</lem>
-                  <rdg wit="#Px" ana="#lexical">quod</rdg>
-                </app>
-                <app>
-                  <lem wit="#γ #κ #π #Py #m #v">fit</lem>
-                  <rdg wit="#Ea" ana="#lexical">sit</rdg>
-                </app>
-                <app>
-                  <lem wit="#α #λ #π #m #v">a virtute</lem>
-                  <rdg wit="#Px" ana="#lexical">acute</rdg>
-                </app>
-                <app>
-                  <lem wit="#γ #λ #π #Ea #m #v">que</lem>
+              <mentioned><ref target="#ment-11.2">AUT.</ref></mentioned> 
+              Soluit dicens causam esse quia <app>
+                <lem>hic</lem>
+                <rdg wit="#γ" ana="#subtractive"/>
+              </app> sonans est minus sonans quam illud quod grauiter sonat. 
+              <gloss target="#ment-11.2">
+                Quod autem sit minus ostenditur quia fit a virtute <app>
+                  <lem>que</lem>
                   <rdg wit="#Px #Py" ana="#lexical">quia</rdg>
-                </app> facta est <app>
-                  <lem wit="#π #Ea #Px #Py #Vb #Vm #Vz">imbecillior</lem>
-                  <rdg wit="#Ma #Va #m #v" ana="#orthographical">imbecilior</rdg>
-                </app>.</gloss> Grauiter autem sonans a virtute <app>
-                <lem wit="#α #κ #m #v">causatur fortiori</lem>
-                <rdg wit="#π" ana="#ordinal #J"><app>
-                    <lem wit="#Pp #Pu #Pz #Vo" ana="#J">fortiori</lem>
-                    <rdg wit="#Gu" ana="#morphological #J">fortiore</rdg>
-                  </app> causatur</rdg>
-              </app>, propter <app>
-                <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">quod</lem>
-                <rdg wit="#Pz" ana="#morphological #J">quid</rdg>
-              </app>
-              <app>
-                <lem wit="#Px #Py">dictum</lem>
-                <rdg wit="#γ #λ #π #Ea #m #v" ana="#additive">dictum est</rdg>
+                </app> facta est imbecillior.</gloss> 
+              Grauiter autem sonans a virtute <app>
+                <lem>causatur fortiori</lem>
+                <rdg wit="#π" ana="#ordinal #J">fortiori causatur</rdg>
+              </app>, propter quod dictum <app>
+                <lem wit="#γ #λ #π #Ea">est</lem>
+                <rdg wit="#Px #Py" ana="#subtractive"/>
               </app>
               <cit>
                 <ref><app>
-                    <lem wit="#α #κ #m #v"><num type="ordinal" value="11">.xi<hi rend="superscript"
+                    <lem><num type="ordinal" value="11">.xi<hi rend="superscript"
                           >a</hi>.</num></lem>
                     <rdg wit="#π" ana="#subtractive #J"/>
                   </app></ref>
-                <quote rend="inline">quod <app>
-                    <lem wit="#γ #κ #π #Ea #m #v">pueri femine</lem>
-                    <rdg wit="#Py" ana="#ordinal">femine pueri</rdg>
-                  </app>
-                  <app>
-                    <lem wit="#κ #Ea #Gu #Pp #Pu #Py #Vo">eunuchi</lem>
-                    <rdg wit="#Pz" ana="#additive #J">et eunuchi</rdg>
-                    <rdg wit="#γ #m #v" ana="#additive"><app>
-                        <lem wit="#Vb #m #v" ana="#J">eunuci et</lem>
-                        <rdg wit="#Va" ana="#lexical">eunuchi e</rdg>
-                      </app></rdg>
-                  </app>
-                  <app>
-                    <lem wit="#α #π #Px #Vm #Vz #m #v">infirmi</lem>
-                    <rdg wit="#Ma" ana="#subtractive"/>
-                  </app> habent voces acutas,</quote>
+                <quote rend="inline">quod pueri femine <app>
+                    <lem>eunuchi</lem>
+                    <rdg wit="#γ #m #v" ana="#additive">eunuci et</rdg>
+                  </app> infirmi habent voces acutas,</quote>
                 <bibl corresp="#ArPr"><author>Ps.Arist.</author>
                   <title ref="#ArPr">Prob.</title>
                   <biblScope unit="book" n="11">XI</biblScope>.<biblScope unit="problem" n="16"
                     >16</biblScope>, <biblScope unit="page" n="900b">900b</biblScope>, ll.
                     <biblScope unit="line" from="15" to="17">15–17</biblScope></bibl>
               </cit> oppositi <app>
-                <lem wit="#α #κ #m #v">autem</lem>
+                <lem>autem</lem>
                 <rdg wit="#π" ana="#lexical #J">vero</rdg>
               </app> graues <app>
-                <lem wit="#Ea #Px #Va #Vm #Vo #Vz #m #v">propter</lem>
-                <rdg wit="#Gu #Ma #Pp #Pu #Py #Pz #Vb" ana="#lexical">per</rdg>
-              </app> oppositum. <app>
-                <lem n="oppositum"/>
-                <rdg wit="#Vb #Vz" ana="#additive">et cetera</rdg>
-                <rdg wit="#Pz" ana="#additive">et cetera et cetera</rdg>
-                <rdg wit="#Px" ana="#additive">sequitur <num type="ordinal" value="12">12m.</num>
-                  problema <num type="ordinal" value="19">19e.</num> particule.</rdg>
-              </app></p>
+                <lem>propter</lem>
+                <rdg wit="#Ma #Py #Vb" ana="#lexical">per</rdg>
+              </app> oppositum.</p>
           </div>
 
           <div type="textpart" subtype="problem" n="12" xml:id="part12">
