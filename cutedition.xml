@@ -934,12 +934,6 @@
           <milestone ed="#Vo" unit="folio" n="147r"/>
           <milestone ed="#v" unit="folio" n="B5v"/>
           <milestone ed="#m" unit="folio" n="188r"/>
-          <head>Incipit <app><lem/>            
-              <rdg wit="#Ma #Pz" ana="#additive"><hi rend="rubricated">De <ref><title 
-                ref="#ArPr">problematibus</title><name ref="#Ar">Aristotelis</name></ref> que sunt 
-                circa armoniam vel musicam particula <num type="ordinal" 
-                  value="19">19<hi rend="superscript">a</hi>.</num></hi></rdg>
-            </app></head>
 
           <div type="textpart" subtype="problem" n="1" xml:id="part1">
             <head><num type="ordinal" value="1">Primum</num> problema</head>
@@ -1123,7 +1117,7 @@
                   <lem>quos</lem>
                   <rdg wit="#π" ana="#morphological #J">quod</rdg>
                 </app> <name ref="#Ar">aristotelem</name> impugnat <app>
-                  <lem> <ref><title ref="#ArCa">celi et mundi</title> 
+                  <lem><ref><title ref="#ArCa">celi et mundi</title> 
                     <num type="ordinal" value="2">2°.</num></ref></lem>
                   <rdg wit="#γ #λ #π" ana="#ordinal"><ref><num type="ordinal" value="2">2°</num>
                       <title ref="#ArCa">celi et mundi.</title></ref></rdg>
@@ -2530,11 +2524,11 @@
                     <lem>consuetudo proprie</lem>
                     <rdg wit="#π" ana="#ordinal #J">proprie consuetudo</rdg>
                   </app> in habentibus rationem acquiritur</quote>
-                <app>
+                <ref><app>
                   <lem>apparens</lem>
                   <rdg wit="#π" ana="#additive #J">vt apparet</rdg>
                 </app>
-                <ref><app>
+                <app>
                     <lem><title ref="#ArEth">ethycorum</title>
                       <num type="ordinal" value="2">secundo</num></lem>
                     <rdg wit="#π" ana="#ordinal #J"><num type="ordinal" value="2">secundo</num>
@@ -3318,7 +3312,7 @@
                 difficile namque acutum cantare sed graue facilius,</gloss>
                 sicut pluries dicetur. 
                 Sic itaque quia grauis corda sonum fortificat acute et ad se conuertit. 
-                et quia <app>
+                Et quia <app>
                   <lem>difficile</lem>
                   <rdg wit="#γ" ana="#morphological #additive">difficilime est</rdg>
                   <rdg wit="#β" ana="#subtractive"/>
@@ -3335,9 +3329,9 @@
                 <rdg wit="#γ" ana="#additive">illud vt tactum multe</rdg>
               </app>
               <mentioned><ref target="#ment-7.4"><app>
-                    <lem>QUIA ACUTUM.</lem>
+                    <lem>QUIA ACUTUM</lem>
                     <rdg wit="#π" ana="#subtractive #J"/>
-                  </app></ref></mentioned> quod aliam solutionem subiungat.</p>
+                  </app>,</ref></mentioned> quod aliam solutionem subiungat.</p>
             <p n="4">Nosce quod <cit>
                 <quote rend="inline">armonia que est
                   <num type="cardinal" value="1">vna</num>
@@ -5033,11 +5027,12 @@
                 <lem>sunt</lem>
                 <rdg wit="#Vo" ana="#additive #J">sunt exposita</rdg>
               </app> in <cit>
-                <ref><title ref="#AbCo"><app>
-                      <lem>conciliatoris mei</lem>
-                      <rdg wit="#λ" ana="#lexical">conciliatoris nostri</rdg>
-                      <rdg wit="#π" ana="#subtractive #J">conciliatoris</rdg>
-                    </app></title>
+                <ref><title ref="#AbCo">conciliatoris</title> 
+                  <app>
+                      <lem>mei</lem>
+                      <rdg wit="#λ" ana="#lexical">nostri</rdg>
+                      <rdg wit="#π" ana="#subtractive #J"/>
+                    </app>
                 differentia 
                   <num type="ordinal" value="83">.83<hi rend="superscript">a</hi>.</num> 
                 <app>
@@ -6069,11 +6064,8 @@
                   <lem>per</lem>
                   <rdg wit="#Gu #Pp" ana="#lexical #J">propter</rdg>
                 </app> proportionem <num type="ratio" value="2/1">duplam</num>. 
-                <app xml:id="app-18.2a" next="#app-18.2b">
-                  <lem> In antiphonis enim cordis ita se habet quod si altera <app>
-                      <lem>cantetur</lem>
-                      <rdg wit="#Vo" ana="#additive #J">cantetur simul</rdg>
-                    </app></lem>
+                <app>
+                  <lem>In antiphonis enim cordis ita se habet quod si altera cantetur</lem>
                   <rdg wit="#γ" ana="#subtractive"/>
                 </app> siue tangatur, vt <app>
                   <lem>media in quam</lem>
@@ -7768,7 +7760,7 @@
                 <quote rend="inline">consuetudo <app>
                     <lem>est</lem>
                     <rdg wit="#β" ana="#additive">est in</rdg>
-                  </app> multotiens aliquid facere.</quote>
+                  </app> multotiens aliquid facere,</quote>
                 <ref><app>
                     <lem><num type="ordinal" value="13">13°</num>
                       <num type="ordinal" value="21">.21<hi rend="superscript">a</hi>.</num></lem>
@@ -8217,19 +8209,16 @@
                   <biblScope unit="book" n="8">VIII</biblScope>, <biblScope unit="page" n="1342b"
                     >1324b</biblScope> l. <biblScope unit="line" n="12">12</biblScope></bibl>
               </cit> <cit>
-                <ref>
-                  <app>
-                    <lem><app>
-                        <lem type="emendation">unde <ref target="#ment-48.4"><num type="ordinal"
-                              value="48">.48.</num></ref></lem>
-                        <rdg wit="#β #Va" ana="#lexical">unde <num type="ordinal" value="40"
-                            >.40.</num></rdg>
-                        <rdg wit="#π" ana="#lexical #J">unde <num type="ordinal" value="41"
-                            >41.</num></rdg>
-                        <rdg wit="#Px #Vm #Vz" ana="#subtractive"/>
-                      </app></lem>
-                    <rdg wit="#Ma #Vb" ana="#subtractive" cause="homeoteleuton"/>
-                  </app></ref> 
+                <ref><app>
+                      <lem type="emendation">unde <ref target="#ment-48.4"><num type="ordinal"
+                            value="48">.48.</num></ref></lem>
+                      <rdg wit="#β #Va" ana="#lexical">unde <num type="ordinal" value="40"
+                          >.40.</num></rdg>
+                      <rdg wit="#π" ana="#lexical #J">unde <num type="ordinal" value="41"
+                          >41.</num></rdg>
+                      <rdg wit="#Px #Vm #Vz" ana="#subtractive"/>
+                    </app>
+                  </ref> 
                 <quote rend="inline"><app>
                     <lem>magnificus stabilis</lem>
                     <rdg wit="#Ma #Vb" ana="#subtractive" cause="homeoteleuton"/>
@@ -10149,7 +10138,7 @@
               </app> uel <app>
                 <lem>priorem</lem>
                 <rdg wit="#π" ana="#lexical #J">primam</rdg>
-              </app> confirmat. <app>
+              </app> confirmat <app>
                 <lem>secunda</lem>
                 <rdg wit="#π #Va" ana="#lexical">ibi</rdg>
                 <rdg wit="#Vb #m #v" ana="#additive">ibi secunda</rdg>
@@ -11224,7 +11213,7 @@
                 <lem>et in multis</lem>
                 <rdg wit="#λ #π" ana="#lexical">etiam in multis</rdg>
               </app> aliis rebus de quibus non habemus perfectam rationem neque sensum perspicacem. 
-              ex quibus <app>
+              Ex quibus <app>
                 <lem>possumus certificari omnino</lem>
                 <rdg wit="#π" ana="#additive #J">non possumus omnino certificari</rdg>
               </app> in talibus tunc accipimus inde aliquam opinionem <app>
@@ -13320,7 +13309,7 @@
               <app>
                 <lem>motam</lem>
                 <rdg wit="#Vo" ana="#morphological #J">motum</rdg>
-              </app> et per longam distantiam vt visum est <app>
+              </app> et per longam distantiam, vt visum est <app>
                 <lem><num type="ordinal" value="11">xi<hi rend="superscript">a</hi></num></lem>
                 <rdg wit="#π" ana="#lexical #J"><num type="ordinal" value="41">41</num></rdg>
               </app>, ita quod
