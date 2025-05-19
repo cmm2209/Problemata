@@ -1599,22 +1599,22 @@
                       </choice></rdg>
                     <rdg wit="#Pp" ana="#additive #J">et ex consuetudine</rdg>
                   </app></quote>
-                <app>
+                <ref><app>
                   <lem wit="#β #κ #Va #m #v">quos</lem>
                   <rdg wit="#Gu #Pp #Pu #Vo" ana="#morphological #J">quod</rdg>
                   <rdg wit="#Pz" ana="#morphological #J">quo</rdg>
                   <rdg wit="#Vb" ana="#morphological">quorum</rdg>
                 </app>
                 <app>
-                  <lem wit="#β #Ea #Px #m #v"><ref><name ref="#Ar">aristotelem</name></ref> impugnat
-                        <ref><title ref="#ArCa">celi et mundi</title>
+                  <lem wit="#β #Ea #Px #m #v"><name ref="#Ar">aristotelem</name> impugnat
+                        <title ref="#ArCa">celi et mundi</title>
                       <app>
                         <lem wit="#β #Ea #m #v" n="mundi"/>
                         <rdg wit="#Px" ana="#additive">et</rdg>
                       </app>
-                      <num type="ordinal" value="2">2°.</num></ref></lem>
-                  <rdg wit="#γ #λ #Gu #Pp #Pu #Vo" ana="#ordinal"><ref><name ref="#Ar"
-                        >aristotelem</name></ref> impugnat <ref><app>
+                      <num type="ordinal" value="2">2°.</num></lem>
+                  <rdg wit="#γ #λ #Gu #Pp #Pu #Vo" ana="#ordinal"><name ref="#Ar"
+                        >aristotelem</name> impugnat <app>
                         <lem wit="#γ #λ #Gu #Pu" n="impugnat"/>
                         <rdg wit="#Pp #Vo" ana="#additive #J">in</rdg>
                       </app>
@@ -1627,11 +1627,11 @@
                           <lem wit="#γ #Mb #Vm #Vo #Vz">celi et mundi</lem>
                           <rdg wit="#Ma" ana="#orthographical">celi et mondi</rdg>
                           <rdg wit="#Gu #Pp #Pu" ana="#subtractive #J">celi</rdg>
-                        </app>.</title></ref></rdg>
+                        </app>.</title></rdg>
                   <rdg wit="#Pz" ana="#ordinal #additive #J"><ref><name ref="#Ar">aristotelem</name>
                       in <num type="ordinal" value="2">2°</num>
                       <title ref="#ArCa">celi et mundi</title></ref> inpungnat.</rdg>
-                </app>
+                </app></ref>
                 <bibl corresp="#ArCa"><author>Arist.</author>
                   <title>De caelo</title>, <biblScope unit="book" n="2">II</biblScope>.<biblScope
                     unit="chapter" n="9">9, </biblScope> <biblScope unit="page" n="290b"
@@ -1709,26 +1709,26 @@
                     <rdg wit="#Gu #Pp #Pu" ana="#ordinal #J">consistentiam esse</rdg>
                   </app></rdg>
               </app>. Vnde <cit>
-                <app>
-                  <lem wit="#β #Ea" ana="#lexical">datum in <ref><title ref="#MasAph"
-                        >afforismis</title></ref></lem>
+                <ref><app>
+                  <lem wit="#β #Ea" ana="#lexical">datum in <title ref="#MasAph"
+                        >afforismis</title></lem>
                   <rdg wit="#Px" ana="#orthographical"><choice>
                       <expan>da<ex>tu</ex>m</expan>
                       <abbr>dam</abbr>
                     </choice> in <ref><title ref="#MasAph">aforismis</title></ref></rdg>
-                  <rdg wit="#γ #λ #m #v" ana="#lexical">dictum est in <ref><title ref="#MasAph"><app>
+                  <rdg wit="#γ #λ #m #v" ana="#lexical">dictum est in <title ref="#MasAph"><app>
                           <lem wit="#Vb #Vm #Vz #m #v">afforismis</lem>
                           <rdg wit="#Va" ana="#orthographical">amforismis</rdg>
                           <rdg wit="#Ma #Mb" ana="#orthographical"><gap reason="lost"/></rdg>
-                        </app></title></ref></rdg>
-                  <rdg wit="#π" ana="#lexical"><ref><name ref="#Dam"><app>
+                        </app></title></rdg>
+                  <rdg wit="#π" ana="#lexical"><name ref="#Dam"><app>
                           <lem wit="#Gu #Pu #Pz #Vo" ana="#J">damascenus</lem>
                           <rdg wit="#Pp" ana="#orthographical #J">damacenus</rdg>
                         </app></name> in <title ref="#MasAph"><app>
                           <lem wit="#Pp #Pu #Pz #Vo" ana="#J">afforismis</lem>
                           <rdg wit="#Gu" ana="#orthographical #J">amforismis</rdg>
-                        </app></title></ref></rdg>
-                </app>
+                        </app></title></rdg>
+                </app></ref>
                 <quote rend="inline"><app>
                     <lem wit="#β #π #Ea #Px #Vb #Vm #Vz">colligatio</lem>
                     <rdg wit="#Ma #m #v" ana="#orthographical">coligatio</rdg>
@@ -2435,7 +2435,7 @@
                   <app>
                     <lem wit="#γ #κ #π #m #v" n="alexander"/>
                     <rdg wit="#β" ana="#additive">in <title ref="#AlPr">problematibus</title></rdg>
-                  </app></ref>
+                  </app>
                 <app>
                   <lem wit="#β #γ #κ #π #m #v">et maxime</lem>
                   <rdg wit="#Ea" ana="#additive"><surplus>et maxime</surplus> et maxime</rdg>
@@ -2449,7 +2449,7 @@
                     partem:</lem>
                   <rdg wit="#Py" ana="#subtractive">ad <num type="ordinal" value="1"
                     >primam</num>:</rdg>
-                </app>
+                </app></ref>
                 <quote rend="inline">Propter <app>
                     <lem wit="#β #γ #κ #π #m #v">quid</lem>
                     <rdg wit="#Ea" ana="#subtractive"/>
@@ -3231,23 +3231,20 @@
                 <rdg wit="#Pz" ana="#additive #J">partini enim</rdg>
               </app>
               <cit>
-                <app>
-                  <lem wit="#β #Ea #Px"><ref type="book"><num type="ordinal" value="11">.xi<hi
-                          rend="superscript">e</hi>.</num></ref> vt visum <ref type="book"
-                      >particule</ref></lem>
-                  <rdg wit="#λ #Va #m #v" ana="#additive"><ref type="book"><num type="ordinal"
-                        value="11">.xi<hi rend="superscript">e</hi>.</num></ref> vt visum est <ref
-                      type="book">particule</ref></rdg>
-                  <rdg wit="#Pu" ana="#additive #J"><ref type="book"><num type="ordinal" value="11"
-                          >.xi<hi rend="superscript">e</hi>.</num> particule</ref>, vt visum est
+                <ref type="book"><app>
+                  <lem wit="#β #Ea #Px"><num type="ordinal" value="11">.xi<hi
+                          rend="superscript">e</hi>.</num> vt visum particule</lem>
+                  <rdg wit="#λ #Va #m #v" ana="#additive"><num type="ordinal"
+                        value="11">.xi<hi rend="superscript">e</hi>.</num> vt visum est particule</rdg>
+                  <rdg wit="#Pu" ana="#additive #J"><num type="ordinal" value="11"
+                          >.xi<hi rend="superscript">e</hi>.</num> particule, vt visum est
                     particule</rdg>
-                  <rdg wit="#Pz #Vo" ana="#subtractive #J">vt visum est <ref type="book"
-                      >particule</ref></rdg>
-                  <rdg wit="#Vb" ana="#additive"><ref type="book"><num type="ordinal" value="11"
-                          >.xi<hi rend="superscript">e</hi>.</num></ref> vt visum est</rdg>
-                  <rdg wit="#Gu #Pp" ana="#lexical #J"><ref type="book"><num type="ordinal"
-                        value="5">.5e.</num> particule</ref>, vt visum est</rdg>
-                </app>
+                  <rdg wit="#Pz #Vo" ana="#subtractive #J">vt visum est particule</rdg>
+                  <rdg wit="#Vb" ana="#additive"><num type="ordinal" value="11"
+                          >.xi<hi rend="superscript">e</hi>.</num> vt visum est</rdg>
+                  <rdg wit="#Gu #Pp" ana="#lexical #J"><num type="ordinal"
+                        value="5">.5e.</num> particule, vt visum est</rdg>
+                </app></ref>
                 <bibl corresp="#ArPr"><author ref="#Ar">Ps.-Arist.</author>
                   <title>Prob.</title>
                   <biblScope unit="book" n="11">XI</biblScope></bibl>
@@ -5104,15 +5101,15 @@
                     <lem wit="#α #κ #Gu #Pu #Pz #Vo #m #v">medicinarum</lem>
                     <rdg wit="#Pp" ana="#lexical #J">mediarum</rdg>
                   </app></quote>
-                <app>
-                  <lem wit="#γ #Ea #Ma #Pp #Px #Pz #Vo #m #v">prius in <ref><name ref="#Ga"
-                        >tegni,</name></ref></lem>
+                <ref><app>
+                  <lem wit="#γ #Ea #Ma #Pp #Px #Pz #Vo #m #v">prius in <name ref="#Ga"
+                        >tegni,</name></lem>
                   <rdg wit="#β #Pu #Px #Vm" ana="#orthographical">prius <choice>
                       <abbr>in teg<hi rend="superscript">i</hi></abbr>
                       <expan>in teg<ex>n</ex>i</expan>
                     </choice>,</rdg>
                   <rdg wit="#Vz" ana="#lexical">prius integri,</rdg>
-                </app>
+                </app></ref>
                 <bibl corresp="#AvCa"><author>Avic.</author>
                   <title>Can. med.</title>
                   <biblScope unit="book" n="1">I</biblScope>, fen <biblScope unit="fen" n="2"
@@ -5679,12 +5676,12 @@
                     <rdg wit="#Ea" ana="#morphological">aquirimus</rdg>
                     <rdg wit="#Va" ana="#lexical">requiritur</rdg>
                   </app></quote>
-                <app>
+                <ref><app>
                   <lem wit="#α #κ #m #v">apparens</lem>
                   <rdg wit="#π" ana="#additive #J">vt apparet</rdg>
                   <rdg wit="#Ea #Va" ana="#subtractive"/>
                 </app>
-                <ref><app>
+                <app>
                     <lem wit="#Ma #Nu #Px #Vm #Vz"><title ref="#ArEth">ethycorum</title>
                       <num type="ordinal" value="2">secundo</num></lem>
                     <rdg wit="#Ea #Py #Va #m #v" ana="#orthographical"><title ref="#ArEth"
@@ -5795,19 +5792,24 @@
                         <lem wit="#α #λ #m #v">infirmis</lem>
                         <rdg wit="#Px" ana="#lexical">interimus</rdg>
                       </app></quote>
-                    <app>
-                      <lem wit="#β #γ #κ #m #v">secundum <ref><name ref="#Al"><app>
+                    <ref><app>
+                      <lem wit="#β #γ #κ #m #v">secundum <name ref="#Al"><app>
                               <lem wit="#Ma #Nu #Px #Va #Vm #Vz #m #v">alexander</lem>
                               <rdg wit="#Py #Vb" ana="#orthographical">allexander</rdg>
-                            </app></name></ref>
-                        <milestone ed="#Vz" unit="folio" n="51v"/><quote rend="inline">fistule ac <app>
-                            <lem wit="#Px #Vm #Vz #m #v">tympana</lem>
-                            <rdg wit="#Ma #Nu #Vb" ana="#orthographical">timpana</rdg>
-                            <rdg wit="#Va" ana="#orthographical">tinpana</rdg>
-                            <rdg wit="#Py" ana="#additive">tympana et cetera</rdg>
-                          </app>.</quote></lem>
+                            </app></name></lem>
                       <rdg wit="#Ea" ana="#subtractive">secundum</rdg>
                     </app>
+                      <milestone ed="#Vz" unit="folio" n="51v"/>  
+                    </ref>    
+               <quote rend="inline"><app><lem wit="#β #γ #κ #m #v">
+                      fistule ac <app>
+                        <lem wit="#Px #Vm #Vz #m #v">tympana</lem>
+                        <rdg wit="#Ma #Nu #Vb" ana="#orthographical">timpana</rdg>
+                        <rdg wit="#Va" ana="#orthographical">tinpana</rdg>
+                        <rdg wit="#Py" ana="#additive">tympana et cetera</rdg>
+                      </app>.</lem>
+                      <rdg wit="#Ea" ana="#subtractive"/>
+              </app></quote>
                     <bibl corresp="#AlPr"><author>Ps.-Alex. Aph.</author>
                       <title ref="#AlPr">Prob.</title>
                       <biblScope unit="book" n="1">I</biblScope>.<biblScope unit="problem" n="78"
@@ -6446,13 +6448,13 @@
                     <rdg wit="#β #π" ana="#morphological">delectant</rdg>
                     <rdg wit="#Px" ana="#morphological">delectentur</rdg>
                   </app>,</quote>
-                <app>
+                <ref><app>
                   <lem wit="#γ #κ #Ea #Pz #m #v">ostensum est</lem>
                   <rdg wit="#Py" ana="#lexical"><surplus>ostensum</surplus> ostensum</rdg>
                   <rdg wit="#Nu #Pu" ana="#subtractive">ostensum</rdg>
                   <rdg wit="#Gu #Pp #Vo" ana="#additive #J">ostensum est in</rdg>
                 </app>
-                <ref><app>
+                <app>
                     <lem wit="#γ #κ #Ea #Nu #Pp #Pu #Pz #Vo"><num type="ordinal" value="6"
                         >sexto</num>
                       <num type="ordinal" value="18">18<hi rend="superscript">e</hi>.</num></lem>
@@ -7327,7 +7329,7 @@
                         <corr>enrichimus</corr>
                       </choice></rdg>
                   </app></quote>
-                <app>
+                <ref><app>
                   <lem wit="#Ea #Ma #Pu #Px #Py #Pz #Va #Vm #Vo">sicut de huius</lem>
                   <rdg wit="#Vz" ana="#ordinal">sicut huius de</rdg>
                   <rdg wit="#Gu #Nu #Pp #Vb #m #v" ana="#lexical">sicut de huiusmodi</rdg>
@@ -7337,7 +7339,7 @@
                   <rdg wit="#Py" ana="#morphological">pulsi scribitur</rdg>
                   <rdg wit="#Gu #Pq" ana="#lexical #J">cantu scribitur</rdg>
                 </app>
-                <ref><app>
+                <app>
                     <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v"><title ref="#GaPu">de differentiis
                         pulsuum</title></lem>
                     <rdg wit="#Pz" ana="#lexical #additive #J"><num type="cardinal" value="8"
@@ -7355,11 +7357,11 @@
                 <bibl corresp="#GaPu"><author>Gal.</author>
                   <title>De diff. puls.</title>
                   <biblScope unit="book" n="1">I</biblScope>.<biblScope unit="chapter" n="8"
-                    >8</biblScope> <note>(I.12 in Latin trans. by Burgundio of Pisa)</note></bibl> 
+                    >8</biblScope> <note>(I.12 in Latin trans. by Burgundio of Pisa)</note>
                 <note type="parallel" target="#quote-6.1-Gal" xml:id="note-6.1"><listBibl>
                     <bibl><note>Cf.</note> <author>Pietro d'Abano</author> 
                       <title ref="#AbCo">Conciliator</title> <biblScope n="83">diff. 
-                        83</biblScope></bibl></listBibl></note>
+                        83</biblScope></bibl></listBibl></note></bibl> 
               </cit>
               <app>
                 <lem wit="#β #γ #κ #Pu #m #v">Ceu</lem>
@@ -7479,10 +7481,10 @@
                     <rdg wit="#Ca #Pu #Vo" ana="#morphological #J">quod</rdg>
                     <rdg wit="#Pp #Pq #Pz" ana="#morphological #J">quid</rdg>
                   </app> proportiones</quote>
-                <app>
-                  <lem wit="#α #κ #m #v">secundum <ref><name ref="#Av">auicenna</name></ref></lem>
+                <ref><app>
+                  <lem wit="#α #κ #m #v">secundum <name ref="#Av">auicenna</name></lem>
                   <rdg wit="#π" ana="#subtractive #J"/>
-                </app>
+                </app></ref>
                 <quote rend="inline">
                   <app>
                     <lem wit="#γ #κ #Ea #Nu #m #v">cadunt <milestone ed="#Vz" unit="folio" n="52v"
@@ -10385,19 +10387,19 @@
                 <rdg wit="#π #Ea" ana="#subtractive"/>
               </app>
               <cit>
-                <app xml:id="app-13.12b" prev="#app-13.12a">
+                <ref><app xml:id="app-13.12b" prev="#app-13.12a">
                   <lem wit="#α #κ #m #v"><app>
-                      <lem wit="#γ #κ #Py #m #v">Sunt autem secundum <ref><name ref="#Bo"
+                      <lem wit="#γ #κ #Py #m #v">Sunt autem secundum <name ref="#Bo"
                             >boecium</name> in <app>
                             <lem wit="#κ #Py #Va #m #v"><num type="ordinal" value="1"
                               >primis</num></lem>
                             <rdg wit="#Vb" ana="#lexical">principiis</rdg>
                           </app>
-                          <title ref="#BoAr">arismetrice</title></ref></lem>
+                          <title ref="#BoAr">arismetrice</title></lem>
                       <rdg wit="#Ea" ana="#subtractive" cause="homeoteleuton"/>
-                    </app> et <ref><title ref="#BoMu">musice</title></ref></lem>
+                    </app> et <title ref="#BoMu">musice</title></lem>
                   <rdg wit="#π" ana="#lexical #J">numeri</rdg>
-                </app>
+                </app></ref>
                 <quote rend="inline"><num type="cardinal" value="5">5.</num>
                   <app>
                     <lem wit="#α #κ #m #v">sumpte</lem>
@@ -12872,7 +12874,7 @@
                           <rdg wit="#Pp #Pu #Vo" ana="#orthographical #J">consiliatoris</rdg>
                           <rdg wit="#Gu" ana="#morphological #J">consiliatore</rdg>
                         </app></rdg>
-                    </app></title></ref>
+                    </app></title>
                 <app>
                   <lem wit="#α #λ #Gu #Pp #Pu #Vo #m #v">differentia <num type="ordinal" value="83"
                         >83<hi rend="superscript">a</hi></num></lem>
@@ -12885,7 +12887,7 @@
                 <app>
                   <lem wit="#α #κ #m #v">exposita.</lem>
                   <rdg wit="#π" ana="#subtractive #J"/>
-                </app>
+                </app></ref>
                 <bibl corresp="#AbCo"><author>Pietro d'Abano</author>
                   <title>Concil.</title> diff. <biblScope unit="differentia" n="83"
                   >83</biblScope></bibl>
@@ -15308,12 +15310,12 @@
               </app> secundum <cit>
                 <ref><name ref="#Bo">boecium</name>
                   <num type="ordinal" value="1">primo</num>
-                  <title ref="#BoMu">musice</title></ref>
+                  <title ref="#BoMu">musice</title>
                 <milestone ed="#Pz" unit="folio" n="184r"/>
                 <app>
                   <lem wit="#α #κ #Gu #m #v">quod</lem>
                   <rdg wit="#Pp #Pu #Pz #Vo" ana="#subtractive #J"/>
-                </app>
+                </app></ref>
                 <quote rend="inline"><app>
                     <lem wit="#α #λ #π #m #v">consonantia</lem>
                     <rdg wit="#Px" ana="#morphological">consonantiam</rdg>
@@ -19735,11 +19737,11 @@
                 </app></gloss>
               <cit>
                 <quote rend="inline"><num type="cardinal" value="7">7.</num> planetarum,</quote>
-                <app>
+                <ref><app>
                   <lem wit="#α #κ #Gu #Pp #Pu #Pz #m #v">secundum</lem>
                   <rdg wit="#Vo" ana="#subtractive #J"/>
                 </app>
-                <ref><name ref="#Bo">boecium,</name></ref>
+                <name ref="#Bo">boecium,</name></ref>
                 <quote rend="inline"><app>
                     <lem wit="#α #Ma #Pp #Pu #Pz #Vm #m">imitatione</lem>
                     <rdg wit="#Gu #Vz" ana="#orthographical">ymitatione</rdg>
@@ -20294,14 +20296,14 @@
                     <rdg wit="#Ea" ana="#morphological">actu</rdg>
                     <rdg wit="#Gu #Pp #Pu #Px #m #v" ana="#lexical">acutum</rdg>
                   </app>,</quote>
-                <app>
+                <ref><app>
                   <lem wit="#α #κ #m #v">vt apparet</lem>
                   <rdg wit="#π" ana="#lexical #additive #J">vt <app>
                       <lem wit="#Pp #Pu #Vo" ana="#J">patet in</lem>
                       <rdg wit="#Gu #Pz" ana="#subtractive #J">patet</rdg>
                     </app></rdg>
                 </app>
-                <ref><app>
+                <app>
                     <lem wit="#α #π #Px #Vm #Vz #m #v"><num type="ordinal" value="2">secundo</num></lem>
                     <rdg wit="#Ma" ana="#lexical"><num type="ordinal" value="3">tertio</num></rdg>
                   </app>
@@ -20854,27 +20856,27 @@
                 <rdg wit="#π" ana="#lexical #J">denotat</rdg>
               </app>
               <cit>
-                <ref><name ref="#Ar">aristoteles</name>,</ref>
+                <ref><name ref="#Ar">aristoteles</name>,
                 <milestone ed="#m" unit="column" n="B"/>
                 <app>
-                  <lem wit="#α #Ma #Px #Vm #m #v">quia singulariter <ref><title ref="#ArAn">de
+                  <lem wit="#α #Ma #Px #Vm #m #v">quia singulariter <title ref="#ArAn">de
                         anima</title>
-                      <num type="ordinal" value="2">secunod</num></ref></lem>
-                  <rdg wit="#Vz" ana="#ordinal">quia singulariter <ref><num type="ordinal" value="2"
+                      <num type="ordinal" value="2">secunod</num></lem>
+                  <rdg wit="#Vz" ana="#ordinal">quia singulariter <num type="ordinal" value="2"
                         >secundo</num>
-                      <title ref="#ArAn">de anima</title></ref></rdg>
+                      <title ref="#ArAn">de anima</title></rdg>
                   <rdg wit="#π" ana="#ordinal #subtractive #J"><app>
-                      <lem wit="#Pp #Pu #Vo" ana="#J">quia <ref><num type="ordinal" value="2"
+                      <lem wit="#Pp #Pu #Vo" ana="#J">quia <num type="ordinal" value="2"
                             >secundo</num>
-                          <title ref="#ArAn">de anima</title></ref></lem>
-                      <rdg wit="#Pz" ana="#additive #J">quia simul <ref><num type="ordinal"
+                          <title ref="#ArAn">de anima</title></lem>
+                      <rdg wit="#Pz" ana="#additive #J">quia simul <num type="ordinal"
                             value="2">secundo</num>
-                          <title ref="#ArAn">de anima</title></ref></rdg>
-                      <rdg wit="#Gu" ana="#additive #J"><ref><num type="ordinal" value="2">secundo</num>
-                          <title ref="#ArAn">de anima</title></ref> ubi</rdg>
+                          <title ref="#ArAn">de anima</title></rdg>
+                      <rdg wit="#Gu" ana="#additive #J"><num type="ordinal" value="2">secundo</num>
+                          <title ref="#ArAn">de anima</title> ubi</rdg>
                     </app></rdg>
                   <rdg wit="#Va" ana="#lexical">quia similiter de alia sermo</rdg>
-                </app>
+                </app></ref>
                 <quote rend="inline"><app>
                     <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">determinauit</lem>
                     <rdg wit="#Pz" ana="#morphological #J">determinant</rdg>
@@ -21220,13 +21222,15 @@
                   <title ref="#ArMet">Met.</title>
                   <biblScope unit="book" n="2">II</biblScope>.<biblScope unit="chapter" n="1"
                     >1</biblScope>, <biblScope unit="page" n="993b">993b</biblScope> ll. <biblScope
-                    unit="line" from="4" to="5">4–5</biblScope></bibl>
-                <app>
+                    unit="line" from="4" to="5">4–5</biblScope><note xml:lang="en">As cited in d'Abano's commentary on Book
+                      XVIII, Problem 8, where the paraphrased quotation begins with
+                    "nota"</note></bibl>
+                <ref><app>
                   <lem wit="#α #κ #m #v">vt ostensum <app>
                       <lem wit="#γ #κ #Ea #m #v">est</lem>
                       <rdg wit="#β" ana="#subtractive"/>
                     </app>
-                    <ref><app>
+                    <app>
                         <lem wit="#γ #Ea #Nu #Px #Vm #m #v"><num type="ordinal" value="18"
                           >.18<hi rend="superscript">a</hi></num></lem>
                         <rdg wit="#Ma" ana="#additive"><num type="ordinal" value="18">18<hi
@@ -21235,11 +21239,9 @@
                                 rend="superscript">vo</hi></num></add></rdg>
                         <rdg wit="#Py" ana="#lexical">supra</rdg>
                         <rdg wit="#Vz" ana="#subtractive"/>
-                      </app></ref>. <note xml:lang="en">As cited in d'Abano's commentary on Book
-                      XVIII, Problem 8, where the paraphrased quotation begins with
-                    "nota"</note></lem>
+                      </app>. </lem>
                   <rdg wit="#π" ana="#subtractive #J"/>
-                </app>
+                </app></ref>
               </cit> Nam quod primitus <app>
                 <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v">discitur</lem>
                 <rdg wit="#Pz #Vc" ana="#lexical #J">dicitur</rdg>
@@ -21805,7 +21807,7 @@
                   <biblScope unit="book" n="8">VIII</biblScope>, <biblScope unit="page" n="1342b"
                     >1324b</biblScope> ll. <biblScope unit="line" from="12" to="18"
                     >12–18</biblScope></bibl>
-              </cit>tangere <num type="cardinal" value="3">tres</num>
+              </cit> tangere <num type="cardinal" value="3">tres</num>
               <app>
                 <lem wit="#β #Ea #Px">cantus modos</lem>
                 <rdg wit="#λ #π" ana="#ordinal">modos cantus</rdg>
@@ -21933,45 +21935,51 @@
                   <title>Pol.</title>
                   <biblScope unit="book" n="8">VIII</biblScope>, <biblScope unit="page" n="1342b"
                     >1324b</biblScope> l. <biblScope unit="line" n="12">12</biblScope></bibl>
-              </cit><cit>
-                <app xml:id="app-30.3b" prev="#app-30.3a">
-                  <lem wit="#α #κ #π"><app>
-                      <lem wit="#β #π #Px #Va #Vm #Vz"><app>
-                          <lem type="emendation">vnde <ref target="#ment-48.4"><num type="ordinal"
-                                value="48">.48.</num></ref></lem>
+              </cit> <cit>
+                <ref target="#ment-48.4"><app xml:id="app-30.3b" prev="#app-30.3a" next="#app-30.3c">
+                  <lem wit="#α #κ #π">
+                      <app>
+                          <lem type="emendation">vnde <num type="ordinal"
+                                value="48">.48.</num></lem>
                           <rdg wit="#β #Va" ana="#lexical">vnde <num type="ordinal" value="40"
                               >.40.</num></rdg>
                           <rdg wit="#π" ana="#lexical #J">vnde <num type="ordinal" value="41"
                               >.41.</num></rdg>
                           <rdg wit="#Px #Vm #Vz #m #v" ana="#subtractive"/>
                         </app>
-                        <quote rend="inline">magnificus <app>
-                            <lem wit="#β #π #Ea #Vm #Vz">stabilis</lem>
-                            <rdg wit="#Px" ana="#additive">stabilis et</rdg>
-                            <rdg wit="#Va" ana="#morphological">stabilisimus</rdg>
-                          </app></quote></lem>
-                      <rdg wit="#Ma #Vb" ana="#subtractive" cause="homeoteleuton"/>
-                    </app>
-                    <quote rend="inline"><app>
-                        <lem wit="#Py">cytharicissimus</lem>
-                        <rdg wit="#λ" ana="#orthographical">citaricissimus</rdg>
-                        <rdg wit="#Ea #Nu" ana="#orthographical">citharicissimus</rdg>
-                        <rdg wit="#Va" ana="#orthographical">citarizisimus</rdg>
-                        <rdg wit="#Vb" ana="#orthographical">zitarizissimus</rdg>
-                        <rdg wit="#Px #π" ana="#lexical"><app>
-                            <lem wit="#Pz #Vo">cithantissimus</lem>
-                            <rdg wit="#Px" ana="#morphological">tithancissimus</rdg>
-                            <rdg wit="#Gu #Pp #Pu" ana="#lexical #J">achantissimus</rdg>
-                          </app></rdg>
-                      </app> omnium</quote></lem>
+                      </lem>
+                      <rdg wit="#Ma #Vb #m #v" ana="#subtractive" cause="homeoteleuton"/>
+                </app></ref>
+                <quote rend="inline"><app xml:id="app-30.3c" prev="#app-30.3b">
+                  <lem wit="#α #κ #π"><app>
+                    <lem wit="#β #π #Px #Va #Vm #Vz">
+                      magnificus <app>
+                        <lem wit="#β #π #Ea #Vm #Vz">stabilis</lem>
+                        <rdg wit="#Px" ana="#additive">stabilis et</rdg>
+                        <rdg wit="#Va" ana="#morphological">stabilisimus</rdg>
+                      </app></lem>
+                    <rdg wit="#Ma #Vb" ana="#subtractive" cause="homeoteleuton"/>
+                  </app>
+                    <app>
+                      <lem wit="#Py">cytharicissimus</lem>
+                      <rdg wit="#λ" ana="#orthographical">citaricissimus</rdg>
+                      <rdg wit="#Ea #Nu" ana="#orthographical">citharicissimus</rdg>
+                      <rdg wit="#Va" ana="#orthographical">citarizisimus</rdg>
+                      <rdg wit="#Vb" ana="#orthographical">zitarizissimus</rdg>
+                      <rdg wit="#Px #π" ana="#lexical"><app>
+                        <lem wit="#Pz #Vo">cithantissimus</lem>
+                        <rdg wit="#Px" ana="#morphological">tithancissimus</rdg>
+                        <rdg wit="#Gu #Pp #Pu" ana="#lexical #J">achantissimus</rdg>
+                      </app></rdg>
+                    </app> omnium</lem>
                   <rdg wit="#m #v" ana="#subtractive"/>
-                </app>
+                </app></quote>
                 <bibl corresp="#ArPr"><author>Ps.-Arist.</author>
                   <title>Prob.</title>
                   <biblScope unit="book" n="19">XIX</biblScope>.<biblScope unit="problem" n="48"
                     >48</biblScope>, <biblScope unit="page" n="922b">922b</biblScope> l. <biblScope
                     unit="line" n="15">15</biblScope></bibl>
-              </cit><cit>
+              </cit> <cit>
                 <quote rend="inline"><app>
                     <lem wit="#α #κ #m #v">et</lem>
                     <rdg wit="#π" ana="#subtractive #J"/>
@@ -22000,7 +22008,7 @@
                   <biblScope unit="book" n="8">VIII</biblScope>, <biblScope unit="page" n="1342b"
                     >1324b</biblScope> ll. <biblScope unit="line" from="12" to="18"
                     >12–18</biblScope></bibl>
-              </cit><app>
+              </cit> <app>
                 <lem wit="#β #Ea #Ma #Pp #Pu #Px #Pz #Va #Vz #m">Lidius</lem>
                 <rdg wit="#Vm" ana="#orthographical">Ludius</rdg>
                 <rdg wit="#Gu #Vo #v" ana="#orthographical">Lydius</rdg>
@@ -22064,7 +22072,7 @@
                   <biblScope unit="book" n="8">VIII</biblScope>, <biblScope unit="page" n="1342b"
                     >1324b</biblScope> ll. <biblScope unit="line" from="32" to="34"
                     >32–34</biblScope></bibl>
-              </cit><app>
+              </cit> <app>
                 <lem wit="#β #γ #κ #π #m #v">que</lem>
                 <rdg wit="#Ea" ana="#morphological">quod</rdg>
               </app> in cantu et maxime pverorum sunt obseruanda. Vnde <cit>
@@ -22140,7 +22148,7 @@
                   <title>De inst. mus.</title>
                   <biblScope unit="book" n="4">IV</biblScope>.<biblScope unit="chapter" n="15"
                     >15</biblScope> <note>(Friedlein p. 342, ll. 10–14)</note></bibl>
-              </cit><milestone ed="#Vb" unit="folio" n="113r"/><app>
+              </cit><milestone ed="#Vb" unit="folio" n="113r"/> <app>
                 <lem wit="#β #λ #Ea">ypermixolidius</lem>
                 <rdg wit="#γ #m #v" ana="#orthographical">ypermisolidius</rdg>
                 <rdg wit="#Px" ana="#orthographical"><choice>
@@ -23015,27 +23023,27 @@
                     n="B"/>in principio a leuibus <milestone ed="#Vz" unit="folio" n="62r"/>et
                   debilibus incipit, non enim tunc est, operosa <milestone ed="#Py" unit="folio"
                     n="187r"/>sed in fine,</quote>
-                <app>
+                <ref><app>
                   <lem wit="#α #κ #m #v">vt 
                     <app>
                       <lem wit="#γ #κ #Ea #m #v">dictum est</lem>
                       <rdg wit="#Nu" ana="#subtractive">dictum</rdg>
                       <rdg wit="#Py" ana="#morphological">dicatur</rdg>
                     </app>
-                    <ref><app>
+                    <app>
                         <lem wit="#β #κ #π #Ea #Va #m #v"><num type="ordinal" value="10">10<hi
                               rend="superscript">a</hi></num>.</lem>
                         <rdg wit="#Vb" ana="#lexical"><num type="ordinal" value="20">20</num>.</rdg>
-                      </app></ref></lem>
+                      </app></lem>
                   <rdg wit="#π" ana="#subtractive #J"/>
-                </app>
+                </app></ref>
                 <bibl corresp="#ArPr"><author>Ps.Arist.</author>
                   <title ref="#ArPr">Prob.</title>
                   <biblScope unit="book" n="10">X</biblScope>.<biblScope unit="problem" n="45"
                     >45</biblScope>, <biblScope unit="page" n="895b">895b</biblScope> <biblScope
                     unit="line" n="27">l. 27-</biblScope> to <biblScope unit="page" n="896a"
                     >896a</biblScope> <biblScope unit="line" n="4">l. 4</biblScope></bibl>
-              </cit>Et ideo <app>
+              </cit> Et ideo <app>
                 <lem wit="#β #κ #π #Ea #Vb #m #v">est videre</lem>
                 <rdg wit="#Va" ana="#lexical">videndum que</rdg>
               </app> optimos cantatores naturam <app>
@@ -24080,8 +24088,7 @@
                     <lem wit="#γ #κ #Ea #Nu #m #v">perquirit</lem>
                     <rdg wit="#π" ana="#lexical #J">requirit</rdg>
                     <rdg wit="#Py" ana="#lexical">per quare</rdg>
-                  </app>,</quote>
-                <milestone ed="#Pp" unit="folio" n="B"/>
+                  </app>,<milestone ed="#Pp" unit="folio" n="B"/></quote>
                 <ref><app>
                     <lem wit="#γ #Ma #Nu #Vm"><num type="ordinal" value="10">decimo</num> apparens</lem>
                     <rdg wit="#π" ana="#morphological #J">vt apparet <app>
@@ -24143,7 +24150,7 @@
                   <title>De inst. mus.</title>
                   <biblScope unit="book" n="2">II</biblScope>.<biblScope unit="chapter" n="18"
                     >18</biblScope> <note>(Freidlein 250, ll. 6–8)</note></bibl>
-              </cit><app>
+              </cit> <app>
                 <lem wit="#β #κ #π #Ea #Va">Quod</lem>
                 <rdg wit="#Vb #m #v" ana="#lexical">Quid</rdg>
               </app> autem <app>
@@ -24373,24 +24380,24 @@
                     <rdg wit="#Pp #Va" ana="#ordinal">moueri cogitur</rdg>
                     <rdg wit="#Px" ana="#subtractive">moueri</rdg>
                   </app>,</quote>
-                <app>
+                <ref><app>
                   <lem wit="#α #κ #m #v">vt declaratum <app>
                       <lem wit="#κ #Ea #Vb #m #v">est</lem>
                       <rdg wit="#β #Va" ana="#subtractive"/>
                     </app>
-                    <ref><app>
+                    <app>
                         <lem wit="#α #κ #m"><num type="ordinal" value="11">xi<hi rend="superscript"
                               >a</hi></num></lem>
                         <rdg wit="#v" ana="#lexical"><num type="ordinal" value="2">iia</num></rdg>
-                      </app>,</ref></lem>
+                      </app>,</lem>
                   <rdg wit="#π" ana="#subtractive #J"/>
-                </app>
+                </app></ref>
                 <bibl corresp="#ArPr"><author>Arist.</author>
                   <title>Prob.</title>
                   <biblScope unit="book" n="11">XI</biblScope>.<biblScope unit="problem" n="15"
                     >15</biblScope>, <biblScope unit="page" n="903a">900b</biblScope> ll. <biblScope
                     unit="line" from="10" to="12">10–12</biblScope></bibl>
-              </cit>et sonum tunc reddit acutum. Et ideo instrumenta perforantur, <app>
+              </cit> et sonum tunc reddit acutum. Et ideo instrumenta perforantur, <app>
                 <lem wit="#β #λ #π #Ea #Vb #m #v">que foramina</lem>
                 <rdg wit="#Px" ana="#morphological">quod foramina</rdg>
                 <rdg wit="#Va" ana="#lexical">etiam</rdg>
@@ -24455,11 +24462,11 @@
                       >armonica</title></lem>
                     <rdg wit="#Va" ana="#morphological"><title ref="#PtHar">armonicam</title></rdg>
                     <rdg wit="#Vz" ana="#additive"><title ref="#PtHar">armonica</title> sua</rdg>
-                  </app></ref>
+                  </app>
                 <app>
                   <lem wit="#α #π #Ma #Px #Vz #m #v">taliter declarare</lem>
                   <rdg wit="#Vm" ana="#lexical">alter declarare</rdg>
-                </app>
+                </app></ref>
                 <quote rend="inline" xml:id="quote-35.1">dyapason esse optimam et perfectissimam <app>
                     <lem wit="#γ #κ #Ea #Nu #m #v">consonantiarum</lem>
                     <rdg wit="#π #Py" ana="#morphological">consonantiam</rdg>
@@ -24508,12 +24515,12 @@
                 <bibl corresp="#BoMu"><author>Boeth.</author>
                   <title>De inst. mus.</title>
                   <biblScope unit="book" n="5">V</biblScope>.<biblScope unit="chapter" n="10"
-                    >10</biblScope> <note>(Freidlein 360, ll. 6–10)</note></bibl>
+                    >10</biblScope> <note>(Freidlein 360, ll. 6–10)</note>
                 <note target="#quote-35.1" type="parallel">Cf. <bibl corresp="#PtHar"
                       ><author>Ptol.</author>
                     <title>Harm.</title>
                     <biblScope unit="book" n="1">I</biblScope>.<biblScope unit="chapter" n="7"
-                      >7</biblScope></bibl> <note>N.B. Ptolemy actually says that the octave is a homophone, not a concord.</note></note>
+                      >7</biblScope></bibl> <note>N.B. Ptolemy actually says that the octave is a homophone, not a concord.</note></note></bibl>
               </cit>
               <milestone ed="#Vm" unit="column" n="B"/><cit>
                 <quote rend="inline"><app>
@@ -24526,12 +24533,12 @@
                     <lem wit="#α #π #Px #Vm #Vz #m #v">eleuatur</lem>
                     <rdg wit="#Ma" ana="#orthographical">elleuatur</rdg>
                   </app>,</quote>
-                <app>
+                <ref><app>
                   <lem wit="#κ #π #Vb #m #v">vt visum est</lem>
                   <rdg wit="#β #Va" ana="#subtractive">vt visum</rdg>
                   <rdg wit="#Ea" ana="#lexical">vt insum</rdg>
                 </app>
-                <ref><app>
+                <app>
                     <lem wit="#α #κ #Gu #Pp #Pu #Vo #m #v"><num type="ordinal" value="15"
                       >.15</num></lem>
                     <rdg wit="#Pz" ana="#lexical #J">in <num type="ordinal" value="5">5º</num></rdg>
@@ -25062,15 +25069,15 @@
                   </app> velocitas causatur,</gloss>
               <cit>
                 <quote rend="inline">sicut ex multitudine tarditas,</quote>
-                <app>
-                  <lem wit="#κ #Ea #m #v">vt visum est <ref><num type="ordinal" value="11">.xi<hi
-                          rend="superscript">a</hi></num></ref></lem>
-                  <rdg wit="#β" ana="#subtractive">vt visum <ref><num type="ordinal" value="11"
-                        >.xi<hi rend="superscript">a</hi></num></ref></rdg>
-                  <rdg wit="#γ" ana="#additive">vt visum est <ref><num type="ordinal" value="11"
-                          >11<hi rend="superscript">a</hi> particula</num></ref>.</rdg>
+                <ref><app>
+                  <lem wit="#κ #Ea #m #v">vt visum est <num type="ordinal" value="11">.xi<hi
+                          rend="superscript">a</hi></num></lem>
+                  <rdg wit="#β" ana="#subtractive">vt visum <num type="ordinal" value="11"
+                        >.xi<hi rend="superscript">a</hi></num></rdg>
+                  <rdg wit="#γ" ana="#additive">vt visum est <num type="ordinal" value="11"
+                          >11<hi rend="superscript">a</hi> particula</num>.</rdg>
                   <rdg wit="#π" ana="#subtractive #J"/>
-                </app>
+                </app></ref>
                 <bibl corresp="#ArPr"><author>Ps.Arist.</author>
                   <title>Prob.</title>
                   <biblScope unit="book" n="11">XI</biblScope>.<biblScope unit="problem" n="16"
@@ -25403,14 +25410,14 @@
                     <lem wit="#β #γ #κ #π #m #v">fertur</lem>
                     <rdg wit="#Ea" ana="#orthographical">feretur</rdg>
                   </app>,</quote>
-                <app>
+                <ref><app>
                   <lem wit="#α #κ #m #v">vt <app>
                       <lem wit="#γ #κ #Ea #m #v">visum est</lem>
                       <rdg wit="#β" ana="#subtractive">visum</rdg>
                     </app>
-                    <ref><num type="ordinal" value="11">.xi.</num></ref></lem>
+                    <num type="ordinal" value="11">.xi.</num></lem>
                   <rdg wit="#π" ana="#subtractive #J"/>
-                </app>
+                </app></ref>
                 <bibl corresp="#ArPr"><author>Ps.Arist.</author>
                   <title>Prob.</title>
                   <biblScope unit="book" n="11">XI</biblScope>.<biblScope unit="problem" n="13"
@@ -25418,7 +25425,7 @@
                     unit="line" from="21" to="27">21–27</biblScope>; <biblScope unit="problem"
                     n="16">21</biblScope>, <biblScope unit="page" n="901a">901a</biblScope> ll.
                     <biblScope unit="line" from="31" to="32">31–32</biblScope></bibl>
-              </cit><app>
+              </cit> <app>
                 <lem wit="#κ #Py #Va">Sepe atque</lem>
                 <rdg wit="#Ea #Nu" ana="#additive">Sepe at quia</rdg>
                 <rdg wit="#Vb #m #v" ana="#lexical">Sepe ac</rdg>
@@ -25504,25 +25511,25 @@
                     <lem wit="#α #π #Ma #Px #Vm #m #v">naturam,</lem>
                     <rdg wit="#Vz" ana="#additive">naturam est,</rdg>
                   </app></quote>
-                <app>
+                <ref><app>
                   <lem wit="#α #κ #m #v">vt <app>
                       <lem wit="#γ #κ #m #v">visum est</lem>
                       <rdg wit="#β #Ea" ana="#subtractive">visum</rdg>
                     </app>
-                    <ref>particula <app>
+                    particula <app>
                         <lem wit="#β #κ #Ea #Vb #m #v"><num type="ordinal" value="2"
                           >secunda</num></lem>
                         <rdg wit="#Va" ana="#lexical"><num type="ordinal" value="11">11<hi
                               rend="superscript">a</hi></num></rdg>
-                      </app></ref>.</lem>
+                      </app>.</lem>
                   <rdg wit="#π" ana="#subtractive #J"/>
-                </app>
+                </app></ref>
                 <bibl corresp="#ArPr"><author>Ps.Arist.</author>
                   <title>Prob.</title>
                   <biblScope unit="book" n="2">II</biblScope>.<biblScope unit="problem" n="38"
                     >38</biblScope>, <biblScope unit="page" n="870a">870a</biblScope> l. <biblScope
                     unit="line" n="34">34</biblScope></bibl>
-              </cit>Et quia grauia <app>
+              </cit> Et quia grauia <app>
                 <lem wit="#α #κ #Pu #Pz #Vo #m #v">naturaliter tendunt</lem>
                 <rdg wit="#Gu #Pq" ana="#ordinal #J">tendunt naturaliter</rdg>
                 <rdg wit="#Pp" ana="#subtractive #J">naturaliter</rdg>
@@ -25587,7 +25594,7 @@
                     <rdg wit="#Pp #Pu" ana="#lexical #J"><num type="ordinal" value="5">5<hi
                           rend="superscript">a</hi>.</num> particula</rdg>
                     <rdg wit="#Gu" ana="#lexical #J">ille particula</rdg>
-                  </app></ref>
+                  </app>
                 <app>
                   <lem wit="#β #κ #Ea #Pp #Pu #Vb #Vo #m #v">intelligenti dicta,</lem>
                   <rdg wit="#Pz" ana="#morphological #J">intelligentis dicta,</rdg>
@@ -25613,7 +25620,7 @@
                 <app>
                   <lem wit="#β #κ #π #Ea #Vb #m #v">considerare: puta</lem>
                   <rdg wit="#Va" ana="#lexical">consingulare: puta</rdg>
-                </app>
+                </app></ref>
                 <quote rend="inline"><app>
                     <lem wit="#γ #κ #π #Ea #Nu #m #v">modicum</lem>
                     <rdg wit="#Py" ana="#subtractive"/>
@@ -25633,7 +25640,7 @@
                   <biblScope unit="book" n="11">XI</biblScope>.<biblScope unit="problem" n="14"
                     >14</biblScope>, <biblScope unit="page" n="900a">900a</biblScope> ll. <biblScope
                     unit="line" from="34" to="36">34–36</biblScope></bibl>
-              </cit>cum <app>
+              </cit> cum <app>
                 <lem wit="#β #λ #π #Ea #Vb #m #v">id</lem>
                 <rdg wit="#Px" ana="#lexical">illud</rdg>
                 <rdg wit="#Va" ana="#subtractive"/>
@@ -25801,13 +25808,13 @@
                       <lem wit="#γ #κ #Ea #Gu #Nu #Pp #Pu #Vo #m #v">vtcunque</lem>
                       <rdg wit="#Py #Pz" ana="#lexical">vtrunque</rdg>
                     </app></quote>
-                  <app>
+                   <ref><app>
                     <lem wit="#α #κ #m #v"><app>
                         <lem wit="#α #Ma #Vm #m #v">sicut videbitur</lem>
                         <rdg wit="#Px" ana="#lexical">sint videbitur</rdg>
                         <rdg wit="#Vz" ana="#subtractive"/>
                       </app>
-                      <ref><num type="ordinal" value="7">.7.</num></ref>
+                     <num type="ordinal" value="7">.7.</num>
                       <app>
                         <lem wit="#β #κ #m #v"><ref><num type="ordinal" value="29">29<hi
                                 rend="superscript">e</hi>.</num></ref></lem>
@@ -25817,7 +25824,7 @@
                               rend="superscript">e</hi>.</num></rdg>
                       </app>,</lem>
                     <rdg wit="#π" ana="#subtractive #J"/>
-                  </app>
+                  </app></ref>
                   <bibl corresp="#ArPr"><author>Ps.Arist.</author>
                     <title ref="#ArPr">Prob.</title>
                     <biblScope unit="book" n="28">XXVIII</biblScope>.<biblScope unit="problem" n="7"
@@ -25918,17 +25925,17 @@
                     <lem wit="#β #κ #Ea #Pp #Pu #Vb #Vo #m #v">sensus</lem>
                     <rdg wit="#Gu #Va #Pz" ana="#morphological">sensum</rdg>
                   </app>,</quote>
-                <app>
-                  <lem wit="#β #Ea #Ma #Px #Vb #Vm">vt apparet <ref><title ref="#ArAn">de
+                <ref><app>
+                  <lem wit="#β #Ea #Ma #Px #Vb #Vm">vt apparet <title ref="#ArAn">de
                         anima</title>
-                      <num type="ordinal" value="3">tertio</num></ref>,</lem>
-                  <rdg wit="#Va #Vz" ana="#ordinal">vt apparet <ref><num type="ordinal" value="3"
+                      <num type="ordinal" value="3">tertio</num>,</lem>
+                  <rdg wit="#Va #Vz" ana="#ordinal">vt apparet <num type="ordinal" value="3"
                         >tertio</num>
-                      <title ref="#ArAn">de anima</title></ref>,</rdg>
-                  <rdg wit="#π #m #v" ana="#ordinal">vt patet <ref><num type="ordinal" value="3"
+                      <title ref="#ArAn">de anima</title>,</rdg>
+                  <rdg wit="#π #m #v" ana="#ordinal">vt patet <num type="ordinal" value="3"
                         >tertio</num>
-                      <title ref="#ArAn">de anima</title></ref>,</rdg>
-                </app>
+                      <title ref="#ArAn">de anima</title>,</rdg>
+                </app></ref>
                 <bibl corresp="#ArAn"><author>Arist.</author>
                   <title>De an.</title>
                   <biblScope unit="book" n="3">III</biblScope>.<biblScope unit="chapter" n="13"
@@ -25951,7 +25958,7 @@
                     <rdg wit="#Pz" ana="#orthographical #J">comensurationes</rdg>
                   </app>
                   <milestone ed="#m" unit="folio" n="197r"/>eos custodiunt,</quote>
-                <app>
+                <ref><app>
                   <lem wit="#κ">vt</lem>
                   <rdg wit="#α #π #m #v" ana="#lexical">sicut</rdg>
                 </app>
@@ -25965,7 +25972,7 @@
                   <rdg wit="#β #Va" ana="#subtractive">tactum</rdg>
                   <rdg wit="#m #v" ana="#additive">tactus est</rdg>
                 </app>
-                <ref>in principio <app>
+                in principio <app>
                     <lem wit="#α #κ #π">huius</lem>
                     <rdg wit="#m #v" ana="#lexical">huiusmodi</rdg>
                   </app>
@@ -26093,13 +26100,13 @@
                     <rdg wit="#Px" ana="#morphological">existat</rdg>
                     <rdg wit="#π" ana="#lexical #J">est</rdg>
                   </app>,</quote>
-                <app>
+                <ref><app>
                   <lem wit="#κ #π #Ea #Vb">vt apparet per</lem>
                   <rdg wit="#m #v" ana="#lexical">vt patet per</rdg>
                   <rdg wit="#β" ana="#subtractive">vt</rdg>
                   <rdg wit="#Va" ana="#subtractive">per</rdg>
                 </app>
-                <ref><app>
+                <app>
                     <lem wit="#γ #Gu #Pu #Pz #Vo #Vz #m #v"><name ref="#Dam"
                         >damascenum</name></lem>
                     <rdg wit="#Ea #Px" ana="#orthographical"><name ref="#Dam"><choice>
@@ -26524,11 +26531,11 @@
                   <rdg wit="#Ea #Pp #Pu #Pz #Vo" ana="#lexical">ac</rdg>
                 </app> ordinate,</gloss>
                 <cit>
-                  <app>
+                  <ref><app>
                     <lem wit="#α #π #Ma #m #v">vt precipit </lem>
                     <rdg wit="#Px #Vm #Vz" ana="#subtractive">precipit</rdg> 
                   </app>
-                 <ref><title ref="#GaSa">regimen</title>
+                 <title ref="#GaSa">regimen</title>
                     <milestone ed="#Pz" unit="column" n="B"/><app>
                       <lem wit="#α #Gu #Pp #m #v"><name ref="#Ga">galeni</name></lem>
                       <rdg wit="#Pu #Pz #Vo" ana="#orthographical"><name ref="#Ga"
@@ -26627,19 +26634,19 @@
               </app>
               <cit>
                 <quote rend="inline">egritudo sit motus</quote>
-                <app>
-                  <lem wit="#Px #Vm #Vz">ostensum <ref>differentia <num type="ordinal" value="7"
-                          >septima</num></ref></lem>
+                <ref><app>
+                  <lem wit="#Px #Vm #Vz">ostensum differentia <num type="ordinal" value="7"
+                          >septima</num></lem>
                   <rdg wit="#Ea #Ma #Va #m #v" ana="#additive"><app>
-                      <lem wit="#Ea">ostensum est <ref>differentia <num type="ordinal" value="7"
-                            >septima</num></ref></lem>
-                      <rdg wit="#Va" ana="#ordinal"><ref>differentia <num type="ordinal" value="7"
-                            >septima</num></ref> est ostensum</rdg>
-                      <rdg wit="#Ma #m #v" ana="#lexical">ostensum est <ref>particula <num
-                            type="ordinal" value="7">septima</num></ref></rdg>
+                      <lem wit="#Ea">ostensum est differentia <num type="ordinal" value="7"
+                            >septima</num></lem>
+                      <rdg wit="#Va" ana="#ordinal">differentia <num type="ordinal" value="7"
+                            >septima</num> est ostensum</rdg>
+                      <rdg wit="#Ma #m #v" ana="#lexical">ostensum est particula <num
+                            type="ordinal" value="7">septima</num></rdg>
                     </app></rdg>
                   <rdg wit="#β #Vb" ana="#additive"><app>
-                      <lem wit="#Vb">ostensum <ref>differentia <num type="ordinal" value="7">septima</num></ref> alia</lem>
+                      <lem wit="#Vb">ostensum differentia <num type="ordinal" value="7">septima</num> alia</lem>
                       <rdg wit="#β" ana="#subtractive">ostensum differentia alia</rdg>
                     </app></rdg>
                   <rdg wit="#π" ana="#lexical #J"><app>
@@ -26649,11 +26656,11 @@
                     </app></rdg>
                 </app>
                 <app>
-                  <lem wit="#α #κ #Gu #Pu #Pz #Vo #m #v"><ref>problemate <num type="ordinal"
-                        value="4">quarto</num></ref>.</lem>
-                  <rdg wit="#Pp" ana="#ordinal #J"><ref><num type="ordinal" value="4">quarto</num>
-                      problemate</ref>.</rdg>
-                </app>
+                  <lem wit="#α #κ #Gu #Pu #Pz #Vo #m #v">problemate <num type="ordinal"
+                        value="4">quarto</num>.</lem>
+                  <rdg wit="#Pp" ana="#ordinal #J"><num type="ordinal" value="4">quarto</num>
+                      problemate.</rdg>
+                </app></ref>
                 <bibl corresp="#ArPr"><author>Ps.Arist.</author>
                   <title>Prob.</title>
                   <biblScope unit="book" n="7">VII</biblScope>.<biblScope unit="problem" n="4"
@@ -30158,7 +30165,7 @@
                         unit="book" n="11">XI</biblScope>.<biblScope unit="problem" n="51"
                         >51</biblScope>, <biblScope unit="page" n="904b">904b</biblScope> ll.
                         <biblScope unit="line" from="29" to="33">29–33</biblScope></bibl>
-                  </cit>quod est quidam <milestone ed="#Vo" unit="column" n="B"/><app>
+                  </cit> quod est quidam <milestone ed="#Vo" unit="column" n="B"/><app>
                     <lem wit="#γ #κ #Gu #Py #m #v">cantus</lem>
                     <rdg wit="#Pp #Pu #Pz #Vo" ana="#lexical #J"><app>
                         <lem wit="#Pz #Vo" ana="#J">tinitus</lem>
@@ -35026,11 +35033,11 @@
                           rend="superscript">e</hi>.</num>,</rdg>
                     <rdg wit="#Px" ana="#lexical">
                       <num type="ordinal" value="24">24<hi rend="superscript">e</hi>.</num></rdg>
-                  </app></ref>
+                  </app>
                 <app>
                   <lem wit="#γ #Ea #Px #Vm #Vz #m #v">propter quod</lem>
                   <rdg wit="#π #Ma #Py" ana="#lexical">propter quid</rdg>
-                </app>
+                </app></ref>
                 <quote rend="inline"><app>
                     <lem wit="#Ea #Pp #Pu #Pz #Vm #Vo #Vz #m #v">bachici</lem>
                     <rdg wit="#Ma" ana="#orthographical">bachichi</rdg>
