@@ -1121,10 +1121,10 @@
                   <lem>quos</lem>
                   <rdg wit="#π" ana="#morphological #J">quod</rdg>
                 </app> <name ref="#Ar">aristotelem</name> impugnat <app>
-                  <lem><ref><title ref="#ArCa">celi et mundi</title> 
-                    <num type="ordinal" value="2">2°.</num></ref></lem>
-                  <rdg wit="#γ #λ #π" ana="#ordinal"><ref><num type="ordinal" value="2">2°</num>
-                      <title ref="#ArCa">celi et mundi.</title></ref></rdg>
+                  <lem><title ref="#ArCa">celi et mundi</title> 
+                    <num type="ordinal" value="2">2°.</num></lem>
+                  <rdg wit="#γ #λ #π" ana="#ordinal"><num type="ordinal" value="2">2°</num>
+                      <title ref="#ArCa">celi et mundi.</title></rdg>
                 </app></ref>
                 <bibl corresp="#ArCa"><author>Arist.</author>
                   <title>De caelo</title>, <biblScope unit="book" n="2">II</biblScope>.<biblScope
@@ -1459,12 +1459,10 @@
                     ref="#Ar">aristoteles</persName> audiat recitatum</lem>
                 <rdg wit="#π" ana="#subtractive #J"/>
               </app>.</p>
-            <p n="12"><app>
-                <lem n="recitatum"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
+            <p n="12">
               <mentioned><ref target="#ment-1.2"><app>
                     <lem>AUT.</lem>
+                    <rdg wit="#Va #m #v" ana="#additive">Deinde. AUT.</rdg>
                     <rdg wit="#Gu #Pp #Pq #Pu" ana="#additive #J">AUT QUIA.</rdg>
                   </app></ref></mentioned> Soluit <milestone ed="#Ma" unit="folio" n="97r"/>dicens
               causam esse vt <gloss target="#ment-1.2">qui tristantur <app>
@@ -1577,10 +1575,11 @@
                 <rdg wit="#Py" ana="#subtractive">in</rdg>
               </app> proicientibus lapidem successiue.</p>
             <p n="3"><app>
-                <lem n="successiue"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-2.2">AUT.</ref></mentioned></lem>
+              <rdg wit="#Va #m #v" ana="#additive">Deinde. <mentioned>
+                <ref target="#ment-2.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-2.2">AUT.</ref></mentioned> Soluit dicens <app>
+               Soluit dicens <app>
                 <lem><num type="ordinal" value="1"
                     >primo</num> causam esse</lem>
                 <rdg wit="#Ma #Py #Vm" ana="#ordinal">causam esse <num type="ordinal"
@@ -1630,10 +1629,10 @@
                 <rdg wit="#π #Ea" ana="#subtractive"/>
               </app> ostendit.</p>
             <p n="4"><app>
-                <lem n="ostendit"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-2.3">SED SICUT.</ref></mentioned></lem>
+              <rdg wit="#Va #m #v" ana="#additive">Deinde. 
+                <mentioned><ref target="#ment-2.3">SED SICUT.</ref></mentioned> </rdg>
               </app>
-              <mentioned><ref target="#ment-2.3">SED SICUT.</ref></mentioned> 
               Declarat <num type="ordinal" value="2">secundo</num>
               dicens quod <app>
                 <lem>istud</lem>
@@ -1681,13 +1680,11 @@
                 <rdg wit="#π" ana="#additive #J">alteri coadunari</rdg>
               </app>.</p>
             <p n="5"><app>
-                <lem n="alteri"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-2.4">COADUNATIS.</ref></mentioned></lem>
+              <rdg wit="#Va #m #v" ana="#additive">Deinde. 
+                <mentioned><ref target="#ment-2.4">COADUNATIS.</ref></mentioned></rdg>
+              <rdg wit="#π" ana="#subtractive #J"/>
               </app>
-              <mentioned><ref target="#ment-2.4"><app>
-                    <lem>COADUNATIS.</lem>
-                    <rdg wit="#π" ana="#subtractive #J"/>
-                  </app></ref></mentioned>
               Concludit <num type="ordinal" value="3">3º</num> <app>
                 <lem>quod quando</lem>
                 <rdg wit="#π" ana="#subtractive #J">quod</rdg>
@@ -2211,13 +2208,11 @@
               </app>
               </p>
             <p n="5"><app>
-              <lem n="Nete yperboleon"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-3.2">AUT.</ref></mentioned></lem>
+              <rdg wit="#Va #m #v" ana="#additive">Deinde. 
+                <mentioned><ref target="#ment-3.2">AUT QUIA.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-3.2"><app>
-                    <lem>AUT.</lem>
-                    <rdg wit="#γ" ana="#additive">AUT QUIA.</rdg>
-                  </app></ref></mentioned> Soluit dicens causam esse 
+              Soluit dicens causam esse 
                 <gloss target="#ment-3.2">quia <app>
                   <lem>cum</lem>
                   <rdg wit="#π #Vz" ana="#subtractive"/>
@@ -2243,10 +2238,10 @@
                 <rdg wit="#Gu #Px #m #v" ana="#morphological">sonorum</rdg>
               </app> ex contrariis eleuando et deprimendo vocibus.</p>
             <p n="6"><app>
-                <lem n="uocibus"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-3.3">ID AUTEM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde. 
+                  <mentioned><ref target="#ment-3.3">ID AUTEM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-3.3">ID AUTEM.</ref></mentioned>
               <app>
                 <lem>Contingit</lem>
                 <rdg wit="#Va #m #v" ana="#lexical">Concludit</rdg>
@@ -2417,18 +2412,18 @@
                 <rdg wit="#Px #Va" ana="#morphological">eis</rdg>
               </app> propinquis.</p>
             <p n="3"><app>
-                <lem n="propinquis"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-4.2">AUT.</ref></mentioned> </lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-4.2">AUT.</ref></mentioned> </rdg>
               </app>
-              <mentioned><ref target="#ment-4.2">AUT.</ref></mentioned> 
               Soluit et prius ad id quod <app>
                 <lem>subdictum</lem>
                 <rdg wit="#β #Ea #Ma #Vb #Vo" ana="#lexical">subditum</rdg>
               </app>
               <app>
-                <lem n="subdictum"/>
-                <rdg wit="#γ #Vo" ana="#additive">est</rdg>
-              </app> <num type="ordinal" value="2">secundo</num> <app>
+                <lem><num type="ordinal" value="2">secundo</num></lem>
+                <rdg wit="#γ #Vo" ana="#additive">est <num type="ordinal" value="2">secundo</num></rdg>
+              </app> <app>
                 <lem>dicens</lem>
                 <rdg wit="#Gu #Pp #Pq" ana="#morphological #J">dicit</rdg>
               </app>
@@ -2458,13 +2453,12 @@
                 <rdg wit="#π" ana="#morphological #J">facta</rdg>
               </app> per ypatem cum alia sibi opposita.</p>
             <p n="4"><app>
-                <lem n="opposita"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-4.3">PROPTER HOC.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-4.3">PROPTER HOC.</ref></mentioned></rdg>
+              <rdg wit="#Px #Vm #Vz" ana="#subtractive"><mentioned>
+                <ref target="#ment-4.3">PROPTER.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-4.3">PROPTER <app>
-                    <lem>HOC</lem>
-                    <rdg wit="#Px #Vm #Vz" ana="#subtractive"/>
-                  </app>.</ref></mentioned>
               Assignat causam prioris <app>
                 <lem>premissi</lem>
                 <rdg wit="#π" ana="#lexical #J">dicti</rdg>
@@ -2552,13 +2546,11 @@
                     >1103a</biblScope> l. <biblScope unit="line" n="17">17</biblScope></bibl>
               </cit></p>
             <p n="5"><app>
-                <lem n="secundo"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-4.5">HUIUS AUTEM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-4.5">HUIUS AUTEM.</ref></mentioned></rdg>
+                <rdg wit="#Ma #Vb" ana="#lexical"><mentioned><ref target="#ment-4.5">HUIUSMODI AUTEM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-4.5"><app>
-                    <lem>HUIUS</lem>
-                    <rdg wit="#Ma #Vb" ana="#lexical">HUIUSMODI</rdg>
-                  </app> AUTEM.</ref></mentioned>
              Subdit <num type="ordinal" value="3">tertio</num> quod 
              <gloss target="#ment-4.5"><app>
                   <lem>etiam</lem>
@@ -2688,10 +2680,10 @@
                 <rdg wit="#Py #Vm" ana="#morphological">habuerint</rdg>
               </app> precognitionem omnino.</p>
             <p n="3"><app>
-                <lem n="omnino"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-5.2">UTRUM.</ref></mentioned> </lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-5.2">UTRUM.</ref></mentioned> </rdg>
               </app>
-              <mentioned><ref target="#ment-5.2">UTRUM.</ref></mentioned> 
               Soluit et prius <app>
                 <lem>probabilius magis</lem>
                 <rdg wit="#π" ana="#ordinal #morphological #J">magis probabiliter</rdg>
@@ -2762,20 +2754,18 @@
               </app> consuetudinem audiendi <app>
                 <lem>predictum cantum</lem>
                 <rdg wit="#π" ana="#ordinal #J">cantum predictum</rdg>
-              </app> aliquando in amplius <app>
-                <lem>delectantur</lem>
-                <rdg wit="#Px #Vo" ana="#morphological">delectatur</rdg>
-              </app>
+              </app> aliquando in amplius 
               <app xml:id="app-rdg-5.2" exclude="#app-lem-5.2">
-                <lem n="delectantur"/>
-                <rdg wit="#β #Ea #Vb #Vo" type="transposition" n="delectantur">triplex enim tunc delectatio
-                  concurrit</rdg>
-              </app>.</p>
+                <lem>delectantur.</lem>
+                  <rdg wit="#β #Ea #Vb #Vo" type="transposition" ana="#ordinal">delectantur. Triplex enim tunc delectatio
+                  concurrit.</rdg>
+              </app></p>
             <p n="4">
               <app>
-                <lem n="delectantur"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app> Vnde <num type="ordinal" value="2">secundo</num> confirmat causam prefatam,
+                <lem>Vnde</lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde. Vnde</rdg>
+              </app> 
+              <num type="ordinal" value="2">secundo</num> confirmat causam prefatam,
               <mentioned><ref target="#ment-5.3">ADHUC AUTEM</ref>,</mentioned>
               <app>
                 <lem>dicens</lem>
@@ -3037,10 +3027,10 @@
                       >oratii</persName></rdg>
               </app> maxime.</p>
             <p n="3"><app>
-                <lem n="maxime"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-6.2">AUT.</ref></mentioned> </lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-6.2">AUT.</ref></mentioned> </rdg>
               </app>
-              <mentioned><ref target="#ment-6.2">AUT.</ref></mentioned> 
               Soluit dicens causam esse sumptam
               <gloss target="#ment-6.2">ab inequalitate, vtrobique <app>
                   <lem>enim</lem>
@@ -3234,10 +3224,10 @@
                 <rdg wit="#Vo" ana="#lexical #J">inabstulerunt</rdg>
               </app>?</p>
             <p n="3"><app>
-                <lem n="abstulerunt"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-7.2">UTRUM.</ref></mentioned> </lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-7.2">UTRUM.</ref></mentioned> </rdg>
               </app>
-              <mentioned><ref target="#ment-7.2">UTRUM.</ref></mentioned> 
               Soluit et <app>
                 <lem>prius</lem>
                 <rdg wit="#π #Va #Vz" ana="#lexical">primo</rdg>
@@ -3288,10 +3278,10 @@
                 <rdg wit="#β" ana="#lexical">interpretationem</rdg>
               </app> soluit.</p>
             <p n="4"><app>
-                <lem n="soluit"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-7.3">AUT NON.</ref></mentioned> </lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-7.3">AUT NON.</ref></mentioned> </rdg>
               </app>
-              <mentioned><ref target="#ment-7.3">AUT NON.</ref></mentioned> 
               Soluit magis ad <app>
                 <lem>orationem</lem>
                 <rdg wit="#Py #Va" ana="#lexical">rationem</rdg>
@@ -3461,10 +3451,10 @@
                   <rdg wit="#β" ana="#lexical">vigilat</rdg>
                 </app> eum qui acute?</gloss></p>
             <p n="3"><app>
-                <lem n="acute"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-8.2">AUT.</ref></mentioned> </lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-8.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-8.2">AUT.</ref></mentioned> 
               Soluit dicens causam esse quoniam
               <gloss target="#ment-8.2">illud quod est graue maius est et fortius. 
                 Quod ostenditur quoniam <gloss target="#ment-8.2">angulo <app>
@@ -3561,10 +3551,10 @@
                 <rdg wit="#Ma #Py" ana="#morphological">consurget</rdg>
               </app> propter dissonantiam delectatio.</p>
             <p n="3"><app>
-                <lem n="delectatio"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-9.2">SI ADHUC.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-9.2">SI ADHUC.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-9.2">SI ADHUC.</ref></mentioned>
               Quasi arguit in contrarium dicens quod 
               <gloss target="#ment-9.2">si <app>
                   <lem>unius</lem>
@@ -3585,10 +3575,10 @@
                 <rdg wit="#Ma #Vb #Vz" ana="#lexical">vnitantur</rdg>
               </app>, vt melius trahant.</p>
             <p n="4"><app>
-                <lem n="trahant"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-9.3">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-9.3">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-9.3">AUT.</ref></mentioned>
               Soluit dicens causam esse <app>
                 <lem>quia</lem>
                 <rdg wit="#λ" ana="#lexical">quoniam</rdg>
@@ -3796,10 +3786,10 @@
               </app>
               delectationem inducere.</p>
             <p n="4"><app>
-                <lem n="inducere"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-10.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-10.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-10.2">AUT.</ref></mentioned>
               Soluit et <app>
                 <lem>prius</lem>
                 <rdg wit="#Py #Va" ana="#lexical">primo</rdg>
@@ -3840,13 +3830,11 @@
                 <rdg wit="#Px #Vm" ana="#morphological">demulceantes</rdg>
               </app>.</p>
             <p n="5"><app>
-                <lem n="demulcentes"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-10.3">AUT VERO.</ref></mentioned></lem>
+              <rdg wit="#Va #m #v" ana="#additive">Deinde. <mentioned><ref target="#ment-10.3">AUT VERO.</ref></mentioned></rdg>
+              <rdg wit="#Vb #Vo #Vz" ana="#lexical"><mentioned>
+                <ref target="#ment-10.3">AT VERO.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-10.3"><app>
-                    <lem>AUT</lem>
-                    <rdg wit="#Vb #Vo #Vz" ana="#lexical">AT</rdg>
-                  </app> VERO.</ref></mentioned>
               Respondet motiuo ipsius <app>
                 <lem>causam dando</lem>
                 <rdg wit="#π" ana="#ordinal #J">dando causam</rdg>
@@ -3905,10 +3893,10 @@
                 </app> aliquis sonans sonitu vel voce acutior redditur 
                 et per consequens alius grauior?</gloss></p>
             <p n="3"><app>
-                <lem n="grauior"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-11.2">AUT.</ref></mentioned> </lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-11.2">AUT.</ref></mentioned> </rdg>
               </app>
-              <mentioned><ref target="#ment-11.2">AUT.</ref></mentioned> 
               Soluit dicens causam esse quia <app>
                 <lem>hic</lem>
                 <rdg wit="#γ" ana="#subtractive"/>
@@ -4079,13 +4067,11 @@
               </app> extremis concursus fiat in medium 
               reddens grauem sonum non autem ex mediis.</p>
             <p n="3"><app>
-                <lem n="mediis"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-12.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-12.2">AUT.</ref></mentioned></rdg>
+              <rdg wit="#α" ana="#additive"><mentioned><ref target="#ment-12.2">AUT QUIA.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-12.2"><app>
-                    <lem>AUT.</lem>
-                    <rdg wit="#α" ana="#additive">AUT QUIA.</rdg>
-                  </app></ref></mentioned> 
               Soluit dicens causam esse quia
               <gloss target="#ment-12.2"><app>
                   <lem>id</lem>
@@ -5138,10 +5124,10 @@
               <ref target="part41"><num
                 type="ordinal" value="41">.41º.</num></ref></p>
             <p n="17"><app>
-                <lem n="xli"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-13.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-13.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-13.2">AUT.</ref></mentioned> 
               Soluit dicens causam esse <gloss target="#ment-13.2"><app>
                   <lem>quoniam</lem>
                   <rdg wit="#π" ana="#lexical #J">quia</rdg>
@@ -5252,10 +5238,10 @@
                     <num type="ordinal" value="5">quinto</num></rdg>
                 </app>.</p>
             <p n="3"><app>
-                <lem n="quinto"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-14.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-14.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-14.2">AUT.</ref></mentioned> 
               Soluit dicens causam esse <gloss target="#ment-14.2"><app>
                   <lem>quare</lem>
                   <rdg wit="#Px #Vz" ana="#lexical">quia</rdg>
@@ -5376,10 +5362,10 @@
                 <rdg wit="#π #Ea" ana="#subtractive"/>
               </app></p>
             <p n="4"><app>
-                <lem n="xlviii"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-15.2">AUT.</ref></mentioned> 
+              <lem><mentioned><ref target="#ment-15.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-15.2">AUT.</ref></mentioned></rdg>
+              </app> 
               Soluit et primo assignat causam quesiti. <num
                 type="ordinal" value="2">Secundo</num>
               <app>
@@ -5448,10 +5434,10 @@
                 <rdg wit="#Px #Vm" ana="#morphological">dicto</rdg>
               </app> post aliam profertur non multum vocem diuersificando.</p>
             <p n="5"><app>
-                <lem n="diuersificando"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-15.3">MAGIS ENIM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-15.3">MAGIS ENIM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-15.3">MAGIS ENIM.</ref></mentioned>
                 <app>
                   <lem>Tangit</lem>
                   <rdg wit="#Ma #Vm" ana="#additive">Tangit enim</rdg>
@@ -5629,13 +5615,12 @@
                 <rdg wit="#π #Ea #Py" ana="#lexical">verba</rdg>
               </app>.</p>
             <p n="6"><app>
-                <lem n="ista"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-15.4">EADEM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-15.4">EADEM.</ref></mentioned></rdg>
+              <rdg wit="#π #Ea" ana="#morphological"><mentioned>
+                <ref target="#ment-15.4">EANDEM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-15.4"><app>
-                    <lem>EADEM.</lem>
-                    <rdg wit="#π #Ea" ana="#morphological">EANDEM.</rdg>
-                  </app></ref></mentioned>
               Applicat <app>
                 <lem>istam</lem>
                 <rdg wit="#Px #Vz" ana="#lexical">illam</rdg>
@@ -5797,10 +5782,10 @@
                 <rdg wit="#Px #Vb" ana="#lexical">consonat</rdg>
               </app> et antiphonizat super illos <num type="cardinal" value="2">duos</num>.</p>
             <p n="3"><app>
-                <lem n="duos"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-16.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-16.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-16.2">AUT.</ref></mentioned>
               Soluit <app>
                 <lem>assignans</lem>
                 <rdg wit="#π #Py" ana="#additive">et assignat</rdg>
@@ -5822,14 +5807,13 @@
               </app> magis delectat, 
               eo quod non est tale sicut apparet in tactu relatione aliorum sensuum.</p>
             <p n="4"><app>
-                <lem n="sensuum"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-16.3">AUT QUANDO.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-16.3">AUT QUANDO.</ref></mentioned></rdg>
+              <rdg wit="#Px #Vm" ana="#lexical"><mentioned>
+                <ref target="#ment-16.3">AUT QUESITI.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-16.3"><app>
-                    <lem>AUT QUANDO.</lem>
-                    <rdg wit="#Px #Vm" ana="#lexical">AUT QUESITI.</rdg>
-                  </app></ref></mentioned> 
-              Assignat aliam causam, dicens quod 
+             Assignat aliam causam, dicens quod 
               <gloss target="#ment-16.3">
                 quando aliqui cantant consonantiam facientes in qua acutum non excedat graue <app>
                   <lem>aut</lem>
@@ -5954,10 +5938,10 @@
               <num type="cardinal" value="3">tres</num> autem vel 
               <num type="cardinal" value="6">sex</num> possunt cantare?</p>
             <p n="3"><app>
-                <lem n="cantare"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-17.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-17.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-17.2">AUT.</ref></mentioned> 
               Soluit dicens causam esse <gloss target="#ment-17.2">quoniam <app>
                   <lem>ipsa</lem>
                   <rdg wit="#α #π" ana="#lexical">ista</rdg>
@@ -6086,10 +6070,10 @@
                   <rdg wit="#α #π" ana="#lexical">eleuantes</rdg>
                 </app>, quod secundum nullam aliarum ita manifeste agere contingit.</gloss></p>
             <p n="3"><app>
-                <lem n="contingit"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-18.2">AUT.</ref></mentioned> 
+              <lem><mentioned><ref target="#ment-18.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-18.2">AUT.</ref></mentioned></rdg>
+              </app> 
               Soluit dicens causam esse primam
               <gloss target="#ment-18.2">quoniam ipsa <app>
                   <lem>sola</lem>
@@ -6139,10 +6123,10 @@
                 <rdg wit="#Ea #Nu #Va" ana="#lexical">delectatium</rdg>
               </app>.</p>
             <p n="4"><app>
-                <lem n="delectamentum"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-18.3">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-18.3">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-18.3">AUT.</ref></mentioned>
               Assignat aliam causam dicens ideo esse 
               <gloss target="#ment-18.3">quia si vna <app>
                   <lem>cordarum</lem>
@@ -6403,10 +6387,10 @@
                     >3</biblScope></bibl>
               </cit></p>
             <p n="4"><app>
-                <lem n="amplius"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-20.2">AUT.</ref></mentioned> 
+              <lem><mentioned><ref target="#ment-20.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-20.2">AUT.</ref></mentioned></rdg>
+              </app> 
               Soluit per simile in aliis repertum dicens primo
               <gloss target="#ment-20.2"><app>
                   <lem>rationabiliter id</lem>
@@ -6431,10 +6415,10 @@
                 </app> corda media</gloss> 
               reducendo ceteras et maxime supremas proportionaliter ad ipsam.</p>
             <p n="5"><app>
-                <lem n="ipsam"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-20.3">ET OMNES.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-20.3">ET OMNES.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-20.3">ET OMNES.</ref></mentioned> 
               Declarat id <num type="ordinal" value="2">secundo</num>
               <app>
                 <lem>et</lem>
@@ -6563,10 +6547,10 @@
                 <rdg wit="#Vo" ana="#morphological #J">rithimos</rdg>
               </app> commiscentes metrice.</p>
             <p n="7"><app>
-                <lem n="metrice"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-20.4">QUEMADMODUM.</ref></mentioned> 
+              <lem><mentioned><ref target="#ment-20.4">QUEMADMODUM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-20.4">QUEMADMODUM.</ref></mentioned></rdg>
+              </app> 
               Declarat <num
                 type="ordinal" value="2">secundo</num> in <app>
                 <lem>coniunctione</lem>
@@ -6709,10 +6693,10 @@
                 <rdg wit="#π #Ea" ana="#subtractive"/>
               </app> completiue sermonis, vtpote di. ta. ra. ni. ge. et cetera.</p>
             <p n="8"><app>
-                <lem n="cetera."/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-20.5">ITA AUTEM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-20.5">ITA AUTEM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-20.5">ITA AUTEM.</ref></mentioned>
               Applicat ad propositum <num type="ordinal" value="3">tertio</num>, 
               dicens quod 
               <gloss target="#ment-20.5">
@@ -6813,10 +6797,10 @@
                   <rdg wit="#Vo #Vz" ana="#morphological">peccaret</rdg>
                 </app> secundum acutius.</gloss></p>
             <p n="3"><app>
-                <lem n="acutius"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-21.2">UTRUM.</ref></mentioned> 
+              <lem><mentioned><ref target="#ment-21.2">UTRUM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-21.2">UTRUM.</ref></mentioned></rdg>
+              </app> 
               Soluit et assignat <app>
                 <lem>duplicem causam quasi</lem>
                 <rdg wit="#π" ana="#ordinal #J">quasi duplicem causam</rdg>
@@ -6834,10 +6818,10 @@
                   <rdg wit="#Px #Vm #Vz" ana="#lexical">vt</rdg>
                 </app> peccatum similiter magis percipi.</gloss></p>
             <p n="4"><app>
-                <lem n="percipi"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-21.3">AUT QUIA.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-21.3">AUT QUIA.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-21.3">AUT QUIA.</ref></mentioned>
               <app>
                 <lem>Assignat causam dicens</lem>
                 <rdg wit="#Ma #Px #Vm" ana="#subtractive">Dicens</rdg>
@@ -6881,10 +6865,10 @@
                   <rdg wit="#Ma #Vm" ana="#lexical">armonicam</rdg>
                 </app> quam acceperunt cantare quam pauci?</gloss></p>
             <p n="3"><app>
-                <lem n="pauci"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-22.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-22.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-22.2">AUT.</ref></mentioned>
               <app>
                 <lem>Soluit dicens</lem>
                 <rdg wit="#Ea #Py #Vz" ana="#subtractive">dicit</rdg>
@@ -6975,13 +6959,12 @@
                   <rdg wit="#Vo" ana="#lexical #J">vite</rdg>
                 </app> constituit ypatem?</gloss></p>
             <p n="3"><app>
-                <lem n="ypatem"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-23.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-23.2">AUT.</ref></mentioned></rdg>
+              <rdg wit="#γ #Ea #Vo" ana="#additive"><mentioned>
+                <ref target="#ment-23.2">AUT PRIMUM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-23.2"><app>
-                    <lem>AUT.</lem>
-                    <rdg wit="#γ #Ea #Vo" ana="#additive">AUT PRIMUM.</rdg>
-                  </app></ref></mentioned>
               Soluit et <num type="ordinal" value="1">primo</num> 
               ostendit quomodo ex duplici <app>
                 <lem>nite</lem>
@@ -7036,10 +7019,10 @@
                 <rdg wit="#π" ana="#lexical #J"><num type="ordinal" value="3">3°.</num></rdg>
               </app></p>
             <p n="4"><app>
-                <lem n="20."/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-23.3">SIMILITER.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-23.3">SIMILITER.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-23.3">SIMILITER.</ref></mentioned>
               Ostendit <num type="ordinal" value="2">secundo</num> similiter <app>
                 <lem>fore</lem>
                 <rdg wit="#λ" ana="#subtractive"/>
@@ -7189,10 +7172,10 @@
                 Accipiunt per <num type="cardinal" value="4">quatuor</num>, 
                 id est dyatesseron grece</gloss>.</p>
             <p n="5"><app>
-                <lem n="grece"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-23.4">AMPLIUS.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-23.4">AMPLIUS.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-23.4">AMPLIUS.</ref></mentioned> 
               Declarat <num type="ordinal" value="3">tertio</num> <app>
                 <lem>in</lem>
                 <rdg wit="#λ #Ea #Va" ana="#subtractive"/>
@@ -7283,10 +7266,10 @@
                   <rdg wit="#Vo" ana="#morphological #J">reliqua</rdg>
                 </app> superando, quod prius dictum est antiphonare.</p>
             <p n="3"><app>
-                <lem n="antiphonare"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-24.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-24.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-24.2">AUT.</ref></mentioned>
               Soluit dicens causam esse <gloss target="#ment-24.1">
                 quia sonus qui ab ipsa causatur principalissime efficitur connaturalis et
                 proportionalis alii sono, propter hoc quod cum sua <app>
@@ -7392,10 +7375,10 @@
               </app> potius geometricum. Et ideo <num type="cardinal" value="8">.8.</num> cordarum
               non vocatur aliqua media.</p>
             <p n="3"><app>
-                <lem n="media"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-25.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-25.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-25.2">AUT.</ref></mentioned>
               Soluit dicens causam esse <gloss target="#ment-25.2">quoniam antiquitus, vt <app>
                   <lem>visum est</lem>
                   <rdg wit="#β #Ea" ana="#subtractive">visum</rdg>
@@ -7501,10 +7484,10 @@
                 </app> plurimi cantantes vna discordant
                     amplius in acuto quam in graui?</gloss></p>
             <p n="3"><app>
-                <lem n="graui"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-26.2">UTRUM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-26.2">UTRUM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-26.2">UTRUM.</ref></mentioned>
               <app>
                 <lem>Soluit</lem>
                 <rdg wit="#π" ana="#additive">Soluit et</rdg>
@@ -7535,10 +7518,10 @@
                 <rdg wit="#Vo" ana="#subtractive #J"/>
               </app> peccatum in graui, propter quod apparet hoc in nullo illi aduersari.</p>
             <p n="4"><app>
-                <lem n="aduersari"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-26.3">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-26.3">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-26.3">AUT.</ref></mentioned>
               <app>
                 <lem>Soluit assignans</lem>
                 <rdg wit="#Ma #Vm" ana="#morphological">Soluit assignando</rdg>
@@ -7626,10 +7609,10 @@
                 <rdg wit="#Vo" ana="#morphological #J">colorem aut odorem aut saporem</rdg>
               </app> id adest quod ea fiant consueta in tantum vt que audibilia.</p>
             <p n="3"><app>
-                <lem n="audibilia"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-27.2">AUT.</ref></mentioned> 
+              <lem><mentioned><ref target="#ment-27.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-27.2">AUT.</ref></mentioned></rdg>
+              </app> 
               Soluit et primo tangit partem cause ratione <app>
                 <lem>audibilium</lem>
                 <rdg wit="#π" ana="#morphological #J">audibilis</rdg>
@@ -7773,10 +7756,10 @@
                 <rdg wit="#π" ana="#lexical #J">alia</rdg>
               </app> vero apparens magis.</p>
             <p n="5"><app>
-                <lem n="magis"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-27.3">MOTUS.</ref></mentioned> 
+              <lem><mentioned><ref target="#ment-27.3">MOTUS.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-27.3">MOTUS.</ref></mentioned></rdg>
+              </app> 
               Τangit causam sumptam <app>
                 <lem>ex <num type="ordinal" value="2">secunda</num> parte</lem>
                 <rdg wit="#π" ana="#lexical #J">ex alia parte</rdg>
@@ -7979,10 +7962,10 @@
                 <rdg wit="#Nu #Vb #Vz" ana="#lexical">huiusmodi</rdg>
               </app> cantare.</p>
             <p n="3"><app>
-                <lem n="cantare"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-28.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-28.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-28.2">AUT.</ref></mentioned>
               Soluit dicens causam esse <gloss target="#ment-28.2">quia cantantes leges <app>
                   <lem>ceu</lem>
                   <rdg wit="#Ea #Vm #Vo" ana="#lexical">seu</rdg>
@@ -8099,10 +8082,10 @@
                 <rdg wit="#π #Va" ana="#morphological #ordinal">odores vel colores</rdg>
               </app> non proportionantur consuetudini.</gloss></p>
             <p n="3"><app>
-                <lem n="consuetudini"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-29.2">AUT.</ref></mentioned> 
+              <lem><mentioned><ref target="#ment-29.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-29.2">AUT.</ref></mentioned></rdg>
+              </app> 
               Soluit dicens causam esse 
               <gloss target="#ment-29.2">quia motus qui sunt circa sensibilia <app>
                   <lem>auditus</lem>
@@ -8176,10 +8159,10 @@
                 <rdg wit="#γ #Nu" ana="#lexical">ac</rdg>
               </app> descensione per circulos casuum.</p>
             <p n="3"><app>
-                <lem n="casuum"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-30.2">AUT.</ref></mentioned> 
+              <lem><mentioned><ref target="#ment-30.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-30.2">AUT.</ref></mentioned></rdg>
+              </app> 
               Soluit dicens causam esse <gloss target="#ment-30.2">quia <app>
                   <lem>huius</lem>
                   <rdg wit="#γ #Nu" ana="#lexical">huiusmodi</rdg>
@@ -8384,10 +8367,10 @@
                   <rdg wit="#Vo" ana="#morphological #J">alias</rdg>
                 </app>?</gloss></p>
             <p n="3"><app>
-                <lem n="alios"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-31.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-31.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-31.2">AUT.</ref></mentioned>
               Soluit dicens causam esse 
               <gloss target="#ment-31.2">
                 quoniam cantus apud eum fuerunt multiplices et differenter compositi 
@@ -8445,10 +8428,10 @@
               </app> terminatur in <num type="ordinal" value="5">quinto</num> loco vel in 
               <num type="cardinal" value="5">5.</num> constat cordis.</p>
             <p n="3"><app>
-                <lem n="cordis"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-32.2">AUT.</ref></mentioned> 
+              <lem><mentioned><ref target="#ment-32.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-32.2">AUT.</ref></mentioned></rdg>
+              </app> 
               Soluit dicens causam esse cur dyapason dicitur et non dyaocto 
               <gloss target="#ment-32.2">quia corde <app>
                   <lem>instrumentorum antiquitus 
@@ -8549,10 +8532,10 @@
                   <rdg wit="#Ma #Py #Vb #Vz" ana="#lexical">incipiens</rdg>
                 </app> terminetur in acutum?</gloss></p>
             <p n="3"><app>
-                <lem n="acutum"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-33.2">UTRUM.</ref></mentioned> 
+              <lem><mentioned><ref target="#ment-33.2">UTRUM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-33.2">UTRUM.</ref></mentioned></rdg>
+              </app> 
               Soluit et assignat duplicem causam dicens primo id esse 
               <gloss target="#ment-33.2">quia contingit incipere <app>
                   <lem>a</lem>
@@ -8567,10 +8550,10 @@
               </app> reddunt acutum, a quibus oportet incipere, 
               vt ordo seruetur naturalis in arte.</p>
             <p n="4"><app>
-                <lem n="arte"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-33.3">MEDIA</ref></mentioned>. 
+              <lem><mentioned><ref target="#ment-33.3">MEDIA.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-33.3">MEDIA.</ref></mentioned></rdg>
+              </app> 
               Remouet dubitationem, quia crederet aliquis <app>
                 <lem>quod</lem>
                 <rdg wit="#Vo" ana="#subtractive #J"/>
@@ -8621,10 +8604,10 @@
               </app>
               <ref target="part20"><num type="ordinal" value="20">20.</num></ref></p>
             <p n="5"><app>
-                <lem n="20°"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-33.4">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-33.4">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-33.4">AUT.</ref></mentioned>
               Assignat aliam causam dicens id <app>
                 <lem>etiam</lem>
                 <rdg wit="#γ #Vo #Vz" ana="#subtractive"/>
@@ -8697,10 +8680,10 @@
               <num type="cardinal" value="2">duobus</num> acutis et 
               <num type="cardinal" value="1">vno</num> graui seu breuibus et longo, more dactili.</p>
             <p n="3"><app>
-                <lem n="dactili"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-34.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-34.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-34.2">AUT.</ref></mentioned> 
               Soluit dicens causam esse 
               <gloss target="#ment-34.2">
                 quoniam bis paracutos vel bis dyapente <app>
@@ -8714,9 +8697,9 @@
                 <num type="cardinal" value="4">quatuor</num> se habet aut per 
                 <num type="cardinal" value="5">.5.</num> licet proportionem constituant 
                 et per consequens consonantiam, vt per <num type="cardinal" value="4">quatuor</num>
-                dyatesseron vel <app>
-                  <lem n="vel"/>
-                  <rdg wit="#Gu #Pp #Px" ana="#additive">per</rdg>
+                dyatesseron <app>
+                  <lem>vel</lem>
+                  <rdg wit="#Gu #Pp #Px" ana="#additive">vel per</rdg>
                 </app> <num type="cardinal" value="5">5.</num> dyapente.</gloss>
               Quando <app>
                 <lem>enim</lem>
@@ -8774,10 +8757,10 @@
                   <rdg wit="#λ" ana="#additive">Querit quare</rdg>
                 </app> dyapason est optima et dulcissima consonantiarum?</gloss></p>
             <p n="3"><app>
-                <lem n="consonantiarum"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-35.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-35.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-35.2">AUT.</ref></mentioned> 
               Soluit et assignat duplicem causam, <app>
                 <lem><app>
                     <lem><num type="ordinal" value="2">secunda</num></lem>
@@ -8861,10 +8844,10 @@
               procedendo <num type="cardinal" value="2">due</num> nite 
               <num type="cardinal" value="1">vnam</num> constituunt ypatem.</p>
             <p n="4"><app>
-                <lem n="ypatem"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-35.3">MEDIE.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-35.3">MEDIE.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-35.3">MEDIE.</ref></mentioned> 
               Ostendit quod dyapente et dyatesseron non est optima <app>
                 <lem>consonantia</lem>
                 <rdg wit="#β #γ #π" ana="#morphological">consonantiarum</rdg>
@@ -8922,10 +8905,10 @@
                 sed fit comparatio totius ad partes,</gloss> 
               quare non erit optima consonantiarum dyapente.</p>
             <p n="5"><app>
-                  <lem n="dyapente"/>
-                  <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-35.4">SIMILITER.</ref></mentioned></lem>
+                  <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                    <mentioned><ref target="#ment-35.4">SIMILITER.</ref></mentioned></rdg>
                 </app>
-              <mentioned><ref target="#ment-35.4">SIMILITER.</ref></mentioned> 
               Ostendit consequenter quod dyatesseron non est optima consonantiarum, dicens
               <gloss target="#ment-35.4">quod in illa consonantia que est per 
                 <num type="cardinal" value="4">quatuor</num> vt dyatesseron eodem modo se habet.
@@ -8957,10 +8940,10 @@
                 <rdg wit="#β" ana="#lexical">in</rdg>
               </app> dyapente.</p>
             <p n="6"><app>
-                <lem n="dyapente"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-35.5">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-35.5">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-35.5">AUT.</ref></mentioned>
               <app>
                 <lem>Assignat</lem>
                 <rdg wit="#λ" ana="#additive">Soluit et assignat</rdg>
@@ -9094,10 +9077,10 @@
                 <rdg wit="#π" ana="#lexical #J">laxata</rdg>
               </app>.</p>
             <p n="8"><app>
-                <lem n="relaxata"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-35.6">SONUS.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-35.6">SONUS.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-35.6">SONUS.</ref></mentioned>
               <app>
                 <lem>Et</lem>
                 <rdg wit="#π #Va" ana="#subtractive"/>
@@ -9299,10 +9282,10 @@
                 <rdg wit="#π" ana="#subtractive #J"/>
               </app>.</p>
             <p n="4"><app>
-                <lem n="problemate"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-36.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-36.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-36.2">AUT.</ref></mentioned> 
               Soluit dicens causam esse quoniam media cordarum concordat 
               et consonat cum omnibus cordis. Quod ostenditur 
               <gloss target="#ment-36.2">
@@ -9384,10 +9367,10 @@
                     unit="line" from="24" to="28">24–28</biblScope></bibl>
               </cit></p>
             <p n="3"><app>
-                <lem n=".xia"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-37.2">MOLESTUM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-37.2">MOLESTUM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-37.2">MOLESTUM.</ref></mentioned>
               <app>
                 <lem>Secundo</lem>
                 <rdg wit="#π" ana="#subtractive #J"/>
@@ -9433,10 +9416,10 @@
                 <rdg wit="#α #Vo" ana="#subtractive"/>
               </app> confestim sistere, atque similiter nauem velocissime inpulsam.</p>
             <p n="4"><app>
-                <lem n="inpulsam"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-37.3">MINUS.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-37.3">MINUS.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-37.3">MINUS.</ref></mentioned> 
               <num type="ordinal" value="3">Tertio</num> arguit in contrarium, quasi dicat <app>
                 <lem>quod</lem>
                 <rdg wit="#β #γ #Ma #Vz" ana="#lexical">quia</rdg>
@@ -9461,10 +9444,10 @@
               </app> videtur esse in aere qui est subiectum sonorum, eius enim medium proprium 
               est ipse in quo causatur et recipitur primitus.</p>
             <p n="5"><app>
-                <lem n="primitus"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-37.4">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-37.4">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-37.4">AUT.</ref></mentioned> 
               Soluit dicens causam esse sumendam ex hoc, 
               <gloss target="#ment-37.4">quia idem videtur esse naturaliter acute sonare et <app>
                   <lem>acute cantare</lem>
@@ -9696,10 +9679,10 @@
                 <rdg wit="#π" ana="#ordinal #lexical #J">iudicatur pretacta</rdg>
               </app> musica?</p>
             <p n="3"><app>
-                <lem n="indicatur"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-38.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-38.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-38.2">AUT.</ref></mentioned> 
               Soluit <app>
                 <lem>primo dans causam vniversaliter dicens</lem>
                 <rdg wit="#Vo" ana="#subtractive #ordinal #J">dicens primo</rdg>
@@ -9750,10 +9733,10 @@
                     unit="line" from="22" to="29">22–29</biblScope></bibl>
               </cit></p>
             <p n="4"><app>
-                <lem n="particule"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-38.3">SIGNUM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-38.3">SIGNUM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-38.3">SIGNUM.</ref></mentioned>
               Declarat secundo quomodo in vnoquoque <num type="cardinal" value="3">trium</num> 
               <app>
                 <lem>predictorum</lem>
@@ -9874,13 +9857,12 @@
                     >7</biblScope></bibl>
               </cit></p>
             <p n="5"><app>
-                <lem n="motu"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <app>
-                <lem><mentioned><ref target="#ment-38.4">RITHIMO.</ref></mentioned> </lem>
+              <lem><mentioned><ref target="#ment-38.4">RITHIMO.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-38.4">RITHIMO.</ref></mentioned></rdg>
                 <rdg wit="#π" ana="#lexical #J">AC HUIC.</rdg>
-              </app> <app>
+              </app> 
+              <app>
                 <lem><num type="ordinal" value="2">Secundo</num> dat causam</lem>
                 <rdg wit="#Va" ana="#lexical">Declarat <num type="ordinal" value="2">secundo</num></rdg>
                 <rdg wit="#Vb #m #v" ana="#lexical"><num type="ordinal" value="2">Secundo</num> declarat causam</rdg>
@@ -9953,10 +9935,10 @@
                 <rdg wit="#Px #Vz" ana="#lexical">iocunditati</rdg>
               </app>, tanquam ordinato.</gloss></p>
             <p n="6"><app>
-                <lem n="ordinato"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-38.5">SIGNUM AUTEM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-38.5">SIGNUM AUTEM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-38.5">SIGNUM AUTEM.</ref></mentioned>
               Declarat <app>
                 <lem>id</lem>
                 <rdg wit="#Vm #Vo" ana="#lexical">illud</rdg>
@@ -10044,13 +10026,12 @@
                     unit="line" from="5" to="6">5–6</biblScope></bibl>
               </cit></p>
             <p n="7"><app>
-                <lem n="quarto"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-38.6">CONSONANTIA.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-38.6">CONSONANTIA.</ref></mentioned></rdg>
+              <rdg wit="#Px #Vm #Vz" ana="#morphological"><mentioned>
+                <ref target="#ment-38.6">CONSONANTIAM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-38.6"><app>
-                    <lem>CONSONANTIA.</lem>
-                    <rdg wit="#Px #Vm #Vz" ana="#morphological">CONSONANTIAM.</rdg>
-                  </app></ref></mentioned> 
               Assignat <num type="ordinal" value="3">tertio</num> causam delectationis consonantie, 
               dicens causam <app>
                 <lem>huius</lem>
@@ -10096,10 +10077,10 @@
                 <rdg wit="#β" ana="#ordinal">sunt reducte</rdg>
               </app>.</p>
             <p n="8"><app>
-                <lem n="sunt"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-38.7">QUAMUIS.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-38.7">QUAMUIS.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-38.7">QUAMUIS.</ref></mentioned> 
               Remouet <app>
                 <lem><num type="ordinal" value="2">secundo</num> dubitationem</lem>
                 <rdg wit="#Gu #Pp" ana="#subtractive #lexical #J">dubium</rdg>
@@ -10197,10 +10178,10 @@
                 delectabilior est quam cantus et omnino sonus qui fuerit vnius vocis
                 et percussionis</gloss>, et uniuersaliter dyapason ad alias consonantias?</p>
             <p n="3"><app>
-                <lem n="consonantias"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-39.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-39.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-39.2">AUT.</ref></mentioned> 
               Soluit et primo assignat <app>
                 <lem>causam vnam</lem>
                 <rdg wit="#π" ana="#ordinal #J">vnam causam</rdg>
@@ -10334,13 +10315,11 @@
                 <rdg wit="#π #Ea" ana="#subtractive"/>
               </app>.</p>
             <p n="4"><app>
-                <lem n="boecii"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-39.3">QUIA QUEMADMODUM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-39.3">QUIA QUEMADMODUM.</ref></mentioned></rdg>
+              <rdg wit="#Vo" ana="#lexical #J"><mentioned><ref target="#ment-39.3">QUARE QUODDAM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-39.3"><app>
-                    <lem>QUIA QUEMADMODUM.</lem>
-                    <rdg wit="#Vo" ana="#lexical #J">QUARE QUODDAM.</rdg>
-                  </app></ref></mentioned> 
               Declarat <app>
                 <lem>deinde id</lem>
                 <rdg wit="#Vo #Vz" ana="#lexical">id demum</rdg>
@@ -10411,10 +10390,10 @@
                 <rdg wit="#Ea #Py" ana="#subtractive"/>
               </app> <ref target="part20"><num type="ordinal" value="20">.20°.</num></ref>.</p>
             <p n="5"><app>
-                <lem n="20"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-39.4">ET ITA.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-39.4">ET ITA.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-39.4">ET ITA.</ref></mentioned>
               <app>
                 <lem>Tunc</lem>
                 <rdg wit="#Gu #Pp #Py" ana="#subtractive"/>
@@ -10435,13 +10414,12 @@
                   <rdg wit="#α #π" ana="#additive">ad se</rdg>
                 </app> inuicem.</gloss></p>
             <p n="6"><app>
-                <lem n="inuicem"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-39.5"><app>
-                    <lem>ALIARUM.</lem>
-                    <rdg wit="#π #Ea" ana="#morphological">ALIORUM.</rdg>
-                  </app></ref></mentioned> 
+              <lem><mentioned><ref target="#ment-39.5">ALIARUM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-39.5">ALIARUM.</ref></mentioned></rdg>
+              <rdg wit="#π #Ea" ana="#morphological"><mentioned>
+                <ref target="#ment-39.5">ALIORUM.</ref></mentioned></rdg>
+              </app> 
               Αssignat <app>
                 <lem>secundo</lem>
                 <rdg wit="#π #Vz" ana="#subtractive"/>
@@ -10545,10 +10523,10 @@
               <persName><ref target="#Ax">aristoxenus</ref></persName>, 
               sed vtrumque contractat.</p>
             <p n="7"><app>
-                <lem n="contractat"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
-              </app>
-              <mentioned><ref target="#ment-39.6">AMPLIUS.</ref></mentioned> 
+              <lem><mentioned><ref target="#ment-39.6">AMPLIUS.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-39.6">AMPLIUS.</ref></mentioned></rdg>
+              </app>              
               Ponit aliam solutionem vel magis pretactam confirmat et declarat dicens
               <gloss target="#ment-39.6"><app>
                   <lem>rursus</lem>
@@ -10647,11 +10625,9 @@
                 <rdg wit="#Vo" ana="#subtractive #J"/>
               </app> pariter et vna <app>
                 <lem>fistulantur</lem>
-                <rdg wit="#π" ana="#morphological #J">fistulant</rdg>
-                <rdg wit="#γ" ana="#lexical">similantur</rdg>
-              </app> <app>
-                <lem n="fistulantur"/>
-                <rdg wit="#α #π" ana="#additive">et cantant</rdg>
+                <rdg wit="#Ea #Py" ana="#additive">fistulantur et cantant</rdg>
+                <rdg wit="#π" ana="#additive #morphological #J">fistulant et cantant</rdg>
+                <rdg wit="#γ" ana="#additive #lexical">similantur et cantant</rdg>
               </app>, sed secundum alia et alia. <app>
                 <lem>Si tamen</lem>
                 <rdg wit="#π" ana="#lexical #ordinal #J">Tamen et</rdg>
@@ -10835,10 +10811,10 @@
               vt amplius exponat.
               </p>
             <p n="3"><app>
-                    <lem n="exponat"/>
-                    <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-41.2">AUT.</ref></mentioned></lem>
+                    <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                      <mentioned><ref target="#ment-41.2">AUT.</ref></mentioned></rdg>
                   </app>
-                  <mentioned><ref target="#ment-41.2">AUT.</ref></mentioned> 
               Soluit et primo assignat causam <num type="ordinal" value="1">prime</num> partis, secundo secunde <app>
                     <lem>secunda</lem>
                     <rdg wit="#γ" ana="#additive">secunda ibi</rdg>
@@ -10963,10 +10939,10 @@
               </p>
             <p n="4">
               <app>
-                <lem n="anterius"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+                <lem><mentioned><ref target="#ment-41.3">DYAPASON.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-41.3">DYAPASON.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-41.3">DYAPASON.</ref></mentioned> 
               Assignat causam <num type="ordinal" value="2">secunde</num> 
               partis, dicens 
               <gloss target="#ment-41.3">quia dyapason se habet in 
@@ -11000,10 +10976,10 @@
               </p>
             <p n="5">
               <app>
-                <lem n="siue"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+                <lem><mentioned><ref target="#ment-41.4">QUARE QUONIAM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-41.4">QUARE QUONIAM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-41.4">QUARE QUONIAM.</ref></mentioned>
               Concludit intentum <num type="ordinal" value="3">tertio</num>, dicens et ideo 
               <gloss target="#ment-41.4">
                 quia consonantia est compositio quedam tonorum habentium <app>
@@ -11119,14 +11095,13 @@
               </app> ex qua relinquitur sonus, ille faticius diutius resonatio dicta 
               vel neate seu tinitus.</p>
             <p n="3"><app>
-                <lem n="tinitus"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-42.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-42.2">AUT.</ref></mentioned></rdg>
+              <rdg wit="#γ" ana="#additive"><mentioned>
+                <ref target="#ment-42.2">AUT QUIA.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-42.2"><app>
-                    <lem>AUT.</lem>
-                    <rdg wit="#γ" ana="#additive">AUT QUIA.</rdg>
-                  </app></ref></mentioned>
-              Soluit <app>
+             Soluit <app>
                 <lem>primo assignans</lem>
                 <rdg wit="#λ #π #Ea #Py" ana="#additive">et primo assignat</rdg>
               </app> causam, <num type="ordinal" value="2">secundo</num> confirmat 
@@ -11155,10 +11130,10 @@
                 </app> maior motus depellit minorem, 
                 ea namque sola videtur posterius subsonare</gloss>.</p>
             <p n="4"><app>
-                <lem n="subsonare"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-42.3">SIGNUM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-42.3">SIGNUM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-42.3">SIGNUM.</ref></mentioned>
               Declarat 2° per signum, dicens <gloss target="#ment-42.3">signum nobis <app>
                   <lem>ideo</lem>
                   <rdg wit="#α" ana="#lexical">id</rdg>
@@ -11311,10 +11286,10 @@
                 <rdg wit="#π" ana="#morphological #J">aliorum</rdg>
               </app> occultat et deperdit neatem.</p>
             <p n="7"><app>
-                <lem n="neatem"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-42.4">AMPLIUS.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-42.4">AMPLIUS.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-42.4">AMPLIUS.</ref></mentioned> 
               Secundo confirmat causam predictam vel alteram subiungit, dicens quod 
               <gloss target="#ment-42.4">non est mirabile aliquod si <app>
                   <lem>contingat</lem>
@@ -11431,10 +11406,10 @@
                   innixe coexuntur</rdg>
               </app>.</p>
             <p n="8"><app>
-                <lem n="44"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-42.5">MERITO.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-42.5">MERITO.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-42.5">MERITO.</ref></mentioned>
               Concludit <num type="ordinal" value="3">tertio</num> intentum, dicens
               <gloss target="#ment-42.5">quare non immerito <app>
                   <lem>secularium</lem>
@@ -11599,10 +11574,10 @@
               </app> simplicem, vt fistule ad lyram, et compositi ad compositum, 
               sicut fistule et cantus ad lyram et cantum.</p>
             <p n="3"><app>
-                <lem n="cantum"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-43.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-43.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-43.2">AUT.</ref></mentioned> 
               Soluit et primo assignat causam quare cantus <app>
                 <lem>vnius</lem>
                 <rdg wit="#Vo" ana="#morphological">vnus</rdg>
@@ -11645,10 +11620,10 @@
                 <rdg wit="#π" ana="#ordinal #J">moueat sensum</rdg>
               </app>.</p>
             <p n="4"><app>
-                <lem n="moueat"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-43.3">FISTULA ENIM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-43.3">FISTULA ENIM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-43.3">FISTULA ENIM.</ref></mentioned> 
               Comparat <num type="ordinal" value="2">secundo</num> fistulam ad lyram penes <app>
                 <lem>delectationem</lem>
                 <rdg wit="#Vo" ana="#additive #J">delectationem et</rdg>
@@ -11706,14 +11681,11 @@
                 <rdg wit="#π #Ea" ana="#lexical #additive">soni notione</rdg>
               </app>.</gloss></p>
             <p n="5"><app>
-                <lem n="conmixtione"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-43.4">UINUM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive #lexical">Deinde.
+                  <mentioned><ref target="#ment-43.4">UNUM.</ref></mentioned></rdg>
+              <rdg wit="#π" ana="#lexical #J">VNDE.</rdg>
               </app>
-              <mentioned><ref target="#ment-43.4"><app>
-                    <lem>UINUM.</lem>
-                    <rdg wit="#γ" ana="#lexical">UNUM.</rdg>
-                    <rdg wit="#π" ana="#lexical #J">VNDE.</rdg>
-                  </app></ref></mentioned> 
               Declarat <num type="ordinal" value="2">secundo</num> <app>
                 <lem>id</lem>
                 <rdg wit="#γ #π" ana="#subtractive"/>
@@ -11826,10 +11798,10 @@
                 <rdg wit="#π" ana="#morphological #J">expositum sit</rdg>
               </app> quandoque.</p>
             <p n="6"><app>
-                <lem n="quandoque"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-43.5">CANTUS.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-43.5">CANTUS.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-43.5">CANTUS.</ref></mentioned> 
               Applicat ad propositum <app>
                 <lem>concludendo</lem>
                 <rdg wit="#π" ana="#subtractive #J"/>
@@ -11892,10 +11864,10 @@
                 <rdg wit="#λ" ana="#additive">lyra composito</rdg>
               </app>, respectu alterius qui ex fistula.</p>
             <p n="8"><app>
-                <lem n="fistula"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-43.6">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-43.6">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-43.6">AUT.</ref></mentioned> 
               Soluit <app>
                 <lem>assignans</lem>
                 <rdg wit="#π" ana="#additive #J">et assignat</rdg>
@@ -11952,10 +11924,10 @@
                  <rdg wit="#π" ana="#lexical #ordinal #J">commixtis et natura</rdg>
                </app>.</gloss></p>
             <p n="9"><app>
-                <lem n="mixtis"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-43.7">AMPLIUS.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-43.7">AMPLIUS.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-43.7">AMPLIUS.</ref></mentioned> 
               Assignat causam <app>
                 <lem><num type="ordinal" value="2">secundam</num></lem>
                 <rdg wit="#γ #Px" ana="#lexical">duplam</rdg>
@@ -12065,10 +12037,10 @@
               <gloss target="#ment-44.1">quare <num type="cardinal" value="7">7</num> 
                 dicitur habere medium et cetera.</gloss></p>
             <p n="3"><app>
-                <lem n="et cetera"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-44.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-44.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-44.2">AUT.</ref></mentioned>
               <app>
                 <lem>Soluit</lem>
                 <rdg wit="#Ea #Px" ana="#subtractive"/>
@@ -12107,9 +12079,9 @@
                 </app> 
                 per quandam distantiam equaliter declinat ab vtroque extremorum dicitur medium</gloss>, 
               <app>
-                <lem n="medium"/>
-                <rdg wit="#π" ana="#additive">inter <num type="cardinal" value="2">duo</num> extrema</rdg>
-              </app> sicut in
+                <lem>sicut</lem>
+                <rdg wit="#π" ana="#additive">inter <num type="cardinal" value="2">duo</num> extrema sicut</rdg>
+              </app> in
               <app>
                 <lem>aliqua</lem>
                 <rdg wit="#π #Ea #Ma" ana="#lexical">alia</rdg>
@@ -12230,10 +12202,10 @@
                   >.4.</num></rdg>
               </app> corde secundum dyazeusim computantur.</p>
             <p n="6"><app>
-                <lem n="computantur"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-44.4">EORUM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-44.4">EORUM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-44.4">EORUM.</ref></mentioned>
               Tunc repetit <gloss target="#ment-44.4">medium prius horum</gloss>, <app>
                 <lem>et</lem>
                 <rdg wit="#λ" ana="#lexical">etiam</rdg>
@@ -12292,13 +12264,11 @@
                   problema</rdg>
               </app>.</p>
             <p n="3"><app>
-                <lem n=".22."/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+                <lem><mentioned><ref target="#ment-45.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-45.2">AUT QUIA.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-45.2"><app>
-                    <lem>AUT.</lem>
-                    <rdg wit="#γ" ana="#additive">AUT QUIA.</rdg>
-                  </app></ref></mentioned> Soluit et primo assignat causam <app>
+             Soluit et primo assignat causam <app>
                 <lem>et iam visum est</lem>
                 <rdg wit="#π #Ea" ana="#subtractive"/>
               </app>. <num type="ordinal" value="2">Secundo</num> declarat 
@@ -12419,10 +12389,10 @@
                 <rdg wit="#Ea #Ma #Vm #Vo" ana="#lexical">propositio</rdg>
               </app>.</p>
             <p n="3"><app>
-                <lem n="expositio"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-47.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-47.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-47.2">AUT.</ref></mentioned>
               <app>
                 <lem>Soluit</lem>
                 <rdg wit="#κ" ana="#additive">Soluit assignans</rdg>
@@ -12514,10 +12484,10 @@
                 <rdg wit="#α" ana="#lexical"><num type="ordinal" value="13">13</num></rdg>
               </app>.</p>
             <p n="4"><app>
-                <lem n="3°"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-47.3">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-47.3">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-47.3">AUT.</ref></mentioned> 
               Assignat aliam causam, dicens
               <gloss target="#ment-47.3">quia media <app>
                   <lem>corda</lem>
@@ -12670,10 +12640,10 @@
                 <rdg wit="#π #Va" ana="#subtractive"/>
               </app>.</p>
             <p n="3"><app>
-                <lem n="antea"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-48.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-48.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-48.2">AUT.</ref></mentioned> 
               Soluit et primo in communi dicens causam esse 
               <gloss target="#ment-48.2">quia <app>
                   <lem>huius</lem>
@@ -12699,14 +12669,12 @@
               </app> cantus et ypodoricus, vt apparuit <ref target="part15"><num
                 type="ordinal" value="15">.15°</num>.</ref></p>
             <p n="4"><app>
-                <lem n="15"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-48.3">CONSUETUDINEM.</ref></mentioned></lem>
+                <rdg wit="#π" ana="#morphological #J"><mentioned><ref target="#ment-48.3">CONSUETUDINE.</ref></mentioned></rdg>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-48.3">CONSUETUDINEM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-48.3"><app>
-                    <lem>CONSUETUDINEM.</lem>
-                    <rdg wit="#π" ana="#morphological #J">CONSUETUDINE.</rdg>
-                  </app></ref></mentioned>
-              Solutionem declarat secundo in speciali, postea notificat quid sit chorus. <app>
+             Solutionem declarat secundo in speciali, postea notificat quid sit chorus. <app>
                 <lem><num type="ordinal" value="2">Secunda</num></lem>
                 <rdg wit="#γ #Vz" ana="#additive"><num type="ordinal" value="2">Secunda</num> ibi</rdg>
               </app>
@@ -12780,15 +12748,15 @@
                 <rdg wit="#Px #Vo" ana="#lexical"><num type="ordinal" value="3">.3°.</num></rdg>
               </app></p>
             <p n="5"><app>
-                <lem n="30°"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-48.4">YPODORISTIUM.</ref></mentioned></lem>
+                  <rdg wit="#π #Ea #Py" ana="#morphological"><mentioned>
+                    <ref target="#ment-48.4">YPODORISTI.</ref></mentioned></rdg>
+                  <rdg wit="#Px #Vm" ana="#morphological"><mentioned>
+                    <ref target="#ment-48.4">YPODORISTUS.</ref></mentioned></rdg>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-48.4">YPODORISTIUM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-48.4"><app>
-                    <lem>YPODORISTIUM.</lem>
-                    <rdg wit="#π #Ea #Py" ana="#morphological">YPODORISTI</rdg>
-                    <rdg wit="#Px #Vm" ana="#morphological">YPODORISTUS.</rdg>
-                  </app></ref></mentioned> 
-              Ostendit secundo qualis sit cantus ypodoristium. <app>
+             Ostendit secundo qualis sit cantus ypodoristium. <app>
                 <lem>Dicit</lem>
                 <rdg wit="#Ea #Gu #Ma #Va" ana="#morphological">dicens</rdg>
               </app> quod
@@ -12811,10 +12779,10 @@
                 <rdg wit="#Px #Vm" ana="#lexical"><num type="ordinal" value="3">.3°.</num></rdg>
               </app>, et in hiis indicatur sue rationis maior.</p>
             <p n="6"><app>
-                <lem n="maior"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-48.5">HEC AUTEM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-48.5">HEC AUTEM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-48.5">HEC AUTEM.</ref></mentioned> 
               Ostendit qualis sit cantus choricus subdens minorem, dicens quod 
               <gloss target="#ment-48.5">hec vtraque consonantia, puta <app>
                   <lem>ypofrigium</lem>
@@ -12882,10 +12850,10 @@
                 <rdg wit="#π #Ea #Px #Va #Vm" ana="#morphological">operatim</rdg>
               </app> enim magis.</p>
             <p n="7"><app>
-                <lem n="magis"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-48.6">PROPRII.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-48.6">PROPRII.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-48.6">PROPRII.</ref></mentioned>
               Ostendit qualis et quorum sit cantus choricus, dicens primo quod 
               <gloss target="#ment-48.6">homines singulares et priuati sunt 
                 illi quorum cantus est choricus,</gloss> 
@@ -12922,14 +12890,12 @@
                 <rdg wit="#γ" ana="#ordinal #morphological">primitus dominarum animos suos</rdg>
               </app> agrestes.</p>
             <p n="8"><app>
-                <lem n="agrestes"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+                <lem><mentioned><ref target="#ment-48.7">HIC AUTEM.</ref></mentioned></lem>
+                <rdg wit="#π #Py #Vb" ana="#morphological"><mentioned>
+                  <ref target="#ment-48.7">HOC AUTEM.</ref></mentioned></rdg>
+                <rdg wit="#Va #m #v" ana="#additive #morphological">Deinde.
+                  <mentioned><ref target="#ment-48.7">HEC AUTEM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-48.7"><app>
-                    <lem>HIC</lem>
-                    <rdg wit="#Va #Vz" ana="#morphological">HEC</rdg>
-                    <rdg wit="#π #Py #Vb" ana="#morphological">HOC</rdg>
-                  </app> AUTEM.</ref></mentioned> 
               Ostendit <num type="ordinal" value="2">secundo</num> 
               quod talia minus insunt ceteris consonantiis <app>
                 <lem>achorica</lem>
@@ -13020,10 +12986,10 @@
                 <rdg wit="#Ea #Ma #Py" ana="#subtractive"/>
               </app>.</p>
             <p n="9"><app>
-                <lem n="est"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-48.8">EST AUTEM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-48.8">EST AUTEM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-48.8">EST AUTEM.</ref></mentioned> 
               Vltimo <app>
                 <lem>manifestat</lem>
                 <rdg wit="#Gu #Pp" ana="#lexical #J">monstrat</rdg>
@@ -13086,10 +13052,10 @@
                   <rdg wit="#π #Va" ana="#lexical">melior</rdg>
                 </app> et delectabilior quam ex acutis constructa?</gloss></p>
             <p n="3"><app>
-                <lem n="constructa"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-49.2">AUT QUIA.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-49.2">AUT QUIA.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-49.2">AUT QUIA.</ref></mentioned> 
               <app>
                 <lem>Soluit,</lem>
                 <rdg wit="#π #Ma #Vz" ana="#additive">Soluit et</rdg>
@@ -13149,10 +13115,10 @@
                   <rdg wit="#π" ana="#morphological #J">preliata</rdg>
                 </app>.</p>
             <p n="4"><app>
-                <lem n="preliatiua"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-49.3">QUONIAM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-49.3">QUONIAM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-49.3">QUONIAM.</ref></mentioned> 
               Applicat ad sonum, dicens similiter <app>
                 <lem>esse</lem>
                 <rdg wit="#Ma #Va" ana="#morphological">est</rdg>
@@ -13316,10 +13282,10 @@
                 <rdg wit="#Vo" ana="#lexical #J">dyapason causa</rdg>
               </app>.</gloss></p>
             <p n="3"><app>
-                <lem n="dyapasonicam"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-50.2">AUT.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-50.2">AUT.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-50.2">AUT.</ref></mentioned> 
               Soluit <app>
                 <lem>et</lem>
                 <rdg wit="#π" ana="#subtractive #J"/>
@@ -13347,10 +13313,10 @@
                   <num type="cardinal" value="30">30.</num></rdg>
               </app> quod dyapason ex numero duplici nascitur.</p>
             <p n="4"><app>
-                <lem n="nascitur"/>
-                <rdg wit="#Va #m #v" ana="#additive">Deinde.</rdg>
+              <lem><mentioned><ref target="#ment-50.3">QUID ENIM.</ref></mentioned></lem>
+                <rdg wit="#Va #m #v" ana="#additive">Deinde.
+                  <mentioned><ref target="#ment-50.3">QUID ENIM.</ref></mentioned></rdg>
               </app>
-              <mentioned><ref target="#ment-50.3">QUID ENIM.</ref></mentioned>
               Secundo remouet dubitationem, quia crederet aliquis quod ex sonis 
               talium non resultaret simphonia sicut ex sonis aliorum. Et ideo subdit quod 
               <gloss target="#ment-50.3">non est aliqua differentia 
