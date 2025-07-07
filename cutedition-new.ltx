@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}\makeatletter
+\documentclass[12pt]{article}\makeatletter
 
 \IfFileExists{xcolor.sty}%
   {\RequirePackage{xcolor}}%
@@ -219,22 +219,10 @@
 
 % Page layout
 \usepackage[letterpaper,
-    twoside,
-    letterpaper,
-    paperheight=185mm,
-    paperwidth=129mm,
-    layoutheight=165mm,
-    layoutwidth=115mm,
-    textheight=145mm,
-    textwidth=90mm,
-    headsep=5mm,
-    top=20mm,
-    outer=15mm,
-    bottom=30mm,
-    inner=10mm,
-    hoffset=5mm,
-    voffset=10mm
-  ]{geometry}
+  twoside,
+  letterpaper
+ ]{geometry}
+
 
 % Typesetting
 \usepackage{soul}
@@ -288,8 +276,23 @@
 \lineation{page}
 
 % Cause the actual line numbers to be displayed in the opposite margin from the edition's line numbers.
-\linenumannotationothersidetrue
+% \linenumannotationothersidetrue
 \Xnotenumfont{\normalfont\bfseries}
+
+\usepackage{ifoddpage}
+
+% Macro to set line numbers in left or right margin depending on page parity
+\newcommand{\switchlinenumside}{%
+  \checkoddpage
+  \ifoddpage
+    \linenummargin{right}%
+  \else
+    \linenummargin{left}%
+  \fi
+}
+
+% Use the LaTeX shipout hook to switch margin before each page is shipped out
+\AddToHook{shipout/before}{\switchlinenumside}
 
 % Settings for familiar notes
 \Xbeforenotes[A,C]{2em} % Space before apparatus begins
@@ -339,7 +342,7 @@
   {\reset@font\LARGE}}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
   {-4.5ex\@plus -0.5ex \@minus- .2ex}%
-  {0.5ex \@plus .2ex}%
+  {1.5ex \@plus .2ex}%
   {\reset@font\large}}
 \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
   {4ex\@plus -0.35ex \@minus -.2ex}%
@@ -520,14 +523,14 @@
 \urlstyle{same}\makeatother 
 \begin{document}
 \let\tabcellsep&
-\thispagestyle{empty}
-\vspace*{\fill} 
+% \thispagestyle{empty}
+% \vspace*{\fill} 
 
-\begin{center}
-This PDF is formatted to accommodate printing two pages per sheet in landscape mode.
-\end{center}
+% \begin{center}
+% This PDF is formatted to accommodate printing two pages per sheet in landscape mode.
+% \end{center}
 
-\vspace*{\fill}
+% \vspace*{\fill}
 \frontmatter 
 \thispagestyle{empty}
 \begin{titlepage} % Suppresses headers and footers on the title page
@@ -656,7 +659,7 @@ Volumes are published under the Creative Commons Attribution-ShareAlike 4.0 Inte
 \subsubsection{1.1 General}
 \par
 The pseudo-Aristotelian \textit{Problems} is an extensive collection of questions and proposed answers concerning a wide range of subjects, including biology, mathematics, and physics, divided topically into thirty-eight sections. The nineteenth of these sections preserves the first substantial account of ancient Greek music making and theorizing to have been rediscovered in the medieval period. This material held great promise for medieval thinkers seeking to learn more about the foreign world of ancient Greek music, whose legendary emotional power had been lamentedly lost, and the text’s attribution to Aristotle imbued it with special authority. Yet the \textit{Problems} was also a challenging text to decipher. Not only was the subject manner often unfamiliar, the manuscript tradition of the Greek text is also corrupt in places. Furthermore, the first complete Latin translation, made by Bartholomew of Messina (fl. 1258–66), observed the common medieval practice of verbatim, indeed servilely literal, word-for-word translation. For all these reasons, potential readers of the \textit{Problems} were in sore need of orientation and explanation.\par
-Into the breach strode Pietro d’Abano (c. 1257–1316), who was a professor of medicine with wide-ranging interests and expertise. Pietro composed his \textit{Expositio}, the first commentary on the entirety of the \textit{Problems} in the first decade of the fourteenth century, and there are more than twenty extant manuscripts of it, as well as multiple early print editions. His commentary also attracted the attention of his contemporaries, most notably Jean de Jandun (c. 1285–1328), a philosopher and theologian of considerable importance based at the University of Paris, who produced a revision of the entire \textit{Expositio}. Moreover, Pietro’s commentary on the problems of section XIX, in particular, was the first widely circulated medieval attempt to interpret and assimilate rediscovered knowledge about music in the ancient world, and his explanations consequently became a touchstone for later generations of music scholars who referred to the \textit{Problems}, including Franchino Gaffurio, Girolamo Mei, and Francisco de Salinas. Most recently, Claude Palisca has called attention to Pietro’s anticipation of Renaissance modes of scholarship (1985), and David E. Cohen has demonstrated that Pietro’s idiosyncratic interpretations of some of the problems concerning music played an important role in the development of the music-theoretical concept of harmony (2012). Yet despite the inherent interest of Pietro’s commentary as a site of cross-cultural engagement and its historical significance to later music theorizing, his commentary on section XIX, on music, has been inaccesible to scholars, for until recently it had not been published in any form since the sixteenth century’s sadly unreliable print editions. Even that recent publication (Meyer 2022), however, does not provide a proper critical edition of the text, as it is based on a sixteenth-century print edition, only considers half the extant manuscripts, and fails to distinguish between Pietro's first version of his commentary and his later revision (see section 2.1). The present critical edition rectifies that situation, establishing a base text informed by a stemmatic hypothesis of the complete manuscript tradition. Furthermore, this edition is openly accessible, and it presents a semantically encoded version of the text, allowing readers to select the types of variants they wish to consider. As a result, it provides a better informed version of Pietro's commentary and makes it more widely available than ever before.
+Into the breach strode Pietro d’Abano (c. 1257–1316), who was a professor of medicine with wide-ranging interests and expertise. Pietro composed his \textit{Expositio}, the first commentary on the entirety of the \textit{Problems} in the first decade of the fourteenth century, and there are more than twenty extant manuscripts of it, as well as multiple early print editions. His commentary also attracted the attention of his contemporaries, most notably Jean de Jandun (c. 1285–1328), a philosopher and theologian of considerable importance based at the University of Paris, who produced a revision of the entire \textit{Expositio}. Moreover, Pietro’s commentary on the problems of section XIX, in particular, was the first widely circulated medieval attempt to interpret and assimilate rediscovered knowledge about music in the ancient world, and his explanations consequently became a touchstone for later generations of music scholars who referred to the \textit{Problems}, including Franchino Gaffurio, Girolamo Mei, and Francisco de Salinas. Most recently, Claude Palisca has called attention to Pietro’s anticipation of Renaissance modes of scholarship (1985), and David E. Cohen has demonstrated that Pietro’s idiosyncratic interpretations of some of the problems concerning music played an important role in the development of the music-theoretical concept of harmony (2012). Yet despite the inherent interest of Pietro’s commentary as a site of cross-cultural engagement and its historical significance to later music theorizing, his commentary on section XIX, on music, has been inaccessible to scholars, for until recently it had not been published in any form since the sixteenth century’s sadly unreliable print editions. Even that recent publication (Meyer 2022), however, does not provide a proper critical edition of the text, as it is based on a sixteenth-century print edition, only considers half the extant manuscripts, and fails to distinguish between Pietro's first version of his commentary and his later revision (see section 2.1). The present critical edition rectifies that situation, establishing a base text informed by a stemmatic hypothesis of the complete manuscript tradition. Furthermore, this edition is openly accessible, and it presents a semantically encoded version of the text, allowing readers to select the types of variants they wish to consider. As a result, it provides a better informed version of Pietro's commentary and makes it more widely available than ever before.
 \subsubsection{1.2 Structure}
 \par
 Each of the pseudo-Aristotelian problems follows a set structure. First, a question is posed, such as at the start the first problem: ``Why do those who are suffering and those who are rejoicing have pipes played for them?'' (\textit{Propter quid dolentes et gaudentes fistulantur}?) Then one or more possible reasons are proposed, often accompanied by additional explanation. For instance, the first problem continues: ``Is it so that the former mourn less, but the latter rejoice more?'' (\textit{Aut vt hii quidem minus tristentur, alii autem vt magis gaudeant}?) In his commentary Pietro follows a similar pattern. He first paraphrases the opening question, and then addresses the remainder of the problem, dividing it into between one and seven parts, depending on its length. He signals the beginning of each successive division of the text with its first word or two, followed by a partial or complete paraphrase. (These paraphrases are enclosed by targeted "gloss" elements in the xml format, and they are italicized in the rendered pdf.) Given the unidiomatic Latin of Bartholomew of Messina’s translation and the common occurrence of obscure vocabulary, Pietro’s paraphrases provide an important means of ingress to the text on their own. He often supplements these paraphrases with additional explanatory material, both his own and by authors from antiquity. In the latter case, he often provides cross-references to other pertinent passages within the \textit{Problems} (from both section XIX and other sections), and he also inserts abbreviated quotations, most often from the Aristotelian and medical corpora.
@@ -776,7 +779,7 @@ The textual tradition of Bartholomew of Messina’s Latin translation of the pse
 To constitute the text and the critical apparatus I have accounted for all the manuscripts containing Pietro’s first and second versions of the commentary (except for manuscript M\textsuperscript{b}, since it is a copy of M\textsuperscript{a}). The xml version of the edition includes all those readings, while this pdf version trims variants that are only found in one manuscript or have been deemed immaterial to the text's reconstruction. In this pdf version of the edition I have also included best readings from Jean of Jandun’s recension, usually based on manuscript V\textsuperscript{o}. Furthermore, readings from the two incunable editions are mentioned when they agree on a unique reading of interest or with variants found in other manuscripts.\par
 In the edition’s text I aim to reconstruct Pietro’s second version of the commentary, and consequently readings shared by manuscript P\textsuperscript{x} and family λ are preferred. Where their readings diverge, if either P\textsuperscript{x} or λ agree with multiple manuscripts from Pietro’s first version, I prefer that shared text. Where the surviving manuscripts of Pietro’s second version are corrupt, manuscript P\textsuperscript{y} (and N\textsuperscript{u}, when not lacunate) is generally preferred.\par
 With respect to orthography, I have largely preserved medieval spellings, rather than changing them to classical Latin standards. (The most prominent exceptions are that words ending with -cio, -cia, and the like have been changed to –tia, etc., and the –ij and –ijs endings to –ii and –iis.) The xml version of this edition records most spelling variances in the apparatus, but they have been silently normalized in this pdf version unless they are of particular interest. All contractions have been silently expanded, including the ampersand and \textbackslash Tironian \textit{et}, and tall s has been changed to round s. I have ignored all changes of hand and/or ink for the marginal numbering of the problems.\par
-Punctuation varies widely among the manuscripts. I initially adopted manuscript P\textsuperscript{x}’s punctuation, which is relatively sparse. Thereafter I added further punctuation in keeping with modern practice, especially where it was lacking at points of significant syntactic divisions. I followed a similar practice with paragraph divisions, basing them on those found in P\textsuperscript{x}, and adding others at moments clearly signaled by the text (such as new thoughts introduced by \textit{nosce quod, notandum,} and the like). With regard to numbers, the manuscripts use a hodgepodge of written-out words, Arabic, and Roman numerals. To present a representatively medieval version of the text I have followed the apporach used by the scribe of P\textsuperscript{x}.\par
+Punctuation varies widely among the manuscripts. I initially adopted manuscript P\textsuperscript{x}’s punctuation, which is relatively sparse. Thereafter I added further punctuation in keeping with modern practice, especially where it was lacking at points of significant syntactic divisions. I followed a similar practice with paragraph divisions, basing them on those found in P\textsuperscript{x}, and adding others at moments clearly signaled by the text (such as new thoughts introduced by \textit{nosce quod, notandum,} and the like). With regard to numbers, the manuscripts use a hodgepodge of written-out words, Arabic, and Roman numerals. To present a representatively medieval version of the text I have followed the approach used by the scribe of P\textsuperscript{x}.\par
 Relatedly, it should be noted that in section XIX manuscript V\textsuperscript{a} and the incunable editions mark the beginnings of new paragraphs with \textit{deinde}. In Coucke's edition of section IV, however, he shows while that the manuscripts of Pietro’s second version (excepting V\textsuperscript{b}, which Coucke assigns to the second version) use \textit{deinde} in that way, the remaining manuscripts do not. The change of practice in V\textsuperscript{a} is easily explained: a new copyist takes over at f. 47r, at which point that use of \textit{deinde} to mark new paragraphs begins. In the manuscripts from Pietro’s second version, by contrast, that use of \textit{deinde} gradually fades away, and seems largely to disappear after problem 15 of section 11.
 \subsection{V. Bibliography}
 
@@ -816,13 +819,13 @@ Relatedly, it should be noted that in section XIX manuscript V\textsuperscript{a
 \fancyhead[CE]{Expositio problematum Aristotelis}
 \fancyhead[CO]{Particula XIX: De harmonia}
 
-\subsubsection{Primum problema}\label{part1}
+\subsection{Primum problema}\label{part1}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID DOLENTES ET DELECTANTES FISTULANTUR? \textsuperscript{2}AUT VT HII QUIDEM MINUS TRISTENTUR? ALII AUTEM MAGIS GAUDEANT}{\lemma{PROPTER \dots\ GAUDEANT}\Cfootnote{PROPTER QUID DOLENTES \textit{βE\textsuperscript{a}V\textsuperscript{m}V\textsuperscript{o}V\textsuperscript{z}} | PROPTER QUID DOLENTES ET GAUDENTES \textit{V\textsuperscript{b}V\textsuperscript{o}}}}.}
 \pend
 
 \pstart
-\textbf{2} Determinatis problematibus circa \edtext{mathematicam}{\Cfootnote{mathematica \textit{M\textsuperscript{a}N\textsuperscript{u}V\textsuperscript{m}}}} et orationes, determinat nunc problemata circa armonicam vel musicam, eo quod in ipsa est quidam amor sermonis, vt in priori particula. Et primitus ad huius \edtext{maiorem}{\Cfootnote{\textit{om}. \textit{π}}} expositionem premittantur quedam communia, \edtext{sicut}{\Cfootnote{scilicet \textit{πV\textsuperscript{b}}}} quid est musica et que ipsius? \edtext{Que}{\Cfootnote{\textit{om}. \textit{π}}} secundum boecium \textit{musice} \edtext{5°}{\Cfootnote{4° \textit{κ} | 1° \textit{π}}} \edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Boethius \textit{De inst. mus.} V.2 ((Friedlein p. 352, ll. 4–5))}}``\edtext{est armonica}{\Cfootnote{armonica est \textit{V\textsuperscript{o}} | est armonice \textit{γP\textsuperscript{x}}}} facultas differentias \edtext{acutorum}{\Cfootnote{acutorum sonorum \textit{π}}} et grauium sonorum \edtext{sensu et}{\Cfootnote{sensu ac \textit{γE\textsuperscript{a}N\textsuperscript{u}} | \textit{om}. \textit{π}}} ratione perpendens.'' Secundum vero ysidorum in \edtext{\textit{ethymologiis}}{\Cfootnote{ethicis \textit{E\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{m}}}} \edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Isidore of Seville \textit{Etym.} III.15.1}}``est peritia modulationis, sono cantuque consistens.''
+\textbf{2} Determinatis problematibus circa \edtext{mathematicam}{\Cfootnote{mathematica \textit{M\textsuperscript{a}N\textsuperscript{u}V\textsuperscript{m}}}} et orationes, determinat nunc problemata circa armonicam vel musicam, eo quod in ipsa est quidam amor sermonis, vt in priori particula. Et primitus ad huius \edtext{maiorem}{\Cfootnote{\textit{om}. \textit{π}}} expositionem premittantur quedam communia, \edtext{sicut}{\Cfootnote{scilicet \textit{πV\textsuperscript{b}}}} quid est musica et que ipsius? \edtext{Que}{\Cfootnote{\textit{om}. \textit{π}}} secundum boecium \textit{musice} \edtext{5°}{\Cfootnote{4° \textit{κ} | 1° \textit{π}}} \edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Boethius \textit{De inst. mus.} V.2 ((Friedlein p. 352, ll. 4–5))}} ``\edtext{est armonica}{\Cfootnote{armonica est \textit{V\textsuperscript{o}} | est armonice \textit{γP\textsuperscript{x}}}} facultas differentias \edtext{acutorum}{\Cfootnote{acutorum sonorum \textit{π}}} et grauium sonorum \edtext{sensu et}{\Cfootnote{sensu ac \textit{γE\textsuperscript{a}N\textsuperscript{u}} | \textit{om}. \textit{π}}} ratione perpendens.'' Secundum vero ysidorum in \edtext{\textit{ethymologiis}}{\Cfootnote{ethicis \textit{E\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{m}}}} \edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Isidore of Seville \textit{Etym.} III.15.1}} ``est peritia modulationis, sono cantuque consistens.''
 \pend
 
 \pstart
@@ -869,7 +872,17 @@ Relatedly, it should be noted that in section XIX manuscript V\textsuperscript{a
 \textbf{13} Nosce quod \edtext{id}{\Cfootnote{illud \textit{π}}} potest contingere quia idem potest esse causa diuersorum aut \edtext{ratione}{\Cfootnote{ratione diuersorum aut ratione \textit{πE\textsuperscript{a}}}} dispositionis susceptiui; vel quia diuersa \edtext{egeant}{\Cfootnote{agat \textit{π}}} \edtext{eadem}{\Cfootnote{eodem \textit{λN\textsuperscript{u}V\textsuperscript{b}}}} \edtext{vel}{\Cfootnote{\textit{om}. \textit{πM\textsuperscript{a}}}} ratione eius quod per se \edtext{aut}{\Cfootnote{an \textit{P\textsuperscript{x}V\textsuperscript{m}V\textsuperscript{z}} | et \textit{V\textsuperscript{o}}}} per accidens extat, ``vt nauta per sui presentiam \edtext{causa}{\Cfootnote{causa est \textit{γ}}} salutis nauis, eius vero absentia submersionis''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Arist. \textit{Phys.} II.3, 195a.13}} 2° \textit{physicorum}.
 \pend
 
-\subsubsection{Secundum problema}\label{part2}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection{Secundum problema}\label{part2}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID LONGIUS IDEM EADEM VOCE AUDITUR CUM ALIIS CANTANS ET CLAMANS QUAM SOLUS? \textsuperscript{2}AUT QUIA COADUNATE ALIQUID FACERE, AUT REPRIMERE AUT IMPELLERE, NON TANTA PROPE SUNT QUANTUS NUMERUS. \textsuperscript{3}SED SICUT LINEA BIPEDALIS NON DUPLUM SED QUADRUPLUM ALIQUID SCRIBIT, ITA COMPOSITA PLUS POSSUNT, AUT SECUNDUM NUMERUM AUT QUANDO FUERINT DIUERSA. \textsuperscript{4}COADUNATIS IGITUR EXISTENTIBUS VNA FIT VOCIS FORTITUDO ET SIMUL IMPELLIT AEREM. QUARE MULTIPLICITER PREIT, \textsuperscript{5}ETENIM EX OMNIBUS VOX VNIUSCUIUSQUE MULTIPLEX}{\lemma{PROPTER \dots\ MULTIPLEX}\Cfootnote{\textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}} | PROPTER QUID LONGIUS \textit{V\textsuperscript{m}V\textsuperscript{o}}}}.}
 \pend
@@ -890,7 +903,17 @@ Relatedly, it should be noted that in section XIX manuscript V\textsuperscript{a
 \textbf{5} \edtext{\textit{COADUNATIS.}}{\Cfootnote{\textit{om}. \textit{π} | Deinde. COADUNATIS. \textit{V\textsuperscript{a}mv}}} Concludit tertio \edtext{quod quando}{\Cfootnote{quod \textit{π}}} \textit{aliqua plura numero vel specie aut qualitercunque diuisa \edtext{coniungantur}{\Cfootnote{coniunguntur \textit{V\textsuperscript{o}}}} ad inuicem virtute, vtpote in voce vna ex omnibus \edtext{contingit}{\Cfootnote{contingit simul \textit{V\textsuperscript{o}}}} \edtext{vocum}{\Cfootnote{vocis \textit{π}}} fortitudo simul impellens \edtext{aerem}{\Cfootnote{aera \textit{π}}}. Et ideo \edtext{valde amplius}{\Cfootnote{amplius valde \textit{P\textsuperscript{x}V\textsuperscript{z}} | amplius \textit{M\textsuperscript{a}V\textsuperscript{m}}}} potest preire \edtext{et}{\Cfootnote{et in \textit{απ}}} longinquius audiri quam vox vnius} quod ostenditur. Nam ex voce uniuscuiusque vox quedam vna constituitur multiplicium habens potentiam, \edtext{ceu}{\Cfootnote{seu \textit{E\textsuperscript{a}V\textsuperscript{o}}}} tractus optime una et diuisim \edtext{denotat nauis}{\Cfootnote{ostendit nauis \textit{π}}}. Et hoc quidem problema partim pertinet \edtext{.xi\textsuperscript{e}.}{\Cfootnote{\textit{om}. \textit{V\textsuperscript{o}}}} vt \edtext{visum}{\Cfootnote{visum est \textit{λV\textsuperscript{a}V\textsuperscript{o}}}} particule partimque isti.
 \pend
 
-\subsubsection{Tertium problema}\label{part3}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection{Tertium problema}\label{part3}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID PER YPATEM CANTANTES MAXIME RUMPIMUS NICHILOMINUS QUAM NITEM ET SUPERIORA, CUM DISTANTIA PLURI? \textsuperscript{2}AUT QUIA DIFFICILLIME HANC CANTANT, ET IPSA EST PRINCIPIUM? \textsuperscript{3}ID AUTEM DIFFICILE PROPTER ELEUATIONEM ET DEPRESSIONEM VOCIS. IN HIIS AUTEM LABOR, LABORANS AUTEM MAGIS CORRUMPITUR}{\lemma{PROPTER \dots\ CORRUMPITUR}\Cfootnote{\textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}} | PROPTER QUID PARYPATEM \textit{V\textsuperscript{o}}}}.}
 \pend
@@ -973,7 +996,17 @@ Similis autem per omnia \edtext{figuratio extat}{\Cfootnote{est figuratio \texti
 \textbf{7} \edtext{Circa predicta dubitatur}{\Cfootnote{Dubitatur circa dicta \textit{π}}} quoniam videmus \edtext{plura}{\Cfootnote{plurima \textit{αV\textsuperscript{o}}}} instrumenta habentia multo plures cordas \edtext{quam}{\Cfootnote{que \textit{γE\textsuperscript{a}N\textsuperscript{u}V\textsuperscript{m}}}} pretacte. Rota enim habet .44. vt .22\textsuperscript{as}. in vno latere et in reliquo \edtext{totidem}{\Cfootnote{\textit{om}. \textit{π}}} medius vero canon .64. et de \edtext{aliis}{\Cfootnote{reliquis \textit{π}}} \edtext{similiter}{\Cfootnote{consimiliter \textit{απ}}}. Dicendum quod ille plures reducuntur ad minores prius institutas. \edtext{Quatuor}{\Cfootnote{Quatuor enim \textit{π}}} superadditarum sumuntur pro vna \edtext{priorum}{\Cfootnote{priorum et \textit{E\textsuperscript{a}V\textsuperscript{o}}}}, ita vt \edtext{.xxviii.}{\Cfootnote{24 \textit{π}}} cadant in .7. notiores, \edtext{et}{\Cfootnote{\textit{om}. \textit{γ}}} .44. \edtext{redeant}{\Cfootnote{redeunt \textit{V\textsuperscript{o}}}} in \edtext{xi.}{\Cfootnote{.xii. \textit{π}}} et 64. in 16. Et similiter de aliis taliter variatis. Sicut \edtext{namque}{\Cfootnote{enim \textit{π}}} ``quatuor positi sunt gradus medicinarum''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Avic. \textit{Can. med.} I.2.2.15}} prius in tegni, \edtext{deinde quoque}{\Cfootnote{deindeque \textit{βγ} | deinde \textit{E\textsuperscript{a}π}}} quinto simplicium \edtext{vnusquisque}{\Cfootnote{\textit{om}. \textit{π}}} diuisus \edtext{est}{\Cfootnote{est quilibet \textit{V\textsuperscript{o}}}} in tres mansiones, vt agnoscatur quantum \edtext{possibile}{\Cfootnote{possibile est \textit{π}}} particularius complexio \edtext{medicine}{\Cfootnote{medie \textit{βE\textsuperscript{a}}}}. Ita posteriores musici non solum cordis fuere contenti quibus essentialiores et \edtext{integraliores}{\Cfootnote{irregulariores \textit{γ}}} denotarentur proportiones. Verum vt \edtext{sonum}{\Cfootnote{solum \textit{V\textsuperscript{a}mv}}} amplius melodiosum \edtext{construerent}{\Cfootnote{constituerent \textit{γπE\textsuperscript{a}}}} inter priores principaliores alias \edtext{adiunxere}{\Cfootnote{adiuxerunt \textit{π}}}, ne inter eas magna permanerent \edtext{interstitia}{\Cfootnote{in tristitia \textit{G\textsuperscript{u}P\textsuperscript{q}mv}}}.
 \pend
 
-\subsubsection{Quartum problema}\label{part4}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection{Quartum problema}\label{part4}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID SECUNDUM HANC DIFFICULTER YPATEN, FACILE ETIAM DIUISIO ALTERIUS? \textsuperscript{2}AUT QUIA CUM REMISSIONE YPATE ET SIMUL POST DIMISSIONEM LEUE SURSUM PROICERE? \textsuperscript{3}PROPTER HOC AUTEM VIDETUR ET QUE DICUNTUR AD VNAM AD HANC QUAM CIRCA NITEM. \textsuperscript{4}OPORTET ENIM CUM DIMISSIONE ET REMISSIONE VALDE PROPRIA CONSUETUDINI AD VOLUNTATEM. \textsuperscript{5}HUIUS AUTEM VTIQUE CONSONANTIA QUEDAM CAUSA}{\lemma{PROPTER \dots\ CAUSA}\Cfootnote{\textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}} | PROPTER QUID SECUNDUM HANC \textit{V\textsuperscript{o}}}}.}
 \pend
@@ -994,7 +1027,17 @@ Similis autem per omnia \edtext{figuratio extat}{\Cfootnote{est figuratio \texti
 \textbf{5} \edtext{\textit{HUIUS}}{\Cfootnote{HUIUSMODI \textit{M\textsuperscript{a}V\textsuperscript{b}} | Deinde. HUIUS \textit{V\textsuperscript{a}mv}}} \textit{AUTEM.} Subdit tertio quod \textit{\edtext{etiam}{\Cfootnote{illud \textit{V\textsuperscript{o}}}} consonantia est \edtext{aliqua}{\Cfootnote{alia \textit{λE\textsuperscript{a}}}} causa \edtext{eius}{\Cfootnote{huius \textit{π}}},} quod \edtext{per ypatem}{\Cfootnote{parypatem \textit{κP\textsuperscript{u}V\textsuperscript{o}}}} cantus sepe non reputatur difficilius nam consonantia fessa \edtext{restaurantur}{\Cfootnote{restauratur \textit{γM\textsuperscript{a}}}} \edtext{vt visum et}{\Cfootnote{et \textit{π} | vt visum est \textit{γ} | vt visum est et \textit{E\textsuperscript{a}V\textsuperscript{m}V\textsuperscript{z}}}} \edtext{vigorantur}{\Cfootnote{vigoratur \textit{M\textsuperscript{a}V\textsuperscript{b}}}} debilitata.\edtext{ Εt ideo quesitum ``quare coram infirmis'' secundum alexander ``fistule ac tympana.''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Ps.-Alex. Aph. \textit{Prob.} I.78 ((Vat. reg.lat. 747, f. 75v))}}}{\lemma{Et ideo \dots\ tympana}\Cfootnote{\textit{om}. \textit{π}}} Sic igitur licet de se difficulter cantetur ypate per accidens, tamen non in tantum, puta \edtext{vel}{\Cfootnote{\textit{om}. \textit{π}}} ratione consuetudinis interuenientis aut \edtext{delectabilis}{\Cfootnote{delectationis \textit{π}}} ipsius armonie, cum fuerit \edtext{amicius}{\Cfootnote{ac amicius \textit{P\textsuperscript{x}} | animi eius \textit{γE\textsuperscript{a}} | cum eius \textit{M\textsuperscript{a}N\textsuperscript{u}V\textsuperscript{o}} | eius \textit{P\textsuperscript{y}}}} \edtext{adiecta}{\Cfootnote{adiuncta \textit{πE\textsuperscript{a}}}} opposita, et \edtext{quod}{\Cfootnote{quia \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{o}}}} distinctio maxime apparet in eo qui secundum ipsam \edtext{cantu}{\Cfootnote{causatur \textit{π}}}.
 \pend
 
-\subsubsection{Quintum problema}\label{part5}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection{Quintum problema}\label{part5}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID DELECTABILITER AUDIUNT CANTANTES QUOSCUMQUE, VTIQUE PRESCIENTES ADIPISCUNTUR CANTUS, QUAM QUOS NESCIUNT? \textsuperscript{2}UTRUM QUIA MAGIS MANIFESTUS ADIPISCENS SICUT INTENTIONEM QUANDO COGNOSCUNT QUOD CANITUR? HOC AUTEM DELECTABILE CONSIDERARE, QUIA DELECTABILE DISCERE. HUIUS AUTEM CAUSA HOC QUIDEM ACCIPERE SCIENTIAM. HOC VERO VTI ET RECOGNOSCERE IPSAM. \textsuperscript{3}ADHUC AUTEM ET CONSUETUM DELECTABILE MAGIS INCONSUETO}{\lemma{PROPTER \dots\ INCONSUETO}\Cfootnote{\textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}} | PROPTER QUID DELECTABILITER \textit{V\textsuperscript{m}V\textsuperscript{o}}}}.}
 \pend
@@ -1004,14 +1047,24 @@ Similis autem per omnia \edtext{figuratio extat}{\Cfootnote{est figuratio \texti
 \pend
 
 \pstart
-\textbf{3} \edtext{\textit{UTRUM.}}{\Cfootnote{Deinde. VTRUM. \textit{V\textsuperscript{a}mv}}} Soluit et prius \edtext{probabilius magis}{\Cfootnote{magis probabiliter \textit{π}}} dicens \edtext{illud}{\Cfootnote{id \textit{βλV\textsuperscript{a}} | ideo \textit{V\textsuperscript{o}}}} esse \textit{quoniam quando homo aliquam prescientiam habuerit circa cantum \edtext{quem audiuit}{\Cfootnote{quam audit \textit{V\textsuperscript{o}}}}, adipiscitur \edtext{et attingit }{\Cfootnote{\textit{om}. \textit{π}}} ei quod est sibi magis manifestum.} Et hoc declarat quemadmodum quando aliquis habuerit intentionem gesti quod cantatur et hystoriam eius quodammodo \edtext{sciuit}{\Cfootnote{sciuerit \textit{βγ} | presciuit \textit{π}}}, tunc \textit{\edtext{hoc}{\Cfootnote{huic \textit{β} | hunc \textit{λ}}} intendere est delectabile precognoscentibus, eo quod iocundum est discere aliquid cuius non perfecte habetur cognitio}, quod \edtext{fit}{\Cfootnote{sit \textit{E\textsuperscript{a}P\textsuperscript{x}}}} iterum audiendo vel considerare, vt \edtext{continetur}{\Cfootnote{continetur in \textit{π}}} .40., ubi \edtext{id}{\Cfootnote{hoc \textit{βγπ}}} repetitur. Que duo interueniunt cum quis habet cognitionem gesti aliquam, nam ipse \edtext{discit}{\Cfootnote{dixit \textit{V\textsuperscript{b}V\textsuperscript{m}}}} in eo quod accipit scientiam cantus illius, eo quod gestum illud licet aliqualiter \edtext{esset}{\Cfootnote{est \textit{P\textsuperscript{x}V\textsuperscript{a}}}} scitum ab eo. Non tamen \edtext{per modum melodie}{\Cfootnote{per motionem die \textit{P\textsuperscript{x}} | promotionem die \textit{M\textsuperscript{a}V\textsuperscript{m}}}} vtitur autem et considerat \edtext{in}{\Cfootnote{\textit{om}. \textit{π}}} eo quod audit gestum cuius \edtext{habuit}{\Cfootnote{habet \textit{πP\textsuperscript{x}}}} cognitionem. Et ideo videmus homines vt plurimum \edtext{cum volunt amplius}{\Cfootnote{quando volunt in \textit{π}}} \edtext{cantu}{\Cfootnote{cantum \textit{E\textsuperscript{a}P\textsuperscript{x}}}} delectari facere sibi ystoriam gesti enarrare, tunc enim dupliciter \edtext{delectantur}{\Cfootnote{delectatur \textit{P\textsuperscript{x}V\textsuperscript{m}} | delectantur et melodia et ystoria et siquidem cum habuerint \textit{α} | delectantur et melodia et ystoria et siquidem cum hoc habuerit \textit{π}.}} \edtext{Triplex enim tunc dilectatio concurrit}{\Cfootnote{\textit{transp. post amplius delectantur} \texit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{o}}}} consuetudinem audiendi \edtext{predictum cantum}{\Cfootnote{cantum predictum \textit{π}}} aliquando in amplius \edtext{delectantur}{\Cfootnote{delectatur \textit{P\textsuperscript{x}V\textsuperscript{o}}}}.
+\textbf{3} \edtext{\textit{UTRUM.}}{\Cfootnote{Deinde. VTRUM. \textit{V\textsuperscript{a}mv}}} Soluit et prius \edtext{probabilius magis}{\Cfootnote{magis probabiliter \textit{π}}} dicens \edtext{illud}{\Cfootnote{id \textit{βλV\textsuperscript{a}} | ideo \textit{V\textsuperscript{o}}}} esse \textit{quoniam quando homo aliquam prescientiam habuerit circa cantum \edtext{quem audiuit}{\Cfootnote{quam audit \textit{V\textsuperscript{o}}}}, adipiscitur \edtext{et attingit }{\Cfootnote{\textit{om}. \textit{π}}} ei quod est sibi magis manifestum.} Et hoc declarat quemadmodum quando aliquis habuerit intentionem gesti quod cantatur et hystoriam eius quodammodo \edtext{sciuit}{\Cfootnote{sciuerit \textit{βγ} | presciuit \textit{π}}}, tunc \textit{\edtext{hoc}{\Cfootnote{huic \textit{β} | hunc \textit{λ}}} intendere est delectabile precognoscentibus, eo quod iocundum est discere aliquid cuius non perfecte habetur cognitio}, quod \edtext{fit}{\Cfootnote{sit \textit{E\textsuperscript{a}P\textsuperscript{x}}}} iterum audiendo vel considerare, vt \edtext{continetur}{\Cfootnote{continetur in \textit{π}}} .40., ubi \edtext{id}{\Cfootnote{hoc \textit{βγπ}}} repetitur. Que duo interueniunt cum quis habet cognitionem gesti aliquam, nam ipse \edtext{discit}{\Cfootnote{dixit \textit{V\textsuperscript{b}V\textsuperscript{m}}}} in eo quod accipit scientiam cantus illius, eo quod gestum illud licet aliqualiter \edtext{esset}{\Cfootnote{est \textit{P\textsuperscript{x}V\textsuperscript{a}}}} scitum ab eo. Non tamen \edtext{per modum melodie}{\Cfootnote{per motionem die \textit{P\textsuperscript{x}} | promotionem die \textit{M\textsuperscript{a}V\textsuperscript{m}}}} vtitur autem et considerat \edtext{in}{\Cfootnote{\textit{om}. \textit{π}}} eo quod audit gestum cuius \edtext{habuit}{\Cfootnote{habet \textit{πP\textsuperscript{x}}}} cognitionem. Et ideo videmus homines vt plurimum \edtext{cum volunt amplius}{\Cfootnote{quando volunt in \textit{π}}} \edtext{cantu}{\Cfootnote{cantum \textit{E\textsuperscript{a}P\textsuperscript{x}}}} delectari facere sibi ystoriam gesti enarrare, tunc enim dupliciter \edtext{delectantur}{\Cfootnote{delectatur \textit{P\textsuperscript{x}V\textsuperscript{m}} | delectantur et melodia et ystoria et siquidem cum habuerint \textit{α} | delectantur et melodia et ystoria et siquidem cum hoc habuerit \textit{π}.}} \edtext{Triplex enim tunc dilectatio concurrit}{\Cfootnote{\textit{transp. post amplius delectantur} \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{o}}}} consuetudinem audiendi \edtext{predictum cantum}{\Cfootnote{cantum predictum \textit{π}}} aliquando in amplius \edtext{delectantur}{\Cfootnote{delectatur \textit{P\textsuperscript{x}V\textsuperscript{o}}}}.
 \pend
 
 \pstart
 \textbf{4} \edtext{Vnde}{\Cfootnote{Deinde. Vnde \textit{V\textsuperscript{a}mv}}} secundo confirmat causam prefatam, \textit{ADHUC AUTEM,} \edtext{dicens}{\Cfootnote{dicit \textit{κ}}} quod amplius ad hoc facit \edtext{si quod}{\Cfootnote{sicut \textit{π}}} \edtext{auditur fuerit consuetum,}{\Cfootnote{auditur fuerit \textit{κE\textsuperscript{a}} | audiui \textit{π}}} \edtext{quia}{\Cfootnote{\textit{om}. \textit{κπE\textsuperscript{a}}}} \textit{consuetum magis delectat quam oppositum,} cum sit \edtext{facta}{\Cfootnote{factum \textit{κ}}} natura \edtext{quedam}{\Cfootnote{quadam \textit{E\textsuperscript{a}V\textsuperscript{m}V\textsuperscript{z}}}} et \edtext{nobis}{\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}} \edtext{conuenientia}{\Cfootnote{conuenientiam \textit{E\textsuperscript{a}V\textsuperscript{m}}}}. Quod autem ``\edtext{et}{\Cfootnote{et quomodo \textit{απ}}} consueta \edtext{delectent}{\Cfootnote{delectant \textit{βπ}}},''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Ps.-Arist. \textit{Prob.} 18.6, 917a.6–17}} ostensum \edtext{est}{\Cfootnote{est in \textit{V\textsuperscript{o}}}} sexto 18\textsuperscript{e}, et per oppositum quid agant opposita, et ideo audientes qui \edtext{vnius}{\Cfootnote{videntur \textit{V\textsuperscript{o}}}} \edtext{lingue sunt}{\Cfootnote{lingue \textit{βπE\textsuperscript{a}}}} cantum alterius minime nisi consueti delectantur, cum neque ystoriam neque \edtext{modum}{\Cfootnote{\textit{om}. \textit{V\textsuperscript{o}}}} \edtext{cantandi precognouerint}{\Cfootnote{cantandi precognouerit \textit{V\textsuperscript{m}} | precantandi cognouerit \textit{V\textsuperscript{b}} | precanendi cognouerint \textit{β}}}. In opposito \edtext{autem secus}{\Cfootnote{autem cetus \textit{V\textsuperscript{o}}}}, \edtext{ceu}{\Cfootnote{seu \textit{E\textsuperscript{a}V\textsuperscript{o}} | sicut \textit{G\textsuperscript{u}P\textsuperscript{p}P\textsuperscript{q}}}} michi contingit \edtext{per omne}{\Cfootnote{parisius \textit{π}}} cum ad gallos me transtuli. Vt autem id repetitum 40 \edtext{exponatur}{\Cfootnote{exponitur \textit{γ}}} omne, \hyperref[Ar]{aristoteles} talem addit causam, dicens ideo esse quoniam ille qui cantantem compatitur ipsi et ab ipso \edtext{afficitur}{\Cfootnote{efficitur \textit{V\textsuperscript{a}V\textsuperscript{z}}}}, propter voces quas exprimit que \edtext{audienti}{\Cfootnote{auditui \textit{πE\textsuperscript{a}}}} videntur denotare gaudium, et ideo consonat sibi \edtext{id quod}{\Cfootnote{illud quod \textit{γP\textsuperscript{y}} | quod \textit{π}}} ille cantat. Et quadam naturali inclinatione \edtext{ad delectationem mouetur}{\Cfootnote{mouetur ad delectationem \textit{V\textsuperscript{o}}}} in \edtext{seipso ceu}{\Cfootnote{se seu \textit{V\textsuperscript{o}}}} ille mouetur. Quando enim natura vnius percipit naturam alterius congaudere aut tristari vel se purgare, natura etiam illius \edtext{ad hoc mouetur}{\Cfootnote{mouetur ad hoc \textit{γE\textsuperscript{a}} | mouetur ad se hoc \textit{V\textsuperscript{o}}}} agendum, vt declaratum \edtext{est}{\Cfootnote{\textit{om}. \textit{βE\textsuperscript{a}}}} septima. Quare subdit in eius \edtext{verificationem sermonis}{\Cfootnote{verificatione sermonis \textit{γ}}} quod omnis cantans consonat sibi et alium reddit consonum et \edtext{affectum}{\Cfootnote{affectantem \textit{V\textsuperscript{b}mv}}}, dummodo illum cantum non exprimat propter necessitatem, vt \edtext{sperans}{\Cfootnote{superans \textit{P\textsuperscript{x}V\textsuperscript{m}V\textsuperscript{z}}}} \edtext{ita}{\Cfootnote{inde \textit{π}}} \edtext{victum}{\Cfootnote{vitum \textit{E\textsuperscript{a}N\textsuperscript{u}}}} lucrari \edtext{ceu}{\Cfootnote{vt \textit{π}}} ystriones aut metu pene vel tristitia, et \edtext{huius}{\Cfootnote{huiusmodi \textit{P\textsuperscript{y}V\textsuperscript{b}}}} propter que talia \edtext{cantantes}{\Cfootnote{\textit{om}. \textit{π}}} non \edtext{magne}{\Cfootnote{magis \textit{πV\textsuperscript{b}}}} \edtext{consonant}{\Cfootnote{consonans \textit{V\textsuperscript{m}V\textsuperscript{z}}}} aliis et maxime extraneis ab illo cantu \edtext{et sibimet ipsis}{\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}} minime.
 \pend
 
-\subsubsection{Sextum problema}\label{part6}
+% \pstart
+% \vspace{1em}
+% \begin{center}
+%     {\Large \ding{167}}
+% \end{center}
+% \pend
+% \vfill
+
+% \newpage
+
+\subsection{Sextum problema}\label{part6}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID PAR YPATE SECUNDUM RATIONEM IN CANTIBUS TRAGICUM. \textsuperscript{2}AUT PROPTER INEQUALITATEM? PASSIUUM ENIM INEQUALE, ET IN MAGNITUDINE FORTUNE AUT TRISTITIE. EQUALE AUTEM MINUS PLORABILE VEL VLULABILE}{\lemma{PROPTER \dots\ VLULABILE}\Cfootnote{PROPTER QUID PARYPATE \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βλE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1030,7 +1083,17 @@ Similis autem per omnia \edtext{figuratio extat}{\Cfootnote{est figuratio \texti
 \textbf{4} Nosce quod ``pondus est illud in \edtext{quo}{\Cfootnote{quod \textit{V\textsuperscript{o}}}} proportiones'' secundum auicenna ``\edtext{cadunt musice}{\Cfootnote{musice cadunt \textit{π}}}.''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Avic. \textit{Can. med.} I.2.3 ((p. 141 of 1608 ed.))}} Hoc autem pondus \edtext{rebus expedit}{\Cfootnote{expedit conformari rebus \textit{π}}} circa quas extat \edtext{configurari}{\Cfootnote{\textit{om}. \textit{π}}}, cum eo exprimantur passiones que sunt in anima. ``Voces enim sunt note passionum que sunt in \edtext{ea}{\Cfootnote{anima \textit{G\textsuperscript{u}P\textsuperscript{p}P\textsuperscript{u}}}} illeque rerum''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Arist. \textit{Peri herm.} I.1, 16a.5–6}} primo \textit{peryarmenias.} Vnde si res fuerit \edtext{alta}{\Cfootnote{altera \textit{P\textsuperscript{p}P\textsuperscript{q}P\textsuperscript{u}}}} in signis \edtext{contingit}{\Cfootnote{conuenit \textit{M\textsuperscript{a}N\textsuperscript{u}P\textsuperscript{z}}}} tragedia ipsam exprimere. Si autem econtra comedia vt modus coaptetur rei \edtext{ceu}{\Cfootnote{seu \textit{E\textsuperscript{a}V\textsuperscript{m}V\textsuperscript{o}}}} proprietas subiecto.
 \pend
 
-\subsubsection{Septimum problema}\label{part7}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection{Septimum problema}\label{part7}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID ANTIQUI .VII CORDARUM FACIENTES ARMONIAM YPATEM, SED NON NITEM RELIQUERUNT? \textsuperscript{2}UTRUM HOC MENDACIUM, VTRAMQUE ENIM RELIQUERUNT, TERTIAM VERO ELEUAUERUNT? \textsuperscript{3}AUT NON, SED QUIA GRAUIOR FORTIFICAT ACUTIORIS SONUM, QUARE MAGIS YPATE REDDIT ANTIFONUM QUAM NITE? \textsuperscript{4}QUIA ACUTUM POTENTIA MAGIS, GRAUE AUTEM FACILIUS CANTATUR}{\lemma{PROPTER \dots\ CANTATUR}\Cfootnote{PROPTER QUID ANTIQUI \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1051,7 +1114,17 @@ Similis autem per omnia \edtext{figuratio extat}{\Cfootnote{est figuratio \texti
 \textbf{5} Nosce quod ``armonia que est vna trium partium \edtext{vt tactum est musice}{\Cfootnote{vt tactum musice \textit{E\textsuperscript{a}N\textsuperscript{u}} | musice vt tactum est \textit{π} | \textit{om}. \textit{γ}}}, proprie pertinet ad comedos et tragedos vel choros, et omnino ad eos qui precipue voce cantant. Ex ea namque \edtext{causatur}{\Cfootnote{causatur talis \textit{βπE\textsuperscript{a}}}} armonia que est \edtext{vocis}{\Cfootnote{vocum \textit{βπE\textsuperscript{a}}}} modulatio et concordia plurium sonorum vel coaptatio. Simphonia est \edtext{vocis}{\Cfootnote{vocum \textit{βπ}}} modulatio temperata ex graui et \edtext{acuto accordantibus}{\Cfootnote{acuto a cordantibus \textit{γπE\textsuperscript{a}M\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{m}}}} sonis, cuius quidem \edtext{contraria}{\Cfootnote{contraria est \textit{π}}} dyaphonia. Euphonia est suauitas \edtext{vocis}{\Cfootnote{vocum \textit{βM\textsuperscript{a}V\textsuperscript{m}}}}, hec autem melos a melle et suauitate dicta. Dyastema est \edtext{vocis}{\Cfootnote{vocum \textit{βE\textsuperscript{a}M\textsuperscript{a}V\textsuperscript{m}V\textsuperscript{o}}}} spatium ex duobus vel pluribus sonis \edtext{coaptatum}{\Cfootnote{coadaptatum \textit{M\textsuperscript{a}V\textsuperscript{m}}}}. Dyesis est \edtext{spatia}{\Cfootnote{spatium \textit{πE\textsuperscript{a}}}} \edtext{quedam et}{\Cfootnote{quoddam \textit{π}}} \edtext{deducens}{\Cfootnote{deductiones \textit{βπE\textsuperscript{a}V\textsuperscript{a}}}} modulandi et vergendi de vno in alterum sonum.''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Isidore of Seville \textit{Etym.} III.20.1–6}} Boecius autem ``\edtext{dyesim dicit}{\Cfootnote{dicit Dyesim \textit{π}}} \edtext{vnius}{\Cfootnote{minus \textit{πE\textsuperscript{a}N\textsuperscript{u}V\textsuperscript{m}}}} fore semitonii.''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Boeth \textit{De inst. mus.} II.28 ((Friedlein p. 260, ll. 21–24))}} ``Tonus \edtext{est}{\Cfootnote{autem \textit{V\textsuperscript{o}}}} \edtext{acuta vocis}{\Cfootnote{vocis acuta \textit{P\textsuperscript{x}V\textsuperscript{z}} | acuta arta vocis \textit{π}}} enunciatio. Αrsis quidem vocis eleuatio, thesis depressio.''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Isidore of Seville \textit{Etym.} III.20.7, 9}} Sic igitur ex symphonia potest haberi quod antiphonum vel antiphona sit quedam modulatio \edtext{vel}{\Cfootnote{et \textit{απ}}} intonatio contra simphoniam, vt sonus qui post eam refrangitur auditum demultiens.
 \pend
 
-\subsubsection{Octauum problema}\label{part8}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection{Octauum problema}\label{part8}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID GRAUIS ACUTE FORTIFICAT SONUM? \textsuperscript{2}AUT QUIA MAIUS HOC GRAUE? OBTUSO ENIM ASSIMULATUR, HOC VERO ACUTO ANGULO}{\lemma{PROPTER \dots\ ANGULO}\Cfootnote{PROPTER QUID GRAUIS \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1064,7 +1137,17 @@ Similis autem per omnia \edtext{figuratio extat}{\Cfootnote{est figuratio \texti
 \textbf{3} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Soluit dicens causam esse quoniam \textit{illud quod est graue maius est et fortius. Quod ostenditur quoniam \textit{angulo \edtext{simulatur}{\Cfootnote{si multiplicatur \textit{γ}}} \edtext{obtuso}{\Cfootnote{acuto \textit{π}}} trianguli, qui quidem maior est et fortior \edtext{etiam}{\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}} vigore acuto \edtext{acuto vt res ostendunt nature et artis, acutum vero angulo proportionatur acuto}{\Cfootnote{\textit{om}. \textit{κ}}},} \edtext{ceu}{\Cfootnote{seu \textit{πE\textsuperscript{a}}}} minori et debiliori. Quod autem \edtext{maius}{\Cfootnote{maius est \textit{π}}} et fortius vigorat quod minus et debilius,} \edtext{huius}{\Cfootnote{huiusmodi \textit{N\textsuperscript{u}V\textsuperscript{b}V\textsuperscript{o}}}} quidem graue acuti respectu, quare ipsum vigorat, \edtext{vt 12°. etiam apparebit}{\Cfootnote{\textit{om}. \textit{π}}}.
 \pend
 
-\subsubsection{Nonum problem}\label{part9}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection{Nonum problem}\label{part9}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID DELECTABILITER VNITATEM CANTUS AUDIMUS SI QUIS AD FISTULAM AUT LYRAM CANTAT ET AD CORDAS, ET EUNDEM CANTUM CANTANT VTROBIQUE? \textsuperscript{2}SI ENIM ADHUC MAGIS IDEM, POTIUS OPORTEBAT AD MULTOS FISTULATORES ET ADHUC DELECTABILITER ESSE. \textsuperscript{3}AUT QUIA ADIPISCENS MANIFESTUS INTENTIONEM MAGIS QUANDO AD FISTULAM AUT LYRAM? QUOD VERO AD MULTOS FISTULATORES AUT LYRAS MULTAS NON EST DELECTABILE PROPTER ID QUOD DESTRUIT MELODIAM}{\lemma{PROPTER \dots\ MELODIAM}\Cfootnote{PROPTER QUID DELECTABILITER \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1085,7 +1168,17 @@ Similis autem per omnia \edtext{figuratio extat}{\Cfootnote{est figuratio \texti
 \textbf{5} Quod autem \edtext{inductum}{\Cfootnote{inductum est \textit{πM\textsuperscript{a}V\textsuperscript{m}}}} \edtext{in}{\Cfootnote{ad \textit{π}}} contrarium prius non valet quia licet multi possint idem cantare, non tamen eodem modo. \edtext{Non solum enim requiritur}{\Cfootnote{Et non requitur solum \textit{π}}} ydemptitas ex parte illius quod cantatur et cuiuslibet cantantis ad se ipsum ymo \edtext{uniuscuiusque}{\Cfootnote{uniuscuiusque et \textit{γλE\textsuperscript{a}}}} ad alium et ad omnes, ita quod ex omnibus resultent proportiones debite in cantu. Quod autem \edtext{subditur}{\Cfootnote{subdit \textit{V\textsuperscript{a}} | subicitur \textit{V\textsuperscript{o}} | subiecti \textit{E\textsuperscript{a}P\textsuperscript{x}} | subieci \textit{λV\textsuperscript{b}}}} de \edtext{nauis tractu}{\Cfootnote{tractu nauis \textit{α} | tractu nauis vel ligni \textit{π}}} non \edtext{huic}{\Cfootnote{hoc \textit{V\textsuperscript{m}V\textsuperscript{z}}}} \edtext{similatur}{\Cfootnote{assimilatur \textit{π}}} dicto, quoniam plurimi possunt \edtext{simul idem}{\Cfootnote{idem simul \textit{π}}} vt nauem eodem modo et tempore trahere vt audientes vocem rectoris nauis. \edtext{Non}{\Cfootnote{Vt \textit{P\textsuperscript{x}V\textsuperscript{m}}}} autem talis vnitas potest in cantu plurium \edtext{obseruari}{\Cfootnote{reseruari \textit{π}}} armonico, cum \edtext{eum}{\Cfootnote{enim \textit{V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}}}} \edtext{ex}{\Cfootnote{\textit{om}. \textit{π}}} pluribus et contrariis oporteat \edtext{constituere}{\Cfootnote{construere \textit{V\textsuperscript{o}P\textsuperscript{y}V\textsuperscript{z}}}} in \edtext{unum}{\Cfootnote{unam \textit{V\textsuperscript{o}}}}. Tandem \edtext{redditur}{\Cfootnote{redditis \textit{E\textsuperscript{a}M\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{m}} | reductis \textit{V\textsuperscript{o}}}} quod \edtext{fit}{\Cfootnote{sit \textit{E\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{a}}}} impossibile pluribus entibus vocibus \edtext{et}{\Cfootnote{in \textit{M\textsuperscript{a}V\textsuperscript{m}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{z}}}} instrumentis.
 \pend
 
-\subsubsection{Decimum problema}\label{part10}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection{Decimum problema}\label{part10}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID SI DELECTABILIS HOMINIS VOX QUE SINE SERMONE CANTANTIS NON DELECTABILE EST VT VERNANTIUM, SED FISTULA AUT LYRA? \textsuperscript{2}AUT NON ILLIC, SI NON IMMUTATUR, SIMILITER DELECTABILE? \textsuperscript{3}AT VERO SED PROPTER OPUS IPSUM. VOX ENIM DELECTABILIS QUE EST HOMINIS, PERCUSSIUA AUTEM MAGIS INSTRUMENTA ORIS. PROPTER QUOD DELECTABILIUS AUDIRE QUAM VERNARE}{\lemma{PROPTER \dots\ VERNARE}\Cfootnote{PROPTER QUID NON DELECTABILIS \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1106,7 +1199,17 @@ Similis autem per omnia \edtext{figuratio extat}{\Cfootnote{est figuratio \texti
 \textbf{5} \edtext{\textit{AUT}}{\Cfootnote{AT \textit{V\textsuperscript{b}V\textsuperscript{o}V\textsuperscript{z}} | Deinde. AUT \textit{V\textsuperscript{a}mv}}} \textit{UERO.} Respondet motiuo ipsius \edtext{causam dando}{\Cfootnote{dando causam \textit{π}}} quare vox humana cantantis sit delectabilis. \textit{Hoc enim est propter operationem ex qua consequitur. In ipsa namque magis percutiuntur instrumenta oris ordinata ad formationem cantus delectabilis quam \edtext{in}{\Cfootnote{ex \textit{π}}} vernare. Ex \edtext{huius}{\Cfootnote{huiusmodi \textit{V\textsuperscript{b}V\textsuperscript{m}V\textsuperscript{o}}}} \edtext{namque}{\Cfootnote{autem \textit{π}}} \edtext{maiori}{\Cfootnote{maiore \textit{V\textsuperscript{o}}}} percussione instrumentorum oris que fit in cantu, nunc in vocem extollendo \edtext{nunc}{\Cfootnote{tunc \textit{αV\textsuperscript{m}}}} in deprimendo,} modo vero medie conseruando resultat \edtext{cantus}{\Cfootnote{modus \textit{π}}} armonicus suauis valde. Et ideo inquit \textit{delectabilius \edtext{fore}{\Cfootnote{esse \textit{π}}} vocem hominis cantantis audire, cum hic \edtext{huiusmodi}{\Cfootnote{huius \textit{M\textsuperscript{a}V\textsuperscript{a}V\textsuperscript{z}}}} contingat quam vocem vernantis, ubi minime.} Vox etiam hominis delectabilis quia consueta et quoniam potest mutari \edtext{componi et}{\Cfootnote{et potest \textit{E\textsuperscript{a}P\textsuperscript{z}V\textsuperscript{o}}}} contraponi facillime.
 \pend
 
-\subsubsection{Vndecimum problema}\label{part11}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection{Vndecimum problema}\label{part11}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID SONANS ACUTIOR? \textsuperscript{2}AUT QUIA MINUS IMBECILLIOR FACTA EST}{\lemma{PROPTER \dots\ EST}\Cfootnote{PROPTER QUID SONANS \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1119,7 +1222,17 @@ Similis autem per omnia \edtext{figuratio extat}{\Cfootnote{est figuratio \texti
 \textbf{3} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Soluit dicens causam esse quia \edtext{hic}{\Cfootnote{\textit{om}. \textit{γ}}} sonans est minus sonans quam illud quod grauiter sonat. \textit{Quod autem sit minus ostenditur quia fit a virtute \edtext{que}{\Cfootnote{quia \textit{P\textsuperscript{x}P\textsuperscript{y}}}} facta est imbecillior.} Grauiter autem sonans a virtute \edtext{causatur fortiori}{\Cfootnote{fortiori causatur \textit{π}}}, propter quod dictum \edtext{est}{\Cfootnote{\textit{om}. \textit{P\textsuperscript{x}P\textsuperscript{y}}}} \edtext{.xi\textsuperscript{a}.}{\Cfootnote{\textit{om}. \textit{π}}} ``quod pueri femine \edtext{eunuchi}{\Cfootnote{eunuci et \textit{γ}}} infirmi habent voces acutas,''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Ps.Arist. \textit{Prob.} XI.16, 900b.15–17}} oppositi \edtext{autem}{\Cfootnote{vero \textit{π}}} graues \edtext{propter}{\Cfootnote{per \textit{M\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}}}} oppositum.
 \pend
 
-\subsubsection[Duodecimum problema … ]{Duodecimum problema}\label{part12}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Duodecimum problema … ]{Duodecimum problema}\label{part12}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID CORDARUM GRAUIOR SEMPER SONUM ACCIPIT? SI ENIM OPORTET DIMITTERE QUE EST CIRCA MEDIAM PARAMESEM CUM MEDIA ALTERA, FIT MEDIUM NIHILOMINUS. SI AUTEM MEDIA VTRAQUE, ALTA NON FUERIT. \textsuperscript{2}AUT QUIA GRAUE MAGNUM EST, QUARE FORTE? ET INEST IN MAGNO PARUUM, ET ASSUMPTIONE DUE NITE IN YPATE FIUNT}{\lemma{PROPTER \dots\ FIUNT}\Cfootnote{PROPTER QUID CORDARUM \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1132,7 +1245,17 @@ Similis autem per omnia \edtext{figuratio extat}{\Cfootnote{est figuratio \texti
 \textbf{3} \edtext{\textit{AUT.}}{\Cfootnote{AUT QUIA. \textit{α} | Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Soluit dicens causam esse quia \textit{\edtext{id}{\Cfootnote{illud \textit{αV\textsuperscript{o}}}} \edtext{quod}{\Cfootnote{\textit{om}. \textit{π}}} graue magnum et forte diuque \edtext{perdurans}{\Cfootnote{permanens seu perdurans \textit{π}}} preaccipit vigorem sui oppositi, talis siquidem est grauior cordarum ad alias, \edtext{etiam}{\Cfootnote{et \textit{M\textsuperscript{a}V\textsuperscript{z}}}} in magno \edtext{continetur et}{\Cfootnote{continuo et \textit{M\textsuperscript{a}V\textsuperscript{z}}}} \edtext{et}{\Cfootnote{\textit{om}. \textit{M\textsuperscript{a}P\textsuperscript{x}}}} occultatur parvuum, sicut in \edtext{superiori}{\Cfootnote{siteriorum \textit{V\textsuperscript{o}}}}, taliter quod sonus duarum nitarum assumptus est in sono vno parypatem causato.} Ex quo habetur quod grauior cordarum sonum preaccipit, et \edtext{quod}{\Cfootnote{\textit{om}. \textit{κP\textsuperscript{z}}}} ex \edtext{ultimis extremis}{\Cfootnote{extremis ultimis \textit{π}}} medium potest resultare, sicut apparebit \edtext{.23°}{\Cfootnote{22° \textit{G\textsuperscript{u}P\textsuperscript{p}P\textsuperscript{z}}}}.
 \pend
 
-\subsubsection[Tertiumdecimum problema … ]{Tertiumdecimum problema}\label{part13}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Tertiumdecimum problema … ]{Tertiumdecimum problema}\label{part13}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID IN DYAPASON ACUTI QUIDEM ANTIFONUM FIT GRAUE, HUIUS AUTEM ACUTUM NON? \textsuperscript{2}AUT QUIA MAXIME QUIDEM IN AMBOBUS EST AMBORUM MELODIA? SI AUTEM NON, NON GRAUE, MAIUS ENIM EST}{\lemma{PROPTER \dots\ EST}\Cfootnote{PROPTER QUID IN DYAPASON \textit{P\textsuperscript{p}P\textsuperscript{u}V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1229,7 +1352,17 @@ c. & 243. & solfa. & \\
 \textbf{17} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Soluit dicens causam esse \textit{\edtext{quoniam}{\Cfootnote{quia \textit{π}}} in ambobus scilicet \edtext{in}{\Cfootnote{\textit{om}. \textit{P\textsuperscript{y}V\textsuperscript{a}V\textsuperscript{o}}}} graui et acuto est melodia vtrorumque, vnum enim alteri \edtext{coniunctum}{\Cfootnote{consitum \textit{λ}}} melodiam reddit, quia graue et acutum sunt dissimilia.} \edtext{Et}{\Cfootnote{\textit{om}. \textit{γ}}} \edtext{\hyperref[Ty]{thimoteus}}{\Cfootnote{entimomus \textit{γ}}} quidem \edtext{extimauit}{\Cfootnote{existimauit \textit{V\textsuperscript{o}}}} musice primo melodiam vel consonantiam fieri ex dissimilibus, non autem ex \edtext{similibus}{\Cfootnote{consimilibus \textit{V\textsuperscript{o}}}}. \textit{Si autem proueniat vtrorunque in vtrisque concordia non fit melodia, cum autem sic fuerit quod graue \edtext{maius sit}{\Cfootnote{sit maius \textit{πP\textsuperscript{y}}}} acuto et fortius,} tunc quod est acutum assumit rationem grauis, ita quod acutum sentitur graue, \edtext{vt}{\Cfootnote{nisi \textit{M\textsuperscript{a}V\textsuperscript{m}}}} cum due nite \edtext{concurrunt}{\Cfootnote{concordant \textit{π}}} in ypatem. Dicitur autem melodia a melle, quoniam est consonantia delectabilissima valde ex acuto et graui debite composita.
 \pend
 
-\subsubsection[Quartumdecimum problema … ]{Quartumdecimum problema}\label{part14}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Quartumdecimum problema … ]{Quartumdecimum problema}\label{part14}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID LATET DYAPASON ET VIDETUR VNIUS SONI ESSE, VT IN FINIKIO ET IN HOMINE? QUE ENIM IN ACUTIS EXISTUNT NON VNIUS SONI, SED PROPORTIONALITER AD INUICEM DYAPASON. \textsuperscript{2}AUT QUIA SICUT IPSE ESSE VIDETUR SONUS PROPTER ANALOGUM, EQUALITAS IN SONIS, EQUALE AUTEM VNIUS? HOC AUTEM IDEM IN FISTULIS DECIPIUNTUR}{\lemma{PROPTER \dots\ DECIPIUNTUR}\Cfootnote{PROPTER QUID LATET DYAPASON \textit{V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1242,7 +1375,17 @@ c. & 243. & solfa. & \\
 \textbf{3} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Soluit dicens causam esse \textit{\edtext{quare}{\Cfootnote{quia \textit{P\textsuperscript{x}V\textsuperscript{z}}}} sonus apparet vnicus esse propter anologiam et proportionem sonorum ad inuicem in dyapason, ex qua resultat equalitas grandis in sonis.} Quod autem \edtext{equalitatem habet}{\Cfootnote{habet equalitatem \textit{λ}}} \edtext{vnius}{\Cfootnote{unus \textit{P\textsuperscript{y}V\textsuperscript{o}}}} \edtext{soni existit}{\Cfootnote{existit soni \textit{απ}}}, et non solum \edtext{hoc}{\Cfootnote{\textit{om}. \textit{π}}} accidit in \edtext{sono}{\Cfootnote{\textit{om}. \textit{π}}} voce facto \edtext{aut}{\Cfootnote{\textit{om}. \textit{π}}} pulsu, sed \edtext{etiam}{\Cfootnote{\textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{x}}}} \edtext{in sono}{\Cfootnote{\textit{om}. \textit{π}}} flatu facto, \edtext{vel}{\Cfootnote{vt \textit{αV\textsuperscript{o}}}} in fistulis. In illis enim decipiuntur etiam vt in vocis sono, propter \edtext{debitam enim}{\Cfootnote{enim debitam \textit{π}}} tonorum consonantiam accidit plures tonos non discerni sed vnum apparere cum diuersitates illic non \edtext{extent}{\Cfootnote{existant \textit{πP\textsuperscript{x}}}} sensibiles, \edtext{ceu}{\Cfootnote{seu \textit{E\textsuperscript{a}V\textsuperscript{o}}}} videmus \edtext{ex}{\Cfootnote{in \textit{πE\textsuperscript{a}V\textsuperscript{z}}}} saporibus \edtext{composita ex}{\Cfootnote{compositis ex \textit{π} | composita \textit{γλE\textsuperscript{a}}}} diuersis in quibus vnus consurgit delectabilis et nullius excessus, \edtext{vt}{\Cfootnote{vt qui \textit{πE\textsuperscript{a}}}} conficitur decoctione \edtext{ex}{\Cfootnote{\textit{om}. \textit{π}}} \edtext{cucurbitis}{\Cfootnote{cucurbite \textit{π}}}, cepis, vel \edtext{alleis}{\Cfootnote{aliis \textit{M\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{o}}}}, cum tamen vnum sit saporis insipidi et alterum acuti.
 \pend
 
-\subsubsection[Quintumdecimum problema … ]{Quintumdecimum problema}\label{part15}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Quintumdecimum problema … ]{Quintumdecimum problema}\label{part15}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID LEGES QUIDEM NON IN CONUERSIONIBUS FACIEBANT, ALII VERO CANTUS CHORICI? \textsuperscript{2}AUT QUIA LEGES QUIDEM AGONIZANTIUM FUERUNT? QUIBUS VTIQUE MUTARI POTENTIBUS ET DISTENDI, CANTUS FIEBAT LONGUS ET MULTIFORMIS. QUEMADMODUM IGITUR ET VERBA, ET CANTUS MUTATIONEM SEQUEBANTUR, SEMPER ALTERA FACTA. \textsuperscript{3}MAGIS ENIM CANTU NECESSE IMITARI QUAM VERBIS. PROPTER QUOD ET DITIRAMBI, QUONIAM AUTEM IMITATIUI, FIEBANT. NON ADHUC HABENT CONUERSIUOS, PRIUS AUTEM HABEBANT. CAUSA AUTEM QUONIAM ANTIQUITUS LIBERI ROTABANT IPSI, MULTOS IGITUR AGONISTICE CANTARE DIFFICILE ERAT, QUARE IN ARMONIA CANTUM DELECTABILITER. MUTARE ENIM MULTIS MUTATIONIBUS VNO FACILE QUAM MULTIS ET AGONISTE ID EST CONSUETUDINEM SERUANT. PROPTER QUOD SIMPLICIORES FACIEBANT SIBI MELODIAS. CONUERSIUUS AUTEM SIMPLEX, NUMERUS ENIM EST ET VNO MENSURATUR. \textsuperscript{4}EADEM AUTEM EST CAUSA ET PROPTER QUOD QUE QUIDEM A SCENA NON CONUERSIUA, CHORI ENIM CONUERSIUA. QUI ENIM CANTAT IN SCENA AGONISTA ET MUTATOR, CHORUS AUTEM MINUS MUTATUR}{\lemma{PROPTER \dots\ MUTATUR}\Cfootnote{PROPTER QUID LEGES \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1271,7 +1414,17 @@ c. & 243. & solfa. & \\
 \textbf{7} \textit{Sed \edtext{choricus}{\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}} cantus \edtext{minus}{\Cfootnote{vnus \textit{πE\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{a}}}} \edtext{commutatur}{\Cfootnote{commutatus \textit{π} | commitatur \textit{P\textsuperscript{x}V\textsuperscript{a}V\textsuperscript{m}}}},} amplius enim vnum tenorem et circulum retinet conseruatum. Notandum quod a scena multas habet significationes, aliquando namque idem est quod \edtext{umbra}{\Cfootnote{nichilominus \textit{G\textsuperscript{u}P\textsuperscript{u}P\textsuperscript{z}V\textsuperscript{o}}}} vel locus umbratus et coopertus in teatro \edtext{dicitur}{\Cfootnote{diuiditur \textit{γ}}}, \edtext{interdum}{\Cfootnote{etiam interdum \textit{π} | in circulum \textit{γ}}} totum teatrum, et quandoque recitatio operationis. Vnde olim poete libros suos deferebant a scene vt \edtext{appropriarentur}{\Cfootnote{approbarentur \textit{πP\textsuperscript{y}}}}. Dicitur \edtext{etiam}{\Cfootnote{et \textit{λE\textsuperscript{a}V\textsuperscript{b}}}} tabernaculum mercenariorum coopertum \edtext{asseribus}{\Cfootnote{aceribus \textit{V\textsuperscript{o}}}}. Hic autem per ascena potest intelligi: locus ubi colliguntur homines vt gesta \edtext{librorum}{\Cfootnote{liberorum \textit{V\textsuperscript{o}}}} cantare \edtext{audiant}{\Cfootnote{\textit{redit}ant \textit{N\textsuperscript{u}}}} et insignium. \edtext{Et id etiam .29. et 48°. apparebit}{\Cfootnote{\textit{om}. \textit{π}}}.
 \pend
 
-\subsubsection[Sextumdecimum problema … ]{Sextumdecimum problema}\label{part16}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Sextumdecimum problema … ]{Sextumdecimum problema}\label{part16}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID DELECTABILIUS ANTIFONUM CONSONO? \textsuperscript{2}AUT QUIA MAGIS MANIFESTUM FIT CONSONARE? \textsuperscript{3}AUT QUANDO AD CONSONANTIAM CANTANT, NECESSE ENIM ALTERAM CONSONARE? QUARE DUE AD VNAM VOCEM FACTE DESTRUUNT ALTERAM}{\lemma{PROPTER \dots\ ALTERAM}\Cfootnote{PROPTER QUID DELECTABILIUS \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1292,7 +1445,17 @@ c. & 243. & solfa. & \\
 \textbf{5} \edtext{Notandum}{\Cfootnote{Notandum quod \textit{V\textsuperscript{o}}}} secundum boecium primo \textit{musice} \edtext{quod}{\Cfootnote{\textit{om}. \textit{V\textsuperscript{o}}}} ``consonantia est acuti soni grauisque mixtura \edtext{suauiter}{\Cfootnote{suauiter et \textit{πE\textsuperscript{a}M\textsuperscript{a}}}} \edtext{vniformiterque}{\Cfootnote{vniformiter \textit{πE\textsuperscript{a}}}} auribus \edtext{accidens}{\Cfootnote{accedens \textit{π}}}. Sed dissonantia est duorum sonorum sibimet impermixtorum ad \edtext{aurem}{\Cfootnote{aures \textit{P\textsuperscript{y}V\textsuperscript{b}}}} \edtext{veniens}{\Cfootnote{perueniens \textit{λ}}} aspera \edtext{atque}{\Cfootnote{et \textit{λ}}} iniocunda percussio. Nam dum sibimet \edtext{misceri}{\Cfootnote{conmisceri \textit{π}}} volunt et quodammodo \edtext{integri}{\Cfootnote{integer \textit{M\textsuperscript{a}V\textsuperscript{o}}}} \edtext{vterque nititur}{\Cfootnote{nititur vterque \textit{π}}} peruenire, cunque alter alteri officit ad sensum insuauiter, vterque transmittitur.''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Boeth. \textit{De inst. mus.} I.8 ((Friedlein 195, ll. 6–13))}} Videtur siquidem quantum facit ad sermonem \hyperref[Ar]{aristoteles} quod antiphonus sit delectabilior ex contrariis valde distantibus consurgens vt ex ypate et \edtext{nete}{\Cfootnote{nete vel vite \textit{π}}}, consonans autem quando \edtext{ex non}{\Cfootnote{non ex \textit{P\textsuperscript{y}V\textsuperscript{a}} | non \textit{π}}} adeo \edtext{differentibus}{\Cfootnote{distantibus siue differentibus \textit{π}}}, sicut ex cordis mediis, vt apparebit consequenter.
 \pend
 
-\subsubsection[Decimumseptimum problema … ]{Decimumseptimum problema}\label{part17}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Decimumseptimum problema … ]{Decimumseptimum problema}\label{part17}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID QUINQUE NON CANTANT ANTIFONAM? \textsuperscript{2}AUT QUIA NON EADEM CONSONA CONSONANTIE, QUEMADMODUM IN DYAPASON? ILLA ENIM IN GRAUI PROPORTIONALE, SICUT ACUTA IN ACUTO, QUEMADMODUM IGITUR EADEM EST SIMUL ET ALIA. QUE AUTEM IN DYAPENTE ET DYATESSERON NON HABENT, ITA QUARE NON APPARET QUANDO ANTIFONE SONUS, NON ENIM EST IDEM}{\lemma{PROPTER \dots\ IDEM}\Cfootnote{PROPTER QUID QUANDOQUE \textit{V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1305,7 +1468,17 @@ c. & 243. & solfa. & \\
 \textbf{3} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Soluit dicens causam esse \textit{quoniam \edtext{ipsa}{\Cfootnote{ista \textit{απ}}} proportio \edtext{que}{\Cfootnote{quam \textit{απ}}} \edtext{habet}{\Cfootnote{habent \textit{βγπV\textsuperscript{m}V\textsuperscript{z}}}} quinque ad inuicem non est proportio debita que consonet et correspondeat tali consonantie in qua \edtext{sit}{\Cfootnote{\textit{om}. \textit{κ}}} antiphonizare, quemadmodum \edtext{antiphonizare contingit}{\Cfootnote{contingit \textit{πE\textsuperscript{a}}}} in dyapason, ubi est proportio dupla. Ipsa enim habet proportionem in graui, graue enim proportionatum est graui in ipsa, sicut acutum acuto et graue cum acuto \edtext{etiam}{\Cfootnote{\textit{om}. \textit{πP\textsuperscript{y}}}}.} Hoc autem non est in aliis. \textit{Ymmo sicut ipsa est eadem inter se et proportionalis vno modo ita, secundum alium modum \edtext{habet}{\Cfootnote{\textit{om}. \textit{κ}}} \edtext{quandam}{\Cfootnote{\textit{om}. \textit{E\textsuperscript{a}V\textsuperscript{o}}}} alietatem et diuersitatem inter se, eo quod in ipsa est excessus \edtext{manifestus}{\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}}, etsi sit ad equalitatem reductus. Sed consonantie vel proportiones que sunt circa dyatesseron vel dyapente non sic \edtext{se habent}{\Cfootnote{se habet \textit{V\textsuperscript{m}V\textsuperscript{z}}}}. Neque enim in hiis \edtext{tantus}{\Cfootnote{cantus \textit{γE\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{m}V\textsuperscript{o}V\textsuperscript{z}}}} \edtext{est}{\Cfootnote{\textit{om}. \textit{π}}} excessus, neque ad equalitatem \edtext{sit}{\Cfootnote{sic \textit{βM\textsuperscript{a}V\textsuperscript{o}}}} reductus. Et ideo sonus licet fiat antiphonus, secundum \edtext{istas}{\Cfootnote{illas \textit{γ}}} \edtext{duas}{\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}} proportiones non redditur manifestus. Non enim est in ipso idemptitas cum quodam excessu sicut dictum est in dyapason euenire.} Id autem potest declarari ex naturis, quia si debet cantari antiphona, oportet debitam proportionem \edtext{interuenire}{\Cfootnote{ante venire \textit{π}}} \edtext{superantium ad superatos}{\Cfootnote{sirantium ad frantos \textit{γ}}} et econtra secundum \edtext{graue et acutum}{\Cfootnote{acutum et graue \textit{β}}}. Sed id non accidit in 5. vocibus, nam \edtext{vel}{\Cfootnote{universaliter \textit{κ}}} quatuor antiphonizabunt \edtext{vno}{\Cfootnote{\textit{om}. \textit{β}}} aut tres duobus, \edtext{non quidem}{\Cfootnote{numquam \textit{P\textsuperscript{x}V\textsuperscript{m}}}} quatuor contra vnum, quia vox eius oppositis obtunderetur omnino, ita vt non \edtext{possit}{\Cfootnote{possint \textit{π}}} sufficienter percipi. Neque tres contra duos, quoniam propter paruum excessum non poterit excedentia manifestari vnius ad alterum, quare non contraphonizare contingit cum \edtext{id}{\Cfootnote{illud \textit{E\textsuperscript{a}V\textsuperscript{b}}}} requiratur omnifariam. Vnde relinquitur \edtext{quod antiphonizare, vt apparebit}{\Cfootnote{vt apparebit quod antiphonizare \textit{π}}} extet secundum dyapason proprie.
 \pend
 
-\subsubsection[Decimumoctauum problema … ]{Decimumoctauum problema}\label{part18}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Decimumoctauum problema … ]{Decimumoctauum problema}\label{part18}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID DYAPASON CONSONANTIA CANTATUR SOLA? ORGANIZANT ENIM SECUNDUM HANC, ALIAM NULLAM. \textsuperscript{2}AUT QUIA SOLA EX ANTIPHONIS EST CORDIS, IN ANTIPHONIS AUTEM ET ALTERAM SI CANTAT, IDEM FACIT. VNA ENIM QUODAMMODO VTRORUNQUE HABET CORDAS, QUARE ET VNA CANTATA IN HAC CONSONANTIA CANTATUR SYMPHONIA ET AMBO CANTANTES. \textsuperscript{3}AUT HAC QUIDEM CANTATA. HAC VERO FISTULATA, QUEMADMODUM VNAM VTRANQUE CANTANT. PROPTER QUOD SOLA CANTATUR, QUIA VNAM HABENT CORDE VOCEM ANTIPHONAM}{\lemma{PROPTER \dots\ ANTIPHONAM}\Cfootnote{PROPTER QUID DYAPASON \textit{V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1322,7 +1495,17 @@ c. & 243. & solfa. & \\
 \textbf{4} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Assignat aliam causam dicens ideo esse \textit{quia si vna \edtext{cordarum}{\Cfootnote{corda \textit{β}}} cantetur vt ypate et altera fistuletur vt nete cantando et fistulando vtrobique cantatur \edtext{vna}{\Cfootnote{\textit{om}. \textit{V\textsuperscript{o}}}} quia media. Et ideo sola symphonia cantatur, \edtext{quoniam}{\Cfootnote{et propter hoc \textit{G\textsuperscript{u}P\textsuperscript{p}}}} corde cantate seu fistulate vnam habent vocem scilicet antiphonam,} de quo \edtext{planius}{\Cfootnote{plenius \textit{P\textsuperscript{y}V\textsuperscript{a}} | amplius \textit{π}}} apparebit 19°. et 20°. Omnia enim \edtext{hec}{\Cfootnote{hinc \textit{α}}} problemata \edtext{concidunt, super eodem enim \edtext{fundantur}{\Cfootnote{fundatur \textit{V\textsuperscript{o}}}} medio}{\Cfootnote{concidunt \textit{β}}}. Sic \edtext{ergo}{\Cfootnote{igitur \textit{γλπE\textsuperscript{a}}}} \edtext{ille}{\Cfootnote{iste \textit{απM\textsuperscript{a}V\textsuperscript{z}}}} due \edtext{solutiones}{\Cfootnote{questiones \textit{V\textsuperscript{o}}}} magis differunt ratione modi quam rei, cum vna sit vocalis et \edtext{altera vocalis et}{\Cfootnote{\textit{om}. \textit{E\textsuperscript{a}V\textsuperscript{o}}}} instrumentalis.
 \pend
 
-\subsubsection[Decimumnonum problema … ]{Decimumnonum problema}\label{part19}
+% \pstart
+% \vspace{1em}
+% \begin{center}
+%     {\Large \ding{167}}
+% \end{center}
+% \pend
+% \vfill
+
+% \newpage
+
+\subsection[Decimumnonum problema … ]{Decimumnonum problema}\label{part19}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID ANTIPHONIS HOC SOLIS INEST? \textsuperscript{2}AUT QUIA SOLE EQUALITER DISTANT MEDIO? MEDIETAS IGITUR SIMILITUDINEM QUANDAM FACIT SONORUM. ET VIDETUR AUDITUS DICERE QUOD IPSA ET QUOD VTREQUE VLTIME}{\lemma{PROPTER \dots\ VLTIME}\Cfootnote{PROPTER QUID ANTIPHONIS \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1335,7 +1518,17 @@ c. & 243. & solfa. & \\
 \textbf{3} \textit{AUT.} Soluit dicens causam esse \textit{quia sole \edtext{huius}{\Cfootnote{huiusmodi \textit{N\textsuperscript{u}V\textsuperscript{b}}}} cordarum antiphone in quibus \edtext{existit}{\Cfootnote{consistit \textit{π}}} dyapason equaliter distant a media \edtext{corda}{\Cfootnote{\textit{om}. \textit{π}}},} vt dicatur a mese \edtext{que}{\Cfootnote{quod \textit{πE\textsuperscript{a}}}} est \edtext{vere}{\Cfootnote{nete \textit{γ}}} media 7. \edtext{cordarum}{\Cfootnote{corde \textit{V\textsuperscript{o}}}}, vt visum \edtext{est}{\Cfootnote{\textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{m}}}}. \textit{Illud autem \edtext{quod}{\Cfootnote{quod vere \textit{π}}} est medium conficit quandam \edtext{similitudinem}{\Cfootnote{consonantiam \textit{π}}} et conuenientiam sonorum cum extremis,} reddit enim \edtext{similitudinem}{\Cfootnote{similem \textit{απ}}} fere sonum media tacta, ac si tangerentur ambe ultime. Et hoc est quod dicit: \textit{auditus videtur diiudicare quod ipsa media cordarum et \edtext{quod}{\Cfootnote{\textit{om}. \textit{V\textsuperscript{b}V\textsuperscript{z}}}} \edtext{vtreque}{\Cfootnote{\textit{om}. \textit{π}}} extreme \edtext{constituant}{\Cfootnote{constituunt \textit{π}}} vnum sonum.} Et ideo in antiphonis \edtext{solis}{\Cfootnote{solum \textit{π}}} accidit quod vna corda tacta vel cantata \edtext{cantetur}{\Cfootnote{cantentur \textit{γ}}} \edtext{reliqua}{\Cfootnote{relique \textit{γ} | altera \textit{λ}}}, cum \edtext{in}{\Cfootnote{\textit{om}. \textit{π}}} medium \edtext{concurratur}{\Cfootnote{concurrat \textit{π}}}, quare dyapason tantum inter alias \edtext{proportiones}{\Cfootnote{concordias \textit{G\textsuperscript{u}P\textsuperscript{q}}}} sola ex antiphonis est apparentius tonis.
 \pend
 
-\subsubsection{Vigesimum problem}\label{part20}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection{Vigesimum problem}\label{part20}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID SI QUIS NOSTRUM MEDIAM MOUET, CONCORDANS ALIAS CORDAS, VTITUR INSTRUMENTO, NON SOLUM QUANDO SECUNDUM MEDIE FIAT SONUM DEFICIT, ET VIDETUR NON CONCORDANS, SED ET SECUNDUM ALIAM MELODIAM? SI AUTEM LICHANUM AUT ALIQUEM ALIUM SONUM, TUNC VIDETUR DIFFERE SOLUM QUANDO ILLA QUIS VTITUR. \textsuperscript{2}AUT RATIONABILITER HOC ACCIDIT, OMNES ENIM VTILES CANTUS MULTOTIENS MEDIA VTUNTUR. \textsuperscript{3}ET OMNES BONI POETE FREQUENTER AD MEDIAM OBUIANT. QUAMUIS DISCEDANT, CITO REUERTUNTUR, AD ALIAM AUTEM ITA NEQUE VNAM. \textsuperscript{4}QUEMADMODUM EX ORATIONIBUS: QUIBUSDAM ABLATIS CONIUNCTIONIBUS, NON EST ORATIO GRECA, VT AUTEM ET VERO. ET QUIDAM AUTEM NON DEFICIUNT, PROPTER ID QUOD HIIS QUIDEM NECESSARIUM EST ESSE VTI MULTOTIENS, SI ERIT ORATIO, HIIS AUTEM NON. \textsuperscript{5}ITA AUTEM ET SONORUM MEDIA SICUT CONIUNCTIO EST ET MAXIME BONORUM, PROPTER ID QUOD MULTOTIENS INEST IPSIS SONIS}{\lemma{PROPTER \dots\ SONIS}\Cfootnote{PROPTER QUOD SI QUIS NOSTRUM \textit{V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1368,7 +1561,17 @@ c. & 243. & solfa. & \\
 \textbf{8} \edtext{\textit{ITA}}{\Cfootnote{Deinde. ITA \textit{V\textsuperscript{a}mv}}} \textit{AUTEM.} Applicat ad propositum tertio, dicens quod \textit{simili modo se habet cordarum media vel ei proportionale \edtext{in}{\Cfootnote{et \textit{βV\textsuperscript{m}V\textsuperscript{z}}}} sonis, \edtext{ceu}{\Cfootnote{seu \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{m}V\textsuperscript{o}}}} coniunctio in orationibus \edtext{gramaticis}{\Cfootnote{gramatice \textit{M\textsuperscript{a}V\textsuperscript{a}}}} et proprie bonis \edtext{seu grecis}{\Cfootnote{ceu gramaticis \textit{γ}}}.} Nam \edtext{cordarum}{\Cfootnote{corda \textit{π}}} media est proprie de numero bonarum \edtext{reddentium}{\Cfootnote{cordarum reddentium \textit{π}}} mellifluum sonum et consonum extremis. \textit{Et quia \edtext{hiis}{\Cfootnote{is \textit{β} | id \textit{π}}} multotiens debet \edtext{in esse}{\Cfootnote{esse in \textit{π}}} sonis} ideo \edtext{vt}{\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}} \edtext{propositum est}{\Cfootnote{propositum \textit{απ}}} multotiens, \edtext{cum possunt}{\Cfootnote{compositum \textit{πE\textsuperscript{a}}}} vtuntur corda media secundum quod ei consonant extreme, et de hoc itidem \edtext{36° apparebit consequenter}{\Cfootnote{apparebit consequenter 36°. \textit{π}}} problemate.
 \pend
 
-\subsubsection[Vigesimumprimum problema … ]{Vigesimumprimum problema}\label{part21}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Vigesimumprimum problema … ]{Vigesimumprimum problema}\label{part21}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID CANTANTIUM GRAUIUS CANTANTES ACUTE CANTANTIBUS, SI DISSONANT, MAGIS MANIFESTI FIUNT? SIMILITER AUTEM ET RITHIMO: QUI IN GRAUIORI PECCANTES MANIFESTI MAGIS. \textsuperscript{2}UTRUM QUOD PLUS TEMPUS GRAUI, HIC AUTEM MAGIS SENSIBILIS? \textsuperscript{3}AUT QUIA IN PLURI TEMPORE MULTUM EXHIBET, VELOX AUTEM ET ACUTUM LATET PROPTER VELOCITATEM}{\lemma{PROPTER \dots\ VELOCITATEM}\Cfootnote{PROPTER QUID CANTANTIUM \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}?}
 \pend
@@ -1385,7 +1588,17 @@ c. & 243. & solfa. & \\
 \textbf{4} \edtext{\textit{AUT}}{\Cfootnote{Deinde. AUT \textit{V\textsuperscript{a}mv}}} \textit{QUIA.} \edtext{Assignat causam dicens}{\Cfootnote{Dicens \textit{M\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{m}} | Assignat aliam causam dicens \textit{γπ}}} \edtext{id}{\Cfootnote{illud \textit{E\textsuperscript{a}P\textsuperscript{x}}}} esse \textit{quia \edtext{in}{\Cfootnote{\textit{om}. \textit{π}}} tempore maiori exhibet graue tardum et multum sonum}, \edtext{quare fit esse ipsius manifestum propter sui tarditatem. Sed velox et acutum, quia in minori tempore dat velocem sonum}{\Cfootnote{\textit{om}. \textit{π}}}, ideo latet propter eius velocitatem, ita quod peccatum non perpenditur etiam inexistens notabiliter.
 \pend
 
-\subsubsection[Vigesimumsecundum problema … ]{Vigesimumsecundum problema}\label{part22}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Vigesimumsecundum problema … ]{Vigesimumsecundum problema}\label{part22}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID MULTI MAGIS CANTANTES RITHIMUM SALUANT QUAM PAUCI? \textsuperscript{2}AUT QUIA MAGIS APUD VNUM ET RECTOREM INTENDUNT ET GRAUIUS INCIPIUNT, QUARE FACILE IDEM ATTINGUNT? IN VELOCITATE ENIM PECCATUM EST PLUS}{\lemma{PROPTER \dots\ PLUS}\Cfootnote{PROPTER QUID MULTI \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}P\textsuperscript{q}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1398,7 +1611,17 @@ c. & 243. & solfa. & \\
 \textbf{3} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} \edtext{Soluit dicens}{\Cfootnote{dicit \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{z}}}} causam esse \textit{quoniam ipsi amplius intendunt et \edtext{ordinantur}{\Cfootnote{ordinant \textit{π}}} ad vnum, tanquam ad \edtext{rectorem}{\Cfootnote{rethorem \textit{V\textsuperscript{o}}}} \edtext{ouium}{\Cfootnote{omnium \textit{βπE\textsuperscript{a}V\textsuperscript{b}}}}, et grauius possunt incipere cum fuerint multi quoniam vox vnius fortificat et substentat vocem alterius. Propter quod de facili possunt in vnum deuenire} illudque illesum conseruare in velocitate. \edtext{Autem}{\Cfootnote{\textit{om}. \textit{V\textsuperscript{o}}}} \edtext{non contingit hoc}{\Cfootnote{hoc non contingit \textit{γE\textsuperscript{a}N\textsuperscript{u}V\textsuperscript{o}}}} cum difficilius sit seruare acutum quam graue, vt dicetur \edtext{.26°.}{\Cfootnote{.36°. \textit{π}}}, quare \textit{in velocitate \edtext{magis contingit}{\Cfootnote{contingit magis \textit{γ}}} peccare,} etsi \edtext{peccatum}{\Cfootnote{peccant \textit{β}}} \edtext{plerumque sit}{\Cfootnote{plerumque fit \textit{V\textsuperscript{m}V\textsuperscript{z}} | plurimumque sit \textit{E\textsuperscript{a}P\textsuperscript{y}}}} magis latens vt \edtext{etiam}{\Cfootnote{et \textit{β}}} alii ostendunt actus. Et id quidem \edtext{.45.}{\Cfootnote{.35. \textit{π}}} repetitur.
 \pend
 
-\subsubsection[Vigesimumtertium problema … ]{Vigesimumtertium problema}\label{part23}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Vigesimumtertium problema … ]{Vigesimumtertium problema}\label{part23}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID DUPLEX NITE YPATE? \textsuperscript{2}AUT PRIMUM QUIDEM QUIA EX MEDIO CORDA CANTATA ET TOTA CONSONANT DYAPASON? \textsuperscript{3}SIMILITER AUTEM SE HABET IN FISTULIS, QUE ENIM PER MEDIUM FORAMEN FISTULE CONSONANT PER TOTAM FISTULAM DYAPASON. ADHUC ET IN ALIIS IN DUPLICI DISTANTIA ACCIPITUR DYAPASON, ET ILLI QUI PERFORANT FISTULAS ITA ACCIPIUNT. SIMILITER ET CUM DYAPENTE EMIOLIUM, QUIA QUI FISTULAS CONCORDANT IN YPATEM CERAM PONUNT, NITEM AUTEM VSQUE AD MEDIUM REPLENT. SIMILITER AUTEM ET PER DYAPENTE EMIOLIO, ET PER QUATUOR EPITRICA DISTANTIA ACCIPIUNT. \textsuperscript{4}AMPLIUS IN TRIANGULIS PSALTERIIS EQUALI DISTENSIONE FACTA CONSONANT DYAPASON. HEC QUIDEM DUPLEX EXISTENS, ALIA VERO MEDIA LONGITUDINE}{\lemma{PROPTER \dots\ LONGITUDINE}\Cfootnote{\textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1419,7 +1642,17 @@ c. & 243. & solfa. & \\
 \textbf{5} \edtext{\textit{AMPLIUS.}}{\Cfootnote{Deinde. AMPLIUS. \textit{V\textsuperscript{a}mv}}} Declarat tertio \edtext{in}{\Cfootnote{\textit{om}. \textit{λE\textsuperscript{a}V\textsuperscript{a}}}} instrumento \edtext{tactibili}{\Cfootnote{tangibili \textit{πP\textsuperscript{y}}}}, dicens quod insuper etiam \textit{simili modo in psalteriis, que habent figuram triangularem, et in canonibus \edtext{facta}{\Cfootnote{factam \textit{V\textsuperscript{o}}}} proportionali \edtext{distensione}{\Cfootnote{distantia \textit{π}}} cordarum \edtext{ipsarum}{\Cfootnote{ipsorum \textit{γE\textsuperscript{a}N\textsuperscript{u}V\textsuperscript{o}}}} ex acuto et graui consonant et adducunt dyapason. In ipsa enim duplex corda, vt ypate et \edtext{nite}{\Cfootnote{vite \textit{V\textsuperscript{o}}}}, et alia in quam \edtext{concidunt}{\Cfootnote{concidat \textit{E\textsuperscript{a}V\textsuperscript{b}} | conferat \textit{V\textsuperscript{o}}}} que est media \edtext{distantia}{\Cfootnote{distante \textit{π}}} vere, \edtext{vt}{\Cfootnote{et \textit{V\textsuperscript{o}V\textsuperscript{z}} | a \textit{G\textsuperscript{u}P\textsuperscript{p}}}} mese.} Vel aliter duplex nete concurrit in ypate: et constituitur tunc sonus \edtext{corde medie}{\Cfootnote{cordis medie \textit{E\textsuperscript{a}V\textsuperscript{o}} | totidem medie \textit{γ}}} secundum distantiam vt \edtext{apparebit}{\Cfootnote{apparuit \textit{βγ}}} \edtext{.20.}{\Cfootnote{.22. \textit{V\textsuperscript{o}}}}
 \pend
 
-\subsubsection[Vigesimumquartum problema … ]{Vigesimumquartum problema}\label{part24}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Vigesimumquartum problema … ]{Vigesimumquartum problema}\label{part24}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID IN TENUIBUS MENTEM APPONERE, YPATE SOLA VIDETUR CONTRASONARE? \textsuperscript{2}AUT QUIA CONNATURALIS MAXIME FIT SONO SONUS QUI EST AB IPSA PROPTER ID QUOD CONSONANS EST? SIMUL AUGERI AUTEM SIMILI VIDETUR SOLUS. ALII VERO PROPTER PARUITATEM INMANIFESTI}{\lemma{PROPTER \dots\ INMANIFESTI}\Cfootnote{PROPTER QUID IN TENUIBUS \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1432,7 +1665,17 @@ c. & 243. & solfa. & \\
 \textbf{3} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Soluit dicens causam esse \textit{quia sonus qui ab ipsa causatur principalissime efficitur connaturalis et proportionalis alii sono, propter hoc quod cum sua \edtext{consonantia}{\Cfootnote{contrasonantia \textit{βγV\textsuperscript{z}}}} est etiam \edtext{simul}{\Cfootnote{similis \textit{P\textsuperscript{x}V\textsuperscript{z}}}} consonans}. Quando \edtext{enim}{\Cfootnote{est \textit{P\textsuperscript{x}V\textsuperscript{z}}}} sonus ipsius cum sono alterius corde \edtext{inferiori}{\Cfootnote{inferioris \textit{αV\textsuperscript{o}V\textsuperscript{z}}}} sub medio existentis \edtext{construitur}{\Cfootnote{constituitur \textit{βγπ}}}, consonantia vt iam patuit dyapason. \textit{Et similiter \edtext{solus sonus huius corde}{\Cfootnote{sonus huius corde solus \textit{π}}} inter alios sonos videtur augeri et \edtext{crementum}{\Cfootnote{incrementum \textit{P\textsuperscript{y}V\textsuperscript{z}}}} in tonando accipere}, quia ipsa reddit sonum sola grauiorem aliis, alie vero acutum \edtext{aut}{\Cfootnote{et \textit{λ}}} minus grauem. Sonus autem \edtext{grauis}{\Cfootnote{grauis sonum \textit{βπE\textsuperscript{a}V\textsuperscript{b}}}} ebetat acute, \textit{sed soni aliarum cordarum subtilium}, quia sunt \edtext{parui}{\Cfootnote{praui \textit{V\textsuperscript{o}mv}}}, non percipiuntur manifeste, propter quod \edtext{non apparent}{\Cfootnote{non apparet \textit{P\textsuperscript{y}V\textsuperscript{m}}}} \edtext{consonare}{\Cfootnote{contrasonare \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{m}V\textsuperscript{z}}}}. Stat \edtext{igitur}{\Cfootnote{enim \textit{πE\textsuperscript{a}}}} in hoc, \edtext{quia}{\Cfootnote{quod \textit{P\textsuperscript{y}V\textsuperscript{m}}}} sonus ypate fortis est, aliarum vero debilis. Qui autem \edtext{huius}{\Cfootnote{huiusmodi \textit{γN\textsuperscript{u}}}} \edtext{consonat}{\Cfootnote{contrasonat \textit{γλE\textsuperscript{a}N\textsuperscript{u}} | contra consonat \textit{V\textsuperscript{o}}}} debili cum eo quod recipit, \edtext{magnus}{\Cfootnote{maior \textit{πP\textsuperscript{y}}}} enim motus minorem debilitat et obtundit. \edtext{Huius}{\Cfootnote{Huiusmodi \textit{N\textsuperscript{u}V\textsuperscript{b}}}} autem sonus \edtext{cordis}{\Cfootnote{corde \textit{βγV\textsuperscript{z}}}} licet sit fortior ceteris, quia tamen grauior et dimensionatior sonum aliorum de facili \edtext{recipit}{\Cfootnote{suscipit \textit{απ}}} et exaltat, ita vt dyapason inducat.
 \pend
 
-\subsubsection[Vigesimumquintum problema … ]{Vigesimumquintum problema}\label{part25}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Vigesimumquintum problema … ]{Vigesimumquintum problema}\label{part25}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID MEDIA VOCATUR IN ARMONIIS, OCTO VERO NON EST MEDIUM? \textsuperscript{2}AUT QUIA VII. CORDARUM ERANT ARMONIE ANTIQUITUS? SEPTEM AUTEM HABENT MEDIUM}{\lemma{PROPTER \dots\ MEDIUM}\Cfootnote{PROPTER QUID MEDIA VOCATUR \textit{V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1449,7 +1692,17 @@ c. & 243. & solfa. & \\
 \textbf{4} Nosce, vt \edtext{indicatum}{\Cfootnote{dictum \textit{π}}} \edtext{est}{\Cfootnote{\textit{om}. \textit{βE\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{b}V\textsuperscript{o}}}} superius, \textit{.7. \edtext{antiquitus fuisse cordas}{\Cfootnote{fuisse cordas antiquitus \textit{π}}}} ``7. planetarum,'' secundum boecium, ``imitatione, ita vt suprema earum ypate reddatur saturno propter tarditatem motus''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Boeth. \textit{De inst. mus.} I.20 ((Friedlein 206, ll. 10–1, 15–6))}} vtrobique. Infima lune \edtext{ceu}{\Cfootnote{seu \textit{E\textsuperscript{a}V\textsuperscript{o}} | sicut \textit{P\textsuperscript{x}V\textsuperscript{a}}}} nete ob eius velocitatem. Que autem \edtext{intermedio}{\Cfootnote{in intermedio \textit{N\textsuperscript{u}V\textsuperscript{m}V\textsuperscript{o}}}} ordine planetarum \edtext{attribuantur}{\Cfootnote{atribuatur \textit{V\textsuperscript{m}V\textsuperscript{z}} | attribuebantur \textit{πP\textsuperscript{y}}}} mediis iuxta eorum mediocrem cursum. Et id quidem 32°. apparebit et magis 44°.
 \pend
 
-\subsubsection[Vigesimumsextum problema … ]{Vigesimumsextum problema}\label{part26}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Vigesimumsextum problema … ]{Vigesimumsextum problema}\label{part26}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID IN ACUTO DISCORDANT PLURIMI? \textsuperscript{2}UTRUM QUIA FACILIUS ACUTUM DIMITTERE QUAM GRAUE? \textsuperscript{3}AUT QUIA PEIUS GRAUI? PECCATUM PEIORIS OPERATIO}{\lemma{PROPTER \dots\ OPERATIO}\Cfootnote{PROPTER QUID IN ACUTO \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1466,7 +1719,17 @@ c. & 243. & solfa. & \\
 \textbf{4} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} \edtext{Soluit assignans}{\Cfootnote{Soluit assignando \textit{M\textsuperscript{a}V\textsuperscript{m}} | Assignat \textit{απ}}} aliam causam necessariam magis, dicens \edtext{id}{\Cfootnote{hoc \textit{γ}}} esse \textit{\edtext{quoniam}{\Cfootnote{quia \textit{λ}}} peccatum quod committitur in acutum cantando \edtext{deterius est seu difficilius quam peccatum quod committitur in \edtext{graue}{\Cfootnote{grauem \textit{λ}}} cantando}{\lemma{deterius \dots\ cantando}\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}}}. Cum \edtext{molestius}{\Cfootnote{molestius sit \textit{απM\textsuperscript{a}V\textsuperscript{z}}}} cantare acuta quam grauia 37. \textit{Peioris autem seu difficilioris actus peccatum \edtext{maius}{\Cfootnote{maius est \textit{π}}}.} Et \edtext{ideo}{\Cfootnote{\textit{om}. \textit{γ}}} in ipso amplius accidit discordari. Quod enim \edtext{difficilius}{\Cfootnote{difficilius est \textit{π}}} agere magis contingit peccato corrumpere, vt aurum arte construere. \edtext{Et id etiam .46°. rescribetur}{\Cfootnote{\textit{om}. \textit{π}}}.
 \pend
 
-\subsubsection[Vigesimumseptimum problema … ]{Vigesimumseptimum problema}\label{part27}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Vigesimumseptimum problema … ]{Vigesimumseptimum problema}\label{part27}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID AUDIBILE SOLUM HABET SENSIBILIUM? ET ENIM, IN QUANTUM ABSQUE RATIONE, CANTUS TAMEN HABET CONSUETUDINEM, SED NON COLOR, NEQUE ODOR, NEQUE HUMOR HABET. \textsuperscript{2}AUT QUIA MOTUM HABET SOLUM VNIFORMEM, QUO SONUS NOS MOUET? HUIUS ENIM ET ALIIS INEST, MOUET ENIM ET COLOR VISUM, SED CONSEQUENTEM HUIUS SONO SENTIMUS MOTUM. HEC ENIM HABET SIMILLIMA IN RITHIMIS ET IN SONORUM ORDINATIONE ACUTORUM ET GRAUIUM, NON IN MIXTIONE. SED CONSONANTIA NON HABET CONSUETUDINEM, IN ALIIS AUTEM SENSIBILIBUS HOC NON EST. \textsuperscript{3}MOTUS AUTEM IPSI OPERATIUI SUNT, OPERATIONES ENIM CONSUETUDINIS SIGNIFICATIO EST}{\lemma{PROPTER \dots\ EST}\Cfootnote{PROPTER QUID AUDIBILE \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1487,7 +1750,17 @@ c. & 243. & solfa. & \\
 \textbf{5} \edtext{\textit{MOTUS.}}{\Cfootnote{Deinde. \textit{V\textsuperscript{a}mv}}} Τangit causam sumptam \edtext{ex secunda parte}{\Cfootnote{ex alia parte \textit{π}}} dicens cum igitur \edtext{visibilia}{\Cfootnote{audibilia \textit{π}}} vt ad multum recurrant ad organum cum motu aeris \edtext{sensibili}{\Cfootnote{sensibilis \textit{M\textsuperscript{a}V\textsuperscript{z}} | sensibiliter \textit{γP\textsuperscript{x}}}}, \textit{et motus \edtext{sint}{\Cfootnote{sicut \textit{βE\textsuperscript{a}V\textsuperscript{z}}}} operatiui}. Operationes enim fiunt per eos \edtext{actiones proprie dicte, cum ``\edtext{proprium actionis}{\Cfootnote{proprius actionis \textit{β} | proprium \textit{κ}}} sit esse in motu,''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Ps.-Herm. Tris. \textit{De sex re. princ.} II.1}} auctor \textit{.6. principiorum.}}{\Cfootnote{\textit{om}. \textit{G\textsuperscript{u}P\textsuperscript{p}P\textsuperscript{u}P\textsuperscript{z}V\textsuperscript{o}}}} Et \textit{signum consuetudinis acquirende vel acquisite sit operatio, } nam ``consuetudo \edtext{est}{\Cfootnote{est in \textit{β}}} multotiens aliquid facere,''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Ps.-Arist. \textit{Prob.} XXI.14, 928b25–26}} .13°. 21\textsuperscript{a}. \textit{Consuetudo \edtext{siquidem}{\Cfootnote{\textit{om}. \textit{πV\textsuperscript{z}}}} \edtext{adipiscetur magis}{\Cfootnote{magis adipiscetur \textit{πV\textsuperscript{z}}}} in audibilibus quam in ceteris \edtext{sensibilibus}{\Cfootnote{sensibus \textit{P\textsuperscript{x}V\textsuperscript{b}V\textsuperscript{o}}}}}, \edtext{et id tangetur etiam 29°.}{\Cfootnote{\textit{om}. \textit{π}}}, nosce quod causa \edtext{fundatur \hyperref[Ar]{aristoteles}}{\Cfootnote{\hyperref[Ar]{aristoteles} fundatur \textit{βπV\textsuperscript{z}}}} super hoc: quod generatio \edtext{soni et vocis}{\Cfootnote{vocis et soni \textit{P\textsuperscript{y}V\textsuperscript{a}}}} consistit in quodam \edtext{fieri et}{\Cfootnote{motu et \textit{λ}}} transmutari. Sunt namque de genere successiuorum entium, cum \edtext{sunt}{\Cfootnote{sint \textit{βπ}}} in motu, et fiunt tantum \edtext{color}{\Cfootnote{color vero \textit{π}}} odor et sapor de \edtext{manerie}{\Cfootnote{numero \textit{π}}} permanentium, que post factum \edtext{habent esse}{\Cfootnote{esse remanent \textit{π}}} et non prius. Quod \edtext{indicat}{\Cfootnote{denotat \textit{π}}} aristoteles, \edtext{quia singulariter \textit{de anima} secundo}{\Cfootnote{quia secundo \textit{de anima} \textit{π}}} ``determinauit de \edtext{modo generationis}{\Cfootnote{generatione \textit{π}}} soni et vocis,''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Arist. \textit{De an.} II.8, 419b9}} \edtext{et}{\Cfootnote{Et modo inmutandi et \textit{π}}} non \edtext{aliorum, sed inde sensu et sensato}{\Cfootnote{sic de aliis \textit{π}}}. Cum igitur modus generationis soni et perceptionis \edtext{vt ad}{\Cfootnote{ad \textit{V\textsuperscript{o}}}} multum conueniat cum operatione \edtext{siue}{\Cfootnote{seu \textit{V\textsuperscript{o}}}} actione, que fit mediante motu \edtext{qua}{\Cfootnote{quam \textit{P\textsuperscript{x}V\textsuperscript{m}V\textsuperscript{z}}}} consuetudo vt \edtext{dictum}{\Cfootnote{dictum est \textit{γπE\textsuperscript{a}V\textsuperscript{z}}}} acquiritur \edtext{visibilia}{\Cfootnote{audibilia \textit{G\textsuperscript{u}P\textsuperscript{p}P\textsuperscript{y}}}} pre aliis \edtext{sensibilibus}{\Cfootnote{sensibus \textit{πM\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{z}}}} \edtext{reddentur}{\Cfootnote{redduntur \textit{V\textsuperscript{o}} | reddetur \textit{E\textsuperscript{a}P\textsuperscript{y}}}} consueta, vt \edtext{ostendunt}{\Cfootnote{ostendit \textit{P\textsuperscript{x}V\textsuperscript{b}}}} \edtext{eris}{\Cfootnote{\textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{x}}}} et nauium malleatores non audiendo, quod in illis \edtext{non}{\Cfootnote{non vt \textit{β}}} \edtext{acquiratur}{\Cfootnote{acquiratur etiam \textit{α}}} consuetudo \edtext{vtcunque}{\Cfootnote{vtrumque \textit{λP\textsuperscript{y}}}}.
 \pend
 
-\subsubsection[Vigesimumoctauum problema … ]{Vigesimumoctauum problema}\label{part28}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Vigesimumoctauum problema … ]{Vigesimumoctauum problema}\label{part28}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID LEGES APPELLANTUR QUAS CANTANT? \textsuperscript{2}AUT QUIA PRIUSQUAM SCIANT LITTERAS, VIDERUNT LEGES NON LATEANT, QUEMADMODUM IN AGATHUSIS AMPLIUS CONSUEUERUNT? ET POSTERIORIBUS IGITUR CANTIBUS PRIMOS IDEM APPELLAUERUNT QUIDAM PRIMAS}{\lemma{PROPTER \dots\ PRIMAS}\Cfootnote{PROPTER QUID SECUNDUM LEGES \textit{V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1500,7 +1773,17 @@ c. & 243. & solfa. & \\
 \textbf{3} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}}  Soluit dicens causam esse \textit{quia cantantes leges \edtext{ceu}{\Cfootnote{seu \textit{E\textsuperscript{a}V\textsuperscript{m}V\textsuperscript{o}} | sicut \textit{G\textsuperscript{u}P\textsuperscript{p}V\textsuperscript{a}}}} puerili antequam aliquid sciuissent de litteris et cantibus choricis, iam viderant leges seu audiuerant \edtext{scientes etiam}{\Cfootnote{scientes et \textit{E\textsuperscript{a}V\textsuperscript{a}}}} ipsas cantare ad hoc vt non lateant}. Sed reddantur manifeste \edtext{note}{\Cfootnote{voce \textit{κ}}}, velut ``principia in scientia et locus ianue in domo''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Arist. \textit{Met.} II.1, 993b.4–5}} \edtext{vt ostensum est .18\textsuperscript{a}}{\Cfootnote{vt ostensum .18\textsuperscript{a} \textit{β} | \textit{om}. \textit{π}}}. Nam quod primitus discitur optime imprimitur cum anima sit tunc \edtext{ceu}{\Cfootnote{seu \textit{E\textsuperscript{a}V\textsuperscript{m}V\textsuperscript{o}} | sicut \textit{P\textsuperscript{p}V\textsuperscript{b}} | tamquam \textit{G\textsuperscript{u}P\textsuperscript{y}}}} tabula rasa, et \edtext{perfecte}{\Cfootnote{bene \textit{π}}} retinetur, et \edtext{huius}{\Cfootnote{huiusmodi \textit{γN\textsuperscript{u}}}} quidem consuetudo potissime fuit \textit{apud quosdam nominatos agathyrsos.} Quod autem \edtext{primum quis}{\Cfootnote{primum \textit{κ}}} adipiscitur prius nomen suscipit, tanquam \edtext{notum}{\Cfootnote{motum \textit{P\textsuperscript{y}V\textsuperscript{z}}}} cum anima nomen \edtext{imponatur}{\Cfootnote{imponat vt \textit{απ}}} cognoscit. \textit{Itaque cum \edtext{alii}{\Cfootnote{aliis \textit{V\textsuperscript{b}mv}}}, cantus \edtext{vt}{\Cfootnote{\textit{om}. \textit{π}}} \edtext{chorici}{\Cfootnote{theorici \textit{V\textsuperscript{o}}}} siue conuersiui et vniuersaliter tragici, \edtext{sint}{\Cfootnote{sicut \textit{γP\textsuperscript{y}V\textsuperscript{m}}}} posterius cantibus legalibus cantati, puta cum \edtext{sciuerint}{\Cfootnote{sciuerunt \textit{E\textsuperscript{a}V\textsuperscript{a}V\textsuperscript{o}}}} litteras et \edtext{fuerint}{\Cfootnote{fuerit \textit{E\textsuperscript{a}V\textsuperscript{a}}}} adulti leges, primos cantus seu primas melodias quod idem est \edtext{appellarunt}{\Cfootnote{appellauerunt \textit{M\textsuperscript{a}V\textsuperscript{o}V\textsuperscript{z}}}},} sicut scientie de sermone cum prius \edtext{instruantur in hiis}{\Cfootnote{instruantur in eis \textit{βE\textsuperscript{a}} | in eis instruantur \textit{π}}} pueri dicuntur primitiue.
 \pend
 
-\subsubsection[Vigesimumnonum problema … ]{Vigesimumnonum problema}\label{part29}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Vigesimumnonum problema … ]{Vigesimumnonum problema}\label{part29}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID RITHIMI ET CANTUS, VOX EXISTENS, CONSUETUDINIBUS ASSIMILANTUR, SAPORES AUTEM NON, SED NEQUE COLORES ET ODORES? \textsuperscript{2}AUT QUIA MOTUS SUNT QUEMADMODUM ET OPERATIONES? IAM VTIQUE ACTIO QUIDEM MORALE ET FACIT CONSUETUDINEM, SAPORES AUTEM ET COLORES NON FACIUNT SIMILITER}{\lemma{PROPTER \dots\ SIMILITER}\Cfootnote{PROPTER QUID RITHIMI \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1513,7 +1796,17 @@ c. & 243. & solfa. & \\
 \textbf{3} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Soluit dicens causam esse \textit{quia motus qui sunt circa sensibilia \edtext{auditus}{\Cfootnote{\textit{om}. \textit{P\textsuperscript{y}V\textsuperscript{m}}}} tanquam operationes existunt}. Quod declarat quia sicut \edtext{videmus}{\Cfootnote{nos videmus \textit{π}}} \textit{in actione morali quod actus eius inducit consuetudinem et inclinationem ad istud vel \edtext{ad}{\Cfootnote{\textit{om}. \textit{π}}} illud agendum,} ita similiter est in \edtext{sensibus}{\Cfootnote{sensibilibus \textit{γE\textsuperscript{a}M\textsuperscript{a}N\textsuperscript{u}V\textsuperscript{m}}}} auditus. Ex multotiens \edtext{enim audire}{\Cfootnote{quidem audire \textit{V\textsuperscript{o}}}} \edtext{vnum}{\Cfootnote{in vnum \textit{P\textsuperscript{x}V\textsuperscript{m}} | nimium \textit{M\textsuperscript{a}V\textsuperscript{z}}}} cantum inducitur consuetudo, \edtext{qua}{\Cfootnote{que \textit{γλN\textsuperscript{u}}}} habituata cantus ille \edtext{reputatur}{\Cfootnote{redditur \textit{π}}} delectabilis, \edtext{etiam}{\Cfootnote{et \textit{M\textsuperscript{a}P\textsuperscript{z}V\textsuperscript{a}}}} si non sit secundum veritatem, non autem circa sensibilia aliorum sensuum, vt \edtext{declaratum}{\Cfootnote{declaratum est \textit{γπ}}}, accidit. Et hoc est quod subditur sapores qui sunt sensibilia; \textit{gustus et odores qui olfatus non id operantur,} quod ex ipsis consuetudo \edtext{consimilibus}{\Cfootnote{similiter \textit{β} | consimiliter \textit{γE\textsuperscript{a}V\textsuperscript{o}}}} audibilibus acquiratur.
 \pend
 
-\subsubsection{Trigesimum problema}\label{part30}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection{Trigesimum problema}\label{part30}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID NEQUE YPODORISTIUM NEQUE YPOFRIGISTIUM NON EST IN TRAGEDIA ROTATIUUM? \textsuperscript{2}AUT NON HABET CONUERSIUUM? SED A SCENA, IMMUTATIUA ENIM}{\lemma{PROPTER \dots\ ENIM}\Cfootnote{\textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1530,7 +1823,17 @@ c. & 243. & solfa. & \\
 \textbf{4} Nosce vt apparet 8°. \textit{politicorum} aristotelem tangere tres \edtext{cantus modos}{\Cfootnote{modos cantus \textit{λπ} | cantus mentis \textit{γ}}}: precipue phrigistium, \edtext{doricum}{\Cfootnote{doricum vel doristicum \textit{π}}}, et lidium. \edtext{Phrigistius}{\Cfootnote{Frigisticus vel phigistius \textit{π}}} est troianus, \edtext{qui}{\Cfootnote{que \textit{M\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{m}}}} est cantus \edtext{agrestis}{\Cfootnote{agrestis et \textit{γ}}} incitatiuus in iram et passionem, \edtext{ceu}{\Cfootnote{seu \textit{πE\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{m}}}} qui fistule \edtext{in quam}{\Cfootnote{in quem \textit{γE\textsuperscript{a}M\textsuperscript{a}}}} concidit decenter \edtext{ditirantibus}{\Cfootnote{ex tyranbus \textit{πE\textsuperscript{a}}}}. \edtext{Dorista}{\Cfootnote{Doristas \textit{γ}}} siquidem maluaficiacus cantus laudabilis ``tanquam \edtext{stabilis}{\Cfootnote{stabilis et \textit{πE\textsuperscript{a}}}} \edtext{virilis}{\Cfootnote{\textit{om}. \textit{M\textsuperscript{a}V\textsuperscript{b}}}},''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Arist. \textit{Pol.} VIII, 1324b12}} \edtext{vnde .48.}{\Cfootnote[nosep]{\textit{emend.} | vnde .40. \textit{βV\textsuperscript{a}} | vnde .41. \textit{π} | \textit{om}. \textit{P\textsuperscript{x}V\textsuperscript{m}V\textsuperscript{z}}}} ``\edtext{magnificus stabilis}{\Cfootnote{\textit{om}. \textit{M\textsuperscript{a}V\textsuperscript{b}}}} cytharicissimus omnium''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Ps.-Arist. \textit{Prob.} XIX.48, 922b15}} ``\edtext{et}{\Cfootnote{\textit{om}. \textit{π}}} \edtext{ceu}{\Cfootnote{seu \textit{V\textsuperscript{o}}}} omnium superhabundantiarum \edtext{mediis}{\Cfootnote{medius \textit{βM\textsuperscript{a}}}} laudatus in quo pueruli sunt edocendi.''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Arist. \textit{Pol.} VIII, 1324b12–18}} Lidius quidem dicitur a \hyperref[Tor]{chorebo} lidorum rege. Qui omnibus laudabilior \edtext{est}{\Cfootnote{\textit{om}. \textit{απ}}}. ``\edtext{Cum}{\Cfootnote{Cum enim \textit{απ}}} sit aliorum \edtext{medius}{\Cfootnote{mediis \textit{V\textsuperscript{b}mv}}}, tria in se continet quod medium \edtext{rationem habens}{\Cfootnote{commune habens \textit{πE\textsuperscript{a}}}} virtutis quod decens \edtext{et}{\Cfootnote{et quod \textit{απ}}} possibile,''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Arist. \textit{Pol.} VIII, 1324b32–34}} que in cantu et maxime pverorum sunt obseruanda. Vnde \edtext{boecius \textit{musice} .4.}{\Cfootnote{boecius quarto \textit{musice} \textit{π}}} ``si quis totas constitutiones faciat acutiores vel \edtext{graues}{\Cfootnote{grauiores \textit{π}}} totas remittat dyapason consonantie species, efficiet modos .7. \edtext{ceu}{\Cfootnote{seu \textit{E\textsuperscript{a}V\textsuperscript{m}V\textsuperscript{o}}}} sunt ypodorius ypofrigius ypolidius dorius frigius lidius mixolidius''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Boeth. \textit{De inst. mus.} IV.15 ((Friedlein p. 342, ll. 10–14))}} \edtext{ypermixolidius}{\Cfootnote{\textit{om}. \textit{π}}}. Duplat \edtext{igitur}{\Cfootnote{enim \textit{E\textsuperscript{a}V\textsuperscript{o}}}} vel triplat quod \hyperref[Ar]{aristoteles} \hyperref[Bo]{boecius}.
 \pend
 
-\subsubsection[Trigesimumprimum problema … ]{Trigesimumprimum problema}\label{part31}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Trigesimumprimum problema … ]{Trigesimumprimum problema}\label{part31}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID CIRCA PHRINICUM FUERUNT MAGIS DULCE MELODIA? \textsuperscript{2}AUT PROPTER ID QUOD MULTIPLICES SUNT TUNC CANTUS IN TRAGEDIIS METRORUM}{\lemma{PROPTER \dots\ METRORUM}\Cfootnote{PROPTER QUID CIRCA FRINICHUM \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}?}
 \pend
@@ -1543,7 +1846,17 @@ c. & 243. & solfa. & \\
 \textbf{3} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Soluit dicens causam esse \textit{quoniam cantus apud eum fuerunt multiplices et differenter compositi propter quod secundum plurimum fuerunt in tragediis metrorum.} Tales autem sunt suaues maxime, cum eorum sit principaliter \edtext{finis}{\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}} iocunditatem inducere.
 \pend
 
-\subsubsection[Trigesimumsecundum problema … ]{Trigesimumsecundum problema}\label{part32}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Trigesimumsecundum problema … ]{Trigesimumsecundum problema}\label{part32}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID DYAPASON APPELLATUR, SED NON SECUNDUM NUMERUM DYAOCTO, QUEMADMODUM ET DYATESSERON ET DYAPENTE? \textsuperscript{2}AUT QUIA .VII. FUERUNT CORDE ANTIQUITUS? POSTEA EXTRAHENS TERTIAM, \hyperref[Ter]{TERPANDERUS} NITEM APPOSUIT. ET IN HOC APPELLATA EST. DYAPASON, SED NON DYAOCTO, DYASEPTEM ENIM ERAT}{\lemma{PROPTER \dots\ ERAT}\Cfootnote{PROPTER QUID DYAPASON \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1556,7 +1869,17 @@ c. & 243. & solfa. & \\
 \textbf{3} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Soluit dicens causam esse cur dyapason dicitur et non dyaocto \textit{quia corde \edtext{instrumentorum antiquitus 7. tantum fuere}{\Cfootnote{instrumentorum antiquitus 7 fuere \textit{π}}}. Postmodum superuenit \hyperref[Ter]{tripandius}, qui tertiam subtraxit cordam vt paramese cuius quidem loco nitem \edtext{apponit}{\Cfootnote{apposuit \textit{απM\textsuperscript{a}}}}}, ita vt non videatur mutasse numerum, sed proportionem potius, \textit{et propter hoc appellata est dyapason,} \edtext{quoniam}{\Cfootnote{quia \textit{λ}}} ex tali mutatione \edtext{optima}{\Cfootnote{opposita \textit{β}}} \edtext{adinuenta est}{\Cfootnote{est adinuenta \textit{λ} | inuenta est \textit{π} | adiuncta est \textit{V\textsuperscript{b}}}} consonantia. \textit{Non itaque dicitur dyaocto, cum corde non \edtext{sunt}{\Cfootnote{sint \textit{λE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{o}}}} nisi 7.} Potius enim \edtext{dicendum}{\Cfootnote{deberet \textit{γ} | debent \textit{V\textsuperscript{m}}}} \edtext{esset}{\Cfootnote{esse \textit{V\textsuperscript{b}V\textsuperscript{m}} | dici \textit{V\textsuperscript{a}mv}}} dyaseptem, cum tantum isto numero \edtext{imitando qui planetarum numerum vt visum est contineantur}{\Cfootnote{imitando qui planetarum vt visum est numero contineantur \textit{λ} | immutando qui planetarum numerum vt visum est contineantur \textit{γE\textsuperscript{a}} | contineantur imitando numerum planetarum vt visum est \textit{G\textsuperscript{u}P\textsuperscript{z}} | contineantur imitando naturam planetarum vt visum est \textit{P\textsuperscript{p}V\textsuperscript{o}}}}. Quia \edtext{tamen}{\Cfootnote{cum \textit{γM\textsuperscript{a}V\textsuperscript{z}}}} \edtext{corde prius .7.}{\Cfootnote{prius corde .7. \textit{πE\textsuperscript{a}}}} fuerunt vt \edtext{apparuit}{\Cfootnote{apparebit \textit{πE\textsuperscript{a}}}}, pauciores pluresque \edtext{demum}{\Cfootnote{deinde \textit{V\textsuperscript{o}}}} adinuente, tamquam nomen stabilius, elegerunt potius dyapason dicere seu per totum et perfectum quam dyaseptem, tanquam nomen magis \edtext{denotatiuum}{\Cfootnote{denominatiuum \textit{V\textsuperscript{o}} | determinatum \textit{G\textsuperscript{u}P\textsuperscript{p}}}} essentie ipsius. Et tactum quidem \edtext{.25. problema}{\Cfootnote{25° problemate \textit{P\textsuperscript{y}V\textsuperscript{b}} | est hoc prius \textit{π}}}.
 \pend
 
-\subsubsection[Trigesimumtertium problema … ]{Trigesimumtertium problema}\label{part33}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Trigesimumtertium problema … ]{Trigesimumtertium problema}\label{part33}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID CONSONANTIUS EST IN GRAUE QUAM A GRAUI IN ACUTUM? \textsuperscript{2}UTRUM QUIA A PRINCIPIO FIT INCIPERE? \textsuperscript{3}MEDIA ENIM ET PRINCIPALIS ACUTISSIMA PARACORDE. HOC AUTEM NON A PRINCIPIO, SED A FINE. \textsuperscript{4}AUT QUIA GRAUE AB ACUTO FORTIUS ET MAGIS VOCALE}{\lemma{PROPTER \dots\ VOCALE}\Cfootnote{PROPTER QUID CONSONANTIUS \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}?}
 \pend
@@ -1577,7 +1900,17 @@ c. & 243. & solfa. & \\
 \textbf{5} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Assignat aliam causam dicens id \edtext{etiam}{\Cfootnote{\textit{om}. \textit{γV\textsuperscript{o}V\textsuperscript{z}}}} esse \textit{quoniam graue \edtext{incipiens}{\Cfootnote{descendens \textit{π}}} ab acuto fortius est. Diutius enim permanet et magis vocale existit quam econuerso.} Hoc autem facere magis est \edtext{connaturale}{\Cfootnote{contra naturale \textit{βV\textsuperscript{z}}}} \edtext{ac}{\Cfootnote{hac \textit{V\textsuperscript{o}}}} etiam morale \edtext{quam}{\Cfootnote{quidem \textit{V\textsuperscript{o}}}} suum contrarium. ``Videmus enim in operibus nature quod ipsa in principio a leuibus et debilibus incipit, non enim tunc est, operosa sed in fine,''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Ps.Arist. \textit{Prob.} X.45, 895b27-896a4}} \edtext{vt dictum est 10\textsuperscript{a}.}{\Cfootnote{\textit{om}. \textit{π}}} Et ideo est videre optimos cantatores naturam \edtext{imitantes}{\Cfootnote{mutantes \textit{P\textsuperscript{x}V\textsuperscript{m}}}} hoc \edtext{seruare}{\Cfootnote{obseruare \textit{βπE\textsuperscript{a}V\textsuperscript{b}}}}, quod in acuto leuiter incipientes in \edtext{grauem}{\Cfootnote{graue \textit{βπV\textsuperscript{a}}}} postea conterminant, et non econtra concordant.
 \pend
 
-\subsubsection[Trigesimumquartum problema … ]{Trigesimumquartum problema}\label{part34}
+% \pstart
+% \vspace{1em}
+% \begin{center}
+%     {\Large \ding{167}}
+% \end{center}
+% \pend
+% \vfill
+
+% \newpage
+
+\subsection[Trigesimumquartum problema … ]{Trigesimumquartum problema}\label{part34}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID BIS QUIDEM PER ACUTOS. ET BIS DYATESSERON NON CONSONAT, BIS DYAPASON AUTEM? \textsuperscript{2}AUT QUIA BIS PER ACUTOS NEQUE BIS DYATESSERON EST, QUOD AUTEM PER QUATUOR AUT PER QUINQUE}{\lemma{PROPTER \dots\ QUINQUE}\Cfootnote{PROPTER QUID BIS QUIDEM \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}?}
 \pend
@@ -1590,7 +1923,17 @@ c. & 243. & solfa. & \\
 \textbf{3} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Soluit dicens causam esse \textit{quoniam bis paracutos vel bis dyapente \edtext{vel}{\Cfootnote{et \textit{γλE\textsuperscript{a}N\textsuperscript{u}}}} \edtext{bis dyatesseron}{\Cfootnote{dyatesseron \textit{πP\textsuperscript{x}}}} non est dare, quod constituant aliquam consonantiam, quoniam illud quod per quatuor se habet aut per .5. licet proportionem constituant et per consequens consonantiam, vt per quatuor dyatesseron \edtext{vel}{\Cfootnote{vel per \textit{G\textsuperscript{u}P\textsuperscript{p}P\textsuperscript{x}}}} 5. dyapente.} Quando \edtext{enim}{\Cfootnote{\textit{om}. \textit{π}}} \edtext{minus extremum prime, et}{\Cfootnote{extremum prime minus \textit{πE\textsuperscript{a}}}} extremum \edtext{magis}{\Cfootnote{maius \textit{απM\textsuperscript{a}}}} secunde comparantur ad inuicem nulla consonantiarum resultat inde, vt videbitur .41., ubi repetitur idem amplioris expositionis gratia.
 \pend
 
-\subsubsection[Trigesimumquintum problema … ]{Trigesimumquintum problema}\label{part35}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Trigesimumquintum problema … ]{Trigesimumquintum problema}\label{part35}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID DYAPASON OPTIMA CONSONANTIA EST? \textsuperscript{2}AUT QUIA IN OMNIBUS TERMINIS RATIONES SUNT, ALIORUM AUTEM NON IN OMNIBUS? QUONIAM AUTEM DUPLEX NITE YPATES. QUOT NITE DUE YPATEM VNUM, ET QUALIS YPATE DUO NITE QUATUOR, ET SEMPER ITA. \textsuperscript{3}MEDIE AUTEM EMIOLIA. QUOD ENIM PER QUINQUE EMIOLIUM NON IN OMNIBUS NUMERIS EST. NON ENIM VNUM MINUS, MAIUS TANTUM AUTEM ET ADHUC MEDIUM. QUARE NON TOTA AD TOTA COMPARANTUR, SED INSUNT PARTES. \textsuperscript{4}SIMILITER ET IN EO QUOD EST PER IIII. SE HABET, EPITRICON ENIM EST QUANTUM INCIDERE QUOD ET ADHUC IN .IIII. EPITRICON EST.  \textsuperscript{5}AUT PERFECTISSIMA QUE EST EX VTRISQUE, ET QUIA MENSURA MELODIE? PER TOTUM ID QUOD FERTUR QUE EST SECUNDUM MEDIUM MOTUS FORTISSIMUS, INCIPIENTE AUTEM ET FINIENTE MOLLIOR. QUANDO AUTEM FORTISSIMUS MOTUS, ET VOX ACUTIOR EIUS QUΟD FERTUR, PROPTER QUOD ET CORDE TENSE ACUTIUS SONANT, VELOCIOR ENIM MOTUS FIT. \textsuperscript{6}SONUS AUTEM AUT AERIS AUT ALIUS CUIUSDAM MOTUS, CAUSA QUE EST PER MEDIUM PORUM ACUTISSIMUM OPORTET FIERI. QUARE SI HOC NON ACCIDIT, NON ERIT MOTUS ALICUIUS}{\lemma{PROPTER \dots\ ALICUIUS}\Cfootnote{PROPTER QUID DYAPASON \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1627,7 +1970,17 @@ c. & 243. & solfa. & \\
 \textbf{9} Sciendum ptolomeum in \textit{armonica} taliter declarare ``dyapason esse optimam et perfectissimam \edtext{consonantiarum}{\Cfootnote{consonantiam \textit{πP\textsuperscript{y}}}}, fere siquidem \edtext{vna}{\Cfootnote{\textit{om}. \textit{πP\textsuperscript{y}}}} existit \edtext{vocula}{\Cfootnote{notula \textit{πP\textsuperscript{y}V\textsuperscript{a}V\textsuperscript{z}}}}, vnum quodammodo sonum componens, puta \edtext{ceu}{\Cfootnote{seu \textit{E\textsuperscript{a}V\textsuperscript{m}V\textsuperscript{o}}}} si \edtext{denario}{\Cfootnote{denarius \textit{M\textsuperscript{a}V\textsuperscript{m}}}} aliquis numerorum addatur, vt duo, semper remanet \edtext{denarius}{\Cfootnote{binarius \textit{πE\textsuperscript{a}}}} integer illesus,''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Boeth. \textit{De inst. mus.} V.10 ((Friedlein 360, ll. 6–10. Cf. Ptol. Harm. I.7, where Ptolemy actually says that the octave is a homophone, not a concord.))}} ``non enim ultra ipsum numerus quis eleuatur,''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Arist. \textit{Prob.} XV.3, 910b23–30}} vt visum \edtext{est}{\Cfootnote{\textit{om}. \textit{βV\textsuperscript{a}}}} .15. Quod tamen non contingit in ceteris proportionibus, nam si tribus duo coniungantur statim fiunt .5. et mutatur species numeri. Sed \edtext{si}{\Cfootnote{\textit{om}. \textit{E\textsuperscript{a}V\textsuperscript{o}}}} duo \edtext{addas}{\Cfootnote{addit \textit{P\textsuperscript{u}P\textsuperscript{z}V\textsuperscript{o}}}} \edtext{denario}{\Cfootnote{denarium \textit{V\textsuperscript{o}}}} duodecim \edtext{faciens}{\Cfootnote{facies \textit{M\textsuperscript{a}P\textsuperscript{y}}}}, \edtext{et}{\Cfootnote{\textit{om}. \textit{γ}}} \edtext{vtrique}{\Cfootnote{vterque \textit{M\textsuperscript{a}V\textsuperscript{z}}}} \edtext{numerus}{\Cfootnote{videtur \textit{πE\textsuperscript{a}}}} integer \edtext{conseruabitur}{\Cfootnote{conseruari \textit{πE\textsuperscript{a}}}}, et similiter si addas ternarium et ceteros eodem modo. \edtext{Similiterque}{\Cfootnote{Similiter quia \textit{G\textsuperscript{u}P\textsuperscript{p}P\textsuperscript{x}}}} dyapason simphonia \edtext{quancunque}{\Cfootnote{quantumcunque \textit{γ}}} consonantiam aliam sumat, seruat suam consonantiam neque \edtext{immutat}{\Cfootnote{imitatur \textit{V\textsuperscript{o}}}}, vt ex \edtext{consona}{\Cfootnote{consonantia \textit{γ}}} reddat se dissonam, quod in aliis non accidit simphoniis.
 \pend
 
-\subsubsection[Trigesimumsextum problema … ]{Trigesimumsextum problema}\label{part36}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Trigesimumsextum problema … ]{Trigesimumsextum problema}\label{part36}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID SI QUIDEM MEDIA MOUEBITUR ET ALIE CORDE SONANT, SI AUTEM ITERUM HEC QUIDEM MANET ALIARUM AUTEM QUEDAM MOUEATUR MOTA SOLA SONAT? \textsuperscript{2}AUT QUIA CONCORDARE EST OMNIBUS HABERE SE AUTEM QUODAMMODO AD MEDIAM OMNIBUS, ET ORDINATIO QUE EST VNIUSCUIUSQUE VTIQUE PER ILLAM EST? ELEUATA IGITUR CAUSA CONCORDANDI ET CONTINENTIS, NON ADHUC SIMILITER APPARERE EXISTERE. VNA AUTEM DISCORDANTE EXISTENTE MEDIA AUTEM MANENTE, RATIONABILITER QUOD EST SECUNDUM IPSAM DEFICIENS, ALIIS ENIM EXISTIT CONCORDARE}{\lemma{PROPTER \dots\ CONCORDARE}\Cfootnote{\textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1644,7 +1997,17 @@ c. & 243. & solfa. & \\
 \textbf{4} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Soluit dicens causam esse quoniam media cordarum concordat et consonat cum omnibus cordis. Quod ostenditur \textit{quoniam concordare cum omnibus nichil aliud est quam se habere aliqualiter ad mediam \edtext{omnis}{\Cfootnote{omnes \textit{M\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{b}}}}, ordinatio enim vniuscuiusque aliarum cordarum per illam existit. Quod probatur quoniam \edtext{ipsa}{\Cfootnote{illa \textit{V\textsuperscript{o}}}} media remota ex instrumento, non amplius erit sentire cordam aliquam que existat ratio concordandi alias concorditerque retinendi. Sed vna aliarum \edtext{remota}{\Cfootnote{remoueatur \textit{π}}} ita quod causa existat discordandi dummodo media cordarum \edtext{recte maneat}{\Cfootnote{remaneat \textit{G\textsuperscript{u}P\textsuperscript{p}} | remoueat \textit{V\textsuperscript{o}}}}, sicut debet, illud quod erat deficiens, vt corda ablata, suppletur per mediam, ita quod illa remota adhuc aliis cordis inerit concordare et consonantiam reddere per virtutem medie.} Media enim est vt magistra et regula \edtext{aliarum omnium}{\Cfootnote{omnium aliarum \textit{λ} | omnium ceterarum \textit{P\textsuperscript{p}P\textsuperscript{u}} | omnium ceterorum \textit{V\textsuperscript{o}}}}.
 \pend
 
-\subsubsection[Trigesimumseptimum problema … ]{Trigesimumseptimum problema}\label{part37}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Trigesimumseptimum problema … ]{Trigesimumseptimum problema}\label{part37}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID QUOD EST IN VOCE ACUTO EXISTENTE MODICUM, GRAUI AUTEM SECUNDUM MULTUM GRAUE? QUIDEM ENIM PROPTER MULTITUDINEM GRAUE, ACUTUM AUTEM PROPTER PAUCITATEM VELOX EST. \textsuperscript{2}MOLESTUM MAGIS CANTARE ACUTA QUAM GRAUIA, ET PAUCI ASCENDENTIA POSSUNT CANTARE, ET LEGES DIRIGUNT, ET ACUTI DIFFICILES DIMITTERE PROPTER ID QUOD TENSI SUNT. \textsuperscript{3}MINUS OPUS MODICUM MOUERE QUAM MULTUM, QUARE ET AEREM. \textsuperscript{4}AUT IDEM ACUTE SONANS ESSE NATURA ET ACUTE CANERE, SED NATURA QUIDEM ACUTE VOCIS OMNIA PROPTER IMBECILLITATEM PRO EO QUOD NON POTEST MOUERE MULTUM AEREM, SED MODICUM. MODICUS AUTEM VELOCITER FERTUR. IN CANTANDO AUTEM ACUTUM POTENTIE SIGNUM, QUOD QUIDEM ENIM VEHEMENTER FERTUR VELOCITER, PROPTER QUOD ET ACUTUM POTENTIE SIGNUM. PROPTER QUOD ET QUI SUNT BONI HABITUS ACUTE VOCIS, ET MOLESTUM QUE ELEUANTUR CANTARE, GRAUIA AUTEM DEORSUM}{\lemma{PROPTER \dots\ DEORSUM}\Cfootnote{PROPTER QUID QUOD EST IN VOCE \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1665,7 +2028,17 @@ c. & 243. & solfa. & \\
 \textbf{5} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT. \textit{V\textsuperscript{a}mv}}} Soluit dicens causam esse sumendam ex hoc, \textit{quia idem videtur esse naturaliter acute sonare et \edtext{acute cantare}{\Cfootnote{sonare \textit{π}}}, \edtext{et}{\Cfootnote{\textit{om}. \textit{κV\textsuperscript{o}}}} non differt nisi \edtext{secundum quod}{\Cfootnote{sicut \textit{π}}} \edtext{superius differt}{\Cfootnote{differt superius \textit{λ} | superius \textit{π}}} ab inferiori.} Hoc autem assumit vt \edtext{declaret}{\Cfootnote{declararet \textit{P\textsuperscript{x}V\textsuperscript{b}}}} per \edtext{id}{\Cfootnote{illud \textit{E\textsuperscript{a}P\textsuperscript{x}}}} quod est in voce \edtext{vniversaliter}{\Cfootnote{videtur \textit{π}}} \edtext{sic esse}{\Cfootnote{est \textit{κ}}} in sono. Vnde subdens ait ``omnia naturaliter acute \edtext{vocis}{\Cfootnote{vocem \textit{γM\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{m}}}} fieri propter debilitatem suam, eo quod non \edtext{possunt}{\Cfootnote{possint \textit{λE\textsuperscript{a}V\textsuperscript{b}}}} multum aerem mouere, qui \edtext{grauis vocis est causa}{\Cfootnote{est causa grauis vocis \textit{γ} | grauis est causa \textit{πE\textsuperscript{a}}}}. Sed modicum possunt, modicus autem aer motus velociter fertur,''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Ps.Arist. \textit{Prob.} XI.13, 900a21–27, 901a.31–32}} \edtext{vt visum est .xi.}{\Cfootnote{vt visum .xi. \textit{β} | \textit{om}. \textit{π}}} \edtext{Sepe atque}{\Cfootnote{Sepe at quia \textit{E\textsuperscript{a}N\textsuperscript{u}} | Aut quia \textit{π}}} acutum \edtext{sic velociter mouetur}{\Cfootnote{velociter mouetur sic \textit{π}}} si quis cantauerit secundum acutum. Signum quidem ex hoc suscipitur \edtext{cuiusdam}{\Cfootnote{eiusdem \textit{π}}} vigoris \edtext{in}{\Cfootnote{\textit{om}. \textit{γ}}} eo quod mouet aliquid velociter, quod non fieret nisi vigor adesset. Et ideo ex hoc \edtext{confirmatione}{\Cfootnote{confirmatiue \textit{P\textsuperscript{x}V\textsuperscript{o}}}} concluditur \edtext{quod}{\Cfootnote{quod si \textit{κ}}} illi qui sunt bone complexionis quorum pulmones non redundant humiditatibus superfluis existere vocis acute eo quod organum est \edtext{exsiccatum}{\Cfootnote{excitatum \textit{G\textsuperscript{u}P\textsuperscript{p}P\textsuperscript{u}V\textsuperscript{o}}}} solidum. Et quia difficile est \edtext{cantare}{\Cfootnote{cantare ea \textit{π}}} que eleuantur, cum acuta extollantur, ipsa \edtext{fiet}{\Cfootnote{fiat \textit{P\textsuperscript{y}V\textsuperscript{a}}}} cantare difficile, nam ``\edtext{eleuare}{\Cfootnote{eleuantur \textit{π}}} contra naturam,''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Ps.Arist. \textit{Prob.} II.38, 870a34. }} \edtext{vt visum est particula secunda.}{\Cfootnote{vt visum particula secunda \textit{βE\textsuperscript{a}} | \textit{om}. \textit{π}}} Et quia grauia naturaliter tendunt deorsum, quod nobis magis \edtext{naturale}{\Cfootnote{naturale est \textit{π}}}, \edtext{ideo facile fit}{\Cfootnote{facile fit ideo \textit{β} | facile igitur sit \textit{πE\textsuperscript{a}}}} ipsa cantare. Sic igitur soluitur adquesitum, neque ambiguitas relinquitur aliqua que in xi\textsuperscript{a}. particula intelligenti dicta, quoniam in acute cantare siue sonare \edtext{duo fit}{\Cfootnote{est duo \textit{π}}} considerare: puta ``modicum aerem motum et quantum ad hoc videtur quod acutum mouere sit facile,''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Ps.Arist. \textit{Prob.} XI.14, 900a34–36}} cum id debiles agant et impotentes. \edtext{Est et}{\Cfootnote{Et est \textit{π} | Est \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}}}} considerare quod illud modicum aeris velociter mouetur, et quia quod \edtext{huius}{\Cfootnote{huiusmodi \textit{βγ}}} non \edtext{fit}{\Cfootnote{sit \textit{γE\textsuperscript{a}}}} nisi a constanti virtute. \edtext{Ideo}{\Cfootnote{Item \textit{V\textsuperscript{o}} | Ergo \textit{G\textsuperscript{u}P\textsuperscript{p}}}} acutum mouere denotat constantiam virtutis, et difficultatem per consequens, quare apparuit .14°. \edtext{xi\textsuperscript{e}.}{\Cfootnote{\textit{om}. \textit{π}}} ``pueros \edtext{voces acutiores}{\Cfootnote{acutiores voces \textit{πP\textsuperscript{y}}}} habere \edtext{senioribus}{\Cfootnote{senibus \textit{P\textsuperscript{x}P\textsuperscript{y}}}}, propter consistentiam calidi \edtext{virtuosi}{\Cfootnote{unctuosi \textit{γ}}}.''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Ps.Arist. \textit{Prob.} XI.14, 900a33-900b8}}
 \pend
 
-\subsubsection[Trigesimumoctauum problema … ]{Trigesimumoctauum problema}\label{part38}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Trigesimumoctauum problema … ]{Trigesimumoctauum problema}\label{part38}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID ET RITHIMO ET CANTU ET OMNINO CONSONANTIIS GAUDENT OMNES? \textsuperscript{2}AUT QUIA MOTIBUS QUI SUNT SECUNDUM NATURAM GAUDEMUS SECUNDUM NATURAM? \textsuperscript{3}SIGNUM AUTEM PUEROS CONFESTIM NATOS GAUDERE IPSIS. PROPTER CONSUETUDINEM AUTEM MODIS CANTUUM GAUDEMUS. \textsuperscript{4}RITHIMO AUTEM GAUDEMUS PROPTER MOTUM ET ORDINATUM NUMERUM HABERE ET MOUERE NOS ORDINATE. MAGIS PRIUS ENIM EST ORDINATUS MOTUS NATURA INORDINATO, QUARE ET SECUNDUM NATURAM MAGIS. \textsuperscript{5}SIGNUM AUTEM LABORANTES ENIM ET BIBENTES ET COMEDENTES ORDINATE SALUAMUS ET AUGEMUS NATURAM ET VIRTUTEM, INORDINATE AUTEM CORRUMPIMUS ET STUPEFACIMUS IPSAM. EGRITUDINES ENIM ORDINATIONIS CORPORIS NON SECUNDUM NATURAM MOTUS SUNT. \textsuperscript{6}CONSONANTIA GAUDEMUS QUONIAM COMPLEXIO EST CONTRARIORUM HABENTIUM PROPORTIONEM AD INUICEM. PROPORTIO AUTEM ORDINATIO, QUOD ERAT NATURA DELECTABILE. COMPLEXIONATUM AUTEM INCOMPLEXIONATO OMNE DELECTABILIUS ALITER. \textsuperscript{7}QUAMUIS SENSIBILE SIT VTRISQUE EXTREMIS EX EQUALI POTENTIAM HABET IN CONSONANTIA PROPORTIO}{\lemma{PROPTER \dots\ PROPORTIO}\Cfootnote{\textit{om}. \textit{βE\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1698,7 +2071,17 @@ c. & 243. & solfa. & \\
 \textbf{8} \edtext{\textit{QUAMUIS.}}{\Cfootnote{Deinde. QUAMUIS. \textit{V\textsuperscript{a}mv}}} Remouet \edtext{secundo dubitationem}{\Cfootnote{dubium \textit{G\textsuperscript{u}P\textsuperscript{p}}}}, quia crederet aliquis eo quod complexionatum compositum est ex vtrisque \edtext{extremorum non posse delectabile fore. Quod remouet, dicens}{\Cfootnote{\textit{om}. \textit{κ}}} \textit{\edtext{quodlibet sit complexionatum ex vtrisque}{\Cfootnote{\textit{om}. \textit{κ}}} extremorum excellentiis constitutum.} Nichilominus tamen est delectabile, quoniam ipsum constituitur ex contrariis et inequalibus, et non ex \edtext{omnino}{\Cfootnote{non \textit{V\textsuperscript{b}mv}}} similibus et equalibus, sic enim non \edtext{posset}{\Cfootnote{potest \textit{π}}} adeo mouere. Et ideo thimoteus consonantiam fieri ait ex dissimilibus in vnam et eandem vocem venientibus, nam in vocibus que nulla equalitate discordant nulla omnino extat consonantia, cum ea sit vt tactum \edtext{est}{\Cfootnote{\textit{om}. \textit{βE\textsuperscript{a}}}} dissimilium inter se vocum \edtext{in vnum}{\Cfootnote{\textit{om}. \textit{π}}} redacta concordia. Si enim grauis graui misceatur, nulla \edtext{fit}{\Cfootnote{sit \textit{E\textsuperscript{a}G\textsuperscript{u}P\textsuperscript{p}}}} consonantia sed dissimilitudo, \edtext{neque}{\Cfootnote{ne \textit{V\textsuperscript{o}}}} similiter si acutum iungatur acuto. Plato siquidem voluit \edtext{taliter}{\Cfootnote{talem \textit{λ} | tradere taliter \textit{π}}} \edtext{consonantiam}{\Cfootnote{consonantia \textit{E\textsuperscript{a}V\textsuperscript{a}}}} in aure causari, necesse quidem ait sonum velociorem \edtext{esse}{\Cfootnote{esse et \textit{λ}}} acutiorem, qui cum precesserit grauem ingreditur celeriter in aurem ipsius ledens extremitatem intrinsecam. Et ideo quasi pulsus cum \edtext{tanto}{\Cfootnote{canto \textit{P\textsuperscript{x}P\textsuperscript{y}V\textsuperscript{o}}}} motu \edtext{retro reuertitur}{\Cfootnote{retrouertitur \textit{βγM\textsuperscript{a}V\textsuperscript{z}}}}, et quia iam pigrescit exire, obuiat graui subintranti et sibi commiscetur consonantiam constituens musicalem. Id tamen vt visum est dictis non conuenit thimotei.
 \pend
 
-\subsubsection[Trigesimumnonum problema … ]{Trigesimumnonum problema}\label{part39}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Trigesimumnonum problema … ]{Trigesimumnonum problema}\label{part39}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID DELECTABILIUS EST SECUNDUM CONSONANTIAM EO QUOD EST VNIUS VOCIS? \textsuperscript{2}AUT ET ANTIFONUM QUIDEM CONSONUM EST DYAPASON? EX PUERIS ENIM IUUENIBUS, ET NUMERUS FIT ANTIFONUM, QUI DISTANT COMMUNIS SICUT NITE AD YPATEM. CONSONANTIA AUTEM OMNIS DELECTABILIUS SIMPLICI SONO, PER QUE AUTEM DICTUM EST, ET HORUM DYAPASON DELECTABILISSIMA QUIDEM QUAM VNIUS SONI EST SIMPLICEM HABET SONUM. ORGANIZANT AUTEM IN DYAPASON CONSONANTIA. \textsuperscript{3}QUIA QUEMADMODUM IN METRIS PEDES HABENT AD SE IPSOS RATIONEM EQUALEM AD EQUALEM, AUT DUO AD VNUM, AUT ALIQUEM ALIUM, \textsuperscript{4}ET ITA IN CONSONANTIA SONI PROPORTIONEM HABENT MOTUS AD SE IPSOS. \textsuperscript{5}ALIARUM AUTEM CONSONANTIARUM IMPERFECTE, QUE ALTERIUS REUERSIUE SUNT IN MEDIUM FINIUNT, PROPTER QUOD POTENTIA NON EQUALES SUNT. EXISTENTES AUTEM INEQUALES PER CORRUPTIONEM SENSUI. QUEMADMODUM IN ROTIS IN DISSOLUENDO MAIUS SALTANS SONANTIBUS EST.  \textsuperscript{6}AMPLIUS YPATE ACCIDIT EUNDEM FINEM PERIODORUM, QUI SUNT IN SONIS, HABERE; SECUNDA AUTEM NEATIS ICTUS AERIS YPATE EST. FINIENS AUTEM IN IDEM, NON IDEM FACIENTIBUS VNUM ET COMMUNE OPUS ACCIDIT FIERI, QUEMADMODUM SONANTIBUS SUB CANTU. ETENIM HII ALIA NON PARITER FISTULANTUR, SI IN IDEM CONUERTANT DELECTANT MAGIS FINE QUAM CONTRISTANT DIFFERENTIIS QUE SUNT AD FINEM, IN EO QUOD FIT EX DIFFERENTIBUS COMMUNE DELECTABILISSIMUM EX DYAPASON. ORGANIZANT AUTEM EX CONTRARIIS VOCIBUS; PROPTER HOC IN DYAPASON ORGANIZANT}{\lemma{PROPTER \dots\ ORGANIZANT}\Cfootnote{PROPTER QUID DELECTABILIUS \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1731,7 +2114,17 @@ c. & 243. & solfa. & \\
 \textbf{8} Nosce quod sicut se habet vox composita ad simplicem, ita dyapason ad reliquas consonantias.
 \pend
 
-\subsubsection[Quadragesimum problema … ]{Quadragesimum problema}\label{part40}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Quadragesimum problema … ]{Quadragesimum problema}\label{part40}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID DELECTABILITER AUDIUNT CANTANTES QUOSCUNQUE VTIQUE PRESCIENTES ATTINGANT CANTUS QUAM SI NESCIUNT? \textsuperscript{2}VTRUM QUIA MAGIS MANIFESTUS EST ATTINGENS QUEMADMODUM INTENTIONEM QUANDO COGNOSCUNT QUOD CANITUR? COGNOSCENTIBUS AUTEM DELECTABILE CONSIDERARE. \textsuperscript{3}AUT COMPATIENS EST AUDITOR CANTANTI NOTUM? CONSONAT AUTEM IPSO, CANTAT AUTEM OMNIS CONSONANS, QUI NON PROPTER ALIQUAM NECESSITATEM FACIT HOC}{\lemma{PROPTER \dots\ HOC}\Cfootnote{\textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1740,7 +2133,17 @@ c. & 243. & solfa. & \\
 \textbf{2} \edtext{Et}{\Cfootnote{\textit{om}. \textit{λπ}}} \edtext{huius}{\Cfootnote{huiusmodi \textit{γ}}} \edtext{quidem}{\Cfootnote{autem \textit{G\textsuperscript{u}P\textsuperscript{q}} | \textit{om}. \textit{V\textsuperscript{a}V\textsuperscript{o}}}} expositio sufficiens iam \edtext{quinto}{\Cfootnote{\textit{om}. \textit{π}}} \edtext{apparuit}{\Cfootnote{apparebit \textit{E\textsuperscript{a}P\textsuperscript{x}}}} \edtext{problemate}{\Cfootnote{\textit{om}. \textit{π}}}. Repetitur \edtext{vero}{\Cfootnote{autem \textit{V\textsuperscript{o}}}} vt \edtext{memorie amplius commendetur}{\Cfootnote{amplius memorie comendetur \textit{λ} | memorie commendetur amplius \textit{π}}}.
 \pend
 
-\subsubsection[Quadragesimumprimum problema … ]{Quadragesimumprimum problema}\label{part41}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Quadragesimumprimum problema … ]{Quadragesimumprimum problema}\label{part41}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID BIS PARACUTA AUT BIS QUATUOR NON CONCORDANT, BIS DYAPASON AUTEM ITA? \textsuperscript{2}AUT QUIA QUOD QUIDEM DYAPENTE EST IN EMIOLIA PROPORTIONE, QUOD VERO PER QUATUOR IN EPITRITO? EXISTENTIBUS AUTEM EMIOLIBUS TRIBUS CONSEQUENTER NUMERIS, QUE EST EPITRICON, EXTREMA AD SE INUICEM NULLAM PROPORTIONEM HABEBUNT, NEQUE ENIM PARTICULARIA NEQUE MULTIPLICIA ERUNT. \textsuperscript{3}DYAPASON AUTEM, QUONIAM EST IN DUPLICI PROPORTIONE, BIS HOC FACTO, IN QUADRUPLICI PROPORTIONE SI FUERINT EXTREMA AD INUICEM. \textsuperscript{4}QUARE QUONIAM CONSONANTIA RATIONABILEM HABENTIUM SONUM AD SE INUICEM EST, RATIONEM AUTEM QUI QUIDEM HABENT BIS DYAPASON INTERDECISIONEM AD SE INUICEM SONI HABENT, QUI AUTEM BIS PER QUATUOR AUT BIS PER QUINQUE NON HABENT. QUI QUIDEM BIS DYAPASON CONSONABUNT, VTIQUE ALII VERO NON PER EA QUE DICTA SUNT}{\lemma{PROPTER \dots\ SUNT}\Cfootnote{\textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}} | PROPTER QUID BIS PARACUTA \textit{V\textsuperscript{m}V\textsuperscript{o}}}}.}
 \pend
@@ -1761,7 +2164,17 @@ c. & 243. & solfa. & \\
 \textbf{5} \edtext{\textit{QUARE}}{\Cfootnote{Deinde. QUARE \textit{V\textsuperscript{a}mv}}} \textit{QUONIAM.} Concludit intentum tertio, dicens et ideo \textit{quia consonantia est compositio quedam tonorum habentium \edtext{rationabilem}{\Cfootnote{rationalem \textit{V\textsuperscript{a}V\textsuperscript{o}}}} et \edtext{proportionatum}{\Cfootnote{proportionalem \textit{V\textsuperscript{o}}}} sonum \edtext{ad se inuicem}{\Cfootnote{ad inuicem \textit{E\textsuperscript{a}P\textsuperscript{y}}}}, et hoc habet bis dyapason, non autem bis dyatesseron aut dyapente et reliqua. Quod \edtext{declaratur}{\Cfootnote{declarat \textit{E\textsuperscript{a}P\textsuperscript{x}}}} quoniam proportio \edtext{quam quidem}{\Cfootnote[nosep]{\textit{emend.} | quam \textit{V\textsuperscript{o}} | quam siquidem \textit{ακ}}} habent soni ad inuicem est habere inter se \edtext{decisionem}{\Cfootnote{decisiones \textit{V\textsuperscript{o}}}} et confractionem ad inuicem quandam, per quam \edtext{resultant}{\Cfootnote{resultent \textit{γE\textsuperscript{a}}}} ipsi proportionales armonici, vt bis dyapason, quod non habet \edtext{consonantia}{\Cfootnote{consonantiam \textit{λE\textsuperscript{a}P\textsuperscript{y}}}} per quatuor aut .5. siue dyatesseron \edtext{vel}{\Cfootnote{et \textit{E\textsuperscript{a}V\textsuperscript{o}}}} dyapente. \edtext{Sed}{\Cfootnote{Cumque \textit{E\textsuperscript{a}V\textsuperscript{o}}}} vt dictum \edtext{est}{\Cfootnote{\textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}}}}, tantum soni qui fuerint secundum dyapason duplici consonabunt, alii vero minime, sicut ostensum \edtext{est}{\Cfootnote{\textit{om}. \textit{P\textsuperscript{y}V\textsuperscript{z}}}} \edtext{per}{\Cfootnote{propter \textit{P\textsuperscript{y}V\textsuperscript{b}}}} antedictam causam.}
 \pend
 
-\subsubsection[Quadragesimumsecundum problema … ]{Quadragesimumsecundum problema}\label{part42}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Quadragesimumsecundum problema … ]{Quadragesimumsecundum problema}\label{part42}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID SI QUIS ALTERA NITEM ACCIPIAT AUT YPATEM ACCIPIAT, YPATE SOLA VIDETUR SUBSONARE? \textsuperscript{2}AUT QUIA NEATE FINIENS ET DEPERDITA YPATE FIT? \textsuperscript{3}SIGNUM AUTEM POSSE AB YPATE NEATEN POSSE CANERE. SICUT ENIM EXISTENTE IPSA CAUSAM NEATE, SIMILITUDINEM ACCIPIUNT AB IPSA. QUONIAM AUTEM ET ECHO CANTUS QUIDAM EST, TACTUS EST VOCIS NEATIS FINIENTIS SONUS EXISTENS IDEM SONO YPATES MOUET CONUENIENTER, SIMILITUDINI YPATEM NITE VIDETUR MOUERE. NEATEN ENIM SCIMUS VBI MOUETUR ASSUMPTA. YPATEN AUTEM IPSAM VIDENTES INCOMPREHENSIBILEM EXISTENTEM ET SONUM IPSIUS AUDIENTES, HANC PUTAMUS SONARE. QUOD IN MULTIS NOBIS ACCIDIT, IN QUIBUS NEQUE RATIONE. NEQUE SENSU POSSUMUS CERTIFICARE CERTUM. \textsuperscript{4}AMPLIUS SI PERCUSSA NEATE MAXIME TENSA ACCIDIT IUGUM MOUERI NICHIL VTIQUE ERIT MIRABILE. MOTO AUTEM OMNES CORDAS PARITER MOUERI ET SONUM FACERE NON IRRATIONABILE. ALIIS QUIDEM IGITUR NEATIS SONUS ALIENUS EST ET FINIENS ET INCIPIENS, YPATE AUTEM FINIENS IDEM. NON APPOSITO PROPRIO SUO MOTU, ILLIUS VIDEBITUR OMNIA EORUNDEM ESSE NON EST INCONUENIENS. ERIT AUTEM MAIOR QUAM RELIQUARUM CORDARUM SONUS, QUOD HEE QUIDEM A NEATE SICUT IMPULSE MOLLITER SONUERUNT, NEATE AUTEM, TOTA SUI IPSIUS POTENTIA EXISTENS, IPSARUM FORTISSIMA EST. \textsuperscript{5}QUARE MERITO ET SECULARIUM IPSIUS MAIUS ERIT QUAM QUOD EST ALIARUM, QUARE BREUES MOUERI, SICUT IPSIS}{\lemma{PROPTER \dots\ IPSIS}\Cfootnote{\textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1798,7 +2211,17 @@ c. & 243. & solfa. & \\
 \textbf{9} Nosce quod potest causa \edtext{huius}{\Cfootnote{huiusmodi \textit{V\textsuperscript{b}mv}}} \edtext{breuitatis}{\Cfootnote{breuiter \textit{λE\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{o}}}} \edtext{assignari}{\Cfootnote{talis assignari \textit{E\textsuperscript{a}V\textsuperscript{b}V\textsuperscript{o}}}}, \edtext{quia}{\Cfootnote{quod \textit{π}}} ypate sonum reddit grauem, qui extenditur secundum longum latum et profundum, reliqua vero ad ipsam acutum, qui secundum longum, \edtext{vt}{\Cfootnote{ceu \textit{γM\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{z}} | seu \textit{E\textsuperscript{a}V\textsuperscript{m}} | sicut \textit{V\textsuperscript{o}}}} visum \edtext{est}{\Cfootnote{\textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}}}} \edtext{xi\textsuperscript{a}}{\Cfootnote{prius \textit{π}}}. Tardius \edtext{autem}{\Cfootnote{aut \textit{γ}}} quietatur sonus aeris secundum plures moti dimensiones quam secundum \edtext{unam}{\Cfootnote{unum \textit{π}}} cum dictum etiam sit graue tarde et multum moueri acutum econtra, vt \edtext{visum est sepius antea}{\Cfootnote{visum sepius antea \textit{V\textsuperscript{o}}}}.
 \pend
 
-\subsubsection[Quadragesimumtertium problema … ]{Quadragesimumtertium problema}\label{part43}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Quadragesimumtertium problema … ]{Quadragesimumtertium problema}\label{part43}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID DELECTABILE VNIUS CANTUS EST SI AD LYRAM ET FISTULAM CANTANT? \textsuperscript{2}AUT QUIA OMNE DELECTABILE MIXTUM DELECTABILI VNUM EST? \textsuperscript{3}FISTULA ENIM DELECTABILIUS EST LYRA, QUARE ET CANTUS HOC MIXTO LYRA DELECTABILIUS VTIQUE ERIT, QUONIAM MIXTUM IMMIXTO DELECTABILIUS EST, SI VTRORUNQUE SENSUM ALIQUIS SIMUL ACCIPIAT. \textsuperscript{4}UINUM ENIM DELECTABILIUS EST OXIMELLE. PROPTER ID QUOD MIXTA SUNT MAGIS IPSIS QUE A NATURA MIXTA QUAM QUE A NOBIS, EST ENIM ET VINUM QUOD EST MIXTUM EX ACUTO ET DULCI HUMORE. MANIFESTANT AUTEM ET GRANATA VOCATA MUZA. \textsuperscript{5}CANTUS QUIDEM IGITUR ET FISTULA MISCENTUR SIBI IPSIS PROPTER SIMILITUDINEM, SPIRITU ENIM VTRAQUE FIUNT. SONUS AUTEM LYRE, QUONIAM AUTEM NON SPIRITU FIT. \textsuperscript{6}AUT MINUS SENSIBILE QUAM QUI EST FISTULE INCOMMIXTIBILIS EST VOCE? FACIENS AUTEM DIFFERENTIAM SENSUI MINUS DELECTAT, QUEMADMODUM IN SAPORIBUS DICTUM EST. \textsuperscript{7}AMPLIUS FISTULA QUIDEM MULTA SUO SONO ET SIMILITUDINE OCCULTAT PECCATORUM QUE SUNT CANTUS. LYRE AUTEM SONI, EXISTENTES TENUES ET INCOMMIXTIBILES VOCI SECUNDUM SE CONSIDERATI ET EXISTENTES SIBI IPSIS MANIFESTUM FACIUNT CANTUS PECCATUM, QUEMADMODUM REGULE EXISTENTES IPSORUM. INIUSTIS AUTEM IN CANTU CULPATIS, COMMUNE EX VTRISQUE NECESSARIE PEIUS FIERI}{\lemma{PROPTER \dots\ FIERI}\Cfootnote{PROPTER QUID DELECTABILE \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1835,7 +2258,17 @@ c. & 243. & solfa. & \\
 \textbf{9} \edtext{\textit{AMPLIUS.}}{\Cfootnote{Deinde. AMPLIUS. \textit{V\textsuperscript{a}mv}}} Assignat causam \edtext{secundam}{\Cfootnote{duplam \textit{γP\textsuperscript{x}}}}, dicens quod \textit{fistula propter suum sonum et eius similitudinem,} quia sua fortitudine soni \edtext{extollit}{\Cfootnote{excellit \textit{G\textsuperscript{u}P\textsuperscript{p}V\textsuperscript{b}}}} vocem cantantis, \textit{obtegit multa peccata in cantu contingentia. Sed soni lyre, \edtext{quia}{\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}} subtiles sunt et parui et incommiscibiles voci, cum \edtext{secundum}{\Cfootnote{per \textit{απ}}} se \edtext{considerantur}{\Cfootnote{considerentur \textit{π}}}, \edtext{prout}{\Cfootnote{cum \textit{G\textsuperscript{u}P\textsuperscript{p}}}} in seipsis extant et non in aliis, \edtext{quibus}{\Cfootnote{qui hiis \textit{πE\textsuperscript{a}}}} \edtext{occultentur}{\Cfootnote{occultantur \textit{γπM\textsuperscript{a}}}}, \edtext{manifestum est quod}{\Cfootnote{manifestum quod \textit{E\textsuperscript{a}V\textsuperscript{o}} | Minor quia \textit{γ}}} circa ipsos peccatum accidit in cantu, \edtext{nam}{\Cfootnote{non \textit{πE\textsuperscript{a}M\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{m}}}} in ipso, sicut in aliis scientiis sunt canones quidam per quos armonice canitur, a quibus cum receditur contingit in cantu peccare. Quare subditur quod \edtext{accidit}{\Cfootnote{acutum \textit{π}}} \edtext{iniustis}{\Cfootnote{in instrumentis \textit{P\textsuperscript{y}} | in tristis \textit{V\textsuperscript{o}} | in istis \textit{P\textsuperscript{z}V\textsuperscript{a}}}} non recte predictos canones \edtext{obseruantes}{\Cfootnote{obseruantibus \textit{απ}}} alia littera multis ac melior, vt peccent et culpentur in cantu. Quod enim commune \edtext{existit}{\Cfootnote{ex istis \textit{πE\textsuperscript{a}}}}, vt ex vtrisque \edtext{confectum}{\Cfootnote{cum factum \textit{M\textsuperscript{a}V\textsuperscript{b}}}}, puta voce et instrumento sicut lyra, \edtext{necessarie}{\Cfootnote{necesse est \textit{M\textsuperscript{a}V\textsuperscript{z}}}} deterius perfici} eorum \edtext{consonantia}{\Cfootnote{dissonantia \textit{λE\textsuperscript{a}} | distantia \textit{γ}}}, \edtext{contra}{\Cfootnote{circa \textit{M\textsuperscript{a}P\textsuperscript{y}}}} regulas armonicas factum.
 \pend
 
-\subsubsection[Quadragesimumquartum problema … ]{Quadragesimumquartum problema}\label{part44}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Quadragesimumquartum problema … ]{Quadragesimumquartum problema}\label{part44}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID .VII. QUIDEM MEDIA VOCATUR, OCTO AUTEM NON EST MEDIUM? \textsuperscript{2}AUT QUIA .VII. CORDARUM FUERUNT ANTIQUITUS CONSONANTIE, .VII. AUTEM HABET MEDIUM? \textsuperscript{3}AMPLIUS EORUM QUE SUNT IN MEDIO EXTREMITATUM, MEDIUM SOLUM PRINCIPIUM QUODDAM EST, EST ENIM ALTERAM EXTREMITATUM DECLINANTIUM IN ALIQUA DISTANTIA PER MEDIUM QUOD PRINCIPIUM EST: HOC EST MEDIUM. QUONIAM AUTEM VLTIMA MEDIUM EST CONSONANTIE NEATE ET YPATE, HORUM AUTEM IN MEDIO RELIQUI SONI, QUORUM MEDIA VOCATA SOLA PRINCIPIUM EST ALTERIUS TETRACORDI, IUSTE MEDIA APPELLATUR. \textsuperscript{4}EORUM AUTEM QUE SUNT IN MEDIO QUARUNDAM EXTREMITATUM MEDIUM ERAT PRINCIPIUM SOLUM}{\lemma{PROPTER \dots\ SOLUM}\Cfootnote{PROPTER QUID SEPTEM \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1849,7 +2282,7 @@ c. & 243. & solfa. & \\
 \pend
 
 \pstart
-\textbf{4} \edtext{Secunda}{\Cfootnote{Secunda ibi \textit{γV\textsuperscript{z}} | Ibi \textit{G\textsuperscript{u}P\textsuperscript{p}P\textsuperscript{u}}}} \textit{AMPLIUS.} \edtext{Dicit}{\Cfootnote{Dicens \textit{π}}} \edtext{igitur}{\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}} quod \textit{vno modo dicitur medium quoddam principium \edtext{existens medium}{\Cfootnote{\textit{om}. \textit{π}}} inter duo extrema, nam illud principium \edtext{quod}{\Cfootnote{\textit{om}. \textit{V\textsuperscript{o}}}} per quandam distantiam equaliter declinat ab vtroque extremorum dicitur} \edtext{\textit{medium,}{\Cfootnote{medium, inter duo extrema \textit{π}}}} sicut in \edtext{aliqua}{\Cfootnote{alia \textit{πE\textsuperscript{a}M\textsuperscript{a}}}} \edtext{consonantia}{\Cfootnote{distantiam \textit{π}}} est dare duo \edtext{ultima}{\Cfootnote{extrema \textit{π}}} vt vnus \edtext{sit sonus}{\Cfootnote{sonus sit \textit{π}}} cantus ab ypate fortis existens, \edtext{secundus}{\Cfootnote{alius \textit{π}}} a neate siue nete, inter quos est dare plures sonos medios distantes ab extremis secundum \edtext{maius}{\Cfootnote{magis \textit{απM\textsuperscript{a}}}} et minus, \edtext{ceu}{\Cfootnote{seu \textit{E\textsuperscript{a}V\textsuperscript{o}}}} inter vnum et 7. que intermedia vt 5. reliqua dicantur media.
+\textbf{4} \edtext{Secunda}{\Cfootnote{Secunda ibi \textit{γV\textsuperscript{z}} | Ibi \textit{G\textsuperscript{u}P\textsuperscript{p}P\textsuperscript{u}}}} \textit{AMPLIUS.} \edtext{Dicit}{\Cfootnote{Dicens \textit{π}}} \edtext{igitur}{\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}} quod \textit{vno modo dicitur medium quoddam principium \edtext{existens medium}{\Cfootnote{\textit{om}. \textit{π}}} inter duo extrema, nam illud principium \edtext{quod}{\Cfootnote{\textit{om}. \textit{V\textsuperscript{o}}}} per quandam distantiam equaliter declinat ab vtroque extremorum dicitur} \edtext{\textit{medium,}}{\Cfootnote{medium, inter duo extrema \textit{π}}} sicut in \edtext{aliqua}{\Cfootnote{alia \textit{πE\textsuperscript{a}M\textsuperscript{a}}}} \edtext{consonantia}{\Cfootnote{distantiam \textit{π}}} est dare duo \edtext{ultima}{\Cfootnote{extrema \textit{π}}} vt vnus \edtext{sit sonus}{\Cfootnote{sonus sit \textit{π}}} cantus ab ypate fortis existens, \edtext{secundus}{\Cfootnote{alius \textit{π}}} a neate siue nete, inter quos est dare plures sonos medios distantes ab extremis secundum \edtext{maius}{\Cfootnote{magis \textit{απM\textsuperscript{a}}}} et minus, \edtext{ceu}{\Cfootnote{seu \textit{E\textsuperscript{a}V\textsuperscript{o}}}} inter vnum et 7. que intermedia vt 5. reliqua dicantur media.
 \pend
 
 \pstart
@@ -1865,6 +2298,7 @@ c. & 243. & solfa. & \\
 & \textrm{Mese}. &
 \edatright[\textrm{primum tetracordum}.]{\}}{2\baselineskip}
 \end{edarrayc}
+
 \begin{edarrayc}
 & \textrm{Paramese}. & \\
 & \textrm{Paranete}. & \\
@@ -1886,7 +2320,17 @@ Et \edtext{huius}{\Cfootnote{huiusmodi \textit{γP\textsuperscript{y}}}} duo \ed
 \textbf{7} Apparet denique quod secundum primum medium potest dici dyaocto. Vnde primo \textit{musice}: ``in octocordo \edtext{due semper}{\Cfootnote{duo semper \textit{πE\textsuperscript{a}}}} \edtext{medie}{\Cfootnote{\textit{om}. \textit{π}}} reperiuntur, et \edtext{non}{\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}} vna media potest inueniri.''\edtext{\textzwnj}{\lemma{\textzwnj}\Afootnote[nosep]{Boeth. \textit{De inst. mus.} Ι.20 ((Friedlein p. 208, ll. 8–10))}}
 \pend
 
-\subsubsection[Quadragesimumquintum problema … ]{Quadragesimumquintum problema}\label{part45}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Quadragesimumquintum problema … ]{Quadragesimumquintum problema}\label{part45}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID MULTI CANTANTES SALUANT MAGIS RITHIMUM QUAM PAUCI? \textsuperscript{2}AUT QUIA MAGIS AD VNUM, AUT ET RECTOREM, INTENDUNT ET TARDIUS INCIPIUNT, QUARE FACILIUS IPSUM ADIPISCUNTUR? IN VELOCI QUIDEM IGITUR MAGIS FIT PECCATUM. \textsuperscript{3}ACCIDIT AUTEM DUCI INTENDERE MULTOS. APPROPRIATUS AUTEM NULLUS VTIQUE IPSORUM ILLUSTRABITUR, ELEUANS MULTITUDINEM. IN PAUCIS AUTEM MAGIS ILLUSTRANTUR, PROPTER QUΟD SECUNDUM SE IN SE IPSIS MAGIS EXERCITANTUR QUAM APUD DUCEM}{\lemma{PROPTER \dots\ DUCEM}\Cfootnote{PROPTER QUID MULTIPLICANTES \textit{π} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1899,7 +2343,17 @@ Et \edtext{huius}{\Cfootnote{huiusmodi \textit{γP\textsuperscript{y}}}} duo \ed
 \textbf{3} \edtext{\textit{AUT.}}{\Cfootnote{Deinde. AUT QUIA. \textit{V\textsuperscript{a}mv}}} Soluit et primo assignat causam \edtext{et iam visum est}{\Cfootnote{\textit{om}. \textit{πE\textsuperscript{a}}}}. Secundo declarat assignando differentiam inter habentes ducem in cantu et non habentes. Cuius causa reiterauit sermonem: \edtext{secunda}{\Cfootnote{secunda ibi \textit{γV\textsuperscript{z}} | ibi \textit{G\textsuperscript{u}P\textsuperscript{p}}}} \textit{ACCIDIT}. \edtext{Dicit}{\Cfootnote{Dicens \textit{P\textsuperscript{y}V\textsuperscript{a}}}} \edtext{secundo contingere quod}{\Cfootnote{hoc contingere quia \textit{π}}} \textit{multi ad ducem \edtext{attendant}{\Cfootnote{attendunt \textit{π}}}} vt eorum cantus \edtext{saluetur}{\Cfootnote{saluentur \textit{V\textsuperscript{o}}}} per amplius, quoniam cum fuerint multi, \textit{nullus ipsorum determinatur, vt eleuando vocem suam propter multitudinem, non paruam \edtext{poterit}{\Cfootnote{\textit{om}. \textit{π}}} illustrari et super aliorum voces \edtext{suam}{\Cfootnote{suas \textit{γ}}} extollere, cum plurimi magis valeant quam vnus appropriatus. Sed in paucis cantantibus id \edtext{poterit}{\Cfootnote{potest \textit{P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}} sufficienter contingere, quare pauci cantantes plus secundum semet ipsos exercitantur et singulariter \edtext{apparent}{\Cfootnote{apparet \textit{G\textsuperscript{u}P\textsuperscript{y}P\textsuperscript{z}V\textsuperscript{a}}}} in cantu suo \edtext{illustrari}{\Cfootnote{illustrati \textit{απ}}} quam \edtext{qui}{\Cfootnote{\textit{om}. \textit{π}}} apud ducem plures cantantes existunt, \edtext{non}{\Cfootnote{\textit{om}. \textit{π}}} enim \edtext{singulatim}{\Cfootnote{sigillatim \textit{απV\textsuperscript{z}}}} sed ad ducem exercitantur.}
 \pend
 
-\subsubsection[Quadragesimumsextum problema … ]{Quadragesimumsextum problema}\label{part46}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Quadragesimumsextum problema … ]{Quadragesimumsextum problema}\label{part46}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID IN ACUTUM DISSONANT PLURIMI? \textsuperscript{2}AUT QUIA FACILIUS ACUTUM DIMITTERE QUAM GRAUE? \textsuperscript{3}CANTANT IGITUR ACUTE MAGIS, ET IN QUO CANTANT PECCANT}{\lemma{PROPTER \dots\ PECCANT}\Cfootnote{\textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{x}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1908,7 +2362,17 @@ Et \edtext{huius}{\Cfootnote{huiusmodi \textit{γP\textsuperscript{y}}}} duo \ed
 \textbf{2} \edtext{Huius}{\Cfootnote{Huius problematis \textit{λ}}} precessit expositio .26\textsuperscript{to}. Et veritas \edtext{illic iam}{\Cfootnote{illic \textit{λ} | hic iam \textit{πE\textsuperscript{a}}}} \edtext{apparuit}{\Cfootnote{apparet \textit{π}}} cuiusdam apparentis contrarietatis inter \edtext{.37.}{\Cfootnote[nosep]{\textit{emend}. .27. \textit{ακπ}}}, et istud cum dictum sit \edtext{ibidem}{\Cfootnote{ibi \textit{π}}} difficilius esse \edtext{acute cantare}{\Cfootnote{cantare acute \textit{π}}} quam grauiter. Hic autem videtur contrarium dici.
 \pend
 
-\subsubsection[Quadragesimumseptimum problema … ]{Quadragesimumseptimum problema}\label{part47}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Quadragesimumseptimum problema … ]{Quadragesimumseptimum problema}\label{part47}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID ANTIQUI, .VII. CORDARUM FACIENTES CONSONANTIAS, RELIQUERUNT YPATEM, SED NON NITEM RELINQUERUNT? \textsuperscript{2}AUT NON YPATEM, SED NUNC PARAMESEN APPELLATAM, ABSTULERUNT ET TONILEM DISTANTIAM. VTEBANTUR AUTEM VLTIMA MEDIA DENSI IN ACUTUM, PROPTER QUOD ET MEDIAM IPSAM APPELLAUERUNT. \textsuperscript{3}AUT QUIA ERAT SUPERIORIS TETRACORDI FINIS, INFERIORIS AUTEM PRINCIPIUM, ET MEDIAM HABEBAT PROPORTIONEM TONO EXTREMITATUM}{\lemma{PROPTER \dots\ EXTREMITATUM}\Cfootnote{PROPTER QUID ANTIQUI \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}?}
 \pend
@@ -1929,7 +2393,17 @@ Et \edtext{huius}{\Cfootnote{huiusmodi \textit{γP\textsuperscript{y}}}} duo \ed
 \textbf{5} Dicendum quod antiquitus \edtext{fuit primitus}{\Cfootnote{fuit inuentus \textit{γ} | fuit prius \textit{π}}} paramese quam nete inuenta, \edtext{ceu}{\Cfootnote{seu \textit{E\textsuperscript{a}V\textsuperscript{a}V\textsuperscript{m}V\textsuperscript{o}} | sicut \textit{G\textsuperscript{u}P\textsuperscript{p}}}} pretactum \edtext{est}{\Cfootnote{est in \textit{V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}}}} 13°. Deinde \edtext{superueniens}{\Cfootnote{perueniens \textit{V\textsuperscript{o}} | veniens \textit{G\textsuperscript{u}P\textsuperscript{p}}}} tripandius, extrahens tertiam cordam vt \edtext{paramese}{\Cfootnote{paramesem \textit{E\textsuperscript{a}V\textsuperscript{o}V\textsuperscript{z}}}} a cordarum ordine, netem loco illius adiunxit ita vt primitus non fuerit nete, postea vero adinuenta extiterit. Et sic \edtext{vtrunque}{\Cfootnote{vtraque \textit{λ}}} verificabitur \edtext{particula}{\Cfootnote{problema \textit{γπP\textsuperscript{y}}}}.
 \pend
 
-\subsubsection[Quadragesimumoctauum problema … ]{Quadragesimumoctauum problema}\label{part48}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Quadragesimumoctauum problema … ]{Quadragesimumoctauum problema}\label{part48}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID IN TRAGEDIA CHORI NON YPODORISTIUM NEQUE YPOFRIDISTIE CANTANT? \textsuperscript{2}AUT QUIA CANTUM MINIME HABENT HEE CONSONANTIE, QUO INDIGENT MAGIS CHORO? \textsuperscript{3}CONSUETUDINEM AUTEM CONSONANTIAM QUE QUIDEM EST YPOFRIDISTIUM OPERATIUUM, PROPTER QUOD ET IN GERIONEM EXITUS ET DEARMATIO IN HAC FACIEBANT. \textsuperscript{4}YPODORISTIUM AUTEM MAGNIFICUM ET STABILE, PROPTER QUOD ET CITHARISTISSIMA EST CONSONANTIARUM. \textsuperscript{5}HEC AUTEM VTRAQUE CHORO QUIDEM IN CONSONANTIA, EIS AUTEM QUE SUNT A SCENA MAGIS PROPRIA. ILLI ENIM HEROUM MUTATIUI, HII AUTEM DUCES ANTIQUORUM SOLI FUERUNT. \textsuperscript{6}PROPRII AUTEM HOMINES QUORUM EST CHORUS. PROPTER QUOD ET CONUENIT IPSI LAMENTABILIS ET QUIETUS MOS ET MELOS, HUMANA ENIM. \textsuperscript{7}HEC AUTEM HABENT ALIE CONSONANTIE, MINUS AUTEM ILLIS QUE EST YPOFRIGISTIUM, DIUINA VEL FURIOSA AUTEM ET BACHICHA. SECUNDUM HANC QUIDEM PATIMUR ALIQUID, PASSIUI AUTEM IMBECILLES MAGIS FORTIBUS SUNT, PROPTER QUOD ET IPSA CONUENIT CHORIS. SECUNDUM AUTEM EAM QUE EST YPODORISTIUM ET YPOFRIDISTIUM OPERAMUR QUOD NON EST PROPRIUM CHORO. \textsuperscript{8}EST AUTEM CHORUS CURATOR INOPERABILIS, BENIUOLENTIAM ENIM SOLUM PREBET QUIBUS ADEST}{\lemma{PROPTER \dots\ ADEST}\Cfootnote{\textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1966,7 +2440,17 @@ Et \edtext{huius}{\Cfootnote{huiusmodi \textit{γP\textsuperscript{y}}}} duo \ed
 \textbf{9} \edtext{\textit{EST}}{\Cfootnote{Deinde. EST \textit{V\textsuperscript{a}mv}}} \textit{AUTEM.} Vltimo \edtext{manifestat}{\Cfootnote{monstrat \textit{G\textsuperscript{u}P\textsuperscript{p}}}} quid \edtext{sit}{\Cfootnote{\textit{om}. \textit{P\textsuperscript{y}V\textsuperscript{o}}}} \edtext{chorus}{\Cfootnote{choris \textit{V\textsuperscript{o}}}}, dicens quod \textit{chorus est velut quidam \edtext{curator}{\Cfootnote{curat \textit{π}}},} studet enim remouere curas et sollicitudines ab audientibus. \textit{Est \edtext{et}{\Cfootnote{etiam \textit{π}}} inoperabilis,} non enim \edtext{incitat}{\Cfootnote{excitat \textit{π}}} ad actus vt \edtext{ypofrigium}{\Cfootnote{ypofrigius \textit{πM\textsuperscript{a}V\textsuperscript{m}} | ypofrigia \textit{E\textsuperscript{a}V\textsuperscript{z}}}}, \textit{\edtext{sed}{\Cfootnote{licet \textit{P\textsuperscript{x}V\textsuperscript{m}V\textsuperscript{z}}}} solum beniuolentiam et complacentiam inducit quibus auditu \edtext{incurrit}{\Cfootnote{occurrit \textit{γE\textsuperscript{a}}}}.} Nihil enim post factum \edtext{relinquit}{\Cfootnote{reliquid \textit{E\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{m}V\textsuperscript{o}V\textsuperscript{z}}}} cum solum animos demulcere laboret.
 \pend
 
-\subsubsection[Quadragesimumnonum problema … ]{Quadragesimumnonum problema}\label{part49}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Quadragesimumnonum problema … ]{Quadragesimumnonum problema}\label{part49}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID, SONORUM FACIENTIUM CONSONANTIAM, IN GRAUIORI EST MOLLIOR? \textsuperscript{2}AUT QUIA IN MELODIA SUA VOCE MOLLIS EST ET QUIETA, EA AUTEM QUE EST RITHIMI MISTIONE ASPERA ET MOTIUA? \textsuperscript{3}QUONIAM AUTEM GRAUIS QUIDEM SONUS MOLLIS ET QUIETUS EST, ACUTUS AUTEM MOTIUUS, ET HABENTIBUS IDEM MELOS, ERIT VTIQUE MOLLIOR GRAUIOR IN EODEM MELOS MAGIS. ERAT AUTEM MELOS IPSI MOLLE}{\lemma{PROPTER \dots\ MOLLE}\Cfootnote{PROPTER QUID SONORUM \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -1987,7 +2471,17 @@ Et \edtext{huius}{\Cfootnote{huiusmodi \textit{γP\textsuperscript{y}}}} duo \ed
 \textbf{5} \edtext{Nota}{\Cfootnote{Notandum \textit{γ}}} quod \edtext{cetera}{\Cfootnote{certa \textit{V\textsuperscript{b}V\textsuperscript{o}}}} consonantia debet constare ex acuto et graui. Mollior tamen est et \edtext{suauior}{\Cfootnote{amor \textit{E\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{m}} | a motu \textit{γ} | amenior \textit{π}}} cum in graue tendit quam quando in acutum.
 \pend
 
-\subsubsection[Quinquagesimum problema … ]{Quinquagesimum problema}\label{part50}
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167}}
+\end{center}
+\pend
+\vfill
+
+\newpage
+
+\subsection[Particula XIX: De harmonia]{Quinquagesimum problema}\label{part50}
 \pstart
 \textbf{1} \textit{\edtext{\textsuperscript{1}PROPTER QUID EQUALIUM DOLIORUM ET SIMILIUM SIQUIDEM ALTERUM VACUUM FUERIT, ALTERUM VERO AD MEDIUM PLENUM, DYAPASON CONSONAT ECHO? \textsuperscript{2}AUT QUIA DUPLEX FIT ET QUE EST EX MEDIO EIUS QUE EST EX VACUO? \textsuperscript{3}QUID ENIM DIFFERT HOC QUAM IN FISTULIS? VIDETUR ENIM VELOCIOR MOTUS ACUTIOR ESSE, IN MAIORIBUS AUTEM TARDIUS AER OBUIAT. ET IN DUPLICIBUS TANTUM, ET IN ALIIS PROPORTIONALE. CONSONAT AUTEM DYAPASON ET DUPLEX ITER AD MEDIUM}{\lemma{PROPTER \dots\ MEDIUM}\Cfootnote{PROPTER QUID EQUALIUM \textit{V\textsuperscript{m}V\textsuperscript{o}} | \textit{om}. \textit{E\textsuperscript{a}P\textsuperscript{y}V\textsuperscript{b}V\textsuperscript{z}}}}.}
 \pend
@@ -2008,6 +2502,12 @@ Et \edtext{huius}{\Cfootnote{huiusmodi \textit{γP\textsuperscript{y}}}} duo \ed
 \textbf{5} \edtext{Ex}{\Cfootnote{Et \textit{V\textsuperscript{o}}}} hiis \edtext{vtique}{\Cfootnote{itaque \textit{π}}} quam breuius \edtext{prodierunt}{\Cfootnote{prodierint \textit{V\textsuperscript{o}V\textsuperscript{z}}}} in lucem \edtext{vtcunque}{\Cfootnote{vtrunque \textit{P\textsuperscript{y}V\textsuperscript{m}V\textsuperscript{o}}}} circa liberales artes, et \edtext{maxime circa}{\Cfootnote{maxime \textit{αV\textsuperscript{m}V\textsuperscript{z}}}} mathematica \edtext{problemata}{\Cfootnote{probabilis \textit{γ}}}, grandi textuali caligine cum eius corruptione inuoluta quandoque. In \edtext{quibus}{\Cfootnote{quibusdam \textit{π}}} etiam quia plurimis extranea non grandis \edtext{vtilitas}{\Cfootnote{subtilitas \textit{V\textsuperscript{a}mv}}} que \edtext{hodie}{\Cfootnote{a plurimis \textit{π}}} appetitur summe reperitur, quare ipsa celerius \edtext{percurri}{\Cfootnote{precucurri \textit{E\textsuperscript{a}P\textsuperscript{y}} | procurari \textit{γ}}}. \edtext{Nunc}{\Cfootnote{Non \textit{E\textsuperscript{a}P\textsuperscript{x}V\textsuperscript{m}V\textsuperscript{z}}}} autem deinceps circa reliquas partes physice, naturalemque maxime, problemata tam circa composita \edtext{quam}{\Cfootnote{quam circa \textit{P\textsuperscript{y}V\textsuperscript{m}}}} simplicia existentia tractabuntur.
 \pend
 
+\pstart
+\vspace{1em}
+\begin{center}
+    {\Large \ding{167} \ding{167} \ding{167}}
+\end{center}
+\pend
 
 \endnumbering
 \newpage % 1. Force new page
